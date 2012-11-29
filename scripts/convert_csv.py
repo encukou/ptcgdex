@@ -1,9 +1,21 @@
 
+"""Usage:
+  convert_csv.py [options] [DESTDIR]
+
+Options:
+  -h, --help     Display help
+
+"""
+
 import io
 import sys
 import csv
-import yaml
 import textwrap
+from contextlib import contextmanager
+from collections import OrderedDict
+
+import yaml
+from docopt import docopt
 
 type_initials = dict(
     Psychic = 'P',
@@ -16,27 +28,6 @@ type_initials = dict(
     Metal = 'M',
     Darkness = 'D',
 )
-
-stage_initials = {
-    'Baby': 'A',
-    'Basic': 'B',
-    'Stage 1': 'S1',
-    'Stage 2': 'S2',
-    'Level-Up': 'L',
-}
-
-rarities = {
-    'triple-rare-holo': '3H',
-    'P': 'P',
-    'rare-holo': 'RH',
-    'rare': 'R',
-    'uncommon': 'U',
-    'uncommon-holo': 'UH',
-    'common': 'C',
-    'common-holo': 'CH',
-    'none': '-',
-    '': '?',
-}
 
 def munge_errors(data):
     set_name = data['set'], data['card-name']
@@ -66,15 +57,48 @@ def munge_errors(data):
             ]:
         sp = data.pop('species')
         assert sp == "Team Galactic's"
+        data['species'] = ''
 
-def dump_wrapped(print, text):
-    lines = textwrap.wrap(text, 60,
-        initial_indent='    ',
-        subsequent_indent='    ')
-    for line in lines:
-        print(line)
+@contextmanager
+def nonempty_setter(target_dict, name, default=None):
+    if default is None:
+        value = []
+    else:
+        value = default
+    yield value
+    if value:
+        target_dict[name] = value
 
-def main(infile):
+def append_nonempty(lst, value):
+    if value:
+        lst.append(value)
+
+class Dumper(yaml.SafeDumper):
+    pass
+
+class Text(str):
+    def __new__(cls, value=''):
+        return str.__new__(cls, value.replace('’', "'"))
+
+def long_text_representer(dumper, data):
+    return dumper.represent_scalar('tag:yaml.org,2002:str', data, style='>')
+
+def odict_representer(dumper, data):
+    return dumper.represent_mapping('tag:yaml.org,2002:map', data.items())
+
+Dumper.add_representer(Text, long_text_representer)
+Dumper.add_representer(OrderedDict, odict_representer)
+
+def dump(stuff):
+    return yaml.dump(stuff,
+                     default_flow_style=False,
+                     Dumper=Dumper,
+                     allow_unicode=True,
+                     explicit_start=True,
+                     width=60,
+                    )
+
+def main(infile, destdir=None):
     sets = []
     cards = {}
     for data in csv.DictReader(infile):
@@ -85,103 +109,93 @@ def main(infile):
             item = data.pop(name)
             return item.strip()
 
-        def simple_out(template, name):
+        def simple_out(outname, name, convertor=None):
             arg = pop(name)
             if arg:
-                print(template.format(arg))
+                if convertor:
+                    arg = convertor(arg)
+                result[outname] = arg
 
-        card_name = pop('card-name')
-        try:
-            pop('1')
-            tcg_set = pop('set')
-            if not tcg_set:
-                print('ERROR: NO SET FOR CARD')
-                print()
-                continue
-            sets.append(tcg_set)
-            print('#SET {}'.format(tcg_set))
+        result = OrderedDict()
 
-            header = ['{}.'.format(pop('num'))]
+        pop('1')
+        simple_out('set', 'set')
+        simple_out('number', 'num')
+        simple_out('name', 'card-name')
 
-            header.append((pop('class') + pop('class2')) or '?')
+        simple_out('rarity', 'rarity')
 
-            header.append(rarities[pop('rarity')])
+        simple_out('class', 'class')
+        simple_out('class', 'class2')
 
-            header.append(card_name)
+        with nonempty_setter(result, 'types') as types:
+            append_nonempty(types, pop('type1'))
+            append_nonempty(types, pop('type2'))
 
-            hp = pop('hp')
-            if hp:
-                header.append('~{}'.format(int(hp)))
-        except:
-            print(card_name)
-            raise
+        simple_out('hp', 'hp', convertor=int)
 
-        print(' '.join(header))
+        simple_out('trainer class', 'trainer-class')
 
-        simple_out('TYPE {}', 'type1')
-        simple_out('TYPE {}', 'type2')
+        simple_out('trainer subclass', 'trainer-sub-class')
 
+        simple_out('energy class', 'energy-class')
 
-        simple_out('TCLS {}', 'trainer-class')
-        simple_out('ECLS {}', 'energy-class')
+        simple_out('stage', 'stage')
 
-        stage = pop('stage')
-        if stage:
-            print('STGE {}'.format(stage_initials[stage]))
+        simple_out('evolves from', 'evolves-from')
+        simple_out('evolves into', 'evolves-into')
 
-        simple_out('< {}', 'evolves-from')
-        simple_out('> {}', 'evolves-into')
+        simple_out('evo line', 'evo-line')
+        simple_out('legality', 'legal')
+        simple_out('filename', 'filename')
+        simple_out('orphan', 'orphan')
+        simple_out('has-variant', 'has-variant')
+        simple_out('in-set-variant-of', 'in-set-variant-of')
 
-        simple_out('#### evoline {}', 'evo-line')
-        simple_out('#### legal {}', 'legal')
-        simple_out('#### filename {}', 'filename')
-        simple_out('#### orphan {}', 'orphan')
-        simple_out('#### variant {}', 'has-variant')
-        simple_out('#### in-set-variant-of {}', 'in-set-variant-of')
+        simple_out('dated', 'dated')
+        simple_out('reprint of', 'reprint-of')
+        simple_out('pokemon', 'pokemon')
 
-        simple_out('DATD {}', 'dated')
-        simple_out('REPR {}', 'reprint-of')
+        with nonempty_setter(result, 'classes') as classes:
+            for classno in range(1, 4):
+                cls = pop('sub-class-{}'.format(classno))
+                if cls:
+                    classes.append(cls)
 
-        simple_out('TSUB {}', 'trainer-sub-class')
+        with nonempty_setter(result, 'mechanics') as mechanics:
+            for label, mechanic_name, name_name in (
+                    ('Note', 'poke-note', None),
+                    ('Rule', 'trainer-rule', None),
+                    ('Effect', 'trainer-txt', None),
+                    ('Effect', 'energy-txt', None),
+                    ('Pokémon Power', 'pkmn-power-txt', 'pkmn-power-1'),
+                    ('PokéPower', 'power-1-txt', 'power-1'),
+                    ('PokéPower', 'power-2-txt', 'power-2'),
+                    ('PokéBody', 'body-1-txt', 'body-1'),
+                    ('Item', 'poke-item-txt', 'poke-item'),
+                    ):
+                text = pop(mechanic_name)
+                if text:
+                    mechanic = OrderedDict()
+                    if name_name:
+                        mechanic['name'] = pop(name_name)
+                    mechanic['type'] = label,
+                    mechanic['text'] = Text(text),
+                    mechanics.append(mechanic)
 
-        for classno in range(1, 4):
-            simple_out('SCLS {}', 'sub-class-{}'.format(classno))
-
-        pokemon = pop('pokemon')
-        if pokemon:
-            print('POKE', pokemon)
-
-        for label, mechanic_name, name_name in (
-                ('RULE Note', 'poke-note', None),
-                ('RULE Rule', 'trainer-rule', None),
-                ('RULE Effect', 'trainer-txt', None),
-                ('RULE Effect', 'energy-txt', None),
-                ('RULE Pokémon Power', 'pkmn-power-txt', 'pkmn-power-1'),
-                ('RULE PokéPower', 'power-1-txt', 'power-1'),
-                ('RULE PokéPower', 'power-2-txt', 'power-2'),
-                ('RULE PokéBody', 'body-1-txt', 'body-1'),
-                ('RULE Item', 'poke-item-txt', 'poke-item'),
-                ):
-            text = pop(mechanic_name)
-            if text:
-                if name_name:
-                    print('{}, {}:'.format(label, pop(name_name)))
-                else:
-                    print("{}:".format(label))
-                dump_wrapped(print, text)
-
-        for attack_number in range(1, 5):
-            apop = lambda f: pop(f.format(attack_number))
-            name = apop('attack-{}')
-            if name:
-                damage = apop('attack-{}-dmg')
-                if damage:
-                    damage_txt = ' ~{}'.format(damage)
-                else:
-                    damage_txt = ''
-                print('[{}] {}{}:'.format(
-                    apop('attack-{}-cost'), name, damage_txt))
-                dump_wrapped(print, apop('attack-{}-txt'))
+        with nonempty_setter(result, 'attacks') as attacks:
+            for attack_number in range(1, 5):
+                apop = lambda f: pop(f.format(attack_number))
+                name = apop('attack-{}')
+                if name:
+                    attack = OrderedDict([
+                        ('name', name),
+                        ('cost', apop('attack-{}-cost')),
+                        ('text', Text(apop('attack-{}-txt'))),
+                        ('damage', apop('attack-{}-dmg')),
+                    ])
+                    attacks.append(OrderedDict(
+                        (k, v) for k, v in attack.items() if v))
 
         weakness = pop('weakness')
         if weakness and weakness != 'None':
@@ -197,13 +211,20 @@ def main(infile):
                     weak_type, weak_sign, weak_amount = weakness, '', ''
                 else:
                     raise AssertionError('Bad weakness {!r}'.format(weakness))
-            print('WEAK [{}]{}{}'.format(weak_type, weak_sign, weak_amount))
+            result['weakness'] = {
+                'type': weak_type,
+                'operation': weak_sign,
+                'amount': weak_amount,
+            }
 
-        simple_out('RESI [{}]', 'resist')
+        simple_out('resistance', 'resist')
 
         retreat = pop('retreat')
         if retreat:
-            print('RETR {}'.format(int(retreat)))
+            result['retreat'] = int(retreat)
+
+        simple_out('dex number', 'dex-no.', convertor=int)
+        simple_out('species', 'species')
 
         weight = pop('weight')
         if weight:
@@ -222,12 +243,13 @@ def main(infile):
             else:
                 feet = int(feet)
                 inches = int(inches)
-            dexi = "DEXI {} {} <{}> <{}'{}>:".format(
-                pop('dex-no.'), pop('species'), weight, feet, inches)
-            print(dexi)
-            dump_wrapped(print, pop('dex'))
+            result['weight'] = weight
+            result['height'] = "{}'{}".format(feet, inches)
 
-        simple_out('ILLU {}', 'illus.')
+        simple_out('dex entry', 'dex', convertor=Text)
+        simple_out('illustrator', 'illus.')
+
+        print(dump(result), end='')
 
         if any(data.values()):
             print(yaml.dump(_orig_data))
@@ -239,4 +261,6 @@ def main(infile):
 
 sys.stdin = io.TextIOWrapper(sys.stdin.detach(), encoding='UTF-8', line_buffering=True)
 
-main(sys.stdin)
+if __name__ == '__main__':
+    arguments = docopt(__doc__, argv=sys.argv[1:], help=True, version=None)
+    main(sys.stdin, arguments['DESTDIR'])
