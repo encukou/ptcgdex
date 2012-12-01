@@ -21,6 +21,18 @@ card_class_idents = dict(
     E='energy',
 )
 
+class Loader(yaml.Loader):
+    pass
+
+def construct_yaml_str(self, node):
+    """String handling function to always return unicode objects
+
+    http://stackoverflow.com/questions/2890146/
+    """
+    return self.construct_scalar(node)
+
+Loader.add_constructor(u'tag:yaml.org,2002:str', construct_yaml_str)
+
 
 def assert_empty(dct):
     """Assert an info dict is empty"""
@@ -38,6 +50,11 @@ def load_sets(session, directory, set_names=None, verbose=True):
     def find_by_name(table, name):
         return util.get(session, table, name=name)
 
+    def type_by_initial(initial):
+        query = session.query(tcg_tables.TCGType)
+        query = query.filter_by(initial=initial)
+        return query.one()
+
     prints = dex_load._get_verbose_prints(verbose)
     print_start, print_status, print_done = prints
 
@@ -49,7 +66,7 @@ def load_sets(session, directory, set_names=None, verbose=True):
         tcg_set = util.get(session, tcg_tables.Set, set_ident)
         print_start(tcg_set.name)
         with open(os.path.join(directory, set_ident + '.cards')) as infile:
-            cards = list(yaml.load_all(infile))
+            cards = list(yaml.load_all(infile, Loader=Loader))
         for card_index, card_info in enumerate(cards):
 
             def pop(field, default=NOTHING):
@@ -59,8 +76,8 @@ def load_sets(session, directory, set_names=None, verbose=True):
                     return card_info.pop(field, default)
 
             def pop_to(field_name, dest, attr_name=None, convertor=None):
-                value = pop(field_name, NOTHING)
-                if value is not NOTHING:
+                if field_name in card_info:
+                    value = pop(field_name)
                     if convertor:
                         value = convertor(value)
                     setattr(dest, attr_name or field_name, value)
@@ -70,23 +87,24 @@ def load_sets(session, directory, set_names=None, verbose=True):
             if pop('set') != set_ident:
                 raise ValueError('Card from wrong set: {}'.format(card_name))
 
-            pop('evolves from')  # XXX: Handle evolution
-            pop('evo line')  # XXX: Check this somehow?
+            pop('evolves from', None)  # XXX: Handle evolution
+            pop('evo line', None)  # XXX: Check this somehow?
             pop('filename')  # XXX: Handle scans
 
-            if tcg_set.ban_date:
-                if tcg_set.ban_date < tcg_set.ban_date.today():
-                    legal = 'n'
-                else:
-                    legal = 'y'
-            else:
-                legal = 'y'
-            if pop('legality') != legal:
-                raise ValueError('Bad legality: {}'.format(card_name))
+            pop('legality')  # XXX: Check legality
+            pop('orphan', None)  # XXX
+            pop('has-variant', None)  # XXX
+            pop('dated', None)  # XXX
 
             card_class = util.get(session, tcg_tables.Class,
                                   card_class_idents[pop('class')])
             card_rarity = util.get(session, tcg_tables.Rarity, pop('rarity'))
+
+            if 'subclass' in card_info:
+                card_subclass = find_by_name(tcg_tables.Subclass,
+                                             pop('subclass'))
+            else:
+                card_subclass = None
 
             illustrator_name = pop('illustrator')
             try:
@@ -103,20 +121,27 @@ def load_sets(session, directory, set_names=None, verbose=True):
             else:
                 stage = None
 
-            types = [find_by_name(tcg_tables.TCGType, n) for n in pop('types')]
+            if 'types' in card_info:
+                types = [find_by_name(tcg_tables.TCGType, n) for n
+                         in pop('types')]
+            else:
+                types = None
 
-            resistance = pop('resistance')
-            if resistance == 'None':
+            resistance = pop('resistance', None)
+            if not resistance or resistance == 'None':
                 resistance = None
             else:
-                resistance = find_by_name(tcg_tables.TCGType, resistance)
+                resistance = type_by_initial(resistance)
 
             dex_number = pop('dex number', None)
             if dex_number:
                 flavor = tcg_tables.PokemonFlavor()
                 flavor.species = util.get(session, dex_tables.PokemonSpecies,
                                           id=dex_number)
-                assert flavor.species.name == pop('pokemon')
+                species_name = pop('pokemon')
+                if flavor.species.name != species_name:
+                    raise ValueError("{!r} != {!r}".format(
+                        flavor.species.name, species_name))
                 species = pop('species')
                 if species != flavor.species.genus:
                     flavor.species_map[en] = species
@@ -135,14 +160,20 @@ def load_sets(session, directory, set_names=None, verbose=True):
                     mechanic.name_map[en] = mechanic_info.pop('name')
                 if 'damage' in mechanic_info:
                     damage = mechanic_info.pop('damage')
-                    mechanic.damage_base = int(damage)
+                    if damage.endswith(('+', '-', '?')):
+                        mechanic.damage_modifier = damage[-1]
+                        damage = damage[:-1]
+                    elif damage.endswith('x'):
+                        mechanic.damage_modifier = '×'
+                        damage = damage[:-1]
+                    if damage:
+                        mechanic.damage_base = int(damage)
                 if 'cost' in mechanic_info:
                     cost_string = list(mechanic_info.pop('cost'))
                     while cost_string:
                         cost = tcg_tables.MechanicCost()
                         initial = cost_string[0]
-                        cost.type = session.query(tcg_tables.TCGType
-                            ).filter_by(initial=initial).one()
+                        cost.type = type_by_initial(initial)
                         cost.amount = 0
                         while cost_string and cost_string[0] == initial:
                             cost.amount += 1
@@ -151,11 +182,10 @@ def load_sets(session, directory, set_names=None, verbose=True):
                 assert_empty(mechanic_info)
                 mechanics.append(mechanic)
 
-            weak_info = pop('weakness')
+            weak_info = pop('weakness', None)
             if weak_info:
                 weakness = tcg_tables.Weakness()
-                weakness.type = session.query(tcg_tables.TCGType
-                    ).filter_by(initial=weak_info.pop('type')).one()
+                weakness.type = type_by_initial(weak_info.pop('type'))
                 weakness.amount = weak_info.pop('amount')
                 operation = weak_info.pop('operation')
                 weakness.operation = {'x': '×'}.get(operation, operation)
@@ -171,6 +201,7 @@ def load_sets(session, directory, set_names=None, verbose=True):
             card.stage = stage
             card.types = types
             card.class_ = card_class
+            card.subclass_ = card_subclass
             card.rarity = card_rarity
             pop_to('holographic', card)
             pop_to('retreat', card, 'retreat_cost')
