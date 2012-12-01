@@ -1,9 +1,10 @@
 id,identifier,initial,game_type_id
 1,grass,G,12
 2,fire,R,10
-3,lightning,L,13
-4,fighting,F,2
-5,psychic,P,14
-6,colorless,C,1
-7,darkness,D,17
-8,metal,M,9
+3,water,W,11
+4,lightning,L,13
+5,fighting,F,2
+6,psychic,P,14
+7,colorless,C,1
+8,darkness,D,17
+9,metal,M,9

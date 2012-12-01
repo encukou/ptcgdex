@@ -1,9 +1,10 @@
 tcg_type_id,local_language_id,name
 1,9,Grass
 2,9,Fire
-3,9,Lightning
-4,9,Fighting
-5,9,Psychic
-6,9,Colorless
-7,9,Darkness
-8,9,Metal
+3,9,Water
+4,9,Lightning
+5,9,Fighting
+6,9,Psychic
+7,9,Colorless
+8,9,Darkness
+9,9,Metal
