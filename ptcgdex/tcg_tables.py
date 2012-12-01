@@ -3,6 +3,7 @@
 from sqlalchemy import (Column, ForeignKey, MetaData, PrimaryKeyConstraint,
                         Table, UniqueConstraint)
 from sqlalchemy.types import *
+from sqlalchemy.orm import backref, relationship
 
 from pokedex.db import tables as dex_tables
 from pokedex.db.tables import TableBase, create_translation_table
@@ -22,11 +23,13 @@ class Card(TableBase):
     __singlename__ = 'tcg_card'
     id = make_id()
     hp = Column(Integer, nullable=True,
-        info=dict(description="The card's HP"))
-    stage = Column(Integer, nullable=True,
-        info=dict(description="The card's evolution stage"))
+        info=dict(description="The card's HP, if any"))
+    stage_id = Column(Integer, ForeignKey('tcg_stages.id'), nullable=True,
+        info=dict(description="ID of the card's evolution stage, if any"))
     class_id = Column(Integer, ForeignKey('tcg_classes.id'), nullable=False,
         info=dict(description="The ID of the card class"))
+    rarity_id = Column(Integer, ForeignKey('tcg_rarities.id'), nullable=False,
+        info=dict(description="The ID of the rarity"))
 
 create_translation_table('tcg_card_names', Card, 'names',
     name = Column(Unicode(32), nullable=False, index=True,
@@ -41,8 +44,10 @@ class Print(TableBase):
         info=dict(description="The ID of the card"))
     set_id = Column(Integer, ForeignKey('tcg_sets.id'), nullable=False,
         info=dict(description="The ID of the set this appeard in"))
-    set_number = Column(Integer, nullable=False,
-        info=dict(description="The number in the set"))
+    set_number = Column(Unicode(5), nullable=False,
+        info=dict(description="The card number in the set (may not be actually numeric)"))
+    order = Column(Integer, nullable=False,
+        info=dict(description="Sort order inside the set (may not be unique)"))
     illusrator_id = Column(Integer, ForeignKey('tcg_illustrators.id'),
         nullable=False,
         info=dict(description="The ID of the illustrator"))
@@ -89,6 +94,8 @@ class CardType(TableBase):
     type_id = Column(Integer, ForeignKey('tcg_types.id'), nullable=False,
         primary_key=True,
         info=dict(description="The ID of the type"))
+    slot = Column(Integer, nullable=False,
+        info=dict(description="Type's sort order on the card"))
 
 class Class(TableBase):
     __tablename__ = 'tcg_classes'
@@ -101,6 +108,19 @@ class Class(TableBase):
 create_translation_table('tcg_class_names', Class, 'names',
     name = Column(Unicode(10), nullable=False, index=True,
         info=dict(description="The class name", format='plaintext', official=True)),
+)
+
+class Stage(TableBase):
+    __tablename__ = 'tcg_stages'
+    __singlename__ = 'tcg_stage'
+    load_from_csv = True
+
+    id = make_id()
+    identifier = make_identifier(10)
+
+create_translation_table('tcg_stage_names', Stage, 'names',
+    name = Column(Unicode(10), nullable=False, index=True,
+        info=dict(description="The stage name", format='plaintext', official=True)),
 )
 
 class Subclass(TableBase):
@@ -149,10 +169,25 @@ create_translation_table('tcg_mechanic_names', Mechanic, 'names',
 class MechanicClass(TableBase):
     __tablename__ = 'tcg_mechanic_classes'
     __singlename__ = 'tcg_mechanic_class'
+    load_from_csv = True
+
     id = make_id()
     identifier = make_identifier(10)
 
 create_translation_table('tcg_mechanic_class_names', MechanicClass, 'names',
+    name = Column(Unicode(10), nullable=False, index=True,
+        info=dict(description="The name", format='plaintext', official=True)),
+)
+
+class Rarity(TableBase):
+    __tablename__ = 'tcg_rarities'
+    __singlename__ = 'tcg_rarity'
+    load_from_csv = True
+
+    id = make_id()
+    identifier = make_identifier(10)
+
+create_translation_table('tcg_rarity_names', Rarity, 'names',
     name = Column(Unicode(10), nullable=False, index=True,
         info=dict(description="The name", format='plaintext', official=True)),
 )
@@ -177,7 +212,7 @@ class CardMechanic(TableBase):
     card_id = Column(Integer, ForeignKey('tcg_cards.id'),
         primary_key=True, nullable=False,
         info=dict(description="The ID of the card"))
-    type_id = Column(Integer, ForeignKey('tcg_mechanics.id'),
+    mechanic_id = Column(Integer, ForeignKey('tcg_mechanics.id'),
         primary_key=True, nullable=False,
         info=dict(description="The ID of the mechanic"))
     order = Column(Integer, primary_key=True, nullable=False,
@@ -243,3 +278,33 @@ class Illustrator(TableBase):
 _pokedex_classes_set = set(pokedex_classes)
 tcg_classes = [c for c in dex_tables.mapped_classes if
                c not in _pokedex_classes_set]
+
+
+
+Card.class_ = relationship(Class, backref='cards')
+Card.stage = relationship(Stage, backref='cards')
+Card.rarity = relationship(Rarity, backref='cards')
+
+Print.card = relationship(Card, backref='prints')
+Print.set = relationship(Set, backref='prints')
+Print.illusrator = relationship(Illustrator, backref='prints')
+Print.pokemon_flavor = relationship(PokemonFlavor, backref='prints')
+
+TCGType.game_type = relationship(dex_tables.Type)
+
+CardType.card = relationship(Card, backref='card_types')
+CardType.type = relationship(TCGType, backref='card_types')
+
+CardSubclass.card = relationship(Card, backref='card_subclasses')
+CardSubclass.type = relationship(Subclass, backref='card_subclasses')
+
+Mechanic.class_ = relationship(MechanicClass, backref='mechanics')
+
+MechanicCost.mechanic = relationship(Mechanic, backref='costs')
+MechanicCost.type = relationship(TCGType)
+
+CardMechanic.card = relationship(Card, backref='card_mechanics')
+CardMechanic.mechanic = relationship(Mechanic, backref='card_mechanics')
+
+PokemonFlavor.species = relationship(dex_tables.PokemonSpecies)
+PokemonFlavor.version = relationship(dex_tables.Version)
