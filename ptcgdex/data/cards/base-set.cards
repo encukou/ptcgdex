@@ -2270,7 +2270,7 @@ stage: Basic
 evo line: Nidoran M
 legality: n
 filename: 55-nidoran-m
-pokemon: Nidoran M
+pokemon: Nidoran♂
 mechanics:
 - name: Horn Hazard
   cost: G
@@ -2845,7 +2845,6 @@ class: P
 types:
 - Colorless
 hp: 10
-trainer class: Trainer
 legality: n
 filename: 70-clefairy-doll
 mechanics:
@@ -2866,7 +2865,6 @@ name: Computer Search
 rarity: rare
 holographic: false
 class: T
-trainer class: Trainer
 legality: n
 filename: 71-computer-search
 mechanics:
@@ -2883,7 +2881,6 @@ name: Devolution Spray
 rarity: rare
 holographic: false
 class: T
-trainer class: Trainer
 legality: n
 filename: 72-devolution-spray
 mechanics:
@@ -2902,7 +2899,6 @@ name: Impostor Professor Oak
 rarity: rare
 holographic: false
 class: T
-trainer class: Trainer
 legality: n
 filename: 73-impostor-professor-oak
 mechanics:
@@ -2918,7 +2914,6 @@ name: Item Finder
 rarity: rare
 holographic: false
 class: T
-trainer class: Trainer
 legality: n
 filename: 74-item-finder
 mechanics:
@@ -2934,7 +2929,6 @@ name: Lass
 rarity: rare
 holographic: false
 class: T
-trainer class: Trainer
 legality: n
 filename: 75-lass
 mechanics:
@@ -2950,7 +2944,6 @@ name: Pokémon Breeder
 rarity: rare
 holographic: false
 class: T
-trainer class: Trainer
 legality: n
 filename: 76-pokemon-breeder
 mechanics:
@@ -2967,7 +2960,6 @@ name: Pokémon Trader
 rarity: rare
 holographic: false
 class: T
-trainer class: Trainer
 legality: n
 filename: 77-pokemon-trader
 mechanics:
@@ -2984,7 +2976,6 @@ name: Scoop Up
 rarity: rare
 holographic: false
 class: T
-trainer class: Trainer
 legality: n
 filename: 78-scoop-up
 mechanics:
@@ -3001,7 +2992,6 @@ name: Super Energy Removal
 rarity: rare
 holographic: false
 class: T
-trainer class: Trainer
 legality: n
 filename: 79-super-energy-removal
 mechanics:
@@ -3018,7 +3008,6 @@ name: Defender
 rarity: uncommon
 holographic: false
 class: T
-trainer class: Trainer
 legality: n
 filename: 80-defender
 mechanics:
@@ -3035,7 +3024,6 @@ name: Energy Retrieval
 rarity: uncommon
 holographic: false
 class: T
-trainer class: Trainer
 legality: n
 filename: 81-energy-retrieval
 mechanics:
@@ -3051,7 +3039,6 @@ name: Full Heal
 rarity: uncommon
 holographic: false
 class: T
-trainer class: Trainer
 legality: n
 filename: 82-full-heal
 mechanics:
@@ -3067,7 +3054,6 @@ name: Maintenance
 rarity: uncommon
 holographic: false
 class: T
-trainer class: Trainer
 legality: n
 filename: 83-maintenance
 mechanics:
@@ -3083,7 +3069,6 @@ name: PlusPower
 rarity: uncommon
 holographic: false
 class: T
-trainer class: Trainer
 legality: y
 filename: 84-pluspower
 dated: 'diamond-and-pearl: 109-pluspower'
@@ -3102,7 +3087,6 @@ name: Pokémon Center
 rarity: uncommon
 holographic: false
 class: T
-trainer class: Trainer
 legality: n
 filename: 85-pokemon-center
 mechanics:
@@ -3119,7 +3103,6 @@ name: Pokémon Flute
 rarity: uncommon
 holographic: false
 class: T
-trainer class: Trainer
 legality: n
 filename: 86-pokemon-flute
 mechanics:
@@ -3136,7 +3119,6 @@ name: Pokédex
 rarity: uncommon
 holographic: false
 class: T
-trainer class: Trainer
 legality: n
 filename: 87-pokedex
 mechanics:
@@ -3152,7 +3134,6 @@ name: Professor Oak
 rarity: uncommon
 holographic: false
 class: T
-trainer class: Trainer
 legality: n
 filename: 88-professor-oak
 mechanics:
@@ -3167,7 +3148,6 @@ name: Revive
 rarity: uncommon
 holographic: false
 class: T
-trainer class: Trainer
 legality: n
 filename: 89-revive
 mechanics:
@@ -3185,7 +3165,6 @@ name: Super Potion
 rarity: uncommon
 holographic: false
 class: T
-trainer class: Trainer
 legality: n
 filename: 90-super-potion
 mechanics:
@@ -3201,7 +3180,6 @@ name: Bill
 rarity: common
 holographic: false
 class: T
-trainer class: Trainer
 legality: n
 filename: 91-bill
 mechanics:
@@ -3216,7 +3194,6 @@ name: Energy Removal
 rarity: common
 holographic: false
 class: T
-trainer class: Trainer
 legality: n
 filename: 92-energy-removal
 mechanics:
@@ -3232,7 +3209,6 @@ name: Gust of Wind
 rarity: common
 holographic: false
 class: T
-trainer class: Trainer
 legality: n
 filename: 93-gust-of-wind
 mechanics:
@@ -3248,7 +3224,6 @@ name: Potion
 rarity: common
 holographic: false
 class: T
-trainer class: Trainer
 legality: y
 filename: 94-potion
 orphan: 'ex-ruby-and-sapphire: 91-potion'
@@ -3264,7 +3239,6 @@ name: Switch
 rarity: common
 holographic: false
 class: T
-trainer class: Trainer
 legality: y
 filename: 95-switch
 orphan: 'ex-ruby-and-sapphire: 92-switch'
@@ -3280,7 +3254,7 @@ name: Double Colorless Energy
 rarity: uncommon
 holographic: false
 class: E
-energy class: Special
+subclass: Special
 legality: n
 filename: 96-double-colorless-energy
 mechanics:
@@ -3296,7 +3270,7 @@ name: Fighting Energy
 rarity: none
 holographic: false
 class: E
-energy class: Basic
+subclass: Basic
 legality: y
 filename: 97-fighting-energy
 mechanics:
@@ -3311,7 +3285,7 @@ name: Fire Energy
 rarity: none
 holographic: false
 class: E
-energy class: Basic
+subclass: Basic
 legality: y
 filename: 98-fire-energy
 mechanics:
@@ -3326,7 +3300,7 @@ name: Grass Energy
 rarity: none
 holographic: false
 class: E
-energy class: Basic
+subclass: Basic
 legality: y
 filename: 99-grass-energy
 mechanics:
@@ -3341,7 +3315,7 @@ name: Lightning Energy
 rarity: none
 holographic: false
 class: E
-energy class: Basic
+subclass: Basic
 legality: y
 filename: 100-lightning-energy
 mechanics:
@@ -3356,7 +3330,7 @@ name: Psychic Energy
 rarity: none
 holographic: false
 class: E
-energy class: Basic
+subclass: Basic
 legality: y
 filename: 101-psychic-energy
 mechanics:
@@ -3371,7 +3345,7 @@ name: Water Energy
 rarity: none
 holographic: false
 class: E
-energy class: Basic
+subclass: Basic
 legality: y
 filename: 102-water-energy
 mechanics:

@@ -63,6 +63,11 @@ def munge_errors(data):
         assert sp == "Team Galactic's"
         data['species'] = ''
 
+    if data['pokemon'] == 'Nidoran M':
+        data['pokemon'] = 'Nidoran♂'
+    elif data['pokemon'] == 'Nidoran F':
+        data['pokemon'] = 'Nidoran♀'
+
 @contextmanager
 def nonempty_setter(target_dict, name, default=None):
     if default is None:
@@ -107,12 +112,13 @@ def main(infile, destdir=None):
         raise ValueError('{} is not a directory'.format(destdir))
     sets = {}
     for data in csv.DictReader(infile):
+        data = {k: v.decode('utf-8') for k, v in data.items()}
         _orig_data = dict(data)
         munge_errors(data)
         print()
         def pop(name):
             item = data.pop(name)
-            return item.strip().decode('utf-8')
+            return item.strip()
 
         def simple_out(outname, name, convertor=None):
             arg = pop(name)
@@ -144,11 +150,12 @@ def main(infile, destdir=None):
 
         simple_out('hp', 'hp', convertor=int)
 
-        simple_out('trainer class', 'trainer-class')
+        trainer_class = pop('trainer-class')
+        if trainer_class and trainer_class != 'Trainer':
+            result['trainer class'] = trainer_class
 
-        simple_out('trainer subclass', 'trainer-sub-class')
-
-        simple_out('energy class', 'energy-class')
+        simple_out('subclass', 'trainer-sub-class')
+        simple_out('subclass', 'energy-class')
 
         simple_out('stage', 'stage')
 
