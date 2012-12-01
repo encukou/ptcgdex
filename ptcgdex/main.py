@@ -3,7 +3,7 @@
 Usage:
     ptcgdex [options] help
     ptcgdex [options] setup [-x | --no-pokedex]
-    ptcgdex [options] load [<table-name-or-set-filename> ...]
+    ptcgdex [options] load [<table-or-set-name> ...]
     ptcgdex [options] dump [--sets | --csv] [<table-or-set-identifier> ...]
 
 Commands:
@@ -52,12 +52,19 @@ def make_session(options):
     from pokedex import main as dex_main
     return dex_main.get_session(DummyDexOptions)
 
+def all_tables(tcg_tables):
+    result = list(tcg_tables)
+    for table in tcg_tables:
+        result.extend(table.translation_classes)
+    return result
+
 
 def load(session, options):
     from ptcgdex import tcg_tables
+    from ptcgdex import load as ptcg_load
     from pokedex.db import load as dex_load
-    tcg_tables = [c.__tablename__ for c in tcg_tables.tcg_classes]
-    table_names = options['<table-name-or-set-filename>']
+    tcg_tables = [c.__tablename__ for c in all_tables(tcg_tables.tcg_classes)]
+    table_names = options['<table-or-set-name>']
     sets = []
     if table_names:
         tcg_table_set = set(tcg_tables)
@@ -72,7 +79,7 @@ def load(session, options):
                 sets.append(tablename)
     else:
         tables = tcg_tables
-        sets = os.listdir(options['--card-dir'])
+        sets = None
 
     if tables:
         dex_load.load(session,
@@ -84,7 +91,9 @@ def load(session, options):
             recursive=False,
             langs=[])
 
-    print sets
+    ptcg_load.load_sets(session,
+        directory=options['--ptcg-csv-dir'],
+        set_names=sets)
 
 
 def dump(session, options):
@@ -92,8 +101,9 @@ def dump(session, options):
     from pokedex.db import load as dex_load
     tables = options['<table-or-set-identifier>']
     if not tables:
-        tables = [c.__tablename__ for c in tcg_tables.tcg_classes
-                if getattr(c, 'load_from_csv', False)]
+        csv_tables = [t for t in tcg_tables.tcg_classes
+                if getattr(t, 'load_from_csv', False)]
+        tables = [c.__tablename__ for c in all_tables(csv_tables)]
 
     dex_load.dump(session,
         directory=options['--ptcg-csv-dir'],

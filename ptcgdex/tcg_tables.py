@@ -218,13 +218,19 @@ class Set(TableBase):
     load_from_csv = True
 
     id = make_id()
+    identifier = make_identifier(30)
     total = Column(Integer, nullable=True,
         info=dict(description="Number of cards in the set, if applicable"))
     # TODO: sub-sets
-    release_date = Column(DateTime, nullable=True,
+    release_date = Column(Date, nullable=True,
         info=dict(description="The release date"))
-    ban_date = Column(DateTime, nullable=True,
+    ban_date = Column(Date, nullable=True,
         info=dict(description="Modified ban date"))
+
+create_translation_table('tcg_set_names', Set, 'names',
+    name = Column(Unicode(30), nullable=False, index=True,
+        info=dict(description="The name", format='plaintext', official=True)),
+)
 
 class Illustrator(TableBase):
     __tablename__ = 'tcg_illustrators'
