@@ -92,7 +92,7 @@ def load(session, options):
             langs=[])
 
     ptcg_load.load_sets(session,
-        directory=options['--ptcg-csv-dir'],
+        directory=options['--card-dir'],
         set_names=sets)
 
 

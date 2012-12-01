@@ -6,6 +6,7 @@ from sqlalchemy.types import *
 from sqlalchemy.orm import backref, relationship
 
 from pokedex.db import tables as dex_tables
+from pokedex.db import markdown
 from pokedex.db.tables import TableBase, create_translation_table
 
 pokedex_classes = list(dex_tables.mapped_classes)
@@ -30,6 +31,8 @@ class Card(TableBase):
         info=dict(description="The ID of the card class"))
     rarity_id = Column(Integer, ForeignKey('tcg_rarities.id'), nullable=False,
         info=dict(description="The ID of the rarity"))
+    holographic = Column(Boolean, nullable=False,
+        info=dict(description="True iff the card is holographic"))
 
 create_translation_table('tcg_card_names', Card, 'names',
     name = Column(Unicode(32), nullable=False, index=True,
@@ -166,6 +169,12 @@ create_translation_table('tcg_mechanic_names', Mechanic, 'names',
         info=dict(description="The class name", format='plaintext', official=True)),
 )
 
+create_translation_table('tcg_mechanic_effects', Mechanic, 'effects',
+    effect = Column(Unicode(5120), nullable=True,
+        info=dict(description="A detailed description of the effect",
+                  format='markdown', string_getter=markdown.MarkdownString)),
+)
+
 class MechanicClass(TableBase):
     __tablename__ = 'tcg_mechanic_classes'
     __singlename__ = 'tcg_mechanic_class'
@@ -195,7 +204,6 @@ create_translation_table('tcg_rarity_names', Rarity, 'names',
 class MechanicCost(TableBase):
     __tablename__ = 'tcg_mechanic_costs'
     __singlename__ = 'tcg_mechanic_cost'
-    # TODO: these should be in the order typed in
     mechanic_id = Column(Integer, ForeignKey('tcg_mechanics.id'),
         primary_key=True, nullable=False,
         info=dict(description=u"The ID of the mechanic"))
@@ -225,23 +233,19 @@ class PokemonFlavor(TableBase):
     species_id = Column(Integer, ForeignKey(dex_tables.PokemonSpecies.id),
         nullable=False,
         info=dict(description=u"The ID of the Pokémon species"))
-    height = Column(Integer, nullable=True,
-        info=dict(description="Height, if different from games"))
-    weight = Column(Integer, nullable=True,
-        info=dict(description="Weight, if different from games"))
-    weight = Column(Integer, nullable=True,
-        info=dict(description="Weight, if different from games"))
-    version_id = Column(Integer, ForeignKey(dex_tables.Version.id),
-        nullable=True,
-        info=dict(
-            description="Game version ID, if flavor text is taken from games"))
+    height = Column(Integer, nullable=False,
+        info=dict(description="Height in pounds"))
+    weight = Column(Integer, nullable=False,
+        info=dict(description="Weight in inches"))
+    category = Column(Integer, nullable=True,
+        info=dict(description='"Species", if different from games'))
 
 create_translation_table('tcg_pokemon_flavor_text', PokemonFlavor, 'flavor',
     species = Column(Unicode(16), nullable=True, index=True,
         info=dict(description="The species, if different from games",
                   format='plaintext', official=True)),
-    name = Column(Unicode(256), nullable=True, index=True,
-        info=dict(description="The 'dex text, if different from games",
+    dex_entry = Column(Unicode(256), nullable=True, index=True,
+        info=dict(description="The 'dex entry, if different from games",
                   format='plaintext', official=True)),
 )
 
@@ -307,4 +311,3 @@ CardMechanic.card = relationship(Card, backref='card_mechanics')
 CardMechanic.mechanic = relationship(Mechanic, backref='card_mechanics')
 
 PokemonFlavor.species = relationship(dex_tables.PokemonSpecies)
-PokemonFlavor.version = relationship(dex_tables.Version)
