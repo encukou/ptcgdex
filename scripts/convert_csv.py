@@ -7,6 +7,7 @@ Options:
 
 """
 
+import os
 import io
 import sys
 import csv
@@ -99,8 +100,9 @@ def dump(stuff):
                     )
 
 def main(infile, destdir=None):
-    sets = []
-    cards = {}
+    if destdir and not os.path.isdir(destdir):
+        raise ValueError('{} is not a directory'.format(destdir))
+    sets = {}
     for data in csv.DictReader(infile):
         _orig_data = dict(data)
         munge_errors(data)
@@ -119,6 +121,7 @@ def main(infile, destdir=None):
         result = OrderedDict()
 
         pop('1')
+        tcg_set = data.get('set')
         simple_out('set', 'set')
         simple_out('number', 'num')
         simple_out('name', 'card-name')
@@ -251,13 +254,20 @@ def main(infile, destdir=None):
 
         print(dump(result), end='')
 
+        sets.setdefault(tcg_set or 'unknown', []).append(result)
+
         if any(data.values()):
             print(yaml.dump(_orig_data))
             print(data)
             data = {k:v for k, v in data.items() if v}
             print(data)
             raise AssertionError('Unprocessed data remaining: {}'.format(data.keys()))
-    # TODO: sets
+    if destdir:
+        for name, cards in sets.items():
+            filename = os.path.join(destdir, '{}.cards'.format(name))
+            with open(filename, 'w') as setfile:
+                for card in cards:
+                    setfile.write(dump(card))
 
 sys.stdin = io.TextIOWrapper(sys.stdin.detach(), encoding='UTF-8', line_buffering=True)
 

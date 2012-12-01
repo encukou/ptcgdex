@@ -7,6 +7,8 @@ from sqlalchemy.types import *
 from pokedex.db import tables as dex_tables
 from pokedex.db.tables import TableBase, create_translation_table
 
+pokedex_classes = list(dex_tables.mapped_classes)
+
 def make_id():
     return Column(Integer, primary_key=True, nullable=False,
         info=dict(description="A numeric ID"))
@@ -37,11 +39,11 @@ class Print(TableBase):
     id = make_id()
     card_id = Column(Integer, ForeignKey('tcg_cards.id'), nullable=False,
         info=dict(description="The ID of the card"))
-    set_id = Column(Integer, ForeignKey('tcg_card_sets.id'), nullable=False,
+    set_id = Column(Integer, ForeignKey('tcg_sets.id'), nullable=False,
         info=dict(description="The ID of the set this appeard in"))
     set_number = Column(Integer, nullable=False,
         info=dict(description="The number in the set"))
-    illusrator_id = Column(Integer, ForeignKey('tcg_card_illustrators.id'),
+    illusrator_id = Column(Integer, ForeignKey('tcg_illustrators.id'),
         nullable=False,
         info=dict(description="The ID of the illustrator"))
     pokemon_flavor_id = Column(Integer, ForeignKey('tcg_pokemon_flavors.id'),
@@ -124,7 +126,7 @@ class Mechanic(TableBase):
     __tablename__ = 'tcg_mechanics'
     __singlename__ = 'tcg_mechanic'
     id = make_id()
-    class_id = Column(Integer, ForeignKey('tcg_mechanic_class.id'),
+    class_id = Column(Integer, ForeignKey('tcg_mechanic_classes.id'),
         nullable=False,
         info=dict(description="The ID of the mechanic class"))
     damage_base = Column(Integer, nullable=True,
@@ -155,7 +157,7 @@ class MechanicCost(TableBase):
     mechanic_id = Column(Integer, ForeignKey('tcg_mechanics.id'),
         primary_key=True, nullable=False,
         info=dict(description=u"The ID of the mechanic"))
-    type_id = Column(Integer, ForeignKey('tcg_type.id'),
+    type_id = Column(Integer, ForeignKey('tcg_types.id'),
         primary_key=True, nullable=False,
         info=dict(description=u"The type of Energy"))
     amount = Column(Integer, nullable=False,
@@ -221,3 +223,8 @@ class Illustrator(TableBase):
     id = make_id()
     name = Column(Unicode(50), nullable=False,
         info=dict(description="Name of the illustrator"))
+
+
+_pokedex_classes_set = set(pokedex_classes)
+tcg_classes = [c for c in dex_tables.mapped_classes if
+               c not in _pokedex_classes_set]
