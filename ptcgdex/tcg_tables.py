@@ -23,8 +23,6 @@ class Card(TableBase):
     __tablename__ = 'tcg_cards'
     __singlename__ = 'tcg_card'
     id = make_id()
-    hp = Column(Integer, nullable=True,
-        info=dict(description="The card's HP, if any"))
     stage_id = Column(Integer, ForeignKey('tcg_stages.id'), nullable=True,
         info=dict(description="ID of the card's evolution stage, if any"))
     class_id = Column(Integer, ForeignKey('tcg_classes.id'), nullable=False,
@@ -33,6 +31,14 @@ class Card(TableBase):
         info=dict(description="The ID of the rarity"))
     holographic = Column(Boolean, nullable=False,
         info=dict(description="True iff the card is holographic"))
+
+    hp = Column(Integer, nullable=True,
+        info=dict(description="The card's HP, if any"))
+    retreat_cost = Column(Integer, nullable=True,
+        info=dict(description="The card retreat cost, if any"))
+    resistance_type_id = Column(Integer, ForeignKey('tcg_types.id'),
+        nullable=True,
+        info=dict(description="ID of type the card is resistan to, if any"))
 
 create_translation_table('tcg_card_names', Card, 'names',
     name = Column(Unicode(32), nullable=False, index=True,
@@ -151,8 +157,6 @@ class CardSubclass(TableBase):
 
 class Mechanic(TableBase):
     # Card Mechanic, Attack, PokéPower, PokéBody, Ability, Poké-Item, Text
-    # also Note, Weakness, Resistance, Retread cost
-    # TODO: Evolution
     __tablename__ = 'tcg_mechanics'
     __singlename__ = 'tcg_mechanic'
     id = make_id()
@@ -213,8 +217,6 @@ class MechanicCost(TableBase):
     amount = Column(Integer, nullable=False,
         info=dict(description=u"The amount of this Energy required"))
 
-# TODO: class MechanicWording(TableBase):
-
 class CardMechanic(TableBase):
     __tablename__ = 'tcg_card_mechanics'
     card_id = Column(Integer, ForeignKey('tcg_cards.id'),
@@ -225,6 +227,20 @@ class CardMechanic(TableBase):
         info=dict(description="The ID of the mechanic"))
     order = Column(Integer, primary_key=True, nullable=False,
         info=dict(description=u"Order of appearance on card."))
+
+class Weakness(TableBase):
+    __tablename__ = 'tcg_weaknesses'
+    __singlename__ = 'tcg_weakness'
+    card_id = Column(Integer, ForeignKey('tcg_cards.id'),
+        primary_key=True, nullable=False,
+        info=dict(description=u"The ID of the card"))
+    type_id = Column(Integer, ForeignKey('tcg_types.id'),
+        primary_key=True, nullable=False,
+        info=dict(description=u"The type of Energy this card is weak to"))
+    operation = Column(Unicode(2), nullable=False,
+        info=dict(description=u"The operator in the damage adjustment"))
+    amount = Column(Integer, nullable=False,
+        info=dict(description=u"The number in the damage adjustment"))
 
 class PokemonFlavor(TableBase):
     __tablename__ = 'tcg_pokemon_flavors'
@@ -288,10 +304,11 @@ tcg_classes = [c for c in dex_tables.mapped_classes if
 Card.class_ = relationship(Class, backref='cards')
 Card.stage = relationship(Stage, backref='cards')
 Card.rarity = relationship(Rarity, backref='cards')
+Card.resistance_type = relationship(TCGType, backref='resistant_cards')
 
 Print.card = relationship(Card, backref='prints')
 Print.set = relationship(Set, backref='prints')
-Print.illusrator = relationship(Illustrator, backref='prints')
+Print.illustrator = relationship(Illustrator, backref='prints')
 Print.pokemon_flavor = relationship(PokemonFlavor, backref='prints')
 
 TCGType.game_type = relationship(dex_tables.Type)
@@ -306,6 +323,9 @@ Mechanic.class_ = relationship(MechanicClass, backref='mechanics')
 
 MechanicCost.mechanic = relationship(Mechanic, backref='costs')
 MechanicCost.type = relationship(TCGType)
+
+Weakness.card = relationship(Card, backref='weaknesses')
+Weakness.type = relationship(TCGType, backref='weaknesses')
 
 CardMechanic.card = relationship(Card, backref='card_mechanics')
 CardMechanic.mechanic = relationship(Mechanic, backref='card_mechanics')

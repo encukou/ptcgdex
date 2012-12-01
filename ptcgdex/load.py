@@ -1,3 +1,6 @@
+# Encoding: UTF-8
+from __future__ import division, unicode_literals
+
 import os
 import time
 import re
@@ -67,6 +70,20 @@ def load_sets(session, directory, set_names=None, verbose=True):
             if pop('set') != set_ident:
                 raise ValueError('Card from wrong set: {}'.format(card_name))
 
+            pop('evolves from')  # XXX: Handle evolution
+            pop('evo line')  # XXX: Check this somehow?
+            pop('filename')  # XXX: Handle scans
+
+            if tcg_set.ban_date:
+                if tcg_set.ban_date < tcg_set.ban_date.today():
+                    legal = 'n'
+                else:
+                    legal = 'y'
+            else:
+                legal = 'y'
+            if pop('legality') != legal:
+                raise ValueError('Bad legality: {}'.format(card_name))
+
             card_class = util.get(session, tcg_tables.Class,
                                   card_class_idents[pop('class')])
             card_rarity = util.get(session, tcg_tables.Rarity, pop('rarity'))
@@ -78,6 +95,21 @@ def load_sets(session, directory, set_names=None, verbose=True):
             except NoResultFound:
                 illustrator = tcg_tables.Illustrator()
                 illustrator.name = illustrator_name
+                session.add(illustrator)
+                session.flush()
+
+            if 'stage' in card_info:
+                stage = find_by_name(tcg_tables.Stage, pop('stage'))
+            else:
+                stage = None
+
+            types = [find_by_name(tcg_tables.TCGType, n) for n in pop('types')]
+
+            resistance = pop('resistance')
+            if resistance == 'None':
+                resistance = None
+            else:
+                resistance = find_by_name(tcg_tables.TCGType, resistance)
 
             dex_number = pop('dex number', None)
             if dex_number:
@@ -91,8 +123,9 @@ def load_sets(session, directory, set_names=None, verbose=True):
                 flavor.weight = pop('weight')
                 feet, inches = pop('height').split("'")
                 flavor.height = int(feet) * 12 + int(inches)
-                flavor.dex_entry_map['en'] = pop('dex entry')
+                flavor.dex_entry_map[en] = pop('dex entry')
 
+            mechanics = []
             for order, mechanic_info in enumerate(pop('mechanics')):
                 mech_type = util.get(session, tcg_tables.MechanicClass,
                                      mechanic_info.pop('type'))
@@ -116,17 +149,36 @@ def load_sets(session, directory, set_names=None, verbose=True):
                             del cost_string[0]
                         cost.mechanic = mechanic
                 assert_empty(mechanic_info)
+                mechanics.append(mechanic)
+
+            weak_info = pop('weakness')
+            if weak_info:
+                weakness = tcg_tables.Weakness()
+                weakness.type = session.query(tcg_tables.TCGType
+                    ).filter_by(initial=weak_info.pop('type')).one()
+                weakness.amount = weak_info.pop('amount')
+                operation = weak_info.pop('operation')
+                weakness.operation = {'x': '×'}.get(operation, operation)
+                assert_empty(weak_info)
+            else:
+                weakness = None
 
             card = tcg_tables.Card()
             card_name = pop('name')
             card.name_map[en] = card_name
 
             pop_to('hp', card, convertor=int)
-            pop_to('stage', card, convertor=lambda stage:
-                find_by_name(tcg_tables.Stage, stage))
+            card.stage = stage
+            card.types = types
             card.class_ = card_class
-            card.rarity_ = card_rarity
+            card.rarity = card_rarity
             pop_to('holographic', card)
+            pop_to('retreat', card, 'retreat_cost')
+            for mechanic in mechanics:
+                mechanic.card = card
+            if weakness:
+                weakness.card = card
+            card.resistance_type = resistance
 
             card_print = tcg_tables.Print()
             card_print.set = tcg_set
@@ -134,10 +186,13 @@ def load_sets(session, directory, set_names=None, verbose=True):
             card_print.order = int(card_print.set_number)
 
             card_print.card = card
+            card_print.illustrator = illustrator
+            card_print.pokemon_flavor = flavor
 
             assert_empty(card_info)
 
             session.add(card)
+            session.add(card_print)
             session.flush()
         session.commit()
         print_done()
