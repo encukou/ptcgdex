@@ -174,17 +174,17 @@ def main(infile, destdir=None):
 
         with nonempty_setter(result, 'mechanics') as mechanics:
             for label, mechanic_name, extra in (
-                    ('Note', 'poke-note', []),
-                    ('Rule', 'trainer-rule', []),
-                    ('Effect', 'trainer-txt', []),
-                    ('Effect', 'energy-txt', []),
-                    ('Pokémon Power', 'pkmn-power-txt', [('name', 'pkmn-power-1')]),
-                    ('PokéPower', 'power-1-txt', [('name', 'power-1')]),
-                    ('PokéPower', 'power-2-txt', [('name', 'power-2')]),
-                    ('PokéBody', 'body-1-txt', [('name', 'body-1')]),
-                    ('Item', 'poke-item-txt', [('name', 'poke-item')]),
+                    ('note', 'poke-note', []),
+                    ('rule', 'trainer-rule', []),
+                    ('effect', 'trainer-txt', []),
+                    ('effect', 'energy-txt', []),
+                    ('pokemon-power', 'pkmn-power-txt', [('name', 'pkmn-power-1')]),
+                    ('pokepower', 'power-1-txt', [('name', 'power-1')]),
+                    ('pokepower', 'power-2-txt', [('name', 'power-2')]),
+                    ('pokébody', 'body-1-txt', [('name', 'body-1')]),
+                    ('item', 'poke-item-txt', [('name', 'poke-item')]),
                     ) + tuple([
-                        ('Attack', 'attack-{}-txt'.format(i),
+                        ('attack', 'attack-{}-txt'.format(i),
                             [('name', 'attack-{}'.format(i)),
                              ('cost', 'attack-{}-cost'.format(i)),
                              ('damage', 'attack-{}-dmg'.format(i))])
