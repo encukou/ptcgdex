@@ -15,10 +15,8 @@ filename: 1-alakazam
 pokemon: Alakazam
 mechanics:
 - name: Damage Swap
-  type:
-  - Pokémon Power
-  text:
-  - >-
+  type: Pokémon Power
+  text: >-
     As often as you like during your turn (before your attack),
     you may move 1 damage counter from one of your Pokémon to
     another as long as you don't Knock Out that Pokémon. This
@@ -60,10 +58,8 @@ filename: 2-blastoise
 pokemon: Blastoise
 mechanics:
 - name: Rain Dance
-  type:
-  - Pokémon Power
-  text:
-  - >-
+  type: Pokémon Power
+  text: >-
     As often as you like during your turn (before your attack),
     you may attach 1 W Energy card to 1 of your W Pokémon. (This
     doesn't use up your 1 Energy card attachment for the turn.)
@@ -149,10 +145,8 @@ orphan: 'stormfront: 103-charizard'
 pokemon: Charizard
 mechanics:
 - name: Energy Burn
-  type:
-  - Pokémon Power
-  text:
-  - >-
+  type: Pokémon Power
+  text: >-
     As often as you like during your turn (before your attack),
     you may turn all Energy attached to Charizard into R Energy
     for the rest of the turn. This power can't be used if Charizard
@@ -310,10 +304,8 @@ filename: 8-machamp
 pokemon: Machamp
 mechanics:
 - name: Strikes Back
-  type:
-  - Pokémon Power
-  text:
-  - >-
+  type: Pokémon Power
+  text: >-
     Whenever your opponent's attack damages Machamp (even if Machamp
     is Knocked Out), this power does 10 damage to the attacking
     Pokémon. (Don't apply Weakness and Resistance.) This power
@@ -606,10 +598,8 @@ filename: 15-venusaur
 pokemon: Venusaur
 mechanics:
 - name: Energy Trans
-  type:
-  - Pokémon Power
-  text:
-  - >-
+  type: Pokémon Power
+  text: >-
     As often as you like during your turn (before your attack),
     you may take 1 G Energy card attached to 1 of your Pokémon
     and attach it to a different one. This power can't be used
@@ -843,10 +833,8 @@ filename: 21-electrode
 pokemon: Electrode
 mechanics:
 - name: Buzzap
-  type:
-  - Pokémon Power
-  text:
-  - >-
+  type: Pokémon Power
+  text: >-
     At any time during your turn (before your attack), you may
     Knock Out Electrode and attach it to 1 of your other Pokémon.
     If you do, choose a type of Energy. Electrode is now an Energy
@@ -2652,10 +2640,8 @@ trainer class: Trainer
 legality: n
 filename: 70-clefairy-doll
 mechanics:
-- type:
-  - Effect
-  text:
-  - >-
+- type: Effect
+  text: >-
     Play Clefairy Doll as if it were a Basic Pokémon. While in
     play, Clefairy Doll counts as a Pokémon (instead of a Trainer
     card.) Clefairy Doll has no attacks, can't retreat, and can't
@@ -2674,10 +2660,8 @@ trainer class: Trainer
 legality: n
 filename: 71-computer-search
 mechanics:
-- type:
-  - Effect
-  text:
-  - >-
+- type: Effect
+  text: >-
     Discard 2 other cards from your hand in order to search your
     deck for any card and put it into your hand. Shuffle your
     deck afterward.
@@ -2692,10 +2676,8 @@ trainer class: Trainer
 legality: n
 filename: 72-devolution-spray
 mechanics:
-- type:
-  - Effect
-  text:
-  - >-
+- type: Effect
+  text: >-
     Choose 1 of your own Pokémon in play and a Stage of Evolution.
     Discard all Evolution cards of that Stage or higher attached
     to that Pokémon. That Pokémon is no longer Asleep, Confused,
@@ -2712,10 +2694,8 @@ trainer class: Trainer
 legality: n
 filename: 73-impostor-professor-oak
 mechanics:
-- type:
-  - Effect
-  text:
-  - >-
+- type: Effect
+  text: >-
     Your opponent shuffles his or her hand into his or her deck,
     then draws 7 cards.
 illustrator: Ken Sugimori
@@ -2729,10 +2709,8 @@ trainer class: Trainer
 legality: n
 filename: 74-item-finder
 mechanics:
-- type:
-  - Effect
-  text:
-  - >-
+- type: Effect
+  text: >-
     Discard 2 other cards from your hand in order to put a Trainer
     card from your discard pile into your hand.
 illustrator: Keiji Kinebuchi
@@ -2746,10 +2724,8 @@ trainer class: Trainer
 legality: n
 filename: 75-lass
 mechanics:
-- type:
-  - Effect
-  text:
-  - >-
+- type: Effect
+  text: >-
     You and your opponent show each other your hands, then shuffle
     all the trainer cards from you hands into your decks.
 illustrator: Ken Sugimori
@@ -2763,10 +2739,8 @@ trainer class: Trainer
 legality: n
 filename: 76-pokemon-breeder
 mechanics:
-- type:
-  - Effect
-  text:
-  - >-
+- type: Effect
+  text: >-
     Put a Stage 2 Evolution card from your hand on the matching
     Basic Pokémon. You can only play this card when you would
     be allowed to evolve that Pokémon anyway.
@@ -2781,10 +2755,8 @@ trainer class: Trainer
 legality: n
 filename: 77-pokemon-trader
 mechanics:
-- type:
-  - Effect
-  text:
-  - >-
+- type: Effect
+  text: >-
     Trade 1 of the Basic Pokémon or Evolution cards in your hand
     for 1 of the Basic Pokémon or Evolution cards from your deck.
     Show both cards to your opponent. Shuffle your deck afterward.
@@ -2799,10 +2771,8 @@ trainer class: Trainer
 legality: n
 filename: 78-scoop-up
 mechanics:
-- type:
-  - Effect
-  text:
-  - >-
+- type: Effect
+  text: >-
     Choose 1 of your own Pokémon in play and return its Basic
     Pokémon card to your hand. (Discard all cards attached to
     that card.)
@@ -2817,10 +2787,8 @@ trainer class: Trainer
 legality: n
 filename: 79-super-energy-removal
 mechanics:
-- type:
-  - Effect
-  text:
-  - >-
+- type: Effect
+  text: >-
     Discard 1 Energy card attached to 1 of your own Pokémon in
     order to choose 1 of your opponent's Pokémon and up to 2 Energy
     cards attached to it. Discard those energy cards.
@@ -2835,10 +2803,8 @@ trainer class: Trainer
 legality: n
 filename: 80-defender
 mechanics:
-- type:
-  - Effect
-  text:
-  - >-
+- type: Effect
+  text: >-
     Attach Defender to 1 of your Pokémon. At the end of your opponent's
     next turn, discard Defender. Damage done to that Pokémon by
     attacks is reduced by 20 (after applying Weakness and Resistance.)
@@ -2853,10 +2819,8 @@ trainer class: Trainer
 legality: n
 filename: 81-energy-retrieval
 mechanics:
-- type:
-  - Effect
-  text:
-  - >-
+- type: Effect
+  text: >-
     Trade 1 of other cards in your hand for up to 2 basic Energy
     cards from your discard pile.
 illustrator: Keiji Kinebuchi
@@ -2870,10 +2834,8 @@ trainer class: Trainer
 legality: n
 filename: 82-full-heal
 mechanics:
-- type:
-  - Effect
-  text:
-  - >-
+- type: Effect
+  text: >-
     Your Active Pokémon is no longer Asleep, Confused, Paralyzed,
     or Poisoned.
 illustrator: Keiji Kinebuchi
@@ -2887,10 +2849,8 @@ trainer class: Trainer
 legality: n
 filename: 83-maintenance
 mechanics:
-- type:
-  - Effect
-  text:
-  - >-
+- type: Effect
+  text: >-
     Shuffle 2 of the other cards from your hand into your deck
     in order to draw a card.
 illustrator: Keiji Kinebuchi
@@ -2905,10 +2865,8 @@ legality: y
 filename: 84-pluspower
 dated: 'diamond-and-pearl: 109-pluspower'
 mechanics:
-- type:
-  - Effect
-  text:
-  - >-
+- type: Effect
+  text: >-
     Attach PlusPower to your Active Pokémon. At the end of your
     turn, discard PlusPower. If this Pokémon's attack does damage
     to the defending Pokémon (after applying Weakness and Resistance),
@@ -2924,10 +2882,8 @@ trainer class: Trainer
 legality: n
 filename: 85-pokemon-center
 mechanics:
-- type:
-  - Effect
-  text:
-  - >-
+- type: Effect
+  text: >-
     Remove all damage counters from all of your own Pokémon with
     damage counters on them, then discard all Energy cards attached
     to those Pokémon.
@@ -2942,10 +2898,8 @@ trainer class: Trainer
 legality: n
 filename: 86-pokemon-flute
 mechanics:
-- type:
-  - Effect
-  text:
-  - >-
+- type: Effect
+  text: >-
     Choose 1 Basic Pokémon card from your opponent's discard pile
     and put it on his or her Bench. (You can't play Pokémon Flute
     if your opponent's Bench is full.)
@@ -2960,10 +2914,8 @@ trainer class: Trainer
 legality: n
 filename: 87-pokedex
 mechanics:
-- type:
-  - Effect
-  text:
-  - >-
+- type: Effect
+  text: >-
     Look at up to 5 cards from the top of your deck and rearrange
     them as you like.
 illustrator: Keiji Kinebuchi
@@ -2977,10 +2929,8 @@ trainer class: Trainer
 legality: n
 filename: 88-professor-oak
 mechanics:
-- type:
-  - Effect
-  text:
-  - >-
+- type: Effect
+  text: >-
     Discard your hand, then draw 7 cards.
 illustrator: Ken Sugimori
 ---
@@ -2993,10 +2943,8 @@ trainer class: Trainer
 legality: n
 filename: 89-revive
 mechanics:
-- type:
-  - Effect
-  text:
-  - >-
+- type: Effect
+  text: >-
     Put 1 Basic Pokémon card from your discard pile onto your
     Bench. Put damage counters on that Pokémon equal to half its
     (rounded down to the nearest 10). (You can't play Revive if
@@ -3012,10 +2960,8 @@ trainer class: Trainer
 legality: n
 filename: 90-super-potion
 mechanics:
-- type:
-  - Effect
-  text:
-  - >-
+- type: Effect
+  text: >-
     Discard 1 Energy card attached to 1 of your own Pokémon in
     order to remove up to 4 damage counters from that Pokémon.
 illustrator: Keiji Kinebuchi
@@ -3029,10 +2975,8 @@ trainer class: Trainer
 legality: n
 filename: 91-bill
 mechanics:
-- type:
-  - Effect
-  text:
-  - >-
+- type: Effect
+  text: >-
     Draw 2 cards.
 illustrator: Ken Sugimori
 ---
@@ -3045,10 +2989,8 @@ trainer class: Trainer
 legality: n
 filename: 92-energy-removal
 mechanics:
-- type:
-  - Effect
-  text:
-  - >-
+- type: Effect
+  text: >-
     Choose 1 Energy card attached to 1 of your opponent's Pokémon
     and discard it.
 illustrator: Keiji Kinebuchi
@@ -3062,10 +3004,8 @@ trainer class: Trainer
 legality: n
 filename: 93-gust-of-wind
 mechanics:
-- type:
-  - Effect
-  text:
-  - >-
+- type: Effect
+  text: >-
     Choose 1 of your opponent's Benched Pokémon and switch it
     with his/her Active Pokémon.
 illustrator: Keiji Kinebuchi
@@ -3080,10 +3020,8 @@ legality: y
 filename: 94-potion
 orphan: 'ex-ruby-and-sapphire: 91-potion'
 mechanics:
-- type:
-  - Effect
-  text:
-  - >-
+- type: Effect
+  text: >-
     Remove up to 2 damage counters from 1 of your Pokémon.
 illustrator: Keiji Kinebuchi
 ---
@@ -3097,10 +3035,8 @@ legality: y
 filename: 95-switch
 orphan: 'ex-ruby-and-sapphire: 92-switch'
 mechanics:
-- type:
-  - Effect
-  text:
-  - >-
+- type: Effect
+  text: >-
     Switch 1 of your own Benched Pokémon with your Active Pokémon.
 illustrator: Keiji Kinebuchi
 ---
@@ -3113,10 +3049,8 @@ energy class: Special
 legality: n
 filename: 96-double-colorless-energy
 mechanics:
-- type:
-  - Effect
-  text:
-  - >-
+- type: Effect
+  text: >-
     Provides 2 colorless energy. Doesn't count as a basic energy
     card.
 illustrator: Keiji Kinebuchi
@@ -3130,10 +3064,8 @@ energy class: Basic
 legality: y
 filename: 97-fighting-energy
 mechanics:
-- type:
-  - Effect
-  text:
-  - >-
+- type: Effect
+  text: >-
     Provides 1 Fighting Energy.
 illustrator: Keiji Kinebuchi
 ---
@@ -3146,10 +3078,8 @@ energy class: Basic
 legality: y
 filename: 98-fire-energy
 mechanics:
-- type:
-  - Effect
-  text:
-  - >-
+- type: Effect
+  text: >-
     Provides 1 Fire Energy.
 illustrator: Keiji Kinebuchi
 ---
@@ -3162,10 +3092,8 @@ energy class: Basic
 legality: y
 filename: 99-grass-energy
 mechanics:
-- type:
-  - Effect
-  text:
-  - >-
+- type: Effect
+  text: >-
     Provides 1 Grass Energy.
 illustrator: Keiji Kinebuchi
 ---
@@ -3178,10 +3106,8 @@ energy class: Basic
 legality: y
 filename: 100-lightning-energy
 mechanics:
-- type:
-  - Effect
-  text:
-  - >-
+- type: Effect
+  text: >-
     Provides 1 Lightning Energy.
 illustrator: Keiji Kinebuchi
 ---
@@ -3194,10 +3120,8 @@ energy class: Basic
 legality: y
 filename: 101-psychic-energy
 mechanics:
-- type:
-  - Effect
-  text:
-  - >-
+- type: Effect
+  text: >-
     Provides 1 Psychic Energy.
 illustrator: Keiji Kinebuchi
 ---
@@ -3210,9 +3134,7 @@ energy class: Basic
 legality: y
 filename: 102-water-energy
 mechanics:
-- type:
-  - Effect
-  text:
-  - >-
+- type: Effect
+  text: >-
     Provides 1 Water Energy.
 illustrator: Keiji Kinebuchi

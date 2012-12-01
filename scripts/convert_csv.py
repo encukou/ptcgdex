@@ -1,11 +1,14 @@
-
+# Encoding: UTF-8
 """Usage:
-  convert_csv.py [options] [DESTDIR]
+  convert_csv.py [options] [<destdir>] [<infile>]
 
 Options:
   -h, --help     Display help
 
+infile defaults to stdin if not given.
 """
+
+from __future__ import division, print_function, unicode_literals
 
 import os
 import io
@@ -77,9 +80,10 @@ def append_nonempty(lst, value):
 class Dumper(yaml.SafeDumper):
     pass
 
-class Text(str):
+class Text(unicode):
     def __new__(cls, value=''):
-        return str.__new__(cls, value.replace('’', "'"))
+        print(`value`)
+        return unicode.__new__(cls, value.replace('’', "'"))
 
 def long_text_representer(dumper, data):
     return dumper.represent_scalar('tag:yaml.org,2002:str', data, style='>')
@@ -109,7 +113,7 @@ def main(infile, destdir=None):
         print()
         def pop(name):
             item = data.pop(name)
-            return item.strip()
+            return item.strip().decode('utf-8')
 
         def simple_out(outname, name, convertor=None):
             arg = pop(name)
@@ -182,8 +186,8 @@ def main(infile, destdir=None):
                     mechanic = OrderedDict()
                     if name_name:
                         mechanic['name'] = pop(name_name)
-                    mechanic['type'] = label,
-                    mechanic['text'] = Text(text),
+                    mechanic['type'] = label
+                    mechanic['text'] = Text(text)
                     mechanics.append(mechanic)
 
         with nonempty_setter(result, 'attacks') as attacks:
@@ -269,8 +273,12 @@ def main(infile, destdir=None):
                 for card in cards:
                     setfile.write(dump(card))
 
-sys.stdin = io.TextIOWrapper(sys.stdin.detach(), encoding='UTF-8', line_buffering=True)
+#sys.stdin = io.TextIOWrapper(sys.stdin.detach(), encoding='UTF-8', line_buffering=True)
 
 if __name__ == '__main__':
     arguments = docopt(__doc__, argv=sys.argv[1:], help=True, version=None)
-    main(sys.stdin, arguments['DESTDIR'])
+    if arguments['<infile>']:
+        infile = open(arguments['<infile>'])
+    else:
+        infile = sys.stdin
+    main(infile, arguments['<destdir>'])
