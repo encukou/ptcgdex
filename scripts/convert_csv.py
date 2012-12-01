@@ -82,7 +82,6 @@ class Dumper(yaml.SafeDumper):
 
 class Text(unicode):
     def __new__(cls, value=''):
-        print(`value`)
         return unicode.__new__(cls, value.replace('’', "'"))
 
 def long_text_representer(dumper, data):
@@ -130,7 +129,11 @@ def main(infile, destdir=None):
         simple_out('number', 'num')
         simple_out('name', 'card-name')
 
-        simple_out('rarity', 'rarity')
+        rarity = pop('rarity')
+        rarity, holo, end = rarity.partition('-holo')
+        assert not end, (rarity, holo, end)
+        result['rarity'] = rarity
+        result['holographic'] = bool(holo)
 
         simple_out('class', 'class')
         simple_out('class', 'class2')

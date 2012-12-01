@@ -2,7 +2,8 @@
 set: base-set
 number: '1'
 name: Alakazam
-rarity: rare-holo
+rarity: rare
+holographic: true
 class: P
 types:
 - Psychic
@@ -45,7 +46,8 @@ illustrator: Ken Sugimori
 set: base-set
 number: '2'
 name: Blastoise
-rarity: rare-holo
+rarity: rare
+holographic: true
 class: P
 types:
 - Water
@@ -91,7 +93,8 @@ illustrator: Ken Sugimori
 set: base-set
 number: '3'
 name: Chansey
-rarity: rare-holo
+rarity: rare
+holographic: true
 class: P
 types:
 - Colorless
@@ -131,7 +134,8 @@ illustrator: Ken Sugimori
 set: base-set
 number: '4'
 name: Charizard
-rarity: rare-holo
+rarity: rare
+holographic: true
 class: P
 types:
 - Fire
@@ -176,7 +180,8 @@ illustrator: Mitsuhiro Arita
 set: base-set
 number: '5'
 name: Clefairy
-rarity: rare-holo
+rarity: rare
+holographic: true
 class: P
 types:
 - Colorless
@@ -217,7 +222,8 @@ illustrator: Ken Sugimori
 set: base-set
 number: '6'
 name: Gyarados
-rarity: rare-holo
+rarity: rare
+holographic: true
 class: P
 types:
 - Water
@@ -255,7 +261,8 @@ illustrator: Mitsuhiro Arita
 set: base-set
 number: '7'
 name: Hitmonchan
-rarity: rare-holo
+rarity: rare
+holographic: true
 class: P
 types:
 - Fighting
@@ -291,7 +298,8 @@ illustrator: Ken Sugimori
 set: base-set
 number: '8'
 name: Machamp
-rarity: rare-holo
+rarity: rare
+holographic: true
 class: P
 types:
 - Fighting
@@ -333,7 +341,8 @@ illustrator: Ken Sugimori
 set: base-set
 number: '9'
 name: Magneton
-rarity: rare-holo
+rarity: rare
+holographic: true
 class: P
 types:
 - Lightning
@@ -375,7 +384,8 @@ illustrator: Keiji Kinebuchi
 set: base-set
 number: '10'
 name: Mewtwo
-rarity: rare-holo
+rarity: rare
+holographic: true
 class: P
 types:
 - Psychic
@@ -416,7 +426,8 @@ illustrator: Ken Sugimori
 set: base-set
 number: '11'
 name: Nidoking
-rarity: rare-holo
+rarity: rare
+holographic: true
 class: P
 types:
 - Grass
@@ -460,7 +471,8 @@ illustrator: Ken Sugimori
 set: base-set
 number: '12'
 name: Ninetales
-rarity: rare-holo
+rarity: rare
+holographic: true
 class: P
 types:
 - Fire
@@ -501,7 +513,8 @@ illustrator: Ken Sugimori
 set: base-set
 number: '13'
 name: Poliwrath
-rarity: rare-holo
+rarity: rare
+holographic: true
 class: P
 types:
 - Water
@@ -544,7 +557,8 @@ illustrator: Ken Sugimori
 set: base-set
 number: '14'
 name: Raichu
-rarity: rare-holo
+rarity: rare
+holographic: true
 class: P
 types:
 - Lightning
@@ -585,7 +599,8 @@ illustrator: Ken Sugimori
 set: base-set
 number: '15'
 name: Venusaur
-rarity: rare-holo
+rarity: rare
+holographic: true
 class: P
 types:
 - Grass
@@ -626,7 +641,8 @@ illustrator: Mitsuhiro Arita
 set: base-set
 number: '16'
 name: Zapdos
-rarity: rare-holo
+rarity: rare
+holographic: true
 class: P
 types:
 - Lightning
@@ -663,6 +679,7 @@ set: base-set
 number: '17'
 name: Beedrill
 rarity: rare
+holographic: false
 class: P
 types:
 - Grass
@@ -703,6 +720,7 @@ set: base-set
 number: '18'
 name: Dragonair
 rarity: rare
+holographic: false
 class: P
 types:
 - Colorless
@@ -740,6 +758,7 @@ set: base-set
 number: '19'
 name: Dugtrio
 rarity: rare
+holographic: false
 class: P
 types:
 - Fighting
@@ -779,6 +798,7 @@ set: base-set
 number: '20'
 name: Electabuzz
 rarity: rare
+holographic: false
 class: P
 types:
 - Lightning
@@ -821,6 +841,7 @@ set: base-set
 number: '21'
 name: Electrode
 rarity: rare
+holographic: false
 class: E
 types:
 - Lightning
@@ -866,6 +887,7 @@ set: base-set
 number: '22'
 name: Pidgeotto
 rarity: rare
+holographic: false
 class: P
 types:
 - Colorless
@@ -908,6 +930,7 @@ set: base-set
 number: '23'
 name: Arcanine
 rarity: uncommon
+holographic: false
 class: P
 types:
 - Fire
@@ -949,6 +972,7 @@ set: base-set
 number: '24'
 name: Charmeleon
 rarity: uncommon
+holographic: false
 class: P
 types:
 - Fire
@@ -989,6 +1013,7 @@ set: base-set
 number: '25'
 name: Dewgong
 rarity: uncommon
+holographic: false
 class: P
 types:
 - Water
@@ -1027,6 +1052,7 @@ set: base-set
 number: '26'
 name: Dratini
 rarity: uncommon
+holographic: false
 class: P
 types:
 - Colorless
@@ -1055,6 +1081,7 @@ set: base-set
 number: '27'
 name: Farfetch'd
 rarity: uncommon
+holographic: false
 class: P
 types:
 - Colorless
@@ -1095,6 +1122,7 @@ set: base-set
 number: '28'
 name: Growlithe
 rarity: uncommon
+holographic: false
 class: P
 types:
 - Fire
@@ -1127,6 +1155,7 @@ set: base-set
 number: '29'
 name: Haunter
 rarity: uncommon
+holographic: false
 class: P
 types:
 - Psychic
@@ -1163,6 +1192,7 @@ set: base-set
 number: '30'
 name: Ivysaur
 rarity: uncommon
+holographic: false
 class: P
 types:
 - Grass
@@ -1201,6 +1231,7 @@ set: base-set
 number: '31'
 name: Jynx
 rarity: uncommon
+holographic: false
 class: P
 types:
 - Psychic
@@ -1242,6 +1273,7 @@ set: base-set
 number: '32'
 name: Kadabra
 rarity: uncommon
+holographic: false
 class: P
 types:
 - Psychic
@@ -1280,6 +1312,7 @@ set: base-set
 number: '33'
 name: Kakuna
 rarity: uncommon
+holographic: false
 class: P
 types:
 - Grass
@@ -1321,6 +1354,7 @@ set: base-set
 number: '34'
 name: Machoke
 rarity: uncommon
+holographic: false
 class: P
 types:
 - Fighting
@@ -1362,6 +1396,7 @@ set: base-set
 number: '35'
 name: Magikarp
 rarity: uncommon
+holographic: false
 class: P
 types:
 - Water
@@ -1399,6 +1434,7 @@ set: base-set
 number: '36'
 name: Magmar
 rarity: uncommon
+holographic: false
 class: P
 types:
 - Fire
@@ -1437,6 +1473,7 @@ set: base-set
 number: '37'
 name: Nidorino
 rarity: uncommon
+holographic: false
 class: P
 types:
 - Grass
@@ -1475,6 +1512,7 @@ set: base-set
 number: '38'
 name: Poliwhirl
 rarity: uncommon
+holographic: false
 class: P
 types:
 - Water
@@ -1515,6 +1553,7 @@ set: base-set
 number: '39'
 name: Porygon
 rarity: uncommon
+holographic: false
 class: P
 types:
 - Colorless
@@ -1554,6 +1593,7 @@ set: base-set
 number: '40'
 name: Raticate
 rarity: uncommon
+holographic: false
 class: P
 types:
 - Colorless
@@ -1593,6 +1633,7 @@ set: base-set
 number: '41'
 name: Seel
 rarity: uncommon
+holographic: false
 class: P
 types:
 - Water
@@ -1625,6 +1666,7 @@ set: base-set
 number: '42'
 name: Wartortle
 rarity: uncommon
+holographic: false
 class: P
 types:
 - Water
@@ -1664,6 +1706,7 @@ set: base-set
 number: '43'
 name: Abra
 rarity: common
+holographic: false
 class: P
 types:
 - Psychic
@@ -1698,6 +1741,7 @@ set: base-set
 number: '44'
 name: Bulbasaur
 rarity: common
+holographic: false
 class: P
 types:
 - Grass
@@ -1733,6 +1777,7 @@ set: base-set
 number: '45'
 name: Caterpie
 rarity: common
+holographic: false
 class: P
 types:
 - Grass
@@ -1767,6 +1812,7 @@ set: base-set
 number: '46'
 name: Charmander
 rarity: common
+holographic: false
 class: P
 types:
 - Fire
@@ -1805,6 +1851,7 @@ set: base-set
 number: '47'
 name: Diglett
 rarity: common
+holographic: false
 class: P
 types:
 - Fighting
@@ -1840,6 +1887,7 @@ set: base-set
 number: '48'
 name: Doduo
 rarity: common
+holographic: false
 class: P
 types:
 - Colorless
@@ -1875,6 +1923,7 @@ set: base-set
 number: '49'
 name: Drowzee
 rarity: common
+holographic: false
 class: P
 types:
 - Psychic
@@ -1912,6 +1961,7 @@ set: base-set
 number: '50'
 name: Gastly
 rarity: common
+holographic: false
 class: P
 types:
 - Psychic
@@ -1947,6 +1997,7 @@ set: base-set
 number: '51'
 name: Koffing
 rarity: common
+holographic: false
 class: P
 types:
 - Grass
@@ -1982,6 +2033,7 @@ set: base-set
 number: '52'
 name: Machop
 rarity: common
+holographic: false
 class: P
 types:
 - Fighting
@@ -2014,6 +2066,7 @@ set: base-set
 number: '53'
 name: Magnemite
 rarity: common
+holographic: false
 class: P
 types:
 - Lightning
@@ -2055,6 +2108,7 @@ set: base-set
 number: '54'
 name: Metapod
 rarity: common
+holographic: false
 class: P
 types:
 - Grass
@@ -2096,6 +2150,7 @@ set: base-set
 number: '55'
 name: Nidoran ♂
 rarity: common
+holographic: false
 class: P
 types:
 - Grass
@@ -2130,6 +2185,7 @@ set: base-set
 number: '56'
 name: Onix
 rarity: common
+holographic: false
 class: P
 types:
 - Fighting
@@ -2168,6 +2224,7 @@ set: base-set
 number: '57'
 name: Pidgey
 rarity: common
+holographic: false
 class: P
 types:
 - Colorless
@@ -2204,6 +2261,7 @@ set: base-set
 number: '58'
 name: Pikachu
 rarity: common
+holographic: false
 class: P
 types:
 - Lightning
@@ -2243,6 +2301,7 @@ set: base-set
 number: '59'
 name: Poliwag
 rarity: common
+holographic: false
 class: P
 types:
 - Water
@@ -2278,6 +2337,7 @@ set: base-set
 number: '60'
 name: Ponyta
 rarity: common
+holographic: false
 class: P
 types:
 - Fire
@@ -2313,6 +2373,7 @@ set: base-set
 number: '61'
 name: Rattata
 rarity: common
+holographic: false
 class: P
 types:
 - Colorless
@@ -2345,6 +2406,7 @@ set: base-set
 number: '62'
 name: Sandshrew
 rarity: common
+holographic: false
 class: P
 types:
 - Fighting
@@ -2381,6 +2443,7 @@ set: base-set
 number: '63'
 name: Squirtle
 rarity: common
+holographic: false
 class: P
 types:
 - Water
@@ -2421,6 +2484,7 @@ set: base-set
 number: '64'
 name: Starmie
 rarity: common
+holographic: false
 class: P
 types:
 - Water
@@ -2461,6 +2525,7 @@ set: base-set
 number: '65'
 name: Staryu
 rarity: common
+holographic: false
 class: P
 types:
 - Water
@@ -2493,6 +2558,7 @@ set: base-set
 number: '66'
 name: Tangela
 rarity: common
+holographic: false
 class: P
 types:
 - Grass
@@ -2532,6 +2598,7 @@ set: base-set
 number: '67'
 name: Voltorb
 rarity: common
+holographic: false
 class: P
 types:
 - Lightning
@@ -2564,6 +2631,7 @@ set: base-set
 number: '68'
 name: Vulpix
 rarity: common
+holographic: false
 class: P
 types:
 - Fire
@@ -2598,6 +2666,7 @@ set: base-set
 number: '69'
 name: Weedle
 rarity: common
+holographic: false
 class: P
 types:
 - Grass
@@ -2632,6 +2701,7 @@ set: base-set
 number: '70'
 name: Clefairy Doll
 rarity: rare
+holographic: false
 class: P
 types:
 - Colorless
@@ -2655,6 +2725,7 @@ set: base-set
 number: '71'
 name: Computer Search
 rarity: rare
+holographic: false
 class: T
 trainer class: Trainer
 legality: n
@@ -2671,6 +2742,7 @@ set: base-set
 number: '72'
 name: Devolution Spray
 rarity: rare
+holographic: false
 class: T
 trainer class: Trainer
 legality: n
@@ -2689,6 +2761,7 @@ set: base-set
 number: '73'
 name: Impostor Professor Oak
 rarity: rare
+holographic: false
 class: T
 trainer class: Trainer
 legality: n
@@ -2704,6 +2777,7 @@ set: base-set
 number: '74'
 name: Item Finder
 rarity: rare
+holographic: false
 class: T
 trainer class: Trainer
 legality: n
@@ -2719,6 +2793,7 @@ set: base-set
 number: '75'
 name: Lass
 rarity: rare
+holographic: false
 class: T
 trainer class: Trainer
 legality: n
@@ -2734,6 +2809,7 @@ set: base-set
 number: '76'
 name: Pokémon Breeder
 rarity: rare
+holographic: false
 class: T
 trainer class: Trainer
 legality: n
@@ -2750,6 +2826,7 @@ set: base-set
 number: '77'
 name: Pokémon Trader
 rarity: rare
+holographic: false
 class: T
 trainer class: Trainer
 legality: n
@@ -2766,6 +2843,7 @@ set: base-set
 number: '78'
 name: Scoop Up
 rarity: rare
+holographic: false
 class: T
 trainer class: Trainer
 legality: n
@@ -2782,6 +2860,7 @@ set: base-set
 number: '79'
 name: Super Energy Removal
 rarity: rare
+holographic: false
 class: T
 trainer class: Trainer
 legality: n
@@ -2798,6 +2877,7 @@ set: base-set
 number: '80'
 name: Defender
 rarity: uncommon
+holographic: false
 class: T
 trainer class: Trainer
 legality: n
@@ -2814,6 +2894,7 @@ set: base-set
 number: '81'
 name: Energy Retrieval
 rarity: uncommon
+holographic: false
 class: T
 trainer class: Trainer
 legality: n
@@ -2829,6 +2910,7 @@ set: base-set
 number: '82'
 name: Full Heal
 rarity: uncommon
+holographic: false
 class: T
 trainer class: Trainer
 legality: n
@@ -2844,6 +2926,7 @@ set: base-set
 number: '83'
 name: Maintenance
 rarity: uncommon
+holographic: false
 class: T
 trainer class: Trainer
 legality: n
@@ -2859,6 +2942,7 @@ set: base-set
 number: '84'
 name: PlusPower
 rarity: uncommon
+holographic: false
 class: T
 trainer class: Trainer
 legality: y
@@ -2877,6 +2961,7 @@ set: base-set
 number: '85'
 name: Pokémon Center
 rarity: uncommon
+holographic: false
 class: T
 trainer class: Trainer
 legality: n
@@ -2893,6 +2978,7 @@ set: base-set
 number: '86'
 name: Pokémon Flute
 rarity: uncommon
+holographic: false
 class: T
 trainer class: Trainer
 legality: n
@@ -2909,6 +2995,7 @@ set: base-set
 number: '87'
 name: Pokédex
 rarity: uncommon
+holographic: false
 class: T
 trainer class: Trainer
 legality: n
@@ -2924,6 +3011,7 @@ set: base-set
 number: '88'
 name: Professor Oak
 rarity: uncommon
+holographic: false
 class: T
 trainer class: Trainer
 legality: n
@@ -2938,6 +3026,7 @@ set: base-set
 number: '89'
 name: Revive
 rarity: uncommon
+holographic: false
 class: T
 trainer class: Trainer
 legality: n
@@ -2955,6 +3044,7 @@ set: base-set
 number: '90'
 name: Super Potion
 rarity: uncommon
+holographic: false
 class: T
 trainer class: Trainer
 legality: n
@@ -2970,6 +3060,7 @@ set: base-set
 number: '91'
 name: Bill
 rarity: common
+holographic: false
 class: T
 trainer class: Trainer
 legality: n
@@ -2984,6 +3075,7 @@ set: base-set
 number: '92'
 name: Energy Removal
 rarity: common
+holographic: false
 class: T
 trainer class: Trainer
 legality: n
@@ -2999,6 +3091,7 @@ set: base-set
 number: '93'
 name: Gust of Wind
 rarity: common
+holographic: false
 class: T
 trainer class: Trainer
 legality: n
@@ -3014,6 +3107,7 @@ set: base-set
 number: '94'
 name: Potion
 rarity: common
+holographic: false
 class: T
 trainer class: Trainer
 legality: y
@@ -3029,6 +3123,7 @@ set: base-set
 number: '95'
 name: Switch
 rarity: common
+holographic: false
 class: T
 trainer class: Trainer
 legality: y
@@ -3044,6 +3139,7 @@ set: base-set
 number: '96'
 name: Double Colorless Energy
 rarity: uncommon
+holographic: false
 class: E
 energy class: Special
 legality: n
@@ -3059,6 +3155,7 @@ set: base-set
 number: '97'
 name: Fighting Energy
 rarity: none
+holographic: false
 class: E
 energy class: Basic
 legality: y
@@ -3073,6 +3170,7 @@ set: base-set
 number: '98'
 name: Fire Energy
 rarity: none
+holographic: false
 class: E
 energy class: Basic
 legality: y
@@ -3087,6 +3185,7 @@ set: base-set
 number: '99'
 name: Grass Energy
 rarity: none
+holographic: false
 class: E
 energy class: Basic
 legality: y
@@ -3101,6 +3200,7 @@ set: base-set
 number: '100'
 name: Lightning Energy
 rarity: none
+holographic: false
 class: E
 energy class: Basic
 legality: y
@@ -3115,6 +3215,7 @@ set: base-set
 number: '101'
 name: Psychic Energy
 rarity: none
+holographic: false
 class: E
 energy class: Basic
 legality: y
@@ -3129,6 +3230,7 @@ set: base-set
 number: '102'
 name: Water Energy
 rarity: none
+holographic: false
 class: E
 energy class: Basic
 legality: y
