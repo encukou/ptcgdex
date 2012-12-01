@@ -22,12 +22,12 @@ mechanics:
     you may move 1 damage counter from one of your Pokémon to
     another as long as you don't Knock Out that Pokémon. This
     power can't be used if Alakazam is Asleep, Confused, or Paralyzed.
-attacks:
 - name: Confuse Ray
   cost: PPP
+  damage: '30'
+  type: Attack
   text: >-
     Flip a coin. If heads, the Defending Pokémon is now Confused.
-  damage: '30'
 weakness:
   amount: 2
   operation: x
@@ -67,14 +67,14 @@ mechanics:
     doesn't use up your 1 Energy card attachment for the turn.)
     This power can't be used if Blastoise is Asleep, Confused,
     or Paralyzed.
-attacks:
 - name: Hydro Pump
   cost: WWW
+  damage: 40+
+  type: Attack
   text: >-
     Does 40 damage plus 10 more damage for each W Energy attached
     to Blastoise but not used to pay for this attack's Energy
     cost. Extra W Energy after the 2nd doesn't count.
-  damage: 40+
 weakness:
   amount: 2
   operation: x
@@ -104,18 +104,20 @@ evo line: Happiny
 legality: n
 filename: 3-chansey
 pokemon: Chansey
-attacks:
+mechanics:
 - name: Scrunch
   cost: CC
+  type: Attack
   text: >-
     Flip a coin. If heads, prevent all damage done to Chansey
     during your opponent's next turn. (Any other effects of attacks
     still happen.)
 - name: Double-edge
   cost: CCCC
+  damage: '80'
+  type: Attack
   text: >-
     Chansey does 80 damage to itself.
-  damage: '80'
 weakness:
   amount: 2
   operation: x
@@ -155,13 +157,13 @@ mechanics:
     you may turn all Energy attached to Charizard into R Energy
     for the rest of the turn. This power can't be used if Charizard
     is Asleep, Confused, or Paralyzed.
-attacks:
 - name: Fire Spin
   cost: RRRR
+  damage: '100'
+  type: Attack
   text: >-
     Discard 2 Energy cards attached to Charizard in order to use
     this attack.
-  damage: '100'
 weakness:
   amount: 2
   operation: x
@@ -191,13 +193,15 @@ evo line: Cleffa
 legality: n
 filename: 5-clefairy
 pokemon: Clefairy
-attacks:
+mechanics:
 - name: Sing
   cost: C
+  type: Attack
   text: >-
     Flip a coin. If heads, the Defending Pokémon is now Asleep.
 - name: Metronome
   cost: CCC
+  type: Attack
   text: >-
     Choose one of the Defending Pokémon's attacks. Metronome copies
     that attack except for its Energy costs and anything else
@@ -234,15 +238,18 @@ evo line: Magikarp
 legality: n
 filename: 6-gyarados
 pokemon: Gyarados
-attacks:
+mechanics:
 - name: Dragon Rage
   cost: WWW
   damage: '50'
+  type: Attack
+  text: ""
 - name: Bubblebeam
   cost: WWWW
+  damage: '40'
+  type: Attack
   text: >-
     Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
-  damage: '40'
 weakness:
   amount: 2
   operation: x
@@ -273,13 +280,17 @@ legality: y
 filename: 7-hitmonchan
 orphan: 'platinum: 129-hitmonchan'
 pokemon: Hitmonchan
-attacks:
+mechanics:
 - name: Jab
   cost: F
   damage: '20'
+  type: Attack
+  text: ""
 - name: Special Punch
   cost: CFF
   damage: '40'
+  type: Attack
+  text: ""
 weakness:
   amount: 2
   operation: x
@@ -319,10 +330,11 @@ mechanics:
     Pokémon. (Don't apply Weakness and Resistance.) This power
     can't be used if Machamp is already Asleep, Confused, or Paralyzed
     when your opponent attacks.
-attacks:
 - name: Seismic Toss
   cost: FFFC
   damage: '60'
+  type: Attack
+  text: ""
 weakness:
   amount: 2
   operation: x
@@ -353,19 +365,21 @@ evo line: Magnemite
 legality: n
 filename: 9-magneton
 pokemon: Magneton
-attacks:
+mechanics:
 - name: Thunder Wave
   cost: LLC
+  damage: '30'
+  type: Attack
   text: >-
     Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
-  damage: '30'
 - name: Selfdestruct
   cost: CCLL
+  damage: '80'
+  type: Attack
   text: >-
     Does 20 damage to each Pokémon on each player's Bench. (Don't
     apply Weakness or Resistance for Benched Pokémon.) Magneton
     does 80 damage to itself.
-  damage: '80'
 weakness:
   amount: 2
   operation: x
@@ -395,15 +409,17 @@ evo line: Mewtwo
 legality: n
 filename: 10-mewtwo
 pokemon: Mewtwo
-attacks:
+mechanics:
 - name: Psychic
   cost: PC
+  damage: 10+
+  type: Attack
   text: >-
     Does 10 damage plus 10 more damage for each Energy card attached
     to the Defending Pokémon.
-  damage: 10+
 - name: Barrier
   cost: PP
+  type: Attack
   text: >-
     Discard 1 P Energy card attached to Mewtwo in order to prevent
     all effects of attacks, including damage, done to Mewtwo during
@@ -438,21 +454,23 @@ evo line: Nidoran M
 legality: n
 filename: 11-nidoking
 pokemon: Nidoking
-attacks:
+mechanics:
 - name: Thrash
   cost: GCC
+  damage: 30+
+  type: Attack
   text: >-
     Flip a coin. If heads, this attack does 30 damage plus 10
     more damage; If tails, this attack does 30 damage plus Nidoking
     does 10 damage to itself.
-  damage: 30+
 - name: Toxic
   cost: GGG
+  damage: '20'
+  type: Attack
   text: >-
     The Defending Pokémon is now Poisoned. It now takes 20 Poison
     damage instead of 10 after each player's turn (even if it
     was already Poisoned).
-  damage: '20'
 weakness:
   amount: 2
   operation: x
@@ -483,18 +501,20 @@ evo line: Vulpix
 legality: n
 filename: 12-ninetales
 pokemon: Ninetales
-attacks:
+mechanics:
 - name: Lure
   cost: CC
+  type: Attack
   text: >-
     If your opponent has any Benched Pokémon, choose 1 of them
     and switch it with his or her Active Pokémon.
 - name: Fire Blast
   cost: RRRR
+  damage: '80'
+  type: Attack
   text: >-
     Discard 1 R Energy card attached to Ninetales in order to
     use this attack.
-  damage: '80'
 weakness:
   amount: 2
   operation: x
@@ -525,20 +545,22 @@ evo line: Poliwag
 legality: n
 filename: 13-poliwrath
 pokemon: Poliwrath
-attacks:
+mechanics:
 - name: Water Gun
   cost: WWC
+  damage: 30+
+  type: Attack
   text: >-
     Does 30 damage plus 10 more damage for each W Energy attached
     to Poliwrath but not used to pay for this attack's Energy
     cost. Extra W Energy after the 2nd doesn't count.
-  damage: 30+
 - name: Whirlpool
   cost: CCWW
+  damage: '40'
+  type: Attack
   text: >-
     If the Defending Pokémon has any Energy cards attached to
     it, choose 1 of them and discard it.
-  damage: '40'
 weakness:
   amount: 2
   operation: x
@@ -569,18 +591,20 @@ evo line: Pichu
 legality: n
 filename: 14-raichu
 pokemon: Raichu
-attacks:
+mechanics:
 - name: Agility
   cost: LCC
+  damage: '20'
+  type: Attack
   text: >-
     Flip a coin. If heads, during your opponent's next turn, prevent
     all effects of attacks, including damage, done to Raichu.
-  damage: '20'
 - name: Thunder
   cost: CLLL
+  damage: '60'
+  type: Attack
   text: >-
     Flip a coin. If tails, Raichu does 30 damage to itself.
-  damage: '60'
 weakness:
   amount: 2
   operation: x
@@ -619,10 +643,11 @@ mechanics:
     you may take 1 G Energy card attached to 1 of your Pokémon
     and attach it to a different one. This power can't be used
     if Venusaur is Asleep, Confused, or Paralyzed.
-attacks:
 - name: Solarbeam
   cost: GGGG
   damage: '60'
+  type: Attack
+  text: ""
 weakness:
   amount: 2
   operation: x
@@ -652,18 +677,20 @@ evo line: Zapdos
 legality: n
 filename: 16-zapdos
 pokemon: Zapdos
-attacks:
+mechanics:
 - name: Thunder
   cost: LLLC
+  damage: '60'
+  type: Attack
   text: >-
     Flip a coin. If tails, Zapdos does 30 damage to itself.
-  damage: '60'
 - name: Thunderbolt
   cost: LLLL
+  damage: '100'
+  type: Attack
   text: >-
     Discard all Energy cards attached to Zapdos in order to use
     this attack.
-  damage: '100'
 resistance: F
 retreat: 3
 dex number: 145
@@ -690,17 +717,19 @@ evo line: Weedle
 legality: n
 filename: 17-beedrill
 pokemon: Beedrill
-attacks:
+mechanics:
 - name: Twineedle
   cost: CCC
+  damage: 30x
+  type: Attack
   text: >-
     Flip 2 coins. This attack does 30 times number of heads.
-  damage: 30x
 - name: Poison Sting
   cost: GGG
+  damage: '40'
+  type: Attack
   text: >-
     Flip a coin. If heads, the Defending Pokémon is now Poisoned.
-  damage: '40'
 weakness:
   amount: 2
   operation: x
@@ -731,18 +760,20 @@ evo line: Dratini
 legality: n
 filename: 18-dragonair
 pokemon: Dragonair
-attacks:
+mechanics:
 - name: Slam
   cost: CCC
+  damage: 30x
+  type: Attack
   text: >-
     Flip 2 coins. This attack does 30 damage times number of heads.
-  damage: 30x
 - name: Hyper Beam
   cost: CCCC
+  damage: '20'
+  type: Attack
   text: >-
     If the Defending Pokémon has any Energy cards attached to
     it, choose 1 of them and discard it
-  damage: '20'
 resistance: P
 retreat: 2
 dex number: 148
@@ -769,16 +800,19 @@ evo line: Diglett
 legality: n
 filename: 19-dugtrio
 pokemon: Dugtrio
-attacks:
+mechanics:
 - name: Slash
   cost: FFC
   damage: '40'
+  type: Attack
+  text: ""
 - name: Earthquake
   cost: FFFF
+  damage: '70'
+  type: Attack
   text: >-
     Does 10 damage to each of your own Benched Pokémon. (Don't
     apply Weakness or Resistance for Benched Pokémon.)
-  damage: '70'
 weakness:
   amount: 2
   operation: x
@@ -809,19 +843,21 @@ legality: y
 filename: 20-electabuzz
 orphan: 'platinum: 128-electabuzz'
 pokemon: Electabuzz
-attacks:
+mechanics:
 - name: Thundershock
   cost: L
+  damage: '10'
+  type: Attack
   text: >-
     Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
-  damage: '10'
 - name: Thunderpunch
   cost: CL
+  damage: 30+
+  type: Attack
   text: >-
     Flip a coin. If heads, this attack does 30 damage plus 10
     more damage; if tails, this attack does 30 damage plus Electabuzz
     does 10 damage to itself.
-  damage: 30+
 weakness:
   amount: 2
   operation: x
@@ -862,12 +898,12 @@ mechanics:
     card (instead of a Pokémon) that provides 2 energy of that
     type. You can't use this power if Electrode is Asleep, Confused,
     or Paralyzed.
-attacks:
 - name: Electric Shock
   cost: LLL
+  damage: '50'
+  type: Attack
   text: >-
     Flip a coin. If tails, Electrode does 10 damage to itself.
-  damage: '50'
 weakness:
   amount: 2
   operation: x
@@ -898,16 +934,18 @@ evo line: Pidgey
 legality: n
 filename: 22-pidgeotto
 pokemon: Pidgeotto
-attacks:
+mechanics:
 - name: Whirlwind
   cost: CC
+  damage: '20'
+  type: Attack
   text: >-
     If your opponent has any Benched Pokémon, he or she chooses
     1 of them and switches it with the Defending Pokémon. (Do
     the damage before switching the Pokémon.)
-  damage: '20'
 - name: Mirror Move
   cost: CCC
+  type: Attack
   text: >-
     If Pidgeotto was attacked last turn, do the final result of
     that attack on Pidgeotto to the Defending Pokémon.
@@ -941,18 +979,20 @@ evo line: Growlithe
 legality: n
 filename: 23-arcanine
 pokemon: Arcanine
-attacks:
+mechanics:
 - name: Flamethrower
   cost: RRC
+  damage: '50'
+  type: Attack
   text: >-
     Discard 1 R Energy card attached to Arcanine in order to use
     this attack.
-  damage: '50'
 - name: Take Down
   cost: CCRR
+  damage: '80'
+  type: Attack
   text: >-
     Arcanine does 30 damage to itself.
-  damage: '80'
 weakness:
   amount: 2
   operation: x
@@ -984,16 +1024,19 @@ legality: y
 filename: 24-charmeleon
 orphan: 'stormfront: 102-charmeleon'
 pokemon: Charmeleon
-attacks:
+mechanics:
 - name: Slash
   cost: CCC
   damage: '30'
+  type: Attack
+  text: ""
 - name: Flamethrower
   cost: CRR
+  damage: '50'
+  type: Attack
   text: >-
     Discard 1 R Energy card attached to Charmeleon in order to
     use this attack.
-  damage: '50'
 weakness:
   amount: 2
   operation: x
@@ -1024,15 +1067,18 @@ evo line: Seel
 legality: n
 filename: 25-dewgong
 pokemon: Dewgong
-attacks:
+mechanics:
 - name: Aurora Beam
   cost: WWC
   damage: '50'
+  type: Attack
+  text: ""
 - name: Ice Beam
   cost: CCWW
+  damage: '30'
+  type: Attack
   text: >-
     Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
-  damage: '30'
 weakness:
   amount: 2
   operation: x
@@ -1062,10 +1108,12 @@ evo line: Dratini
 legality: n
 filename: 26-dratini
 pokemon: Dratini
-attacks:
+mechanics:
 - name: Pound
   cost: C
   damage: '10'
+  type: Attack
+  text: ""
 resistance: P
 retreat: 1
 dex number: 147
@@ -1091,18 +1139,21 @@ evo line: Farfetch'd
 legality: n
 filename: 27-farfetch'd
 pokemon: Farfetch'd
-attacks:
+mechanics:
 - name: Leek Slap
   cost: C
+  damage: '30'
+  type: Attack
   text: >-
     Flip a coin. If tails, this attack does nothing. Either way,
     you can't use this attack again as long as Farfetch'd stays
     in play (even putting Farfetch'd on the Bench won't let you
     use it again).
-  damage: '30'
 - name: Pot Smash
   cost: CCC
   damage: '30'
+  type: Attack
+  text: ""
 weakness:
   amount: 2
   operation: x
@@ -1132,10 +1183,12 @@ evo line: Growlithe
 legality: n
 filename: 28-growlithe
 pokemon: Growlithe
-attacks:
+mechanics:
 - name: Flare
   cost: RC
   damage: '20'
+  type: Attack
+  text: ""
 weakness:
   amount: 2
   operation: x
@@ -1166,17 +1219,19 @@ evo line: Gastly
 legality: n
 filename: 29-haunter
 pokemon: Haunter
-attacks:
+mechanics:
 - name: Hypnosis
   cost: P
+  type: Attack
   text: >-
     The Defending Pokémon is now Asleep.
 - name: Dream Eater
   cost: PP
+  damage: '50'
+  type: Attack
   text: >-
     You can't use this attack unless the Defending Pokémon is
     Asleep.
-  damage: '50'
 resistance: F
 retreat: 1
 dex number: 93
@@ -1203,15 +1258,18 @@ evo line: Bulbasaur
 legality: n
 filename: 30-ivysaur
 pokemon: Ivysaur
-attacks:
+mechanics:
 - name: Vine Whip
   cost: GCC
   damage: '30'
+  type: Attack
+  text: ""
 - name: Poisonpowder
   cost: GGG
+  damage: '20'
+  type: Attack
   text: >-
     The Defending Pokémon is now Poisoned.
-  damage: '20'
 weakness:
   amount: 2
   operation: x
@@ -1241,19 +1299,21 @@ evo line: Smoochum
 legality: n
 filename: 31-jynx
 pokemon: Jynx
-attacks:
+mechanics:
 - name: Doubleslap
   cost: P
+  damage: 10x
+  type: Attack
   text: >-
     Flip 2 coins. This attack does 10 damage times the number
     of heads
-  damage: 10x
 - name: Meditate
   cost: CPP
+  damage: 20+
+  type: Attack
   text: >-
     Does 20 damage plus 10 more damage for each damage counter
     on the Defending Pokémon.
-  damage: 20+
 weakness:
   amount: 2
   operation: x
@@ -1284,15 +1344,18 @@ evo line: Abra
 legality: n
 filename: 32-kadabra
 pokemon: Kadabra
-attacks:
+mechanics:
 - name: Recover
   cost: PP
+  type: Attack
   text: >-
     Discard 1 P Energy card attached to Kadabra in order to use
     this attack. Remove all damage counters from Kadabra.
 - name: Super Psy
   cost: CPP
   damage: '50'
+  type: Attack
+  text: ""
 weakness:
   amount: 2
   operation: x
@@ -1323,18 +1386,20 @@ evo line: Weedle
 legality: n
 filename: 33-kakuna
 pokemon: Kakuna
-attacks:
+mechanics:
 - name: Stiffen
   cost: CC
+  type: Attack
   text: >-
     Flip a coin. If heads, prevent all damage done to Kakuna during
     opponent's next turn. (Any other effects of attacks still
     happen.)
 - name: Poisonpowder
   cost: GG
+  damage: '20'
+  type: Attack
   text: >-
     Flip a coin. If heads, the Defending Pokémon is now Poisoned.
-  damage: '20'
 weakness:
   amount: 2
   operation: x
@@ -1365,18 +1430,20 @@ evo line: Machop
 legality: n
 filename: 34-machoke
 pokemon: Machoke
-attacks:
+mechanics:
 - name: Karate Chop
   cost: FFC
+  damage: 50-
+  type: Attack
   text: >-
     Does 50 damage minus 10 damage for each damage counter on
     Machoke.
-  damage: 50-
 - name: Submission
   cost: CCFF
+  damage: '60'
+  type: Attack
   text: >-
     Machoke does 20 damage to itself.
-  damage: '60'
 weakness:
   amount: 2
   operation: x
@@ -1406,15 +1473,18 @@ evo line: Magikarp
 legality: n
 filename: 35-magikarp
 pokemon: Magikarp
-attacks:
+mechanics:
 - name: Tackle
   cost: C
   damage: '10'
+  type: Attack
+  text: ""
 - name: Flail
   cost: W
+  damage: 10x
+  type: Attack
   text: >-
     Does 10 damage times the number of damage counters on Magikarp.
-  damage: 10x
 weakness:
   amount: 2
   operation: x
@@ -1444,16 +1514,19 @@ evo line: Magby
 legality: n
 filename: 36-magmar
 pokemon: Magmar
-attacks:
+mechanics:
 - name: Fire Punch
   cost: RR
   damage: '30'
+  type: Attack
+  text: ""
 - name: Flamethrower
   cost: CRR
+  damage: '50'
+  type: Attack
   text: >-
     Discard 1 R Energy card attached to Magmar in order to use
     this attack.
-  damage: '50'
 weakness:
   amount: 2
   operation: x
@@ -1484,15 +1557,18 @@ evo line: Nidoran M
 legality: n
 filename: 37-nidorino
 pokemon: Nidorino
-attacks:
+mechanics:
 - name: Double Kick
   cost: GCC
+  damage: 30x
+  type: Attack
   text: >-
     Flip 2 coins. This attack does 30 damage times number of heads.
-  damage: 30x
 - name: Horn Drill
   cost: CCGG
   damage: '50'
+  type: Attack
+  text: ""
 weakness:
   amount: 2
   operation: x
@@ -1523,17 +1599,19 @@ evo line: Poliwag
 legality: n
 filename: 38-poliwhirl
 pokemon: Poliwhirl
-attacks:
+mechanics:
 - name: Amnesia
   cost: WW
+  type: Attack
   text: >-
     Choose 1 of Defending Pokémon's attacks. That Pokémon can't
     use that attack during your opponent's next turn.
 - name: Doubleslap
   cost: CWW
+  damage: 30x
+  type: Attack
   text: >-
     Flip 2 coins. This attack does 30 damage times number of heads.
-  damage: 30x
 weakness:
   amount: 2
   operation: x
@@ -1563,14 +1641,16 @@ evo line: Porygon
 legality: n
 filename: 39-porygon
 pokemon: Porygon
-attacks:
+mechanics:
 - name: Conversion 1
   cost: C
+  type: Attack
   text: >-
     If Defending Pokémon has a Weakness, you may change it to
     a type of your choice other than Colorless.
 - name: Conversion 2
   cost: CC
+  type: Attack
   text: >-
     Change Porygon's Resistance to a type of your choice other
     than Colorless.
@@ -1604,16 +1684,19 @@ evo line: Rattata
 legality: n
 filename: 40-raticate
 pokemon: Raticate
-attacks:
+mechanics:
 - name: Bite
   cost: C
   damage: '20'
+  type: Attack
+  text: ""
 - name: Super Fang
   cost: CCC
+  damage: '?'
+  type: Attack
   text: >-
     Does damage to defender equal to half the defender's remaining
     (rounded up to the nearest 10).
-  damage: '?'
 weakness:
   amount: 2
   operation: x
@@ -1643,10 +1726,12 @@ evo line: Seel
 legality: n
 filename: 41-seel
 pokemon: Seel
-attacks:
+mechanics:
 - name: Headbutt
   cost: W
   damage: '10'
+  type: Attack
+  text: ""
 weakness:
   amount: 2
   operation: x
@@ -1677,9 +1762,10 @@ evo line: Squirtle
 legality: n
 filename: 42-wartortle
 pokemon: Wartortle
-attacks:
+mechanics:
 - name: Withdraw
   cost: WC
+  type: Attack
   text: >-
     Flip a coin. If heads, prevent all damage done to Wartortle
     during your opponent's next turn. (Any other effects of attacks
@@ -1687,6 +1773,8 @@ attacks:
 - name: Bite
   cost: CCW
   damage: '40'
+  type: Attack
+  text: ""
 weakness:
   amount: 2
   operation: x
@@ -1716,12 +1804,13 @@ evo line: Abra
 legality: n
 filename: 43-abra
 pokemon: Abra
-attacks:
+mechanics:
 - name: Psyshock
   cost: P
+  damage: '10'
+  type: Attack
   text: >-
     Flip a coin. If heads, defender is now Paralyzed.
-  damage: '10'
 weakness:
   amount: 2
   operation: x
@@ -1751,13 +1840,14 @@ evo line: Bulbasaur
 legality: n
 filename: 44-bulbasaur
 pokemon: Bulbasaur
-attacks:
+mechanics:
 - name: Leech Seed
   cost: GG
+  damage: '20'
+  type: Attack
   text: >-
     Unless all damage from this attack is prevented, you may remove
     1 damage counter from Bulbasaur.
-  damage: '20'
 weakness:
   amount: 2
   operation: x
@@ -1787,12 +1877,13 @@ evo line: Caterpie
 legality: n
 filename: 45-caterpie
 pokemon: Caterpie
-attacks:
+mechanics:
 - name: String Shot
   cost: G
+  damage: '10'
+  type: Attack
   text: >-
     Flip a coin. If heads, the defender is now Paralyzed.
-  damage: '10'
 weakness:
   amount: 2
   operation: x
@@ -1823,15 +1914,18 @@ legality: y
 filename: 46-charmander
 orphan: 'stormfront: 101-charmander'
 pokemon: Charmander
-attacks:
+mechanics:
 - name: Scratch
   cost: C
   damage: '10'
+  type: Attack
+  text: ""
 - name: Ember
   cost: CR
+  damage: '30'
+  type: Attack
   text: >-
     Discard 1 Fire Energy card to use this attack.
-  damage: '30'
 weakness:
   amount: 2
   operation: x
@@ -1861,13 +1955,17 @@ evo line: Diglett
 legality: n
 filename: 47-diglett
 pokemon: Diglett
-attacks:
+mechanics:
 - name: Dig
   cost: F
   damage: '10'
+  type: Attack
+  text: ""
 - name: Mud Slap
   cost: FF
   damage: '30'
+  type: Attack
+  text: ""
 weakness:
   amount: 2
   operation: x
@@ -1897,13 +1995,14 @@ evo line: Doduo
 legality: n
 filename: 48-doduo
 pokemon: Doduo
-attacks:
+mechanics:
 - name: Fury Attack
   cost: C
+  damage: 10x
+  type: Attack
   text: >-
     Flip 2 coins. This attack does 10 damage times the number
     of heads.
-  damage: 10x
 weakness:
   amount: 2
   operation: x
@@ -1933,15 +2032,18 @@ evo line: Drowzee
 legality: n
 filename: 49-drowzee
 pokemon: Drowzee
-attacks:
+mechanics:
 - name: Pound
   cost: C
   damage: '10'
+  type: Attack
+  text: ""
 - name: Confuse Ray
   cost: PP
+  damage: '10'
+  type: Attack
   text: >-
     Flip a coin. If heads, defender is now Confused.
-  damage: '10'
 weakness:
   amount: 2
   operation: x
@@ -1971,13 +2073,15 @@ evo line: Gastly
 legality: n
 filename: 50-gastly
 pokemon: Gastly
-attacks:
+mechanics:
 - name: Sleeping Gas
   cost: P
+  type: Attack
   text: >-
     Flip a coin. If heads, defender is now Asleep.
 - name: Destiny Bond
   cost: CP
+  type: Attack
   text: >-
     Discard 1 Psychic Energy card to use this attack. If a Pokémon
     Knock Out's Gastly on opponent's next turn, Knock Out that
@@ -2007,13 +2111,14 @@ evo line: Koffing
 legality: n
 filename: 51-koffing
 pokemon: Koffing
-attacks:
+mechanics:
 - name: Foul Gas
   cost: GG
+  damage: '10'
+  type: Attack
   text: >-
     Flip a coin. If heads, defender is now Poisoned; If tails,
     defender is now Confused.
-  damage: '10'
 weakness:
   amount: 2
   operation: x
@@ -2043,10 +2148,12 @@ evo line: Machop
 legality: n
 filename: 52-machop
 pokemon: Machop
-attacks:
+mechanics:
 - name: Low Kick
   cost: F
   damage: '20'
+  type: Attack
+  text: ""
 weakness:
   amount: 2
   operation: x
@@ -2076,19 +2183,21 @@ evo line: Magnemite
 legality: n
 filename: 53-magnemite
 pokemon: Magnemite
-attacks:
+mechanics:
 - name: Thunder Wave
   cost: L
+  damage: '10'
+  type: Attack
   text: >-
     Flip a coin. If heads, defender is now Paralyzed.
-  damage: '10'
 - name: Selfdestruct
   cost: CL
+  damage: '40'
+  type: Attack
   text: >-
     Does 10 damage to each Pokémon on each Bench. (no weakness
     or resistance for Benched Pokémon.) Magnemite does 40 damage
     to self.
-  damage: '40'
 weakness:
   amount: 2
   operation: x
@@ -2119,18 +2228,20 @@ evo line: Caterpie
 legality: n
 filename: 54-metapod
 pokemon: Metapod
-attacks:
+mechanics:
 - name: Stiffen
   cost: CC
+  type: Attack
   text: >-
     Flip a coin. If heads, prevent all damage done to Metapod
     on opponent's next turn. (any other effects of attacks still
     happen.)
 - name: Stun Spore
   cost: GG
+  damage: '20'
+  type: Attack
   text: >-
     Flip a coin. If heads, defender is now Paralyzed.
-  damage: '20'
 weakness:
   amount: 2
   operation: x
@@ -2160,12 +2271,13 @@ evo line: Nidoran M
 legality: n
 filename: 55-nidoran-m
 pokemon: Nidoran M
-attacks:
+mechanics:
 - name: Horn Hazard
   cost: G
+  damage: '30'
+  type: Attack
   text: >-
     Flip a coin. If tails, this attack does nothing.
-  damage: '30'
 weakness:
   amount: 2
   operation: x
@@ -2195,12 +2307,15 @@ evo line: Onix
 legality: n
 filename: 56-onix
 pokemon: Onix
-attacks:
+mechanics:
 - name: Rock Throw
   cost: F
   damage: '10'
+  type: Attack
+  text: ""
 - name: Harden
   cost: FF
+  type: Attack
   text: >-
     During opponent's next turn, prevent 30 or less damage (after
     applying weakness and resistance). (any other effects of attacks
@@ -2234,14 +2349,15 @@ evo line: Pidgey
 legality: n
 filename: 57-pidgey
 pokemon: Pidgey
-attacks:
+mechanics:
 - name: Whirlwind
   cost: CC
+  damage: '10'
+  type: Attack
   text: >-
     After damage dealing, opponent chooses 1 Benched Pokémon and
     switches it with defending Pokémon (only if opponent has Benched
     Pokémon).
-  damage: '10'
 weakness:
   amount: 2
   operation: x
@@ -2273,15 +2389,18 @@ filename: 58-pikachu
 orphan: 'pop-2: 16-pikachu'
 has-variant: 'base-set: 58-pikachu with red cheeks'
 pokemon: Pikachu
-attacks:
+mechanics:
 - name: Gnaw
   cost: C
   damage: '10'
+  type: Attack
+  text: ""
 - name: Thunder Jolt
   cost: CL
+  damage: '30'
+  type: Attack
   text: >-
     Flip a coin. If tails, Pikachu does 10 damage to self.
-  damage: '30'
 weakness:
   amount: 2
   operation: x
@@ -2311,13 +2430,14 @@ evo line: Poliwag
 legality: n
 filename: 59-poliwag
 pokemon: Poliwag
-attacks:
+mechanics:
 - name: Water Gun
   cost: W
+  damage: 10+
+  type: Attack
   text: >-
     Does 10 damage plus 10 damage for each W attached to Poliwag
     but not used to pay for this attack (max 2 extra).
-  damage: 10+
 weakness:
   amount: 2
   operation: x
@@ -2347,13 +2467,17 @@ evo line: Ponyta
 legality: n
 filename: 60-ponyta
 pokemon: Ponyta
-attacks:
+mechanics:
 - name: Smash Kick
   cost: CC
   damage: '20'
+  type: Attack
+  text: ""
 - name: Flame Tail
   cost: RR
   damage: '30'
+  type: Attack
+  text: ""
 weakness:
   amount: 2
   operation: x
@@ -2383,10 +2507,12 @@ evo line: Rattata
 legality: n
 filename: 61-rattata
 pokemon: Rattata
-attacks:
+mechanics:
 - name: Bite
   cost: C
   damage: '20'
+  type: Attack
+  text: ""
 weakness:
   amount: 2
   operation: x
@@ -2416,14 +2542,15 @@ evo line: Sandshrew
 legality: n
 filename: 62-sandshrew
 pokemon: Sandshrew
-attacks:
+mechanics:
 - name: Sand-attack
   cost: F
+  damage: '10'
+  type: Attack
   text: >-
     If the Defending Pokémon tries to attack during your opponent's
     next turn, your opponent flips a coin. If tails, this attack
     does nothing.
-  damage: '10'
 weakness:
   amount: 2
   operation: x
@@ -2453,14 +2580,16 @@ evo line: Squirtle
 legality: n
 filename: 63-squirtle
 pokemon: Squirtle
-attacks:
+mechanics:
 - name: Bubble
   cost: W
+  damage: '10'
+  type: Attack
   text: >-
     Flip a coin. If heads, defender is now Paralyzed.
-  damage: '10'
 - name: Withdraw
   cost: CW
+  type: Attack
   text: >-
     Flip a coin. If heads, prevent all damage done to Squirtle
     during opponent's next turn. (Any other effects of attacks
@@ -2495,17 +2624,19 @@ evo line: Staryu
 legality: n
 filename: 64-starmie
 pokemon: Starmie
-attacks:
+mechanics:
 - name: Recover
   cost: WW
+  type: Attack
   text: >-
     Discard 1 Water Energy card to use this attack. Remove all
     damage counters from Starmie.
 - name: Star Freeze
   cost: CCW
+  damage: '20'
+  type: Attack
   text: >-
     Flip a coin. If heads, defender is now Paralyzed.
-  damage: '20'
 weakness:
   amount: 2
   operation: x
@@ -2535,10 +2666,12 @@ evo line: Staryu
 legality: n
 filename: 65-staryu
 pokemon: Staryu
-attacks:
+mechanics:
 - name: Slap
   cost: W
   damage: '20'
+  type: Attack
+  text: ""
 weakness:
   amount: 2
   operation: x
@@ -2568,17 +2701,19 @@ evo line: Tangela
 legality: n
 filename: 66-tangela
 pokemon: Tangela
-attacks:
+mechanics:
 - name: Bind
   cost: GC
+  damage: '20'
+  type: Attack
   text: >-
     Flip a coin. If heads, Defending Pokémon is now Paralyzed.
-  damage: '20'
 - name: Poisonpowder
   cost: GGG
+  damage: '20'
+  type: Attack
   text: >-
     Defender is now Poisoned.
-  damage: '20'
 weakness:
   amount: 2
   operation: x
@@ -2608,10 +2743,12 @@ evo line: Voltorb
 legality: n
 filename: 67-voltorb
 pokemon: Voltorb
-attacks:
+mechanics:
 - name: Tackle
   cost: C
   damage: '10'
+  type: Attack
+  text: ""
 weakness:
   amount: 2
   operation: x
@@ -2641,12 +2778,13 @@ evo line: Vulpix
 legality: n
 filename: 68-vulpix
 pokemon: Vulpix
-attacks:
+mechanics:
 - name: Confuse Ray
   cost: RR
+  damage: '10'
+  type: Attack
   text: >-
     Flip a coin. If heads, defender is now Confused.
-  damage: '10'
 weakness:
   amount: 2
   operation: x
@@ -2676,12 +2814,13 @@ evo line: Weedle
 legality: n
 filename: 69-weedle
 pokemon: Weedle
-attacks:
+mechanics:
 - name: Poison Sting
   cost: G
+  damage: '10'
+  type: Attack
   text: >-
     Flip a coin. If heads, defender is now Poisoned.
-  damage: '10'
 weakness:
   amount: 2
   operation: x

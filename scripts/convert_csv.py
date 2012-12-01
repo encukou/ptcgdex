@@ -173,39 +173,32 @@ def main(infile, destdir=None):
                     classes.append(cls)
 
         with nonempty_setter(result, 'mechanics') as mechanics:
-            for label, mechanic_name, name_name in (
-                    ('Note', 'poke-note', None),
-                    ('Rule', 'trainer-rule', None),
-                    ('Effect', 'trainer-txt', None),
-                    ('Effect', 'energy-txt', None),
-                    ('Pokémon Power', 'pkmn-power-txt', 'pkmn-power-1'),
-                    ('PokéPower', 'power-1-txt', 'power-1'),
-                    ('PokéPower', 'power-2-txt', 'power-2'),
-                    ('PokéBody', 'body-1-txt', 'body-1'),
-                    ('Item', 'poke-item-txt', 'poke-item'),
-                    ):
+            for label, mechanic_name, extra in (
+                    ('Note', 'poke-note', []),
+                    ('Rule', 'trainer-rule', []),
+                    ('Effect', 'trainer-txt', []),
+                    ('Effect', 'energy-txt', []),
+                    ('Pokémon Power', 'pkmn-power-txt', [('name', 'pkmn-power-1')]),
+                    ('PokéPower', 'power-1-txt', [('name', 'power-1')]),
+                    ('PokéPower', 'power-2-txt', [('name', 'power-2')]),
+                    ('PokéBody', 'body-1-txt', [('name', 'body-1')]),
+                    ('Item', 'poke-item-txt', [('name', 'poke-item')]),
+                    ) + tuple([
+                        ('Attack', 'attack-{}-txt'.format(i),
+                            [('name', 'attack-{}'.format(i)),
+                             ('cost', 'attack-{}-cost'.format(i)),
+                             ('damage', 'attack-{}-dmg'.format(i))])
+                        for i in range(1, 5)]):
                 text = pop(mechanic_name)
-                if text:
+                if text or any(data.get(v) for k, v in extra):
                     mechanic = OrderedDict()
-                    if name_name:
-                        mechanic['name'] = pop(name_name)
+                    for extra_name, extra_field in extra:
+                        extra_value = pop(extra_field)
+                        if extra_value:
+                            mechanic[extra_name] = extra_value
                     mechanic['type'] = label
                     mechanic['text'] = Text(text)
                     mechanics.append(mechanic)
-
-        with nonempty_setter(result, 'attacks') as attacks:
-            for attack_number in range(1, 5):
-                apop = lambda f: pop(f.format(attack_number))
-                name = apop('attack-{}')
-                if name:
-                    attack = OrderedDict([
-                        ('name', name),
-                        ('cost', apop('attack-{}-cost')),
-                        ('text', Text(apop('attack-{}-txt'))),
-                        ('damage', apop('attack-{}-dmg')),
-                    ])
-                    attacks.append(OrderedDict(
-                        (k, v) for k, v in attack.items() if v))
 
         weakness = pop('weakness')
         if weakness and weakness != 'None':
