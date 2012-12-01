@@ -62,9 +62,11 @@ create_translation_table('tcg_print_names', Print, 'names',
                   format='plaintext', official=True)),
 )
 
-class Type(TableBase):
+class TCGType(TableBase):
     __tablename__ = 'tcg_types'
     __singlename__ = 'tcg_type'
+    load_from_csv = True
+
     id = make_id()
     identifier = make_identifier(10)
     initial = Column(Unicode(1), nullable=False, unique=True,
@@ -73,13 +75,14 @@ class Type(TableBase):
         nullable=False,
         info=dict(description="ID of the type's handheld game counterpart"))
 
-create_translation_table('tcg_type_names', Type, 'names',
+create_translation_table('tcg_type_names', TCGType, 'names',
     name = Column(Unicode(10), nullable=False, index=True,
         info=dict(description="The type name", format='plaintext', official=True)),
 )
 
 class CardType(TableBase):
     __tablename__ = 'tcg_card_types'
+
     card_id = Column(Integer, ForeignKey('tcg_cards.id'), nullable=False,
         primary_key=True,
         info=dict(description="The ID of the card"))
@@ -90,6 +93,8 @@ class CardType(TableBase):
 class Class(TableBase):
     __tablename__ = 'tcg_classes'
     __singlename__ = 'tcg_class'
+    load_from_csv = True
+
     id = make_id()
     identifier = make_identifier(10)
 
@@ -102,6 +107,8 @@ class Subclass(TableBase):
     """Trainer type (Item, Stadium, Supporter, ace spec, etc)"""
     __tablename__ = 'tcg_subclasses'
     __singlename__ = 'tcg_subclass'
+    load_from_csv = True
+
     id = make_id()
     identifier = make_identifier(10)
 
@@ -208,6 +215,8 @@ create_translation_table('tcg_pokemon_flavor_text', PokemonFlavor, 'flavor',
 class Set(TableBase):
     __tablename__ = 'tcg_sets'
     __singlename__ = 'tcg_set'
+    load_from_csv = True
+
     id = make_id()
     total = Column(Integer, nullable=True,
         info=dict(description="Number of cards in the set, if applicable"))

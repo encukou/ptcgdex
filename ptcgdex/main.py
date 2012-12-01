@@ -76,15 +76,30 @@ def load(session, options):
 
     if tables:
         dex_load.load(session,
-                directory=options['--ptcg-csv-dir'],
-                drop_tables=options['--drop-tables'],
-                tables=tables,
-                verbose=options['--verbose'],
-                safe=options['--safe'],
-                recursive=False,
-                langs=[])
+            directory=options['--ptcg-csv-dir'],
+            drop_tables=options['--drop-tables'],
+            tables=tables,
+            verbose=options['--verbose'],
+            safe=options['--safe'],
+            recursive=False,
+            langs=[])
 
     print sets
+
+
+def dump(session, options):
+    from ptcgdex import tcg_tables
+    from pokedex.db import load as dex_load
+    tables = options['<table-or-set-identifier>']
+    if not tables:
+        tables = [c.__tablename__ for c in tcg_tables.tcg_classes
+                if getattr(c, 'load_from_csv', False)]
+
+    dex_load.dump(session,
+        directory=options['--ptcg-csv-dir'],
+        tables=tables,
+        verbose=options['--verbose'],
+        langs=['en'])
 
 
 def main(argv=None):
@@ -120,6 +135,10 @@ def main(argv=None):
     elif options['load']:
         session = make_session(options)
         load(session, options)
+
+    elif options['dump']:
+        session = make_session(options)
+        dump(session, options)
 
     else:
         exit('Subcommand not supported yet')
