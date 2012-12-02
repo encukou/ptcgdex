@@ -101,8 +101,11 @@ def dump(session, options):
     from pokedex.db import load as dex_load
     tables = options['<table-or-set-identifier>']
     if not tables:
-        csv_tables = [t for t in tcg_tables.tcg_classes
-                if getattr(t, 'load_from_csv', False)]
+        if options['--csv']:
+            csv_tables = tcg_tables.tcg_classes
+        else:
+            csv_tables = [t for t in tcg_tables.tcg_classes
+                    if getattr(t, 'load_from_csv', False)]
         tables = [c.__tablename__ for c in all_tables(csv_tables)]
 
     dex_load.dump(session,

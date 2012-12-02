@@ -41,7 +41,7 @@ def assert_empty(dct):
     if dct:
         print
         print '-ERROR-'
-        print yaml.dump(dct)
+        print yaml.safe_dump(dct)
         raise ValueError(
             'Unprocessed keys: {}'.format(dct.keys()))
 
@@ -95,6 +95,7 @@ def load_sets(session, directory, set_names=None, verbose=True):
             pop('orphan', None)  # XXX
             pop('has-variant', None)  # XXX
             pop('dated', None)  # XXX
+            pop('in-set-variant-of', None)  # XXX
 
             card_class = util.get(session, tcg_tables.Class,
                                   card_class_idents[pop('class')])
@@ -125,7 +126,7 @@ def load_sets(session, directory, set_names=None, verbose=True):
                 types = [find_by_name(tcg_tables.TCGType, n) for n
                          in pop('types')]
             else:
-                types = None
+                types = ()
 
             resistance = pop('resistance', None)
             if not resistance or resistance == 'None':
@@ -148,13 +149,17 @@ def load_sets(session, directory, set_names=None, verbose=True):
                 flavor.weight = pop('weight')
                 feet, inches = pop('height').split("'")
                 flavor.height = int(feet) * 12 + int(inches)
-                flavor.dex_entry_map[en] = pop('dex entry')
+                if 'dex entry' in card_info:
+                    flavor.dex_entry_map[en] = pop('dex entry')
+                session.add(flavor)
+            else:
+                flavor = None
 
             mechanics = []
-            for order, mechanic_info in enumerate(pop('mechanics')):
-                mech_type = util.get(session, tcg_tables.MechanicClass,
-                                     mechanic_info.pop('type'))
+            for mechanic_info in pop('mechanics'):
                 mechanic = tcg_tables.Mechanic()
+                mechanic.class_ = util.get(session, tcg_tables.MechanicClass,
+                                     mechanic_info.pop('type'))
                 mechanic.effect_map[en] = mechanic_info.pop('text')
                 if 'name' in mechanic_info:
                     mechanic.name_map[en] = mechanic_info.pop('name')
@@ -180,6 +185,8 @@ def load_sets(session, directory, set_names=None, verbose=True):
                             del cost_string[0]
                         cost.mechanic = mechanic
                 assert_empty(mechanic_info)
+                session.add(mechanic)
+                session.flush()
                 mechanics.append(mechanic)
 
             weak_info = pop('weakness', None)
@@ -189,6 +196,7 @@ def load_sets(session, directory, set_names=None, verbose=True):
                 weakness.amount = weak_info.pop('amount')
                 operation = weak_info.pop('operation')
                 weakness.operation = {'x': '×'}.get(operation, operation)
+                session.add(weakness)
                 assert_empty(weak_info)
             else:
                 weakness = None
@@ -199,14 +207,23 @@ def load_sets(session, directory, set_names=None, verbose=True):
 
             pop_to('hp', card, convertor=int)
             card.stage = stage
-            card.types = types
+            for index, card_type in enumerate(types):
+                link = tcg_tables.CardType()
+                link.card = card
+                link.type = card_type
+                link.slot = index
+                session.add(link)
             card.class_ = card_class
             card.subclass_ = card_subclass
             card.rarity = card_rarity
             pop_to('holographic', card)
             pop_to('retreat', card, 'retreat_cost')
-            for mechanic in mechanics:
-                mechanic.card = card
+            for index, mechanic in enumerate(mechanics):
+                link = tcg_tables.CardMechanic()
+                link.card = card
+                link.mechanic = mechanic
+                link.order = index
+                session.add(link)
             if weakness:
                 weakness.card = card
             card.resistance_type = resistance

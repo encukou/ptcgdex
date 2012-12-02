@@ -59,22 +59,16 @@ class Print(TableBase):
         info=dict(description="Sort order inside the set (may not be unique)"))
     illusrator_id = Column(Integer, ForeignKey('tcg_illustrators.id'),
         nullable=False,
-        info=dict(description="The ID of the illustrator"))
+        info=dict(description="ID of the illustrator"))
     pokemon_flavor_id = Column(Integer, ForeignKey('tcg_pokemon_flavors.id'),
-        nullable=False,
-        info=dict(description="The ID of the illustrator"))
+        nullable=True,
+        info=dict(description="ID of Pokémon flavor info, if any"))
     # TODO: Reprint note
     # TODO: Filename
     card_release_date = Column(DateTime, nullable=True,
         info=dict(description="The release date, if different from set"))
     card_ban_date = Column(DateTime, nullable=True,
         info=dict(description="Modified ban date, if different from set"))
-
-create_translation_table('tcg_print_names', Print, 'names',
-    flavor = Column(Unicode(32), nullable=False, index=True,
-        info=dict(description="The flavor text or dex entry",
-                  format='plaintext', official=True)),
-)
 
 class TCGType(TableBase):
     __tablename__ = 'tcg_types'

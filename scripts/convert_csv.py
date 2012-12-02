@@ -171,7 +171,9 @@ def main(infile, destdir=None):
 
         simple_out('dated', 'dated')
         simple_out('reprint of', 'reprint-of')
-        simple_out('pokemon', 'pokemon')
+        pokemon = pop('pokemon')
+        if pokemon and pokemon not in ['Mysterious Fossil']:
+            result['pokemon'] = pokemon
 
         with nonempty_setter(result, 'classes') as classes:
             for classno in range(1, 4):

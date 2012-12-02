@@ -1,0 +1,2333 @@
+---
+set: fossil
+number: '1'
+name: Aerodactyl
+rarity: rare
+holographic: true
+class: P
+types:
+- Fighting
+hp: 60
+stage: Stage 1
+evolves from: Mysterious Fossil
+evo line: Mysterious Fossil
+legality: n
+filename: 1-aerodactyl
+pokemon: Aerodactyl
+mechanics:
+- name: Prehistoric Power
+  type: pokemon-power
+  text: >-
+    No more Evolution cards can be played. This power stops working
+    while Aerodactyl is Asleep, Confused, or Paralyzed.
+- name: Wing Attack
+  cost: CCC
+  damage: '30'
+  type: attack
+  text: ""
+weakness:
+  amount: 2
+  operation: x
+  type: G
+resistance: F
+retreat: 2
+dex number: 142
+species: Fossil
+weight: 130
+height: 5'11
+illustrator: Kagemaru Himeno
+---
+set: fossil
+number: '2'
+name: Articuno
+rarity: rare
+holographic: true
+class: P
+types:
+- Water
+hp: 70
+stage: Basic
+evo line: Articuno
+legality: n
+filename: 2-articuno
+pokemon: Articuno
+mechanics:
+- name: Freeze Dry
+  cost: WWW
+  damage: '30'
+  type: attack
+  text: >-
+    Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+- name: Blizzard
+  cost: WWWW
+  damage: '50'
+  type: attack
+  text: >-
+    Flip a coin. If heads, this attack does 10 damage to each
+    of your opponent's Benched Pokémon. If tails, this attack
+    does 10 damage to each of your own Benched Pokémon. (Don't
+    apply Weakness and Resistance for Benched Pokémon.)
+resistance: F
+retreat: 2
+dex number: 144
+species: Freeze
+weight: 122
+height: 5'7
+illustrator: Mitsuhiro Arita
+---
+set: fossil
+number: '3'
+name: Ditto
+rarity: rare
+holographic: true
+class: P
+types:
+- Colorless
+hp: 50
+stage: Basic
+evo line: Ditto
+legality: n
+filename: 3-ditto
+pokemon: Ditto
+mechanics:
+- name: Transform
+  type: pokemon-power
+  text: >-
+    If Ditto is your Active Pokémon, treat it as if it were the
+    same card as the Defending Pokémon, including type, Hit Points,
+    Weakness, and so on, except Ditto can't evolve, always has
+    this Pokémon Power, and you may treat any Energy attached
+    to Ditto as Energy of any type. Ditto isn't a copy of any
+    other Pokémon while Ditto is Asleep, Confused, or Paralyzed.?
+weakness:
+  amount: 2
+  operation: x
+  type: F
+resistance: P
+retreat: 1
+dex number: 132
+species: Transform
+weight: 9
+height: 1'0
+illustrator: Keiji Kinebuchi
+---
+set: fossil
+number: '4'
+name: Dragonite
+rarity: rare
+holographic: true
+class: P
+types:
+- Colorless
+hp: 100
+stage: Stage 2
+evolves from: Dragonair
+evo line: Dratini
+legality: n
+filename: 4-dragonite
+pokemon: Dragonite
+mechanics:
+- name: Step In
+  type: pokemon-power
+  text: >-
+    Once during your turn (before you attack) if Dragonite is
+    on your Bench, you may switch it with your Active Pokémon.
+- name: Slam
+  cost: CCCC
+  damage: 40x
+  type: attack
+  text: >-
+    Flip 2 coins. This attack does 40 damage times the number
+    of heads.
+resistance: F
+retreat: 1
+dex number: 149
+species: Dragon
+weight: 463
+height: 7'3
+illustrator: Kagemaru Himeno
+---
+set: fossil
+number: '5'
+name: Gengar
+rarity: rare
+holographic: true
+class: P
+types:
+- Psychic
+hp: 80
+stage: Stage 2
+evolves from: Haunter
+evo line: Gastly
+legality: n
+filename: 5-gengar
+pokemon: Gengar
+mechanics:
+- name: Curse
+  type: pokemon-power
+  text: >-
+    Once during your turn (before your attack), you may move 1
+    damage counter from 1 of your opponent's Pokémon to another
+    (even if it would Knock Out the other Pokémon). This power
+    can't be used if Gengar is Asleep, Confused, or Paralyzed.
+- name: Dark Mind
+  cost: PPP
+  damage: '30'
+  type: attack
+  text: >-
+    If your opponent has any Benched Pokémon, choose 1 of them
+    and this attack does 10 damage to it. (Don't apply Weakness
+    and Resistance for Benched Pokémon.)
+resistance: F
+retreat: 1
+dex number: 94
+species: Shadow
+weight: 89
+height: 4'11
+illustrator: Keiji Kinebuchi
+---
+set: fossil
+number: '6'
+name: Haunter
+rarity: rare
+holographic: true
+class: P
+types:
+- Psychic
+hp: 50
+stage: Stage 1
+evolves from: Gastly
+evo line: Gastly
+legality: n
+filename: 6-haunter
+pokemon: Haunter
+mechanics:
+- name: Transparency
+  type: pokemon-power
+  text: >-
+    Whenever an attack does anything to Haunter, flip a coin.
+    If heads, prevent all effects of that attack, including damage,
+    done to Haunter. This power stops working while Haunter is
+    Asleep.
+- name: Nightmare
+  cost: PC
+  damage: '10'
+  type: attack
+  text: >-
+    The Defending Pokémon is now Asleep.
+resistance: F
+retreat: 0
+dex number: 93
+species: Gas
+weight: 0.2
+height: 5'3
+illustrator: Ken Sugimori
+---
+set: fossil
+number: '7'
+name: Hitmonlee
+rarity: rare
+holographic: true
+class: P
+types:
+- Fighting
+hp: 60
+stage: Basic
+evo line: Tyrogue
+legality: n
+filename: 7-hitmonlee
+pokemon: Hitmonlee
+mechanics:
+- name: Stretch Kick
+  cost: FF
+  type: attack
+  text: >-
+    If your opponent has any Benched Pokémon, choose 1 of them
+    and this attack does 20 damage to it. (Don't apply Weakness
+    and Resistance for Benched Pokémon.)
+- name: High Jump Kick
+  cost: FFF
+  damage: '50'
+  type: attack
+  text: ""
+weakness:
+  amount: 2
+  operation: x
+  type: P
+resistance: None
+retreat: 1
+dex number: 106
+species: Kicking
+weight: 110
+height: 4'11
+illustrator: Ken Sugimori
+---
+set: fossil
+number: '8'
+name: Hypno
+rarity: rare
+holographic: true
+class: P
+types:
+- Psychic
+hp: 90
+stage: Stage 1
+evolves from: Drowzee
+evo line: Drowzee
+legality: n
+filename: 8-hypno
+pokemon: Hypno
+mechanics:
+- name: Prophecy
+  cost: P
+  type: attack
+  text: >-
+    Look at up to 3 cards from the top of either player's deck
+    and rearrange them as you like.
+- name: Dark Mind
+  cost: PPP
+  damage: '30'
+  type: attack
+  text: >-
+    If your opponent has any Benched Pokémon, choose 1 of them
+    and this attack does 10 damage to it. (Don't apply Weakness
+    and Resistance for Benched Pokémon.)
+weakness:
+  amount: 2
+  operation: x
+  type: P
+resistance: None
+retreat: 2
+dex number: 97
+species: Hypnosis
+weight: 167
+height: 5'3
+illustrator: Ken Sugimori
+---
+set: fossil
+number: '9'
+name: Kabutops
+rarity: rare
+holographic: true
+class: P
+types:
+- Fighting
+hp: 60
+stage: Stage 2
+evolves from: Kabuto
+evo line: Mysterious Fossil
+legality: n
+filename: 9-kabutops
+pokemon: Kabutops
+mechanics:
+- name: Sharp Sickle
+  cost: FF
+  damage: '30'
+  type: attack
+  text: ""
+- name: Absorb
+  cost: FFFF
+  damage: '40'
+  type: attack
+  text: >-
+    Remove a number of damage counters from Kabutops equal to
+    half the damage done to Defending Pokémon (after applying
+    Weakness and Resistance) (rounded up to the nearest 10). If
+    Kabutops has fewer damage counters than that, remove all of
+    them.
+weakness:
+  amount: 2
+  operation: x
+  type: G
+resistance: None
+retreat: 1
+dex number: 141
+species: Shellfish
+weight: 89
+height: 4'3
+illustrator: Ken Sugimori
+---
+set: fossil
+number: '10'
+name: Lapras
+rarity: rare
+holographic: true
+class: P
+types:
+- Water
+hp: 80
+stage: Basic
+evo line: Lapras
+legality: n
+filename: 10-lapras
+pokemon: Lapras
+mechanics:
+- name: Water Gun
+  cost: W
+  damage: 10+
+  type: attack
+  text: >-
+    Does 10 damage plus 10 more damage for each W Energy attached
+    to Lapras but not used to pay for this attack's Energy cost.
+    You can't add more than 20 damage this way.
+- name: Confuse Ray
+  cost: WW
+  damage: '10'
+  type: attack
+  text: >-
+    Flip a coin. If heads, the Defending Pokémon is now Confused.
+weakness:
+  amount: 2
+  operation: x
+  type: L
+resistance: None
+retreat: 1
+dex number: 131
+species: Transport
+weight: 485
+height: 8'2
+illustrator: Ken Sugimori
+---
+set: fossil
+number: '11'
+name: Magneton
+rarity: rare
+holographic: true
+class: P
+types:
+- Lightning
+hp: 80
+stage: Stage 1
+evolves from: Magnemite
+evo line: Magnemite
+legality: n
+filename: 11-magneton
+pokemon: Magneton
+mechanics:
+- name: Sonicboom
+  cost: LC
+  damage: '20'
+  type: attack
+  text: >-
+    Don't apply Weakness and Resistance for this attack. (Any
+    other effects that would happen after applying Weakness and
+    Resistance still happen.)
+- name: Selfdestruct
+  cost: LLLL
+  damage: '100'
+  type: attack
+  text: >-
+    Does 20 damage to each Pokémon on each player's Bench. (Don't
+    apply Weakness and Resistance for Benched Pokémon.) Magneton
+    does 100 damage to itself.
+weakness:
+  amount: 2
+  operation: x
+  type: F
+resistance: None
+retreat: 2
+dex number: 82
+species: Magnet
+weight: 132
+height: 3'3
+illustrator: Ken Sugimori
+---
+set: fossil
+number: '12'
+name: Moltres
+rarity: rare
+holographic: true
+class: P
+types:
+- Fire
+hp: 70
+stage: Basic
+evo line: Moltres
+legality: n
+filename: 12-moltres
+pokemon: Moltres
+mechanics:
+- name: Wildfire
+  cost: R
+  type: attack
+  text: >-
+    You may discard any number of R Energy cards attached to Moltres
+    when you use this attack. If you do, discard that many cards
+    from the top of your opponent's deck.
+- name: Dive Bomb
+  cost: RRRR
+  damage: '80'
+  type: attack
+  text: >-
+    Flip a coin. If tails, this attack does nothing.
+resistance: F
+retreat: 2
+dex number: 146
+species: Flame
+weight: 132
+height: 6'7
+illustrator: Mitsuhiro Arita
+---
+set: fossil
+number: '13'
+name: Muk
+rarity: rare
+holographic: true
+class: P
+types:
+- Grass
+hp: 70
+stage: Stage 1
+evolves from: Grimer
+evo line: Grimer
+legality: n
+filename: 13-muk
+pokemon: Muk
+mechanics:
+- name: Toxic Gas
+  type: pokemon-power
+  text: >-
+    Ignore all Pokémon Powers other than Toxic Gases. This power
+    stops working while Muk is Asleep, Confused, or Paralyzed.
+- name: Sludge
+  cost: GGG
+  damage: '30'
+  type: attack
+  text: >-
+    Flip a coin. If heads, the Defending Pokémon is now Poisoned.
+weakness:
+  amount: 2
+  operation: x
+  type: P
+resistance: None
+retreat: 2
+dex number: 89
+species: Sludge
+weight: 66
+height: 3'11
+illustrator: Mitsuhiro Arita
+---
+set: fossil
+number: '14'
+name: Raichu
+rarity: rare
+holographic: true
+class: P
+types:
+- Lightning
+hp: 90
+stage: Stage 1
+evolves from: Pikachu
+evo line: Pikachu
+legality: n
+filename: 14-raichu
+pokemon: Raichu
+mechanics:
+- name: Gigashock
+  cost: LLLL
+  damage: '30'
+  type: attack
+  text: >-
+    Choose 3 of your opponent's Benched Pokémon and this attack
+    does 10 damage to each of them. (Don't apply Weakness and
+    Resistance for Benched Pokémon.) If your opponent has fewer
+    than 3 Benched Pokémon, do the damage to each of them.
+weakness:
+  amount: 2
+  operation: x
+  type: F
+resistance: None
+retreat: 1
+dex number: 26
+species: Mouse
+weight: 66
+height: 2'7
+illustrator: Mitsuhiro Arita
+---
+set: fossil
+number: '15'
+name: Zapdos
+rarity: rare
+holographic: true
+class: P
+types:
+- Lightning
+hp: 80
+stage: Basic
+evo line: Zapdos
+legality: n
+filename: 15-zapdos
+pokemon: Zapdos
+mechanics:
+- name: Thunderstorm
+  cost: LLLL
+  damage: '40'
+  type: attack
+  text: >-
+    For each of your opponent's Benched Pokémon, flip a coin.
+    If heads, this attack does 20 damage to that Pokémon. (Don't
+    apply Weakness and Resistance for Benched Pokémon.) Then,
+    Zapdos does 10 damage times the number of tails to itself.
+resistance: F
+retreat: 2
+dex number: 145
+species: Electric
+weight: 116
+height: 5'3
+illustrator: Mitsuhiro Arita
+---
+set: fossil
+number: '16'
+name: Aerodactyl
+rarity: rare
+holographic: false
+class: P
+types:
+- Fighting
+hp: 60
+stage: Stage 1
+evolves from: Mysterious Fossil
+evo line: Mysterious Fossil
+legality: n
+filename: 16-aerodactyl
+in-set-variant-of: 'fossil: 1-aerodactyl as non-holo'
+pokemon: Aerodactyl
+mechanics:
+- name: Prehistoric Power
+  type: pokemon-power
+  text: >-
+    No more Evolution cards can be played. This power stops working
+    while Aerodactyl is Asleep, Confused, or Paralyzed.
+- name: Wing Attack
+  cost: CCC
+  damage: '30'
+  type: attack
+  text: ""
+weakness:
+  amount: 2
+  operation: x
+  type: G
+resistance: F
+retreat: 2
+dex number: 142
+species: Fossil
+weight: 130
+height: 5'11
+illustrator: Kagemaru Himeno
+---
+set: fossil
+number: '17'
+name: Articuno
+rarity: rare
+holographic: false
+class: P
+types:
+- Water
+hp: 70
+stage: Basic
+evo line: Articuno
+legality: n
+filename: 17-articuno
+in-set-variant-of: 'fossil: 2-articuno as non-holo'
+pokemon: Articuno
+mechanics:
+- name: Freeze Dry
+  cost: WWW
+  damage: '30'
+  type: attack
+  text: >-
+    Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+- name: Blizzard
+  cost: WWWW
+  damage: '50'
+  type: attack
+  text: >-
+    Flip a coin. If heads, this attack does 10 damage to each
+    of your opponent's Benched Pokémon. If tails, this attack
+    does 10 damage to each of your own Benched Pokémon. (Don't
+    apply Weakness and Resistance for Benched Pokémon.)
+resistance: F
+retreat: 2
+dex number: 144
+species: Freeze
+weight: 122
+height: 5'7
+illustrator: Mitsuhiro Arita
+---
+set: fossil
+number: '18'
+name: Ditto
+rarity: rare
+holographic: false
+class: P
+types:
+- Colorless
+hp: 50
+stage: Basic
+evo line: Ditto
+legality: n
+filename: 18-ditto
+in-set-variant-of: 'fossil: 3-ditto as non-holo'
+pokemon: Ditto
+mechanics:
+- name: Transform
+  type: pokemon-power
+  text: >-
+    If Ditto is your Active Pokémon, treat it as if it were the
+    same card as the Defending Pokémon, including type, Hit Points,
+    Weakness, and so on, except Ditto can't evolve, always has
+    this Pokémon Power, and you may treat any Energy attached
+    to Ditto as Energy of any type. Ditto isn't a copy of any
+    other Pokémon while Ditto is Asleep, Confused, or Paralyzed.?
+weakness:
+  amount: 2
+  operation: x
+  type: F
+resistance: P
+retreat: 1
+dex number: 132
+species: Transform
+weight: 9
+height: 1'0
+illustrator: Keiji Kinebuchi
+---
+set: fossil
+number: '19'
+name: Dragonite
+rarity: rare
+holographic: false
+class: P
+types:
+- Colorless
+hp: 100
+stage: Stage 2
+evolves from: Dragonair
+evo line: Dratini
+legality: n
+filename: 19-dragonite
+in-set-variant-of: 'fossil: 4-dragonite as non-holo'
+pokemon: Dragonite
+mechanics:
+- name: Step In
+  type: pokemon-power
+  text: >-
+    Once during your turn (before you attack) if Dragonite is
+    on your Bench, you may switch it with your Active Pokémon.
+- name: Slam
+  cost: CCCC
+  damage: 40x
+  type: attack
+  text: >-
+    Flip 2 coins. This attack does 40 damage times the number
+    of heads.
+resistance: F
+retreat: 1
+dex number: 149
+species: Dragon
+weight: 463
+height: 7'3
+illustrator: Kagemaru Himeno
+---
+set: fossil
+number: '20'
+name: Gengar
+rarity: rare
+holographic: false
+class: P
+types:
+- Psychic
+hp: 80
+stage: Stage 2
+evolves from: Haunter
+evo line: Gastly
+legality: n
+filename: 20-gengar
+in-set-variant-of: 'fossil: 5-gengar as non-holo'
+pokemon: Gengar
+mechanics:
+- name: Curse
+  type: pokemon-power
+  text: >-
+    Once during your turn (before your attack), you may move 1
+    damage counter from 1 of your opponent's Pokémon to another
+    (even if it would Knock Out the other Pokémon). This power
+    can't be used if Gengar is Asleep, Confused, or Paralyzed.
+- name: Dark Mind
+  cost: PPP
+  damage: '30'
+  type: attack
+  text: >-
+    If your opponent has any Benched Pokémon, choose 1 of them
+    and this attack does 10 damage to it. (Don't apply Weakness
+    and Resistance for Benched Pokémon.)
+resistance: F
+retreat: 1
+dex number: 94
+species: Shadow
+weight: 89
+height: 4'11
+illustrator: Keiji Kinebuchi
+---
+set: fossil
+number: '21'
+name: Haunter
+rarity: rare
+holographic: false
+class: P
+types:
+- Psychic
+hp: 50
+stage: Stage 1
+evolves from: Gastly
+evo line: Gastly
+legality: n
+filename: 21-haunter
+in-set-variant-of: 'fossil: 6-haunter as non-holo'
+pokemon: Haunter
+mechanics:
+- name: Transparency
+  type: pokemon-power
+  text: >-
+    Whenever an attack does anything to Haunter, flip a coin.
+    If heads, prevent all effects of that attack, including damage,
+    done to Haunter. This power stops working while Haunter is
+    Asleep.
+- name: Nightmare
+  cost: PC
+  damage: '10'
+  type: attack
+  text: >-
+    The Defending Pokémon is now Asleep.
+resistance: F
+retreat: 0
+dex number: 93
+species: Gas
+weight: 0.2
+height: 5'3
+illustrator: Ken Sugimori
+---
+set: fossil
+number: '22'
+name: Hitmonlee
+rarity: rare
+holographic: false
+class: P
+types:
+- Fighting
+hp: 60
+stage: Basic
+evo line: Tyrogue
+legality: n
+filename: 22-hitmonlee
+in-set-variant-of: 'fossil: 7-hitmonlee as non-holo'
+pokemon: Hitmonlee
+mechanics:
+- name: Stretch Kick
+  cost: FF
+  type: attack
+  text: >-
+    If your opponent has any Benched Pokémon, choose 1 of them
+    and this attack does 20 damage to it. (Don't apply Weakness
+    and Resistance for Benched Pokémon.)
+- name: High Jump Kick
+  cost: FFF
+  damage: '50'
+  type: attack
+  text: ""
+weakness:
+  amount: 2
+  operation: x
+  type: P
+resistance: None
+retreat: 1
+dex number: 106
+species: Kicking
+weight: 110
+height: 4'11
+illustrator: Ken Sugimori
+---
+set: fossil
+number: '23'
+name: Hypno
+rarity: rare
+holographic: false
+class: P
+types:
+- Psychic
+hp: 90
+stage: Stage 1
+evolves from: Drowzee
+evo line: Drowzee
+legality: n
+filename: 23-hypno
+in-set-variant-of: 'fossil: 8-hypno as non-holo'
+pokemon: Hypno
+mechanics:
+- name: Prophecy
+  cost: P
+  type: attack
+  text: >-
+    Look at up to 3 cards from the top of either player's deck
+    and rearrange them as you like.
+- name: Dark Mind
+  cost: PPP
+  damage: '30'
+  type: attack
+  text: >-
+    If your opponent has any Benched Pokémon, choose 1 of them
+    and this attack does 10 damage to it. (Don't apply Weakness
+    and Resistance for Benched Pokémon.)
+weakness:
+  amount: 2
+  operation: x
+  type: P
+resistance: None
+retreat: 2
+dex number: 97
+species: Hypnosis
+weight: 167
+height: 5'3
+illustrator: Ken Sugimori
+---
+set: fossil
+number: '24'
+name: Kabutops
+rarity: rare
+holographic: false
+class: P
+types:
+- Fighting
+hp: 60
+stage: Stage 2
+evolves from: Kabuto
+evo line: Mysterious Fossil
+legality: n
+filename: 24-kabutops
+in-set-variant-of: 'fossil: 9-kabutops as non-holo'
+pokemon: Kabutops
+mechanics:
+- name: Sharp Sickle
+  cost: FF
+  damage: '30'
+  type: attack
+  text: ""
+- name: Absorb
+  cost: FFFF
+  damage: '40'
+  type: attack
+  text: >-
+    Remove a number of damage counters from Kabutops equal to
+    half the damage done to Defending Pokémon (after applying
+    Weakness and Resistance) (rounded up to the nearest 10). If
+    Kabutops has fewer damage counters than that, remove all of
+    them.
+weakness:
+  amount: 2
+  operation: x
+  type: G
+resistance: None
+retreat: 1
+dex number: 141
+species: Shellfish
+weight: 89
+height: 4'3
+illustrator: Ken Sugimori
+---
+set: fossil
+number: '25'
+name: Lapras
+rarity: rare
+holographic: false
+class: P
+types:
+- Water
+hp: 80
+stage: Basic
+evo line: Lapras
+legality: n
+filename: 25-lapras
+in-set-variant-of: 'fossil: 10-lapras as non-holo'
+pokemon: Lapras
+mechanics:
+- name: Water Gun
+  cost: W
+  damage: 10+
+  type: attack
+  text: >-
+    Does 10 damage plus 10 more damage for each W Energy attached
+    to Lapras but not used to pay for this attack's Energy cost.
+    You can't add more than 20 damage this way.
+- name: Confuse Ray
+  cost: WW
+  damage: '10'
+  type: attack
+  text: >-
+    Flip a coin. If heads, the Defending Pokémon is now Confused.
+weakness:
+  amount: 2
+  operation: x
+  type: L
+resistance: None
+retreat: 2
+dex number: 131
+species: Transport
+weight: 485
+height: 8'2
+illustrator: Ken Sugimori
+---
+set: fossil
+number: '26'
+name: Magneton
+rarity: rare
+holographic: false
+class: P
+types:
+- Lightning
+hp: 80
+stage: Stage 1
+evolves from: Magnemite
+evo line: Magnemite
+legality: n
+filename: 26-magneton
+in-set-variant-of: 'fossil: 11-magneton as non-holo'
+pokemon: Magneton
+mechanics:
+- name: Sonicboom
+  cost: LC
+  damage: '20'
+  type: attack
+  text: >-
+    Don't apply Weakness and Resistance for this attack. (Any
+    other effects that would happen after applying Weakness and
+    Resistance still happen.)
+- name: Selfdestruct
+  cost: LLLL
+  damage: '100'
+  type: attack
+  text: >-
+    Does 20 damage to each Pokémon on each player's Bench. (Don't
+    apply Weakness and Resistance for Benched Pokémon.) Magneton
+    does 100 damage to itself.
+weakness:
+  amount: 2
+  operation: x
+  type: F
+resistance: None
+retreat: 2
+dex number: 82
+species: Magnet
+weight: 132
+height: 3'3
+illustrator: Ken Sugimori
+---
+set: fossil
+number: '27'
+name: Moltres
+rarity: rare
+holographic: false
+class: P
+types:
+- Fire
+hp: 70
+stage: Basic
+evo line: Moltres
+legality: n
+filename: 27-moltres
+in-set-variant-of: 'fossil: 12-moltres as non-holo'
+pokemon: Moltres
+mechanics:
+- name: Wildfire
+  cost: R
+  type: attack
+  text: >-
+    You may discard any number of R Energy cards attached to Moltres
+    when you use this attack. If you do, discard that many cards
+    from the top of your opponent's deck.
+- name: Dive Bomb
+  cost: RRRR
+  damage: '80'
+  type: attack
+  text: >-
+    Flip a coin. If tails, this attack does nothing.
+resistance: F
+retreat: 2
+dex number: 146
+species: Flame
+weight: 132
+height: 6'7
+illustrator: Mitsuhiro Arita
+---
+set: fossil
+number: '28'
+name: Muk
+rarity: rare
+holographic: false
+class: P
+types:
+- Grass
+hp: 70
+stage: Stage 1
+evolves from: Grimer
+evo line: Grimer
+legality: n
+filename: 28-muk
+in-set-variant-of: 'fossil: 13-muk as non-holo'
+pokemon: Muk
+mechanics:
+- name: Toxic Gas
+  type: pokemon-power
+  text: >-
+    Ignore all Pokémon Powers other than Toxic Gases. This power
+    stops working while Muk is Asleep, Confused, or Paralyzed.
+- name: Sludge
+  cost: GGG
+  damage: '30'
+  type: attack
+  text: >-
+    Flip a coin. If heads, the Defending Pokémon is now Poisoned.
+weakness:
+  amount: 2
+  operation: x
+  type: P
+resistance: None
+retreat: 2
+dex number: 89
+species: Sludge
+weight: 66
+height: 3'11
+illustrator: Mitsuhiro Arita
+---
+set: fossil
+number: '29'
+name: Raichu
+rarity: rare
+holographic: false
+class: P
+types:
+- Lightning
+hp: 90
+stage: Stage 1
+evolves from: Pikachu
+evo line: Pikachu
+legality: n
+filename: 29-raichu
+in-set-variant-of: 'fossil: 14-raichu as non-holo'
+pokemon: Raichu
+mechanics:
+- name: Gigashock
+  cost: LLLL
+  damage: '30'
+  type: attack
+  text: >-
+    Choose 3 of your opponent's Benched Pokémon and this attack
+    does 10 damage to each of them. (Don't apply Weakness and
+    Resistance for Benched Pokémon.) If your opponent has fewer
+    than 3 Benched Pokémon, do the damage to each of them.
+weakness:
+  amount: 2
+  operation: x
+  type: F
+resistance: None
+retreat: 1
+dex number: 26
+species: Mouse
+weight: 66
+height: 2'7
+illustrator: Mitsuhiro Arita
+---
+set: fossil
+number: '30'
+name: Zapdos
+rarity: rare
+holographic: false
+class: P
+types:
+- Lightning
+hp: 80
+stage: Basic
+evo line: Zapdos
+legality: n
+filename: 30-zapdos
+in-set-variant-of: 'fossil: 15-zapdos as non-holo'
+pokemon: Zapdos
+mechanics:
+- name: Thunderstorm
+  cost: LLLL
+  damage: '40'
+  type: attack
+  text: >-
+    For each of your opponent's Benched Pokémon, flip a coin.
+    If heads, this attack does 20 damage to that Pokémon. (Don't
+    apply Weakness and Resistance for Benched Pokémon.) Then,
+    Zapdos does 10 damage times the number of tails to itself.
+resistance: F
+retreat: 2
+dex number: 145
+species: Electric
+weight: 116
+height: 5'3
+illustrator: Mitsuhiro Arita
+---
+set: fossil
+number: '31'
+name: Arbok
+rarity: uncommon
+holographic: false
+class: P
+types:
+- Grass
+hp: 60
+stage: Stage 1
+evolves from: Ekans
+evo line: Ekans
+legality: n
+filename: 31-arbok
+pokemon: Arbok
+mechanics:
+- name: Terror Strike
+  cost: G
+  damage: '10'
+  type: attack
+  text: >-
+    Flip a coin. If heads and if your opponent has any Benched
+    Pokémon, he or she chooses 1 of them and switches it with
+    the Defending Pokémon. (Do the damage before switching the
+    Pokémon.)
+- name: Poison Fang
+  cost: CGG
+  damage: '20'
+  type: attack
+  text: >-
+    The Defending Pokémon is now Poisoned.
+weakness:
+  amount: 2
+  operation: x
+  type: P
+resistance: None
+retreat: 2
+dex number: 24
+species: Cobra
+weight: 143
+height: 11'6
+illustrator: Ken Sugimori
+---
+set: fossil
+number: '32'
+name: Cloyster
+rarity: uncommon
+holographic: false
+class: P
+types:
+- Water
+hp: 50
+stage: Stage 1
+evolves from: Shellder
+evo line: Shellder
+legality: n
+filename: 32-cloyster
+pokemon: Cloyster
+mechanics:
+- name: Clamp
+  cost: WW
+  damage: '30'
+  type: attack
+  text: >-
+    Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+    If tails, this attack does nothing (not even damage).
+- name: Spike Cannon
+  cost: WW
+  damage: 30x
+  type: attack
+  text: >-
+    Flip 2 coins. This attack does 30 damage times the number
+    of heads.
+weakness:
+  amount: 2
+  operation: x
+  type: L
+resistance: None
+retreat: 2
+dex number: 91
+species: Bivalve
+weight: 292
+height: 4'11
+illustrator: Kagemaru Himeno
+---
+set: fossil
+number: '33'
+name: Gastly
+rarity: uncommon
+holographic: false
+class: P
+types:
+- Psychic
+hp: 50
+stage: Basic
+evo line: Gastly
+legality: n
+filename: 33-gastly
+pokemon: Gastly
+mechanics:
+- name: Lick
+  cost: P
+  damage: '10'
+  type: attack
+  text: >-
+    Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+- name: Energy Conversion
+  cost: PP
+  type: attack
+  text: >-
+    Put up to 2 Energy cards from your discard pile into your
+    hand. Gastly does 10 damage to itself.
+resistance: F
+retreat: 0
+dex number: 92
+species: Gas
+weight: 0.2
+height: 4'3
+illustrator: Mitsuhiro Arita
+---
+set: fossil
+number: '34'
+name: Golbat
+rarity: uncommon
+holographic: false
+class: P
+types:
+- Grass
+hp: 60
+stage: Stage 1
+evolves from: Zubat
+evo line: Zubat
+legality: n
+filename: 34-golbat
+pokemon: Golbat
+mechanics:
+- name: Wing Attack
+  cost: CCC
+  damage: '30'
+  type: attack
+  text: ""
+- name: Leech Life
+  cost: CGG
+  damage: '20'
+  type: attack
+  text: >-
+    Remove a number of damage counters from Golbat equal to the
+    damage done to the Defending Pokémon (after applying Weakness
+    and Resistance). If Golbat has fewer damage counters than
+    that, remove all of them.
+weakness:
+  amount: 2
+  operation: x
+  type: P
+resistance: F
+retreat: 0
+dex number: 42
+species: Bat
+weight: 121
+height: 5'3
+illustrator: Kagemaru Himeno
+---
+set: fossil
+number: '35'
+name: Golduck
+rarity: uncommon
+holographic: false
+class: P
+types:
+- Water
+hp: 70
+stage: Stage 1
+evolves from: Psyduck
+evo line: Psyduck
+legality: n
+filename: 35-golduck
+pokemon: Golduck
+mechanics:
+- name: Psyshock
+  cost: P
+  damage: '10'
+  type: attack
+  text: >-
+    Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+- name: Hyper Beam
+  cost: CWW
+  damage: '20'
+  type: attack
+  text: >-
+    If the Defending Pokémon has any Energy cards attached to
+    it, choose 1 of them and discard it.
+weakness:
+  amount: 2
+  operation: x
+  type: L
+resistance: None
+retreat: 1
+dex number: 55
+species: Duck
+weight: 169
+height: 5'7
+illustrator: Kagemaru Himeno
+---
+set: fossil
+number: '36'
+name: Golem
+rarity: uncommon
+holographic: false
+class: P
+types:
+- Fighting
+hp: 80
+stage: Stage 2
+evolves from: Graveler
+evo line: Geodude
+legality: n
+filename: 36-golem
+pokemon: Golem
+mechanics:
+- name: Avalanche
+  cost: FFFC
+  damage: '60'
+  type: attack
+  text: ""
+- name: Selfdestruct
+  cost: FFFF
+  damage: '100'
+  type: attack
+  text: >-
+    Does 20 damage to each Pokémon on each player's Bench. (Don't
+    apply Weakness and Resistance for Benched Pokémon.) Golem
+    does 100 damage to itself.
+weakness:
+  amount: 2
+  operation: x
+  type: G
+resistance: None
+retreat: 4
+dex number: 76
+species: Megaton
+weight: 662
+height: 4'7
+illustrator: Kagemaru Himeno
+---
+set: fossil
+number: '37'
+name: Graveler
+rarity: uncommon
+holographic: false
+class: P
+types:
+- Fighting
+hp: 60
+stage: Stage 1
+evolves from: Geodude
+evo line: Geodude
+legality: n
+filename: 37-graveler
+pokemon: Graveler
+mechanics:
+- name: Harden
+  cost: FF
+  type: attack
+  text: >-
+    During your opponent's next turn, whenever 30 or less damage
+    is done to Graveler (after applying Weakness and Resistance),
+    prevent that damage. (Any other effects of attacks still happen.)
+- name: Rock Throw
+  cost: CFF
+  damage: '40'
+  type: attack
+  text: ""
+weakness:
+  amount: 2
+  operation: x
+  type: G
+resistance: None
+retreat: 2
+dex number: 75
+species: Rock
+weight: 232
+height: 3'3
+illustrator: Kagemaru Himeno
+---
+set: fossil
+number: '38'
+name: Kingler
+rarity: uncommon
+holographic: false
+class: P
+types:
+- Water
+hp: 60
+stage: Stage 1
+evolves from: Krabby
+evo line: Krabby
+legality: n
+filename: 38-kingler
+pokemon: Kingler
+mechanics:
+- name: Flail
+  cost: W
+  damage: 10x
+  type: attack
+  text: >-
+    Does 10 damage times the number of damage counters on Kingler.
+- name: Crabhammer
+  cost: CWW
+  damage: '40'
+  type: attack
+  text: ""
+weakness:
+  amount: 2
+  operation: x
+  type: L
+resistance: None
+retreat: 3
+dex number: 99
+species: Pincer
+weight: 132
+height: 4'3
+illustrator: Kagemaru Himeno
+---
+set: fossil
+number: '39'
+name: Magmar
+rarity: uncommon
+holographic: false
+class: P
+types:
+- Fire
+hp: 70
+stage: Basic
+evo line: Magmar
+legality: n
+filename: 39-magmar
+pokemon: Magmar
+mechanics:
+- name: Smokescreen
+  cost: R
+  damage: '10'
+  type: attack
+  text: >-
+    If the Defending Pokémon tries to attack during your opponent's
+    next turn, your opponent flips a coin. If tails, that attack
+    does nothing.
+- name: Smog
+  cost: RR
+  damage: '20'
+  type: attack
+  text: >-
+    Flip a coin. If heads, the Defending Pokémon is now Poisoned.
+weakness:
+  amount: 2
+  operation: x
+  type: W
+resistance: None
+retreat: 1
+dex number: 126
+species: Spitfire
+weight: 98
+height: 4'3
+illustrator: Mitsuhiro Arita
+---
+set: fossil
+number: '40'
+name: Omastar
+rarity: uncommon
+holographic: false
+class: P
+types:
+- Water
+hp: 70
+stage: Stage 2
+evolves from: Omanyte
+evo line: Mysterious Fossil
+legality: n
+filename: 40-omastar
+pokemon: Omastar
+mechanics:
+- name: Water Gun
+  cost: WC
+  damage: 20+
+  type: attack
+  text: >-
+    Does 20 damage plus 10 more damage for each W Energy attached
+    to Omastar but not used to pay for this attack's Energy cost.
+    You can't add more than 20 damage in this way.
+- name: Spike Cannon
+  cost: CC
+  damage: 30x
+  type: attack
+  text: >-
+    Flip 2 coins. This attack does 30 damage times the number
+    of heads.
+weakness:
+  amount: 2
+  operation: x
+  type: G
+resistance: None
+retreat: 1
+dex number: 139
+species: Spiral
+weight: 77
+height: 3'3
+illustrator: Ken Sugimori
+---
+set: fossil
+number: '41'
+name: Sandslash
+rarity: uncommon
+holographic: false
+class: P
+types:
+- Fighting
+hp: 70
+stage: Stage 1
+evolves from: Sandshrew
+evo line: Sandshrew
+legality: n
+filename: 41-sandslash
+pokemon: Sandslash
+mechanics:
+- name: Slash
+  cost: CC
+  damage: '20'
+  type: attack
+  text: ""
+- name: Fury Swipes
+  cost: FF
+  damage: 20x
+  type: attack
+  text: >-
+    Flip 3 coins. This attack does 20 damage times the number
+    of heads.
+weakness:
+  amount: 2
+  operation: x
+  type: G
+resistance: L
+retreat: 1
+dex number: 28
+species: Mouse
+weight: 65
+height: 3'3
+illustrator: Ken Sugimori
+---
+set: fossil
+number: '42'
+name: Seadra
+rarity: uncommon
+holographic: false
+class: P
+types:
+- Water
+hp: 60
+stage: Stage 1
+evolves from: Horsea
+evo line: Horsea
+legality: n
+filename: 42-seadra
+pokemon: Seadra
+mechanics:
+- name: Water Gun
+  cost: WC
+  damage: 20+
+  type: attack
+  text: >-
+    Does 20 damage plus 10 more damage for each W Energy attached
+    to Seadra but not used to pay for this attack's Energy cost.
+    You can't add more than 20 damage in this way.
+- name: Agility
+  cost: CCW
+  damage: '20'
+  type: attack
+  text: >-
+    Flip a coin. If heads, during your opponent's next turn, prevent
+    all effects of attacks, including damage, done to Seadra.
+weakness:
+  amount: 2
+  operation: x
+  type: L
+resistance: None
+retreat: 1
+dex number: 117
+species: Dragon
+weight: 55
+height: 3'1
+illustrator: Ken Sugimori
+---
+set: fossil
+number: '43'
+name: Slowbro
+rarity: uncommon
+holographic: false
+class: P
+types:
+- Psychic
+hp: 60
+stage: Stage 1
+evolves from: Slowpoke
+evo line: Slowpoke
+legality: n
+filename: 43-slowbro
+pokemon: Slowbro
+mechanics:
+- name: Strange Behavior
+  type: pokemon-power
+  text: >-
+    As often as you like during your turn (before your attack),
+    you may move 1 damage counter from 1 of your Pokémon to Slowbro
+    as long as you don't Knock Out Slowbro. This power can't be
+    used if Slowbro is Asleep, Confused, or Paralyzed.
+- name: Psyshock
+  cost: PP
+  damage: '20'
+  type: attack
+  text: >-
+    Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+weakness:
+  amount: 2
+  operation: x
+  type: P
+resistance: None
+retreat: 1
+dex number: 80
+species: Hermitcrab
+weight: 173
+height: 5'3
+illustrator: Kagemaru Himeno
+---
+set: fossil
+number: '44'
+name: Tentacruel
+rarity: uncommon
+holographic: false
+class: P
+types:
+- Water
+hp: 60
+stage: Stage 1
+evolves from: Tentacool
+evo line: Tentacool
+legality: n
+filename: 44-tentacruel
+pokemon: Tentacruel
+mechanics:
+- name: Supersonic
+  cost: W
+  type: attack
+  text: >-
+    Flip a coin. If heads, the Defending Pokémon is now Confused.
+- name: Jellyfish Sting
+  cost: WW
+  damage: '10'
+  type: attack
+  text: >-
+    The Defending Pokémon is now Poisoned.
+weakness:
+  amount: 2
+  operation: x
+  type: L
+resistance: None
+retreat: 0
+dex number: 73
+species: Jellyfish
+weight: 121
+height: 5'3
+illustrator: Kagemaru Himeno
+---
+set: fossil
+number: '45'
+name: Weezing
+rarity: uncommon
+holographic: false
+class: P
+types:
+- Grass
+hp: 60
+stage: Stage 1
+evolves from: Koffing
+evo line: Koffing
+legality: n
+filename: 45-weezing
+pokemon: Weezing
+mechanics:
+- name: Smog
+  cost: GG
+  damage: '20'
+  type: attack
+  text: >-
+    Flip a coin. If heads, the Defending Pokémon is now Poisoned.
+- name: Selfdestruct
+  cost: CGG
+  damage: '60'
+  type: attack
+  text: >-
+    Does 10 damage to each Pokémon on each player's Bench. (Don't
+    apply Weakness and Resistance for Benched Pokémon.) Weezing
+    does 60 damage to itself.
+weakness:
+  amount: 2
+  operation: x
+  type: P
+resistance: None
+retreat: 1
+dex number: 110
+species: Poison Gas
+weight: 21
+height: 3'11
+illustrator: Mitsuhiro Arita
+---
+set: fossil
+number: '46'
+name: Ekans
+rarity: common
+holographic: false
+class: P
+types:
+- Grass
+hp: 40
+stage: Basic
+evo line: Ekans
+legality: n
+filename: 46-ekans
+pokemon: Ekans
+mechanics:
+- name: Spit Poison
+  cost: G
+  type: attack
+  text: >-
+    Flip a coin. If heads, the Defending Pokémon is now Poisoned.
+- name: Wrap
+  cost: CG
+  damage: '20'
+  type: attack
+  text: >-
+    Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+weakness:
+  amount: 2
+  operation: x
+  type: P
+resistance: None
+retreat: 1
+dex number: 23
+species: Snake
+weight: 15
+height: 6'7
+illustrator: Kagemaru Himeno
+---
+set: fossil
+number: '47'
+name: Geodude
+rarity: common
+holographic: false
+class: P
+types:
+- Fighting
+hp: 50
+stage: Basic
+evo line: Geodude
+legality: n
+filename: 47-geodude
+pokemon: Geodude
+mechanics:
+- name: Stone Barrage
+  cost: FC
+  damage: 10x
+  type: attack
+  text: >-
+    Flip a coin until you get tails. This attack does 10 damage
+    times the number of heads.
+weakness:
+  amount: 2
+  operation: x
+  type: G
+resistance: None
+retreat: 1
+dex number: 74
+species: Rock
+weight: 44
+height: 1'4
+illustrator: Kagemaru Himeno
+---
+set: fossil
+number: '48'
+name: Grimer
+rarity: common
+holographic: false
+class: P
+types:
+- Grass
+hp: 50
+stage: Basic
+evo line: Grimer
+legality: n
+filename: 48-grimer
+pokemon: Grimer
+mechanics:
+- name: Nasty Goo
+  cost: C
+  damage: '10'
+  type: attack
+  text: >-
+    Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+- name: Minimize
+  cost: G
+  type: attack
+  text: >-
+    All damage done by attacks to Grimer during your opponent's
+    next turn is reduced by 20 (after applying Weakness and Resistance).
+weakness:
+  amount: 2
+  operation: x
+  type: P
+resistance: None
+retreat: 1
+dex number: 88
+species: Sludge
+weight: 66
+height: 2'11
+illustrator: Mitsuhiro Arita
+---
+set: fossil
+number: '49'
+name: Horsea
+rarity: common
+holographic: false
+class: P
+types:
+- Water
+hp: 40
+stage: Basic
+evo line: Horsea
+legality: n
+filename: 49-horsea
+pokemon: Horsea
+mechanics:
+- name: Smokescreen
+  cost: W
+  damage: '10'
+  type: attack
+  text: >-
+    If the Defending Pokémon tries to attack during your opponent's
+    next turn, your opponent flips a coin. If tails, that attack
+    does nothing.
+weakness:
+  amount: 2
+  operation: x
+  type: L
+resistance: None
+retreat: 0
+dex number: 116
+species: Dragon
+weight: 18
+height: 1'4
+illustrator: Mitsuhiro Arita
+---
+set: fossil
+number: '50'
+name: Kabuto
+rarity: common
+holographic: false
+class: P
+types:
+- Fighting
+hp: 30
+stage: Stage 1
+evolves from: Mysterious Fossil
+evo line: Mysterious Fossil
+legality: n
+filename: 50-kabuto
+pokemon: Kabuto
+mechanics:
+- name: Kabuto Armor
+  type: pokemon-power
+  text: >-
+    Whenever an attack (even your own) does damage to Kabuto (after
+    applying Weakness and Resistance), that attack only does half
+    the damage to Kabuto (rounded down to nearest 10). (Any other
+    effects of attacks still happen.) This power stops working
+    while Kabuto is Asleep, Confused, or Paralyzed.
+- name: Scratch
+  cost: C
+  damage: '10'
+  type: attack
+  text: ""
+weakness:
+  amount: 2
+  operation: x
+  type: G
+resistance: None
+retreat: 1
+dex number: 140
+species: Shellfish
+weight: 25
+height: 1'8
+illustrator: Ken Sugimori
+---
+set: fossil
+number: '51'
+name: Krabby
+rarity: common
+holographic: false
+class: P
+types:
+- Water
+hp: 50
+stage: Basic
+evo line: Krabby
+legality: n
+filename: 51-krabby
+pokemon: Krabby
+mechanics:
+- name: Call for Family
+  cost: W
+  type: attack
+  text: >-
+    Search your deck for a Basic Pokémon named Krabby and put
+    it onto your Bench. Shuffle your deck afterward. (You can't
+    use this attack if your Bench is full.)
+- name: Irongrip
+  cost: CW
+  damage: '20'
+  type: attack
+  text: ""
+weakness:
+  amount: 2
+  operation: x
+  type: L
+resistance: None
+retreat: 2
+dex number: 98
+species: River Crab
+weight: 14
+height: 1'4
+illustrator: Mitsuhiro Arita
+---
+set: fossil
+number: '52'
+name: Omanyte
+rarity: common
+holographic: false
+class: P
+types:
+- Water
+hp: 40
+stage: Stage 1
+evolves from: Mysterious Fossil
+evo line: Mysterious Fossil
+legality: n
+filename: 52-omanyte
+pokemon: Omanyte
+mechanics:
+- name: Clairvoyance
+  type: pokemon-power
+  text: >-
+    Your opponent plays with his or her hand face up. This power
+    stops working while Omanyte is Asleep, Confused, or Paralyzed.
+- name: Water Gun
+  cost: W
+  damage: 10+
+  type: attack
+  text: >-
+    Does 10 damage plus 10 more damage for each W Energy attached
+    to Omanyte but not used to pay for this attack's Energy cost.
+    You can't add more than 20 damage in this way.
+weakness:
+  amount: 2
+  operation: x
+  type: G
+resistance: None
+retreat: 1
+dex number: 138
+species: Spiral
+weight: 17
+height: 1'4
+illustrator: Kagemaru Himeno
+---
+set: fossil
+number: '53'
+name: Psyduck
+rarity: common
+holographic: false
+class: P
+types:
+- Water
+hp: 50
+stage: Basic
+evo line: Psyduck
+legality: n
+filename: 53-psyduck
+pokemon: Psyduck
+mechanics:
+- name: Headache
+  cost: P
+  type: attack
+  text: >-
+    Your opponent can't play Trainer cards during his or her next
+    turn.
+- name: Fury Swipes
+  cost: W
+  damage: 10x
+  type: attack
+  text: >-
+    Flip 3 coins. This attack does 10 damage times the number
+    of heads.
+weakness:
+  amount: 2
+  operation: x
+  type: L
+resistance: None
+retreat: 1
+dex number: 54
+species: Duck
+weight: 43
+height: 2'7
+illustrator: Kagemaru Himeno
+---
+set: fossil
+number: '54'
+name: Shellder
+rarity: common
+holographic: false
+class: P
+types:
+- Water
+hp: 30
+stage: Basic
+evo line: Shellder
+legality: n
+filename: 54-shellder
+pokemon: Shellder
+mechanics:
+- name: Supersonic
+  cost: W
+  type: attack
+  text: >-
+    Flip a coin. If heads, the Defending Pokémon is now Confused.
+- name: Hide in Shell
+  cost: W
+  type: attack
+  text: >-
+    Flip a coin. If heads, prevent all damage done to Shellder
+    during your opponent's next turn. (Any other effects of attacks
+    still happen.)
+weakness:
+  amount: 2
+  operation: x
+  type: L
+resistance: None
+retreat: 1
+dex number: 90
+species: Bivalve
+weight: 9
+height: 1'0
+illustrator: Mitsuhiro Arita
+---
+set: fossil
+number: '55'
+name: Slowpoke
+rarity: common
+holographic: false
+class: P
+types:
+- Psychic
+hp: 50
+stage: Basic
+evo line: Slowpoke
+legality: n
+filename: 55-slowpoke
+pokemon: Slowpoke
+mechanics:
+- name: Spacing Out
+  cost: C
+  type: attack
+  text: >-
+    Flip a coin. If heads, remove a damage counter from Slowpoke.
+    This attack can't be used if Slowpoke has no damage counters
+    on it.
+- name: Scavenge
+  cost: PP
+  type: attack
+  text: >-
+    Discard 1 P Energy card attached to Slowpoke in order to use
+    this attack. Put a Trainer card from your discard pile into
+    your hand.
+weakness:
+  amount: 2
+  operation: x
+  type: P
+resistance: None
+retreat: 1
+dex number: 79
+species: Dopey
+weight: 79
+height: 3'11
+illustrator: Miki Tanaka
+---
+set: fossil
+number: '56'
+name: Tentacool
+rarity: common
+holographic: false
+class: P
+types:
+- Water
+hp: 30
+stage: Basic
+evo line: Tentacool
+legality: n
+filename: 56-tentacool
+pokemon: Tentacool
+mechanics:
+- name: Cowardice
+  type: pokemon-power
+  text: >-
+    At any time during your turn (before your attack), you may
+    return Tentacool to your hand. (Discard all cards attached
+    to Tentacool.) This power can't be used the turn you put Tentacool
+    into play or if Tentacool is Asleep, Confused, or Paralyzed.
+- name: Acid
+  cost: W
+  damage: '10'
+  type: attack
+  text: ""
+weakness:
+  amount: 2
+  operation: x
+  type: L
+resistance: None
+retreat: 0
+dex number: 72
+species: Jellyfish
+weight: 100
+height: 2'11
+illustrator: Kagemaru Himeno
+---
+set: fossil
+number: '57'
+name: Zubat
+rarity: common
+holographic: false
+class: P
+types:
+- Grass
+hp: 40
+stage: Basic
+evo line: Zubat
+legality: n
+filename: 57-zubat
+pokemon: Zubat
+mechanics:
+- name: Supersonic
+  cost: CC
+  type: attack
+  text: >-
+    Flip a coin. If heads, the Defending Pokémon is now Confused.
+- name: Leech Life
+  cost: CG
+  damage: '10'
+  type: attack
+  text: >-
+    Remove a number of damage counters from Zubat equal to the
+    damage done to the Defending Pokémon (after applying Weakness
+    and Resistance). If Zubat has fewer damage counters than that,
+    remove all of them.
+weakness:
+  amount: 2
+  operation: x
+  type: P
+resistance: F
+retreat: 0
+dex number: 41
+species: Bat
+weight: 17
+height: 2'7
+illustrator: Kagemaru Himeno
+---
+set: fossil
+number: '58'
+name: Mr. Fuji
+rarity: uncommon
+holographic: false
+class: T
+legality: n
+filename: 58-mr.-fuji
+mechanics:
+- type: effect
+  text: >-
+    Choose a Pokémon on your Bench. Shuffle it and any cards attached
+    to it into your deck.
+illustrator: Ken Sugimori
+---
+set: fossil
+number: '59'
+name: Energy Search
+rarity: common
+holographic: false
+class: T
+legality: y
+filename: 59-energy-search
+orphan: 'ex-ruby-and-sapphire: 90-energy-search'
+mechanics:
+- type: effect
+  text: >-
+    Search your deck for a basic Energy card and put it into your
+    hand. Shuffle your deck afterward.
+illustrator: Keiji Kinebuchi
+---
+set: fossil
+number: '60'
+name: Gambler
+rarity: common
+holographic: false
+class: T
+legality: n
+filename: 60-gambler
+mechanics:
+- type: effect
+  text: >-
+    Shuffle your hand into your deck. Flip a coin. If heads, draw
+    8 cards. If tails, draw 1 card.
+illustrator: Keiji Kinebuchi
+---
+set: fossil
+number: '61'
+name: Recycle
+rarity: common
+holographic: false
+class: T
+legality: n
+filename: 61-recycle
+mechanics:
+- type: effect
+  text: >-
+    Flip a coin. If heads, put a card in your discard pile on
+    top of your deck.
+illustrator: Keiji Kinebuchi
+---
+set: fossil
+number: '62'
+name: Mysterious Fossil
+rarity: common
+holographic: false
+class: P
+hp: 50
+subclass: Fossil
+evo line: Mysterious Fossil
+legality: n
+filename: 62-mysterious-fossil
+mechanics:
+- type: effect
+  text: >-
+    Play Mysterious Fossil as if it were a Basic Pokémon. While
+    in play, Mysterious Fossil counts as a Pokémon (instead of
+    a Trainer card). Mysterious Fossil has no attacks, can't retreat,
+    and can't be Asleep, Confused, Paralyzed, or Poisoned. If
+    Mysterious Fossil is Knocked Out, it doesn't count as a Knocked
+    Out Pokémon. (Discard it anyway.) At any time during your
+    turn before your attack, you may discard Mysterious Fossil
+    from play.
+illustrator: Keiji Kinebuchi
