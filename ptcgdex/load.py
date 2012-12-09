@@ -4,7 +4,7 @@ from __future__ import division, unicode_literals
 import os
 import time
 import re
-from collections import namedtuple
+from collections import namedtuple, OrderedDict
 
 import yaml
 from sqlalchemy.orm.exc import NoResultFound
@@ -22,6 +22,7 @@ card_class_idents = dict(
     E='energy',
 )
 
+
 class Loader(yaml.Loader):
     pass
 
@@ -35,32 +36,44 @@ def construct_yaml_str(self, node):
 Loader.add_constructor(u'tag:yaml.org,2002:str', construct_yaml_str)
 
 
-def assert_empty(dct):
-    """Assert an info dict is empty"""
-    # Popping data from a dict and then checking everything was popped is a
-    # good way to ensure that we process everything we have.
-    if dct:
-        print
-        print '-ERROR-'
-        print yaml.safe_dump(dct)
-        raise ValueError(
-            'Unprocessed keys: {}'.format(dct.keys()))
+class Dumper(yaml.SafeDumper):
+    pass
 
+class Text(unicode):
+    def __new__(cls, value=''):
+        return unicode.__new__(cls, value.replace('’', "'"))
 
-ObjectInfo = namedtuple('ObjectInfo', 'cls attributes')
+def long_text_representer(dumper, data):
+    return dumper.represent_scalar('tag:yaml.org,2002:str', data, style='>')
+
+def odict_representer(dumper, data):
+    return dumper.represent_mapping('tag:yaml.org,2002:map', data.items())
+
+Dumper.add_representer(Text, long_text_representer)
+Dumper.add_representer(OrderedDict, odict_representer)
+
+def yaml_dump(stuff):
+    return yaml.dump(stuff,
+                     default_flow_style=False,
+                     Dumper=Dumper,
+                     allow_unicode=True,
+                     explicit_start=True,
+                     width=60,
+                    )
+
 
 def export_mechanic(mechanic):
     effect = mechanic.effect
-    mech = dict(
-            type=mechanic.class_.identifier,
-            name=mechanic.name,
-            cost=mechanic.cost_string,
-            text=effect.source_text if effect else None,
-            damage='{}{}'.format(
+    mech = OrderedDict([
+            ('name', mechanic.name),
+            ('cost', mechanic.cost_string),
+            ('damage', '{}{}'.format(
                 mechanic.damage_base or '',
-                mechanic.damage_modifier or '')
-        )
-    return {k: v for k, v in mech.items() if v}
+                mechanic.damage_modifier or '')),
+            ('type', mechanic.class_.identifier),
+            ('text', Text(effect.source_text) if effect else None),
+        ])
+    return OrderedDict([(k, v) for k, v in mech.items() if v])
 
 def load_sets(session, directory, set_names=None, verbose=True):
     def type_by_initial(initial):
@@ -216,8 +229,6 @@ def load_sets(session, directory, set_names=None, verbose=True):
                     link.order = index
                     session.add(link)
 
-                    assert_empty(mechanic_info)
-
                 for index, card_type in enumerate(card_types):
                     link = tcg_tables.CardType()
                     link.card = card
@@ -235,7 +246,6 @@ def load_sets(session, directory, set_names=None, verbose=True):
                     weakness.operation = {'x': '×'}.get(
                         operation, operation)
                     session.add(weakness)
-                    assert_empty(weak_info)
 
                 if card_subclass:
                     link = tcg_tables.CardSubclass()
@@ -303,3 +313,72 @@ def load_sets(session, directory, set_names=None, verbose=True):
             session.commit()
 
         print_done()
+
+
+def dump_sets(session, directory, set_names=None, verbose=True):
+    sets = session.query(tcg_tables.Set).order_by(tcg_tables.Set.id).all()
+    for tcg_set in sets:
+        ident = tcg_set.identifier
+        if set_names is None or ident in set_names:
+            pathname = os.path.join(directory, '{}.cards'.format(ident))
+            outfile = open(pathname, 'w')
+            dump_set(tcg_set, outfile, verbose=verbose)
+
+def dump_set(tcg_set, outfile, verbose=True):
+    prints = dex_load._get_verbose_prints(verbose)
+    print_start, print_status, print_done = prints
+
+    print_start(tcg_set.name)
+
+    included_keys = set(['holographic'])
+
+    for i, print_ in enumerate(tcg_set.prints):
+        card = print_.card
+        flavor = print_.pokemon_flavor
+        print_status('{}/{}'.format(i, len(tcg_set.prints)))
+        card_info = OrderedDict([
+            ('set', tcg_set.identifier),
+            ('number', print_.set_number),
+            ('name', card.name),
+            ('rarity', print_.rarity.identifier),
+            ('holographic', print_.holographic),
+            ('class', card.class_.identifier[0].upper()),
+            ('types', [t.name for t in card.types]),
+            ('hp', card.hp),
+            ('stage', card.stage.name if card.stage else None),
+        ])
+        if flavor and flavor.pokemon:
+            card_info['pokemon'] = flavor.pokemon.name
+        card_info['mechanics'] = [export_mechanic(cm.mechanic) for cm
+                                  in card.card_mechanics]
+
+        weaknesses = []
+        for w in card.weaknesses:
+            weakness = (
+                    ('amount', w.amount),
+                    ('operation', w.operation),
+                    ('type', w.type.initial),
+                )
+            weaknesses.append(OrderedDict([(k, v) for k, v in weakness]))
+        if weaknesses:
+            [card_info['weakness']] = weaknesses
+
+        if card.resistance_type:
+            card_info['resistance'] = card.resistance_type.initial
+        card_info['retreat'] = card.retreat_cost
+
+        if flavor:
+            if flavor.species:
+                card_info['dex number'] = flavor.species.id
+            card_info['species'] = flavor.genus
+            card_info['weight'] = flavor.weight
+            card_info['height'] = flavor.height
+            card_info['dex entry'] = flavor.dex_entry
+
+        card_info['illustrator'] = print_.illustrator.name
+
+        card_info = OrderedDict((k, v) for k, v in card_info.items()
+            if v or k in included_keys)
+        outfile.write(yaml_dump(card_info))
+
+    print_done()

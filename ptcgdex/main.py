@@ -99,6 +99,7 @@ def load(session, options):
 def dump(session, options):
     from ptcgdex import tcg_tables
     from pokedex.db import load as dex_load
+    from ptcgdex import load as ptcg_load
     tables = options['<table-or-set-identifier>']
     if not tables:
         if options['--csv']:
@@ -113,6 +114,11 @@ def dump(session, options):
         tables=tables,
         verbose=options['--verbose'],
         langs=['en'])
+
+    print session
+    ptcg_load.dump_sets(session,
+        directory=options['--card-dir'],
+        verbose=options['--verbose'])
 
 
 def main(argv=None):
