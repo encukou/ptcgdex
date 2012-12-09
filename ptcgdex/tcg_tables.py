@@ -260,8 +260,6 @@ class PokemonFlavor(TableBase):
         info=dict(description="Height in pounds"))
     weight = Column(Integer, nullable=False,
         info=dict(description="Weight in inches"))
-    category = Column(Integer, nullable=True,
-        info=dict(description='"Species", if different from games'))
 
 create_translation_table('tcg_pokemon_flavor_text', PokemonFlavor, 'flavor',
     genus = Column(Unicode(16), nullable=True, index=True,
