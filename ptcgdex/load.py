@@ -320,7 +320,8 @@ def load_sets(session, directory, set_names=None, verbose=True):
             card_info.pop('dated', None)  # XXX
             card_info.pop('in-set-variant-of', None)  # XXX
 
-            session.commit()
+            session.flush()
+        session.commit()
 
         print_done()
 
