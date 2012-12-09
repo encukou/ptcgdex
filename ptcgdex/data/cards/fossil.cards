@@ -209,7 +209,6 @@ mechanics:
   text: >-
     The Defending Pokémon is now Asleep.
 resistance: F
-retreat: 0
 dex number: 93
 species: Gas
 weight: 0.2
@@ -245,7 +244,6 @@ weakness:
   amount: 2
   operation: ×
   type: P
-resistance: None
 retreat: 1
 dex number: 106
 species: Kicking
@@ -286,7 +284,6 @@ weakness:
   amount: 2
   operation: ×
   type: P
-resistance: None
 retreat: 2
 dex number: 97
 species: Hypnosis
@@ -327,7 +324,6 @@ weakness:
   amount: 2
   operation: ×
   type: G
-resistance: None
 retreat: 1
 dex number: 141
 species: Shellfish
@@ -367,7 +363,6 @@ weakness:
   amount: 2
   operation: ×
   type: L
-resistance: None
 retreat: 1
 dex number: 131
 species: Transport
@@ -410,7 +405,6 @@ weakness:
   amount: 2
   operation: ×
   type: F
-resistance: None
 retreat: 2
 dex number: 82
 species: Magnet
@@ -483,7 +477,6 @@ weakness:
   amount: 2
   operation: ×
   type: P
-resistance: None
 retreat: 2
 dex number: 89
 species: Sludge
@@ -519,7 +512,6 @@ weakness:
   amount: 2
   operation: ×
   type: F
-resistance: None
 retreat: 1
 dex number: 26
 species: Mouse
@@ -774,7 +766,6 @@ mechanics:
   text: >-
     The Defending Pokémon is now Asleep.
 resistance: F
-retreat: 0
 dex number: 93
 species: Gas
 weight: 0.2
@@ -811,7 +802,6 @@ weakness:
   amount: 2
   operation: ×
   type: P
-resistance: None
 retreat: 1
 dex number: 106
 species: Kicking
@@ -853,7 +843,6 @@ weakness:
   amount: 2
   operation: ×
   type: P
-resistance: None
 retreat: 2
 dex number: 97
 species: Hypnosis
@@ -895,7 +884,6 @@ weakness:
   amount: 2
   operation: ×
   type: G
-resistance: None
 retreat: 1
 dex number: 141
 species: Shellfish
@@ -936,7 +924,6 @@ weakness:
   amount: 2
   operation: ×
   type: L
-resistance: None
 retreat: 2
 dex number: 131
 species: Transport
@@ -980,7 +967,6 @@ weakness:
   amount: 2
   operation: ×
   type: F
-resistance: None
 retreat: 2
 dex number: 82
 species: Magnet
@@ -1055,7 +1041,6 @@ weakness:
   amount: 2
   operation: ×
   type: P
-resistance: None
 retreat: 2
 dex number: 89
 species: Sludge
@@ -1092,7 +1077,6 @@ weakness:
   amount: 2
   operation: ×
   type: F
-resistance: None
 retreat: 1
 dex number: 26
 species: Mouse
@@ -1166,7 +1150,6 @@ weakness:
   amount: 2
   operation: ×
   type: P
-resistance: None
 retreat: 2
 dex number: 24
 species: Cobra
@@ -1207,7 +1190,6 @@ weakness:
   amount: 2
   operation: ×
   type: L
-resistance: None
 retreat: 2
 dex number: 91
 species: Bivalve
@@ -1242,7 +1224,6 @@ mechanics:
     Put up to 2 Energy cards from your discard pile into your
     hand. Gastly does 10 damage to itself.
 resistance: F
-retreat: 0
 dex number: 92
 species: Gas
 weight: 0.2
@@ -1282,7 +1263,6 @@ weakness:
   operation: ×
   type: P
 resistance: F
-retreat: 0
 dex number: 42
 species: Bat
 weight: 121
@@ -1321,7 +1301,6 @@ weakness:
   amount: 2
   operation: ×
   type: L
-resistance: None
 retreat: 1
 dex number: 55
 species: Duck
@@ -1360,7 +1339,6 @@ weakness:
   amount: 2
   operation: ×
   type: G
-resistance: None
 retreat: 4
 dex number: 76
 species: Megaton
@@ -1398,7 +1376,6 @@ weakness:
   amount: 2
   operation: ×
   type: G
-resistance: None
 retreat: 2
 dex number: 75
 species: Rock
@@ -1435,7 +1412,6 @@ weakness:
   amount: 2
   operation: ×
   type: L
-resistance: None
 retreat: 3
 dex number: 99
 species: Pincer
@@ -1475,7 +1451,6 @@ weakness:
   amount: 2
   operation: ×
   type: W
-resistance: None
 retreat: 1
 dex number: 126
 species: Spitfire
@@ -1517,7 +1492,6 @@ weakness:
   amount: 2
   operation: ×
   type: G
-resistance: None
 retreat: 1
 dex number: 139
 species: Spiral
@@ -1597,7 +1571,6 @@ weakness:
   amount: 2
   operation: ×
   type: L
-resistance: None
 retreat: 1
 dex number: 117
 species: Dragon
@@ -1637,7 +1610,6 @@ weakness:
   amount: 2
   operation: ×
   type: P
-resistance: None
 retreat: 1
 dex number: 80
 species: Hermitcrab
@@ -1675,8 +1647,6 @@ weakness:
   amount: 2
   operation: ×
   type: L
-resistance: None
-retreat: 0
 dex number: 73
 species: Jellyfish
 weight: 121
@@ -1716,7 +1686,6 @@ weakness:
   amount: 2
   operation: ×
   type: P
-resistance: None
 retreat: 1
 dex number: 110
 species: Poison Gas
@@ -1753,7 +1722,6 @@ weakness:
   amount: 2
   operation: ×
   type: P
-resistance: None
 retreat: 1
 dex number: 23
 species: Snake
@@ -1786,7 +1754,6 @@ weakness:
   amount: 2
   operation: ×
   type: G
-resistance: None
 retreat: 1
 dex number: 74
 species: Rock
@@ -1824,7 +1791,6 @@ weakness:
   amount: 2
   operation: ×
   type: P
-resistance: None
 retreat: 1
 dex number: 88
 species: Sludge
@@ -1858,8 +1824,6 @@ weakness:
   amount: 2
   operation: ×
   type: L
-resistance: None
-retreat: 0
 dex number: 116
 species: Dragon
 weight: 18
@@ -1897,7 +1861,6 @@ weakness:
   amount: 2
   operation: ×
   type: G
-resistance: None
 retreat: 1
 dex number: 140
 species: Shellfish
@@ -1934,7 +1897,6 @@ weakness:
   amount: 2
   operation: ×
   type: L
-resistance: None
 retreat: 2
 dex number: 98
 species: River Crab
@@ -1974,7 +1936,6 @@ weakness:
   amount: 2
   operation: ×
   type: G
-resistance: None
 retreat: 1
 dex number: 138
 species: Spiral
@@ -2013,7 +1974,6 @@ weakness:
   amount: 2
   operation: ×
   type: L
-resistance: None
 retreat: 1
 dex number: 54
 species: Duck
@@ -2051,7 +2011,6 @@ weakness:
   amount: 2
   operation: ×
   type: L
-resistance: None
 retreat: 1
 dex number: 90
 species: Bivalve
@@ -2091,7 +2050,6 @@ weakness:
   amount: 2
   operation: ×
   type: P
-resistance: None
 retreat: 1
 dex number: 79
 species: Dopey
@@ -2128,8 +2086,6 @@ weakness:
   amount: 2
   operation: ×
   type: L
-resistance: None
-retreat: 0
 dex number: 72
 species: Jellyfish
 weight: 100
@@ -2169,7 +2125,6 @@ weakness:
   operation: ×
   type: P
 resistance: F
-retreat: 0
 dex number: 41
 species: Bat
 weight: 17

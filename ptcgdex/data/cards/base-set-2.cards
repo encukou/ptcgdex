@@ -32,7 +32,6 @@ weakness:
   amount: 2
   operation: ×
   type: P
-resistance: None
 retreat: 3
 dex number: 65
 species: Psi
@@ -79,7 +78,6 @@ weakness:
   amount: 2
   operation: ×
   type: L
-resistance: None
 retreat: 3
 dex number: 9
 species: Shellfish
@@ -336,7 +334,6 @@ weakness:
   amount: 2
   operation: ×
   type: P
-resistance: None
 retreat: 2
 dex number: 107
 species: Punching
@@ -381,7 +378,6 @@ weakness:
   amount: 2
   operation: ×
   type: F
-resistance: None
 retreat: 1
 dex number: 82
 species: Magnet
@@ -425,7 +421,6 @@ weakness:
   amount: 2
   operation: ×
   type: P
-resistance: None
 retreat: 3
 dex number: 150
 species: Genetic
@@ -472,7 +467,6 @@ weakness:
   amount: 2
   operation: ×
   type: P
-resistance: None
 retreat: 1
 dex number: 34
 species: Drill
@@ -514,7 +508,6 @@ weakness:
   amount: 2
   operation: ×
   type: P
-resistance: None
 retreat: 3
 dex number: 31
 species: Drill
@@ -558,7 +551,6 @@ weakness:
   amount: 2
   operation: ×
   type: W
-resistance: None
 retreat: 1
 dex number: 38
 species: Fox
@@ -602,7 +594,6 @@ weakness:
   operation: ×
   type: L
 resistance: F
-retreat: 0
 dex number: 18
 species: Bird
 weight: 87
@@ -647,7 +638,6 @@ weakness:
   amount: 2
   operation: ×
   type: G
-resistance: None
 retreat: 3
 dex number: 62
 species: Tadpole
@@ -691,7 +681,6 @@ weakness:
   amount: 2
   operation: ×
   type: F
-resistance: None
 retreat: 1
 dex number: 26
 species: Mouse
@@ -732,7 +721,6 @@ weakness:
   operation: ×
   type: R
 resistance: F
-retreat: 0
 dex number: 123
 species: Mantis
 weight: 123
@@ -773,7 +761,6 @@ weakness:
   amount: 2
   operation: ×
   type: R
-resistance: None
 retreat: 2
 dex number: 3
 species: Seed
@@ -899,7 +886,6 @@ weakness:
   operation: ×
   type: R
 resistance: F
-retreat: 0
 dex number: 15
 species: Poison Bee
 weight: 65
@@ -1024,7 +1010,6 @@ weakness:
   amount: 2
   operation: ×
   type: F
-resistance: None
 retreat: 2
 dex number: 125
 species: Electric
@@ -1070,7 +1055,6 @@ weakness:
   amount: 2
   operation: ×
   type: F
-resistance: None
 retreat: 1
 dex number: 101
 species: Ball
@@ -1157,7 +1141,6 @@ weakness:
   amount: 2
   operation: ×
   type: P
-resistance: None
 retreat: 1
 dex number: 122
 species: Barrier
@@ -1242,7 +1225,6 @@ weakness:
   amount: 2
   operation: ×
   type: R
-resistance: None
 retreat: 1
 dex number: 127
 species: Stagbeetle
@@ -1330,7 +1312,6 @@ weakness:
   operation: ×
   type: R
 resistance: F
-retreat: 0
 dex number: 49
 species: Poisonmoth
 weight: 28
@@ -1373,7 +1354,6 @@ weakness:
   amount: 2
   operation: ×
   type: R
-resistance: None
 retreat: 2
 dex number: 71
 species: Flycatcher
@@ -1417,7 +1397,6 @@ weakness:
   amount: 2
   operation: ×
   type: W
-resistance: None
 retreat: 3
 dex number: 59
 species: Legendary
@@ -1465,7 +1444,6 @@ weakness:
   operation: ×
   type: R
 resistance: F
-retreat: 0
 dex number: 12
 species: Butterfly
 weight: 71
@@ -1506,7 +1484,6 @@ weakness:
   amount: 2
   operation: ×
   type: W
-resistance: None
 retreat: 1
 dex number: 5
 species: Flame
@@ -1547,7 +1524,6 @@ weakness:
   amount: 2
   operation: ×
   type: L
-resistance: None
 retreat: 3
 dex number: 87
 species: Sea Lion
@@ -1591,7 +1567,6 @@ weakness:
   operation: ×
   type: L
 resistance: F
-retreat: 0
 dex number: 85
 species: Triplebird
 weight: 188
@@ -1664,7 +1639,6 @@ weakness:
   amount: 2
   operation: ×
   type: R
-resistance: None
 retreat: 3
 dex number: 103
 species: Coconut
@@ -1750,7 +1724,6 @@ weakness:
   operation: ×
   type: L
 resistance: F
-retreat: 0
 dex number: 22
 species: Beak
 weight: 84
@@ -1783,7 +1756,6 @@ weakness:
   amount: 2
   operation: ×
   type: W
-resistance: None
 retreat: 1
 dex number: 58
 species: Puppy
@@ -1863,7 +1835,6 @@ weakness:
   amount: 2
   operation: ×
   type: R
-resistance: None
 retreat: 1
 dex number: 2
 species: Seed
@@ -1907,7 +1878,6 @@ weakness:
   amount: 2
   operation: ×
   type: P
-resistance: None
 retreat: 2
 dex number: 124
 species: Human Shape
@@ -1948,7 +1918,6 @@ weakness:
   amount: 2
   operation: ×
   type: P
-resistance: None
 retreat: 3
 dex number: 64
 species: Psi
@@ -1992,7 +1961,6 @@ weakness:
   amount: 2
   operation: ×
   type: R
-resistance: None
 retreat: 2
 dex number: 14
 species: Cocoon
@@ -2077,7 +2045,6 @@ weakness:
   amount: 2
   operation: ×
   type: P
-resistance: None
 retreat: 3
 dex number: 67
 species: Superpower
@@ -2117,7 +2084,6 @@ weakness:
   amount: 2
   operation: ×
   type: L
-resistance: None
 retreat: 1
 dex number: 129
 species: Fish
@@ -2158,7 +2124,6 @@ weakness:
   amount: 2
   operation: ×
   type: W
-resistance: None
 retreat: 2
 dex number: 126
 species: Spitfire
@@ -2246,7 +2211,6 @@ weakness:
   amount: 2
   operation: ×
   type: P
-resistance: None
 retreat: 1
 dex number: 30
 species: Poison Pin
@@ -2287,7 +2251,6 @@ weakness:
   amount: 2
   operation: ×
   type: P
-resistance: None
 retreat: 1
 dex number: 33
 species: Poison Pin
@@ -2327,7 +2290,6 @@ weakness:
   amount: 2
   operation: ×
   type: R
-resistance: None
 retreat: 1
 dex number: 47
 species: Mushroom
@@ -2372,7 +2334,6 @@ weakness:
   operation: ×
   type: F
 resistance: P
-retreat: 0
 dex number: 53
 species: Classy Cat
 weight: 71
@@ -2414,7 +2375,6 @@ weakness:
   amount: 2
   operation: ×
   type: G
-resistance: None
 retreat: 1
 dex number: 61
 species: Tadpole
@@ -2540,7 +2500,6 @@ weakness:
   amount: 2
   operation: ×
   type: L
-resistance: None
 retreat: 1
 dex number: 119
 species: Goldfish
@@ -2574,7 +2533,6 @@ weakness:
   amount: 2
   operation: ×
   type: L
-resistance: None
 retreat: 1
 dex number: 86
 species: Sea Lion
@@ -2620,7 +2578,6 @@ weakness:
   operation: ×
   type: F
 resistance: P
-retreat: 0
 dex number: 128
 species: Wild Bull
 weight: 195
@@ -2661,7 +2618,6 @@ weakness:
   amount: 2
   operation: ×
   type: L
-resistance: None
 retreat: 1
 dex number: 8
 species: Turtle
@@ -2702,7 +2658,6 @@ weakness:
   amount: 2
   operation: ×
   type: R
-resistance: None
 retreat: 1
 dex number: 70
 species: Flycatcher
@@ -2738,8 +2693,6 @@ weakness:
   amount: 2
   operation: ×
   type: P
-resistance: None
-retreat: 0
 dex number: 63
 species: Psi
 weight: 43
@@ -2779,7 +2732,6 @@ weakness:
   amount: 2
   operation: ×
   type: R
-resistance: None
 retreat: 1
 dex number: 69
 species: Flower
@@ -2816,7 +2768,6 @@ weakness:
   amount: 2
   operation: ×
   type: R
-resistance: None
 retreat: 1
 dex number: 1
 species: Seed
@@ -2852,7 +2803,6 @@ weakness:
   amount: 2
   operation: ×
   type: R
-resistance: None
 retreat: 1
 dex number: 10
 species: Worm
@@ -2892,7 +2842,6 @@ weakness:
   amount: 2
   operation: ×
   type: W
-resistance: None
 retreat: 1
 dex number: 4
 species: Lizard
@@ -2976,7 +2925,6 @@ weakness:
   operation: ×
   type: G
 resistance: L
-retreat: 0
 dex number: 50
 species: Mole
 weight: 2
@@ -3013,7 +2961,6 @@ weakness:
   operation: ×
   type: L
 resistance: F
-retreat: 0
 dex number: 84
 species: Twin Bird
 weight: 86
@@ -3052,7 +2999,6 @@ weakness:
   amount: 2
   operation: ×
   type: P
-resistance: None
 retreat: 1
 dex number: 96
 species: Hypnosis
@@ -3094,7 +3040,6 @@ weakness:
   amount: 2
   operation: ×
   type: R
-resistance: None
 retreat: 1
 dex number: 102
 species: Egg
@@ -3133,7 +3078,6 @@ mechanics:
     Knock Out's Gastly on opponent's next turn, Knock Out that
     Pokémon.
 resistance: F
-retreat: 0
 dex number: 92
 species: Gas
 weight: 0.2
@@ -3166,8 +3110,6 @@ weakness:
   amount: 2
   operation: ×
   type: L
-resistance: None
-retreat: 0
 dex number: 118
 species: Goldfish
 weight: 33
@@ -3239,7 +3181,6 @@ weakness:
   amount: 2
   operation: ×
   type: P
-resistance: None
 retreat: 1
 dex number: 66
 species: Superpower
@@ -3283,7 +3224,6 @@ weakness:
   amount: 2
   operation: ×
   type: F
-resistance: None
 retreat: 1
 dex number: 81
 species: Magnet
@@ -3363,7 +3303,6 @@ weakness:
   amount: 2
   operation: ×
   type: R
-resistance: None
 retreat: 2
 dex number: 11
 species: Cocoon
@@ -3407,7 +3346,6 @@ weakness:
   amount: 2
   operation: ×
   type: P
-resistance: None
 retreat: 1
 dex number: 29
 species: Poison Pin
@@ -3443,7 +3381,6 @@ weakness:
   amount: 2
   operation: ×
   type: P
-resistance: None
 retreat: 1
 dex number: 32
 species: Poison Pin
@@ -3484,7 +3421,6 @@ weakness:
   amount: 2
   operation: ×
   type: G
-resistance: None
 retreat: 3
 dex number: 95
 species: Rock Snake
@@ -3523,7 +3459,6 @@ weakness:
   amount: 2
   operation: ×
   type: R
-resistance: None
 retreat: 1
 dex number: 46
 species: Mushroom
@@ -3601,7 +3536,6 @@ weakness:
   amount: 2
   operation: ×
   type: F
-resistance: None
 retreat: 1
 dex number: 25
 species: Mouse
@@ -3638,7 +3572,6 @@ weakness:
   amount: 2
   operation: ×
   type: G
-resistance: None
 retreat: 1
 dex number: 60
 species: Tadpole
@@ -3673,7 +3606,6 @@ weakness:
   operation: ×
   type: F
 resistance: P
-retreat: 0
 dex number: 19
 species: Rat
 weight: 8
@@ -3792,7 +3724,6 @@ weakness:
   operation: ×
   type: L
 resistance: F
-retreat: 0
 dex number: 21
 species: Tiny Bird
 weight: 4
@@ -3834,7 +3765,6 @@ weakness:
   amount: 2
   operation: ×
   type: L
-resistance: None
 retreat: 1
 dex number: 7
 species: Tinyturtle
@@ -3877,7 +3807,6 @@ weakness:
   amount: 2
   operation: ×
   type: L
-resistance: None
 retreat: 1
 dex number: 121
 species: Mysterious
@@ -3911,7 +3840,6 @@ weakness:
   amount: 2
   operation: ×
   type: L
-resistance: None
 retreat: 1
 dex number: 120
 species: Starshape
@@ -3953,7 +3881,6 @@ weakness:
   amount: 2
   operation: ×
   type: R
-resistance: None
 retreat: 2
 dex number: 114
 species: Vine
@@ -3997,7 +3924,6 @@ weakness:
   amount: 2
   operation: ×
   type: R
-resistance: None
 retreat: 1
 dex number: 48
 species: Insect
@@ -4031,7 +3957,6 @@ weakness:
   amount: 2
   operation: ×
   type: F
-resistance: None
 retreat: 1
 dex number: 100
 species: Ball
@@ -4067,7 +3992,6 @@ weakness:
   amount: 2
   operation: ×
   type: W
-resistance: None
 retreat: 1
 dex number: 37
 species: Fox
@@ -4103,7 +4027,6 @@ weakness:
   amount: 2
   operation: ×
   type: R
-resistance: None
 retreat: 1
 dex number: 13
 species: Hairy Bug

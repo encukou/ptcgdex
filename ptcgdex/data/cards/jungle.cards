@@ -75,7 +75,6 @@ weakness:
   amount: 2
   operation: ×
   type: F
-resistance: None
 retreat: 1
 dex number: 101
 species: Ball
@@ -119,7 +118,6 @@ weakness:
   amount: 2
   operation: ×
   type: W
-resistance: None
 retreat: 1
 dex number: 136
 species: Flame
@@ -163,7 +161,6 @@ weakness:
   amount: 2
   operation: ×
   type: F
-resistance: None
 retreat: 1
 dex number: 135
 species: Lightning
@@ -248,7 +245,6 @@ weakness:
   amount: 2
   operation: ×
   type: P
-resistance: None
 retreat: 1
 dex number: 122
 species: Barrier
@@ -289,7 +285,6 @@ weakness:
   amount: 2
   operation: ×
   type: P
-resistance: None
 retreat: 3
 dex number: 31
 species: Drill
@@ -332,7 +327,6 @@ weakness:
   operation: ×
   type: L
 resistance: F
-retreat: 0
 dex number: 18
 species: Bird
 weight: 87
@@ -370,7 +364,6 @@ weakness:
   amount: 2
   operation: ×
   type: R
-resistance: None
 retreat: 1
 dex number: 127
 species: Stagbeetle
@@ -411,7 +404,6 @@ weakness:
   operation: ×
   type: R
 resistance: F
-retreat: 0
 dex number: 123
 species: Mantis
 weight: 123
@@ -496,7 +488,6 @@ weakness:
   amount: 2
   operation: ×
   type: L
-resistance: None
 retreat: 1
 dex number: 134
 species: Bubble Jet
@@ -541,7 +532,6 @@ weakness:
   operation: ×
   type: R
 resistance: F
-retreat: 0
 dex number: 49
 species: Poisonmoth
 weight: 28
@@ -583,7 +573,6 @@ weakness:
   amount: 2
   operation: ×
   type: R
-resistance: None
 retreat: 2
 dex number: 71
 species: Flycatcher
@@ -627,7 +616,6 @@ weakness:
   amount: 2
   operation: ×
   type: R
-resistance: None
 retreat: 2
 dex number: 45
 species: Flower
@@ -758,7 +746,6 @@ weakness:
   amount: 2
   operation: ×
   type: F
-resistance: None
 retreat: 1
 dex number: 101
 species: Ball
@@ -803,7 +790,6 @@ weakness:
   amount: 2
   operation: ×
   type: W
-resistance: None
 retreat: 1
 dex number: 136
 species: Flame
@@ -848,7 +834,6 @@ weakness:
   amount: 2
   operation: ×
   type: F
-resistance: None
 retreat: 1
 dex number: 135
 species: Lightning
@@ -935,7 +920,6 @@ weakness:
   amount: 2
   operation: ×
   type: P
-resistance: None
 retreat: 1
 dex number: 122
 species: Barrier
@@ -977,7 +961,6 @@ weakness:
   amount: 2
   operation: ×
   type: P
-resistance: None
 retreat: 3
 dex number: 31
 species: Drill
@@ -1021,7 +1004,6 @@ weakness:
   operation: ×
   type: L
 resistance: F
-retreat: 0
 dex number: 18
 species: Bird
 weight: 87
@@ -1060,7 +1042,6 @@ weakness:
   amount: 2
   operation: ×
   type: R
-resistance: None
 retreat: 1
 dex number: 127
 species: Stagbeetle
@@ -1102,7 +1083,6 @@ weakness:
   operation: ×
   type: R
 resistance: F
-retreat: 0
 dex number: 123
 species: Mantis
 weight: 123
@@ -1189,7 +1169,6 @@ weakness:
   amount: 2
   operation: ×
   type: L
-resistance: None
 retreat: 1
 dex number: 134
 species: Bubble Jet
@@ -1235,7 +1214,6 @@ weakness:
   operation: ×
   type: R
 resistance: F
-retreat: 0
 dex number: 49
 species: Poisonmoth
 weight: 28
@@ -1278,7 +1256,6 @@ weakness:
   amount: 2
   operation: ×
   type: R
-resistance: None
 retreat: 2
 dex number: 71
 species: Flycatcher
@@ -1323,7 +1300,6 @@ weakness:
   amount: 2
   operation: ×
   type: R
-resistance: None
 retreat: 2
 dex number: 45
 species: Flower
@@ -1413,7 +1389,6 @@ weakness:
   operation: ×
   type: R
 resistance: F
-retreat: 0
 dex number: 12
 species: Butterfly
 weight: 71
@@ -1455,7 +1430,6 @@ weakness:
   operation: ×
   type: L
 resistance: F
-retreat: 0
 dex number: 85
 species: Triplebird
 weight: 188
@@ -1497,7 +1471,6 @@ weakness:
   amount: 2
   operation: ×
   type: R
-resistance: None
 retreat: 3
 dex number: 103
 species: Coconut
@@ -1539,7 +1512,6 @@ weakness:
   operation: ×
   type: L
 resistance: F
-retreat: 0
 dex number: 22
 species: Beak
 weight: 84
@@ -1580,7 +1552,6 @@ weakness:
   amount: 2
   operation: ×
   type: R
-resistance: None
 retreat: 1
 dex number: 44
 species: Weed
@@ -1706,7 +1677,6 @@ weakness:
   amount: 2
   operation: ×
   type: P
-resistance: None
 retreat: 1
 dex number: 30
 species: Poison Pin
@@ -1745,7 +1715,6 @@ weakness:
   amount: 2
   operation: ×
   type: R
-resistance: None
 retreat: 1
 dex number: 47
 species: Mushroom
@@ -1789,7 +1758,6 @@ weakness:
   operation: ×
   type: F
 resistance: P
-retreat: 0
 dex number: 53
 species: Classy Cat
 weight: 71
@@ -1832,7 +1800,6 @@ weakness:
   amount: 2
   operation: ×
   type: P
-resistance: None
 retreat: 1
 dex number: 57
 species: Pig Monkey
@@ -1876,8 +1843,6 @@ weakness:
   amount: 2
   operation: ×
   type: W
-resistance: None
-retreat: 0
 dex number: 78
 species: Fire Horse
 weight: 209
@@ -1958,7 +1923,6 @@ weakness:
   amount: 2
   operation: ×
   type: L
-resistance: None
 retreat: 1
 dex number: 119
 species: Goldfish
@@ -2003,7 +1967,6 @@ weakness:
   operation: ×
   type: F
 resistance: P
-retreat: 0
 dex number: 128
 species: Wild Bull
 weight: 195
@@ -2042,7 +2005,6 @@ weakness:
   amount: 2
   operation: ×
   type: R
-resistance: None
 retreat: 1
 dex number: 70
 species: Flycatcher
@@ -2082,7 +2044,6 @@ weakness:
   amount: 2
   operation: ×
   type: R
-resistance: None
 retreat: 1
 dex number: 69
 species: Flower
@@ -2210,7 +2171,6 @@ weakness:
   amount: 2
   operation: ×
   type: R
-resistance: None
 retreat: 1
 dex number: 102
 species: Egg
@@ -2243,8 +2203,6 @@ weakness:
   amount: 2
   operation: ×
   type: L
-resistance: None
-retreat: 0
 dex number: 118
 species: Goldfish
 weight: 33
@@ -2322,8 +2280,6 @@ weakness:
   amount: 2
   operation: ×
   type: P
-resistance: None
-retreat: 0
 dex number: 56
 species: Pig Monkey
 weight: 62
@@ -2400,7 +2356,6 @@ weakness:
   amount: 2
   operation: ×
   type: P
-resistance: None
 retreat: 1
 dex number: 29
 species: Poison Pin
@@ -2442,7 +2397,6 @@ weakness:
   amount: 2
   operation: ×
   type: R
-resistance: None
 retreat: 1
 dex number: 43
 species: Weed
@@ -2480,7 +2434,6 @@ weakness:
   amount: 2
   operation: ×
   type: R
-resistance: None
 retreat: 1
 dex number: 46
 species: Mushroom
@@ -2517,7 +2470,6 @@ weakness:
   amount: 2
   operation: ×
   type: F
-resistance: None
 retreat: 1
 dex number: 25
 species: Mouse
@@ -2597,7 +2549,6 @@ weakness:
   operation: ×
   type: L
 resistance: F
-retreat: 0
 dex number: 21
 species: Tiny Bird
 weight: 4
@@ -2639,7 +2590,6 @@ weakness:
   amount: 2
   operation: ×
   type: R
-resistance: None
 retreat: 1
 dex number: 48
 species: Insect

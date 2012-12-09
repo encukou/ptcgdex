@@ -234,10 +234,12 @@ def main(infile, destdir=None):
                 'amount': weak_amount,
             }
 
-        simple_out('resistance', 'resist')
+        resist = pop('resist')
+        if resist and resist != 'None':
+            result['resistance'] = resist
 
         retreat = pop('retreat')
-        if retreat:
+        if retreat and int(retreat):
             result['retreat'] = int(retreat)
 
         simple_out('dex number', 'dex-no.', convertor=int)
