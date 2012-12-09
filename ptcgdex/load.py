@@ -290,11 +290,12 @@ def load_sets(session, directory, set_names=None, verbose=True):
                         flavor.species.name, species_name))
                 feet, inches = card_info.pop('height').split("'")
                 flavor.species = species
-                flavor.genus_map[en] = card_info.pop('species'),
-                flavor.weight = card_info.pop('weight'),
-                flavor.height = int(feet) * 12 + int(inches),
+                flavor.weight = card_info.pop('weight')
+                flavor.height = int(feet) * 12 + int(inches)
                 flavor.dex_entry_map[en] = card_info.pop('dex entry', None)
-                card_print.flavor = flavor
+                flavor.genus_map[en] = card_info.pop('species')
+                session.add(flavor)
+                card_print.pokemon_flavor = flavor
             else:
                 flavor = None
 
@@ -315,11 +316,11 @@ def load_sets(session, directory, set_names=None, verbose=True):
         print_done()
 
 
-def dump_sets(session, directory, set_names=None, verbose=True):
+def dump_sets(session, directory, set_identifiers=None, verbose=True):
     sets = session.query(tcg_tables.Set).order_by(tcg_tables.Set.id).all()
     for tcg_set in sets:
         ident = tcg_set.identifier
-        if set_names is None or ident in set_names:
+        if set_identifiers is None or ident in set_identifiers:
             pathname = os.path.join(directory, '{}.cards'.format(ident))
             outfile = open(pathname, 'w')
             dump_set(tcg_set, outfile, verbose=verbose)
@@ -347,8 +348,8 @@ def dump_set(tcg_set, outfile, verbose=True):
             ('hp', card.hp),
             ('stage', card.stage.name if card.stage else None),
         ])
-        if flavor and flavor.pokemon:
-            card_info['pokemon'] = flavor.pokemon.name
+        if flavor and flavor.species:
+            card_info['pokemon'] = flavor.species.name
         card_info['mechanics'] = [export_mechanic(cm.mechanic) for cm
                                   in card.card_mechanics]
 
@@ -372,7 +373,7 @@ def dump_set(tcg_set, outfile, verbose=True):
                 card_info['dex number'] = flavor.species.id
             card_info['species'] = flavor.genus
             card_info['weight'] = flavor.weight
-            card_info['height'] = flavor.height
+            card_info['height'] = "{}'{}".format(*divmod(flavor.height, 12))
             card_info['dex entry'] = flavor.dex_entry
 
         card_info['illustrator'] = print_.illustrator.name

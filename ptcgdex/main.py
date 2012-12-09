@@ -115,9 +115,9 @@ def dump(session, options):
         verbose=options['--verbose'],
         langs=['en'])
 
-    print session
     ptcg_load.dump_sets(session,
         directory=options['--card-dir'],
+        set_identifiers=tables,
         verbose=options['--verbose'])
 
 
