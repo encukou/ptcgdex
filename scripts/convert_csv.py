@@ -204,6 +204,8 @@ def main(infile, destdir=None):
                     for extra_name, extra_field in extra:
                         extra_value = pop(extra_field)
                         if extra_value:
+                            if extra_name == 'damage':
+                                extra_value = extra_value.replace('x', '×')
                             mechanic[extra_name] = extra_value
                     mechanic['type'] = label
                     if text:
@@ -217,6 +219,8 @@ def main(infile, destdir=None):
                 if sign in weakness:
                     weak_type, weak_sign, weak_amount = weakness.partition(
                         sign)
+                    if weak_sign == 'x':
+                        weak_sign = '×'
                     weak_amount = int(weak_amount)
                     break
             else:

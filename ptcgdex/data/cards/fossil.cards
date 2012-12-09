@@ -26,7 +26,7 @@ mechanics:
   type: attack
 weakness:
   amount: 2
-  operation: x
+  operation: ×
   type: G
 resistance: F
 retreat: 2
@@ -100,7 +100,7 @@ mechanics:
     other Pokémon while Ditto is Asleep, Confused, or Paralyzed.?
 weakness:
   amount: 2
-  operation: x
+  operation: ×
   type: F
 resistance: P
 retreat: 1
@@ -133,7 +133,7 @@ mechanics:
     on your Bench, you may switch it with your Active Pokémon.
 - name: Slam
   cost: CCCC
-  damage: 40x
+  damage: 40×
   type: attack
   text: >-
     Flip 2 coins. This attack does 40 damage times the number
@@ -250,7 +250,7 @@ mechanics:
   type: attack
 weakness:
   amount: 2
-  operation: x
+  operation: ×
   type: P
 resistance: None
 retreat: 1
@@ -292,7 +292,7 @@ mechanics:
     and Resistance for Benched Pokémon.)
 weakness:
   amount: 2
-  operation: x
+  operation: ×
   type: P
 resistance: None
 retreat: 2
@@ -334,7 +334,7 @@ mechanics:
     them.
 weakness:
   amount: 2
-  operation: x
+  operation: ×
   type: G
 resistance: None
 retreat: 1
@@ -375,7 +375,7 @@ mechanics:
     Flip a coin. If heads, the Defending Pokémon is now Confused.
 weakness:
   amount: 2
-  operation: x
+  operation: ×
   type: L
 resistance: None
 retreat: 1
@@ -419,7 +419,7 @@ mechanics:
     does 100 damage to itself.
 weakness:
   amount: 2
-  operation: x
+  operation: ×
   type: F
 resistance: None
 retreat: 2
@@ -494,7 +494,7 @@ mechanics:
     Flip a coin. If heads, the Defending Pokémon is now Poisoned.
 weakness:
   amount: 2
-  operation: x
+  operation: ×
   type: P
 resistance: None
 retreat: 2
@@ -531,7 +531,7 @@ mechanics:
     than 3 Benched Pokémon, do the damage to each of them.
 weakness:
   amount: 2
-  operation: x
+  operation: ×
   type: F
 resistance: None
 retreat: 1
@@ -601,7 +601,7 @@ mechanics:
   type: attack
 weakness:
   amount: 2
-  operation: x
+  operation: ×
   type: G
 resistance: F
 retreat: 2
@@ -677,7 +677,7 @@ mechanics:
     other Pokémon while Ditto is Asleep, Confused, or Paralyzed.?
 weakness:
   amount: 2
-  operation: x
+  operation: ×
   type: F
 resistance: P
 retreat: 1
@@ -711,7 +711,7 @@ mechanics:
     on your Bench, you may switch it with your Active Pokémon.
 - name: Slam
   cost: CCCC
-  damage: 40x
+  damage: 40×
   type: attack
   text: >-
     Flip 2 coins. This attack does 40 damage times the number
@@ -831,7 +831,7 @@ mechanics:
   type: attack
 weakness:
   amount: 2
-  operation: x
+  operation: ×
   type: P
 resistance: None
 retreat: 1
@@ -874,7 +874,7 @@ mechanics:
     and Resistance for Benched Pokémon.)
 weakness:
   amount: 2
-  operation: x
+  operation: ×
   type: P
 resistance: None
 retreat: 2
@@ -917,7 +917,7 @@ mechanics:
     them.
 weakness:
   amount: 2
-  operation: x
+  operation: ×
   type: G
 resistance: None
 retreat: 1
@@ -959,7 +959,7 @@ mechanics:
     Flip a coin. If heads, the Defending Pokémon is now Confused.
 weakness:
   amount: 2
-  operation: x
+  operation: ×
   type: L
 resistance: None
 retreat: 2
@@ -1004,7 +1004,7 @@ mechanics:
     does 100 damage to itself.
 weakness:
   amount: 2
-  operation: x
+  operation: ×
   type: F
 resistance: None
 retreat: 2
@@ -1081,7 +1081,7 @@ mechanics:
     Flip a coin. If heads, the Defending Pokémon is now Poisoned.
 weakness:
   amount: 2
-  operation: x
+  operation: ×
   type: P
 resistance: None
 retreat: 2
@@ -1119,7 +1119,7 @@ mechanics:
     than 3 Benched Pokémon, do the damage to each of them.
 weakness:
   amount: 2
-  operation: x
+  operation: ×
   type: F
 resistance: None
 retreat: 1
@@ -1195,7 +1195,7 @@ mechanics:
     The Defending Pokémon is now Poisoned.
 weakness:
   amount: 2
-  operation: x
+  operation: ×
   type: P
 resistance: None
 retreat: 2
@@ -1230,14 +1230,14 @@ mechanics:
     If tails, this attack does nothing (not even damage).
 - name: Spike Cannon
   cost: WW
-  damage: 30x
+  damage: 30×
   type: attack
   text: >-
     Flip 2 coins. This attack does 30 damage times the number
     of heads.
 weakness:
   amount: 2
-  operation: x
+  operation: ×
   type: L
 resistance: None
 retreat: 2
@@ -1313,7 +1313,7 @@ mechanics:
     that, remove all of them.
 weakness:
   amount: 2
-  operation: x
+  operation: ×
   type: P
 resistance: F
 retreat: 0
@@ -1354,7 +1354,7 @@ mechanics:
     it, choose 1 of them and discard it.
 weakness:
   amount: 2
-  operation: x
+  operation: ×
   type: L
 resistance: None
 retreat: 1
@@ -1394,7 +1394,7 @@ mechanics:
     does 100 damage to itself.
 weakness:
   amount: 2
-  operation: x
+  operation: ×
   type: G
 resistance: None
 retreat: 4
@@ -1433,7 +1433,7 @@ mechanics:
   type: attack
 weakness:
   amount: 2
-  operation: x
+  operation: ×
   type: G
 resistance: None
 retreat: 2
@@ -1461,7 +1461,7 @@ pokemon: Kingler
 mechanics:
 - name: Flail
   cost: W
-  damage: 10x
+  damage: 10×
   type: attack
   text: >-
     Does 10 damage times the number of damage counters on Kingler.
@@ -1471,7 +1471,7 @@ mechanics:
   type: attack
 weakness:
   amount: 2
-  operation: x
+  operation: ×
   type: L
 resistance: None
 retreat: 3
@@ -1512,7 +1512,7 @@ mechanics:
     Flip a coin. If heads, the Defending Pokémon is now Poisoned.
 weakness:
   amount: 2
-  operation: x
+  operation: ×
   type: W
 resistance: None
 retreat: 1
@@ -1548,14 +1548,14 @@ mechanics:
     You can't add more than 20 damage in this way.
 - name: Spike Cannon
   cost: CC
-  damage: 30x
+  damage: 30×
   type: attack
   text: >-
     Flip 2 coins. This attack does 30 damage times the number
     of heads.
 weakness:
   amount: 2
-  operation: x
+  operation: ×
   type: G
 resistance: None
 retreat: 1
@@ -1587,14 +1587,14 @@ mechanics:
   type: attack
 - name: Fury Swipes
   cost: FF
-  damage: 20x
+  damage: 20×
   type: attack
   text: >-
     Flip 3 coins. This attack does 20 damage times the number
     of heads.
 weakness:
   amount: 2
-  operation: x
+  operation: ×
   type: G
 resistance: L
 retreat: 1
@@ -1637,7 +1637,7 @@ mechanics:
     all effects of attacks, including damage, done to Seadra.
 weakness:
   amount: 2
-  operation: x
+  operation: ×
   type: L
 resistance: None
 retreat: 1
@@ -1678,7 +1678,7 @@ mechanics:
     Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
 weakness:
   amount: 2
-  operation: x
+  operation: ×
   type: P
 resistance: None
 retreat: 1
@@ -1717,7 +1717,7 @@ mechanics:
     The Defending Pokémon is now Poisoned.
 weakness:
   amount: 2
-  operation: x
+  operation: ×
   type: L
 resistance: None
 retreat: 0
@@ -1759,7 +1759,7 @@ mechanics:
     does 60 damage to itself.
 weakness:
   amount: 2
-  operation: x
+  operation: ×
   type: P
 resistance: None
 retreat: 1
@@ -1797,7 +1797,7 @@ mechanics:
     Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
 weakness:
   amount: 2
-  operation: x
+  operation: ×
   type: P
 resistance: None
 retreat: 1
@@ -1824,14 +1824,14 @@ pokemon: Geodude
 mechanics:
 - name: Stone Barrage
   cost: FC
-  damage: 10x
+  damage: 10×
   type: attack
   text: >-
     Flip a coin until you get tails. This attack does 10 damage
     times the number of heads.
 weakness:
   amount: 2
-  operation: x
+  operation: ×
   type: G
 resistance: None
 retreat: 1
@@ -1870,7 +1870,7 @@ mechanics:
     next turn is reduced by 20 (after applying Weakness and Resistance).
 weakness:
   amount: 2
-  operation: x
+  operation: ×
   type: P
 resistance: None
 retreat: 1
@@ -1905,7 +1905,7 @@ mechanics:
     does nothing.
 weakness:
   amount: 2
-  operation: x
+  operation: ×
   type: L
 resistance: None
 retreat: 0
@@ -1945,7 +1945,7 @@ mechanics:
   type: attack
 weakness:
   amount: 2
-  operation: x
+  operation: ×
   type: G
 resistance: None
 retreat: 1
@@ -1983,7 +1983,7 @@ mechanics:
   type: attack
 weakness:
   amount: 2
-  operation: x
+  operation: ×
   type: L
 resistance: None
 retreat: 2
@@ -2024,7 +2024,7 @@ mechanics:
     You can't add more than 20 damage in this way.
 weakness:
   amount: 2
-  operation: x
+  operation: ×
   type: G
 resistance: None
 retreat: 1
@@ -2057,14 +2057,14 @@ mechanics:
     turn.
 - name: Fury Swipes
   cost: W
-  damage: 10x
+  damage: 10×
   type: attack
   text: >-
     Flip 3 coins. This attack does 10 damage times the number
     of heads.
 weakness:
   amount: 2
-  operation: x
+  operation: ×
   type: L
 resistance: None
 retreat: 1
@@ -2103,7 +2103,7 @@ mechanics:
     still happen.)
 weakness:
   amount: 2
-  operation: x
+  operation: ×
   type: L
 resistance: None
 retreat: 1
@@ -2144,7 +2144,7 @@ mechanics:
     your hand.
 weakness:
   amount: 2
-  operation: x
+  operation: ×
   type: P
 resistance: None
 retreat: 1
@@ -2182,7 +2182,7 @@ mechanics:
   type: attack
 weakness:
   amount: 2
-  operation: x
+  operation: ×
   type: L
 resistance: None
 retreat: 0
@@ -2223,7 +2223,7 @@ mechanics:
     remove all of them.
 weakness:
   amount: 2
-  operation: x
+  operation: ×
   type: P
 resistance: F
 retreat: 0

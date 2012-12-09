@@ -30,7 +30,7 @@ mechanics:
     Flip a coin. If heads, the Defending Pokémon is now Confused.
 weakness:
   amount: 2
-  operation: x
+  operation: ×
   type: P
 resistance: None
 retreat: 3
@@ -77,7 +77,7 @@ mechanics:
     cost. Extra W Energy after the 2nd doesn't count.
 weakness:
   amount: 2
-  operation: x
+  operation: ×
   type: L
 resistance: None
 retreat: 3
@@ -120,7 +120,7 @@ mechanics:
     Chansey does 80 damage to itself.
 weakness:
   amount: 2
-  operation: x
+  operation: ×
   type: F
 resistance: P
 retreat: 1
@@ -166,7 +166,7 @@ mechanics:
     this attack.
 weakness:
   amount: 2
-  operation: x
+  operation: ×
   type: W
 resistance: F
 retreat: 3
@@ -210,7 +210,7 @@ mechanics:
     type is still colorless)
 weakness:
   amount: 2
-  operation: x
+  operation: ×
   type: F
 resistance: P
 retreat: 1
@@ -251,7 +251,7 @@ mechanics:
     Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
 weakness:
   amount: 2
-  operation: x
+  operation: ×
   type: G
 resistance: F
 retreat: 3
@@ -290,7 +290,7 @@ mechanics:
   type: attack
 weakness:
   amount: 2
-  operation: x
+  operation: ×
   type: P
 resistance: None
 retreat: 2
@@ -333,7 +333,7 @@ mechanics:
   type: attack
 weakness:
   amount: 2
-  operation: x
+  operation: ×
   type: P
 resistance: None
 retreat: 3
@@ -378,7 +378,7 @@ mechanics:
     does 80 damage to itself.
 weakness:
   amount: 2
-  operation: x
+  operation: ×
   type: F
 resistance: None
 retreat: 1
@@ -422,7 +422,7 @@ mechanics:
     opponent's next turn.
 weakness:
   amount: 2
-  operation: x
+  operation: ×
   type: P
 resistance: None
 retreat: 3
@@ -469,7 +469,7 @@ mechanics:
     was already Poisoned).
 weakness:
   amount: 2
-  operation: x
+  operation: ×
   type: P
 resistance: None
 retreat: 1
@@ -513,7 +513,7 @@ mechanics:
     use this attack.
 weakness:
   amount: 2
-  operation: x
+  operation: ×
   type: W
 resistance: None
 retreat: 1
@@ -559,7 +559,7 @@ mechanics:
     it, choose 1 of them and discard it.
 weakness:
   amount: 2
-  operation: x
+  operation: ×
   type: G
 resistance: None
 retreat: 3
@@ -603,7 +603,7 @@ mechanics:
     Flip a coin. If tails, Raichu does 30 damage to itself.
 weakness:
   amount: 2
-  operation: x
+  operation: ×
   type: F
 resistance: None
 retreat: 1
@@ -645,7 +645,7 @@ mechanics:
   type: attack
 weakness:
   amount: 2
-  operation: x
+  operation: ×
   type: R
 resistance: None
 retreat: 2
@@ -715,7 +715,7 @@ pokemon: Beedrill
 mechanics:
 - name: Twineedle
   cost: CCC
-  damage: 30x
+  damage: 30×
   type: attack
   text: >-
     Flip 2 coins. This attack does 30 times number of heads.
@@ -727,7 +727,7 @@ mechanics:
     Flip a coin. If heads, the Defending Pokémon is now Poisoned.
 weakness:
   amount: 2
-  operation: x
+  operation: ×
   type: R
 resistance: F
 retreat: 0
@@ -758,7 +758,7 @@ pokemon: Dragonair
 mechanics:
 - name: Slam
   cost: CCC
-  damage: 30x
+  damage: 30×
   type: attack
   text: >-
     Flip 2 coins. This attack does 30 damage times number of heads.
@@ -809,7 +809,7 @@ mechanics:
     apply Weakness or Resistance for Benched Pokémon.)
 weakness:
   amount: 2
-  operation: x
+  operation: ×
   type: G
 resistance: L
 retreat: 2
@@ -854,7 +854,7 @@ mechanics:
     does 10 damage to itself.
 weakness:
   amount: 2
-  operation: x
+  operation: ×
   type: F
 resistance: None
 retreat: 2
@@ -900,7 +900,7 @@ mechanics:
     Flip a coin. If tails, Electrode does 10 damage to itself.
 weakness:
   amount: 2
-  operation: x
+  operation: ×
   type: F
 resistance: None
 retreat: 1
@@ -945,7 +945,7 @@ mechanics:
     that attack on Pidgeotto to the Defending Pokémon.
 weakness:
   amount: 2
-  operation: x
+  operation: ×
   type: L
 resistance: F
 retreat: 1
@@ -989,7 +989,7 @@ mechanics:
     Arcanine does 30 damage to itself.
 weakness:
   amount: 2
-  operation: x
+  operation: ×
   type: W
 resistance: None
 retreat: 3
@@ -1032,7 +1032,7 @@ mechanics:
     use this attack.
 weakness:
   amount: 2
-  operation: x
+  operation: ×
   type: W
 resistance: None
 retreat: 1
@@ -1073,7 +1073,7 @@ mechanics:
     Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
 weakness:
   amount: 2
-  operation: x
+  operation: ×
   type: L
 resistance: None
 retreat: 3
@@ -1146,7 +1146,7 @@ mechanics:
   type: attack
 weakness:
   amount: 2
-  operation: x
+  operation: ×
   type: L
 resistance: F
 retreat: 1
@@ -1180,7 +1180,7 @@ mechanics:
   type: attack
 weakness:
   amount: 2
-  operation: x
+  operation: ×
   type: W
 resistance: None
 retreat: 1
@@ -1260,7 +1260,7 @@ mechanics:
     The Defending Pokémon is now Poisoned.
 weakness:
   amount: 2
-  operation: x
+  operation: ×
   type: R
 resistance: None
 retreat: 1
@@ -1290,7 +1290,7 @@ pokemon: Jynx
 mechanics:
 - name: Doubleslap
   cost: P
-  damage: 10x
+  damage: 10×
   type: attack
   text: >-
     Flip 2 coins. This attack does 10 damage times the number
@@ -1304,7 +1304,7 @@ mechanics:
     on the Defending Pokémon.
 weakness:
   amount: 2
-  operation: x
+  operation: ×
   type: P
 resistance: None
 retreat: 2
@@ -1345,7 +1345,7 @@ mechanics:
   type: attack
 weakness:
   amount: 2
-  operation: x
+  operation: ×
   type: P
 resistance: None
 retreat: 3
@@ -1389,7 +1389,7 @@ mechanics:
     Flip a coin. If heads, the Defending Pokémon is now Poisoned.
 weakness:
   amount: 2
-  operation: x
+  operation: ×
   type: R
 resistance: None
 retreat: 2
@@ -1433,7 +1433,7 @@ mechanics:
     Machoke does 20 damage to itself.
 weakness:
   amount: 2
-  operation: x
+  operation: ×
   type: P
 resistance: None
 retreat: 3
@@ -1467,13 +1467,13 @@ mechanics:
   type: attack
 - name: Flail
   cost: W
-  damage: 10x
+  damage: 10×
   type: attack
   text: >-
     Does 10 damage times the number of damage counters on Magikarp.
 weakness:
   amount: 2
-  operation: x
+  operation: ×
   type: L
 resistance: None
 retreat: 1
@@ -1514,7 +1514,7 @@ mechanics:
     this attack.
 weakness:
   amount: 2
-  operation: x
+  operation: ×
   type: W
 resistance: None
 retreat: 2
@@ -1545,7 +1545,7 @@ pokemon: Nidorino
 mechanics:
 - name: Double Kick
   cost: GCC
-  damage: 30x
+  damage: 30×
   type: attack
   text: >-
     Flip 2 coins. This attack does 30 damage times number of heads.
@@ -1555,7 +1555,7 @@ mechanics:
   type: attack
 weakness:
   amount: 2
-  operation: x
+  operation: ×
   type: P
 resistance: None
 retreat: 1
@@ -1592,13 +1592,13 @@ mechanics:
     use that attack during your opponent's next turn.
 - name: Doubleslap
   cost: CWW
-  damage: 30x
+  damage: 30×
   type: attack
   text: >-
     Flip 2 coins. This attack does 30 damage times number of heads.
 weakness:
   amount: 2
-  operation: x
+  operation: ×
   type: G
 resistance: None
 retreat: 1
@@ -1640,7 +1640,7 @@ mechanics:
     than Colorless.
 weakness:
   amount: 2
-  operation: x
+  operation: ×
   type: F
 resistance: P
 retreat: 1
@@ -1682,7 +1682,7 @@ mechanics:
     (rounded up to the nearest 10).
 weakness:
   amount: 2
-  operation: x
+  operation: ×
   type: F
 resistance: P
 retreat: 1
@@ -1716,7 +1716,7 @@ mechanics:
   type: attack
 weakness:
   amount: 2
-  operation: x
+  operation: ×
   type: L
 resistance: None
 retreat: 1
@@ -1758,7 +1758,7 @@ mechanics:
   type: attack
 weakness:
   amount: 2
-  operation: x
+  operation: ×
   type: L
 resistance: None
 retreat: 1
@@ -1794,7 +1794,7 @@ mechanics:
     Flip a coin. If heads, defender is now Paralyzed.
 weakness:
   amount: 2
-  operation: x
+  operation: ×
   type: P
 resistance: None
 retreat: 0
@@ -1831,7 +1831,7 @@ mechanics:
     1 damage counter from Bulbasaur.
 weakness:
   amount: 2
-  operation: x
+  operation: ×
   type: R
 resistance: None
 retreat: 1
@@ -1867,7 +1867,7 @@ mechanics:
     Flip a coin. If heads, the defender is now Paralyzed.
 weakness:
   amount: 2
-  operation: x
+  operation: ×
   type: R
 resistance: None
 retreat: 1
@@ -1908,7 +1908,7 @@ mechanics:
     Discard 1 Fire Energy card to use this attack.
 weakness:
   amount: 2
-  operation: x
+  operation: ×
   type: W
 resistance: None
 retreat: 1
@@ -1946,7 +1946,7 @@ mechanics:
   type: attack
 weakness:
   amount: 2
-  operation: x
+  operation: ×
   type: G
 resistance: L
 retreat: 0
@@ -1976,14 +1976,14 @@ pokemon: Doduo
 mechanics:
 - name: Fury Attack
   cost: C
-  damage: 10x
+  damage: 10×
   type: attack
   text: >-
     Flip 2 coins. This attack does 10 damage times the number
     of heads.
 weakness:
   amount: 2
-  operation: x
+  operation: ×
   type: L
 resistance: F
 retreat: 0
@@ -2023,7 +2023,7 @@ mechanics:
     Flip a coin. If heads, defender is now Confused.
 weakness:
   amount: 2
-  operation: x
+  operation: ×
   type: P
 resistance: None
 retreat: 1
@@ -2098,7 +2098,7 @@ mechanics:
     defender is now Confused.
 weakness:
   amount: 2
-  operation: x
+  operation: ×
   type: P
 resistance: None
 retreat: 1
@@ -2132,7 +2132,7 @@ mechanics:
   type: attack
 weakness:
   amount: 2
-  operation: x
+  operation: ×
   type: P
 resistance: None
 retreat: 1
@@ -2176,7 +2176,7 @@ mechanics:
     to self.
 weakness:
   amount: 2
-  operation: x
+  operation: ×
   type: F
 resistance: None
 retreat: 1
@@ -2220,7 +2220,7 @@ mechanics:
     Flip a coin. If heads, defender is now Paralyzed.
 weakness:
   amount: 2
-  operation: x
+  operation: ×
   type: R
 resistance: None
 retreat: 2
@@ -2256,7 +2256,7 @@ mechanics:
     Flip a coin. If tails, this attack does nothing.
 weakness:
   amount: 2
-  operation: x
+  operation: ×
   type: P
 resistance: None
 retreat: 1
@@ -2297,7 +2297,7 @@ mechanics:
     still happen.)
 weakness:
   amount: 2
-  operation: x
+  operation: ×
   type: G
 resistance: None
 retreat: 3
@@ -2335,7 +2335,7 @@ mechanics:
     Pokémon).
 weakness:
   amount: 2
-  operation: x
+  operation: ×
   type: L
 resistance: F
 retreat: 1
@@ -2377,7 +2377,7 @@ mechanics:
     Flip a coin. If tails, Pikachu does 10 damage to self.
 weakness:
   amount: 2
-  operation: x
+  operation: ×
   type: F
 resistance: None
 retreat: 1
@@ -2414,7 +2414,7 @@ mechanics:
     but not used to pay for this attack (max 2 extra).
 weakness:
   amount: 2
-  operation: x
+  operation: ×
   type: G
 resistance: None
 retreat: 1
@@ -2452,7 +2452,7 @@ mechanics:
   type: attack
 weakness:
   amount: 2
-  operation: x
+  operation: ×
   type: W
 resistance: None
 retreat: 1
@@ -2486,7 +2486,7 @@ mechanics:
   type: attack
 weakness:
   amount: 2
-  operation: x
+  operation: ×
   type: F
 resistance: P
 retreat: 0
@@ -2524,7 +2524,7 @@ mechanics:
     does nothing.
 weakness:
   amount: 2
-  operation: x
+  operation: ×
   type: G
 resistance: L
 retreat: 1
@@ -2567,7 +2567,7 @@ mechanics:
     still happen.)
 weakness:
   amount: 2
-  operation: x
+  operation: ×
   type: L
 resistance: None
 retreat: 1
@@ -2610,7 +2610,7 @@ mechanics:
     Flip a coin. If heads, defender is now Paralyzed.
 weakness:
   amount: 2
-  operation: x
+  operation: ×
   type: L
 resistance: None
 retreat: 1
@@ -2644,7 +2644,7 @@ mechanics:
   type: attack
 weakness:
   amount: 2
-  operation: x
+  operation: ×
   type: L
 resistance: None
 retreat: 1
@@ -2686,7 +2686,7 @@ mechanics:
     Defender is now Poisoned.
 weakness:
   amount: 2
-  operation: x
+  operation: ×
   type: R
 resistance: None
 retreat: 2
@@ -2720,7 +2720,7 @@ mechanics:
   type: attack
 weakness:
   amount: 2
-  operation: x
+  operation: ×
   type: F
 resistance: None
 retreat: 1
@@ -2756,7 +2756,7 @@ mechanics:
     Flip a coin. If heads, defender is now Confused.
 weakness:
   amount: 2
-  operation: x
+  operation: ×
   type: W
 resistance: None
 retreat: 1
@@ -2792,7 +2792,7 @@ mechanics:
     Flip a coin. If heads, defender is now Poisoned.
 weakness:
   amount: 2
-  operation: x
+  operation: ×
   type: R
 resistance: None
 retreat: 1
