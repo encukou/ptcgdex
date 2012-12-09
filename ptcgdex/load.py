@@ -169,7 +169,7 @@ def load_sets(session, directory, set_names=None, verbose=True):
                 card.hp = hp
                 card.retreat_cost = retreat_cost
                 card.resistance_type = resistance_type
-                card.legal = card_info.pop('legality')
+                card.legal = card_info.pop('legal')
                 session.add(card)
                 for mechanic_index, mechanic_info in enumerate(
                         card_info.pop('mechanics', ())):
@@ -306,10 +306,8 @@ def load_sets(session, directory, set_names=None, verbose=True):
             session.add(card_print)
 
             card_info.pop('evolves from', None)  # XXX: Handle evolution
-            card_info.pop('evo line', None)  # XXX: Check this somehow?
             card_info.pop('filename')  # XXX: Handle scans
 
-            card_info.pop('legality')  # XXX: Check legality
             card_info.pop('orphan', None)  # XXX
             card_info.pop('has-variant', None)  # XXX
             card_info.pop('dated', None)  # XXX
@@ -335,7 +333,7 @@ def dump_set(tcg_set, outfile, verbose=True):
 
     print_start(tcg_set.name)
 
-    included_keys = set(['holographic'])
+    included_keys = set(['holographic', 'legal'])
 
     for i, print_ in enumerate(tcg_set.prints):
         card = print_.card
@@ -355,6 +353,7 @@ def dump_set(tcg_set, outfile, verbose=True):
             [card_info['subclass']] = [sc.name for sc in card.subclasses]
         if card.stage:
             card_info['stage'] = card.stage.name
+        card_info['legal'] = card.legal
         if flavor and flavor.species:
             card_info['pokemon'] = flavor.species.name
         card_info['mechanics'] = [export_mechanic(cm.mechanic) for cm
