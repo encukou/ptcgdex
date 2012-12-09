@@ -33,6 +33,12 @@ type_initials = dict(
     Darkness = 'D',
 )
 
+class_from_initials = dict(
+    P='Pokemon',
+    T='Trainer',
+    E='Energy',
+)
+
 def munge_errors(data):
     set_name = data['set'], data['card-name']
     if set_name == ('ex-emerald', "Farfetch'd"):
@@ -142,7 +148,6 @@ def main(infile, destdir=None):
         result['holographic'] = bool(holo)
 
         simple_out('class', 'class')
-        simple_out('class', 'class2')
 
         with nonempty_setter(result, 'types') as types:
             append_nonempty(types, pop('type1'))
@@ -153,9 +158,6 @@ def main(infile, destdir=None):
         trainer_class = pop('trainer-class')
         if trainer_class and trainer_class != 'Trainer':
             result['trainer class'] = trainer_class
-
-        simple_out('subclass', 'trainer-sub-class')
-        simple_out('subclass', 'energy-class')
 
         simple_out('stage', 'stage')
 
@@ -175,11 +177,16 @@ def main(infile, destdir=None):
         if pokemon and pokemon not in ['Mysterious Fossil']:
             result['pokemon'] = pokemon
 
-        with nonempty_setter(result, 'classes') as classes:
-            for classno in range(1, 4):
-                cls = pop('sub-class-{}'.format(classno))
+        with nonempty_setter(result, 'subclasses') as subclasses:
+            class2 = pop('class2')
+            if class2:
+                subclasses.append(class_from_initials[class2])
+            names = ['trainer-sub-class', 'energy-class'] + [
+                'sub-class-{}'.format(i) for i in range(1, 4)]
+            for name in names:
+                cls = pop(name)
                 if cls:
-                    classes.append(cls)
+                    subclasses.append(cls)
 
         with nonempty_setter(result, 'mechanics') as mechanics:
             for label, mechanic_name, extra in (

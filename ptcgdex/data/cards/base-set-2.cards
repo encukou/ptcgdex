@@ -1025,7 +1025,7 @@ number: '25'
 name: Electrode
 rarity: rare
 holographic: false
-class: E
+class: P
 types:
 - Lightning
 hp: 80
@@ -1035,6 +1035,8 @@ legal: false
 filename: 25-electrode
 reprint of: 'base-set: 21-electrode'
 pokemon: Electrode
+subclasses:
+- Energy
 mechanics:
 - name: Buzzap
   type: pokemon-power
@@ -4417,10 +4419,11 @@ name: Double Colorless Energy
 rarity: uncommon
 holographic: false
 class: E
-subclass: Special
 legal: false
 filename: 124-double-colorless-energy
 reprint of: 'base-set: 96-double-colorless-energy'
+subclasses:
+- Special
 mechanics:
 - type: effect
   text: >-
@@ -4434,10 +4437,11 @@ name: Fighting Energy
 rarity: none
 holographic: false
 class: E
-subclass: Basic
 legal: true
 filename: 125-fighting-energy
 reprint of: 'base-set: 97-fighting-energy'
+subclasses:
+- Basic
 mechanics:
 - type: effect
   text: >-
@@ -4450,10 +4454,11 @@ name: Fire Energy
 rarity: none
 holographic: false
 class: E
-subclass: Basic
 legal: true
 filename: 126-fire-energy
 reprint of: 'base-set: 98-fire-energy'
+subclasses:
+- Basic
 mechanics:
 - type: effect
   text: >-
@@ -4466,10 +4471,11 @@ name: Grass Energy
 rarity: none
 holographic: false
 class: E
-subclass: Basic
 legal: true
 filename: 127-grass-energy
 reprint of: 'base-set: 99-grass-energy'
+subclasses:
+- Basic
 mechanics:
 - type: effect
   text: >-
@@ -4482,10 +4488,11 @@ name: Lightning Energy
 rarity: none
 holographic: false
 class: E
-subclass: Basic
 legal: true
 filename: 128-lightning-energy
 reprint of: 'base-set: 100-lightning-energy'
+subclasses:
+- Basic
 mechanics:
 - type: effect
   text: >-
@@ -4498,10 +4505,11 @@ name: Psychic Energy
 rarity: none
 holographic: false
 class: E
-subclass: Basic
 legal: true
 filename: 129-psychic-energy
 reprint of: 'base-set: 101-psychic-energy'
+subclasses:
+- Basic
 mechanics:
 - type: effect
   text: >-
@@ -4514,10 +4522,11 @@ name: Water Energy
 rarity: none
 holographic: false
 class: E
-subclass: Basic
 legal: true
 filename: 130-water-energy
 reprint of: 'base-set: 102-water-energy'
+subclasses:
+- Basic
 mechanics:
 - type: effect
   text: >-

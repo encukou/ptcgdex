@@ -13,7 +13,7 @@ evolves from: Dark Kadabra
 legal: false
 filename: 1-dark-alakazam
 pokemon: Alakazam
-classes:
+subclasses:
 - Dark
 mechanics:
 - name: Teleport Blast
@@ -59,7 +59,7 @@ evolves from: Ekans
 legal: false
 filename: 2-dark-arbok
 pokemon: Arbok
-classes:
+subclasses:
 - Dark
 mechanics:
 - name: Stare
@@ -108,7 +108,7 @@ evolves from: Dark Wartortle
 legal: false
 filename: 3-dark-blastoise
 pokemon: Blastoise
-classes:
+subclasses:
 - Dark
 mechanics:
 - name: Hydrocannon
@@ -154,7 +154,7 @@ evolves from: Dark Charmeleon
 legal: false
 filename: 4-dark-charizard
 pokemon: Charizard
-classes:
+subclasses:
 - Dark
 mechanics:
 - name: Nail Flick
@@ -199,7 +199,7 @@ evolves from: Dark Dragonair
 legal: false
 filename: 5-dark-dragonite
 pokemon: Dragonite
-classes:
+subclasses:
 - Dark
 mechanics:
 - name: Summon Minions
@@ -239,7 +239,7 @@ evolves from: Diglett
 legal: false
 filename: 6-dark-dugtrio
 pokemon: Dugtrio
-classes:
+subclasses:
 - Dark
 mechanics:
 - name: Sinkhole
@@ -286,7 +286,7 @@ evolves from: Zubat
 legal: false
 filename: 7-dark-golbat
 pokemon: Golbat
-classes:
+subclasses:
 - Dark
 mechanics:
 - name: Sneak Attack
@@ -331,7 +331,7 @@ evolves from: Magikarp
 legal: false
 filename: 8-dark-gyarados
 pokemon: Gyarados
-classes:
+subclasses:
 - Dark
 mechanics:
 - name: Final Beam
@@ -377,7 +377,7 @@ evolves from: Drowzee
 legal: false
 filename: 9-dark-hypno
 pokemon: Hypno
-classes:
+subclasses:
 - Dark
 mechanics:
 - name: Psypunch
@@ -422,7 +422,7 @@ evolves from: Dark Machoke
 legal: false
 filename: 10-dark-machamp
 pokemon: Machamp
-classes:
+subclasses:
 - Dark
 mechanics:
 - name: Mega Punch
@@ -464,7 +464,7 @@ evolves from: Magnemite
 legal: false
 filename: 11-dark-magneton
 pokemon: Magneton
-classes:
+subclasses:
 - Dark
 mechanics:
 - name: Sonicboom
@@ -511,7 +511,7 @@ evolves from: Slowpoke
 legal: false
 filename: 12-dark-slowbro
 pokemon: Slowbro
-classes:
+subclasses:
 - Dark
 mechanics:
 - name: Reel In
@@ -554,7 +554,7 @@ evolves from: Dark Gloom
 legal: false
 filename: 13-dark-vileplume
 pokemon: Vileplume
-classes:
+subclasses:
 - Dark
 mechanics:
 - name: Hay Fever
@@ -598,7 +598,7 @@ evolves from: Koffing
 legal: false
 filename: 14-dark-weezing
 pokemon: Weezing
-classes:
+subclasses:
 - Dark
 mechanics:
 - name: Mass Explosion
@@ -669,10 +669,11 @@ name: Rainbow Energy
 rarity: rare
 holographic: true
 class: E
-subclass: Special
 legal: true
 filename: 17-rainbow-energy
 dated: 'ex-ruby-and-sapphire: 95-rainbow-energy'
+subclasses:
+- Special
 mechanics:
 - type: effect
   text: >-
@@ -699,7 +700,7 @@ legal: false
 filename: 18-dark-alakazam
 in-set-variant-of: 'team-rocket: 1-dark-alakazam as non-holo'
 pokemon: Alakazam
-classes:
+subclasses:
 - Dark
 mechanics:
 - name: Teleport Blast
@@ -746,7 +747,7 @@ legal: false
 filename: 19-dark-arbok
 in-set-variant-of: 'team-rocket: 2-dark-arbok as non-holo'
 pokemon: Arbok
-classes:
+subclasses:
 - Dark
 mechanics:
 - name: Stare
@@ -796,7 +797,7 @@ legal: false
 filename: 20-dark-blastoise
 in-set-variant-of: 'team-rocket: 3-dark-blastoise as non-holo'
 pokemon: Blastoise
-classes:
+subclasses:
 - Dark
 mechanics:
 - name: Hydrocannon
@@ -843,7 +844,7 @@ legal: false
 filename: 21-dark-charizard
 in-set-variant-of: 'team-rocket: 4-dark-charizard as non-holo'
 pokemon: Charizard
-classes:
+subclasses:
 - Dark
 mechanics:
 - name: Nail Flick
@@ -889,7 +890,7 @@ legal: false
 filename: 22-dark-dragonite
 in-set-variant-of: 'team-rocket: 5-dark-dragonite as non-holo'
 pokemon: Dragonite
-classes:
+subclasses:
 - Dark
 mechanics:
 - name: Summon Minions
@@ -930,7 +931,7 @@ legal: false
 filename: 23-dark-dugtrio
 in-set-variant-of: 'team-rocket: 6-dark-dugtrio as non-holo'
 pokemon: Dugtrio
-classes:
+subclasses:
 - Dark
 mechanics:
 - name: Sinkhole
@@ -978,7 +979,7 @@ legal: false
 filename: 24-dark-golbat
 in-set-variant-of: 'team-rocket: 7-dark-golbat as non-holo'
 pokemon: Golbat
-classes:
+subclasses:
 - Dark
 mechanics:
 - name: Sneak Attack
@@ -1024,7 +1025,7 @@ legal: false
 filename: 25-dark-gyarados
 in-set-variant-of: 'team-rocket: 8-dark-gyarados as non-holo'
 pokemon: Gyarados
-classes:
+subclasses:
 - Dark
 mechanics:
 - name: Final Beam
@@ -1071,7 +1072,7 @@ legal: false
 filename: 26-dark-hypno
 in-set-variant-of: 'team-rocket: 9-dark-hypno as non-holo'
 pokemon: Hypno
-classes:
+subclasses:
 - Dark
 mechanics:
 - name: Psypunch
@@ -1117,7 +1118,7 @@ legal: false
 filename: 27-dark-machamp
 in-set-variant-of: 'team-rocket: 10-dark-machamp as non-holo'
 pokemon: Machamp
-classes:
+subclasses:
 - Dark
 mechanics:
 - name: Mega Punch
@@ -1160,7 +1161,7 @@ legal: false
 filename: 28-dark-magneton
 in-set-variant-of: 'team-rocket: 11-dark-magneton as non-holo'
 pokemon: Magneton
-classes:
+subclasses:
 - Dark
 mechanics:
 - name: Sonicboom
@@ -1208,7 +1209,7 @@ legal: false
 filename: 29-dark-slowbro
 in-set-variant-of: 'team-rocket: 12-dark-slowbro as non-holo'
 pokemon: Slowbro
-classes:
+subclasses:
 - Dark
 mechanics:
 - name: Reel In
@@ -1252,7 +1253,7 @@ legal: false
 filename: 30-dark-vileplume
 in-set-variant-of: 'team-rocket: 13-dark-vileplume as non-holo'
 pokemon: Vileplume
-classes:
+subclasses:
 - Dark
 mechanics:
 - name: Hay Fever
@@ -1297,7 +1298,7 @@ legal: false
 filename: 31-dark-weezing
 in-set-variant-of: 'team-rocket: 14-dark-weezing as non-holo'
 pokemon: Weezing
-classes:
+subclasses:
 - Dark
 mechanics:
 - name: Mass Explosion
@@ -1345,7 +1346,7 @@ evolves from: Charmander
 legal: false
 filename: 32-dark-charmeleon
 pokemon: Charmeleon
-classes:
+subclasses:
 - Dark
 mechanics:
 - name: Tail Slap
@@ -1388,7 +1389,7 @@ evolves from: Dratini
 legal: false
 filename: 33-dark-dragonair
 pokemon: Dragonair
-classes:
+subclasses:
 - Dark
 mechanics:
 - name: Evolutionary Light
@@ -1431,7 +1432,7 @@ evolves from: Voltorb
 legal: false
 filename: 34-dark-electrode
 pokemon: Electrode
-classes:
+subclasses:
 - Dark
 mechanics:
 - name: Rolling Tackle
@@ -1475,7 +1476,7 @@ evolves from: Eevee
 legal: false
 filename: 35-dark-flareon
 pokemon: Flareon
-classes:
+subclasses:
 - Dark
 mechanics:
 - name: Rage
@@ -1522,7 +1523,7 @@ evolves from: Oddish
 legal: false
 filename: 36-dark-gloom
 pokemon: Gloom
-classes:
+subclasses:
 - Dark
 mechanics:
 - name: Pollen Stench
@@ -1566,7 +1567,7 @@ evolves from: Psyduck
 legal: false
 filename: 37-dark-golduck
 pokemon: Golduck
-classes:
+subclasses:
 - Dark
 mechanics:
 - name: Third Eye
@@ -1607,7 +1608,7 @@ evolves from: Eevee
 legal: false
 filename: 38-dark-jolteon
 pokemon: Jolteon
-classes:
+subclasses:
 - Dark
 mechanics:
 - name: Lightning Flash
@@ -1653,7 +1654,7 @@ evolves from: Abra
 legal: false
 filename: 39-dark-kadabra
 pokemon: Kadabra
-classes:
+subclasses:
 - Dark
 mechanics:
 - name: Matter Exchange
@@ -1698,7 +1699,7 @@ evolves from: Machop
 legal: false
 filename: 40-dark-machoke
 pokemon: Machoke
-classes:
+subclasses:
 - Dark
 mechanics:
 - name: Drag Off
@@ -1746,7 +1747,7 @@ evolves from: Grimer
 legal: false
 filename: 41-dark-muk
 pokemon: Muk
-classes:
+subclasses:
 - Dark
 mechanics:
 - name: Sticky Goo
@@ -1789,7 +1790,7 @@ evolves from: Meowth
 legal: false
 filename: 42-dark-persian
 pokemon: Persian
-classes:
+subclasses:
 - Dark
 mechanics:
 - name: Fascinate
@@ -1833,7 +1834,7 @@ evolves from: Mankey
 legal: false
 filename: 43-dark-primeape
 pokemon: Primeape
-classes:
+subclasses:
 - Dark
 mechanics:
 - name: Frenzy
@@ -1875,7 +1876,7 @@ evolves from: Ponyta
 legal: false
 filename: 44-dark-rapidash
 pokemon: Rapidash
-classes:
+subclasses:
 - Dark
 mechanics:
 - name: Rear Kick
@@ -1919,7 +1920,7 @@ evolves from: Eevee
 legal: false
 filename: 45-dark-vaporeon
 pokemon: Vaporeon
-classes:
+subclasses:
 - Dark
 mechanics:
 - name: Bite
@@ -1961,7 +1962,7 @@ evolves from: Squirtle
 legal: false
 filename: 46-dark-wartortle
 pokemon: Wartortle
-classes:
+subclasses:
 - Dark
 mechanics:
 - name: Doubleslap
@@ -2165,7 +2166,7 @@ evolves from: Rattata
 legal: false
 filename: 51-dark-raticate
 pokemon: Raticate
-classes:
+subclasses:
 - Dark
 mechanics:
 - name: Gnaw
@@ -2981,9 +2982,10 @@ name: Digger
 rarity: uncommon
 holographic: false
 class: T
-subclass: Rocket's Secret Machine
 legal: false
 filename: 75-digger
+subclasses:
+- Rocket's Secret Machine
 mechanics:
 - type: effect
   text: >-
@@ -3015,9 +3017,10 @@ name: Nightly Garbage Run
 rarity: uncommon
 holographic: false
 class: T
-subclass: Rocket's Secret Machine
 legal: false
 filename: 77-nightly-garbage-run
+subclasses:
+- Rocket's Secret Machine
 mechanics:
 - type: effect
   text: >-
@@ -3047,9 +3050,10 @@ name: Sleep!
 rarity: common
 holographic: false
 class: T
-subclass: Rocket's Secret Machine
 legal: false
 filename: 79-sleep
+subclasses:
+- Rocket's Secret Machine
 mechanics:
 - type: effect
   text: >-
@@ -3062,11 +3066,12 @@ name: Rainbow Energy
 rarity: rare
 holographic: false
 class: E
-subclass: Special
 legal: true
 filename: 80-rainbow-energy
 in-set-variant-of: 'team-rocket: 17-rainbow-energy as non-holo'
 dated: 'ex-ruby-and-sapphire: 95-rainbow-energy'
+subclasses:
+- Special
 mechanics:
 - type: effect
   text: >-
@@ -3084,9 +3089,10 @@ name: Full Heal Energy
 rarity: uncommon
 holographic: false
 class: E
-subclass: Special
 legal: false
 filename: 81-full-heal-energy
+subclasses:
+- Special
 mechanics:
 - type: effect
   text: >-
@@ -3102,9 +3108,10 @@ name: Potion Energy
 rarity: uncommon
 holographic: false
 class: E
-subclass: Special
 legal: false
 filename: 82-potion-energy
+subclasses:
+- Special
 mechanics:
 - type: effect
   text: >-

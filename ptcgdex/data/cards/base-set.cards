@@ -839,7 +839,7 @@ number: '21'
 name: Electrode
 rarity: rare
 holographic: false
-class: E
+class: P
 types:
 - Lightning
 hp: 80
@@ -848,6 +848,8 @@ evolves from: Voltorb
 legal: false
 filename: 21-electrode
 pokemon: Electrode
+subclasses:
+- Energy
 mechanics:
 - name: Buzzap
   type: pokemon-power
@@ -2686,12 +2688,14 @@ number: '70'
 name: Clefairy Doll
 rarity: rare
 holographic: false
-class: P
+class: T
 types:
 - Colorless
 hp: 10
 legal: false
 filename: 70-clefairy-doll
+subclasses:
+- Pokemon
 mechanics:
 - type: effect
   text: >-
@@ -3099,9 +3103,10 @@ name: Double Colorless Energy
 rarity: uncommon
 holographic: false
 class: E
-subclass: Special
 legal: false
 filename: 96-double-colorless-energy
+subclasses:
+- Special
 mechanics:
 - type: effect
   text: >-
@@ -3115,9 +3120,10 @@ name: Fighting Energy
 rarity: none
 holographic: false
 class: E
-subclass: Basic
 legal: true
 filename: 97-fighting-energy
+subclasses:
+- Basic
 mechanics:
 - type: effect
   text: >-
@@ -3130,9 +3136,10 @@ name: Fire Energy
 rarity: none
 holographic: false
 class: E
-subclass: Basic
 legal: true
 filename: 98-fire-energy
+subclasses:
+- Basic
 mechanics:
 - type: effect
   text: >-
@@ -3145,9 +3152,10 @@ name: Grass Energy
 rarity: none
 holographic: false
 class: E
-subclass: Basic
 legal: true
 filename: 99-grass-energy
+subclasses:
+- Basic
 mechanics:
 - type: effect
   text: >-
@@ -3160,9 +3168,10 @@ name: Lightning Energy
 rarity: none
 holographic: false
 class: E
-subclass: Basic
 legal: true
 filename: 100-lightning-energy
+subclasses:
+- Basic
 mechanics:
 - type: effect
   text: >-
@@ -3175,9 +3184,10 @@ name: Psychic Energy
 rarity: none
 holographic: false
 class: E
-subclass: Basic
 legal: true
 filename: 101-psychic-energy
+subclasses:
+- Basic
 mechanics:
 - type: effect
   text: >-
@@ -3190,9 +3200,10 @@ name: Water Energy
 rarity: none
 holographic: false
 class: E
-subclass: Basic
 legal: true
 filename: 102-water-energy
+subclasses:
+- Basic
 mechanics:
 - type: effect
   text: >-

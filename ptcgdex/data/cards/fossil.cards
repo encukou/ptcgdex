@@ -2197,11 +2197,13 @@ number: '62'
 name: Mysterious Fossil
 rarity: common
 holographic: false
-class: P
+class: T
 hp: 50
-subclass: Fossil
 legal: false
 filename: 62-mysterious-fossil
+subclasses:
+- Pokemon
+- Fossil
 mechanics:
 - type: effect
   text: >-
