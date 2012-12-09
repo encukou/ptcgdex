@@ -27,10 +27,6 @@ class Card(TableBase):
         info=dict(description="ID of the card's evolution stage, if any"))
     class_id = Column(Integer, ForeignKey('tcg_classes.id'), nullable=False,
         info=dict(description="The ID of the card class"))
-    rarity_id = Column(Integer, ForeignKey('tcg_rarities.id'), nullable=False,
-        info=dict(description="The ID of the rarity"))
-    holographic = Column(Boolean, nullable=False,
-        info=dict(description="True iff the card is holographic"))
 
     hp = Column(Integer, nullable=True,
         info=dict(description="The card's HP, if any"))
@@ -38,7 +34,12 @@ class Card(TableBase):
         info=dict(description="The card retreat cost, if any"))
     resistance_type_id = Column(Integer, ForeignKey('tcg_types.id'),
         nullable=True,
-        info=dict(description="ID of type the card is resistan to, if any"))
+        info=dict(description="ID of type the card is resistant to, if any"))
+
+    @property
+    def types(self):
+        return tuple(ct.type for ct in self.card_types)
+
 
 create_translation_table('tcg_card_names', Card, 'names',
     name = Column(Unicode(32), nullable=False, index=True,
@@ -69,6 +70,10 @@ class Print(TableBase):
         info=dict(description="The release date, if different from set"))
     card_ban_date = Column(DateTime, nullable=True,
         info=dict(description="Modified ban date, if different from set"))
+    holographic = Column(Boolean, nullable=False,
+        info=dict(description="True iff the card is holographic"))
+    rarity_id = Column(Integer, ForeignKey('tcg_rarities.id'), nullable=False,
+        info=dict(description="The ID of the rarity"))
 
 class TCGType(TableBase):
     __tablename__ = 'tcg_types'
@@ -145,8 +150,8 @@ class CardSubclass(TableBase):
     card_id = Column(Integer, ForeignKey('tcg_cards.id'), nullable=False,
         primary_key=True,
         info=dict(description="The ID of the card"))
-    type_id = Column(Integer, ForeignKey('tcg_subclasses.id'), nullable=False,
-        primary_key=True,
+    subclass_id = Column(Integer, ForeignKey('tcg_subclasses.id'),
+        nullable=False, primary_key=True,
         info=dict(description="The ID of the subclass"))
 
 class Mechanic(TableBase):
@@ -162,15 +167,23 @@ class Mechanic(TableBase):
     damage_modifier = Column(Unicode(1), nullable=True,
         info=dict(description="Attack damage modifier, if applicable"))
 
+    @property
+    def cost_string(self):
+        costs = sorted(self.costs, key=lambda cost: cost.type.id)
+        parts = []
+        for cost in costs:
+            parts += cost.type.initial * cost.amount
+        return ''.join(parts)
+
 create_translation_table('tcg_mechanic_names', Mechanic, 'names',
-    name = Column(Unicode(32), nullable=False, index=True,
+    name = Column(Unicode(32), nullable=True, index=True,
         info=dict(description="The class name", format='plaintext', official=True)),
 )
 
 create_translation_table('tcg_mechanic_effects', Mechanic, 'effects',
     effect = Column(Unicode(5120), nullable=True,
         info=dict(description="A detailed description of the effect",
-                  format='markdown', string_getter=markdown.MarkdownString)),
+                  format='markdown', official=True, string_getter=markdown.MarkdownString)),
 )
 
 class MechanicClass(TableBase):
@@ -251,7 +264,7 @@ class PokemonFlavor(TableBase):
         info=dict(description='"Species", if different from games'))
 
 create_translation_table('tcg_pokemon_flavor_text', PokemonFlavor, 'flavor',
-    species = Column(Unicode(16), nullable=True, index=True,
+    genus = Column(Unicode(16), nullable=True, index=True,
         info=dict(description="The species, if different from games",
                   format='plaintext', official=True)),
     dex_entry = Column(Unicode(256), nullable=True, index=True,
@@ -297,13 +310,13 @@ tcg_classes = [c for c in dex_tables.mapped_classes if
 
 Card.class_ = relationship(Class, backref='cards')
 Card.stage = relationship(Stage, backref='cards')
-Card.rarity = relationship(Rarity, backref='cards')
 Card.resistance_type = relationship(TCGType, backref='resistant_cards')
 
 Print.card = relationship(Card, backref='prints')
 Print.set = relationship(Set, backref='prints')
 Print.illustrator = relationship(Illustrator, backref='prints')
 Print.pokemon_flavor = relationship(PokemonFlavor, backref='prints')
+Print.rarity = relationship(Rarity, backref='prints')
 
 TCGType.game_type = relationship(dex_tables.Type)
 
@@ -311,7 +324,7 @@ CardType.card = relationship(Card, backref='card_types')
 CardType.type = relationship(TCGType, backref='card_types')
 
 CardSubclass.card = relationship(Card, backref='card_subclasses')
-CardSubclass.type = relationship(Subclass, backref='card_subclasses')
+CardSubclass.subclass = relationship(Subclass, backref='card_subclasses')
 
 Mechanic.class_ = relationship(MechanicClass, backref='mechanics')
 
