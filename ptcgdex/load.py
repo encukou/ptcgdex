@@ -108,6 +108,8 @@ def load_sets(session, directory, set_names=None, verbose=True):
             except NoResultFound:
                 pass
             else:
+                for scan in previous.scans:
+                    session.delete(scan)
                 session.delete(previous)
 
             # Card bits
@@ -303,10 +305,15 @@ def load_sets(session, directory, set_names=None, verbose=True):
             else:
                 flavor = None
 
+            scan = tcg_tables.Scan()
+            scan.print_ = card_print
+            scan.filename = card_info.pop('filename')
+            scan.order = 0
+            session.add(scan)
+
             session.add(card_print)
 
             card_info.pop('evolves from', None)  # XXX: Handle evolution
-            card_info.pop('filename')  # XXX: Handle scans
 
             card_info.pop('orphan', None)  # XXX
             card_info.pop('has-variant', None)  # XXX
@@ -354,6 +361,7 @@ def dump_set(tcg_set, outfile, verbose=True):
         if card.stage:
             card_info['stage'] = card.stage.name
         card_info['legal'] = card.legal
+        [card_info['filename']] = [s.filename for s in print_.scans]
         if flavor and flavor.species:
             card_info['pokemon'] = flavor.species.name
         card_info['mechanics'] = [export_mechanic(cm.mechanic) for cm

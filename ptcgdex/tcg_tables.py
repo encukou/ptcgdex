@@ -285,8 +285,6 @@ create_translation_table('tcg_pokemon_flavor_text', PokemonFlavor, 'flavor',
                   format='plaintext', official=True)),
 )
 
-# TODO: class Evolution(TableBase):
-
 class Set(TableBase):
     __tablename__ = 'tcg_sets'
     __singlename__ = 'tcg_set'
@@ -313,6 +311,17 @@ class Illustrator(TableBase):
     id = make_id()
     name = Column(Unicode(50), nullable=False,
         info=dict(description="Name of the illustrator"))
+
+class Scan(TableBase):
+    __tablename__ = 'tcg_scans'
+    __singlename__ = 'tcg_scan'
+    id = make_id()
+    print_id = Column(Integer, ForeignKey('tcg_prints.id'), nullable=False,
+        info=dict(description=u"The ID of the print this is a scan of"))
+    filename = Column(Unicode(30), nullable=False,
+        info=dict(description="Filename for this scan"))
+    order = Column(Integer, nullable=False,
+        info=dict(description=u"Order for scan galleries."))
 
 
 _pokedex_classes_set = set(pokedex_classes)
@@ -355,3 +364,6 @@ CardMechanic.card = relationship(Card, backref=backref(
 CardMechanic.mechanic = relationship(Mechanic, backref='card_mechanics')
 
 PokemonFlavor.species = relationship(dex_tables.PokemonSpecies)
+
+Scan.print_ = relationship(Print, backref=backref(
+    'scans', order_by=Scan.order.asc()))
