@@ -174,6 +174,7 @@ def load_sets(session, directory, set_names=None, verbose=True):
                     continue
                 # TODO: weak_info
                 # TODO: card_subclass
+                # TODO: evolutions
                 break
             else:
                 card = None
@@ -271,6 +272,16 @@ def load_sets(session, directory, set_names=None, verbose=True):
                     link = tcg_tables.CardSubclass()
                     link.card = card
                     link.subclass = card_subclass
+                    session.add(link)
+
+                evolves_from = card_info.pop('evolves from', None)
+                if evolves_from:
+                    family = get_family(session, en, evolves_from)
+                    link = tcg_tables.Evolution()
+                    link.card = card
+                    link.family = family
+                    link.order = 0
+                    link.family_to_card = True
                     session.add(link)
 
             # Print bits
@@ -375,6 +386,9 @@ def dump_set(tcg_set, outfile, verbose=True):
             [card_info['subclass']] = [sc.name for sc in card.subclasses]
         if card.stage:
             card_info['stage'] = card.stage.name
+        if card.evolutions:
+            [card_info['evolves from']] = [
+                e.family.name for e in card.evolutions]
         card_info['legal'] = card.legal
         [card_info['filename']] = [s.filename for s in print_.scans]
         if flavor and flavor.species:
@@ -403,7 +417,7 @@ def dump_set(tcg_set, outfile, verbose=True):
             card_info['species'] = flavor.genus
             card_info['weight'] = flavor.weight
             card_info['height'] = "{}'{}".format(*divmod(flavor.height, 12))
-            card_info['dex entry'] = flavor.dex_entry
+            card_info['dex entry'] = Text(flavor.dex_entry or '')
 
         card_info['illustrator'] = print_.illustrator.name
 

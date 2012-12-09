@@ -358,6 +358,8 @@ class Evolution(TableBase):
         info=dict(description=u"The ID of the family"))
     family_to_card = Column(Boolean, nullable=False,
         info=dict(description=u"True for 'evolves from', false for 'evolves to'"))
+    order = Column(Integer, nullable=False,
+        info=dict(description=u"Order of appearance on card."))
 
 
 _pokedex_classes_set = set(pokedex_classes)
@@ -405,5 +407,6 @@ PokemonFlavor.species = relationship(dex_tables.PokemonSpecies)
 Scan.print_ = relationship(Print, backref=backref(
     'scans', order_by=Scan.order.asc()))
 
-Evolution.card = relationship(Card, backref='evolutions')
+Evolution.card = relationship(Card, backref=backref(
+    'evolutions', order_by=Evolution.order.asc()))
 Evolution.family = relationship(CardFamily, backref='evolutions')

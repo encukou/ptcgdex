@@ -101,24 +101,26 @@ def dump(session, options):
     from pokedex.db import load as dex_load
     from ptcgdex import load as ptcg_load
     tables = options['<table-or-set-identifier>']
-    if not tables:
-        if options['--csv']:
-            csv_tables = tcg_tables.tcg_classes
-        else:
-            csv_tables = [t for t in tcg_tables.tcg_classes
-                    if getattr(t, 'load_from_csv', False)]
-        tables = [c.__tablename__ for c in all_tables(csv_tables)]
+    if options['--sets']:
+        ptcg_load.dump_sets(session,
+            directory=options['--card-dir'],
+            set_identifiers=tables or None,
+            verbose=options['--verbose'])
+    else:
+        if not tables:
+            if options['--csv']:
+                csv_tables = tcg_tables.tcg_classes
+            else:
+                csv_tables = [t for t in tcg_tables.tcg_classes
+                        if getattr(t, 'load_from_csv', False)]
+            tables = [c.__tablename__ for c in all_tables(csv_tables)]
 
-    dex_load.dump(session,
-        directory=options['--ptcg-csv-dir'],
-        tables=tables,
-        verbose=options['--verbose'],
-        langs=['en'])
+        dex_load.dump(session,
+            directory=options['--ptcg-csv-dir'],
+            tables=tables,
+            verbose=options['--verbose'],
+            langs=['en'])
 
-    ptcg_load.dump_sets(session,
-        directory=options['--card-dir'],
-        set_identifiers=tables,
-        verbose=options['--verbose'])
 
 
 def main(argv=None):
