@@ -40,6 +40,15 @@ class Card(TableBase):
     def types(self):
         return tuple(ct.type for ct in self.card_types)
 
+    @property
+    def mechanics(self):
+        return tuple(cm.mechanic for cm in self.card_mechanics)
+
+    @property
+    def subclasses(self):
+        return tuple(sorted((cs.subclass for cs in self.card_subclasses),
+                            key=lambda s: s.id))
+
 
 create_translation_table('tcg_card_names', Card, 'names',
     name = Column(Unicode(32), nullable=False, index=True,
@@ -102,7 +111,7 @@ class CardType(TableBase):
     type_id = Column(Integer, ForeignKey('tcg_types.id'), nullable=False,
         primary_key=True,
         info=dict(description="The ID of the type"))
-    slot = Column(Integer, nullable=False,
+    order = Column(Integer, nullable=False,
         info=dict(description="Type's sort order on the card"))
 
 class Class(TableBase):
@@ -169,7 +178,7 @@ class Mechanic(TableBase):
 
     @property
     def cost_string(self):
-        costs = sorted(self.costs, key=lambda cost: cost.type.id)
+        costs = sorted(self.costs, key=lambda cost: cost.order)
         parts = []
         for cost in costs:
             parts += cost.type.initial * cost.amount
@@ -223,6 +232,8 @@ class MechanicCost(TableBase):
         info=dict(description=u"The type of Energy"))
     amount = Column(Integer, nullable=False,
         info=dict(description=u"The amount of this Energy required"))
+    order = Column(Integer, primary_key=True, nullable=False,
+        info=dict(description=u"Order of appearance on card."))
 
 class CardMechanic(TableBase):
     __tablename__ = 'tcg_card_mechanics'
@@ -311,14 +322,16 @@ Card.stage = relationship(Stage, backref='cards')
 Card.resistance_type = relationship(TCGType, backref='resistant_cards')
 
 Print.card = relationship(Card, backref='prints')
-Print.set = relationship(Set, backref='prints')
+Print.set = relationship(Set, backref=backref(
+    'prints', order_by=(Print.order.asc(), Print.set_number.asc())))
 Print.illustrator = relationship(Illustrator, backref='prints')
 Print.pokemon_flavor = relationship(PokemonFlavor, backref='prints')
 Print.rarity = relationship(Rarity, backref='prints')
 
 TCGType.game_type = relationship(dex_tables.Type)
 
-CardType.card = relationship(Card, backref='card_types')
+CardType.card = relationship(Card, backref=backref(
+    'card_types', order_by=CardType.order.asc()))
 CardType.type = relationship(TCGType, backref='card_types')
 
 CardSubclass.card = relationship(Card, backref='card_subclasses')
@@ -326,13 +339,15 @@ CardSubclass.subclass = relationship(Subclass, backref='card_subclasses')
 
 Mechanic.class_ = relationship(MechanicClass, backref='mechanics')
 
-MechanicCost.mechanic = relationship(Mechanic, backref='costs')
+MechanicCost.mechanic = relationship(Mechanic, backref=backref(
+    'costs', order_by=MechanicCost.order.asc()))
 MechanicCost.type = relationship(TCGType)
 
 Weakness.card = relationship(Card, backref='weaknesses')
 Weakness.type = relationship(TCGType, backref='weaknesses')
 
-CardMechanic.card = relationship(Card, backref='card_mechanics')
+CardMechanic.card = relationship(Card, backref=backref(
+    'card_mechanics', order_by=CardMechanic.order.asc()))
 CardMechanic.mechanic = relationship(Mechanic, backref='card_mechanics')
 
 PokemonFlavor.species = relationship(dex_tables.PokemonSpecies)

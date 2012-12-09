@@ -170,7 +170,7 @@ def load_sets(session, directory, set_names=None, verbose=True):
                 card.retreat_cost = retreat_cost
                 card.resistance_type = resistance_type
                 session.add(card)
-                for index, mechanic_info in enumerate(
+                for mechanic_index, mechanic_info in enumerate(
                         card_info.pop('mechanics', ())):
                     # Mechanic bits
                     mechanic_name = mechanic_info.pop('name', None)
@@ -203,6 +203,7 @@ def load_sets(session, directory, set_names=None, verbose=True):
                         mechanic.class_ = mechanic_class
 
                         cost_list = list(cost_string)
+                        cost_index = 0
                         while cost_list:
                             cost = tcg_tables.MechanicCost()
                             initial = cost_list[0]
@@ -212,6 +213,8 @@ def load_sets(session, directory, set_names=None, verbose=True):
                                 cost.amount += 1
                                 del cost_list[0]
                             cost.mechanic = mechanic
+                            cost.order = cost_index
+                            cost_index += 1
                             session.add(cost)
 
                         if damage:
@@ -226,14 +229,14 @@ def load_sets(session, directory, set_names=None, verbose=True):
                     link = tcg_tables.CardMechanic()
                     link.card = card
                     link.mechanic = mechanic
-                    link.order = index
+                    link.order = mechanic_index
                     session.add(link)
 
-                for index, card_type in enumerate(card_types):
+                for type_index, card_type in enumerate(card_types):
                     link = tcg_tables.CardType()
                     link.card = card
                     link.type = card_type
-                    link.slot = index
+                    link.order = type_index
                     session.add(link)
 
                 if weak_info:
@@ -346,8 +349,11 @@ def dump_set(tcg_set, outfile, verbose=True):
             ('class', card.class_.identifier[0].upper()),
             ('types', [t.name for t in card.types]),
             ('hp', card.hp),
-            ('stage', card.stage.name if card.stage else None),
         ])
+        if card.subclasses:
+            [card_info['subclass']] = [sc.name for sc in card.subclasses]
+        if card.stage:
+            card_info['stage'] = card.stage.name
         if flavor and flavor.species:
             card_info['pokemon'] = flavor.species.name
         card_info['mechanics'] = [export_mechanic(cm.mechanic) for cm
