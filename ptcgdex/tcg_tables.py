@@ -28,6 +28,9 @@ class Card(TableBase):
     class_id = Column(Integer, ForeignKey('tcg_classes.id'), nullable=False,
         info=dict(description="The ID of the card class"))
 
+    family_id = Column(Integer, ForeignKey('tcg_card_families.id'),
+        nullable=True,
+        info=dict(description="ID of the card's family"))
     hp = Column(Integer, nullable=True,
         info=dict(description="The card's HP, if any"))
     retreat_cost = Column(Integer, nullable=True,
@@ -39,6 +42,10 @@ class Card(TableBase):
     # TODO: legal is non-normal, but so far we lack data to compute it
     legal = Column(Boolean, nullable=False,
         info=dict(description="The card's legality in Modified"))
+
+    @property
+    def name(self):
+        return self.family.name
 
     @property
     def types(self):
@@ -53,11 +60,6 @@ class Card(TableBase):
         return tuple(sorted((cs.subclass for cs in self.card_subclasses),
                             key=lambda s: s.id))
 
-
-create_translation_table('tcg_card_names', Card, 'names',
-    name = Column(Unicode(32), nullable=False, index=True,
-        info=dict(description="The name", format='plaintext', official=True)),
-)
 
 class Print(TableBase):
     __tablename__ = 'tcg_prints'
@@ -105,6 +107,7 @@ create_translation_table('tcg_type_names', TCGType, 'names',
     name = Column(Unicode(10), nullable=False, index=True,
         info=dict(description="The type name", format='plaintext', official=True)),
 )
+
 
 class CardType(TableBase):
     __tablename__ = 'tcg_card_types'
@@ -324,6 +327,39 @@ class Scan(TableBase):
         info=dict(description=u"Order for scan galleries."))
 
 
+class CardFamily(TableBase):
+    """Set of all cards that share the same name"""
+    # The name of a card is actually important for mechanics, so it seems
+    # a bit icky to stick it on "card" and leave it at the mercy of
+    # translations. So, we have card family objects in the DB.
+    # (Also: less translation needed)
+
+    __tablename__ = 'tcg_card_families'
+    __singlename__ = 'tcg_card_family'
+    id = make_id()
+    identifier = make_identifier(32)
+
+
+create_translation_table('tcg_card_family_names', CardFamily, 'names',
+    name = Column(Unicode(32), nullable=False, index=True,
+        info=dict(description="The name", format='plaintext', official=True)),
+)
+
+
+class Evolution(TableBase):
+    __tablename__ = 'tcg_evolutions'
+    __singlename__ = 'tcg_evolution'
+
+    card_id = Column(Integer, ForeignKey('tcg_cards.id'),
+        primary_key=True, nullable=False,
+        info=dict(description=u"The ID of the card the evolution appears on"))
+    family_id = Column(Integer, ForeignKey('tcg_card_families.id'),
+        primary_key=True, nullable=False,
+        info=dict(description=u"The ID of the family"))
+    family_to_card = Column(Boolean, nullable=False,
+        info=dict(description=u"True for 'evolves from', false for 'evolves to'"))
+
+
 _pokedex_classes_set = set(pokedex_classes)
 tcg_classes = [c for c in dex_tables.mapped_classes if
                c not in _pokedex_classes_set]
@@ -333,6 +369,7 @@ tcg_classes = [c for c in dex_tables.mapped_classes if
 Card.class_ = relationship(Class, backref='cards')
 Card.stage = relationship(Stage, backref='cards')
 Card.resistance_type = relationship(TCGType, backref='resistant_cards')
+Card.family = relationship(CardFamily, backref='cards')
 
 Print.card = relationship(Card, backref='prints')
 Print.set = relationship(Set, backref=backref(
@@ -367,3 +404,6 @@ PokemonFlavor.species = relationship(dex_tables.PokemonSpecies)
 
 Scan.print_ = relationship(Print, backref=backref(
     'scans', order_by=Scan.order.asc()))
+
+Evolution.card = relationship(Card, backref='evolutions')
+Evolution.family = relationship(CardFamily, backref='evolutions')

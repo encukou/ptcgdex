@@ -10,7 +10,7 @@ import yaml
 from sqlalchemy.orm.exc import NoResultFound
 from pokedex.db import tables as dex_tables
 from pokedex.db import load as dex_load
-from pokedex.db import util, multilang
+from pokedex.db import util, multilang, identifier_from_name
 
 from ptcgdex import tcg_tables
 
@@ -74,6 +74,18 @@ def export_mechanic(mechanic):
             ('text', Text(effect.source_text) if effect else None),
         ])
     return OrderedDict([(k, v) for k, v in mech.items() if v])
+
+def get_family(session, en, name):
+    try:
+        return util.get(session, tcg_tables.CardFamily,
+                        name=name)
+    except NoResultFound:
+        family = tcg_tables.CardFamily()
+        family.name_map[en] = name
+        family.identifier = identifier_from_name(name)
+        session.add(family)
+    return family
+
 
 def load_sets(session, directory, set_names=None, verbose=True):
     def type_by_initial(initial):
@@ -143,6 +155,8 @@ def load_sets(session, directory, set_names=None, verbose=True):
             else:
                 card_subclass = None
 
+            card_family = get_family(session, en, card_name)
+
             # Find/make corresponding card
             query = session.query(tcg_tables.Card)
             query = query.filter(tcg_tables.Card.stage == stage)
@@ -150,7 +164,7 @@ def load_sets(session, directory, set_names=None, verbose=True):
             query = query.filter(tcg_tables.Card.class_ == card_class)
             query = query.filter(tcg_tables.Card.retreat_cost == retreat_cost)
             query = query.filter(tcg_tables.Card.resistance_type == resistance_type)
-            query = util.filter_name(query, tcg_tables.Card, card_name, en)
+            query = query.filter(tcg_tables.Card.family == card_family)
             for card in query.all():
                 if card.types != card_types:
                     continue
@@ -165,13 +179,13 @@ def load_sets(session, directory, set_names=None, verbose=True):
                 card = None
             if not card:
                 card = tcg_tables.Card()
-                card.name_map[en] = card_name
                 card.stage = stage
                 card.class_ = card_class
                 card.hp = hp
                 card.retreat_cost = retreat_cost
                 card.resistance_type = resistance_type
                 card.legal = card_info.pop('legal')
+                card.family = card_family
                 session.add(card)
                 for mechanic_index, mechanic_info in enumerate(
                         card_info.pop('mechanics', ())):
