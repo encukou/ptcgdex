@@ -65,7 +65,6 @@ mechanics:
   cost: CC
   damage: '20'
   type: attack
-  text: ""
 - name: Chain Lightning
   cost: LLL
   damage: '20'
@@ -293,7 +292,6 @@ mechanics:
   cost: CCGG
   damage: '50'
   type: attack
-  text: ""
 weakness:
   amount: 2
   operation: x
@@ -329,7 +327,6 @@ mechanics:
   cost: CC
   damage: '20'
   type: attack
-  text: ""
 - name: Hurricane
   cost: CCC
   damage: '30'
@@ -378,7 +375,6 @@ mechanics:
   cost: CCGG
   damage: '50'
   type: attack
-  text: ""
 weakness:
   amount: 2
   operation: x
@@ -420,7 +416,6 @@ mechanics:
   cost: CCC
   damage: '30'
   type: attack
-  text: ""
 weakness:
   amount: 2
   operation: x
@@ -769,7 +764,6 @@ mechanics:
   cost: CC
   damage: '20'
   type: attack
-  text: ""
 - name: Chain Lightning
   cost: LLL
   damage: '20'
@@ -1002,7 +996,6 @@ mechanics:
   cost: CCGG
   damage: '50'
   type: attack
-  text: ""
 weakness:
   amount: 2
   operation: x
@@ -1039,7 +1032,6 @@ mechanics:
   cost: CC
   damage: '20'
   type: attack
-  text: ""
 - name: Hurricane
   cost: CCC
   damage: '30'
@@ -1089,7 +1081,6 @@ mechanics:
   cost: CCGG
   damage: '50'
   type: attack
-  text: ""
 weakness:
   amount: 2
   operation: x
@@ -1132,7 +1123,6 @@ mechanics:
   cost: CCC
   damage: '30'
   type: attack
-  text: ""
 weakness:
   amount: 2
   operation: x
@@ -1580,7 +1570,6 @@ mechanics:
   cost: CCCC
   damage: '40'
   type: attack
-  text: ""
 weakness:
   amount: 2
   operation: x
@@ -1793,7 +1782,6 @@ mechanics:
   cost: CCC
   damage: '30'
   type: attack
-  text: ""
 weakness:
   amount: 2
   operation: x
@@ -1829,7 +1817,6 @@ mechanics:
   cost: CC
   damage: '20'
   type: attack
-  text: ""
 - name: Pounce
   cost: CCC
   damage: '30'
@@ -1964,7 +1951,6 @@ mechanics:
   cost: FCC
   damage: '30'
   type: attack
-  text: ""
 - name: Ram
   cost: FFFF
   damage: '50'
@@ -2010,12 +1996,10 @@ mechanics:
   cost: W
   damage: '10'
   type: attack
-  text: ""
 - name: Waterfall
   cost: CW
   damage: '30'
   type: attack
-  text: ""
 weakness:
   amount: 2
   operation: x
@@ -2102,7 +2086,6 @@ mechanics:
   cost: GG
   damage: '30'
   type: attack
-  text: ""
 weakness:
   amount: 2
   operation: x
@@ -2137,7 +2120,6 @@ mechanics:
   cost: G
   damage: '10'
   type: attack
-  text: ""
 - name: Call for Family
   cost: G
   type: attack
@@ -2310,7 +2292,6 @@ mechanics:
   cost: W
   damage: '10'
   type: attack
-  text: ""
 weakness:
   amount: 2
   operation: x
@@ -2350,7 +2331,6 @@ mechanics:
   cost: CC
   damage: '20'
   type: attack
-  text: ""
 weakness:
   amount: 2
   operation: x
@@ -2393,7 +2373,6 @@ mechanics:
   cost: C
   damage: '10'
   type: attack
-  text: ""
 weakness:
   amount: 2
   operation: x
@@ -2551,7 +2530,6 @@ mechanics:
   cost: CC
   damage: '20'
   type: attack
-  text: ""
 - name: Spore
   cost: GG
   type: attack
@@ -2636,7 +2614,6 @@ mechanics:
   cost: CCF
   damage: '30'
   type: attack
-  text: ""
 weakness:
   amount: 2
   operation: x
@@ -2671,7 +2648,6 @@ mechanics:
   cost: C
   damage: '10'
   type: attack
-  text: ""
 - name: Mirror Move
   cost: CCC
   type: attack

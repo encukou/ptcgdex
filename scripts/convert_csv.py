@@ -206,7 +206,8 @@ def main(infile, destdir=None):
                         if extra_value:
                             mechanic[extra_name] = extra_value
                     mechanic['type'] = label
-                    mechanic['text'] = Text(text)
+                    if text:
+                        mechanic['text'] = Text(text)
                     mechanics.append(mechanic)
 
         weakness = pop('weakness')
