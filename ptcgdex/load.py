@@ -10,7 +10,8 @@ import yaml
 from sqlalchemy.orm.exc import NoResultFound
 from pokedex.db import tables as dex_tables
 from pokedex.db import load as dex_load
-from pokedex.db import util, multilang, identifier_from_name
+from pokedex.db import util, multilang
+import pokedex.db
 
 from ptcgdex import tcg_tables
 
@@ -74,6 +75,10 @@ def export_mechanic(mechanic):
             ('text', Text(effect.source_text) if effect else None),
         ])
     return OrderedDict([(k, v) for k, v in mech.items() if v])
+
+def identifier_from_name(name):
+    name = name.replace('!', '')
+    return pokedex.db.identifier_from_name(name)
 
 def get_family(session, en, name):
     try:

@@ -1,0 +1,3154 @@
+---
+set: team-rocket
+number: '1'
+name: Dark Alakazam
+rarity: rare
+holographic: true
+class: P
+types:
+- Psychic
+hp: 60
+stage: Stage 2
+evolves from: Dark Kadabra
+legal: false
+filename: 1-dark-alakazam
+pokemon: Alakazam
+classes:
+- Dark
+mechanics:
+- name: Teleport Blast
+  cost: PPC
+  damage: '30'
+  type: attack
+  text: >-
+    You may switch Dark Alakazam with 1 of your Benched Pokémon
+    (Do the damage before switching the Pokémon).
+- name: Mind Shock
+  cost: PPP
+  damage: '40'
+  type: attack
+  text: >-
+    Don't apply Weakness and Resistance for this attack. (Any
+    other effects that would happen after applying Weakness and
+    Resistance still happen.)
+weakness:
+  amount: 2
+  operation: ×
+  type: P
+retreat: 3
+dex number: 65
+species: Psi
+weight: 106
+height: 4'11
+dex entry: >-
+  Almost as if being controlled by something else, it never changes
+  its expression, even in the middle of battle.
+illustrator: Ken Sugimori
+---
+set: team-rocket
+number: '2'
+name: Dark Arbok
+rarity: rare
+holographic: true
+class: P
+types:
+- Grass
+hp: 60
+stage: Stage 1
+evolves from: Ekans
+legal: false
+filename: 2-dark-arbok
+pokemon: Arbok
+classes:
+- Dark
+mechanics:
+- name: Stare
+  cost: GG
+  type: attack
+  text: >-
+    Choose 1 of your opponent's Pokémon. This attack does 10 damage
+    to that Pokémon. Don't apply Weakness and Resistance for this
+    attack. (Any other effects that would happen after applying
+    Weakness and Resistance still happen.) If that Pokémon has
+    a Pokémon Power, that power stops working until the end of
+    your opponent's next turn.
+- name: Poison Vapor
+  cost: GGG
+  damage: '10'
+  type: attack
+  text: >-
+    The Defending Pokémon is now Poisoned. This attack does 10
+    damage to each of your opponent's Benched Pokémon. (Don't
+    apply Weakness and Resistance for Benched Pokémon.)
+weakness:
+  amount: 2
+  operation: ×
+  type: P
+retreat: 2
+dex number: 24
+species: Cobra
+weight: 143
+height: 11'6
+dex entry: >-
+  Freezes its prey with its stare. If you encounter one, remember
+  not to look into its eyes.
+illustrator: Mitsuhiro Arita
+---
+set: team-rocket
+number: '3'
+name: Dark Blastoise
+rarity: rare
+holographic: true
+class: P
+types:
+- Water
+hp: 70
+stage: Stage 2
+evolves from: Dark Wartortle
+legal: false
+filename: 3-dark-blastoise
+pokemon: Blastoise
+classes:
+- Dark
+mechanics:
+- name: Hydrocannon
+  cost: WW
+  damage: 30+
+  type: attack
+  text: >-
+    Does 30 damage plus 20 more damage for each W Energy attached
+    to Dark Blastoise but not used to pay for this attack. You
+    can't add more than 40 damage in this way.
+- name: Rocket Tackle
+  cost: WCC
+  damage: '40'
+  type: attack
+  text: >-
+    Dark Blastoise does 10 damage to itself. Flip a coin. If heads,
+    prevent all damage done to Dark Blastoise during your opponent's
+    next turn. (Any other effects of attacks still happen.)
+weakness:
+  amount: 2
+  operation: ×
+  type: L
+retreat: 2
+dex number: 9
+species: Shellfish
+weight: 189
+height: 5'3
+dex entry: >-
+  An aggressive Pokémon that tackles anything it sees.
+illustrator: Mitsuhiro Arita
+---
+set: team-rocket
+number: '4'
+name: Dark Charizard
+rarity: rare
+holographic: true
+class: P
+types:
+- Fire
+hp: 80
+stage: Stage 2
+evolves from: Dark Charmeleon
+legal: false
+filename: 4-dark-charizard
+pokemon: Charizard
+classes:
+- Dark
+mechanics:
+- name: Nail Flick
+  cost: C
+  damage: '10'
+  type: attack
+- name: Continuous Fireball
+  cost: RR
+  damage: 50×
+  type: attack
+  text: >-
+    Flip a number of coins equal to the number of R Energy cards
+    attached to Dark Charizard. This attack does 50 damage times
+    the number of heads. Discard a number of R Energy cards attached
+    to Dark Charizard equal to the number of heads.
+weakness:
+  amount: 2
+  operation: ×
+  type: W
+resistance: F
+retreat: 3
+dex number: 6
+species: Flame
+weight: 200
+height: 5'7
+dex entry: >-
+  Seemingly possessed, it spews fire like a volcano, trying to
+  burn all that it sees.
+illustrator: Ken Sugimori
+---
+set: team-rocket
+number: '5'
+name: Dark Dragonite
+rarity: rare
+holographic: true
+class: P
+types:
+- Colorless
+hp: 70
+stage: Stage 2
+evolves from: Dark Dragonair
+legal: false
+filename: 5-dark-dragonite
+pokemon: Dragonite
+classes:
+- Dark
+mechanics:
+- name: Summon Minions
+  type: pokemon-power
+  text: >-
+    When you play Dark Dragonite from your hand, search your deck
+    for up to 2 Basic Pokémon and put them onto your Bench. Shuffle
+    your deck afterward.
+- name: Giant Tail
+  cost: CCCC
+  damage: '70'
+  type: attack
+  text: >-
+    Flip a coin. If tails, this attack does nothing.
+resistance: F
+retreat: 2
+dex number: 149
+species: Dragon
+weight: 463
+height: 7'3
+dex entry: >-
+  Sometimes called "The God of Drestruction." Its wings are able
+  to support it in spite of its massive weight.
+illustrator: Mitsuhiro Arita
+---
+set: team-rocket
+number: '6'
+name: Dark Dugtrio
+rarity: rare
+holographic: true
+class: P
+types:
+- Fighting
+hp: 50
+stage: Stage 1
+evolves from: Diglett
+legal: false
+filename: 6-dark-dugtrio
+pokemon: Dugtrio
+classes:
+- Dark
+mechanics:
+- name: Sinkhole
+  type: pokemon-power
+  text: >-
+    Whenever your opponent's Active Pokémon retreats, your opponent
+    flips a coin. If tails, this power does 20 damage to that
+    Pokémon. (Don't apply Weakness and Resistance.) This power
+    stops working while Dark Dugtrio is Asleep, Confused, or Paralyzed.
+- name: Knock Down
+  cost: FF
+  damage: 20+
+  type: attack
+  text: >-
+    Your opponent flips a coin. If tails, this attack does 20
+    damage plus 20 more damage; if heads, this attack does 20
+    damage.
+weakness:
+  amount: 2
+  operation: ×
+  type: G
+resistance: L
+retreat: 2
+dex number: 51
+species: Mole
+weight: 73
+height: 2'4
+dex entry: >-
+  Digs large sinkholes in the ground and tries to trap its enemies
+  in them.
+illustrator: Kagemaru Himeno
+---
+set: team-rocket
+number: '7'
+name: Dark Golbat
+rarity: rare
+holographic: true
+class: P
+types:
+- Grass
+hp: 50
+stage: Stage 1
+evolves from: Zubat
+legal: false
+filename: 7-dark-golbat
+pokemon: Golbat
+classes:
+- Dark
+mechanics:
+- name: Sneak Attack
+  type: pokemon-power
+  text: >-
+    When you play Dark Golbat from your hand, you may choose 1
+    of your opponent's Pokémon. If you do, Dark Golbat does 10
+    damage to that Pokémon. Apply Weakness and Resistance.
+- name: Flitter
+  cost: GG
+  type: attack
+  text: >-
+    Choose 1 of your opponent's Pokémon. This attack does 20 damage
+    to that Pokémon. Don't apply Weakness and Resistance for this
+    attack. (Any other effects that would happen after applying
+    Weakness and Resistance still happen.)
+weakness:
+  amount: 2
+  operation: ×
+  type: P
+resistance: F
+dex number: 42
+species: Bat Pokémon
+weight: 121
+height: 5'3
+dex entry: >-
+  Sneaks up silently on its prey and attacks it from behind, sometimes
+  killing it in one bite.
+illustrator: Mitsuhiro Arita
+---
+set: team-rocket
+number: '8'
+name: Dark Gyarados
+rarity: rare
+holographic: true
+class: P
+types:
+- Water
+hp: 70
+stage: Stage 1
+evolves from: Magikarp
+legal: false
+filename: 8-dark-gyarados
+pokemon: Gyarados
+classes:
+- Dark
+mechanics:
+- name: Final Beam
+  type: pokemon-power
+  text: >-
+    When Dark Gyarados is Knocked Out by an attack, flip a coin.
+    If heads, this power does 20 damage for each W Energy attached
+    to Dark Gyarados to the Pokémon that Knocked Out Dark Gyarados.
+    Apply Weakness and Resistance. This power doesn't work if
+    Dark Gyarados is Asleep, Confused, or Paralyzed.
+- name: Ice Beam
+  cost: WWW
+  damage: '30'
+  type: attack
+  text: >-
+    Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+weakness:
+  amount: 2
+  operation: ×
+  type: G
+resistance: F
+retreat: 2
+dex number: 130
+species: Atrocious
+weight: 518
+height: 21'4
+dex entry: >-
+  Normally only found in the deep ocean, it has recently been
+  seen in shallow waters as well.
+illustrator: Kagemaru Himeno
+---
+set: team-rocket
+number: '9'
+name: Dark Hypno
+rarity: rare
+holographic: true
+class: P
+types:
+- Psychic
+hp: 60
+stage: Stage 1
+evolves from: Drowzee
+legal: false
+filename: 9-dark-hypno
+pokemon: Hypno
+classes:
+- Dark
+mechanics:
+- name: Psypunch
+  cost: P
+  damage: '20'
+  type: attack
+- name: Bench Manipulation
+  cost: PPC
+  damage: 20×
+  type: attack
+  text: >-
+    Your opponent flips a number of coins equal to the number
+    of Pokémon on his or her Bench. This attack does 20 damage
+    times the number of tails. Don't apply Weakness and Resistance
+    for this attack. (Any other effects that would happen after
+    applying Weakness and Resistance still happen.)
+weakness:
+  amount: 2
+  operation: ×
+  type: P
+retreat: 2
+dex number: 97
+species: Hypnosis
+weight: 167
+height: 5'3
+dex entry: >-
+  Carries a pendulum with it always. Sometimes appears near less-travelled
+  roads and schools at dusk.
+illustrator: Kagemaru Himeno
+---
+set: team-rocket
+number: '10'
+name: Dark Machamp
+rarity: rare
+holographic: true
+class: P
+types:
+- Fighting
+hp: 70
+stage: Stage 2
+evolves from: Dark Machoke
+legal: false
+filename: 10-dark-machamp
+pokemon: Machamp
+classes:
+- Dark
+mechanics:
+- name: Mega Punch
+  cost: FF
+  damage: '30'
+  type: attack
+- name: Fling
+  cost: FFFC
+  type: attack
+  text: >-
+    Your opponent shuffles his or her Active Pokémon and all cards
+    attached to it into his or her deck. This attack can't be
+    used if your opponent has no Benched Pokémon.
+weakness:
+  amount: 2
+  operation: ×
+  type: P
+retreat: 3
+dex number: 68
+species: Superpower
+weight: 287
+height: 5'3
+dex entry: >-
+  It is almost impossible to defend against a Machamp's four powerful
+  arms.
+illustrator: Mitsuhiro Arita
+---
+set: team-rocket
+number: '11'
+name: Dark Magneton
+rarity: rare
+holographic: true
+class: P
+types:
+- Lightning
+hp: 60
+stage: Stage 1
+evolves from: Magnemite
+legal: false
+filename: 11-dark-magneton
+pokemon: Magneton
+classes:
+- Dark
+mechanics:
+- name: Sonicboom
+  cost: CC
+  damage: '20'
+  type: attack
+  text: >-
+    Don't apply Weakness and Resistance for this attack. (Any
+    other effects that would happen after applying Weakness and
+    Resistance still happen.)
+- name: Magnetic Lines
+  cost: LL
+  damage: '30'
+  type: attack
+  text: >-
+    If the Defending Pokémon has any basic Energy cards attached
+    to it, choose 1 of them. If your opponent has any Benched
+    Pokémon, choose 1 of them and attach that Energy card to it.
+weakness:
+  amount: 2
+  operation: ×
+  type: F
+retreat: 2
+dex number: 82
+species: Magnet
+weight: 132
+height: 3'3
+dex entry: >-
+  The number of incidents of hackers using Magnetons to damage
+  computer systems is steadily increasing.
+illustrator: Miki Tanaka
+---
+set: team-rocket
+number: '12'
+name: Dark Slowbro
+rarity: rare
+holographic: true
+class: P
+types:
+- Psychic
+hp: 60
+stage: Stage 1
+evolves from: Slowpoke
+legal: false
+filename: 12-dark-slowbro
+pokemon: Slowbro
+classes:
+- Dark
+mechanics:
+- name: Reel In
+  type: pokemon-power
+  text: >-
+    When you play Dark Slowbro from your hand, choose up to 3
+    Basic Pokémon and/or Evolution cards from your discard pile
+    and put them into your hand.
+- name: Fickle Attack
+  cost: PP
+  damage: '40'
+  type: attack
+  text: >-
+    Flip a coin. If tails, this attack does nothing.
+weakness:
+  amount: 2
+  operation: ×
+  type: P
+retreat: 2
+dex number: 80
+species: Hermitcrab
+weight: 173
+height: 5'3
+dex entry: >-
+  It loves nothing better than to be left alone, and so sometimes
+  manipulated by unscrupulous people.
+illustrator: Mitsuhiro Arita
+---
+set: team-rocket
+number: '13'
+name: Dark Vileplume
+rarity: rare
+holographic: true
+class: P
+types:
+- Grass
+hp: 60
+stage: Stage 2
+evolves from: Dark Gloom
+legal: false
+filename: 13-dark-vileplume
+pokemon: Vileplume
+classes:
+- Dark
+mechanics:
+- name: Hay Fever
+  type: pokemon-power
+  text: >-
+    No Trainer cards can be played. This power stops working while
+    Dark Vileplume is Asleep, Confused, or Paralyzed.
+- name: Petal Whirlwind
+  cost: GGG
+  damage: 30×
+  type: attack
+  text: >-
+    Flip 3 coins. This attack does 30 damage times the number
+    of heads. If you get 2 or more heads, Dark Vileplume is now
+    Confused (after dealing damage).
+weakness:
+  amount: 2
+  operation: ×
+  type: R
+retreat: 2
+dex number: 45
+species: Flower
+weight: 41
+height: 3'11
+dex entry: >-
+  Perhaps because of their strong-smelling pollen, other Pokémon
+  do not approach areas where Vileplumes live.
+illustrator: Kagemaru Himeno
+---
+set: team-rocket
+number: '14'
+name: Dark Weezing
+rarity: rare
+holographic: true
+class: P
+types:
+- Grass
+hp: 60
+stage: Stage 1
+evolves from: Koffing
+legal: false
+filename: 14-dark-weezing
+pokemon: Weezing
+classes:
+- Dark
+mechanics:
+- name: Mass Explosion
+  cost: GC
+  damage: 20×
+  type: attack
+  text: >-
+    Does 20 damage times the total number of Koffings, Weezings,
+    and Dark Weezings in play (Apply Weakness and Resistance.).
+    Then, this attack does 20 damage to each Koffing, Weezing,
+    and Dark Weezing (even your own). Don't apply Weakness and
+    Resistance.
+- name: Stun Gas
+  cost: GGG
+  damage: '20'
+  type: attack
+  text: >-
+    Flip a coin. If heads, the Defending Pokémon is now Poisoned;
+    if tails, the Defending Pokémon is now Paralyzed.
+weakness:
+  amount: 2
+  operation: ×
+  type: P
+retreat: 1
+dex number: 110
+species: Poison Gas
+weight: 21
+height: 3'11
+dex entry: >-
+  Researchers have observed these Pokémon reproducing in industrial
+  waste sites.
+illustrator: Shin-ichi Yoshida
+---
+set: team-rocket
+number: '15'
+name: Here Comes Team Rocket!
+rarity: rare
+holographic: true
+class: T
+legal: false
+filename: 15-here-comes-team-rocket
+mechanics:
+- type: effect
+  text: >-
+    Each player plays with his or her Prize cards face up for
+    the rest of the game.
+illustrator: Ken Sugimori
+---
+set: team-rocket
+number: '16'
+name: Rocket's Sneak Attack
+rarity: rare
+holographic: true
+class: T
+legal: false
+filename: 16-rocket's-sneak-attack
+mechanics:
+- type: effect
+  text: >-
+    Look at your opponent's hand. If he or she has any Trainer
+    cards, choose 1 of them. Your opponent shuffles that card
+    into his or her deck.
+illustrator: Ken Sugimori
+---
+set: team-rocket
+number: '17'
+name: Rainbow Energy
+rarity: rare
+holographic: true
+class: E
+subclass: Special
+legal: true
+filename: 17-rainbow-energy
+dated: 'ex-ruby-and-sapphire: 95-rainbow-energy'
+mechanics:
+- type: effect
+  text: >-
+    Attach Rainbow Energy to 1 of your Pokémon. While in play,
+    Rainbow Energy counts as every type of basic Energy but only
+    provides 1 Energy at a time. (Doesn't count as a basic Energy
+    card when not in play.) When you attach this card from your
+    hand to 1 of your Pokémon, it does 10 damage to that Pokémon.
+    (Don't apply Weakness and Resistance.)
+illustrator: Takumi Akabane
+---
+set: team-rocket
+number: '18'
+name: Dark Alakazam
+rarity: rare
+holographic: false
+class: P
+types:
+- Psychic
+hp: 60
+stage: Stage 2
+evolves from: Dark Kadabra
+legal: false
+filename: 18-dark-alakazam
+in-set-variant-of: 'team-rocket: 1-dark-alakazam as non-holo'
+pokemon: Alakazam
+classes:
+- Dark
+mechanics:
+- name: Teleport Blast
+  cost: PPC
+  damage: '30'
+  type: attack
+  text: >-
+    You may switch Dark Alakazam with 1 of your Benched Pokémon
+    (Do the damage before switching the Pokémon).
+- name: Mind Shock
+  cost: PPP
+  damage: '40'
+  type: attack
+  text: >-
+    Don't apply Weakness and Resistance for this attack. (Any
+    other effects that would happen after applying Weakness and
+    Resistance still happen.)
+weakness:
+  amount: 2
+  operation: ×
+  type: P
+retreat: 3
+dex number: 65
+species: Psi
+weight: 106
+height: 4'11
+dex entry: >-
+  Almost as if being controlled by something else, it never changes
+  its expression, even in the middle of battle.
+illustrator: Ken Sugimori
+---
+set: team-rocket
+number: '19'
+name: Dark Arbok
+rarity: rare
+holographic: false
+class: P
+types:
+- Grass
+hp: 60
+stage: Stage 1
+evolves from: Ekans
+legal: false
+filename: 19-dark-arbok
+in-set-variant-of: 'team-rocket: 2-dark-arbok as non-holo'
+pokemon: Arbok
+classes:
+- Dark
+mechanics:
+- name: Stare
+  cost: GG
+  type: attack
+  text: >-
+    Choose 1 of your opponent's Pokémon. This attack does 10 damage
+    to that Pokémon. Don't apply Weakness and Resistance for this
+    attack. (Any other effects that would happen after applying
+    Weakness and Resistance still happen.) If that Pokémon has
+    a Pokémon Power, that power stops working until the end of
+    your opponent's next turn.
+- name: Poison Vapor
+  cost: GGG
+  damage: '10'
+  type: attack
+  text: >-
+    The Defending Pokémon is now Poisoned. This attack does 10
+    damage to each of your opponent's Benched Pokémon. (Don't
+    apply Weakness and Resistance for Benched Pokémon.)
+weakness:
+  amount: 2
+  operation: ×
+  type: P
+retreat: 2
+dex number: 24
+species: Cobra
+weight: 143
+height: 11'6
+dex entry: >-
+  Freezes its prey with its stare. If you encounter one, remember
+  not to look into its eyes.
+illustrator: Mitsuhiro Arita
+---
+set: team-rocket
+number: '20'
+name: Dark Blastoise
+rarity: rare
+holographic: false
+class: P
+types:
+- Water
+hp: 70
+stage: Stage 2
+evolves from: Dark Wartortle
+legal: false
+filename: 20-dark-blastoise
+in-set-variant-of: 'team-rocket: 3-dark-blastoise as non-holo'
+pokemon: Blastoise
+classes:
+- Dark
+mechanics:
+- name: Hydrocannon
+  cost: WW
+  damage: 30+
+  type: attack
+  text: >-
+    Does 30 damage plus 20 more damage for each W Energy attached
+    to Dark Blastoise but not used to pay for this attack. You
+    can't add more than 40 damage in this way.
+- name: Rocket Tackle
+  cost: WCC
+  damage: '40'
+  type: attack
+  text: >-
+    Dark Blastoise does 10 damage to itself. Flip a coin. If heads,
+    prevent all damage done to Dark Blastoise during your opponent's
+    next turn. (Any other effects of attacks still happen.)
+weakness:
+  amount: 2
+  operation: ×
+  type: L
+retreat: 2
+dex number: 9
+species: Shellfish
+weight: 189
+height: 5'3
+dex entry: >-
+  An aggressive Pokémon that tackles anything it sees.
+illustrator: Mitsuhiro Arita
+---
+set: team-rocket
+number: '21'
+name: Dark Charizard
+rarity: rare
+holographic: false
+class: P
+types:
+- Fire
+hp: 80
+stage: Stage 2
+evolves from: Dark Charmeleon
+legal: false
+filename: 21-dark-charizard
+in-set-variant-of: 'team-rocket: 4-dark-charizard as non-holo'
+pokemon: Charizard
+classes:
+- Dark
+mechanics:
+- name: Nail Flick
+  cost: C
+  damage: '10'
+  type: attack
+- name: Continuous Fireball
+  cost: RR
+  damage: 50×
+  type: attack
+  text: >-
+    Flip a number of coins equal to the number of R Energy cards
+    attached to Dark Charizard. This attack does 50 damage times
+    the number of heads. Discard a number of R Energy cards attached
+    to Dark Charizard equal to the number of heads.
+weakness:
+  amount: 2
+  operation: ×
+  type: W
+resistance: F
+retreat: 3
+dex number: 6
+species: Flame
+weight: 200
+height: 5'7
+dex entry: >-
+  Seemingly possessed, it spews fire like a volcano, trying to
+  burn all that it sees.
+illustrator: Ken Sugimori
+---
+set: team-rocket
+number: '22'
+name: Dark Dragonite
+rarity: rare
+holographic: false
+class: P
+types:
+- Colorless
+hp: 70
+stage: Stage 2
+evolves from: Dark Dragonair
+legal: false
+filename: 22-dark-dragonite
+in-set-variant-of: 'team-rocket: 5-dark-dragonite as non-holo'
+pokemon: Dragonite
+classes:
+- Dark
+mechanics:
+- name: Summon Minions
+  type: pokemon-power
+  text: >-
+    When you play Dark Dragonite from your hand, search your deck
+    for up to 2 Basic Pokémon and put them onto your Bench. Shuffle
+    your deck afterward.
+- name: Giant Tail
+  cost: CCCC
+  damage: '70'
+  type: attack
+  text: >-
+    Flip a coin. If tails, this attack does nothing.
+resistance: F
+retreat: 2
+dex number: 149
+species: Dragon
+weight: 463
+height: 7'3
+dex entry: >-
+  Sometimes called "The God of Drestruction." Its wings are able
+  to support it in spite of its massive weight.
+illustrator: Mitsuhiro Arita
+---
+set: team-rocket
+number: '23'
+name: Dark Dugtrio
+rarity: rare
+holographic: false
+class: P
+types:
+- Fighting
+hp: 50
+stage: Stage 1
+evolves from: Diglett
+legal: false
+filename: 23-dark-dugtrio
+in-set-variant-of: 'team-rocket: 6-dark-dugtrio as non-holo'
+pokemon: Dugtrio
+classes:
+- Dark
+mechanics:
+- name: Sinkhole
+  type: pokemon-power
+  text: >-
+    Whenever your opponent's Active Pokémon retreats, your opponent
+    flips a coin. If tails, this power does 20 damage to that
+    Pokémon. (Don't apply Weakness and Resistance.) This power
+    stops working while Dark Dugtrio is Asleep, Confused, or Paralyzed.
+- name: Knock Down
+  cost: FF
+  damage: 20+
+  type: attack
+  text: >-
+    Your opponent flips a coin. If tails, this attack does 20
+    damage plus 20 more damage; if heads, this attack does 20
+    damage.
+weakness:
+  amount: 2
+  operation: ×
+  type: G
+resistance: L
+retreat: 2
+dex number: 51
+species: Mole
+weight: 73
+height: 2'4
+dex entry: >-
+  Digs large sinkholes in the ground and tries to trap its enemies
+  in them.
+illustrator: Kagemaru Himeno
+---
+set: team-rocket
+number: '24'
+name: Dark Golbat
+rarity: rare
+holographic: false
+class: P
+types:
+- Grass
+hp: 50
+stage: Stage 1
+evolves from: Zubat
+legal: false
+filename: 24-dark-golbat
+in-set-variant-of: 'team-rocket: 7-dark-golbat as non-holo'
+pokemon: Golbat
+classes:
+- Dark
+mechanics:
+- name: Sneak Attack
+  type: pokemon-power
+  text: >-
+    When you play Dark Golbat from your hand, you may choose 1
+    of your opponent's Pokémon. If you do, Dark Golbat does 10
+    damage to that Pokémon. Apply Weakness and Resistance.
+- name: Flitter
+  cost: GG
+  type: attack
+  text: >-
+    Choose 1 of your opponent's Pokémon. This attack does 20 damage
+    to that Pokémon. Don't apply Weakness and Resistance for this
+    attack. (Any other effects that would happen after applying
+    Weakness and Resistance still happen.)
+weakness:
+  amount: 2
+  operation: ×
+  type: P
+resistance: F
+dex number: 42
+species: Bat Pokémon
+weight: 121
+height: 5'3
+dex entry: >-
+  Sneaks up silently on its prey and attacks it from behind, sometimes
+  killing it in one bite.
+illustrator: Mitsuhiro Arita
+---
+set: team-rocket
+number: '25'
+name: Dark Gyarados
+rarity: rare
+holographic: false
+class: P
+types:
+- Water
+hp: 70
+stage: Stage 1
+evolves from: Magikarp
+legal: false
+filename: 25-dark-gyarados
+in-set-variant-of: 'team-rocket: 8-dark-gyarados as non-holo'
+pokemon: Gyarados
+classes:
+- Dark
+mechanics:
+- name: Final Beam
+  type: pokemon-power
+  text: >-
+    When Dark Gyarados is Knocked Out by an attack, flip a coin.
+    If heads, this power does 20 damage for each W Energy attached
+    to Dark Gyarados to the Pokémon that Knocked Out Dark Gyarados.
+    Apply Weakness and Resistance. This power doesn't work if
+    Dark Gyarados is Asleep, Confused, or Paralyzed.
+- name: Ice Beam
+  cost: WWW
+  damage: '30'
+  type: attack
+  text: >-
+    Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+weakness:
+  amount: 2
+  operation: ×
+  type: G
+resistance: F
+retreat: 2
+dex number: 130
+species: Atrocious
+weight: 518
+height: 21'4
+dex entry: >-
+  Normally only found in the deep ocean, it has recently been
+  seen in shallow waters as well.
+illustrator: Kagemaru Himeno
+---
+set: team-rocket
+number: '26'
+name: Dark Hypno
+rarity: rare
+holographic: false
+class: P
+types:
+- Psychic
+hp: 60
+stage: Stage 1
+evolves from: Drowzee
+legal: false
+filename: 26-dark-hypno
+in-set-variant-of: 'team-rocket: 9-dark-hypno as non-holo'
+pokemon: Hypno
+classes:
+- Dark
+mechanics:
+- name: Psypunch
+  cost: P
+  damage: '20'
+  type: attack
+- name: Bench Manipulation
+  cost: PPC
+  damage: 20×
+  type: attack
+  text: >-
+    Your opponent flips a number of coins equal to the number
+    of Pokémon on his or her Bench. This attack does 20 damage
+    times the number of tails. Don't apply Weakness and Resistance
+    for this attack. (Any other effects that would happen after
+    applying Weakness and Resistance still happen.)
+weakness:
+  amount: 2
+  operation: ×
+  type: P
+retreat: 2
+dex number: 97
+species: Hypnosis
+weight: 167
+height: 5'3
+dex entry: >-
+  Carries a pendulum with it always. Sometimes appears near less-travelled
+  roads and schools at dusk.
+illustrator: Kagemaru Himeno
+---
+set: team-rocket
+number: '27'
+name: Dark Machamp
+rarity: rare
+holographic: false
+class: P
+types:
+- Fighting
+hp: 70
+stage: Stage 2
+evolves from: Dark Machoke
+legal: false
+filename: 27-dark-machamp
+in-set-variant-of: 'team-rocket: 10-dark-machamp as non-holo'
+pokemon: Machamp
+classes:
+- Dark
+mechanics:
+- name: Mega Punch
+  cost: FF
+  damage: '30'
+  type: attack
+- name: Fling
+  cost: FFFC
+  type: attack
+  text: >-
+    Your opponent shuffles his or her Active Pokémon and all cards
+    attached to it into his or her deck. This attack can't be
+    used if your opponent has no Benched Pokémon.
+weakness:
+  amount: 2
+  operation: ×
+  type: P
+retreat: 3
+dex number: 68
+species: Superpower
+weight: 287
+height: 5'3
+dex entry: >-
+  It is almost impossible to defend against a Machamp's four powerful
+  arms.
+illustrator: Mitsuhiro Arita
+---
+set: team-rocket
+number: '28'
+name: Dark Magneton
+rarity: rare
+holographic: false
+class: P
+types:
+- Lightning
+hp: 60
+stage: Stage 1
+evolves from: Magnemite
+legal: false
+filename: 28-dark-magneton
+in-set-variant-of: 'team-rocket: 11-dark-magneton as non-holo'
+pokemon: Magneton
+classes:
+- Dark
+mechanics:
+- name: Sonicboom
+  cost: CC
+  damage: '20'
+  type: attack
+  text: >-
+    Don't apply Weakness and Resistance for this attack. (Any
+    other effects that would happen after applying Weakness and
+    Resistance still happen.)
+- name: Magnetic Lines
+  cost: LL
+  damage: '30'
+  type: attack
+  text: >-
+    If the Defending Pokémon has any basic Energy cards attached
+    to it, choose 1 of them. If your opponent has any Benched
+    Pokémon, choose 1 of them and attach that Energy card to it.
+weakness:
+  amount: 2
+  operation: ×
+  type: F
+retreat: 2
+dex number: 82
+species: Magnet
+weight: 132
+height: 3'3
+dex entry: >-
+  The number of incidents of hackers using Magnetons to damage
+  computer systems is steadily increasing.
+illustrator: Miki Tanaka
+---
+set: team-rocket
+number: '29'
+name: Dark Slowbro
+rarity: rare
+holographic: false
+class: P
+types:
+- Psychic
+hp: 60
+stage: Stage 1
+evolves from: Slowpoke
+legal: false
+filename: 29-dark-slowbro
+in-set-variant-of: 'team-rocket: 12-dark-slowbro as non-holo'
+pokemon: Slowbro
+classes:
+- Dark
+mechanics:
+- name: Reel In
+  type: pokemon-power
+  text: >-
+    When you play Dark Slowbro from your hand, choose up to 3
+    Basic Pokémon and/or Evolution cards from your discard pile
+    and put them into your hand.
+- name: Fickle Attack
+  cost: PP
+  damage: '40'
+  type: attack
+  text: >-
+    Flip a coin. If tails, this attack does nothing.
+weakness:
+  amount: 2
+  operation: ×
+  type: P
+retreat: 2
+dex number: 80
+species: Hermitcrab
+weight: 173
+height: 5'3
+dex entry: >-
+  It loves nothing better than to be left alone, and so sometimes
+  manipulated by unscrupulous people.
+illustrator: Mitsuhiro Arita
+---
+set: team-rocket
+number: '30'
+name: Dark Vileplume
+rarity: rare
+holographic: false
+class: P
+types:
+- Grass
+hp: 60
+stage: Stage 2
+evolves from: Dark Gloom
+legal: false
+filename: 30-dark-vileplume
+in-set-variant-of: 'team-rocket: 13-dark-vileplume as non-holo'
+pokemon: Vileplume
+classes:
+- Dark
+mechanics:
+- name: Hay Fever
+  type: pokemon-power
+  text: >-
+    No Trainer cards can be played. This power stops working while
+    Dark Vileplume is Asleep, Confused, or Paralyzed.
+- name: Petal Whirlwind
+  cost: GGG
+  damage: 30×
+  type: attack
+  text: >-
+    Flip 3 coins. This attack does 30 damage times the number
+    of heads. If you get 2 or more heads, Dark Vileplume is now
+    Confused (after dealing damage).
+weakness:
+  amount: 2
+  operation: ×
+  type: R
+retreat: 2
+dex number: 45
+species: Flower
+weight: 41
+height: 3'11
+dex entry: >-
+  Perhaps because of their strong-smelling pollen, other Pokémon
+  do not approach areas where Vileplumes live.
+illustrator: Kagemaru Himeno
+---
+set: team-rocket
+number: '31'
+name: Dark Weezing
+rarity: rare
+holographic: false
+class: P
+types:
+- Grass
+hp: 60
+stage: Stage 1
+evolves from: Koffing
+legal: false
+filename: 31-dark-weezing
+in-set-variant-of: 'team-rocket: 14-dark-weezing as non-holo'
+pokemon: Weezing
+classes:
+- Dark
+mechanics:
+- name: Mass Explosion
+  cost: GC
+  damage: 20×
+  type: attack
+  text: >-
+    Does 20 damage times the total number of Koffings, Weezings,
+    and Dark Weezings in play (Apply Weakness and Resistance.).
+    Then, this attack does 20 damage to each Koffing, Weezing,
+    and Dark Weezing even your own). Don't apply Weakness and
+    Resistance.
+- name: Stun Gas
+  cost: GGG
+  damage: '20'
+  type: attack
+  text: >-
+    Flip a coin. If heads, the Defending Pokémon is now Poisoned;
+    if tails, the Defending Pokémon is now Paralyzed.
+weakness:
+  amount: 2
+  operation: ×
+  type: P
+retreat: 1
+dex number: 110
+species: Poison Gas
+weight: 21
+height: 3'11
+dex entry: >-
+  Researchers have observed these Pokémon reproducing in industrial
+  waste sites.
+illustrator: Shin-ichi Yoshida
+---
+set: team-rocket
+number: '32'
+name: Dark Charmeleon
+rarity: uncommon
+holographic: false
+class: P
+types:
+- Fire
+hp: 50
+stage: Stage 1
+evolves from: Charmander
+legal: false
+filename: 32-dark-charmeleon
+pokemon: Charmeleon
+classes:
+- Dark
+mechanics:
+- name: Tail Slap
+  cost: CC
+  damage: '20'
+  type: attack
+- name: Fireball
+  cost: RRR
+  damage: '70'
+  type: attack
+  text: >-
+    Use this attack only if there are any R Energy cards attached
+    to Dark Charmeleon. Flip a coin. If heads, discard 1 of those
+    Energy cards. If tails, this attack does nothing (not even
+    damage).
+weakness:
+  amount: 2
+  operation: ×
+  type: W
+retreat: 2
+dex number: 5
+species: Flame
+weight: 42
+height: 3'7
+dex entry: >-
+  Its tail is incredibly strong, able to lift up to 5 adult men.
+illustrator: Kagemaru Himeno
+---
+set: team-rocket
+number: '33'
+name: Dark Dragonair
+rarity: uncommon
+holographic: false
+class: P
+types:
+- Colorless
+hp: 60
+stage: Stage 1
+evolves from: Dratini
+legal: false
+filename: 33-dark-dragonair
+pokemon: Dragonair
+classes:
+- Dark
+mechanics:
+- name: Evolutionary Light
+  type: pokemon-power
+  text: >-
+    Once during your turn (before your attack), you may search
+    your deck for an Evolution card. Show it to your opponent
+    and put it into your hand. Shuffle your deck afterward. This
+    power can't be used if Dark Dragonair is Asleep, Confused,
+    or Paralyzed.
+- name: Tail Strike
+  cost: CCC
+  damage: 20+
+  type: attack
+  text: >-
+    Flip a coin. If heads, this attack does 20 damage plus 20
+    more damage; if tails, this attack does 20 damage.
+resistance: P
+retreat: 2
+dex number: 148
+species: Dragon
+weight: 36
+height: 13'1
+dex entry: >-
+  As fitting for a legendary Pokémon, it has many strange powers,
+  including the ability to make rain or snow fall.
+illustrator: Kagemaru Himeno
+---
+set: team-rocket
+number: '34'
+name: Dark Electrode
+rarity: uncommon
+holographic: false
+class: P
+types:
+- Lightning
+hp: 60
+stage: Stage 1
+evolves from: Voltorb
+legal: false
+filename: 34-dark-electrode
+pokemon: Electrode
+classes:
+- Dark
+mechanics:
+- name: Rolling Tackle
+  cost: C
+  damage: '10'
+  type: attack
+- name: Energy Bomb
+  cost: LL
+  damage: '30'
+  type: attack
+  text: >-
+    Take all Energy cards attached to Dark Electrode and attach
+    them to your Benched Pokémon (in any way you choose). If you
+    have no Benched Pokémon, discard all Energy cards attached
+    to Dark Electrode.
+weakness:
+  amount: 2
+  operation: ×
+  type: F
+retreat: 1
+dex number: 101
+species: Ball
+weight: 147
+height: 3'11
+dex entry: >-
+  Some researchers hypothesize that Electrode may actually be
+  a form of energy instead of having an actual body.
+illustrator: Ken Sugimori
+---
+set: team-rocket
+number: '35'
+name: Dark Flareon
+rarity: uncommon
+holographic: false
+class: P
+types:
+- Fire
+hp: 50
+stage: Stage 1
+evolves from: Eevee
+legal: false
+filename: 35-dark-flareon
+pokemon: Flareon
+classes:
+- Dark
+mechanics:
+- name: Rage
+  cost: C
+  damage: 10+
+  type: attack
+  text: >-
+    Does 10 damage plus 10 more damage for each damage counter
+    on Dark Flareon.
+- name: Playing with Fire
+  cost: RR
+  damage: 30+
+  type: attack
+  text: >-
+    Use this attack only if there are any R Energy cards attached
+    to Dark Flareon. Flip a coin. If heads, discard 1 of those
+    Energy cards and this attack does 30 damage plus 20 more damage.
+    If tails, this attack does 30 damage.
+weakness:
+  amount: 2
+  operation: ×
+  type: W
+retreat: 1
+dex number: 136
+species: Flame
+weight: 55
+height: 2'11
+dex entry: >-
+  A Pokémon with a hot temper that can't be controlled once angered.
+  Capable of breathing flames hotter than 3000o.
+illustrator: Mitsuhiro Arita
+---
+set: team-rocket
+number: '36'
+name: Dark Gloom
+rarity: uncommon
+holographic: false
+class: P
+types:
+- Grass
+hp: 50
+stage: Stage 1
+evolves from: Oddish
+legal: false
+filename: 36-dark-gloom
+pokemon: Gloom
+classes:
+- Dark
+mechanics:
+- name: Pollen Stench
+  type: pokemon-power
+  text: >-
+    Once during your turn (before your attack), you may flip a
+    coin. If heads, the Defending Pokémon is now Confused; if
+    tails, your Active Pokémon is now Confused. This power can't
+    be used if Dark Gloom is Asleep, Confused, or Paralyzed.
+- name: Poisonpowder
+  cost: GG
+  damage: '10'
+  type: attack
+  text: >-
+    The Defending Pokémon is now Poisoned.
+weakness:
+  amount: 2
+  operation: ×
+  type: F
+retreat: 2
+dex number: 44
+species: Weed
+weight: 19
+height: 2'7
+dex entry: >-
+  Its pollen has such a strong smell that it even confuses itself
+  at times.
+illustrator: Kagemaru Himeno
+---
+set: team-rocket
+number: '37'
+name: Dark Golduck
+rarity: uncommon
+holographic: false
+class: P
+types:
+- Water
+hp: 60
+stage: Stage 1
+evolves from: Psyduck
+legal: false
+filename: 37-dark-golduck
+pokemon: Golduck
+classes:
+- Dark
+mechanics:
+- name: Third Eye
+  cost: P
+  type: attack
+  text: >-
+    Discard 1 Energy card attached to Dark Golduck in order to
+    draw up to 3 cards.
+- name: Super Psy
+  cost: PPC
+  damage: '50'
+  type: attack
+weakness:
+  amount: 2
+  operation: ×
+  type: L
+retreat: 2
+dex number: 55
+species: Duck
+weight: 169
+height: 5'7
+dex entry: >-
+  When Psyducks evolve, their headaches disappear and they find
+  themselves in possession of formidable mental powers.
+illustrator: Mitsuhiro Arita
+---
+set: team-rocket
+number: '38'
+name: Dark Jolteon
+rarity: uncommon
+holographic: false
+class: P
+types:
+- Lightning
+hp: 50
+stage: Stage 1
+evolves from: Eevee
+legal: false
+filename: 38-dark-jolteon
+pokemon: Jolteon
+classes:
+- Dark
+mechanics:
+- name: Lightning Flash
+  cost: L
+  damage: '20'
+  type: attack
+  text: >-
+    If the Defending Pokémon tries to attack during your opponent's
+    next turn, your opponent flips a coin. If tails, that attack
+    does nothing.
+- name: Thunder Attack
+  cost: LLC
+  damage: '30'
+  type: attack
+  text: >-
+    Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+    If tails, Dark Jolteon does 10 damage to itself.
+weakness:
+  amount: 2
+  operation: ×
+  type: F
+retreat: 1
+dex number: 135
+species: Lightning
+weight: 54
+height: 2'7
+dex entry: >-
+  A dangerous Pokémon when angered. It likes to playfully shock
+  people with the electricity stored within its body.
+illustrator: Mitsuhiro Arita
+---
+set: team-rocket
+number: '39'
+name: Dark Kadabra
+rarity: uncommon
+holographic: false
+class: P
+types:
+- Psychic
+hp: 50
+stage: Stage 1
+evolves from: Abra
+legal: false
+filename: 39-dark-kadabra
+pokemon: Kadabra
+classes:
+- Dark
+mechanics:
+- name: Matter Exchange
+  type: pokemon-power
+  text: >-
+    Once during your turn (before your attack), you may discard
+    a card from your hand in order to draw a card. This power
+    can't be used if Dark Kadabra is Asleep, Confused, or Paralyzed.
+- name: Mind Shock
+  cost: PP
+  damage: '30'
+  type: attack
+  text: >-
+    Don't apply Weakness and Resistance for this attack. (Any
+    other effects that would happen after applying Weakness and
+    Resistance still happen.)
+weakness:
+  amount: 2
+  operation: ×
+  type: P
+retreat: 2
+dex number: 64
+species: Psi
+weight: 125
+height: 4'3
+dex entry: >-
+  Some people say that Kadabras are responsible for many of the
+  mysterious events reported in the news.
+illustrator: Kagemaru Himeno
+---
+set: team-rocket
+number: '40'
+name: Dark Machoke
+rarity: uncommon
+holographic: false
+class: P
+types:
+- Fighting
+hp: 60
+stage: Stage 1
+evolves from: Machop
+legal: false
+filename: 40-dark-machoke
+pokemon: Machoke
+classes:
+- Dark
+mechanics:
+- name: Drag Off
+  cost: FFC
+  damage: '20'
+  type: attack
+  text: >-
+    Before doing damage, choose 1 of your opponent's Benched Pokémon
+    and switch it with the Defending Pokémon. Do the damage to
+    the new Defending Pokémon. This attack can't be used if your
+    opponent has no Benched Pokémon.
+- name: Knock Back
+  cost: FFC
+  damage: '30'
+  type: attack
+  text: >-
+    If your opponent has any Benched Pokémon, he or she chooses
+    1 of them and switches it with the Defending Pokémon. (Do
+    the damage before switching the Pokémon.)
+weakness:
+  amount: 2
+  operation: ×
+  type: P
+retreat: 2
+dex number: 67
+species: Superpower
+weight: 155
+height: 4'11
+dex entry: >-
+  While normally peaceful and friendly, the number of incidents
+  involving cruel Machokes is rising.
+illustrator: Mitsuhiro Arita
+---
+set: team-rocket
+number: '41'
+name: Dark Muk
+rarity: uncommon
+holographic: false
+class: P
+types:
+- Grass
+hp: 60
+stage: Stage 1
+evolves from: Grimer
+legal: false
+filename: 41-dark-muk
+pokemon: Muk
+classes:
+- Dark
+mechanics:
+- name: Sticky Goo
+  type: pokemon-power
+  text: >-
+    As long as Dark Muk is your Active Pokémon, your opponent
+    pays 2 more to retreat his or her Active Pokémon. This power
+    stops working while Dark Muk is Asleep, Confused, or Paralyzed.
+- name: Sludge Punch
+  cost: GG
+  damage: '20'
+  type: attack
+  text: >-
+    The Defending Pokémon is now Poisoned.
+weakness:
+  amount: 2
+  operation: ×
+  type: P
+retreat: 2
+dex number: 89
+species: Sludge
+weight: 66
+height: 3'11
+dex entry: >-
+  Muk appears suddenly, spreading sludge everywhere. Whenever
+  one appears in a city, panic ensues.
+illustrator: Kagemaru Himeno
+---
+set: team-rocket
+number: '42'
+name: Dark Persian
+rarity: uncommon
+holographic: false
+class: P
+types:
+- Colorless
+hp: 60
+stage: Stage 1
+evolves from: Meowth
+legal: false
+filename: 42-dark-persian
+pokemon: Persian
+classes:
+- Dark
+mechanics:
+- name: Fascinate
+  cost: C
+  type: attack
+  text: >-
+    Flip a coin. If heads, choose 1 of your opponent's Benched
+    Pokémon and switch it with the Defending Pokémon. This attack
+    can't be used if your opponent has no Benched Pokémon.
+- name: Poison Claws
+  cost: CC
+  damage: '10'
+  type: attack
+  text: >-
+    Flip a coin. If heads, the Defending Pokémon is now Poisoned.
+weakness:
+  amount: 2
+  operation: ×
+  type: F
+resistance: P
+dex number: 53
+species: Classy Cat
+weight: 71
+height: 3'3
+dex entry: >-
+  Popular with women because of its beautiful fur. The leader
+  of the Rockets keeps on as a pet.
+illustrator: Shin-ichi Yoshida
+---
+set: team-rocket
+number: '43'
+name: Dark Primeape
+rarity: uncommon
+holographic: false
+class: P
+types:
+- Fighting
+hp: 60
+stage: Stage 1
+evolves from: Mankey
+legal: false
+filename: 43-dark-primeape
+pokemon: Primeape
+classes:
+- Dark
+mechanics:
+- name: Frenzy
+  type: pokemon-power
+  text: >-
+    If Dark Primeape does any damage while it's Confused (even
+    to itself), it does 30 more damage.
+- name: Frenzied Attack
+  cost: FF
+  damage: '40'
+  type: attack
+  text: >-
+    Dark Primeape is now Confused (after doing damage).
+weakness:
+  amount: 2
+  operation: ×
+  type: P
+retreat: 1
+dex number: 57
+species: Pig Monkey
+weight: 71
+height: 3'3
+dex entry: >-
+  Although Primeapes have always been mean, lately they seem to
+  be becoming even more vicious and frenzied.
+illustrator: Mitsuhiro Arita
+---
+set: team-rocket
+number: '44'
+name: Dark Rapidash
+rarity: uncommon
+holographic: false
+class: P
+types:
+- Fire
+hp: 60
+stage: Stage 1
+evolves from: Ponyta
+legal: false
+filename: 44-dark-rapidash
+pokemon: Rapidash
+classes:
+- Dark
+mechanics:
+- name: Rear Kick
+  cost: CC
+  damage: '20'
+  type: attack
+- name: Flame Pillar
+  cost: RR
+  damage: '30'
+  type: attack
+  text: >-
+    You may discard 1 R Energy card attached to Dark Rapidash
+    when you use this attack. If you do and if your opponent has
+    any Benched Pokémon, choose 1 of them and this attack does
+    10 damage to it. (Don't apply Weakness and Resistance for
+    Benched Pokémon.)
+weakness:
+  amount: 2
+  operation: ×
+  type: W
+dex number: 78
+species: Fire Horse
+weight: 209
+height: 5'7
+dex entry: >-
+  A wild, uncontrollable Pokémon. When running, it looks like
+  a comet streaking through the sky.
+illustrator: Kagemaru Himeno
+---
+set: team-rocket
+number: '45'
+name: Dark Vaporeon
+rarity: uncommon
+holographic: false
+class: P
+types:
+- Water
+hp: 60
+stage: Stage 1
+evolves from: Eevee
+legal: false
+filename: 45-dark-vaporeon
+pokemon: Vaporeon
+classes:
+- Dark
+mechanics:
+- name: Bite
+  cost: CCC
+  damage: '30'
+  type: attack
+- name: Whirlpool
+  cost: WWC
+  damage: '20'
+  type: attack
+  text: >-
+    If the Defending Pokémon has any Energy cards attached to
+    it, choose 1 of them and discard it.
+weakness:
+  amount: 2
+  operation: ×
+  type: L
+retreat: 1
+dex number: 134
+species: Bubble Jet
+weight: 64
+height: 3'3
+dex entry: >-
+  A Pokémon capable of controlling water, so it is able to create
+  giant whirlpools.
+illustrator: Mitsuhiro Arita
+---
+set: team-rocket
+number: '46'
+name: Dark Wartortle
+rarity: uncommon
+holographic: false
+class: P
+types:
+- Water
+hp: 60
+stage: Stage 1
+evolves from: Squirtle
+legal: false
+filename: 46-dark-wartortle
+pokemon: Wartortle
+classes:
+- Dark
+mechanics:
+- name: Doubleslap
+  cost: W
+  damage: 10×
+  type: attack
+  text: >-
+    Flip 2 coins. This attack does 10 damage times the number
+    of heads.
+- name: Mirror Shell
+  cost: WC
+  type: attack
+  text: >-
+    If an attack does damage to Dark Wartortle during your opponent's
+    next turn (even if Dark Wartortle is Knocked Out), Dark Wartortle
+    attacks the Defending Pokémon for an equal amount of damage.
+weakness:
+  amount: 2
+  operation: ×
+  type: L
+retreat: 1
+dex number: 8
+species: Turtle
+weight: 50
+height: 3'3
+dex entry: >-
+  A Pokémon with a negative attitude, it hides in its shell whenever
+  it is in a bad mood--which is often.
+illustrator: Kagemaru Himeno
+---
+set: team-rocket
+number: '47'
+name: Magikarp
+rarity: uncommon
+holographic: false
+class: P
+types:
+- Water
+hp: 30
+stage: Basic
+legal: false
+filename: 47-magikarp
+pokemon: Magikarp
+mechanics:
+- name: Flop
+  cost: C
+  damage: '10'
+  type: attack
+- name: Rapid Evolution
+  cost: WWW
+  type: attack
+  text: >-
+    Search your deck for an Evolution card named Gyarados or Dark
+    Gyarados and put it on Magikarp. (This counts as evolving
+    Magikarp.) Shuffle your deck afterward.
+weakness:
+  amount: 2
+  operation: ×
+  type: L
+retreat: 1
+dex number: 129
+species: Fish
+weight: 22
+height: 2'11
+dex entry: >-
+  Recent research has revealed the presence of dragon DNA in this
+  species of Pokémon.
+illustrator: Kagemaru Himeno
+---
+set: team-rocket
+number: '48'
+name: Porygon
+rarity: uncommon
+holographic: false
+class: P
+types:
+- Colorless
+hp: 40
+stage: Basic
+legal: false
+filename: 48-porygon
+pokemon: Porygon
+mechanics:
+- name: Conversion 1
+  cost: C
+  type: attack
+  text: >-
+    If Defending Pokémon has a Weakness, you may change it to
+    a type of your choice other than Colorless.
+- name: Psybeam
+  cost: CCC
+  damage: '20'
+  type: attack
+  text: >-
+    Flip a coin. If heads, the Defending Pokémon is now Confused.
+weakness:
+  amount: 2
+  operation: ×
+  type: F
+resistance: P
+retreat: 3
+dex number: 137
+species: Virtual
+weight: 80
+height: 2'7
+dex entry: >-
+  More and more people play the slots every day, trying to win
+  a Porygon.
+illustrator: Keiji Kinebuchi
+---
+set: team-rocket
+number: '49'
+name: Abra
+rarity: common
+holographic: false
+class: P
+types:
+- Psychic
+hp: 40
+stage: Basic
+legal: false
+filename: 49-abra
+pokemon: Abra
+mechanics:
+- name: Vanish
+  cost: P
+  type: attack
+  text: >-
+    Shuffle Abra into your deck. (Discard all cards attached to
+    Abra.)
+- name: Psyshock
+  cost: P
+  damage: '10'
+  type: attack
+  text: >-
+    Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+weakness:
+  amount: 2
+  operation: ×
+  type: P
+retreat: 1
+dex number: 63
+species: Psi
+weight: 43
+height: 2'11
+dex entry: >-
+  It teleports itself away from danger, making it difficult to
+  capture.
+illustrator: Sumiyoshi Kizuki
+---
+set: team-rocket
+number: '50'
+name: Charmander
+rarity: common
+holographic: false
+class: P
+types:
+- Fire
+hp: 40
+stage: Basic
+legal: false
+filename: 50-charmander
+pokemon: Charmander
+mechanics:
+- name: Gather Fire
+  type: pokemon-power
+  text: >-
+    Once during your turn (before your attack), you may take 1
+    R Energy card attached to 1 of your other Pokémon and attach
+    it to Charmander. This power can't be used if Charmander is
+    Asleep, Confused, or Paralyzed.
+- name: Fire Tail
+  cost: R
+  damage: '20'
+  type: attack
+weakness:
+  amount: 2
+  operation: ×
+  type: W
+retreat: 1
+dex number: 4
+species: Lizard
+weight: 19
+height: 2'0
+dex entry: >-
+  Many people find it cute and try to hold it, only to be burned
+  by its tail.
+illustrator: Kagemaru Himeno
+---
+set: team-rocket
+number: '51'
+name: Dark Raticate
+rarity: common
+holographic: false
+class: P
+types:
+- Colorless
+hp: 50
+stage: Stage 1
+evolves from: Rattata
+legal: false
+filename: 51-dark-raticate
+pokemon: Raticate
+classes:
+- Dark
+mechanics:
+- name: Gnaw
+  cost: CC
+  damage: '20'
+  type: attack
+- name: Hyper Fang
+  cost: CCC
+  damage: '50'
+  type: attack
+  text: >-
+    Flip a coin. if tails, this attack does nothing.
+weakness:
+  amount: 2
+  operation: ×
+  type: F
+resistance: P
+retreat: 1
+dex number: 20
+species: Rat
+weight: 41
+height: 2'4
+dex entry: >-
+  A Raticate's front teeth are incredibly powerful; it can destroy
+  a two-story house with them in 5 minutes.
+illustrator: Shin-ichi Yoshida
+---
+set: team-rocket
+number: '52'
+name: Diglett
+rarity: common
+holographic: false
+class: P
+types:
+- Fighting
+hp: 40
+stage: Basic
+legal: false
+filename: 52-diglett
+pokemon: Diglett
+mechanics:
+- name: Dig Under
+  cost: F
+  type: attack
+  text: >-
+    Choose 1 of your opponent's Pokémon. This attack does 10 damage
+    to that Pokémon. Don't apply Weakness and Resistance for this
+    attack. (Any other effects that would happen after Applying
+    Weakness and Resistance still happen.)
+- name: Scratch
+  cost: FC
+  damage: '20'
+  type: attack
+weakness:
+  amount: 2
+  operation: ×
+  type: G
+resistance: L
+dex number: 50
+species: Mole
+weight: 2
+height: 0'8
+dex entry: >-
+  It follows Onixes in their tunnels, looking for scraps of food
+  they have left behind.
+illustrator: Sumiyoshi Kizuki
+---
+set: team-rocket
+number: '53'
+name: Dratini
+rarity: common
+holographic: false
+class: P
+types:
+- Colorless
+hp: 40
+stage: Basic
+legal: false
+filename: 53-dratini
+pokemon: Dratini
+mechanics:
+- name: Wrap
+  cost: CC
+  damage: '10'
+  type: attack
+  text: >-
+    Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+resistance: P
+retreat: 1
+dex number: 147
+species: Dragon
+weight: 7
+height: 5'11
+dex entry: >-
+  The capture of the first Dratini inspired the search for other
+  legendary Pokémon.
+illustrator: Kagemaru Himeno
+---
+set: team-rocket
+number: '54'
+name: Drowzee
+rarity: common
+holographic: false
+class: P
+types:
+- Psychic
+hp: 50
+stage: Basic
+legal: false
+filename: 54-drowzee
+pokemon: Drowzee
+mechanics:
+- name: Long-Distance Hypnosis
+  type: pokemon-power
+  text: >-
+    Once during your turn (before your attack), you may flip a
+    coin. If heads, the Defending Pokémon is now Asleep; if tails,
+    your Active Pokémon is now Asleep. The power can't be used
+    if Drowzee is Asleep, Confused, or Paralyzed.
+- name: Nightmare
+  cost: PC
+  damage: '10'
+  type: attack
+  text: >-
+    The Defending Pokémon is now Asleep.
+weakness:
+  amount: 2
+  operation: ×
+  type: P
+retreat: 1
+dex number: 96
+species: Hypnosis
+weight: 71
+height: 3'3
+dex entry: >-
+  Not popular with the girls due to its attitude. Can often be
+  heard muttering to itself in a low voice.
+illustrator: Kagemaru Himeno
+---
+set: team-rocket
+number: '55'
+name: Eevee
+rarity: common
+holographic: false
+class: P
+types:
+- Colorless
+hp: 40
+stage: Basic
+legal: false
+filename: 55-eevee
+pokemon: Eevee
+mechanics:
+- name: Tackle
+  cost: C
+  damage: '10'
+  type: attack
+- name: Sand-attack
+  cost: CC
+  damage: '10'
+  type: attack
+  text: >-
+    If the Defending Pokémon tries to attack during your opponent's
+    next turn, your opponent flips a coin. If tails, that attack
+    does nothing.
+weakness:
+  amount: 2
+  operation: ×
+  type: F
+resistance: P
+retreat: 1
+dex number: 133
+species: Evolution
+weight: 14
+height: 1'0
+dex entry: >-
+  A rare and unique Pokémon about which little is known, as few
+  have been captured.
+illustrator: Atsuko Nishida
+---
+set: team-rocket
+number: '56'
+name: Ekans
+rarity: common
+holographic: false
+class: P
+types:
+- Grass
+hp: 50
+stage: Basic
+legal: false
+filename: 56-ekans
+pokemon: Ekans
+mechanics:
+- name: Bite
+  cost: C
+  damage: '10'
+  type: attack
+- name: Poison Sting
+  cost: GG
+  damage: '20'
+  type: attack
+  text: >-
+    Flip a coin. If heads, the Defending Pokémon is now Poisoned.
+weakness:
+  amount: 2
+  operation: ×
+  type: P
+retreat: 1
+dex number: 23
+species: Snake
+weight: 15
+height: 6'7
+dex entry: >-
+  A canivore that swallows its prey whole. Pidgeys and Spearows
+  are its favourite food.
+illustrator: Ken Sugimori
+---
+set: team-rocket
+number: '57'
+name: Grimer
+rarity: common
+holographic: false
+class: P
+types:
+- Grass
+hp: 40
+stage: Basic
+legal: false
+filename: 57-grimer
+pokemon: Grimer
+mechanics:
+- name: Poison Gas
+  cost: G
+  type: attack
+  text: >-
+    The Defending Pokémon is now Asleep.
+- name: Sticky Hands
+  cost: GG
+  damage: 10+
+  type: attack
+  text: >-
+    Flip a coin. If heads, this attack does 10 damage plus 20
+    more damage and the Defending Pokémon is now Paralyzed; if
+    tails, this attack does 10 damage.
+weakness:
+  amount: 2
+  operation: ×
+  type: P
+retreat: 1
+dex number: 88
+species: Sludge
+weight: 66
+height: 2'11
+dex entry: >-
+  It has recently been found that Grimers are formed in waste-processing
+  plants, and can move into town via the sewers.
+illustrator: Kagemaru Himeno
+---
+set: team-rocket
+number: '58'
+name: Koffing
+rarity: common
+holographic: false
+class: P
+types:
+- Grass
+hp: 40
+stage: Basic
+legal: false
+filename: 58-koffing
+pokemon: Koffing
+mechanics:
+- name: Tackle
+  cost: C
+  damage: '10'
+  type: attack
+- name: Poison Gas
+  cost: GC
+  damage: '20'
+  type: attack
+  text: >-
+    Flip a coin. If heads, the Defending Pokémon is now Poisoned.
+weakness:
+  amount: 2
+  operation: ×
+  type: P
+retreat: 1
+dex number: 109
+species: Poison Gas
+weight: 2
+height: 2'0
+dex entry: >-
+  First discovered in a weapons factory, it can now be found almost
+  anywhere.
+illustrator: Sumiyoshi Kizuki
+---
+set: team-rocket
+number: '59'
+name: Machop
+rarity: common
+holographic: false
+class: P
+types:
+- Fighting
+hp: 50
+stage: Basic
+legal: false
+filename: 59-machop
+pokemon: Machop
+mechanics:
+- name: Punch
+  cost: CC
+  damage: '20'
+  type: attack
+- name: Kick
+  cost: FCC
+  damage: '30'
+  type: attack
+weakness:
+  amount: 2
+  operation: ×
+  type: P
+retreat: 1
+dex number: 66
+species: Superpower
+weight: 43
+height: 2'7
+dex entry: >-
+  It is said that not even pro wrestlers can taken down a Machop.
+illustrator: Ken Sugimori
+---
+set: team-rocket
+number: '60'
+name: Magnemite
+rarity: common
+holographic: false
+class: P
+types:
+- Lightning
+hp: 40
+stage: Basic
+legal: false
+filename: 60-magnemite
+pokemon: Magnemite
+mechanics:
+- name: Tackle
+  cost: CC
+  damage: '20'
+  type: attack
+- name: Magnetism
+  cost: LC
+  damage: 10+
+  type: attack
+  text: >-
+    Does 10 damage plus 10 more damage for each Magnemite, Magneton,
+    and Dark Magneton on your Bench.
+weakness:
+  amount: 2
+  operation: ×
+  type: F
+retreat: 1
+dex number: 81
+species: Magnet
+weight: 13
+height: 1'0
+dex entry: >-
+  It is said that if enough Magnemites and Magnetons gather in
+  one place, they can create a powerful magnetic barrier.
+illustrator: Miki Tanaka
+---
+set: team-rocket
+number: '61'
+name: Mankey
+rarity: common
+holographic: false
+class: P
+types:
+- Fighting
+hp: 40
+stage: Basic
+legal: false
+filename: 61-mankey
+pokemon: Mankey
+mechanics:
+- name: Mischief
+  cost: C
+  type: attack
+  text: >-
+    Shuffle your opponent's deck.
+- name: Anger
+  cost: FC
+  damage: 20+
+  type: attack
+  text: >-
+    Flip a coin. If heads, this attack does 20 damage plus 20
+    more damage; if tails, this attack does 20 damage.
+weakness:
+  amount: 2
+  operation: ×
+  type: P
+dex number: 56
+species: Pig Monkey
+weight: 62
+height: 1'8
+dex entry: >-
+  Normally friendly, it quickly becomes angry if it doesn't get
+  what it wants.
+illustrator: Sumiyoshi Kizuki
+---
+set: team-rocket
+number: '62'
+name: Meowth
+rarity: common
+holographic: false
+class: P
+types:
+- Colorless
+hp: 40
+stage: Basic
+legal: false
+filename: 62-meowth
+pokemon: Meowth
+mechanics:
+- name: Coin Hurl
+  cost: CC
+  type: attack
+  text: >-
+    Choose 1 of your opponent's Pokémon and flip a coin. If heads,
+    this attack does 20 damage to that Pokémon. Don't apply Weakness
+    and Resistance for this attack. (Any other effects that would
+    happen after applying Weakness and Resistance still happen.)
+weakness:
+  amount: 2
+  operation: ×
+  type: F
+resistance: P
+retreat: 1
+dex number: 52
+species: Scratch Cat
+weight: 9
+height: 1'4
+dex entry: >-
+  A popular Pokémon that earns money for its owner using its "Pay
+  Day" ability.
+illustrator: Atsuko Nishida
+---
+set: team-rocket
+number: '63'
+name: Oddish
+rarity: common
+holographic: false
+class: P
+types:
+- Grass
+hp: 50
+stage: Basic
+legal: false
+filename: 63-oddish
+pokemon: Oddish
+mechanics:
+- name: Sleep Powder
+  cost: G
+  type: attack
+  text: >-
+    The Defending Pokémon is now Asleep.
+- name: Poisonpowder
+  cost: G
+  type: attack
+  text: >-
+    The Defending Pokémon is now Poisoned.
+weakness:
+  amount: 2
+  operation: ×
+  type: R
+retreat: 1
+dex number: 43
+species: Weed
+weight: 12
+height: 1'8
+dex entry: >-
+  It wanders around at night sowing its seeds to create more Oddishes.
+illustrator: Kagemaru Himeno
+---
+set: team-rocket
+number: '64'
+name: Ponyta
+rarity: common
+holographic: false
+class: P
+types:
+- Fire
+hp: 50
+stage: Basic
+legal: false
+filename: 64-ponyta
+pokemon: Ponyta
+mechanics:
+- name: Ember
+  cost: RC
+  damage: '30'
+  type: attack
+  text: >-
+    Discard 1 R Energy card attached to Ponyta in order to use
+    this attack.
+weakness:
+  amount: 2
+  operation: ×
+  type: W
+retreat: 1
+dex number: 77
+species: Fire Horse
+weight: 66
+height: 3'3
+dex entry: >-
+  A gentle grass-eater, it will allow riders on its back. However,
+  anyone attempting to do so must be careful not to get burned.
+illustrator: Atsuko Nishida
+---
+set: team-rocket
+number: '65'
+name: Psyduck
+rarity: common
+holographic: false
+class: P
+types:
+- Water
+hp: 50
+stage: Basic
+legal: false
+filename: 65-psyduck
+pokemon: Psyduck
+mechanics:
+- name: Dizziness
+  cost: P
+  type: attack
+  text: >-
+    Draw a card.
+- name: Water Gun
+  cost: WC
+  damage: 20+
+  type: attack
+  text: >-
+    Does 20 damage plus 10 more damage for each W Energy attached
+    to Psyduck but not used to pay for this attack. You can't
+    add more than 20 damage in this way.
+weakness:
+  amount: 2
+  operation: ×
+  type: L
+retreat: 1
+dex number: 54
+species: Duck
+weight: 43
+height: 2'7
+dex entry: >-
+  It is often seen holding its head in its paws, as if it were
+  suffering from a headache.
+illustrator: Mitsuhiro Arita
+---
+set: team-rocket
+number: '66'
+name: Rattata
+rarity: common
+holographic: false
+class: P
+types:
+- Colorless
+hp: 40
+stage: Basic
+legal: false
+filename: 66-rattata
+pokemon: Rattata
+mechanics:
+- name: Trickery
+  type: pokemon-power
+  text: >-
+    Once during your turn (before your attack), you may switch
+    1 of your Prizes with the top card of your deck. This power
+    can't be used if Rattata is Asleep, Confused, or Paralyzed.
+- name: Quick Attack
+  cost: C
+  damage: 10+
+  type: attack
+  text: >-
+    Flip a coin. If heads, this attack does 10 damage plus 10
+    more damage; if tails, this attack does 10 damage.
+weakness:
+  amount: 2
+  operation: ×
+  type: F
+resistance: P
+dex number: 19
+species: Rat
+weight: 8
+height: 1'0
+dex entry: >-
+  Loves to eat walnuts, chestnuts, cheese and milk.
+illustrator: Atsuko Nishida
+---
+set: team-rocket
+number: '67'
+name: Slowpoke
+rarity: common
+holographic: false
+class: P
+types:
+- Psychic
+hp: 50
+stage: Basic
+legal: false
+filename: 67-slowpoke
+pokemon: Slowpoke
+mechanics:
+- name: Afternoon Nap
+  cost: C
+  type: attack
+  text: >-
+    Search your deck for a P Energy card and attach it to Slowpoke.
+    Shuffle your deck afterward.
+- name: Headbutt
+  cost: P
+  damage: '10'
+  type: attack
+weakness:
+  amount: 2
+  operation: ×
+  type: P
+retreat: 1
+dex number: 79
+species: Dopey
+weight: 79
+height: 3'11
+dex entry: >-
+  Although it knows how to fish, no other intelligence behaviour
+  have been detected in it.
+illustrator: Sumiyoshi Kizuki
+---
+set: team-rocket
+number: '68'
+name: Squirtle
+rarity: common
+holographic: false
+class: P
+types:
+- Water
+hp: 50
+stage: Basic
+legal: false
+filename: 68-squirtle
+pokemon: Squirtle
+mechanics:
+- name: Shell Attack
+  cost: CC
+  damage: '20'
+  type: attack
+weakness:
+  amount: 2
+  operation: ×
+  type: L
+retreat: 1
+dex number: 7
+species: Tiny Turtle
+weight: 20
+height: 1'8
+dex entry: >-
+  Cute Pokémon that charms people with its innocent eyes. Loves
+  swimming all day long.
+illustrator: Atsuko Nishida
+---
+set: team-rocket
+number: '69'
+name: Voltorb
+rarity: common
+holographic: false
+class: P
+types:
+- Lightning
+hp: 40
+stage: Basic
+legal: false
+filename: 69-voltorb
+pokemon: Voltorb
+mechanics:
+- name: Speed Ball
+  cost: L
+  damage: '20'
+  type: attack
+weakness:
+  amount: 2
+  operation: ×
+  type: F
+retreat: 1
+dex number: 100
+species: Ball
+weight: 23
+height: 1'8
+dex entry: >-
+  Usually only seen in power plants, it is sometimes seen in towns,
+  apparently using the power lines to travel.
+illustrator: Ken Sugimori
+---
+set: team-rocket
+number: '70'
+name: Zubat
+rarity: common
+holographic: false
+class: P
+types:
+- Grass
+hp: 40
+stage: Basic
+legal: false
+filename: 70-zubat
+pokemon: Zubat
+mechanics:
+- name: Ram
+  cost: C
+  damage: '10'
+  type: attack
+- name: Bite
+  cost: GC
+  damage: '20'
+  type: attack
+weakness:
+  amount: 2
+  operation: ×
+  type: P
+resistance: F
+dex number: 41
+species: Bat Pokémon
+weight: 17
+height: 2'7
+dex entry: >-
+  Lives in dark caves. Can occasionally be seen at night, when
+  it flies in search of food.
+illustrator: Mitsuhiro Arita
+---
+set: team-rocket
+number: '71'
+name: Here Comes Team Rocket!
+rarity: rare
+holographic: false
+class: T
+legal: false
+filename: 71-here-comes-team-rocket
+in-set-variant-of: 'team-rocket: 15-here-comes-team-rocket as
+  non-holo'
+mechanics:
+- type: effect
+  text: >-
+    Each player plays with his or her Prize cards face up for
+    the rest of the game.
+illustrator: Ken Sugimori
+---
+set: team-rocket
+number: '72'
+name: Rocket's Sneak Attack
+rarity: rare
+holographic: false
+class: T
+legal: false
+filename: 72-rocket's-sneak-attack
+in-set-variant-of: 'team-rocket: 16-rocket''s-sneak-attack as
+  non-holo'
+mechanics:
+- type: effect
+  text: >-
+    Look at your opponent's hand. If he or she has any Trainer
+    cards, choose 1 of them. Your opponent shuffles that card
+    into his or her deck.
+illustrator: Ken Sugimori
+---
+set: team-rocket
+number: '73'
+name: The Boss's Way
+rarity: uncommon
+holographic: false
+class: T
+legal: false
+filename: 73-the-boss's-way
+mechanics:
+- type: effect
+  text: >-
+    Search your deck for an Evolution card with Dark in its name.
+    Show it to your opponent and put it into your hand. Shuffle
+    your deck afterward.
+illustrator: Ken Sugimori
+---
+set: team-rocket
+number: '74'
+name: Challenge!
+rarity: uncommon
+holographic: false
+class: T
+legal: false
+filename: 74-challenge
+mechanics:
+- type: effect
+  text: >-
+    Ask your opponent if he or she accepts your challenge. If
+    your opponent declines (or if both Benches are full), draw
+    2 cards. If your opponent accepts, each of you searches your
+    decks for any number of Basic Pokémon cards and puts them
+    face down onto your Benches. (A player can't do this if his
+    or her Bench is full.) When you both have finished, shuffle
+    your decks and turn those cards face up.
+illustrator: Kagemaru Himeno
+---
+set: team-rocket
+number: '75'
+name: Digger
+rarity: uncommon
+holographic: false
+class: T
+subclass: Rocket's Secret Machine
+legal: false
+filename: 75-digger
+mechanics:
+- type: effect
+  text: >-
+    Flip a coin. If tails, do 10 damage to your Active Pokémon.
+    If heads, your opponent flips a coin. If tails, your opponent
+    does 10 damage to his or her Active Pokémon. If heads, you
+    flip a coin. Keep doing this until a player gets tails.
+illustrator: Sumiyoshi Kizuki
+---
+set: team-rocket
+number: '76'
+name: Impostor Oak's Revenge
+rarity: uncommon
+holographic: false
+class: T
+legal: false
+filename: 76-impostor-oak's-revenge
+mechanics:
+- type: effect
+  text: >-
+    Discard a card from your hand in order to play this card.
+    Your opponent shuffles his or her hand into his or her deck,
+    then draws 4 cards.
+illustrator: Ken Sugimori
+---
+set: team-rocket
+number: '77'
+name: Nightly Garbage Run
+rarity: uncommon
+holographic: false
+class: T
+subclass: Rocket's Secret Machine
+legal: false
+filename: 77-nightly-garbage-run
+mechanics:
+- type: effect
+  text: >-
+    Choose up to 3 Basic Pokémon cards, Evolution cards, and/or
+    basic Energy cards from your discard pile. Show them to your
+    opponent and shuffle them into your deck.
+illustrator: Sumiyoshi Kizuki
+---
+set: team-rocket
+number: '78'
+name: Goop Gas Attack
+rarity: common
+holographic: false
+class: T
+legal: false
+filename: 78-goop-gas-attack
+mechanics:
+- type: effect
+  text: >-
+    All Pokémon Powers stop working until the end of your opponent's
+    next turn.
+illustrator: Sumiyoshi Kizuki
+---
+set: team-rocket
+number: '79'
+name: Sleep!
+rarity: common
+holographic: false
+class: T
+subclass: Rocket's Secret Machine
+legal: false
+filename: 79-sleep
+mechanics:
+- type: effect
+  text: >-
+    Flip a coin. If heads, the Defending Pokémon is now Asleep.
+illustrator: Sumiyoshi Kizuki
+---
+set: team-rocket
+number: '80'
+name: Rainbow Energy
+rarity: rare
+holographic: false
+class: E
+subclass: Special
+legal: true
+filename: 80-rainbow-energy
+in-set-variant-of: 'team-rocket: 17-rainbow-energy as non-holo'
+dated: 'ex-ruby-and-sapphire: 95-rainbow-energy'
+mechanics:
+- type: effect
+  text: >-
+    Attach Rainbow Energy to 1 of your Pokémon. While in play,
+    Rainbow Energy counts as every type of basic Energy but only
+    provides 1 Energy at a time. (Doesn't count as a basic Energy
+    card when not in play.) When you attach this card from your
+    hand to 1 of your Pokémon, it does 10 damage to that Pokémon.
+    (Don't apply Weakness and Resistance.)
+illustrator: Takumi Akabane
+---
+set: team-rocket
+number: '81'
+name: Full Heal Energy
+rarity: uncommon
+holographic: false
+class: E
+subclass: Special
+legal: false
+filename: 81-full-heal-energy
+mechanics:
+- type: effect
+  text: >-
+    If you play this card from your hand, the Pokémon you attach
+    it to is no longer Asleep, Confused, Paralyzed, or Poisoned.
+    Full Heal Energy Provides 1 Colorless energy. (Doesn't count
+    as a basic Energy card.)
+illustrator: Keiji Kinebuchi
+---
+set: team-rocket
+number: '82'
+name: Potion Energy
+rarity: uncommon
+holographic: false
+class: E
+subclass: Special
+legal: false
+filename: 82-potion-energy
+mechanics:
+- type: effect
+  text: >-
+    If you play this card from your hand, remove 1 damage counter
+    from the Pokémon you attach it to, if it has any. Potion Energy
+    provides 1 Colorless energy. (Doesn't count as a basic Energy
+    card.)
+illustrator: Keiji Kinebuchi
+---
+set: team-rocket
+number: '83'
+name: Dark Raichu
+rarity: rare
+holographic: true
+class: P
+types:
+- Lightning
+hp: 70
+stage: Stage 1
+evolves from: Pikachu
+legal: false
+filename: 83-dark-raichu
+pokemon: Raichu
+mechanics:
+- name: Surprise Thunder
+  cost: LLL
+  damage: '30'
+  type: attack
+  text: >-
+    Flip a coin. If heads, flip another coin. If the second coin
+    is heads, this attack does 20 damage to each of your opponent's
+    Benched Pokémon. If the second coin is tails, this attack
+    does 10 damage to each of your opponent's Benched Pokémon.
+    (Don't apply Weakness and Resistance for Benched Pokémon
+weakness:
+  amount: 2
+  operation: ×
+  type: F
+retreat: 1
+dex number: 26
+species: Mouse
+weight: 66
+height: 2'7
+dex entry: >-
+  Stores up electricity in its body, then suddenly releases it
+  to surprise and shock everyone.
+illustrator: Mitsuhiro Arita
