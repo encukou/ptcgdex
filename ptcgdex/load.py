@@ -169,6 +169,7 @@ def load_sets(session, directory, set_names=None, verbose=True):
                 card.hp = hp
                 card.retreat_cost = retreat_cost
                 card.resistance_type = resistance_type
+                card.legal = card_info.pop('legality')
                 session.add(card)
                 for mechanic_index, mechanic_info in enumerate(
                         card_info.pop('mechanics', ())):

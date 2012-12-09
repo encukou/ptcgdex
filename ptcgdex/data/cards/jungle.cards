@@ -10,8 +10,7 @@ types:
 hp: 70
 stage: Stage 1
 evolves from: Clefairy
-evo line: Clefairy
-legality: n
+legal: false
 filename: 1-clefable
 pokemon: Clefable
 mechanics:
@@ -56,8 +55,7 @@ types:
 hp: 90
 stage: Stage 1
 evolves from: Voltorb
-evo line: Voltorb
-legality: n
+legal: false
 filename: 2-electrode
 pokemon: Electrode
 mechanics:
@@ -99,8 +97,7 @@ types:
 hp: 70
 stage: Stage 1
 evolves from: Eevee
-evo line: Eevee
-legality: n
+legal: false
 filename: 3-flareon
 pokemon: Flareon
 mechanics:
@@ -144,8 +141,7 @@ types:
 hp: 70
 stage: Stage 1
 evolves from: Eevee
-evo line: Eevee
-legality: n
+legal: false
 filename: 4-jolteon
 pokemon: Jolteon
 mechanics:
@@ -188,8 +184,7 @@ types:
 - Colorless
 hp: 90
 stage: Basic
-evo line: Kangaskhan
-legality: n
+legal: false
 filename: 5-kangaskhan
 pokemon: Kangaskhan
 mechanics:
@@ -230,8 +225,7 @@ types:
 - Psychic
 hp: 40
 stage: Basic
-evo line: Mr. Mime
-legality: n
+legal: false
 filename: 6-mr.-mime
 pokemon: Mr. Mime
 mechanics:
@@ -276,8 +270,7 @@ types:
 hp: 90
 stage: Stage 2
 evolves from: Nidorina
-evo line: Nidoran F
-legality: n
+legal: false
 filename: 7-nidoqueen
 pokemon: Nidoqueen
 mechanics:
@@ -318,8 +311,7 @@ types:
 hp: 80
 stage: Stage 2
 evolves from: Pidgeotto
-evo line: Pidgey
-legality: n
+legal: false
 filename: 8-pidgeot
 pokemon: Pidgeot
 mechanics:
@@ -360,8 +352,7 @@ types:
 - Grass
 hp: 60
 stage: Basic
-evo line: Pinsir
-legality: n
+legal: false
 filename: 9-pinsir
 pokemon: Pinsir
 mechanics:
@@ -400,8 +391,7 @@ types:
 - Grass
 hp: 70
 stage: Basic
-evo line: Scyther
-legality: y
+legal: true
 filename: 10-scyther
 orphan: 'platinum: 130-scyther'
 pokemon: Scyther
@@ -441,8 +431,7 @@ types:
 - Colorless
 hp: 90
 stage: Basic
-evo line: Snorlax
-legality: n
+legal: false
 filename: 11-snorlax
 pokemon: Snorlax
 mechanics:
@@ -484,8 +473,7 @@ types:
 hp: 80
 stage: Stage 1
 evolves from: Eevee
-evo line: Eevee
-legality: n
+legal: false
 filename: 12-vaporeon
 pokemon: Vaporeon
 mechanics:
@@ -530,8 +518,7 @@ types:
 hp: 70
 stage: Stage 1
 evolves from: Venonat
-evo line: Venonat
-legality: n
+legal: false
 filename: 13-venomoth
 pokemon: Venomoth
 mechanics:
@@ -575,8 +562,7 @@ types:
 hp: 80
 stage: Stage 2
 evolves from: Weepinbell
-evo line: Bellsprout
-legality: n
+legal: false
 filename: 14-victreebel
 pokemon: Victreebel
 mechanics:
@@ -619,8 +605,7 @@ types:
 hp: 80
 stage: Stage 2
 evolves from: Gloom
-evo line: Oddish
-legality: n
+legal: false
 filename: 15-vileplume
 pokemon: Vileplume
 mechanics:
@@ -664,8 +649,7 @@ types:
 hp: 80
 stage: Stage 1
 evolves from: Jigglypuff
-evo line: Jigglypuff
-legality: n
+legal: false
 filename: 16-wigglytuff
 pokemon: Wigglytuff
 mechanics:
@@ -707,8 +691,7 @@ types:
 hp: 70
 stage: Stage 1
 evolves from: Clefairy
-evo line: Clefairy
-legality: n
+legal: false
 filename: 17-clefable
 in-set-variant-of: 'jungle: 1-clefable as non-holo'
 pokemon: Clefable
@@ -754,8 +737,7 @@ types:
 hp: 90
 stage: Stage 1
 evolves from: Voltorb
-evo line: Voltorb
-legality: n
+legal: false
 filename: 18-electrode
 in-set-variant-of: 'jungle: 2-electrode as non-holo'
 pokemon: Electrode
@@ -798,8 +780,7 @@ types:
 hp: 70
 stage: Stage 1
 evolves from: Eevee
-evo line: Eevee
-legality: n
+legal: false
 filename: 19-flareon
 in-set-variant-of: 'jungle: 3-flareon as non-holo'
 pokemon: Flareon
@@ -844,8 +825,7 @@ types:
 hp: 70
 stage: Stage 1
 evolves from: Eevee
-evo line: Eevee
-legality: n
+legal: false
 filename: 20-jolteon
 in-set-variant-of: 'jungle: 4-jolteon as non-holo'
 pokemon: Jolteon
@@ -889,8 +869,7 @@ types:
 - Colorless
 hp: 90
 stage: Basic
-evo line: Kangaskhan
-legality: n
+legal: false
 filename: 21-kangaskhan
 in-set-variant-of: 'jungle: 5-kangaskhan as non-holo'
 pokemon: Kangaskhan
@@ -932,8 +911,7 @@ types:
 - Psychic
 hp: 40
 stage: Basic
-evo line: Mr. Mime
-legality: n
+legal: false
 filename: 22-mr.-mime
 in-set-variant-of: 'jungle: 6-mr.-mime as non-holo'
 pokemon: Mr. Mime
@@ -979,8 +957,7 @@ types:
 hp: 90
 stage: Stage 2
 evolves from: Nidorina
-evo line: Nidoran F
-legality: n
+legal: false
 filename: 23-nidoqueen
 in-set-variant-of: 'jungle: 7-nidoqueen as non-holo'
 pokemon: Nidoqueen
@@ -1022,8 +999,7 @@ types:
 hp: 80
 stage: Stage 2
 evolves from: Pidgeotto
-evo line: Pidgey
-legality: n
+legal: false
 filename: 24-pidgeot
 in-set-variant-of: 'jungle: 8-pidgeot as non-holo'
 pokemon: Pidgeot
@@ -1065,8 +1041,7 @@ types:
 - Grass
 hp: 60
 stage: Basic
-evo line: Pinsir
-legality: n
+legal: false
 filename: 25-pinsir
 in-set-variant-of: 'jungle: 9-pinsir as non-holo'
 pokemon: Pinsir
@@ -1106,8 +1081,7 @@ types:
 - Grass
 hp: 70
 stage: Basic
-evo line: Scyther
-legality: y
+legal: true
 filename: 26-scyther
 orphan: 'platinum: 130-scyther'
 in-set-variant-of: 'jungle: 10-scyther as non-holo'
@@ -1148,8 +1122,7 @@ types:
 - Colorless
 hp: 90
 stage: Basic
-evo line: Snorlax
-legality: n
+legal: false
 filename: 27-snorlax
 in-set-variant-of: 'jungle: 11-snorlax as non-holo'
 pokemon: Snorlax
@@ -1192,8 +1165,7 @@ types:
 hp: 80
 stage: Stage 1
 evolves from: Eevee
-evo line: Eevee
-legality: n
+legal: false
 filename: 28-vaporeon
 in-set-variant-of: 'jungle: 12-vaporeon as non-holo'
 pokemon: Vaporeon
@@ -1239,8 +1211,7 @@ types:
 hp: 70
 stage: Stage 1
 evolves from: Venonat
-evo line: Venonat
-legality: n
+legal: false
 filename: 29-venomoth
 in-set-variant-of: 'jungle: 13-venomoth as non-holo'
 pokemon: Venomoth
@@ -1285,8 +1256,7 @@ types:
 hp: 80
 stage: Stage 2
 evolves from: Weepinbell
-evo line: Bellsprout
-legality: n
+legal: false
 filename: 30-victreebel
 in-set-variant-of: 'jungle: 14-victreebel as non-holo'
 pokemon: Victreebel
@@ -1330,8 +1300,7 @@ types:
 hp: 80
 stage: Stage 2
 evolves from: Gloom
-evo line: Oddish
-legality: n
+legal: false
 filename: 31-vileplume
 in-set-variant-of: 'jungle: 15-vileplume as non-holo'
 pokemon: Vileplume
@@ -1376,8 +1345,7 @@ types:
 hp: 80
 stage: Stage 1
 evolves from: Jigglypuff
-evo line: Jigglypuff
-legality: n
+legal: false
 filename: 32-wigglytuff
 in-set-variant-of: 'jungle: 16-wigglytuff as non-holo'
 pokemon: Wigglytuff
@@ -1420,8 +1388,7 @@ types:
 hp: 70
 stage: Stage 2
 evolves from: Metapod
-evo line: Caterpie
-legality: n
+legal: false
 filename: 33-butterfree
 pokemon: Butterfree
 mechanics:
@@ -1467,8 +1434,7 @@ types:
 hp: 70
 stage: Stage 1
 evolves from: Doduo
-evo line: Doduo
-legality: n
+legal: false
 filename: 34-dodrio
 pokemon: Dodrio
 mechanics:
@@ -1510,8 +1476,7 @@ types:
 hp: 80
 stage: Stage 1
 evolves from: Exeggcute
-evo line: Exeggcute
-legality: n
+legal: false
 filename: 35-exeggutor
 pokemon: Exeggutor
 mechanics:
@@ -1554,8 +1519,7 @@ types:
 hp: 70
 stage: Stage 1
 evolves from: Spearow
-evo line: Spearow
-legality: n
+legal: false
 filename: 36-fearow
 pokemon: Fearow
 mechanics:
@@ -1596,8 +1560,7 @@ types:
 hp: 60
 stage: Stage 1
 evolves from: Oddish
-evo line: Oddish
-legality: n
+legal: false
 filename: 37-gloom
 pokemon: Gloom
 mechanics:
@@ -1638,8 +1601,7 @@ types:
 - Colorless
 hp: 90
 stage: Basic
-evo line: Lickitung
-legality: n
+legal: false
 filename: 38-lickitung
 pokemon: Lickitung
 mechanics:
@@ -1680,8 +1642,7 @@ types:
 hp: 60
 stage: Stage 1
 evolves from: Cubone
-evo line: Cubone
-legality: n
+legal: false
 filename: 39-marowak
 pokemon: Marowak
 mechanics:
@@ -1725,8 +1686,7 @@ types:
 hp: 70
 stage: Stage 1
 evolves from: Nidoran F
-evo line: Nidoran F
-legality: n
+legal: false
 filename: 40-nidorina
 pokemon: Nidorina
 mechanics:
@@ -1768,8 +1728,7 @@ types:
 hp: 60
 stage: Stage 1
 evolves from: Paras
-evo line: Paras
-legality: n
+legal: false
 filename: 41-parasect
 pokemon: Parasect
 mechanics:
@@ -1808,8 +1767,7 @@ types:
 hp: 70
 stage: Stage 1
 evolves from: Meowth
-evo line: Meowth
-legality: n
+legal: false
 filename: 42-persian
 pokemon: Persian
 mechanics:
@@ -1852,8 +1810,7 @@ types:
 hp: 70
 stage: Stage 1
 evolves from: Mankey
-evo line: Mankey
-legality: n
+legal: false
 filename: 43-primeape
 pokemon: Primeape
 mechanics:
@@ -1897,8 +1854,7 @@ types:
 hp: 70
 stage: Stage 1
 evolves from: Ponyta
-evo line: Ponyta
-legality: n
+legal: false
 filename: 44-rapidash
 pokemon: Rapidash
 mechanics:
@@ -1942,8 +1898,7 @@ types:
 hp: 100
 stage: Stage 1
 evolves from: Rhyhorn
-evo line: Rhyhorn
-legality: n
+legal: false
 filename: 45-rhydon
 pokemon: Rhydon
 mechanics:
@@ -1987,8 +1942,7 @@ types:
 hp: 70
 stage: Stage 1
 evolves from: Goldeen
-evo line: Goldeen
-legality: n
+legal: false
 filename: 46-seaking
 pokemon: Seaking
 mechanics:
@@ -2025,8 +1979,7 @@ types:
 - Colorless
 hp: 60
 stage: Basic
-evo line: Tauros
-legality: n
+legal: false
 filename: 47-tauros
 pokemon: Tauros
 mechanics:
@@ -2071,8 +2024,7 @@ types:
 hp: 70
 stage: Stage 1
 evolves from: Bellsprout
-evo line: Bellsprout
-legality: n
+legal: false
 filename: 48-weepinbell
 pokemon: Weepinbell
 mechanics:
@@ -2111,8 +2063,7 @@ types:
 - Grass
 hp: 40
 stage: Basic
-evo line: Bellsprout
-legality: n
+legal: false
 filename: 49-bellsprout
 pokemon: Bellsprout
 mechanics:
@@ -2152,8 +2103,7 @@ types:
 - Fighting
 hp: 40
 stage: Basic
-evo line: Cubone
-legality: n
+legal: false
 filename: 50-cubone
 pokemon: Cubone
 mechanics:
@@ -2197,8 +2147,7 @@ types:
 - Colorless
 hp: 50
 stage: Basic
-evo line: Eevee
-legality: n
+legal: false
 filename: 51-eevee
 pokemon: Eevee
 mechanics:
@@ -2241,8 +2190,7 @@ types:
 - Grass
 hp: 50
 stage: Basic
-evo line: Exeggcute
-legality: n
+legal: false
 filename: 52-exeggcute
 pokemon: Exeggcute
 mechanics:
@@ -2283,8 +2231,7 @@ types:
 - Water
 hp: 40
 stage: Basic
-evo line: Goldeen
-legality: n
+legal: false
 filename: 53-goldeen
 pokemon: Goldeen
 mechanics:
@@ -2317,8 +2264,7 @@ types:
 - Colorless
 hp: 60
 stage: Basic
-evo line: Jigglypuff
-legality: n
+legal: false
 filename: 54-jigglypuff
 pokemon: Jigglypuff
 mechanics:
@@ -2356,8 +2302,7 @@ types:
 - Fighting
 hp: 30
 stage: Basic
-evo line: Mankey
-legality: n
+legal: false
 filename: 55-mankey
 pokemon: Mankey
 mechanics:
@@ -2398,8 +2343,7 @@ types:
 - Colorless
 hp: 50
 stage: Basic
-evo line: Meowth
-legality: n
+legal: false
 filename: 56-meowth
 pokemon: Meowth
 mechanics:
@@ -2434,8 +2378,7 @@ types:
 - Grass
 hp: 60
 stage: Basic
-evo line: Nidoran F
-legality: n
+legal: false
 filename: 57-nidoran-f
 pokemon: Nidoran♀
 mechanics:
@@ -2478,8 +2421,7 @@ types:
 - Grass
 hp: 50
 stage: Basic
-evo line: Oddish
-legality: n
+legal: false
 filename: 58-oddish
 pokemon: Oddish
 mechanics:
@@ -2521,8 +2463,7 @@ types:
 - Grass
 hp: 40
 stage: Basic
-evo line: Paras
-legality: n
+legal: false
 filename: 59-paras
 pokemon: Paras
 mechanics:
@@ -2560,8 +2501,7 @@ types:
 - Lightning
 hp: 50
 stage: Basic
-evo line: Pikachu
-legality: n
+legal: false
 filename: 60-pikachu
 pokemon: Pikachu
 mechanics:
@@ -2598,8 +2538,7 @@ types:
 - Fighting
 hp: 70
 stage: Basic
-evo line: Rhyhorn
-legality: n
+legal: false
 filename: 61-rhyhorn
 pokemon: Rhyhorn
 mechanics:
@@ -2639,8 +2578,7 @@ types:
 - Colorless
 hp: 50
 stage: Basic
-evo line: Spearow
-legality: n
+legal: false
 filename: 62-spearow
 pokemon: Spearow
 mechanics:
@@ -2679,8 +2617,7 @@ types:
 - Grass
 hp: 40
 stage: Basic
-evo line: Venonat
-legality: n
+legal: false
 filename: 63-venonat
 pokemon: Venonat
 mechanics:
@@ -2719,7 +2656,7 @@ name: Poké Ball
 rarity: common
 holographic: false
 class: T
-legality: y
+legal: true
 filename: 64-poke-ball
 orphan: 'ex-ruby-and-sapphire: 86-poke-ball'
 mechanics:

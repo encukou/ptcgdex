@@ -10,8 +10,7 @@ types:
 hp: 60
 stage: Stage 1
 evolves from: Mysterious Fossil
-evo line: Mysterious Fossil
-legality: n
+legal: false
 filename: 1-aerodactyl
 pokemon: Aerodactyl
 mechanics:
@@ -46,8 +45,7 @@ types:
 - Water
 hp: 70
 stage: Basic
-evo line: Articuno
-legality: n
+legal: false
 filename: 2-articuno
 pokemon: Articuno
 mechanics:
@@ -84,8 +82,7 @@ types:
 - Colorless
 hp: 50
 stage: Basic
-evo line: Ditto
-legality: n
+legal: false
 filename: 3-ditto
 pokemon: Ditto
 mechanics:
@@ -121,8 +118,7 @@ types:
 hp: 100
 stage: Stage 2
 evolves from: Dragonair
-evo line: Dratini
-legality: n
+legal: false
 filename: 4-dragonite
 pokemon: Dragonite
 mechanics:
@@ -157,8 +153,7 @@ types:
 hp: 80
 stage: Stage 2
 evolves from: Haunter
-evo line: Gastly
-legality: n
+legal: false
 filename: 5-gengar
 pokemon: Gengar
 mechanics:
@@ -196,8 +191,7 @@ types:
 hp: 50
 stage: Stage 1
 evolves from: Gastly
-evo line: Gastly
-legality: n
+legal: false
 filename: 6-haunter
 pokemon: Haunter
 mechanics:
@@ -232,8 +226,7 @@ types:
 - Fighting
 hp: 60
 stage: Basic
-evo line: Tyrogue
-legality: n
+legal: false
 filename: 7-hitmonlee
 pokemon: Hitmonlee
 mechanics:
@@ -271,8 +264,7 @@ types:
 hp: 90
 stage: Stage 1
 evolves from: Drowzee
-evo line: Drowzee
-legality: n
+legal: false
 filename: 8-hypno
 pokemon: Hypno
 mechanics:
@@ -313,8 +305,7 @@ types:
 hp: 60
 stage: Stage 2
 evolves from: Kabuto
-evo line: Mysterious Fossil
-legality: n
+legal: false
 filename: 9-kabutops
 pokemon: Kabutops
 mechanics:
@@ -354,8 +345,7 @@ types:
 - Water
 hp: 80
 stage: Basic
-evo line: Lapras
-legality: n
+legal: false
 filename: 10-lapras
 pokemon: Lapras
 mechanics:
@@ -396,8 +386,7 @@ types:
 hp: 80
 stage: Stage 1
 evolves from: Magnemite
-evo line: Magnemite
-legality: n
+legal: false
 filename: 11-magneton
 pokemon: Magneton
 mechanics:
@@ -439,8 +428,7 @@ types:
 - Fire
 hp: 70
 stage: Basic
-evo line: Moltres
-legality: n
+legal: false
 filename: 12-moltres
 pokemon: Moltres
 mechanics:
@@ -476,8 +464,7 @@ types:
 hp: 70
 stage: Stage 1
 evolves from: Grimer
-evo line: Grimer
-legality: n
+legal: false
 filename: 13-muk
 pokemon: Muk
 mechanics:
@@ -515,8 +502,7 @@ types:
 hp: 90
 stage: Stage 1
 evolves from: Pikachu
-evo line: Pikachu
-legality: n
+legal: false
 filename: 14-raichu
 pokemon: Raichu
 mechanics:
@@ -551,8 +537,7 @@ types:
 - Lightning
 hp: 80
 stage: Basic
-evo line: Zapdos
-legality: n
+legal: false
 filename: 15-zapdos
 pokemon: Zapdos
 mechanics:
@@ -584,8 +569,7 @@ types:
 hp: 60
 stage: Stage 1
 evolves from: Mysterious Fossil
-evo line: Mysterious Fossil
-legality: n
+legal: false
 filename: 16-aerodactyl
 in-set-variant-of: 'fossil: 1-aerodactyl as non-holo'
 pokemon: Aerodactyl
@@ -621,8 +605,7 @@ types:
 - Water
 hp: 70
 stage: Basic
-evo line: Articuno
-legality: n
+legal: false
 filename: 17-articuno
 in-set-variant-of: 'fossil: 2-articuno as non-holo'
 pokemon: Articuno
@@ -660,8 +643,7 @@ types:
 - Colorless
 hp: 50
 stage: Basic
-evo line: Ditto
-legality: n
+legal: false
 filename: 18-ditto
 in-set-variant-of: 'fossil: 3-ditto as non-holo'
 pokemon: Ditto
@@ -698,8 +680,7 @@ types:
 hp: 100
 stage: Stage 2
 evolves from: Dragonair
-evo line: Dratini
-legality: n
+legal: false
 filename: 19-dragonite
 in-set-variant-of: 'fossil: 4-dragonite as non-holo'
 pokemon: Dragonite
@@ -735,8 +716,7 @@ types:
 hp: 80
 stage: Stage 2
 evolves from: Haunter
-evo line: Gastly
-legality: n
+legal: false
 filename: 20-gengar
 in-set-variant-of: 'fossil: 5-gengar as non-holo'
 pokemon: Gengar
@@ -775,8 +755,7 @@ types:
 hp: 50
 stage: Stage 1
 evolves from: Gastly
-evo line: Gastly
-legality: n
+legal: false
 filename: 21-haunter
 in-set-variant-of: 'fossil: 6-haunter as non-holo'
 pokemon: Haunter
@@ -812,8 +791,7 @@ types:
 - Fighting
 hp: 60
 stage: Basic
-evo line: Tyrogue
-legality: n
+legal: false
 filename: 22-hitmonlee
 in-set-variant-of: 'fossil: 7-hitmonlee as non-holo'
 pokemon: Hitmonlee
@@ -852,8 +830,7 @@ types:
 hp: 90
 stage: Stage 1
 evolves from: Drowzee
-evo line: Drowzee
-legality: n
+legal: false
 filename: 23-hypno
 in-set-variant-of: 'fossil: 8-hypno as non-holo'
 pokemon: Hypno
@@ -895,8 +872,7 @@ types:
 hp: 60
 stage: Stage 2
 evolves from: Kabuto
-evo line: Mysterious Fossil
-legality: n
+legal: false
 filename: 24-kabutops
 in-set-variant-of: 'fossil: 9-kabutops as non-holo'
 pokemon: Kabutops
@@ -937,8 +913,7 @@ types:
 - Water
 hp: 80
 stage: Basic
-evo line: Lapras
-legality: n
+legal: false
 filename: 25-lapras
 in-set-variant-of: 'fossil: 10-lapras as non-holo'
 pokemon: Lapras
@@ -980,8 +955,7 @@ types:
 hp: 80
 stage: Stage 1
 evolves from: Magnemite
-evo line: Magnemite
-legality: n
+legal: false
 filename: 26-magneton
 in-set-variant-of: 'fossil: 11-magneton as non-holo'
 pokemon: Magneton
@@ -1024,8 +998,7 @@ types:
 - Fire
 hp: 70
 stage: Basic
-evo line: Moltres
-legality: n
+legal: false
 filename: 27-moltres
 in-set-variant-of: 'fossil: 12-moltres as non-holo'
 pokemon: Moltres
@@ -1062,8 +1035,7 @@ types:
 hp: 70
 stage: Stage 1
 evolves from: Grimer
-evo line: Grimer
-legality: n
+legal: false
 filename: 28-muk
 in-set-variant-of: 'fossil: 13-muk as non-holo'
 pokemon: Muk
@@ -1102,8 +1074,7 @@ types:
 hp: 90
 stage: Stage 1
 evolves from: Pikachu
-evo line: Pikachu
-legality: n
+legal: false
 filename: 29-raichu
 in-set-variant-of: 'fossil: 14-raichu as non-holo'
 pokemon: Raichu
@@ -1139,8 +1110,7 @@ types:
 - Lightning
 hp: 80
 stage: Basic
-evo line: Zapdos
-legality: n
+legal: false
 filename: 30-zapdos
 in-set-variant-of: 'fossil: 15-zapdos as non-holo'
 pokemon: Zapdos
@@ -1173,8 +1143,7 @@ types:
 hp: 60
 stage: Stage 1
 evolves from: Ekans
-evo line: Ekans
-legality: n
+legal: false
 filename: 31-arbok
 pokemon: Arbok
 mechanics:
@@ -1216,8 +1185,7 @@ types:
 hp: 50
 stage: Stage 1
 evolves from: Shellder
-evo line: Shellder
-legality: n
+legal: false
 filename: 32-cloyster
 pokemon: Cloyster
 mechanics:
@@ -1257,8 +1225,7 @@ types:
 - Psychic
 hp: 50
 stage: Basic
-evo line: Gastly
-legality: n
+legal: false
 filename: 33-gastly
 pokemon: Gastly
 mechanics:
@@ -1293,8 +1260,7 @@ types:
 hp: 60
 stage: Stage 1
 evolves from: Zubat
-evo line: Zubat
-legality: n
+legal: false
 filename: 34-golbat
 pokemon: Golbat
 mechanics:
@@ -1334,8 +1300,7 @@ types:
 hp: 70
 stage: Stage 1
 evolves from: Psyduck
-evo line: Psyduck
-legality: n
+legal: false
 filename: 35-golduck
 pokemon: Golduck
 mechanics:
@@ -1375,8 +1340,7 @@ types:
 hp: 80
 stage: Stage 2
 evolves from: Graveler
-evo line: Geodude
-legality: n
+legal: false
 filename: 36-golem
 pokemon: Golem
 mechanics:
@@ -1415,8 +1379,7 @@ types:
 hp: 60
 stage: Stage 1
 evolves from: Geodude
-evo line: Geodude
-legality: n
+legal: false
 filename: 37-graveler
 pokemon: Graveler
 mechanics:
@@ -1454,8 +1417,7 @@ types:
 hp: 60
 stage: Stage 1
 evolves from: Krabby
-evo line: Krabby
-legality: n
+legal: false
 filename: 38-kingler
 pokemon: Kingler
 mechanics:
@@ -1491,8 +1453,7 @@ types:
 - Fire
 hp: 70
 stage: Basic
-evo line: Magmar
-legality: n
+legal: false
 filename: 39-magmar
 pokemon: Magmar
 mechanics:
@@ -1533,8 +1494,7 @@ types:
 hp: 70
 stage: Stage 2
 evolves from: Omanyte
-evo line: Mysterious Fossil
-legality: n
+legal: false
 filename: 40-omastar
 pokemon: Omastar
 mechanics:
@@ -1576,8 +1536,7 @@ types:
 hp: 70
 stage: Stage 1
 evolves from: Sandshrew
-evo line: Sandshrew
-legality: n
+legal: false
 filename: 41-sandslash
 pokemon: Sandslash
 mechanics:
@@ -1615,8 +1574,7 @@ types:
 hp: 60
 stage: Stage 1
 evolves from: Horsea
-evo line: Horsea
-legality: n
+legal: false
 filename: 42-seadra
 pokemon: Seadra
 mechanics:
@@ -1658,8 +1616,7 @@ types:
 hp: 60
 stage: Stage 1
 evolves from: Slowpoke
-evo line: Slowpoke
-legality: n
+legal: false
 filename: 43-slowbro
 pokemon: Slowbro
 mechanics:
@@ -1699,8 +1656,7 @@ types:
 hp: 60
 stage: Stage 1
 evolves from: Tentacool
-evo line: Tentacool
-legality: n
+legal: false
 filename: 44-tentacruel
 pokemon: Tentacruel
 mechanics:
@@ -1738,8 +1694,7 @@ types:
 hp: 60
 stage: Stage 1
 evolves from: Koffing
-evo line: Koffing
-legality: n
+legal: false
 filename: 45-weezing
 pokemon: Weezing
 mechanics:
@@ -1779,8 +1734,7 @@ types:
 - Grass
 hp: 40
 stage: Basic
-evo line: Ekans
-legality: n
+legal: false
 filename: 46-ekans
 pokemon: Ekans
 mechanics:
@@ -1817,8 +1771,7 @@ types:
 - Fighting
 hp: 50
 stage: Basic
-evo line: Geodude
-legality: n
+legal: false
 filename: 47-geodude
 pokemon: Geodude
 mechanics:
@@ -1851,8 +1804,7 @@ types:
 - Grass
 hp: 50
 stage: Basic
-evo line: Grimer
-legality: n
+legal: false
 filename: 48-grimer
 pokemon: Grimer
 mechanics:
@@ -1890,8 +1842,7 @@ types:
 - Water
 hp: 40
 stage: Basic
-evo line: Horsea
-legality: n
+legal: false
 filename: 49-horsea
 pokemon: Horsea
 mechanics:
@@ -1926,8 +1877,7 @@ types:
 hp: 30
 stage: Stage 1
 evolves from: Mysterious Fossil
-evo line: Mysterious Fossil
-legality: n
+legal: false
 filename: 50-kabuto
 pokemon: Kabuto
 mechanics:
@@ -1965,8 +1915,7 @@ types:
 - Water
 hp: 50
 stage: Basic
-evo line: Krabby
-legality: n
+legal: false
 filename: 51-krabby
 pokemon: Krabby
 mechanics:
@@ -2004,8 +1953,7 @@ types:
 hp: 40
 stage: Stage 1
 evolves from: Mysterious Fossil
-evo line: Mysterious Fossil
-legality: n
+legal: false
 filename: 52-omanyte
 pokemon: Omanyte
 mechanics:
@@ -2044,8 +1992,7 @@ types:
 - Water
 hp: 50
 stage: Basic
-evo line: Psyduck
-legality: n
+legal: false
 filename: 53-psyduck
 pokemon: Psyduck
 mechanics:
@@ -2084,8 +2031,7 @@ types:
 - Water
 hp: 30
 stage: Basic
-evo line: Shellder
-legality: n
+legal: false
 filename: 54-shellder
 pokemon: Shellder
 mechanics:
@@ -2123,8 +2069,7 @@ types:
 - Psychic
 hp: 50
 stage: Basic
-evo line: Slowpoke
-legality: n
+legal: false
 filename: 55-slowpoke
 pokemon: Slowpoke
 mechanics:
@@ -2164,8 +2109,7 @@ types:
 - Water
 hp: 30
 stage: Basic
-evo line: Tentacool
-legality: n
+legal: false
 filename: 56-tentacool
 pokemon: Tentacool
 mechanics:
@@ -2202,8 +2146,7 @@ types:
 - Grass
 hp: 40
 stage: Basic
-evo line: Zubat
-legality: n
+legal: false
 filename: 57-zubat
 pokemon: Zubat
 mechanics:
@@ -2239,7 +2182,7 @@ name: Mr. Fuji
 rarity: uncommon
 holographic: false
 class: T
-legality: n
+legal: false
 filename: 58-mr.-fuji
 mechanics:
 - type: effect
@@ -2254,7 +2197,7 @@ name: Energy Search
 rarity: common
 holographic: false
 class: T
-legality: y
+legal: true
 filename: 59-energy-search
 orphan: 'ex-ruby-and-sapphire: 90-energy-search'
 mechanics:
@@ -2270,7 +2213,7 @@ name: Gambler
 rarity: common
 holographic: false
 class: T
-legality: n
+legal: false
 filename: 60-gambler
 mechanics:
 - type: effect
@@ -2285,7 +2228,7 @@ name: Recycle
 rarity: common
 holographic: false
 class: T
-legality: n
+legal: false
 filename: 61-recycle
 mechanics:
 - type: effect
@@ -2302,8 +2245,7 @@ holographic: false
 class: P
 hp: 50
 subclass: Fossil
-evo line: Mysterious Fossil
-legality: n
+legal: false
 filename: 62-mysterious-fossil
 mechanics:
 - type: effect

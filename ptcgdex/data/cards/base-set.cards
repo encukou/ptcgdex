@@ -10,8 +10,7 @@ types:
 hp: 80
 stage: Stage 2
 evolves from: Kadabra
-evo line: Abra
-legality: n
+legal: false
 filename: 1-alakazam
 pokemon: Alakazam
 mechanics:
@@ -54,8 +53,7 @@ types:
 hp: 100
 stage: Stage 2
 evolves from: Wartortle
-evo line: Squirtle
-legality: n
+legal: false
 filename: 2-blastoise
 pokemon: Blastoise
 mechanics:
@@ -100,8 +98,7 @@ types:
 - Colorless
 hp: 120
 stage: Basic
-evo line: Happiny
-legality: n
+legal: false
 filename: 3-chansey
 pokemon: Chansey
 mechanics:
@@ -144,8 +141,7 @@ types:
 hp: 120
 stage: Stage 2
 evolves from: Charmeleon
-evo line: Charmander
-legality: y
+legal: true
 filename: 4-charizard
 orphan: 'stormfront: 103-charizard'
 pokemon: Charizard
@@ -189,8 +185,7 @@ types:
 - Colorless
 hp: 40
 stage: Basic
-evo line: Cleffa
-legality: n
+legal: false
 filename: 5-clefairy
 pokemon: Clefairy
 mechanics:
@@ -234,8 +229,7 @@ types:
 hp: 100
 stage: Stage 1
 evolves from: Magikarp
-evo line: Magikarp
-legality: n
+legal: false
 filename: 6-gyarados
 pokemon: Gyarados
 mechanics:
@@ -274,8 +268,7 @@ types:
 - Fighting
 hp: 70
 stage: Basic
-evo line: Tyrogue
-legality: y
+legal: true
 filename: 7-hitmonchan
 orphan: 'platinum: 129-hitmonchan'
 pokemon: Hitmonchan
@@ -314,8 +307,7 @@ types:
 hp: 100
 stage: Stage 2
 evolves from: Machoke
-evo line: Machop
-legality: n
+legal: false
 filename: 8-machamp
 pokemon: Machamp
 mechanics:
@@ -357,8 +349,7 @@ types:
 hp: 60
 stage: Stage 1
 evolves from: Magnemite
-evo line: Magnemite
-legality: n
+legal: false
 filename: 9-magneton
 pokemon: Magneton
 mechanics:
@@ -401,8 +392,7 @@ types:
 - Psychic
 hp: 60
 stage: Basic
-evo line: Mewtwo
-legality: n
+legal: false
 filename: 10-mewtwo
 pokemon: Mewtwo
 mechanics:
@@ -446,8 +436,7 @@ types:
 hp: 90
 stage: Stage 2
 evolves from: Nidorino
-evo line: Nidoran M
-legality: n
+legal: false
 filename: 11-nidoking
 pokemon: Nidoking
 mechanics:
@@ -493,8 +482,7 @@ types:
 hp: 80
 stage: Stage 1
 evolves from: Vulpix
-evo line: Vulpix
-legality: n
+legal: false
 filename: 12-ninetales
 pokemon: Ninetales
 mechanics:
@@ -537,8 +525,7 @@ types:
 hp: 90
 stage: Stage 2
 evolves from: Poliwhirl
-evo line: Poliwag
-legality: n
+legal: false
 filename: 13-poliwrath
 pokemon: Poliwrath
 mechanics:
@@ -583,8 +570,7 @@ types:
 hp: 80
 stage: Stage 1
 evolves from: Pikachu
-evo line: Pichu
-legality: n
+legal: false
 filename: 14-raichu
 pokemon: Raichu
 mechanics:
@@ -627,8 +613,7 @@ types:
 hp: 100
 stage: Stage 2
 evolves from: Ivysaur
-evo line: Bulbasaur
-legality: n
+legal: false
 filename: 15-venusaur
 pokemon: Venusaur
 mechanics:
@@ -668,8 +653,7 @@ types:
 - Lightning
 hp: 90
 stage: Basic
-evo line: Zapdos
-legality: n
+legal: false
 filename: 16-zapdos
 pokemon: Zapdos
 mechanics:
@@ -708,8 +692,7 @@ types:
 hp: 80
 stage: Stage 2
 evolves from: Kakuna
-evo line: Weedle
-legality: n
+legal: false
 filename: 17-beedrill
 pokemon: Beedrill
 mechanics:
@@ -751,8 +734,7 @@ types:
 hp: 80
 stage: Stage 1
 evolves from: Dratini
-evo line: Dratini
-legality: n
+legal: false
 filename: 18-dragonair
 pokemon: Dragonair
 mechanics:
@@ -791,8 +773,7 @@ types:
 hp: 70
 stage: Stage 1
 evolves from: Diglett
-evo line: Diglett
-legality: n
+legal: false
 filename: 19-dugtrio
 pokemon: Dugtrio
 mechanics:
@@ -832,8 +813,7 @@ types:
 - Lightning
 hp: 70
 stage: Basic
-evo line: Elekid
-legality: y
+legal: true
 filename: 20-electabuzz
 orphan: 'platinum: 128-electabuzz'
 pokemon: Electabuzz
@@ -878,8 +858,7 @@ types:
 hp: 80
 stage: Stage 1
 evolves from: Voltorb
-evo line: Voltorb
-legality: n
+legal: false
 filename: 21-electrode
 pokemon: Electrode
 mechanics:
@@ -924,8 +903,7 @@ types:
 hp: 60
 stage: Stage 1
 evolves from: Pidgey
-evo line: Pidgey
-legality: n
+legal: false
 filename: 22-pidgeotto
 pokemon: Pidgeotto
 mechanics:
@@ -969,8 +947,7 @@ types:
 hp: 100
 stage: Stage 1
 evolves from: Growlithe
-evo line: Growlithe
-legality: n
+legal: false
 filename: 23-arcanine
 pokemon: Arcanine
 mechanics:
@@ -1013,8 +990,7 @@ types:
 hp: 80
 stage: Stage 1
 evolves from: Charmander
-evo line: Charmander
-legality: y
+legal: true
 filename: 24-charmeleon
 orphan: 'stormfront: 102-charmeleon'
 pokemon: Charmeleon
@@ -1056,8 +1032,7 @@ types:
 hp: 80
 stage: Stage 1
 evolves from: Seel
-evo line: Seel
-legality: n
+legal: false
 filename: 25-dewgong
 pokemon: Dewgong
 mechanics:
@@ -1096,8 +1071,7 @@ types:
 - Colorless
 hp: 40
 stage: Basic
-evo line: Dratini
-legality: n
+legal: false
 filename: 26-dratini
 pokemon: Dratini
 mechanics:
@@ -1126,8 +1100,7 @@ types:
 - Colorless
 hp: 50
 stage: Basic
-evo line: Farfetch'd
-legality: n
+legal: false
 filename: 27-farfetch'd
 pokemon: Farfetch'd
 mechanics:
@@ -1169,8 +1142,7 @@ types:
 - Fire
 hp: 60
 stage: Basic
-evo line: Growlithe
-legality: n
+legal: false
 filename: 28-growlithe
 pokemon: Growlithe
 mechanics:
@@ -1204,8 +1176,7 @@ types:
 hp: 60
 stage: Stage 1
 evolves from: Gastly
-evo line: Gastly
-legality: n
+legal: false
 filename: 29-haunter
 pokemon: Haunter
 mechanics:
@@ -1243,8 +1214,7 @@ types:
 hp: 60
 stage: Stage 1
 evolves from: Bulbasaur
-evo line: Bulbasaur
-legality: n
+legal: false
 filename: 30-ivysaur
 pokemon: Ivysaur
 mechanics:
@@ -1283,8 +1253,7 @@ types:
 - Psychic
 hp: 70
 stage: Basic
-evo line: Smoochum
-legality: n
+legal: false
 filename: 31-jynx
 pokemon: Jynx
 mechanics:
@@ -1328,8 +1297,7 @@ types:
 hp: 60
 stage: Stage 1
 evolves from: Abra
-evo line: Abra
-legality: n
+legal: false
 filename: 32-kadabra
 pokemon: Kadabra
 mechanics:
@@ -1369,8 +1337,7 @@ types:
 hp: 80
 stage: Stage 1
 evolves from: Weedle
-evo line: Weedle
-legality: n
+legal: false
 filename: 33-kakuna
 pokemon: Kakuna
 mechanics:
@@ -1413,8 +1380,7 @@ types:
 hp: 80
 stage: Stage 1
 evolves from: Machop
-evo line: Machop
-legality: n
+legal: false
 filename: 34-machoke
 pokemon: Machoke
 mechanics:
@@ -1456,8 +1422,7 @@ types:
 - Water
 hp: 30
 stage: Basic
-evo line: Magikarp
-legality: n
+legal: false
 filename: 35-magikarp
 pokemon: Magikarp
 mechanics:
@@ -1496,8 +1461,7 @@ types:
 - Fire
 hp: 50
 stage: Basic
-evo line: Magby
-legality: n
+legal: false
 filename: 36-magmar
 pokemon: Magmar
 mechanics:
@@ -1538,8 +1502,7 @@ types:
 hp: 60
 stage: Stage 1
 evolves from: Nidoran M
-evo line: Nidoran M
-legality: n
+legal: false
 filename: 37-nidorino
 pokemon: Nidorino
 mechanics:
@@ -1579,8 +1542,7 @@ types:
 hp: 60
 stage: Stage 1
 evolves from: Poliwag
-evo line: Poliwag
-legality: n
+legal: false
 filename: 38-poliwhirl
 pokemon: Poliwhirl
 mechanics:
@@ -1621,8 +1583,7 @@ types:
 - Colorless
 hp: 30
 stage: Basic
-evo line: Porygon
-legality: n
+legal: false
 filename: 39-porygon
 pokemon: Porygon
 mechanics:
@@ -1664,8 +1625,7 @@ types:
 hp: 60
 stage: Stage 1
 evolves from: Rattata
-evo line: Rattata
-legality: n
+legal: false
 filename: 40-raticate
 pokemon: Raticate
 mechanics:
@@ -1705,8 +1665,7 @@ types:
 - Water
 hp: 60
 stage: Basic
-evo line: Seel
-legality: n
+legal: false
 filename: 41-seel
 pokemon: Seel
 mechanics:
@@ -1740,8 +1699,7 @@ types:
 hp: 70
 stage: Stage 1
 evolves from: Squirtle
-evo line: Squirtle
-legality: n
+legal: false
 filename: 42-wartortle
 pokemon: Wartortle
 mechanics:
@@ -1781,8 +1739,7 @@ types:
 - Psychic
 hp: 30
 stage: Basic
-evo line: Abra
-legality: n
+legal: false
 filename: 43-abra
 pokemon: Abra
 mechanics:
@@ -1817,8 +1774,7 @@ types:
 - Grass
 hp: 40
 stage: Basic
-evo line: Bulbasaur
-legality: n
+legal: false
 filename: 44-bulbasaur
 pokemon: Bulbasaur
 mechanics:
@@ -1854,8 +1810,7 @@ types:
 - Grass
 hp: 40
 stage: Basic
-evo line: Caterpie
-legality: n
+legal: false
 filename: 45-caterpie
 pokemon: Caterpie
 mechanics:
@@ -1890,8 +1845,7 @@ types:
 - Fire
 hp: 50
 stage: Basic
-evo line: Charmander
-legality: y
+legal: true
 filename: 46-charmander
 orphan: 'stormfront: 101-charmander'
 pokemon: Charmander
@@ -1931,8 +1885,7 @@ types:
 - Fighting
 hp: 30
 stage: Basic
-evo line: Diglett
-legality: n
+legal: false
 filename: 47-diglett
 pokemon: Diglett
 mechanics:
@@ -1969,8 +1922,7 @@ types:
 - Colorless
 hp: 50
 stage: Basic
-evo line: Doduo
-legality: n
+legal: false
 filename: 48-doduo
 pokemon: Doduo
 mechanics:
@@ -2006,8 +1958,7 @@ types:
 - Psychic
 hp: 50
 stage: Basic
-evo line: Drowzee
-legality: n
+legal: false
 filename: 49-drowzee
 pokemon: Drowzee
 mechanics:
@@ -2046,8 +1997,7 @@ types:
 - Psychic
 hp: 30
 stage: Basic
-evo line: Gastly
-legality: n
+legal: false
 filename: 50-gastly
 pokemon: Gastly
 mechanics:
@@ -2084,8 +2034,7 @@ types:
 - Grass
 hp: 50
 stage: Basic
-evo line: Koffing
-legality: n
+legal: false
 filename: 51-koffing
 pokemon: Koffing
 mechanics:
@@ -2121,8 +2070,7 @@ types:
 - Fighting
 hp: 50
 stage: Basic
-evo line: Machop
-legality: n
+legal: false
 filename: 52-machop
 pokemon: Machop
 mechanics:
@@ -2155,8 +2103,7 @@ types:
 - Lightning
 hp: 40
 stage: Basic
-evo line: Magnemite
-legality: n
+legal: false
 filename: 53-magnemite
 pokemon: Magnemite
 mechanics:
@@ -2200,8 +2147,7 @@ types:
 hp: 70
 stage: Stage 1
 evolves from: Caterpie
-evo line: Caterpie
-legality: n
+legal: false
 filename: 54-metapod
 pokemon: Metapod
 mechanics:
@@ -2243,8 +2189,7 @@ types:
 - Grass
 hp: 40
 stage: Basic
-evo line: Nidoran M
-legality: n
+legal: false
 filename: 55-nidoran-m
 pokemon: Nidoran♂
 mechanics:
@@ -2279,8 +2224,7 @@ types:
 - Fighting
 hp: 90
 stage: Basic
-evo line: Onix
-legality: n
+legal: false
 filename: 56-onix
 pokemon: Onix
 mechanics:
@@ -2320,8 +2264,7 @@ types:
 - Colorless
 hp: 40
 stage: Basic
-evo line: Pidgey
-legality: n
+legal: false
 filename: 57-pidgey
 pokemon: Pidgey
 mechanics:
@@ -2358,8 +2301,7 @@ types:
 - Lightning
 hp: 40
 stage: Basic
-evo line: Pikachu
-legality: y
+legal: true
 filename: 58-pikachu
 orphan: 'pop-2: 16-pikachu'
 has-variant: 'base-set: 58-pikachu with red cheeks'
@@ -2400,8 +2342,7 @@ types:
 - Water
 hp: 40
 stage: Basic
-evo line: Poliwag
-legality: n
+legal: false
 filename: 59-poliwag
 pokemon: Poliwag
 mechanics:
@@ -2437,8 +2378,7 @@ types:
 - Fire
 hp: 40
 stage: Basic
-evo line: Ponyta
-legality: n
+legal: false
 filename: 60-ponyta
 pokemon: Ponyta
 mechanics:
@@ -2475,8 +2415,7 @@ types:
 - Colorless
 hp: 30
 stage: Basic
-evo line: Rattata
-legality: n
+legal: false
 filename: 61-rattata
 pokemon: Rattata
 mechanics:
@@ -2509,8 +2448,7 @@ types:
 - Fighting
 hp: 40
 stage: Basic
-evo line: Sandshrew
-legality: n
+legal: false
 filename: 62-sandshrew
 pokemon: Sandshrew
 mechanics:
@@ -2547,8 +2485,7 @@ types:
 - Water
 hp: 40
 stage: Basic
-evo line: Squirtle
-legality: n
+legal: false
 filename: 63-squirtle
 pokemon: Squirtle
 mechanics:
@@ -2591,8 +2528,7 @@ types:
 hp: 60
 stage: Stage 1
 evolves from: Staryu
-evo line: Staryu
-legality: n
+legal: false
 filename: 64-starmie
 pokemon: Starmie
 mechanics:
@@ -2633,8 +2569,7 @@ types:
 - Water
 hp: 40
 stage: Basic
-evo line: Staryu
-legality: n
+legal: false
 filename: 65-staryu
 pokemon: Staryu
 mechanics:
@@ -2667,8 +2602,7 @@ types:
 - Grass
 hp: 50
 stage: Basic
-evo line: Tangela
-legality: n
+legal: false
 filename: 66-tangela
 pokemon: Tangela
 mechanics:
@@ -2709,8 +2643,7 @@ types:
 - Lightning
 hp: 40
 stage: Basic
-evo line: Voltorb
-legality: n
+legal: false
 filename: 67-voltorb
 pokemon: Voltorb
 mechanics:
@@ -2743,8 +2676,7 @@ types:
 - Fire
 hp: 50
 stage: Basic
-evo line: Vulpix
-legality: n
+legal: false
 filename: 68-vulpix
 pokemon: Vulpix
 mechanics:
@@ -2779,8 +2711,7 @@ types:
 - Grass
 hp: 40
 stage: Basic
-evo line: Weedle
-legality: n
+legal: false
 filename: 69-weedle
 pokemon: Weedle
 mechanics:
@@ -2814,7 +2745,7 @@ class: P
 types:
 - Colorless
 hp: 10
-legality: n
+legal: false
 filename: 70-clefairy-doll
 mechanics:
 - type: effect
@@ -2834,7 +2765,7 @@ name: Computer Search
 rarity: rare
 holographic: false
 class: T
-legality: n
+legal: false
 filename: 71-computer-search
 mechanics:
 - type: effect
@@ -2850,7 +2781,7 @@ name: Devolution Spray
 rarity: rare
 holographic: false
 class: T
-legality: n
+legal: false
 filename: 72-devolution-spray
 mechanics:
 - type: effect
@@ -2868,7 +2799,7 @@ name: Impostor Professor Oak
 rarity: rare
 holographic: false
 class: T
-legality: n
+legal: false
 filename: 73-impostor-professor-oak
 mechanics:
 - type: effect
@@ -2883,7 +2814,7 @@ name: Item Finder
 rarity: rare
 holographic: false
 class: T
-legality: n
+legal: false
 filename: 74-item-finder
 mechanics:
 - type: effect
@@ -2898,7 +2829,7 @@ name: Lass
 rarity: rare
 holographic: false
 class: T
-legality: n
+legal: false
 filename: 75-lass
 mechanics:
 - type: effect
@@ -2913,7 +2844,7 @@ name: Pokémon Breeder
 rarity: rare
 holographic: false
 class: T
-legality: n
+legal: false
 filename: 76-pokemon-breeder
 mechanics:
 - type: effect
@@ -2929,7 +2860,7 @@ name: Pokémon Trader
 rarity: rare
 holographic: false
 class: T
-legality: n
+legal: false
 filename: 77-pokemon-trader
 mechanics:
 - type: effect
@@ -2945,7 +2876,7 @@ name: Scoop Up
 rarity: rare
 holographic: false
 class: T
-legality: n
+legal: false
 filename: 78-scoop-up
 mechanics:
 - type: effect
@@ -2961,7 +2892,7 @@ name: Super Energy Removal
 rarity: rare
 holographic: false
 class: T
-legality: n
+legal: false
 filename: 79-super-energy-removal
 mechanics:
 - type: effect
@@ -2977,7 +2908,7 @@ name: Defender
 rarity: uncommon
 holographic: false
 class: T
-legality: n
+legal: false
 filename: 80-defender
 mechanics:
 - type: effect
@@ -2993,7 +2924,7 @@ name: Energy Retrieval
 rarity: uncommon
 holographic: false
 class: T
-legality: n
+legal: false
 filename: 81-energy-retrieval
 mechanics:
 - type: effect
@@ -3008,7 +2939,7 @@ name: Full Heal
 rarity: uncommon
 holographic: false
 class: T
-legality: n
+legal: false
 filename: 82-full-heal
 mechanics:
 - type: effect
@@ -3023,7 +2954,7 @@ name: Maintenance
 rarity: uncommon
 holographic: false
 class: T
-legality: n
+legal: false
 filename: 83-maintenance
 mechanics:
 - type: effect
@@ -3038,7 +2969,7 @@ name: PlusPower
 rarity: uncommon
 holographic: false
 class: T
-legality: y
+legal: true
 filename: 84-pluspower
 dated: 'diamond-and-pearl: 109-pluspower'
 mechanics:
@@ -3056,7 +2987,7 @@ name: Pokémon Center
 rarity: uncommon
 holographic: false
 class: T
-legality: n
+legal: false
 filename: 85-pokemon-center
 mechanics:
 - type: effect
@@ -3072,7 +3003,7 @@ name: Pokémon Flute
 rarity: uncommon
 holographic: false
 class: T
-legality: n
+legal: false
 filename: 86-pokemon-flute
 mechanics:
 - type: effect
@@ -3088,7 +3019,7 @@ name: Pokédex
 rarity: uncommon
 holographic: false
 class: T
-legality: n
+legal: false
 filename: 87-pokedex
 mechanics:
 - type: effect
@@ -3103,7 +3034,7 @@ name: Professor Oak
 rarity: uncommon
 holographic: false
 class: T
-legality: n
+legal: false
 filename: 88-professor-oak
 mechanics:
 - type: effect
@@ -3117,7 +3048,7 @@ name: Revive
 rarity: uncommon
 holographic: false
 class: T
-legality: n
+legal: false
 filename: 89-revive
 mechanics:
 - type: effect
@@ -3134,7 +3065,7 @@ name: Super Potion
 rarity: uncommon
 holographic: false
 class: T
-legality: n
+legal: false
 filename: 90-super-potion
 mechanics:
 - type: effect
@@ -3149,7 +3080,7 @@ name: Bill
 rarity: common
 holographic: false
 class: T
-legality: n
+legal: false
 filename: 91-bill
 mechanics:
 - type: effect
@@ -3163,7 +3094,7 @@ name: Energy Removal
 rarity: common
 holographic: false
 class: T
-legality: n
+legal: false
 filename: 92-energy-removal
 mechanics:
 - type: effect
@@ -3178,7 +3109,7 @@ name: Gust of Wind
 rarity: common
 holographic: false
 class: T
-legality: n
+legal: false
 filename: 93-gust-of-wind
 mechanics:
 - type: effect
@@ -3193,7 +3124,7 @@ name: Potion
 rarity: common
 holographic: false
 class: T
-legality: y
+legal: true
 filename: 94-potion
 orphan: 'ex-ruby-and-sapphire: 91-potion'
 mechanics:
@@ -3208,7 +3139,7 @@ name: Switch
 rarity: common
 holographic: false
 class: T
-legality: y
+legal: true
 filename: 95-switch
 orphan: 'ex-ruby-and-sapphire: 92-switch'
 mechanics:
@@ -3224,7 +3155,7 @@ rarity: uncommon
 holographic: false
 class: E
 subclass: Special
-legality: n
+legal: false
 filename: 96-double-colorless-energy
 mechanics:
 - type: effect
@@ -3240,7 +3171,7 @@ rarity: none
 holographic: false
 class: E
 subclass: Basic
-legality: y
+legal: true
 filename: 97-fighting-energy
 mechanics:
 - type: effect
@@ -3255,7 +3186,7 @@ rarity: none
 holographic: false
 class: E
 subclass: Basic
-legality: y
+legal: true
 filename: 98-fire-energy
 mechanics:
 - type: effect
@@ -3270,7 +3201,7 @@ rarity: none
 holographic: false
 class: E
 subclass: Basic
-legality: y
+legal: true
 filename: 99-grass-energy
 mechanics:
 - type: effect
@@ -3285,7 +3216,7 @@ rarity: none
 holographic: false
 class: E
 subclass: Basic
-legality: y
+legal: true
 filename: 100-lightning-energy
 mechanics:
 - type: effect
@@ -3300,7 +3231,7 @@ rarity: none
 holographic: false
 class: E
 subclass: Basic
-legality: y
+legal: true
 filename: 101-psychic-energy
 mechanics:
 - type: effect
@@ -3315,7 +3246,7 @@ rarity: none
 holographic: false
 class: E
 subclass: Basic
-legality: y
+legal: true
 filename: 102-water-energy
 mechanics:
 - type: effect

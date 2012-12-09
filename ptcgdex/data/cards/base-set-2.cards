@@ -10,8 +10,7 @@ types:
 hp: 80
 stage: Stage 2
 evolves from: Kadabra
-evo line: Abra
-legality: n
+legal: false
 filename: 1-alakazam
 reprint of: 'base-set: 1-alakazam'
 pokemon: Alakazam
@@ -55,8 +54,7 @@ types:
 hp: 100
 stage: Stage 2
 evolves from: Wartortle
-evo line: Squirtle
-legality: n
+legal: false
 filename: 2-blastoise
 reprint of: 'base-set: 2-blastoise'
 pokemon: Blastoise
@@ -102,8 +100,7 @@ types:
 - Colorless
 hp: 120
 stage: Basic
-evo line: Happiny
-legality: n
+legal: false
 filename: 3-chansey
 reprint of: 'base-set: 3-chansey'
 pokemon: Chansey
@@ -147,8 +144,7 @@ types:
 hp: 120
 stage: Stage 2
 evolves from: Charmeleon
-evo line: Charmander
-legality: y
+legal: true
 filename: 4-charizard
 reprint of: 'base-set: 4-charizard'
 pokemon: Charizard
@@ -193,8 +189,7 @@ types:
 hp: 70
 stage: Stage 1
 evolves from: Clefairy
-evo line: Clefairy
-legality: n
+legal: false
 filename: 5-clefable
 reprint of: 'jungle: 1-clefable'
 pokemon: Clefable
@@ -239,8 +234,7 @@ types:
 - Colorless
 hp: 40
 stage: Basic
-evo line: Cleffa
-legality: n
+legal: false
 filename: 6-clefairy
 reprint of: 'base-set: 5-clefairy'
 pokemon: Clefairy
@@ -285,8 +279,7 @@ types:
 hp: 100
 stage: Stage 1
 evolves from: Magikarp
-evo line: Magikarp
-legality: n
+legal: false
 filename: 7-gyarados
 reprint of: 'base-set: 6-gyarados'
 pokemon: Gyarados
@@ -326,8 +319,7 @@ types:
 - Fighting
 hp: 70
 stage: Basic
-evo line: Tyrogue
-legality: y
+legal: true
 filename: 8-hitmonchan
 reprint of: 'base-set: 7-hitmonchan'
 pokemon: Hitmonchan
@@ -366,8 +358,7 @@ types:
 hp: 60
 stage: Stage 1
 evolves from: Magnemite
-evo line: Magnemite
-legality: n
+legal: false
 filename: 9-magneton
 reprint of: 'base-set: 9-magneton'
 pokemon: Magneton
@@ -411,8 +402,7 @@ types:
 - Psychic
 hp: 60
 stage: Basic
-evo line: Mewtwo
-legality: n
+legal: false
 filename: 10-mewtwo
 reprint of: 'base-set: 10-mewtwo'
 pokemon: Mewtwo
@@ -457,8 +447,7 @@ types:
 hp: 90
 stage: Stage 2
 evolves from: Nidorino
-evo line: Nidoran M
-legality: n
+legal: false
 filename: 11-nidoking
 reprint of: 'base-set: 11-nidoking'
 pokemon: Nidoking
@@ -505,8 +494,7 @@ types:
 hp: 90
 stage: Stage 2
 evolves from: Nidorina
-evo line: Nidoran F
-legality: n
+legal: false
 filename: 12-nidoqueen
 reprint of: 'jungle: 7-nidoqueen'
 pokemon: Nidoqueen
@@ -548,8 +536,7 @@ types:
 hp: 80
 stage: Stage 1
 evolves from: Vulpix
-evo line: Vulpix
-legality: n
+legal: false
 filename: 13-ninetales
 reprint of: 'base-set: 12-ninetales'
 pokemon: Ninetales
@@ -593,8 +580,7 @@ types:
 hp: 80
 stage: Stage 2
 evolves from: Pidgeotto
-evo line: Pidgey
-legality: n
+legal: false
 filename: 14-pidgeot
 reprint of: 'jungle: 8-pidgeot'
 pokemon: Pidgeot
@@ -637,8 +623,7 @@ types:
 hp: 90
 stage: Stage 2
 evolves from: Poliwhirl
-evo line: Poliwag
-legality: n
+legal: false
 filename: 15-poliwrath
 reprint of: 'base-set: 13-poliwrath'
 pokemon: Poliwrath
@@ -684,8 +669,7 @@ types:
 hp: 80
 stage: Stage 1
 evolves from: Pikachu
-evo line: Pichu
-legality: n
+legal: false
 filename: 16-raichu
 reprint of: 'base-set: 14-raichu'
 pokemon: Raichu
@@ -728,8 +712,7 @@ types:
 - Grass
 hp: 70
 stage: Basic
-evo line: Scyther
-legality: y
+legal: true
 filename: 17-scyther
 reprint of: 'jungle: 10-scyther'
 pokemon: Scyther
@@ -770,8 +753,7 @@ types:
 hp: 100
 stage: Stage 2
 evolves from: Ivysaur
-evo line: Bulbasaur
-legality: n
+legal: false
 filename: 18-venusaur
 reprint of: 'base-set: 15-venusaur'
 pokemon: Venusaur
@@ -813,8 +795,7 @@ types:
 hp: 80
 stage: Stage 1
 evolves from: Jigglypuff
-evo line: Jigglypuff
-legality: n
+legal: false
 filename: 19-wigglytuff
 reprint of: 'jungle: 16-wigglytuff'
 pokemon: Wigglytuff
@@ -856,8 +837,7 @@ types:
 - Lightning
 hp: 90
 stage: Basic
-evo line: Zapdos
-legality: n
+legal: false
 filename: 20-zapdos
 reprint of: 'base-set: 16-zapdos'
 pokemon: Zapdos
@@ -897,8 +877,7 @@ types:
 hp: 80
 stage: Stage 2
 evolves from: Kakuna
-evo line: Weedle
-legality: n
+legal: false
 filename: 21-beedrill
 reprint of: 'base-set: 17-beedrill'
 pokemon: Beedrill
@@ -941,8 +920,7 @@ types:
 hp: 80
 stage: Stage 1
 evolves from: Dratini
-evo line: Dratini
-legality: n
+legal: false
 filename: 22-dragonair
 reprint of: 'base-set: 18-dragonair'
 pokemon: Dragonair
@@ -982,8 +960,7 @@ types:
 hp: 70
 stage: Stage 1
 evolves from: Diglett
-evo line: Diglett
-legality: n
+legal: false
 filename: 23-dugtrio
 reprint of: 'base-set: 19-dugtrio'
 pokemon: Dugtrio
@@ -1024,8 +1001,7 @@ types:
 - Lightning
 hp: 70
 stage: Basic
-evo line: Elekid
-legality: y
+legal: true
 filename: 24-electabuzz
 reprint of: 'base-set: 20-electabuzz'
 pokemon: Electabuzz
@@ -1070,8 +1046,7 @@ types:
 hp: 80
 stage: Stage 1
 evolves from: Voltorb
-evo line: Voltorb
-legality: n
+legal: false
 filename: 25-electrode
 reprint of: 'base-set: 21-electrode'
 pokemon: Electrode
@@ -1116,8 +1091,7 @@ types:
 - Colorless
 hp: 90
 stage: Basic
-evo line: Kangaskhan
-legality: n
+legal: false
 filename: 26-kangaskhan
 reprint of: 'jungle: 21-kangaskhan'
 pokemon: Kangaskhan
@@ -1159,8 +1133,7 @@ types:
 - Psychic
 hp: 40
 stage: Basic
-evo line: Mr. Mime
-legality: n
+legal: false
 filename: 27-mr.-mime
 reprint of: 'jungle: 22-mr.-mime'
 pokemon: Mr. Mime
@@ -1206,8 +1179,7 @@ types:
 hp: 60
 stage: Stage 1
 evolves from: Pidgey
-evo line: Pidgey
-legality: n
+legal: false
 filename: 28-pidgeotto
 reprint of: 'base-set: 22-pidgeotto'
 pokemon: Pidgeotto
@@ -1251,8 +1223,7 @@ types:
 - Grass
 hp: 60
 stage: Basic
-evo line: Pinsir
-legality: n
+legal: false
 filename: 29-pinsir
 reprint of: 'jungle: 25-pinsir'
 pokemon: Pinsir
@@ -1292,8 +1263,7 @@ types:
 - Colorless
 hp: 90
 stage: Basic
-evo line: Snorlax
-legality: n
+legal: false
 filename: 30-snorlax
 reprint of: 'jungle: 27-snorlax'
 pokemon: Snorlax
@@ -1336,8 +1306,7 @@ types:
 hp: 70
 stage: Stage 1
 evolves from: Venonat
-evo line: Venonat
-legality: n
+legal: false
 filename: 31-venomoth
 reprint of: 'jungle: 29-venomoth'
 pokemon: Venomoth
@@ -1382,8 +1351,7 @@ types:
 hp: 80
 stage: Stage 2
 evolves from: Weepinbell
-evo line: Bellsprout
-legality: n
+legal: false
 filename: 32-victreebell
 reprint of: 'jungle: 30-victreebel'
 pokemon: Victreebel
@@ -1427,8 +1395,7 @@ types:
 hp: 100
 stage: Stage 1
 evolves from: Growlithe
-evo line: Growlithe
-legality: n
+legal: false
 filename: 33-arcanine
 reprint of: 'base-set: 23-arcanine'
 pokemon: Arcanine
@@ -1472,8 +1439,7 @@ types:
 hp: 70
 stage: Stage 2
 evolves from: Metapod
-evo line: Caterpie
-legality: n
+legal: false
 filename: 34-butterfree
 reprint of: 'jungle: 33-butterfree'
 pokemon: Butterfree
@@ -1520,8 +1486,7 @@ types:
 hp: 80
 stage: Stage 1
 evolves from: Charmander
-evo line: Charmander
-legality: y
+legal: true
 filename: 35-charmeleon
 reprint of: 'base-set: 24-charmeleon'
 pokemon: Charmeleon
@@ -1563,8 +1528,7 @@ types:
 hp: 80
 stage: Stage 1
 evolves from: Seel
-evo line: Seel
-legality: n
+legal: false
 filename: 36-dewgong
 reprint of: 'base-set: 25-dewgong'
 pokemon: Dewgong
@@ -1605,8 +1569,7 @@ types:
 hp: 70
 stage: Stage 1
 evolves from: Doduo
-evo line: Doduo
-legality: n
+legal: false
 filename: 37-dodrio
 reprint of: 'jungle: 34-dodrio'
 pokemon: Dodrio
@@ -1648,8 +1611,7 @@ types:
 - Colorless
 hp: 40
 stage: Basic
-evo line: Dratini
-legality: n
+legal: false
 filename: 38-dratini
 reprint of: 'base-set: 26-dratini'
 pokemon: Dratini
@@ -1680,8 +1642,7 @@ types:
 hp: 80
 stage: Stage 1
 evolves from: Exeggcute
-evo line: Exeggcute
-legality: n
+legal: false
 filename: 39-exeggutor
 reprint of: 'jungle: 35-exeggutor'
 pokemon: Exeggutor
@@ -1724,8 +1685,7 @@ types:
 - Colorless
 hp: 50
 stage: Basic
-evo line: Farfetch'd
-legality: n
+legal: false
 filename: 40-farfetch'd
 reprint of: 'base-set: 27-farfetch''d'
 pokemon: Farfetch'd
@@ -1769,8 +1729,7 @@ types:
 hp: 70
 stage: Stage 1
 evolves from: Spearow
-evo line: Spearow
-legality: n
+legal: false
 filename: 41-fearow
 reprint of: 'jungle: 36-fearow'
 pokemon: Fearow
@@ -1811,8 +1770,7 @@ types:
 - Fire
 hp: 60
 stage: Basic
-evo line: Growlithe
-legality: n
+legal: false
 filename: 42-growlithe
 reprint of: 'base-set: 28-growlithe'
 pokemon: Growlithe
@@ -1847,8 +1805,7 @@ types:
 hp: 60
 stage: Stage 1
 evolves from: Gastly
-evo line: Gastly
-legality: n
+legal: false
 filename: 43-haunter
 reprint of: 'base-set: 29-haunter'
 pokemon: Haunter
@@ -1887,8 +1844,7 @@ types:
 hp: 60
 stage: Stage 1
 evolves from: Bulbasaur
-evo line: Bulbasaur
-legality: n
+legal: false
 filename: 44-ivysaur
 reprint of: 'base-set: 30-ivysaur'
 pokemon: Ivysaur
@@ -1928,8 +1884,7 @@ types:
 - Psychic
 hp: 70
 stage: Basic
-evo line: Smoochum
-legality: n
+legal: false
 filename: 45-jynx
 reprint of: 'base-set: 31-jynx'
 pokemon: Jynx
@@ -1974,8 +1929,7 @@ types:
 hp: 60
 stage: Stage 1
 evolves from: Abra
-evo line: Abra
-legality: n
+legal: false
 filename: 46-kadabra
 reprint of: 'base-set: 32-kadabra'
 pokemon: Kadabra
@@ -2016,8 +1970,7 @@ types:
 hp: 80
 stage: Stage 1
 evolves from: Weedle
-evo line: Weedle
-legality: n
+legal: false
 filename: 47-kakuna
 reprint of: 'base-set: 33-kakuna'
 pokemon: Kakuna
@@ -2060,8 +2013,7 @@ types:
 - Colorless
 hp: 90
 stage: Basic
-evo line: Lickitung
-legality: n
+legal: false
 filename: 48-lickitung
 reprint of: 'jungle: 38-lickitung'
 pokemon: Lickitung
@@ -2103,8 +2055,7 @@ types:
 hp: 80
 stage: Stage 1
 evolves from: Machop
-evo line: Machop
-legality: n
+legal: false
 filename: 49-machoke
 reprint of: 'base-set: 34-machoke'
 pokemon: Machoke
@@ -2147,8 +2098,7 @@ types:
 - Water
 hp: 30
 stage: Basic
-evo line: Magikarp
-legality: n
+legal: false
 filename: 50-magikarp
 reprint of: 'base-set: 35-magikarp'
 pokemon: Magikarp
@@ -2188,8 +2138,7 @@ types:
 - Fire
 hp: 50
 stage: Basic
-evo line: Magby
-legality: n
+legal: false
 filename: 51-magmar
 reprint of: 'base-set: 36-magmar'
 pokemon: Magmar
@@ -2231,8 +2180,7 @@ types:
 hp: 60
 stage: Stage 1
 evolves from: Cubone
-evo line: Cubone
-legality: n
+legal: false
 filename: 52-marowak
 reprint of: 'jungle: 39-marowak'
 pokemon: Marowak
@@ -2277,8 +2225,7 @@ types:
 hp: 70
 stage: Stage 1
 evolves from: Nidoran F
-evo line: Nidoran F
-legality: n
+legal: false
 filename: 53-nidorina
 reprint of: 'jungle: 40-nidorina'
 pokemon: Nidorina
@@ -2321,8 +2268,7 @@ types:
 hp: 60
 stage: Stage 1
 evolves from: Nidoran M
-evo line: Nidoran M
-legality: n
+legal: false
 filename: 54-nidorino
 reprint of: 'base-set: 37-nidorino'
 pokemon: Nidorino
@@ -2363,8 +2309,7 @@ types:
 hp: 60
 stage: Stage 1
 evolves from: Paras
-evo line: Paras
-legality: n
+legal: false
 filename: 55-parasect
 reprint of: 'jungle: 41-parasect'
 pokemon: Parasect
@@ -2404,8 +2349,7 @@ types:
 hp: 70
 stage: Stage 1
 evolves from: Meowth
-evo line: Meowth
-legality: n
+legal: false
 filename: 56-persian
 reprint of: 'jungle: 42-persian'
 pokemon: Persian
@@ -2449,8 +2393,7 @@ types:
 hp: 60
 stage: Stage 1
 evolves from: Poliwag
-evo line: Poliwag
-legality: n
+legal: false
 filename: 57-poliwhirl
 reprint of: 'base-set: 38-poliwhirl'
 pokemon: Poliwhirl
@@ -2493,8 +2436,7 @@ types:
 hp: 60
 stage: Stage 1
 evolves from: Rattata
-evo line: Rattata
-legality: n
+legal: false
 filename: 58-raticate
 reprint of: 'base-set: 40-raticate'
 pokemon: Raticate
@@ -2536,8 +2478,7 @@ types:
 hp: 100
 stage: Stage 1
 evolves from: Rhyhorn
-evo line: Rhyhorn
-legality: n
+legal: false
 filename: 59-rhydon
 reprint of: 'jungle: 45-rhydon'
 pokemon: Rhydon
@@ -2582,8 +2523,7 @@ types:
 hp: 70
 stage: Stage 1
 evolves from: Goldeen
-evo line: Goldeen
-legality: n
+legal: false
 filename: 60-seaking
 reprint of: 'jungle: 46-seaking'
 pokemon: Seaking
@@ -2621,8 +2561,7 @@ types:
 - Water
 hp: 60
 stage: Basic
-evo line: Seel
-legality: n
+legal: false
 filename: 61-seel
 reprint of: 'base-set: 41-seel'
 pokemon: Seel
@@ -2656,8 +2595,7 @@ types:
 - Colorless
 hp: 60
 stage: Basic
-evo line: Tauros
-legality: n
+legal: false
 filename: 62-tauros
 reprint of: 'jungle: 47-tauros'
 pokemon: Tauros
@@ -2703,8 +2641,7 @@ types:
 hp: 70
 stage: Stage 1
 evolves from: Squirtle
-evo line: Squirtle
-legality: n
+legal: false
 filename: 63-wartortle
 reprint of: 'base-set: 42-wartortle'
 pokemon: Wartortle
@@ -2746,8 +2683,7 @@ types:
 hp: 70
 stage: Stage 1
 evolves from: Bellsprout
-evo line: Bellsprout
-legality: n
+legal: false
 filename: 64-weepinbell
 reprint of: 'jungle: 48-weepinbell'
 pokemon: Weepinbell
@@ -2787,8 +2723,7 @@ types:
 - Psychic
 hp: 30
 stage: Basic
-evo line: Abra
-legality: n
+legal: false
 filename: 65-abra
 reprint of: 'base-set: 43-abra'
 pokemon: Abra
@@ -2824,8 +2759,7 @@ types:
 - Grass
 hp: 40
 stage: Basic
-evo line: Bellsprout
-legality: n
+legal: false
 filename: 66-bellsprout
 reprint of: 'jungle: 49-bellsprout'
 pokemon: Bellsprout
@@ -2866,8 +2800,7 @@ types:
 - Grass
 hp: 40
 stage: Basic
-evo line: Bulbasaur
-legality: n
+legal: false
 filename: 67-bulbasaur
 reprint of: 'base-set: 44-bulbasaur'
 pokemon: Bulbasaur
@@ -2904,8 +2837,7 @@ types:
 - Grass
 hp: 40
 stage: Basic
-evo line: Caterpie
-legality: n
+legal: false
 filename: 68-caterpie
 reprint of: 'base-set: 45-caterpie'
 pokemon: Caterpie
@@ -2941,8 +2873,7 @@ types:
 - Fire
 hp: 50
 stage: Basic
-evo line: Charmander
-legality: y
+legal: true
 filename: 69-charmander
 reprint of: 'base-set: 46-charmander'
 pokemon: Charmander
@@ -2982,8 +2913,7 @@ types:
 - Fighting
 hp: 40
 stage: Basic
-evo line: Cubone
-legality: n
+legal: false
 filename: 70-cubone
 reprint of: 'jungle: 50-cubone'
 pokemon: Cubone
@@ -3028,8 +2958,7 @@ types:
 - Fighting
 hp: 30
 stage: Basic
-evo line: Diglett
-legality: n
+legal: false
 filename: 71-diglett
 reprint of: 'base-set: 47-diglett'
 pokemon: Diglett
@@ -3067,8 +2996,7 @@ types:
 - Colorless
 hp: 50
 stage: Basic
-evo line: Doduo
-legality: n
+legal: false
 filename: 72-doduo
 reprint of: 'base-set: 48-doduo'
 pokemon: Doduo
@@ -3105,8 +3033,7 @@ types:
 - Psychic
 hp: 50
 stage: Basic
-evo line: Drowzee
-legality: n
+legal: false
 filename: 73-drowzee
 reprint of: 'base-set: 49-drowzee'
 pokemon: Drowzee
@@ -3146,8 +3073,7 @@ types:
 - Grass
 hp: 50
 stage: Basic
-evo line: Exeggcute
-legality: n
+legal: false
 filename: 74-exeggcute
 reprint of: 'jungle: 52-exeggcute'
 pokemon: Exeggcute
@@ -3189,8 +3115,7 @@ types:
 - Psychic
 hp: 30
 stage: Basic
-evo line: Gastly
-legality: n
+legal: false
 filename: 75-gastly
 reprint of: 'base-set: 50-gastly'
 pokemon: Gastly
@@ -3228,8 +3153,7 @@ types:
 - Water
 hp: 40
 stage: Basic
-evo line: Goldeen
-legality: n
+legal: false
 filename: 76-goldeen
 reprint of: 'jungle: 53-goldeen'
 pokemon: Goldeen
@@ -3263,8 +3187,7 @@ types:
 - Colorless
 hp: 60
 stage: Basic
-evo line: Jigglypuff
-legality: n
+legal: false
 filename: 77-jigglypuff
 reprint of: 'jungle: 54-jigglypuff'
 pokemon: Jigglypuff
@@ -3303,8 +3226,7 @@ types:
 - Fighting
 hp: 50
 stage: Basic
-evo line: Machop
-legality: n
+legal: false
 filename: 78-machop
 reprint of: 'base-set: 52-machop'
 pokemon: Machop
@@ -3338,8 +3260,7 @@ types:
 - Lightning
 hp: 40
 stage: Basic
-evo line: Magnemite
-legality: n
+legal: false
 filename: 79-magnemite
 reprint of: 'base-set: 53-magnemite'
 pokemon: Magnemite
@@ -3383,8 +3304,7 @@ types:
 - Colorless
 hp: 50
 stage: Basic
-evo line: Meowth
-legality: n
+legal: false
 filename: 80-meowth
 reprint of: 'jungle: 56-meowth'
 pokemon: Meowth
@@ -3421,8 +3341,7 @@ types:
 hp: 70
 stage: Stage 1
 evolves from: Caterpie
-evo line: Caterpie
-legality: n
+legal: false
 filename: 81-metapod
 reprint of: 'base-set: 54-metapod'
 pokemon: Metapod
@@ -3465,8 +3384,7 @@ types:
 - Grass
 hp: 60
 stage: Basic
-evo line: Nidoran F
-legality: n
+legal: false
 filename: 82-nidoran-f
 reprint of: 'jungle: 57-nidoran-f'
 pokemon: Nidoran♀
@@ -3510,8 +3428,7 @@ types:
 - Grass
 hp: 40
 stage: Basic
-evo line: Nidoran M
-legality: n
+legal: false
 filename: 83-nidoran-m
 reprint of: 'base-set: 55-nidoran-m'
 pokemon: Nidoran♂
@@ -3547,8 +3464,7 @@ types:
 - Fighting
 hp: 90
 stage: Basic
-evo line: Onix
-legality: n
+legal: false
 filename: 84-onix
 reprint of: 'base-set: 56-onix'
 pokemon: Onix
@@ -3589,8 +3505,7 @@ types:
 - Grass
 hp: 40
 stage: Basic
-evo line: Paras
-legality: n
+legal: false
 filename: 85-paras
 reprint of: 'jungle: 59-paras'
 pokemon: Paras
@@ -3629,8 +3544,7 @@ types:
 - Colorless
 hp: 40
 stage: Basic
-evo line: Pidgey
-legality: n
+legal: false
 filename: 86-pidgey
 reprint of: 'base-set: 57-pidgey'
 pokemon: Pidgey
@@ -3668,8 +3582,7 @@ types:
 - Lightning
 hp: 40
 stage: Basic
-evo line: Pikachu
-legality: n
+legal: false
 filename: 87-pikachu
 reprint of: 'base-set: 58-pikachu'
 pokemon: Pikachu
@@ -3709,8 +3622,7 @@ types:
 - Water
 hp: 40
 stage: Basic
-evo line: Poliwag
-legality: n
+legal: false
 filename: 88-poliwag
 reprint of: 'base-set: 59-poliwag'
 pokemon: Poliwag
@@ -3747,8 +3659,7 @@ types:
 - Colorless
 hp: 30
 stage: Basic
-evo line: Rattata
-legality: n
+legal: false
 filename: 89-rattata
 reprint of: 'base-set: 61-rattata'
 pokemon: Rattata
@@ -3782,8 +3693,7 @@ types:
 - Fighting
 hp: 70
 stage: Basic
-evo line: Rhyhorn
-legality: n
+legal: false
 filename: 90-rhyhorn
 reprint of: 'jungle: 61-rhyhorn'
 pokemon: Rhyhorn
@@ -3824,8 +3734,7 @@ types:
 - Fighting
 hp: 40
 stage: Basic
-evo line: Sandshrew
-legality: n
+legal: false
 filename: 91-sandshrew
 reprint of: 'base-set: 62-sandshrew'
 pokemon: Sandshrew
@@ -3863,8 +3772,7 @@ types:
 - Colorless
 hp: 50
 stage: Basic
-evo line: Spearow
-legality: n
+legal: false
 filename: 92-spearow
 reprint of: 'jungle: 62-spearow'
 pokemon: Spearow
@@ -3904,8 +3812,7 @@ types:
 - Water
 hp: 40
 stage: Basic
-evo line: Squirtle
-legality: n
+legal: false
 filename: 93-squirtle
 reprint of: 'base-set: 63-squirtle'
 pokemon: Squirtle
@@ -3949,8 +3856,7 @@ types:
 hp: 60
 stage: Stage 1
 evolves from: Staryu
-evo line: Staryu
-legality: n
+legal: false
 filename: 94-starmie
 reprint of: 'base-set: 64-starmie'
 pokemon: Starmie
@@ -3992,8 +3898,7 @@ types:
 - Water
 hp: 40
 stage: Basic
-evo line: Staryu
-legality: n
+legal: false
 filename: 95-staryu
 reprint of: 'base-set: 65-staryu'
 pokemon: Staryu
@@ -4027,8 +3932,7 @@ types:
 - Grass
 hp: 50
 stage: Basic
-evo line: Tangela
-legality: n
+legal: false
 filename: 96-tangela
 reprint of: 'base-set: 66-tangela'
 pokemon: Tangela
@@ -4070,8 +3974,7 @@ types:
 - Grass
 hp: 40
 stage: Basic
-evo line: Venonat
-legality: n
+legal: false
 filename: 97-venonat
 reprint of: 'jungle: 63-venonat'
 pokemon: Venonat
@@ -4115,8 +4018,7 @@ types:
 - Lightning
 hp: 40
 stage: Basic
-evo line: Voltorb
-legality: n
+legal: false
 filename: 98-voltorb
 reprint of: 'base-set: 67-voltorb'
 pokemon: Voltorb
@@ -4150,8 +4052,7 @@ types:
 - Fire
 hp: 50
 stage: Basic
-evo line: Vulpix
-legality: n
+legal: false
 filename: 99-vulpix
 reprint of: 'base-set: 68-vulpix'
 pokemon: Vulpix
@@ -4187,8 +4088,7 @@ types:
 - Grass
 hp: 40
 stage: Basic
-evo line: Weedle
-legality: n
+legal: false
 filename: 100-weedle
 reprint of: 'base-set: 69-weedle'
 pokemon: Weedle
@@ -4220,7 +4120,7 @@ name: Computer Search
 rarity: rare
 holographic: false
 class: T
-legality: n
+legal: false
 filename: 101-computer-search
 reprint of: 'base-set: 71-computer-search'
 mechanics:
@@ -4237,7 +4137,7 @@ name: Impostor Professor Oak
 rarity: rare
 holographic: false
 class: T
-legality: n
+legal: false
 filename: 102-impostor-professor-oak
 reprint of: 'base-set: 73-impostor-professor-oak'
 mechanics:
@@ -4253,7 +4153,7 @@ name: Item Finder
 rarity: rare
 holographic: false
 class: T
-legality: n
+legal: false
 filename: 103-item-finder
 reprint of: 'base-set: 74-item-finder'
 mechanics:
@@ -4269,7 +4169,7 @@ name: Lass
 rarity: rare
 holographic: false
 class: T
-legality: n
+legal: false
 filename: 104-lass
 reprint of: 'base-set: 75-lass'
 mechanics:
@@ -4285,7 +4185,7 @@ name: Pokémon Breeder
 rarity: rare
 holographic: false
 class: T
-legality: n
+legal: false
 filename: 105-pokemon-breeder
 reprint of: 'base-set: 76-pokemon-breeder'
 mechanics:
@@ -4302,7 +4202,7 @@ name: Pokémon Trader
 rarity: rare
 holographic: false
 class: T
-legality: n
+legal: false
 filename: 106-pokemon-trader
 reprint of: 'base-set: 77-pokemon-trader'
 mechanics:
@@ -4319,7 +4219,7 @@ name: Scoop Up
 rarity: rare
 holographic: false
 class: T
-legality: n
+legal: false
 filename: 107-scoop-up
 reprint of: 'base-set: 78-scoop-up'
 mechanics:
@@ -4336,7 +4236,7 @@ name: Super Energy Removal
 rarity: rare
 holographic: false
 class: T
-legality: n
+legal: false
 filename: 108-super-energy-removal
 reprint of: 'base-set: 79-super-energy-removal'
 mechanics:
@@ -4353,7 +4253,7 @@ name: Defender
 rarity: uncommon
 holographic: false
 class: T
-legality: n
+legal: false
 filename: 109-defender
 reprint of: 'base-set: 80-defender'
 mechanics:
@@ -4370,7 +4270,7 @@ name: Energy Retrieval
 rarity: uncommon
 holographic: false
 class: T
-legality: n
+legal: false
 filename: 110-energy-retrieval
 reprint of: 'base-set: 81-energy-retrieval'
 mechanics:
@@ -4386,7 +4286,7 @@ name: Full Heal
 rarity: uncommon
 holographic: false
 class: T
-legality: n
+legal: false
 filename: 111-full-heal
 reprint of: 'base-set: 82-full-heal'
 mechanics:
@@ -4402,7 +4302,7 @@ name: Maintenance
 rarity: uncommon
 holographic: false
 class: T
-legality: n
+legal: false
 filename: 112-maintenance
 reprint of: 'base-set: 83-maintenance'
 mechanics:
@@ -4418,7 +4318,7 @@ name: PlusPower
 rarity: uncommon
 holographic: false
 class: T
-legality: n
+legal: false
 filename: 113-pluspower
 reprint of: 'base-set: 84-pluspower'
 mechanics:
@@ -4436,7 +4336,7 @@ name: Pokémon Center
 rarity: uncommon
 holographic: false
 class: T
-legality: n
+legal: false
 filename: 114-pokemon-center
 reprint of: 'base-set: 85-pokemon-center'
 mechanics:
@@ -4453,7 +4353,7 @@ name: Pokédex
 rarity: uncommon
 holographic: false
 class: T
-legality: n
+legal: false
 filename: 115-pokedex
 reprint of: 'base-set: 87-pokedex'
 mechanics:
@@ -4469,7 +4369,7 @@ name: Professor Oak
 rarity: uncommon
 holographic: false
 class: T
-legality: n
+legal: false
 filename: 116-professor-oak
 reprint of: 'base-set: 88-professor-oak'
 mechanics:
@@ -4484,7 +4384,7 @@ name: Super Potion
 rarity: uncommon
 holographic: false
 class: T
-legality: n
+legal: false
 filename: 117-super-potion
 reprint of: 'base-set: 90-super-potion'
 mechanics:
@@ -4500,7 +4400,7 @@ name: Bill
 rarity: common
 holographic: false
 class: T
-legality: n
+legal: false
 filename: 118-bill
 reprint of: 'base-set: 91-bill'
 mechanics:
@@ -4515,7 +4415,7 @@ name: Energy Removal
 rarity: common
 holographic: false
 class: T
-legality: n
+legal: false
 filename: 119-energy-removal
 reprint of: 'base-set: 92-energy-removal'
 mechanics:
@@ -4531,7 +4431,7 @@ name: Gust of Wind
 rarity: common
 holographic: false
 class: T
-legality: n
+legal: false
 filename: 120-gust-of-wind
 reprint of: 'base-set: 93-gust-of-wind'
 mechanics:
@@ -4547,7 +4447,7 @@ name: Poké Ball
 rarity: common
 holographic: false
 class: T
-legality: y
+legal: true
 filename: 121-poke-ball
 reprint of: 'jungle: 64-poke-ball'
 mechanics:
@@ -4564,7 +4464,7 @@ name: Potion
 rarity: common
 holographic: false
 class: T
-legality: y
+legal: true
 filename: 122-potion
 reprint of: 'base-set: 94-potion'
 mechanics:
@@ -4579,7 +4479,7 @@ name: Switch
 rarity: common
 holographic: false
 class: T
-legality: y
+legal: true
 filename: 123-switch
 reprint of: 'base-set: 95-switch'
 mechanics:
@@ -4595,7 +4495,7 @@ rarity: uncommon
 holographic: false
 class: E
 subclass: Special
-legality: n
+legal: false
 filename: 124-double-colorless-energy
 reprint of: 'base-set: 96-double-colorless-energy'
 mechanics:
@@ -4612,7 +4512,7 @@ rarity: none
 holographic: false
 class: E
 subclass: Basic
-legality: y
+legal: true
 filename: 125-fighting-energy
 reprint of: 'base-set: 97-fighting-energy'
 mechanics:
@@ -4628,7 +4528,7 @@ rarity: none
 holographic: false
 class: E
 subclass: Basic
-legality: y
+legal: true
 filename: 126-fire-energy
 reprint of: 'base-set: 98-fire-energy'
 mechanics:
@@ -4644,7 +4544,7 @@ rarity: none
 holographic: false
 class: E
 subclass: Basic
-legality: y
+legal: true
 filename: 127-grass-energy
 reprint of: 'base-set: 99-grass-energy'
 mechanics:
@@ -4660,7 +4560,7 @@ rarity: none
 holographic: false
 class: E
 subclass: Basic
-legality: y
+legal: true
 filename: 128-lightning-energy
 reprint of: 'base-set: 100-lightning-energy'
 mechanics:
@@ -4676,7 +4576,7 @@ rarity: none
 holographic: false
 class: E
 subclass: Basic
-legality: y
+legal: true
 filename: 129-psychic-energy
 reprint of: 'base-set: 101-psychic-energy'
 mechanics:
@@ -4692,7 +4592,7 @@ rarity: none
 holographic: false
 class: E
 subclass: Basic
-legality: y
+legal: true
 filename: 130-water-energy
 reprint of: 'base-set: 102-water-energy'
 mechanics:

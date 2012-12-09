@@ -162,8 +162,8 @@ def main(infile, destdir=None):
         simple_out('evolves from', 'evolves-from')
         simple_out('evolves into', 'evolves-into')
 
-        simple_out('evo line', 'evo-line')
-        simple_out('legality', 'legal')
+        pop('evo-line')
+        simple_out('legal', 'legal', convertor=lambda el: el == 'y')
         simple_out('filename', 'filename')
         simple_out('orphan', 'orphan')
         simple_out('has-variant', 'has-variant')

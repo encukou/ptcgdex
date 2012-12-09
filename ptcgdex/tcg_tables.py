@@ -36,6 +36,10 @@ class Card(TableBase):
         nullable=True,
         info=dict(description="ID of type the card is resistant to, if any"))
 
+    # TODO: legal is non-normal, but so far we lack data to compute it
+    legal = Column(Boolean, nullable=False,
+        info=dict(description="The card's legality in Modified"))
+
     @property
     def types(self):
         return tuple(ct.type for ct in self.card_types)
