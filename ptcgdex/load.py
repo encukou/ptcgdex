@@ -154,12 +154,6 @@ def load_sets(session, directory, set_names=None, verbose=True):
 
             weak_info = card_info.pop('weakness', None)
 
-            if 'subclass' in card_info:
-                card_subclass = util.get(session, tcg_tables.Subclass,
-                                         name=card_info.pop('subclass'))
-            else:
-                card_subclass = None
-
             card_family = get_family(session, en, card_name)
 
             # Find/make corresponding card
@@ -180,6 +174,7 @@ def load_sets(session, directory, set_names=None, verbose=True):
                 # TODO: weak_info
                 # TODO: card_subclass
                 # TODO: evolutions
+                # TODO: subclasses
                 break
             else:
                 card = None
@@ -273,10 +268,21 @@ def load_sets(session, directory, set_names=None, verbose=True):
                         operation, operation)
                     session.add(weakness)
 
-                if card_subclass:
+                for subclass_index, subclass_name in enumerate(
+                        card_info.pop('subclasses', ())):
+                    try:
+                        subclass = util.get(session, tcg_tables.Subclass,
+                                            name=subclass_name)
+                    except NoResultFound:
+                        subclass = tcg_tables.Subclass()
+                        subclass.identifier = identifier_from_name(
+                            subclass_name)
+                        subclass.name_map[en] = subclass_name
+                        session.add(subclass)
                     link = tcg_tables.CardSubclass()
                     link.card = card
-                    link.subclass = card_subclass
+                    link.subclass = subclass
+                    link.order = subclass_index
                     session.add(link)
 
                 evolves_from = card_info.pop('evolves from', None)
@@ -387,8 +393,6 @@ def dump_set(tcg_set, outfile, verbose=True):
             ('types', [t.name for t in card.types]),
             ('hp', card.hp),
         ])
-        if card.subclasses:
-            [card_info['subclass']] = [sc.name for sc in card.subclasses]
         if card.stage:
             card_info['stage'] = card.stage.name
         if card.evolutions:
@@ -398,6 +402,7 @@ def dump_set(tcg_set, outfile, verbose=True):
         [card_info['filename']] = [s.filename for s in print_.scans]
         if flavor and flavor.species:
             card_info['pokemon'] = flavor.species.name
+        card_info['subclasses'] = [sc.name for sc in card.subclasses]
         card_info['mechanics'] = [export_mechanic(cm.mechanic) for cm
                                   in card.card_mechanics]
 

@@ -151,7 +151,6 @@ class Subclass(TableBase):
     """Trainer type (Item, Stadium, Supporter, ace spec, etc)"""
     __tablename__ = 'tcg_subclasses'
     __singlename__ = 'tcg_subclass'
-    load_from_csv = True
 
     id = make_id()
     identifier = make_identifier(10)
@@ -169,6 +168,8 @@ class CardSubclass(TableBase):
     subclass_id = Column(Integer, ForeignKey('tcg_subclasses.id'),
         nullable=False, primary_key=True,
         info=dict(description="The ID of the subclass"))
+    order = Column(Integer, nullable=False,
+        info=dict(description="Order of appearace on card"))
 
 class Mechanic(TableBase):
     # Card Mechanic, Attack, PokéPower, PokéBody, Ability, Poké-Item, Text
