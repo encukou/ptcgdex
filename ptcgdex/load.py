@@ -115,7 +115,8 @@ def load_sets(session, directory, set_names=None, verbose=True):
         for card_index, card_info in enumerate(cards):
 
             assert tcg_set.identifier == card_info.pop('set')
-            print_status('{}/{}'.format(card_index, len(cards)))
+            card_name = card_info.pop('name')
+            print_status('{}/{} {}'.format(card_index, len(cards), card_name))
 
             # Exists already? Remove it
             query = session.query(tcg_tables.Print)
@@ -131,8 +132,6 @@ def load_sets(session, directory, set_names=None, verbose=True):
                 session.delete(previous)
 
             # Card bits
-            card_name = card_info.pop('name')
-
             if 'stage' in card_info:
                 stage = util.get(session, tcg_tables.Stage,
                                  name=card_info.pop('stage'))
@@ -296,6 +295,16 @@ def load_sets(session, directory, set_names=None, verbose=True):
                     link.family_to_card = True
                     session.add(link)
 
+                evolves_into = card_info.pop('evolves into', None)
+                if evolves_into:
+                    family = get_family(session, en, evolves_into)
+                    link = tcg_tables.Evolution()
+                    link.card = card
+                    link.family = family
+                    link.order = 0
+                    link.family_to_card = False
+                    session.add(link)
+
             # Print bits
             illustrator_name = card_info.pop('illustrator')
             try:
@@ -397,8 +406,12 @@ def dump_set(tcg_set, outfile, verbose=True):
         if card.stage:
             card_info['stage'] = card.stage.name
         if card.evolutions:
-            [card_info['evolves from']] = [
-                e.family.name for e in card.evolutions]
+            assert len(card.evolutions) == 1  # TODO
+            for evo in card.evolutions:
+                if evo.family_to_card:
+                    card_info['evolves from'] = evo.family.name
+                else:
+                    card_info['evolves into'] = evo.family.name
         card_info['legal'] = card.legal
         [card_info['filename']] = [s.filename for s in print_.scans]
         if flavor and flavor.species:
