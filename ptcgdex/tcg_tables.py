@@ -35,9 +35,6 @@ class Card(TableBase):
         info=dict(description="The card's HP, if any"))
     retreat_cost = Column(Integer, nullable=True,
         info=dict(description="The card retreat cost, if any"))
-    resistance_type_id = Column(Integer, ForeignKey('tcg_types.id'),
-        nullable=True,
-        info=dict(description="ID of type the card is resistant to, if any"))
 
     # TODO: legal is non-normal, but so far we lack data to compute it
     legal = Column(Boolean, nullable=False,
@@ -254,15 +251,16 @@ class CardMechanic(TableBase):
     order = Column(Integer, primary_key=True, nullable=False,
         info=dict(description=u"Order of appearance on card."))
 
-class Weakness(TableBase):
-    __tablename__ = 'tcg_weaknesses'
-    __singlename__ = 'tcg_weakness'
+class DamageModifier(TableBase):
+    """Damage modifiers such as Weaknesses and Resistances"""
+    __tablename__ = 'tcg_damage_modifiers'
+    __singlename__ = 'tcg_damage_modifier'
     card_id = Column(Integer, ForeignKey('tcg_cards.id'),
         primary_key=True, nullable=False,
         info=dict(description=u"The ID of the card"))
     type_id = Column(Integer, ForeignKey('tcg_types.id'),
         primary_key=True, nullable=False,
-        info=dict(description=u"The type of Energy this card is weak to"))
+        info=dict(description=u"The type this card is weak/resistant to"))
     operation = Column(Unicode(2), nullable=False,
         info=dict(description=u"The operator in the damage adjustment"))
     amount = Column(Integer, nullable=False,
@@ -373,7 +371,6 @@ tcg_classes = [c for c in dex_tables.mapped_classes if
 
 Card.class_ = relationship(Class, backref='cards')
 Card.stage = relationship(Stage, backref='cards')
-Card.resistance_type = relationship(TCGType, backref='resistant_cards')
 Card.family = relationship(CardFamily, backref='cards')
 
 Print.card = relationship(Card, backref='prints')
@@ -398,9 +395,9 @@ MechanicCost.mechanic = relationship(Mechanic, backref=backref(
     'costs', order_by=MechanicCost.order.asc()))
 MechanicCost.type = relationship(TCGType)
 
-Weakness.card = relationship(Card, backref=backref(
-    'weaknesses', order_by=Weakness.order.asc()))
-Weakness.type = relationship(TCGType, backref='weaknesses')
+DamageModifier.card = relationship(Card, backref=backref(
+    'damage_modifiers', order_by=DamageModifier.order.asc()))
+DamageModifier.type = relationship(TCGType, backref='damage_modifiers')
 
 CardMechanic.card = relationship(Card, backref=backref(
     'card_mechanics', order_by=CardMechanic.order.asc()))
