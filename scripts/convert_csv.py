@@ -86,6 +86,9 @@ def munge_errors(data):
         elif data['set'] == 'legendary-collection' and data['num'].startswith('S'):
             data['class'] = 'P'
 
+    if data['set'] == 'ex-team-magma-vs.-team-aqua':
+        data['set'] = 'ex-team-magma-vs-team-aqua'
+
 @contextmanager
 def nonempty_setter(target_dict, name, default=None):
     if default is None:
