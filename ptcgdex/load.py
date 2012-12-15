@@ -79,6 +79,7 @@ def export_mechanic(mechanic):
 def identifier_from_name(name):
     name = name.replace('!', '')
     name = name.replace('#', '')
+    name = name.replace('*', 'star')
     return pokedex.db.identifier_from_name(name)
 
 def get_family(session, en, name):

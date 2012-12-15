@@ -1,0 +1,3797 @@
+---
+set: ex-firered-and-leafgreen
+number: '1'
+order: 0
+name: Beedrill
+rarity: rare
+holographic: true
+class: P
+types:
+- Grass
+hp: 90
+stage: Stage 2
+evolves from: Kakuna
+legal: false
+filename: 1-beedrill
+pokemon: Beedrill
+mechanics:
+- type: note
+  text: >-
+    When Pokémon-ex has been Knocked Out, your opponent takes
+    2 Prize cards.
+- name: Poison Sting
+  cost: G
+  damage: '20'
+  type: attack
+  text: >-
+    The Defending Pokémon is now Poisoned.
+- name: Link Needle
+  cost: GCC
+  damage: '50'
+  type: attack
+  text: >-
+    This attack does 50 damage plus 30 more damage for each Beedrill
+    (excluding this one) you have in play.
+weakness:
+  amount: 2
+  operation: ×
+  type: R
+illustrator: Hajime Kusajima
+---
+set: ex-firered-and-leafgreen
+number: '2'
+order: 1
+name: Butterfree
+rarity: rare
+holographic: true
+class: P
+types:
+- Grass
+hp: 100
+stage: Stage 2
+evolves from: Metapod
+legal: false
+filename: 2-butterfree
+pokemon: Butterfree
+mechanics:
+- type: note
+  text: >-
+    When Pokémon-ex has been Knocked Out, your opponent takes
+    2 Prize cards.
+- name: Sooth Dust
+  type: pokebody
+  text: >-
+    As long as Butterfree is your Active Pokémon, remove 1 damage
+    counter from each of your Pokémon between turns.
+- name: Whirlwind
+  cost: CC
+  damage: '30'
+  type: attack
+  text: >-
+    Your opponent switches the Defending Pokémon with 1 of his
+    or her Benched Pokémon.
+- name: Gust
+  cost: GCC
+  damage: '50'
+  type: attack
+weakness:
+  amount: 2
+  operation: ×
+  type: L
+resistance: F
+illustrator: Atsuko Nishida
+---
+set: ex-firered-and-leafgreen
+number: '3'
+order: 2
+name: Dewgong
+rarity: rare
+holographic: true
+class: P
+types:
+- Water
+hp: 80
+stage: Stage 1
+evolves from: Seel
+legal: false
+filename: 3-dewgong
+pokemon: Dewgong
+mechanics:
+- type: note
+  text: >-
+    When Pokémon-ex has been Knocked Out, your opponent takes
+    2 Prize cards.
+- name: Safeguard
+  type: pokebody
+  text: >-
+    Prevent all effects of attacks, including damage, done to
+    Dewgong by your opponent's Pokémon-ex.
+- name: Cold Breath
+  cost: W
+  damage: '10'
+  type: attack
+  text: >-
+    The Defending Pokémon is now Asleep.
+- name: Aurora Beam
+  cost: CCC
+  damage: '40'
+  type: attack
+weakness:
+  amount: 2
+  operation: ×
+  type: M
+retreat: 2
+illustrator: Toshinao Aoki
+---
+set: ex-firered-and-leafgreen
+number: '4'
+order: 3
+name: Ditto
+rarity: rare
+holographic: true
+class: P
+types:
+- Colorless
+hp: 60
+stage: Basic
+legal: false
+filename: 4-ditto
+pokemon: Ditto
+mechanics:
+- name: Form Variation
+  type: pokepower
+  text: >-
+    Once during your turn (before you attack), you may search
+    your discard pile for a Basic Pokémon (excluding Pokémon-ex
+    and Ditto) and switch it with Ditto. (Any cards attached to
+    Ditto, damage counters, Special Conditions, and effects on
+    it are now on the new Pokémon.) Place Ditto in the discard
+    pile.
+- name: Energy Ball
+  cost: C
+  damage: '10'
+  type: attack
+  text: >-
+    Does 10 damage plus 10 more damage for each Energy attached
+    to Ditto but not used to pay for this attack's Energy cost.
+    You cannot add more than 20 damage in this way.
+weakness:
+  amount: 2
+  operation: ×
+  type: F
+retreat: 1
+illustrator: Miki Tanaka
+---
+set: ex-firered-and-leafgreen
+number: '5'
+order: 4
+name: Exeggutor
+rarity: rare
+holographic: true
+class: P
+types:
+- Psychic
+hp: 80
+stage: Stage 1
+evolves from: Exeggcute
+legal: false
+filename: 5-exeggutor
+pokemon: Exeggutor
+mechanics:
+- name: Psychic Exchange
+  cost: C
+  type: attack
+  text: >-
+    Shuffle your hand into your deck. Draw up to 8 cards.
+- name: Big Eggplosion
+  cost: PC
+  damage: 40×
+  type: attack
+  text: >-
+    Flip a coin for each Energy attached to Exeggutor. This attack
+    does 40 damage times the number of heads.
+weakness:
+  amount: 2
+  operation: ×
+  type: P
+retreat: 2
+illustrator: Tomokazu Komiya
+---
+set: ex-firered-and-leafgreen
+number: '6'
+order: 5
+name: Kangaskhan
+rarity: rare
+holographic: true
+class: P
+types:
+- Colorless
+hp: 80
+stage: Basic
+legal: false
+filename: 6-kangaskhan
+pokemon: Kangaskhan
+mechanics:
+- name: Fetch
+  cost: C
+  type: attack
+  text: >-
+    Draw a card.
+- name: Headbutt
+  cost: CC
+  damage: '20'
+  type: attack
+- name: One-Two Punch
+  cost: CCC
+  damage: '30'
+  type: attack
+  text: >-
+    Flip a coin. If heads, this attack does 30 damage plus 20
+    more damage.
+weakness:
+  amount: 2
+  operation: ×
+  type: F
+retreat: 2
+illustrator: Naoyo Kimura
+---
+set: ex-firered-and-leafgreen
+number: '7'
+order: 6
+name: Marowak
+rarity: rare
+holographic: true
+class: P
+types:
+- Fighting
+hp: 80
+stage: Stage 1
+evolves from: Cubone
+legal: false
+filename: 7-marowak
+pokemon: Marowak
+mechanics:
+- name: Linear Attack
+  cost: FC
+  type: attack
+  text: >-
+    Choose 1 of your opponent's Pokémon. This attack does 30 damage
+    to that Pokémon. (Don't apply Weakness and Resistance for
+    Benched Pokémon.)
+- name: Vengence
+  cost: FCC
+  damage: '30'
+  type: attack
+  text: >-
+    Does 30 damage plus 10 more damage for each Basic Pokémon
+    and each Evolution card in your discard pile. You can't add
+    more than 60 damage in this way.
+weakness:
+  amount: 2
+  operation: ×
+  type: G
+retreat: 1
+illustrator: Aya Kusube
+---
+set: ex-firered-and-leafgreen
+number: '8'
+order: 7
+name: Nidoking
+rarity: rare
+holographic: true
+class: P
+types:
+- Fighting
+hp: 120
+stage: Stage 2
+evolves from: Nidorino
+legal: false
+filename: 8-nidoking
+pokemon: Nidoking
+mechanics:
+- name: Power Gene
+  type: pokebody
+  text: >-
+    As long as Nidoking is in play, your attacks from Nidoran
+    F, Nidorina, Nidoqueen, Nidoran M, and Nidorino do 10 more
+    damage to the Defending Pokémon.
+- name: Earth Poison
+  cost: FC
+  damage: '40'
+  type: attack
+  text: >-
+    If the Defending Pokémon already has any damage counters on
+    it, the Defending Pokémon is now Poisoned.
+- name: Bound Crush
+  cost: FFCC
+  type: attack
+  text: >-
+    Choose 1 of your opponent's Pokémon. This attack does 60 damage
+    to that Pokémon. (Don't apply Weakness and Resistance for
+    Benched Pokémon.) Nidoking can't use Bound Crush during your
+    next turn.
+weakness:
+  amount: 2
+  operation: ×
+  type: W
+retreat: 3
+illustrator: Hisao Nakamura
+---
+set: ex-firered-and-leafgreen
+number: '9'
+order: 8
+name: Nidoqueen
+rarity: rare
+holographic: true
+class: P
+types:
+- Fighting
+hp: 120
+stage: Stage 2
+evolves from: Nidorina
+legal: false
+filename: 9-nidoqueen
+pokemon: Nidoqueen
+mechanics:
+- name: Family Bonds
+  type: pokebody
+  text: >-
+    As long as Nidoqueen is in play, the Retreat Cost for Nidoran
+    F, Nidorina, Nidoran M, Nidorino, and Nidoking is 0.
+- name: Toxic
+  cost: G
+  type: attack
+  text: >-
+    The Defending Pokémon is now Poisoned. Put 2 damage counters
+    instead of 1 on the Defending Pokémon between turns.
+- name: Power Lariat
+  cost: FCC
+  damage: '40'
+  type: attack
+  text: >-
+    Does 40 damage plus 10 more damage for each Evolved Pokémon
+    you have in play.
+weakness:
+  amount: 2
+  operation: ×
+  type: G
+retreat: 2
+illustrator: Naoyo Kimura
+---
+set: ex-firered-and-leafgreen
+number: '10'
+order: 9
+name: Pidgeot
+rarity: rare
+holographic: true
+class: P
+types:
+- Colorless
+hp: 100
+stage: Stage 2
+evolves from: Pidgeotto
+legal: false
+filename: 10-pidgeot
+pokemon: Pidgeot
+mechanics:
+- name: Quick Search
+  type: pokepower
+  text: >-
+    Once during your turn (before you attack), you may choose
+    any 1 card from your deck and put it into your hand. Shuffle
+    your deck afterward. You can't use more than 1 Quick Search
+    Poke-Power each turn. This power can't be used if Pidgeot
+    is affected by a Special Condition.
+- name: Clutch
+  cost: CC
+  damage: '40'
+  type: attack
+  text: >-
+    The Defending Pokémon can't retreat until the end of your
+    opponent's next turn.
+weakness:
+  amount: 2
+  operation: ×
+  type: L
+resistance: F
+illustrator: Midori Harada
+---
+set: ex-firered-and-leafgreen
+number: '11'
+order: 10
+name: Poliwrath
+rarity: rare
+holographic: true
+class: P
+types:
+- Water
+hp: 120
+stage: Stage 2
+evolves from: Poliwhirl
+legal: false
+filename: 11-poliwrath
+pokemon: Poliwrath
+mechanics:
+- name: Spiral
+  type: pokebody
+  text: >-
+    As long as Poliwrath is your Active Pokémon, your opponent's
+    Confused Pokémon can't retreat.
+- name: Split Spiral Punch
+  cost: CC
+  damage: '20'
+  type: attack
+  text: >-
+    The Defending Pokémon is now Confused.
+- name: Mega Throw
+  cost: WCC
+  damage: '50'
+  type: attack
+  text: >-
+    If the Defending Pokémon is Pokémon-ex, this attack does 50
+    damage plus 30 more damage.
+weakness:
+  amount: 2
+  operation: ×
+  type: L
+retreat: 2
+illustrator: Ken Sugimori
+---
+set: ex-firered-and-leafgreen
+number: '12'
+order: 11
+name: Raichu
+rarity: rare
+holographic: true
+class: P
+types:
+- Lightning
+hp: 80
+stage: Stage 1
+evolves from: Pikachu
+legal: false
+filename: 12-raichu
+pokemon: Raichu
+mechanics:
+- name: Recharge
+  cost: C
+  type: attack
+  text: >-
+    Search your deck for up to 2 L Energy cards and attach them
+    to Raichu. Shuffle your deck afterward.
+- name: Thunder Reflection
+  cost: LLC
+  damage: '50'
+  type: attack
+  text: >-
+    You may move any number of L Energy cards attached to Raichu
+    to another of your Pokémon.
+weakness:
+  amount: 2
+  operation: ×
+  type: F
+retreat: 1
+illustrator: Midori Harada
+---
+set: ex-firered-and-leafgreen
+number: '13'
+order: 12
+name: Rapidash
+rarity: rare
+holographic: true
+class: P
+types:
+- Fire
+hp: 80
+stage: Stage 1
+evolves from: Ponyta
+legal: false
+filename: 13-rapidash
+pokemon: Rapidash
+mechanics:
+- name: Fiery Aura
+  type: pokebody
+  text: >-
+    As long as Rapidash is your Active Pokémon, put 4 damage counters
+    instead of 2 on Burned Pokémon between turns.
+- name: Searing Flames
+  cost: RC
+  damage: '10'
+  type: attack
+  text: >-
+    The Defending Pokémon is now Burned.
+- name: Rear Kick
+  cost: RCC
+  damage: '40'
+  type: attack
+weakness:
+  amount: 2
+  operation: ×
+  type: W
+retreat: 1
+illustrator: Ken Sugimori
+---
+set: ex-firered-and-leafgreen
+number: '14'
+order: 13
+name: Slowbro
+rarity: rare
+holographic: true
+class: P
+types:
+- Psychic
+hp: 60
+stage: Stage 1
+evolves from: Slowpoke
+legal: false
+filename: 14-slowbro
+pokemon: Slowbro
+mechanics:
+- name: Strange Behavior
+  type: pokepower
+  text: >-
+    As often as you like during your turn (before your attack),
+    you may move 1 damage counter from 1 of your Pokémon to Slowbro
+    as long as you don't Knock Out Slowbro. This power can't be
+    used if Slowbro is affected by a Special Condition.
+- name: Psyshock
+  cost: PC
+  damage: '30'
+  type: attack
+  text: >-
+    Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+weakness:
+  amount: 2
+  operation: ×
+  type: P
+retreat: 1
+illustrator: Yuka Morii
+---
+set: ex-firered-and-leafgreen
+number: '15'
+order: 14
+name: Snorlax
+rarity: rare
+holographic: true
+class: P
+types:
+- Colorless
+hp: 90
+stage: Basic
+legal: false
+filename: 15-snorlax
+pokemon: Snorlax
+mechanics:
+- name: Rest Up
+  type: pokebody
+  text: >-
+    If Snorlax remains Asleep between turns, remove 2 damage counters
+    from Snorlax (remove 1 if there is only 1).
+- name: Collapse
+  cost: C
+  damage: '10'
+  type: attack
+  text: >-
+    Snorlax is now Asleep.
+- name: Toss and Turn
+  cost: CCC
+  damage: '30'
+  type: attack
+  text: >-
+    If Snorlax is Asleep, this attack does 30 damage plus 30 more
+    damage. (This attack can be used even if Snorlax is Asleep.)
+weakness:
+  amount: 2
+  operation: ×
+  type: F
+retreat: 3
+illustrator: Kagemaru Himeno
+---
+set: ex-firered-and-leafgreen
+number: '16'
+order: 15
+name: Tauros
+rarity: rare
+holographic: true
+class: P
+types:
+- Colorless
+hp: 70
+stage: Basic
+legal: false
+filename: 16-tauros
+pokemon: Tauros
+mechanics:
+- name: Knock Over
+  cost: C
+  damage: '10'
+  type: attack
+  text: >-
+    You may discard any Stadium card in play.
+- name: Rampage
+  cost: CCC
+  damage: '20'
+  type: attack
+  text: >-
+    Does 20 damage plus 10 more damage for each damage counter
+    on Tauros. After doing damage, flip a coin. If tails, Tauros
+    is now Confused.
+weakness:
+  amount: 2
+  operation: ×
+  type: F
+retreat: 1
+illustrator: Masakazu Fukuda
+---
+set: ex-firered-and-leafgreen
+number: '17'
+order: 16
+name: Victreebel
+rarity: rare
+holographic: true
+class: P
+types:
+- Grass
+hp: 110
+stage: Stage 2
+evolves from: Weepinbell
+legal: false
+filename: 17-victreebel
+pokemon: Victreebel
+mechanics:
+- name: Acid Sampler
+  type: pokebody
+  text: >-
+    As long as Victreebel is your Active Pokémon, put 1 damage
+    counter on each Defending Pokémon between turns. Acid Sampler
+    stops working if your other Active Pokémon is not a Victreebel.
+- name: Acid
+  cost: GCC
+  damage: '50'
+  type: attack
+  text: >-
+    The Defending Pokémon can't retreat until the end of your
+    opponent's next turn.
+weakness:
+  amount: 2
+  operation: ×
+  type: R
+retreat: 2
+illustrator: Tomokazu Komiya
+---
+set: ex-firered-and-leafgreen
+number: '18'
+order: 17
+name: Arcanine
+rarity: rare
+holographic: false
+class: P
+types:
+- Fire
+hp: 90
+stage: Stage 1
+evolves from: Growlithe
+legal: false
+filename: 18-arcanine
+pokemon: Arcanine
+mechanics:
+- name: Flare
+  cost: R
+  damage: '20'
+  type: attack
+- name: Heat Tackle
+  cost: RCCC
+  damage: '70'
+  type: attack
+  text: >-
+    Arcanine does 10 damage to itself.
+weakness:
+  amount: 2
+  operation: ×
+  type: W
+retreat: 2
+illustrator: Ken Sugimori
+---
+set: ex-firered-and-leafgreen
+number: '19'
+order: 18
+name: Chansey
+rarity: rare
+holographic: false
+class: P
+types:
+- Colorless
+hp: 90
+stage: Basic
+legal: false
+filename: 19-chansey
+pokemon: Chansey
+mechanics:
+- type: note
+  text: >-
+    When Pokémon-ex has been Knocked Out, your opponent takes
+    2 Prize cards.
+- name: Sing
+  cost: C
+  type: attack
+  text: >-
+    The Defending Pokémon is now Asleep.
+- name: Egg Surprise
+  cost: CCC
+  type: attack
+  text: >-
+    Flip a coin. If heads, Chansey does 50 damage to the Defending
+    Pokémon. If tails, remove 5 damage counters from Chansey.
+    (All if there are less than 5.)
+weakness:
+  amount: 2
+  operation: ×
+  type: F
+retreat: 2
+illustrator: Miki Tanaka
+---
+set: ex-firered-and-leafgreen
+number: '20'
+order: 19
+name: Cloyster
+rarity: rare
+holographic: false
+class: P
+types:
+- Water
+hp: 70
+stage: Stage 1
+evolves from: Shellder
+legal: false
+filename: 20-cloyster
+pokemon: Cloyster
+mechanics:
+- type: note
+  text: >-
+    When Pokémon-ex has been Knocked Out, your opponent takes
+    2 Prize cards.
+- name: Exoskeleton
+  type: pokebody
+  text: >-
+    Any damage done to Cloyster by attacks is reduced by 10 (after
+    applying Weakness and Resistance).
+- name: Double Bubble
+  cost: CC
+  damage: 10×
+  type: attack
+  text: >-
+    Flip 2 coins. This attack does 10 damage times the number
+    of heads. If either of the coins is heads, the Defending Pokémon
+    is now Paralyzed.
+- name: Shell Attack
+  cost: WCC
+  damage: '50'
+  type: attack
+weakness:
+  amount: 2
+  operation: ×
+  type: L
+retreat: 1
+illustrator: Aya Kusube
+---
+set: ex-firered-and-leafgreen
+number: '21'
+order: 20
+name: Dodrio
+rarity: rare
+holographic: false
+class: P
+types:
+- Colorless
+hp: 70
+stage: Stage 1
+evolves from: Doduo
+legal: false
+filename: 21-dodrio
+pokemon: Dodrio
+mechanics:
+- name: Retreat Aid
+  type: pokebody
+  text: >-
+    As long as Dodrio is on your Bench, you pay 2 less to retreat
+    your Active Pokémon (excluding Pokémon-ex and Baby Pokémon).
+- name: Tri Attack
+  cost: CC
+  damage: 20×
+  type: attack
+  text: >-
+    Flip 3 coins. This attack does 20 damage times the number
+    of heads.
+weakness:
+  amount: 2
+  operation: ×
+  type: L
+resistance: F
+retreat: 1
+illustrator: Kagemaru Himeno
+---
+set: ex-firered-and-leafgreen
+number: '22'
+order: 21
+name: Dugtrio
+rarity: rare
+holographic: false
+class: P
+types:
+- Fighting
+hp: 80
+stage: Stage 1
+evolves from: Diglett
+legal: false
+filename: 22-dugtrio
+pokemon: Dugtrio
+mechanics:
+- name: Sonicboom
+  cost: FC
+  damage: '30'
+  type: attack
+  text: >-
+    This attack's damage isn't affect by Weakness or Resistance.
+- name: Rumble
+  cost: FCC
+  damage: '50'
+  type: attack
+  text: >-
+    The Defending Pokémon can't retreat until the end of your
+    opponent's next turn.
+weakness:
+  amount: 2
+  operation: ×
+  type: G
+retreat: 1
+illustrator: Hajime Kusajima
+---
+set: ex-firered-and-leafgreen
+number: '23'
+order: 22
+name: Farfetch'd
+rarity: rare
+holographic: false
+class: P
+types:
+- Colorless
+hp: 70
+stage: Basic
+legal: false
+filename: 23-farfetch'd
+pokemon: Farfetch'd
+mechanics:
+- name: Hoard
+  cost: C
+  type: attack
+  text: >-
+    Search your deck for up to 2 Pokémon Tool cards and attach
+    them to any of your Pokémon (excluding Pokémon that already
+    have a Pokémon Tool attached to them). Shuffle your deck afterward.
+- name: Cross-Cut
+  cost: C
+  damage: '10'
+  type: attack
+  text: >-
+    If the Defending Pokémon is an Evolved Pokémon, this attack
+    does 10 damage plus 20 more damage.
+weakness:
+  amount: 2
+  operation: ×
+  type: L
+resistance: F
+retreat: 1
+illustrator: Yukiko Baba
+---
+set: ex-firered-and-leafgreen
+number: '24'
+order: 23
+name: Fearow
+rarity: rare
+holographic: false
+class: P
+types:
+- Colorless
+hp: 80
+stage: Stage 1
+evolves from: Spearow
+legal: false
+filename: 24-fearow
+pokemon: Fearow
+mechanics:
+- name: Free Flight
+  type: pokebody
+  text: >-
+    If Fearow has no Energy attached to it, Fearow's Retreat Cost
+    is 0.
+- name: Shot Air
+  cost: CC
+  damage: '10'
+  type: attack
+  text: >-
+    Does 20 damage to 1 of your opponent's Benched Pokémon. (Don't
+    apply Weakness and Resistance for Benched Pokémon.)
+- name: Drill Peck
+  cost: CCC
+  damage: '50'
+  type: attack
+weakness:
+  amount: 2
+  operation: ×
+  type: L
+resistance: F
+retreat: 1
+illustrator: Hisao Nakamura
+---
+set: ex-firered-and-leafgreen
+number: '25'
+order: 24
+name: Hypno
+rarity: rare
+holographic: false
+class: P
+types:
+- Psychic
+hp: 80
+stage: Stage 1
+evolves from: Drowzee
+legal: false
+filename: 25-hypno
+pokemon: Hypno
+mechanics:
+- name: Eerie Aura
+  type: pokebody
+  text: >-
+    As long as Hypno is your Active Pokémon, put 2 damage counters
+    on each Pokémon that remains Asleep between turns.
+- name: Hypnotic Ray
+  cost: PC
+  damage: '20'
+  type: attack
+  text: >-
+    The Defending Pokémon is now Asleep.
+weakness:
+  amount: 2
+  operation: ×
+  type: P
+retreat: 1
+illustrator: Yukiko Baba
+---
+set: ex-firered-and-leafgreen
+number: '26'
+order: 25
+name: Kingler
+rarity: rare
+holographic: false
+class: P
+types:
+- Water
+hp: 80
+stage: Stage 1
+evolves from: Krabby
+legal: false
+filename: 26-kingler
+pokemon: Kingler
+mechanics:
+- name: Salt Water
+  cost: C
+  type: attack
+  text: >-
+    Search your deck for up to 2 W Energy cards and attach them
+    to Kingler. Shuffle your deck afterward.
+- name: Hyper Pump
+  cost: WC
+  damage: '30'
+  type: attack
+  text: >-
+    Does 30 damage plus 20 more damage for each basic Energy attached
+    to Kingler but not used to pay for this attack's Energy cost.
+    You can't add more than 40 damage in this way.
+weakness:
+  amount: 2
+  operation: ×
+  type: L
+retreat: 2
+illustrator: Kouki Saitou
+---
+set: ex-firered-and-leafgreen
+number: '27'
+order: 26
+name: Magneton
+rarity: rare
+holographic: false
+class: P
+types:
+- Lightning
+hp: 80
+stage: Stage 1
+evolves from: Magnemite
+legal: false
+filename: 27-magneton
+pokemon: Magneton
+mechanics:
+- name: Thundershock
+  cost: LC
+  damage: '20'
+  type: attack
+  text: >-
+    Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+- name: Speed Shot
+  cost: CCC
+  type: attack
+  text: >-
+    Choose 1 of your opponent's Pokémon. This attack does 40 damage
+    to that Pokémon. This attack's damage isn't affected by Weakness,
+    Resistance, Poke-Powers, Poke-Bodies, or any other effects
+    on that Pokémon.
+weakness:
+  amount: 2
+  operation: ×
+  type: F
+resistance: M
+retreat: 1
+illustrator: Ken Sugimori
+---
+set: ex-firered-and-leafgreen
+number: '28'
+order: 27
+name: Primeape
+rarity: rare
+holographic: false
+class: P
+types:
+- Fighting
+hp: 70
+stage: Stage 1
+evolves from: Mankey
+legal: false
+filename: 28-primeape
+pokemon: Primeape
+mechanics:
+- name: Toss
+  cost: CC
+  damage: 30×
+  type: attack
+  text: >-
+    You may discard from your hand as many Technical Machine and
+    Pokémon Tool cards as you like. This attack does 30 damage
+    times the number of cards you discarded.
+- name: Low Kick
+  cost: FC
+  damage: '40'
+  type: attack
+weakness:
+  amount: 2
+  operation: ×
+  type: P
+illustrator: Miki Tanaka
+---
+set: ex-firered-and-leafgreen
+number: '29'
+order: 28
+name: Scyther
+rarity: rare
+holographic: false
+class: P
+types:
+- Grass
+hp: 60
+stage: Basic
+legal: false
+filename: 29-scyther
+pokemon: Scyther
+mechanics:
+- name: Leaf Ride
+  type: pokebody
+  text: >-
+    If Scyther has any Energy attached to it, Scyther's Retreat
+    Cost is 0.
+- name: Fury Cutter
+  cost: GC
+  damage: '10'
+  type: attack
+  text: >-
+    Flip 3 coins. If 1 of them are heads, this attack does 10
+    damage plus 10 more damage. If 2 of them are heads, this attack
+    does 10 damage plus 20 more damage. If all of them are heads,
+    this attack does 10 damage plus 40 more damage.
+weakness:
+  amount: 2
+  operation: ×
+  type: R
+retreat: 1
+illustrator: Kouki Saitou
+---
+set: ex-firered-and-leafgreen
+number: '30'
+order: 29
+name: Tangela
+rarity: rare
+holographic: false
+class: P
+types:
+- Grass
+hp: 60
+stage: Basic
+legal: false
+filename: 30-tangela
+pokemon: Tangela
+mechanics:
+- name: Vine Tease
+  cost: C
+  type: attack
+  text: >-
+    Look at your Prize cards without showing your opponent Choose
+    1 of the Prize cards and switch it with the top card of your
+    deck without looking at the top card of your deck. If you
+    have no cards in your deck, this attack does nothing.
+- name: Wiggle
+  cost: G
+  type: attack
+  text: >-
+    Flip a coin. If heads, the Defending Pokémon is now Confused.
+    If tails, the Defending Pokémon is now Poisoned.
+weakness:
+  amount: 2
+  operation: ×
+  type: R
+resistance: W
+retreat: 1
+illustrator: Yuka Morii
+---
+set: ex-firered-and-leafgreen
+number: '31'
+order: 30
+name: Charmeleon
+rarity: uncommon
+holographic: false
+class: P
+types:
+- Fire
+hp: 70
+stage: Stage 1
+evolves from: Charmander
+legal: false
+filename: 31-charmeleon
+pokemon: Charmeleon
+mechanics:
+- name: Flare
+  cost: RC
+  damage: '30'
+  type: attack
+- name: Damage Burn
+  cost: RCC
+  damage: '40'
+  type: attack
+  text: >-
+    If the Defending Pokémon already has any damage counters on
+    it, this attack does 40 damage plus 20 more damage.
+weakness:
+  amount: 2
+  operation: ×
+  type: W
+retreat: 1
+illustrator: Kouki Saitou
+---
+set: ex-firered-and-leafgreen
+number: '32'
+order: 31
+name: Drowzee
+rarity: uncommon
+holographic: false
+class: P
+types:
+- Psychic
+hp: 50
+stage: Basic
+legal: false
+filename: 32-drowzee
+pokemon: Drowzee
+mechanics:
+- name: Hypnosis
+  cost: C
+  type: attack
+  text: >-
+    The Defending Pokémon is now Asleep.
+- name: Ambush
+  cost: P
+  damage: '10'
+  type: attack
+  text: >-
+    Flip a coin. If heads, this attack does 10 damage plus 10
+    more damage.
+weakness:
+  amount: 2
+  operation: ×
+  type: P
+retreat: 1
+illustrator: Yukiko Baba
+---
+set: ex-firered-and-leafgreen
+number: '33'
+order: 32
+name: Exeggcute
+rarity: uncommon
+holographic: false
+class: P
+types:
+- Psychic
+hp: 50
+stage: Basic
+legal: false
+filename: 33-exeggcute
+pokemon: Exeggcute
+mechanics:
+- name: Psybeam
+  cost: P
+  damage: '10'
+  type: attack
+  text: >-
+    Flip a coin. If heads, the Defending Pokémon is now Confused.
+- name: Double Spin
+  cost: CC
+  damage: 20×
+  type: attack
+  text: >-
+    Flip 2 coins. This attack does 20 damage times the number
+    of heads.
+weakness:
+  amount: 2
+  operation: ×
+  type: P
+retreat: 1
+illustrator: Tomokazu Komiya
+---
+set: ex-firered-and-leafgreen
+number: '34'
+order: 33
+name: Haunter
+rarity: uncommon
+holographic: false
+class: P
+types:
+- Psychic
+hp: 70
+stage: Stage 1
+evolves from: Gastly
+legal: false
+filename: 34-haunter
+pokemon: Haunter
+mechanics:
+- name: Head Trip
+  type: pokepower
+  text: >-
+    Once during your turn (before your attack), if Haunter is
+    on your Bench, you may use this power. One of your Active
+    Pokémon is now Confused.
+- name: Confuse Ray
+  cost: PC
+  damage: '20'
+  type: attack
+  text: >-
+    Flip a coin. If heads, the Defending Pokémon is now Confused.
+weakness:
+  amount: 2
+  operation: ×
+  type: D
+resistance: F
+retreat: 1
+illustrator: Ken Sugimori
+---
+set: ex-firered-and-leafgreen
+number: '35'
+order: 34
+name: Ivysaur
+rarity: uncommon
+holographic: false
+class: P
+types:
+- Grass
+hp: 80
+stage: Stage 1
+evolves from: Bulbasaur
+legal: false
+filename: 35-ivysaur
+pokemon: Ivysaur
+mechanics:
+- name: Poison Seed
+  cost: C
+  type: attack
+  text: >-
+    The Defending Pokémon is now Poisoned.
+- name: Razor Leaf
+  cost: GGC
+  damage: '50'
+  type: attack
+weakness:
+  amount: 2
+  operation: ×
+  type: P
+retreat: 1
+illustrator: Atsuko Nishida
+---
+set: ex-firered-and-leafgreen
+number: '36'
+order: 35
+name: Kakuna
+rarity: uncommon
+holographic: false
+class: P
+types:
+- Grass
+hp: 70
+stage: Stage 1
+evolves from: Weedle
+legal: false
+filename: 36-kakuna
+pokemon: Kakuna
+mechanics:
+- name: Poison Payback
+  type: pokebody
+  text: >-
+    If Kakuna is your Active Pokémon and is damaged by an opponent's
+    attack (even if Kakuna is Knocked Out), the Attacking Pokémon
+    is now Poisoned.
+- name: Headbutt
+  cost: C
+  damage: '10'
+  type: attack
+weakness:
+  amount: 2
+  operation: ×
+  type: R
+retreat: 2
+illustrator: Hajime Kusajima
+---
+set: ex-firered-and-leafgreen
+number: '37'
+order: 36
+name: Lickitung
+rarity: uncommon
+holographic: false
+class: P
+types:
+- Colorless
+hp: 80
+stage: Basic
+legal: false
+filename: 37-lickitung
+pokemon: Lickitung
+mechanics:
+- name: Lick
+  cost: C
+  damage: '10'
+  type: attack
+  text: >-
+    Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+- name: Tongue Whip
+  cost: CC
+  type: attack
+  text: >-
+    Choose 1 of your opponent's Pokémon. This attack does 20 damage
+    to that Pokémon. (Don't apply Weakness and Resistance for
+    Benched Pokémon.)
+weakness:
+  amount: 2
+  operation: ×
+  type: F
+retreat: 2
+illustrator: Sumiyoshi Kizuki
+---
+set: ex-firered-and-leafgreen
+number: '38'
+order: 37
+name: Mankey
+rarity: uncommon
+holographic: false
+class: P
+types:
+- Fighting
+hp: 50
+stage: Basic
+legal: false
+filename: 38-mankey
+pokemon: Mankey
+mechanics:
+- name: Mischief
+  cost: C
+  type: attack
+  text: >-
+    Shuffle your opponent's deck.
+- name: Light Punch
+  cost: FC
+  damage: '30'
+  type: attack
+weakness:
+  amount: 2
+  operation: ×
+  type: P
+retreat: 1
+illustrator: Miki Tanaka
+---
+set: ex-firered-and-leafgreen
+number: '39'
+order: 38
+name: Metapod
+rarity: uncommon
+holographic: false
+class: P
+types:
+- Grass
+hp: 80
+stage: Stage 1
+evolves from: Caterpie
+legal: false
+filename: 39-metapod
+pokemon: Metapod
+mechanics:
+- name: Energy Protection
+  type: pokebody
+  text: >-
+    Any damage done to Metapod by attacks is reduced by 10 for
+    each Energy attached to Metapod. You can't reduce more than
+    30 damage in this way.
+- name: Sharpen
+  cost: CC
+  damage: '20'
+  type: attack
+weakness:
+  amount: 2
+  operation: ×
+  type: R
+retreat: 2
+illustrator: Atsuko Nishida
+---
+set: ex-firered-and-leafgreen
+number: '40'
+order: 39
+name: Nidorina
+rarity: uncommon
+holographic: false
+class: P
+types:
+- Grass
+hp: 80
+stage: Stage 1
+evolves from: Nidoran F
+legal: false
+filename: 40-nidorina
+pokemon: Nidorina
+mechanics:
+- name: Scratch
+  cost: C
+  damage: '20'
+  type: attack
+- name: Fast Evolution
+  cost: CC
+  type: attack
+  text: >-
+    Search your deck for up to 2 Evolution cards, show them to
+    your opponent, and put them into your hand. Shuffle your deck
+    afterward.
+weakness:
+  amount: 2
+  operation: ×
+  type: P
+retreat: 1
+illustrator: Naoyo Kimura
+---
+set: ex-firered-and-leafgreen
+number: '41'
+order: 40
+name: Nidorino
+rarity: uncommon
+holographic: false
+class: P
+types:
+- Grass
+hp: 70
+stage: Stage 1
+evolves from: Nidoran M
+legal: false
+filename: 41-nidorino
+pokemon: Nidorino
+mechanics:
+- name: Double Stab
+  cost: C
+  damage: 20×
+  type: attack
+  text: >-
+    Flip 2 coins. This attack does 20 damage times the number
+    of heads.
+- name: Rend
+  cost: CCC
+  damage: '30'
+  type: attack
+  text: >-
+    If the Defending Pokémon already has any damage counters on
+    it, this attack does 30 damage plus 30 more damage.
+weakness:
+  amount: 2
+  operation: ×
+  type: P
+retreat: 1
+illustrator: Hisao Nakamura
+---
+set: ex-firered-and-leafgreen
+number: '42'
+order: 41
+name: Onix
+rarity: uncommon
+holographic: false
+class: P
+types:
+- Fighting
+hp: 80
+stage: Basic
+legal: false
+filename: 42-onix
+pokemon: Onix
+mechanics:
+- name: Rock Throw
+  cost: F
+  damage: '10'
+  type: attack
+- name: Tunneling
+  cost: FC
+  type: attack
+  text: >-
+    Choose up to 2 of your opponent's Benched Pokémon. This attack
+    does 10 damage to each of them. (Don't apply Weakness and
+    Resistance for Benched Pokémon.) Onix can't attack during
+    your next turn.
+weakness:
+  amount: 2
+  operation: ×
+  type: W
+retreat: 3
+illustrator: Kouki Saitou
+---
+set: ex-firered-and-leafgreen
+number: '43'
+order: 42
+name: Parasect
+rarity: uncommon
+holographic: false
+class: P
+types:
+- Grass
+hp: 70
+stage: Stage 1
+evolves from: Paras
+legal: false
+filename: 43-parasect
+pokemon: Parasect
+mechanics:
+- name: Energy Powder
+  cost: G
+  type: attack
+  text: >-
+    Search your deck for up to 2 basic Energy cards and attach
+    them to any of your Pokémon (excluding Pokémon-ex) in any
+    way you like. Shuffle your deck afterward.
+- name: Toxic Spore
+  cost: GC
+  damage: '20'
+  type: attack
+  text: >-
+    The Defending Pokémon is now Poisoned.
+weakness:
+  amount: 2
+  operation: ×
+  type: R
+retreat: 1
+illustrator: Yuka Morii
+---
+set: ex-firered-and-leafgreen
+number: '44'
+order: 43
+name: Persian
+rarity: uncommon
+holographic: false
+class: P
+types:
+- Colorless
+hp: 80
+stage: Stage 1
+evolves from: Meowth
+legal: false
+filename: 44-persian
+pokemon: Persian
+mechanics:
+- name: Thick Skin
+  type: pokebody
+  text: >-
+    Persian can't be affected by any Special Conditions.
+- name: Poison Claws
+  cost: C
+  type: attack
+  text: >-
+    The Defending Pokémon is now Poisoned.
+- name: Shining Claws
+  cost: CC
+  damage: '30'
+  type: attack
+  text: >-
+    The Defending Pokémon is now Confused.
+weakness:
+  amount: 2
+  operation: ×
+  type: F
+retreat: 1
+illustrator: Masakazu Fukuda
+---
+set: ex-firered-and-leafgreen
+number: '45'
+order: 44
+name: Pidgeotto
+rarity: uncommon
+holographic: false
+class: P
+types:
+- Colorless
+hp: 70
+stage: Stage 1
+evolves from: Pidgey
+legal: false
+filename: 45-pidgeotto
+pokemon: Pidgeotto
+mechanics:
+- name: Clutch
+  cost: C
+  damage: '10'
+  type: attack
+  text: >-
+    The Defending Pokémon can't retreat until the end of your
+    opponent's next turn.
+- name: Cutting Wind
+  cost: CC
+  damage: '30'
+  type: attack
+weakness:
+  amount: 2
+  operation: ×
+  type: L
+resistance: F
+illustrator: Midori Harada
+---
+set: ex-firered-and-leafgreen
+number: '46'
+order: 45
+name: Poliwhirl
+rarity: uncommon
+holographic: false
+class: P
+types:
+- Water
+hp: 80
+stage: Stage 1
+evolves from: Poliwag
+legal: false
+filename: 46-poliwhirl
+pokemon: Poliwhirl
+mechanics:
+- name: Energy Stream
+  cost: C
+  damage: '10'
+  type: attack
+  text: >-
+    Flip a coin. Search your discard pile for a basic Energy card
+    and attach it to Poliwhirl.
+- name: Bubble
+  cost: WC
+  damage: '20'
+  type: attack
+  text: >-
+    Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+weakness:
+  amount: 2
+  operation: ×
+  type: L
+retreat: 1
+illustrator: Ken Sugimori
+---
+set: ex-firered-and-leafgreen
+number: '47'
+order: 46
+name: Porygon
+rarity: uncommon
+holographic: false
+class: P
+types:
+- Colorless
+hp: 50
+stage: Basic
+legal: false
+filename: 47-porygon
+pokemon: Porygon
+mechanics:
+- name: Data Retrieval
+  cost: C
+  type: attack
+  text: >-
+    If you have less than 4 cards in your hand, draw cards until
+    you have 4 cards in your hand.
+- name: Confuse Ray
+  cost: CC
+  damage: '10'
+  type: attack
+  text: >-
+    The Defending Pokémon is now Confused.
+weakness:
+  amount: 2
+  operation: ×
+  type: F
+retreat: 1
+illustrator: Tomoaki Imakuni
+---
+set: ex-firered-and-leafgreen
+number: '48'
+order: 47
+name: Raticate
+rarity: uncommon
+holographic: false
+class: P
+types:
+- Colorless
+hp: 70
+stage: Stage 1
+evolves from: Rattata
+legal: false
+filename: 48-raticate
+pokemon: Raticate
+mechanics:
+- name: Thick Skin
+  type: pokebody
+  text: >-
+    Raticate can't be affected by any Special Conditions.
+- name: Pickup
+  cost: C
+  type: attack
+  text: >-
+    Search your discard pile for a Basic Pokémon (or Evolution
+    card), a Trainer card, and an Energy card. Show them to your
+    opponent and put them into your hand.
+- name: Quick Attack
+  cost: C
+  damage: '10'
+  type: attack
+  text: >-
+    Flip a coin. If heads, this attack does 10 damage plus 40
+    more damage.
+weakness:
+  amount: 2
+  operation: ×
+  type: F
+illustrator: Kyoko Umemoto
+---
+set: ex-firered-and-leafgreen
+number: '49'
+order: 48
+name: Venomoth
+rarity: uncommon
+holographic: false
+class: P
+types:
+- Grass
+hp: 70
+stage: Stage 1
+evolves from: Venonat
+legal: false
+filename: 49-venomoth
+pokemon: Venomoth
+mechanics:
+- name: Protective Dust
+  type: pokebody
+  text: >-
+    Prevent all effects of attacks, except damage, done to Venomoth
+    by the Attacking Pokémon.
+- name: Sleep Poison
+  cost: G
+  type: attack
+  text: >-
+    The Defending Pokémon is now Asleep and Poisoned.
+- name: Razor Wind
+  cost: CC
+  damage: '60'
+  type: attack
+  text: >-
+    Flip a coin. If tails, this attack does nothing.
+weakness:
+  amount: 2
+  operation: ×
+  type: R
+illustrator: Kagemaru Himeno
+---
+set: ex-firered-and-leafgreen
+number: '50'
+order: 49
+name: Wartortle
+rarity: uncommon
+holographic: false
+class: P
+types:
+- Water
+hp: 80
+stage: Stage 1
+evolves from: Squirtle
+legal: false
+filename: 50-wartortle
+pokemon: Wartortle
+mechanics:
+- name: Water Gun
+  cost: W
+  damage: '20'
+  type: attack
+  text: >-
+    This attack does 20 damage plus 10 more damage for each W
+    Energy attached to Wartortle but not used to pay for this
+    attack's Energy cost. You can't add more than 20 damage in
+    this way.
+- name: Smash Turn
+  cost: WCC
+  damage: '40'
+  type: attack
+  text: >-
+    After your attack, you may switch Wartortle with 1 of your
+    Benched Pokémon.
+weakness:
+  amount: 2
+  operation: ×
+  type: L
+retreat: 2
+illustrator: Mitsuhiro Arita
+---
+set: ex-firered-and-leafgreen
+number: '51'
+order: 50
+name: Weepinbell
+rarity: uncommon
+holographic: false
+class: P
+types:
+- Grass
+hp: 70
+stage: Stage 1
+evolves from: Bellsprout
+legal: false
+filename: 51-weepinbell
+pokemon: Weepinbell
+mechanics:
+- name: Razor Leaf
+  cost: G
+  damage: '20'
+  type: attack
+- name: Corrosive Acid
+  cost: CC
+  damage: '10'
+  type: attack
+  text: >-
+    The Defending Pokémon is now Burned.
+weakness:
+  amount: 2
+  operation: ×
+  type: R
+retreat: 1
+illustrator: Tomokazu Komiya
+---
+set: ex-firered-and-leafgreen
+number: '52'
+order: 51
+name: Wigglytuff
+rarity: uncommon
+holographic: false
+class: P
+types:
+- Colorless
+hp: 80
+stage: Stage 1
+evolves from: Jigglypuff
+legal: false
+filename: 52-wigglytuff
+pokemon: Wigglytuff
+mechanics:
+- name: Assistance
+  type: pokepower
+  text: >-
+    Once during your turn (before you attack), if Wigglytuff is
+    on your Bench, you may choose 1 of your Active Pokémon and
+    remove 1 Special Condition from it.
+- name: Expand
+  cost: CC
+  damage: '30'
+  type: attack
+  text: >-
+    During your opponent's next turn, any damage done to Wigglytuff
+    by attacks is reduced by 10 (after applying Weakness and Resistance).
+weakness:
+  amount: 2
+  operation: ×
+  type: F
+retreat: 1
+illustrator: Kyoko Umemoto
+---
+set: ex-firered-and-leafgreen
+number: '53'
+order: 52
+name: Bellsprout
+rarity: common
+holographic: false
+class: P
+types:
+- Grass
+hp: 50
+stage: Basic
+legal: false
+filename: 53-bellsprout
+pokemon: Bellsprout
+mechanics:
+- name: Vine Whip
+  cost: G
+  damage: '10'
+  type: attack
+weakness:
+  amount: 2
+  operation: ×
+  type: R
+retreat: 1
+illustrator: Tomokazu Komiya
+---
+set: ex-firered-and-leafgreen
+number: '54'
+order: 53
+name: Bulbasaur
+rarity: common
+holographic: false
+class: P
+types:
+- Grass
+hp: 50
+stage: Basic
+legal: false
+filename: 54-bulbasaur
+pokemon: Bulbasaur
+mechanics:
+- name: Sleep Poison
+  cost: C
+  type: attack
+  text: >-
+    Flip a coin. If heads, the Defending Pokémon is now Asleep
+    and Poisoned.
+- name: Razor Leaf
+  cost: CC
+  damage: '20'
+  type: attack
+weakness:
+  amount: 2
+  operation: ×
+  type: R
+retreat: 1
+illustrator: Atsuko Nishida
+---
+set: ex-firered-and-leafgreen
+number: '55'
+order: 54
+name: Bulbasaur
+rarity: common
+holographic: false
+class: P
+types:
+- Grass
+hp: 50
+stage: Basic
+legal: false
+filename: 55-bulbasaur
+pokemon: Bulbasaur
+mechanics:
+- name: Ram
+  cost: C
+  damage: '10'
+  type: attack
+- name: Gouge
+  cost: GC
+  damage: '20'
+  type: attack
+  text: >-
+    Flip a coin. If heads, this attack does 20 damage plus 10
+    more damage.
+weakness:
+  amount: 2
+  operation: ×
+  type: P
+retreat: 1
+illustrator: Hajime Kusajima
+---
+set: ex-firered-and-leafgreen
+number: '56'
+order: 55
+name: Caterpie
+rarity: common
+holographic: false
+class: P
+types:
+- Grass
+hp: 50
+stage: Basic
+legal: false
+filename: 56-caterpie
+pokemon: Caterpie
+mechanics:
+- name: Signs of Evolution
+  cost: C
+  type: attack
+  text: >-
+    Search your deck for a Metapod and a Butterfree card, show
+    them to your opponent, and put them into your hand. Shuffle
+    your deck afterward.
+- name: String Shot
+  cost: G
+  damage: '10'
+  type: attack
+  text: >-
+    Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+weakness:
+  amount: 2
+  operation: ×
+  type: R
+retreat: 1
+illustrator: Atsuko Nishida
+---
+set: ex-firered-and-leafgreen
+number: '57'
+order: 56
+name: Charmander
+rarity: common
+holographic: false
+class: P
+types:
+- Fire
+hp: 50
+stage: Basic
+legal: false
+filename: 57-charmander
+pokemon: Charmander
+mechanics:
+- name: Singe
+  cost: R
+  type: attack
+  text: >-
+    The Defending Pokémon is now Burned.
+weakness:
+  amount: 2
+  operation: ×
+  type: W
+retreat: 1
+illustrator: Kouki Saitou
+---
+set: ex-firered-and-leafgreen
+number: '58'
+order: 57
+name: Charmander
+rarity: common
+holographic: false
+class: P
+types:
+- Fire
+hp: 50
+stage: Basic
+legal: false
+filename: 58-charmander
+pokemon: Charmander
+mechanics:
+- name: Headbutt
+  cost: C
+  damage: '10'
+  type: attack
+- name: Slash
+  cost: CC
+  damage: '20'
+  type: attack
+weakness:
+  amount: 2
+  operation: ×
+  type: W
+retreat: 1
+illustrator: Midori Harada
+---
+set: ex-firered-and-leafgreen
+number: '59'
+order: 58
+name: Clefairy
+rarity: common
+holographic: false
+class: P
+types:
+- Colorless
+hp: 50
+stage: Basic
+legal: false
+filename: 59-clefairy
+pokemon: Clefairy
+mechanics:
+- name: Gesture
+  cost: C
+  type: attack
+  text: >-
+    Choose 1 of your opponent's Benched Pokémon and switch it
+    with the Defending Pokémon. Your opponent chooses the Defending
+    Pokémon to switch.
+- name: Moon Kick
+  cost: CC
+  damage: '20'
+  type: attack
+weakness:
+  amount: 2
+  operation: ×
+  type: F
+retreat: 1
+illustrator: Mitsuhiro Arita
+---
+set: ex-firered-and-leafgreen
+number: '60'
+order: 59
+name: Cubone
+rarity: common
+holographic: false
+class: P
+types:
+- Fighting
+hp: 50
+stage: Basic
+legal: false
+filename: 60-cubone
+pokemon: Cubone
+mechanics:
+- name: Beat
+  cost: C
+  damage: '10'
+  type: attack
+- name: Linear Attack
+  cost: FC
+  type: attack
+  text: >-
+    Choose 1 of your opponent's Pokémon. This attack does 20 damage
+    to that Pokémon. (Don't apply Weakness and Resistance for
+    Benched Pokémon.)
+weakness:
+  amount: 2
+  operation: ×
+  type: G
+retreat: 1
+illustrator: Aya Kusube
+---
+set: ex-firered-and-leafgreen
+number: '61'
+order: 60
+name: Diglett
+rarity: common
+holographic: false
+class: P
+types:
+- Fighting
+hp: 50
+stage: Basic
+legal: false
+filename: 61-diglett
+pokemon: Diglett
+mechanics:
+- name: Dig Under
+  cost: C
+  type: attack
+  text: >-
+    Choose 1 of your opponent's Pokémon. This attack does 10 damage
+    to that Pokémon. This attack's damage isn't affected by Weakness
+    or Resistance.
+weakness:
+  amount: 2
+  operation: ×
+  type: G
+retreat: 1
+illustrator: Hajime Kusajima
+---
+set: ex-firered-and-leafgreen
+number: '62'
+order: 61
+name: Doduo
+rarity: common
+holographic: false
+class: P
+types:
+- Colorless
+hp: 40
+stage: Basic
+legal: false
+filename: 62-doduo
+pokemon: Doduo
+mechanics:
+- name: Run Around
+  cost: C
+  type: attack
+  text: >-
+    Switch Doduo with 1 of your Benched Pokémon.
+- name: Random Peck
+  cost: CC
+  damage: '10'
+  type: attack
+  text: >-
+    Flip 2 coins. This attack does 10 damage plus 10 more damage
+    for each heads.
+weakness:
+  amount: 2
+  operation: ×
+  type: L
+resistance: F
+retreat: 1
+illustrator: Kagemaru Himeno
+---
+set: ex-firered-and-leafgreen
+number: '63'
+order: 62
+name: Gastly
+rarity: common
+holographic: false
+class: P
+types:
+- Psychic
+hp: 50
+stage: Basic
+legal: false
+filename: 63-gastly
+pokemon: Gastly
+mechanics:
+- name: Slow Trip Gas
+  cost: C
+  type: attack
+  text: >-
+    At the end of your opponent's next turn, the Defending Pokémon
+    is now Confused.
+weakness:
+  amount: 2
+  operation: ×
+  type: D
+resistance: F
+retreat: 1
+illustrator: Ken Sugimori
+---
+set: ex-firered-and-leafgreen
+number: '64'
+order: 63
+name: Growlithe
+rarity: common
+holographic: false
+class: P
+types:
+- Fire
+hp: 60
+stage: Basic
+legal: false
+filename: 64-growlithe
+pokemon: Growlithe
+mechanics:
+- name: Bite
+  cost: C
+  damage: '10'
+  type: attack
+- name: Flame Tail
+  cost: RCC
+  damage: '40'
+  type: attack
+weakness:
+  amount: 2
+  operation: ×
+  type: W
+retreat: 2
+illustrator: Ken Sugimori
+---
+set: ex-firered-and-leafgreen
+number: '65'
+order: 64
+name: Jigglypuff
+rarity: common
+holographic: false
+class: P
+types:
+- Colorless
+hp: 50
+stage: Basic
+legal: false
+filename: 65-jigglypuff
+pokemon: Jigglypuff
+mechanics:
+- name: Sleep Inducer
+  cost: C
+  type: attack
+  text: >-
+    Switch 1 of your opponent's Benched Pokémon with 1 of the
+    Defending Pokémon. Your opponent chooses the Defending Pokémon
+    to switch. The new Defending Pokémon is now Asleep.
+- name: Quick Blow
+  cost: CC
+  damage: '10'
+  type: attack
+  text: >-
+    Flip a coin. If heads, this attack does 10 damage plus 20
+    more damage.
+weakness:
+  amount: 2
+  operation: ×
+  type: F
+retreat: 1
+illustrator: Kyoko Umemoto
+---
+set: ex-firered-and-leafgreen
+number: '66'
+order: 65
+name: Krabby
+rarity: common
+holographic: false
+class: P
+types:
+- Water
+hp: 50
+stage: Basic
+legal: false
+filename: 66-krabby
+pokemon: Krabby
+mechanics:
+- name: Irongrip
+  cost: C
+  damage: '10'
+  type: attack
+- name: Nap
+  cost: W
+  type: attack
+  text: >-
+    Remove 2 damage counters from Krabby (remove 1 if there is
+    only 1).
+weakness:
+  amount: 2
+  operation: ×
+  type: L
+retreat: 2
+illustrator: Kouki Saitou
+---
+set: ex-firered-and-leafgreen
+number: '67'
+order: 66
+name: Magikarp
+rarity: common
+holographic: false
+class: P
+types:
+- Water
+hp: 30
+stage: Basic
+legal: false
+filename: 67-magikarp
+pokemon: Magikarp
+mechanics:
+- name: Surprise Attack
+  cost: C
+  damage: '10'
+  type: attack
+  text: >-
+    Flip a coin. If tails, this attack does nothing.
+- name: Ascension
+  cost: WC
+  type: attack
+  text: >-
+    Search your deck for a card that evolves from Magikarp and
+    put it on Magikarp. (This counts as evolving Magikarp.) Shuffle
+    your deck afterward.
+weakness:
+  amount: 2
+  operation: ×
+  type: L
+retreat: 1
+illustrator: Atsuko Nishida
+---
+set: ex-firered-and-leafgreen
+number: '68'
+order: 67
+name: Magnemite
+rarity: common
+holographic: false
+class: P
+types:
+- Lightning
+hp: 50
+stage: Basic
+legal: false
+filename: 68-magnemite
+pokemon: Magnemite
+mechanics:
+- name: Supersonic
+  cost: C
+  type: attack
+  text: >-
+    Flip a coin. If heads, the Defending Pokémon is now Confused.
+- name: Speed Ball
+  cost: LC
+  damage: '20'
+  type: attack
+weakness:
+  amount: 2
+  operation: ×
+  type: F
+resistance: M
+retreat: 1
+illustrator: Ken Sugimori
+---
+set: ex-firered-and-leafgreen
+number: '69'
+order: 68
+name: Meowth
+rarity: common
+holographic: false
+class: P
+types:
+- Colorless
+hp: 50
+stage: Basic
+legal: false
+filename: 69-meowth
+pokemon: Meowth
+mechanics:
+- name: Collect
+  cost: C
+  type: attack
+  text: >-
+    Draw a card.
+- name: Cat Kick
+  cost: CC
+  damage: '20'
+  type: attack
+weakness:
+  amount: 2
+  operation: ×
+  type: F
+retreat: 1
+illustrator: Masakazu Fukuda
+---
+set: ex-firered-and-leafgreen
+number: '70'
+order: 69
+name: Nidoran ♀
+rarity: common
+holographic: false
+class: P
+types:
+- Grass
+hp: 50
+stage: Basic
+legal: false
+filename: 70-nidoran-f
+pokemon: Nidoran♀
+mechanics:
+- name: Look for Friends
+  cost: C
+  type: attack
+  text: >-
+    Reveal cards from your deck until you reveal a Basic Pokémon.
+    Show that card to your opponent and put it into your hand.
+    Shuffle the other revealed cards back into your deck. (If
+    you don't reveal a Basic Pokémon, shuffle all the revealed
+    cards back into your deck.)
+- name: Bite
+  cost: CC
+  damage: '20'
+  type: attack
+weakness:
+  amount: 2
+  operation: ×
+  type: P
+retreat: 1
+illustrator: Naoyo Kimura
+---
+set: ex-firered-and-leafgreen
+number: '71'
+order: 70
+name: Nidoran ♂
+rarity: common
+holographic: false
+class: P
+types:
+- Grass
+hp: 50
+stage: Basic
+legal: false
+filename: 71-nidoran-m
+pokemon: Nidoran♂
+mechanics:
+- name: Call for Family
+  cost: C
+  type: attack
+  text: >-
+    Search your deck for a Nidoran F or a Nidoran M card and put
+    it onto your Bench. Shuffle your deck afterward.
+- name: Double Stab
+  cost: C
+  damage: 10×
+  type: attack
+  text: >-
+    Flip 2 coins. This attack does 10 damage times the number
+    of heads.
+weakness:
+  amount: 2
+  operation: ×
+  type: P
+retreat: 1
+illustrator: Hisao Nakamura
+---
+set: ex-firered-and-leafgreen
+number: '72'
+order: 71
+name: Paras
+rarity: common
+holographic: false
+class: P
+types:
+- Grass
+hp: 50
+stage: Basic
+legal: false
+filename: 72-paras
+pokemon: Paras
+mechanics:
+- name: Call for Family
+  cost: C
+  type: attack
+  text: >-
+    Search your deck for up to 2 Basic Pokémon and put them onto
+    your Bench. Shuffle your deck afterward.
+- name: Toxic Sport
+  cost: G
+  damage: '10'
+  type: attack
+  text: >-
+    Flip a coin. If heads, the Defending Pokémon is now Poisoned.
+weakness:
+  amount: 2
+  operation: ×
+  type: R
+retreat: 1
+illustrator: Yuka Morii
+---
+set: ex-firered-and-leafgreen
+number: '73'
+order: 72
+name: Pidgey
+rarity: common
+holographic: false
+class: P
+types:
+- Colorless
+hp: 50
+stage: Basic
+legal: false
+filename: 73-pidgey
+pokemon: Pidgey
+mechanics:
+- name: Corner
+  cost: C
+  type: attack
+  text: >-
+    The Defending Pokémon can't retreat until the end of your
+    opponent's next turn.
+- name: Gust
+  cost: CC
+  damage: '20'
+  type: attack
+weakness:
+  amount: 2
+  operation: ×
+  type: L
+resistance: F
+retreat: 1
+illustrator: Midori Harada
+---
+set: ex-firered-and-leafgreen
+number: '74'
+order: 73
+name: Pikachu
+rarity: common
+holographic: false
+class: P
+types:
+- Lightning
+hp: 50
+stage: Basic
+legal: false
+filename: 74-pikachu
+pokemon: Pikachu
+mechanics:
+- name: Plasma
+  cost: C
+  damage: '10'
+  type: attack
+  text: >-
+    Flip a coin. If heads, search your discard pile for a L Energy
+    card and attach it to Pikachu.
+weakness:
+  amount: 2
+  operation: ×
+  type: F
+retreat: 1
+illustrator: Midori Harada
+---
+set: ex-firered-and-leafgreen
+number: '75'
+order: 74
+name: Poliwag
+rarity: common
+holographic: false
+class: P
+types:
+- Water
+hp: 50
+stage: Basic
+legal: false
+filename: 75-poliwag
+pokemon: Poliwag
+mechanics:
+- name: Spiral Attack
+  cost: C
+  type: attack
+  text: >-
+    Flip a coin. If heads, the Defending Pokémon is now Confused.
+- name: Tail Whap
+  cost: CC
+  damage: '20'
+  type: attack
+weakness:
+  amount: 2
+  operation: ×
+  type: L
+retreat: 1
+illustrator: Ken Sugimori
+---
+set: ex-firered-and-leafgreen
+number: '76'
+order: 75
+name: Ponyta
+rarity: common
+holographic: false
+class: P
+types:
+- Fire
+hp: 50
+stage: Basic
+legal: false
+filename: 76-ponyta
+pokemon: Ponyta
+mechanics:
+- name: Stomp
+  cost: CC
+  damage: '20'
+  type: attack
+  text: >-
+    Flip a coin. If heads, this attack does 20 damage plus 10
+    more damage.
+weakness:
+  amount: 2
+  operation: ×
+  type: W
+retreat: 1
+illustrator: Ken Sugimori
+---
+set: ex-firered-and-leafgreen
+number: '77'
+order: 76
+name: Rattata
+rarity: common
+holographic: false
+class: P
+types:
+- Colorless
+hp: 40
+stage: Basic
+legal: false
+filename: 77-rattata
+pokemon: Rattata
+mechanics:
+- name: Collect
+  cost: C
+  type: attack
+  text: >-
+    Draw a card.
+- name: Scratch
+  cost: C
+  damage: '10'
+  type: attack
+weakness:
+  amount: 2
+  operation: ×
+  type: F
+retreat: 1
+illustrator: Kyoko Umemoto
+---
+set: ex-firered-and-leafgreen
+number: '78'
+order: 77
+name: Seel
+rarity: common
+holographic: false
+class: P
+types:
+- Water
+hp: 50
+stage: Basic
+legal: false
+filename: 78-seel
+pokemon: Seel
+mechanics:
+- name: Horn Hazard
+  cost: W
+  damage: '30'
+  type: attack
+  text: >-
+    Flip a coin. If tails, this attack does nothing.
+weakness:
+  amount: 2
+  operation: ×
+  type: L
+retreat: 1
+illustrator: Toshinao Aoki
+---
+set: ex-firered-and-leafgreen
+number: '79'
+order: 78
+name: Shellder
+rarity: common
+holographic: false
+class: P
+types:
+- Water
+hp: 50
+stage: Basic
+legal: false
+filename: 79-shellder
+pokemon: Shellder
+mechanics:
+- name: Minimize
+  cost: C
+  type: attack
+  text: >-
+    During your opponent's next turn, any damage done to Shellder
+    by attacks is reduced by 20 (after applying Weakness and Resistance).
+weakness:
+  amount: 2
+  operation: ×
+  type: L
+retreat: 1
+illustrator: Aya Kusube
+---
+set: ex-firered-and-leafgreen
+number: '80'
+order: 79
+name: Slowpoke
+rarity: common
+holographic: false
+class: P
+types:
+- Psychic
+hp: 50
+stage: Basic
+legal: false
+filename: 80-slowpoke
+pokemon: Slowpoke
+mechanics:
+- name: Confusion Wave
+  cost: C
+  type: attack
+  text: >-
+    Both Slowpoke and the Defending Pokémon are now Confused.
+weakness:
+  amount: 2
+  operation: ×
+  type: P
+retreat: 1
+illustrator: Yuka Morii
+---
+set: ex-firered-and-leafgreen
+number: '81'
+order: 80
+name: Spearow
+rarity: common
+holographic: false
+class: P
+types:
+- Colorless
+hp: 50
+stage: Basic
+legal: false
+filename: 81-spearow
+pokemon: Spearow
+mechanics:
+- name: Claw
+  cost: C
+  damage: '10'
+  type: attack
+  text: >-
+    Flip a coin. If tails, this attack does nothing.
+- name: Wing Attack
+  cost: CC
+  damage: '20'
+  type: attack
+weakness:
+  amount: 2
+  operation: ×
+  type: L
+resistance: F
+retreat: 1
+illustrator: Hisao Nakamura
+---
+set: ex-firered-and-leafgreen
+number: '82'
+order: 81
+name: Squirtle
+rarity: common
+holographic: false
+class: P
+types:
+- Water
+hp: 50
+stage: Basic
+legal: false
+filename: 82-squirtle
+pokemon: Squirtle
+mechanics:
+- name: Sleepy Ball
+  cost: W
+  damage: '10'
+  type: attack
+  text: >-
+    Flip a coin. If heads, the Defending Pokémon is now Asleep.
+weakness:
+  amount: 2
+  operation: ×
+  type: L
+retreat: 1
+illustrator: Toshinao Aoki
+---
+set: ex-firered-and-leafgreen
+number: '83'
+order: 82
+name: Squirtle
+rarity: common
+holographic: false
+class: P
+types:
+- Water
+hp: 50
+stage: Basic
+legal: false
+filename: 83-squirtle
+pokemon: Squirtle
+mechanics:
+- name: Bubble
+  cost: C
+  type: attack
+  text: >-
+    Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+- name: Smash Turn
+  cost: WC
+  damage: '20'
+  type: attack
+  text: >-
+    After your attack, you may switch Squirtle with 1 of your
+    Benched Pokémon.
+weakness:
+  amount: 2
+  operation: ×
+  type: L
+retreat: 1
+illustrator: Mitsuhiro Arita
+---
+set: ex-firered-and-leafgreen
+number: '84'
+order: 83
+name: Venonat
+rarity: common
+holographic: false
+class: P
+types:
+- Grass
+hp: 50
+stage: Basic
+legal: false
+filename: 84-venonat
+pokemon: Venonat
+mechanics:
+- name: Psycho Waves
+  cost: C
+  type: attack
+  text: >-
+    Discard an Energy card attached to Venonat. The Defending
+    Pokémon is now Confused.
+- name: Bite
+  cost: G
+  damage: '10'
+  type: attack
+weakness:
+  amount: 2
+  operation: ×
+  type: R
+retreat: 1
+illustrator: Kagemaru Himeno
+---
+set: ex-firered-and-leafgreen
+number: '85'
+order: 84
+name: Voltorb
+rarity: common
+holographic: false
+class: P
+types:
+- Lightning
+hp: 50
+stage: Basic
+legal: false
+filename: 85-voltorb
+pokemon: Voltorb
+mechanics:
+- name: Floating Electrons
+  type: pokebody
+  text: >-
+    As long as Voltorb has any Energy attached to it, Voltorb's
+    Retreat Cost is 0.
+- name: Thundershock
+  cost: LC
+  damage: '20'
+  type: attack
+  text: >-
+    Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+weakness:
+  amount: 2
+  operation: ×
+  type: F
+retreat: 1
+illustrator: Ken Sugimori
+---
+set: ex-firered-and-leafgreen
+number: '86'
+order: 85
+name: Weedle
+rarity: common
+holographic: false
+class: P
+types:
+- Grass
+hp: 50
+stage: Basic
+legal: false
+filename: 86-weedle
+pokemon: Weedle
+mechanics:
+- name: Call for Family
+  cost: C
+  type: attack
+  text: >-
+    Search your deck for up to 2 G Basic Pokémon and put them
+    onto your Bench. Shuffle your deck afterward.
+- name: Poison Spurt
+  cost: G
+  type: attack
+  text: >-
+    Discard a G Energy card attached to Weedle. The Defending
+    Pokémon is now Poisoned.
+weakness:
+  amount: 2
+  operation: ×
+  type: R
+retreat: 1
+illustrator: Hajime Kusajima
+---
+set: ex-firered-and-leafgreen
+number: '87'
+order: 86
+name: Bill's Maintenance
+rarity: uncommon
+holographic: false
+class: T
+legal: false
+filename: 87-bill's-maintenance
+subclasses:
+- Supporter
+mechanics:
+- type: rule
+  text: >-
+    You can play only one supporter card each turn. When you play
+    this card, put it next to your Active Pokémon. When your turn
+    ends, discard this card.
+- type: effect
+  text: >-
+    If you have any cards in your hand, shuffle 1 of them into
+    your deck, then draw 3 cards.
+illustrator: Ken Sugimori
+---
+set: ex-firered-and-leafgreen
+number: '88'
+order: 87
+name: Celio's Network
+rarity: uncommon
+holographic: false
+class: T
+legal: false
+filename: 88-celio's-network
+subclasses:
+- Supporter
+mechanics:
+- type: rule
+  text: >-
+    You can play only one supporter card each turn. When you play
+    this card, put it next to your Active Pokémon. When your turn
+    ends, discard this card.
+- type: effect
+  text: >-
+    Search your deck for a Basic Pokémon or Evolution card (excluding
+    Pokémon-ex), show it to your opponent, and put it into your
+    hand. Shuffle your deck afterward.
+illustrator: Ken Sugimori
+---
+set: ex-firered-and-leafgreen
+number: '89'
+order: 88
+name: Energy Removal 2
+rarity: uncommon
+holographic: false
+class: T
+legal: false
+filename: 89-energy-removal-2
+mechanics:
+- type: effect
+  text: >-
+    Flip a coin. If heads, choose 1 Energy card attached to 1
+    of your opponent's Pokémon and discard it.
+illustrator: Keiji Kinebuchi
+---
+set: ex-firered-and-leafgreen
+number: '90'
+order: 89
+name: Energy Switch
+rarity: uncommon
+holographic: false
+class: T
+legal: true
+filename: 90-energy-switch
+mechanics:
+- type: effect
+  text: >-
+    Move a basic Energy card from 1 of your Pokémon to another
+    of your Pokémon.
+illustrator: Ken Ikuji
+---
+set: ex-firered-and-leafgreen
+number: '91'
+order: 90
+name: EXP.ALL
+rarity: uncommon
+holographic: false
+class: T
+legal: false
+filename: 91-exp.all
+subclasses:
+- Tool
+mechanics:
+- type: rule
+  text: >-
+    Attach EXP.ALL to 1 of your Pokémon that doesn't already have
+    a Pokémon Tool attached to it.  If that Pokémon is Knocked
+    Out, discard this card.
+- type: effect
+  text: >-
+    During your opponent's turn, if 1 of your Active Pokémon is
+    Knocked Out by your opponent's attack, you may take 1 basic
+    Energy card attached to that Knocked Out Pokémon and attach
+    it to the Pokémon with EXP.ALL attached to it. If you do,
+    discard EXP.ALL.
+illustrator: Keiji Kinebuchi
+---
+set: ex-firered-and-leafgreen
+number: '92'
+order: 91
+name: Great Ball
+rarity: uncommon
+holographic: false
+class: T
+legal: true
+filename: 92-great-ball
+mechanics:
+- type: effect
+  text: >-
+    Search your deck for a Basic Pokémon (excluding Pokémon-ex)
+    and put it onto your Bench. Shuffle your deck afterward.
+illustrator: Nakaoka
+---
+set: ex-firered-and-leafgreen
+number: '93'
+order: 92
+name: Life Herb
+rarity: uncommon
+holographic: false
+class: T
+legal: true
+filename: 93-life-herb
+mechanics:
+- type: effect
+  text: >-
+    Flip a coin. If heads, choose 1 of your Pokémon (excluding
+    Pokémon-ex) and remove all Special Conditions and 6 damage
+    counters from that Pokémon (all if there are less than 6).
+illustrator: Ryo Ueda
+---
+set: ex-firered-and-leafgreen
+number: '94'
+order: 93
+name: Mt. Moon
+rarity: uncommon
+holographic: false
+class: T
+legal: false
+filename: 94-mt.-moon
+subclasses:
+- Stadium
+mechanics:
+- type: rule
+  text: >-
+    This card stays in play when you play it. Discard this card
+    if another Stadium card comes into play.
+- type: effect
+  text: >-
+    Any Pokémon (both yours and your opponent's), with maximum
+    HP less than 70 can't use any Poke-Powers.
+illustrator: Nakaoka
+---
+set: ex-firered-and-leafgreen
+number: '95'
+order: 94
+name: Poké Ball
+rarity: uncommon
+holographic: false
+class: T
+legal: true
+filename: 95-poke-ball
+mechanics:
+- type: effect
+  text: >-
+    Flip a coin. If heads, search your deck for a Basic Pokémon
+    or Evolution card, show it to your opponent and put it into
+    your hand. Shuffle your deck afterward.
+illustrator: K. Hoshiba
+---
+set: ex-firered-and-leafgreen
+number: '96'
+order: 95
+name: PokéDex HANDY 909
+rarity: uncommon
+holographic: false
+class: T
+legal: false
+filename: 96-pokedex-handy-909
+mechanics:
+- type: effect
+  text: >-
+    Shuffle your deck. Look at 6 cards from the top of your deck,
+    then put them back on top of your deck in any order.
+illustrator: K. Utsunomiya
+---
+set: ex-firered-and-leafgreen
+number: '97'
+order: 96
+name: Pokémon Reversal
+rarity: uncommon
+holographic: false
+class: T
+legal: false
+filename: 97-pokemon-reversal
+mechanics:
+- type: effect
+  text: >-
+    Flip a coin. If heads, choose 1 of your opponent's Benched
+    Pokémon and switch it with 1 of the Defending Pokémon. Your
+    opponent chooses the Defending Pokémon to switch.
+illustrator: Hiromichi Sugiyama
+---
+set: ex-firered-and-leafgreen
+number: '98'
+order: 97
+name: Prof. Oak's Research
+rarity: uncommon
+holographic: false
+class: T
+legal: false
+filename: 98-prof.-oak's-research
+subclasses:
+- Supporter
+mechanics:
+- type: rule
+  text: >-
+    You can play only one supporter card each turn. When you play
+    this card, put it next to your Active Pokémon. When your turn
+    ends, discard this card.
+- type: effect
+  text: >-
+    Shuffle you hand into your deck, then draw 5 cards.
+illustrator: Ken Sugimori
+---
+set: ex-firered-and-leafgreen
+number: '99'
+order: 98
+name: Super Scoop Up
+rarity: uncommon
+holographic: false
+class: T
+legal: true
+filename: 99-super-scoop-up
+mechanics:
+- type: effect
+  text: >-
+    Flip a coin. If heads, return 1 of your Pokémon and all cards
+    attached to it to your hand.
+illustrator: Keiji Kinebuchi
+---
+set: ex-firered-and-leafgreen
+number: '100'
+order: 99
+name: VS Seeker
+rarity: uncommon
+holographic: false
+class: T
+legal: false
+filename: 100-vs-seeker
+mechanics:
+- type: effect
+  text: >-
+    Search your discard pile for a Supporter card, show it to
+    your opponent, and put it into your hand.
+illustrator: K. Utsunomiya
+---
+set: ex-firered-and-leafgreen
+number: '101'
+order: 100
+name: Potion
+rarity: common
+holographic: false
+class: T
+legal: true
+filename: 101-potion
+mechanics:
+- type: effect
+  text: >-
+    Remove 2 damage counters from 1 of your Pokémon (remove 1
+    damage counter if that Pokémon has only 1).
+illustrator: Keiji Kinebuchi
+---
+set: ex-firered-and-leafgreen
+number: '102'
+order: 101
+name: Switch
+rarity: common
+holographic: false
+class: T
+legal: true
+filename: 102-switch
+mechanics:
+- type: effect
+  text: >-
+    Switch 1 of your Active Pokémon with 1 of your Benched Pokémon.
+illustrator: Hiromichi Sugiyama
+---
+set: ex-firered-and-leafgreen
+number: '103'
+order: 102
+name: Multi Energy
+rarity: rare
+holographic: false
+class: E
+legal: true
+filename: 103-multi-energy
+subclasses:
+- Special
+mechanics:
+- type: effect
+  text: >-
+    Attach Multi Energy to 1 of your Pokémon. While in play, Multi
+    Energy provides every type of Energy but provides only 1 Energy
+    at a time. (Has no effect other than providing Energy.) Multi
+    Energy provides C Energy when attached to a Pokémon that already
+    has Special Energy cards attached to it.
+illustrator: Takumi Akabane
+---
+set: ex-firered-and-leafgreen
+number: '104'
+order: 103
+name: Blastoise ex
+rarity: rare
+holographic: true
+class: P
+types:
+- Water
+hp: 150
+stage: Stage 2
+evolves from: Wartortle
+legal: false
+filename: 104-blastoise-ex
+pokemon: Blastoise
+mechanics:
+- name: Energy Rain
+  type: pokepower
+  text: >-
+    As often as you like during your turn (before your attack),
+    you may attach a W Energy card from your hand to 1 of your
+    Pokémon. Put 1 damage counter on that Pokémon. This power
+    can't be used if Blastoise EX is affected by a Special Condition.
+- name: Hyper Whirlpool
+  cost: WWWC
+  damage: '80'
+  type: attack
+  text: >-
+    Flip a coin until you get tails. For each heads, your opponent
+    discards an Energy card attached to the Defending Pokémon.
+weakness:
+  amount: 2
+  operation: ×
+  type: L
+retreat: 3
+illustrator: Hikaru Koike
+---
+set: ex-firered-and-leafgreen
+number: '105'
+order: 104
+name: Charizard ex
+rarity: rare
+holographic: true
+class: P
+types:
+- Fire
+hp: 160
+stage: Stage 2
+evolves from: Charmeleon
+legal: false
+filename: 105-charizard-ex
+pokemon: Charizard
+subclasses:
+- EX
+mechanics:
+- name: Energy Flame
+  type: pokebody
+  text: >-
+    All Energy attached to Charizard EX are R Energy instead of
+    its usual type.
+- name: Slash
+  cost: CCC
+  damage: '50'
+  type: attack
+- name: Burn Down
+  cost: RRRRR
+  damage: '200'
+  type: attack
+  text: >-
+    Discard 5 R Energy attached to Charizard EX. This attack's
+    damage isn't affected by Weakness, Resistance, Poke-Powers,
+    Poke-Bodies, and any other effects on the Defending Pokémon.
+weakness:
+  amount: 2
+  operation: ×
+  type: LW
+retreat: 2
+illustrator: Hiromichi Sugiyama
+---
+set: ex-firered-and-leafgreen
+number: '106'
+order: 105
+name: Clefable ex
+rarity: rare
+holographic: true
+class: P
+types:
+- Colorless
+hp: 100
+stage: Stage 1
+evolves from: Clefairy
+legal: false
+filename: 106-clefable-ex
+pokemon: Clefable
+subclasses:
+- EX
+mechanics:
+- name: Metronome
+  cost: CC
+  type: attack
+  text: >-
+    Choose 1 of the Defending Pokémon's attacks. Metronome copies
+    that attack except for its Energy cost. (You must still do
+    anything else in order to use that attack.) (No matter what
+    type that Pokémon is, Clefable EX's type is still Colorless.)
+    Clefable EX performs that attack.
+- name: Moon Impact
+  cost: CC
+  damage: '40'
+  type: attack
+weakness:
+  amount: 2
+  operation: ×
+  type: F
+retreat: 2
+illustrator: Mitsuhiro Arita
+---
+set: ex-firered-and-leafgreen
+number: '107'
+order: 106
+name: Electrode ex
+rarity: rare
+holographic: true
+class: P
+types:
+- Lightning
+hp: 90
+stage: Stage 1
+evolves from: Voltorb
+legal: false
+filename: 107-electrode-ex
+pokemon: Electrode
+subclasses:
+- EX
+mechanics:
+- name: Extra Energy Bomb
+  type: pokepower
+  text: >-
+    Once during your turn (before your attack), you may discard
+    Electrode EX and all the cards attached to it (this counts
+    as Knocking Out Electrode EX). If you do, search your discard
+    pile for 5 Energy cards and attach them to any of your Pokémon
+    (excluding Pokémon-ex) in any way you like. This power can't
+    be used if Electrode EX is affected by a Special Condition.
+- name: Crush and Burn
+  cost: LC
+  damage: '30'
+  type: attack
+  text: >-
+    You may discard as many Energy as you like attached to your
+    Pokémon in play. If you do, this attack does 30 damage plus
+    20 more for each Energy you discarded.
+weakness:
+  amount: 2
+  operation: ×
+  type: F
+retreat: 1
+illustrator: Ryo Ueda
+---
+set: ex-firered-and-leafgreen
+number: '108'
+order: 107
+name: Gengar ex
+rarity: rare
+holographic: true
+class: P
+types:
+- Psychic
+hp: 150
+stage: Stage 2
+evolves from: Haunter
+legal: false
+filename: 108-gengar-ex
+pokemon: Gengar
+subclasses:
+- EX
+mechanics:
+- name: Poltergeist
+  cost: PC
+  damage: '40'
+  type: attack
+  text: >-
+    Look at your opponent's hand. This attack does 40 damage plus
+    10 more damage for each Trainer card in your opponent's hand.
+- name: Prize Count
+  cost: PPC
+  damage: '60'
+  type: attack
+  text: >-
+    If you have more Prizes left than your opponent, this attack
+    does 60 damage plus 40 more damage.
+weakness:
+  amount: 2
+  operation: ×
+  type: DP
+resistance: FC
+retreat: 2
+illustrator: Mitsuhiro Arita
+---
+set: ex-firered-and-leafgreen
+number: '109'
+order: 108
+name: Gyarados ex
+rarity: rare
+holographic: true
+class: P
+types:
+- Water
+hp: 130
+stage: Stage 1
+evolves from: Magikarp
+legal: false
+filename: 109-gyarados-ex
+pokemon: Gyarados
+subclasses:
+- EX
+mechanics:
+- name: Twister
+  cost: WC
+  damage: '40'
+  type: attack
+  text: >-
+    Flip 2 coins. For each heads, choose 1 Energy attached to
+    the Defending Pokémon, if any, and discard it. If both are
+    tails, this attack does nothing.
+- name: Dragon Rage
+  cost: WWCCC
+  damage: '100'
+  type: attack
+weakness:
+  amount: 2
+  operation: ×
+  type: L
+retreat: 3
+illustrator: Hikaru Koike
+---
+set: ex-firered-and-leafgreen
+number: '110'
+order: 109
+name: Mr. Mime ex
+rarity: rare
+holographic: true
+class: P
+types:
+- Psychic
+hp: 80
+stage: Basic
+legal: false
+filename: 110-mr.-mime-ex
+pokemon: Mr. Mime
+subclasses:
+- EX
+mechanics:
+- name: Magic Odds
+  type: pokebody
+  text: >-
+    If Mr. Mime EX would be damaged by an attack, prevent that
+    attack's damage done to Mr. Mime EX if that damage is 10,
+    30, 50, 70, 90, 110, 130, 150, or 170.
+- name: Breakdown
+  cost: PC
+  type: attack
+  text: >-
+    Count the number of cards in your opponent's hand. Put that
+    many damage counters on the Defending Pokémon.
+retreat: 1
+illustrator: Ryo Ueda
+---
+set: ex-firered-and-leafgreen
+number: '111'
+order: 110
+name: Mr. Mime ex
+rarity: rare
+holographic: true
+class: P
+types:
+- Psychic
+hp: 80
+stage: Basic
+legal: false
+filename: 111-mr.-mime-ex
+pokemon: Mr. Mime
+subclasses:
+- EX
+mechanics:
+- name: Magic Evens
+  type: pokebody
+  text: >-
+    If Mr. Mime EX would be damaged by an attack, prevent that
+    attack's damage done to Mr. Mime EX if that damage is 20,
+    40, 60, 80, 100, 120, 140, 160, or 180.
+- name: Breakdown
+  cost: PC
+  type: attack
+  text: >-
+    Count the number of cards in your opponent's hand. Put that
+    many damage counters on the Defending Pokémon.
+retreat: 1
+illustrator: Ryo Ueda
+---
+set: ex-firered-and-leafgreen
+number: '112'
+order: 111
+name: Venusaur ex
+rarity: rare
+holographic: true
+class: P
+types:
+- Grass
+hp: 150
+stage: Stage 2
+evolves from: Ivysaur
+legal: false
+filename: 112-venusaur-ex
+pokemon: Venusaur
+subclasses:
+- EX
+mechanics:
+- name: Energy Trans
+  type: pokepower
+  text: >-
+    As often as you like during your turn (before your attack),
+    move a G Energy card attacked to 1 of your Pokémon to another
+    of your Pokémon. This power can be used if Venusaur EX is
+    affected by a Special Condition.
+- name: Pollen Hazard
+  cost: GCC
+  damage: '20'
+  type: attack
+  text: >-
+    The Defending Pokémon is now Poisoned, Burned, and Confused.
+- name: Solarbeam
+  cost: GGGCC
+  damage: '90'
+  type: attack
+weakness:
+  amount: 2
+  operation: ×
+  type: PR
+retreat: 3
+illustrator: Ryo Ueda
+---
+set: ex-firered-and-leafgreen
+number: '113'
+order: 112
+name: Charmander
+rarity: rare
+holographic: true
+class: P
+types:
+- Fire
+hp: 50
+stage: Basic
+legal: false
+filename: 113-charmander
+pokemon: Charmander
+subclasses:
+- EX
+mechanics:
+- name: Flare
+  cost: R
+  damage: '10'
+  type: attack
+- name: Rage
+  cost: CC
+  damage: '10'
+  type: attack
+  text: >-
+    Does 10 damage plus 10 more damage for each damage counter
+    on Charmander.
+weakness:
+  amount: 2
+  operation: ×
+  type: W
+retreat: 1
+illustrator: Ken Sugimori
+---
+set: ex-firered-and-leafgreen
+number: '114'
+order: 113
+name: Articuno ex
+rarity: rare
+holographic: true
+class: P
+types:
+- Water
+hp: 110
+stage: Basic
+legal: false
+filename: 114-articuno-ex
+pokemon: Articuno
+subclasses:
+- EX
+mechanics:
+- name: Legendary Ascent
+  type: pokepower
+  text: >-
+    Once during your turn, when you put Articuno EX from your
+    hand onto your Bench, you may switch 1 of your Active Pokémon
+    with Articuno EX. If you do, you may also move any number
+    of basic Water Energy cards attached to your Pokémon to Articuno
+    EX.
+- name: Cold Crush
+  cost: WWC
+  damage: '50'
+  type: attack
+  text: >-
+    You may discard an Energy card attached to Articuno EX. If
+    you do, your opponent discards an Energy card attached to
+    the Defending Pokémon.
+weakness:
+  amount: 2
+  operation: ×
+  type: M
+retreat: 2
+illustrator: Ryo Ueda
+---
+set: ex-firered-and-leafgreen
+number: '115'
+order: 114
+name: Moltres ex
+rarity: rare
+holographic: true
+class: P
+types:
+- Fire
+hp: 110
+stage: Basic
+legal: false
+filename: 115-moltres-ex
+pokemon: Moltres
+subclasses:
+- EX
+mechanics:
+- name: Legendary Ascent
+  type: pokepower
+  text: >-
+    Once during your turn, when you put Moltres EX from your hand
+    onto your Bench, you may switch 1 of your Active Pokémon with
+    Moltres EX. If you do, you may also move any number of basic
+    R Energy cards attached to your Pokémon to Moltres EX.
+- name: Crushing Flames
+  cost: RRC
+  damage: '60'
+  type: attack
+  text: >-
+    You may discard an Energy card attached to Moltres EX. If
+    you do, the Defending Pokémon is now Confused.
+weakness:
+  amount: 2
+  operation: ×
+  type: W
+retreat: 2
+illustrator: Ryo Ueda
+---
+set: ex-firered-and-leafgreen
+number: '116'
+order: 115
+name: Zapdos ex
+rarity: rare
+holographic: true
+class: P
+types:
+- Lightning
+hp: 110
+stage: Basic
+legal: false
+filename: 116-zapdos-ex
+pokemon: Zapdos
+subclasses:
+- EX
+mechanics:
+- type: note
+  text: >-
+    When Pokémon-ex has been Knocked Out, your opponent takes
+    2 Prize cards.
+- name: Legendary Ascent
+  type: pokepower
+  text: >-
+    Once during your turn, when you put Zapdos EX from your hand
+    onto your Bench, you may switch 1 of your Active Pokémon with
+    Zapdos EX. If you do, you may also move any number of basic
+    L Energy cards attached to your Pokémon to Zapdos EX.
+- name: Electron Crush
+  cost: LLC
+  damage: '50'
+  type: attack
+  text: >-
+    You may discard an Energy card attached to Zapdos EX. If you
+    do, this attack does 50 damage plus 20 more damage.
+weakness:
+  amount: 2
+  operation: ×
+  type: L
+retreat: 2
+illustrator: Ryo Ueda
