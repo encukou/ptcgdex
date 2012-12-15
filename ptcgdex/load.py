@@ -401,7 +401,7 @@ def dump_set(tcg_set, outfile, verbose=True):
 
     print_start(tcg_set.name)
 
-    included_keys = set(['holographic', 'legal'])
+    included_keys = set(['holographic', 'legal', 'order'])
 
     for i, print_ in enumerate(tcg_set.prints):
         card = print_.card
