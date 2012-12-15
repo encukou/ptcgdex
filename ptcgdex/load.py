@@ -150,7 +150,12 @@ def load_sets(session, directory, set_names=None, verbose=True):
             hp = card_info.pop('hp', None)
             retreat_cost = card_info.pop('retreat', None)
 
-            resistance = card_info.pop('resistance', None)
+            resistance = card_info.pop('resistance', None)  # TODO
+            if resistance and resistance.endswith('-20'):
+                resistance = resistance[:-len('-20')]
+                resistance_amount = 20
+            else:
+                resistance_amount = 30
             if not resistance or resistance == 'None':
                 resistant_types = []
             else:
@@ -285,7 +290,7 @@ def load_sets(session, directory, set_names=None, verbose=True):
                     modifier = tcg_tables.DamageModifier()
                     modifier.card = card
                     modifier.type = r_type
-                    modifier.amount = 30
+                    modifier.amount = resistance_amount
                     modifier.order = r_index
                     modifier.operation = '-'
                     session.add(modifier)
@@ -476,9 +481,14 @@ def dump_set(tcg_set, outfile, verbose=True):
             first_weakness['type'] = ''.join(w['type'] for w in weaknesses)
             card_info['weakness'] = first_weakness
         if resistances:
-            assert all(w['amount'] == 30 and w['operation'] == '-'
+            first_resistance = resistances[0]
+            assert all(w['amount'] == first_resistance['amount'] and
+                       w['operation'] == '-'
                        for w in resistances)
-            card_info['resistance'] = ''.join(w['type'] for w in resistances)
+            resist_string = ''.join(w['type'] for w in resistances)
+            if first_resistance['amount'] != 30:
+                resist_string += '-{}'.format(first_resistance['amount'])
+            card_info['resistance'] = resist_string
 
         card_info['retreat'] = card.retreat_cost
 
