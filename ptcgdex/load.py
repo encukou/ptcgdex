@@ -317,6 +317,13 @@ def load_sets(session, directory, set_names=None, verbose=True):
             rarity = util.get(session, tcg_tables.Rarity,
                               card_info.pop('rarity'))
 
+            dex_number = card_info.pop('dex number', None)
+            if dex_number:
+                species = util.get(session, dex_tables.PokemonSpecies,
+                                        id=dex_number)
+            else:
+                species = None
+
             # Make the print
 
             card_print = tcg_tables.Print()
@@ -326,16 +333,13 @@ def load_sets(session, directory, set_names=None, verbose=True):
             try:
                 card_print.order = int(card_print.set_number)
             except ValueError:
-                pass
+                card_print.order = 500  # TODO
             card_print.rarity = rarity
             card_print.illustrator = illustrator
             card_print.holographic = card_info.pop('holographic')
 
-            dex_number = card_info.pop('dex number', None)
             if dex_number:
                 flavor = tcg_tables.PokemonFlavor()
-                species = util.get(session, dex_tables.PokemonSpecies,
-                                        id=dex_number)
                 species_name = card_info.pop('pokemon')
                 if species.name.lower() != species_name.lower():
                     raise ValueError("{!r} != {!r}".format(

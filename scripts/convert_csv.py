@@ -73,6 +73,18 @@ def munge_errors(data):
         data['pokemon'] = 'Nidoran♂'
     elif data['pokemon'] == 'Nidoran F':
         data['pokemon'] = 'Nidoran♀'
+    elif data['pokemon'].startswith('Dark '):
+        data['pokemon'] = data['pokemon'][len('Dark '):]
+    elif data['pokemon'].startswith('Light '):
+        data['pokemon'] = data['pokemon'][len('Light '):]
+
+    if not data['class']:
+        if set_name == ('legendary-collection', 'Full Heal Energy'):
+            data['class'] = 'E'
+        elif set_name == ('legendary-collection', 'Potion Energy'):
+            data['class'] = 'E'
+        elif data['set'] == 'legendary-collection' and data['num'].startswith('S'):
+            data['class'] = 'P'
 
 @contextmanager
 def nonempty_setter(target_dict, name, default=None):
@@ -142,6 +154,8 @@ def main(infile, destdir=None):
         simple_out('name', 'card-name')
 
         rarity = pop('rarity')
+        if rarity == 'P':
+            rarity = 'promo'
         rarity, holo, end = rarity.partition('-holo')
         assert not end, (rarity, holo, end)
         result['rarity'] = rarity
