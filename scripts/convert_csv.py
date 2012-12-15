@@ -52,6 +52,13 @@ def munge_errors(data):
         height = data.pop('weight')
         assert height == '''2' 04"'''
         data['weight'] = '50.7 lbs.'
+    elif set_name == ('diamond-and-pearl', "Azumarrill"):
+        data['card-name'] = 'Azumarill'
+        assert data['pokemon'] == 'Azumarrill'
+        data['pokemon'] = 'Azumarill'
+    elif set_name == ('diamond-and-pearl', "Marill"):
+        assert data['dex-no.'] == '184'
+        data['dex-no.'] = '183'
     elif set_name in [
             ('platinum', "Dialga G"),
             ('platinum', "Palkia G"),

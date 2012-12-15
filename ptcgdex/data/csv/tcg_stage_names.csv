@@ -3,3 +3,4 @@ tcg_stage_id,local_language_id,name
 0,9,Basic
 1,9,Stage 1
 2,9,Stage 2
+3,9,Level-Up
