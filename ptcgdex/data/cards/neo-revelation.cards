@@ -1,6 +1,7 @@
 ---
 set: neo-revelation
 number: '1'
+order: 0
 name: Ampharos
 rarity: rare
 holographic: true
@@ -43,6 +44,7 @@ illustrator: Toshinao Aoki
 ---
 set: neo-revelation
 number: '2'
+order: 1
 name: Blissey
 rarity: rare
 holographic: true
@@ -83,6 +85,7 @@ illustrator: Yuka Morii
 ---
 set: neo-revelation
 number: '3'
+order: 2
 name: Celebi
 rarity: rare
 holographic: true
@@ -121,6 +124,7 @@ illustrator: Hironobu Yoshida
 ---
 set: neo-revelation
 number: '4'
+order: 3
 name: Crobat
 rarity: rare
 holographic: true
@@ -164,6 +168,7 @@ illustrator: Shin-ichi Yoshida
 ---
 set: neo-revelation
 number: '5'
+order: 4
 name: Delibird
 rarity: rare
 holographic: true
@@ -200,6 +205,7 @@ illustrator: Tomokazu Komiya
 ---
 set: neo-revelation
 number: '6'
+order: 5
 name: Entei
 rarity: rare
 holographic: true
@@ -244,6 +250,7 @@ illustrator: Ken Sugimori
 ---
 set: neo-revelation
 number: '7'
+order: 6
 name: Ho-oh
 rarity: rare
 holographic: true
@@ -293,6 +300,7 @@ illustrator: Kimiya Masago
 ---
 set: neo-revelation
 number: '8'
+order: 7
 name: Houndoom
 rarity: rare
 holographic: true
@@ -332,6 +340,7 @@ illustrator: Mitsuhiro Arita
 ---
 set: neo-revelation
 number: '9'
+order: 8
 name: Jumpluff
 rarity: rare
 holographic: true
@@ -371,6 +380,7 @@ illustrator: Kagemaru Himeno
 ---
 set: neo-revelation
 number: '10'
+order: 9
 name: Magneton
 rarity: rare
 holographic: true
@@ -413,6 +423,7 @@ illustrator: Big Mama Tagawa, CR CG gangs
 ---
 set: neo-revelation
 number: '11'
+order: 10
 name: Misdreavus
 rarity: rare
 holographic: true
@@ -446,6 +457,7 @@ illustrator: Ken Sugimori
 ---
 set: neo-revelation
 number: '12'
+order: 11
 name: Porygon2
 rarity: rare
 holographic: true
@@ -490,6 +502,7 @@ illustrator: Keiji Kinebuchi
 ---
 set: neo-revelation
 number: '13'
+order: 12
 name: Raikou
 rarity: rare
 holographic: true
@@ -528,6 +541,7 @@ illustrator: Ken Sugimori
 ---
 set: neo-revelation
 number: '14'
+order: 13
 name: Suicune
 rarity: rare
 holographic: true
@@ -567,6 +581,7 @@ illustrator: Ken Sugimori
 ---
 set: neo-revelation
 number: '15'
+order: 14
 name: Aerodactyl
 rarity: rare
 holographic: false
@@ -610,6 +625,7 @@ illustrator: Shin-ichi Yoshida
 ---
 set: neo-revelation
 number: '16'
+order: 15
 name: Celebi
 rarity: rare
 holographic: false
@@ -646,6 +662,7 @@ illustrator: Sumiyoshi Kizuki
 ---
 set: neo-revelation
 number: '17'
+order: 16
 name: Entei
 rarity: rare
 holographic: false
@@ -686,6 +703,7 @@ illustrator: Naoyo Kimura
 ---
 set: neo-revelation
 number: '18'
+order: 17
 name: Ho-oh
 rarity: rare
 holographic: false
@@ -719,6 +737,7 @@ illustrator: Aya Kusube
 ---
 set: neo-revelation
 number: '19'
+order: 18
 name: Kingdra
 rarity: rare
 holographic: false
@@ -756,6 +775,7 @@ illustrator: Mitsuhiro Arita
 ---
 set: neo-revelation
 number: '20'
+order: 19
 name: Lugia
 rarity: rare
 holographic: false
@@ -789,6 +809,7 @@ illustrator: Aya Kusube
 ---
 set: neo-revelation
 number: '21'
+order: 20
 name: Raichu
 rarity: rare
 holographic: false
@@ -828,6 +849,7 @@ illustrator: Masako Yamashita
 ---
 set: neo-revelation
 number: '22'
+order: 21
 name: Raikou
 rarity: rare
 holographic: false
@@ -869,6 +891,7 @@ illustrator: Naoyo Kimura
 ---
 set: neo-revelation
 number: '23'
+order: 22
 name: Skarmory
 rarity: rare
 holographic: false
@@ -909,6 +932,7 @@ illustrator: Aya Kusube
 ---
 set: neo-revelation
 number: '24'
+order: 23
 name: Sneasel
 rarity: rare
 holographic: false
@@ -943,6 +967,7 @@ illustrator: Sumiyoshi Kizuki
 ---
 set: neo-revelation
 number: '25'
+order: 24
 name: Starmie
 rarity: rare
 holographic: false
@@ -983,6 +1008,7 @@ illustrator: Keita Komatsuya, CR CG gangs
 ---
 set: neo-revelation
 number: '26'
+order: 25
 name: Sudowoodo
 rarity: rare
 holographic: false
@@ -1022,6 +1048,7 @@ illustrator: Sumiyoshi Kizuki
 ---
 set: neo-revelation
 number: '27'
+order: 26
 name: Suicune
 rarity: rare
 holographic: false
@@ -1065,6 +1092,7 @@ illustrator: Naoyo Kimura
 ---
 set: neo-revelation
 number: '28'
+order: 27
 name: Flaaffy
 rarity: uncommon
 holographic: false
@@ -1103,6 +1131,7 @@ illustrator: Toshinao Aoki
 ---
 set: neo-revelation
 number: '29'
+order: 28
 name: Golbat
 rarity: uncommon
 holographic: false
@@ -1147,6 +1176,7 @@ illustrator: Masako Yamashita
 ---
 set: neo-revelation
 number: '30'
+order: 29
 name: Graveler
 rarity: uncommon
 holographic: false
@@ -1186,6 +1216,7 @@ illustrator: Yukiko Baba
 ---
 set: neo-revelation
 number: '31'
+order: 30
 name: Jynx
 rarity: uncommon
 holographic: false
@@ -1224,6 +1255,7 @@ illustrator: Tomokazu Komiya
 ---
 set: neo-revelation
 number: '32'
+order: 31
 name: Lanturn
 rarity: uncommon
 holographic: false
@@ -1264,6 +1296,7 @@ illustrator: Kagemaru Himeno
 ---
 set: neo-revelation
 number: '33'
+order: 32
 name: Magcargo
 rarity: uncommon
 holographic: false
@@ -1306,6 +1339,7 @@ illustrator: Shin-ichi Yoshida
 ---
 set: neo-revelation
 number: '34'
+order: 33
 name: Octillery
 rarity: uncommon
 holographic: false
@@ -1346,6 +1380,7 @@ illustrator: Tomokazu Komiya
 ---
 set: neo-revelation
 number: '35'
+order: 34
 name: Parasect
 rarity: uncommon
 holographic: false
@@ -1384,6 +1419,7 @@ illustrator: Atsuko Nishida
 ---
 set: neo-revelation
 number: '36'
+order: 35
 name: Piloswine
 rarity: uncommon
 holographic: false
@@ -1424,6 +1460,7 @@ illustrator: Atsuko Nishida
 ---
 set: neo-revelation
 number: '37'
+order: 36
 name: Seaking
 rarity: uncommon
 holographic: false
@@ -1465,6 +1502,7 @@ illustrator: Miki Tanaka
 ---
 set: neo-revelation
 number: '38'
+order: 37
 name: Stantler
 rarity: uncommon
 holographic: false
@@ -1506,6 +1544,7 @@ illustrator: Yukiko Baba
 ---
 set: neo-revelation
 number: '39'
+order: 38
 name: Unown B
 rarity: uncommon
 holographic: false
@@ -1547,6 +1586,7 @@ illustrator: CR CG gangs
 ---
 set: neo-revelation
 number: '40'
+order: 39
 name: Unown Y
 rarity: uncommon
 holographic: false
@@ -1588,6 +1628,7 @@ illustrator: CR CG gangs
 ---
 set: neo-revelation
 number: '41'
+order: 40
 name: Aipom
 rarity: common
 holographic: false
@@ -1623,6 +1664,7 @@ illustrator: Sumiyoshi Kizuki
 ---
 set: neo-revelation
 number: '42'
+order: 41
 name: Chinchou
 rarity: common
 holographic: false
@@ -1664,6 +1706,7 @@ illustrator: Atsuko Nishida
 ---
 set: neo-revelation
 number: '43'
+order: 42
 name: Farfetch'd
 rarity: common
 holographic: false
@@ -1701,6 +1744,7 @@ illustrator: Miki Tanaka
 ---
 set: neo-revelation
 number: '44'
+order: 43
 name: Geodude
 rarity: common
 holographic: false
@@ -1730,6 +1774,7 @@ illustrator: Masako Yamashita
 ---
 set: neo-revelation
 number: '45'
+order: 44
 name: Goldeen
 rarity: common
 holographic: false
@@ -1761,6 +1806,7 @@ illustrator: Yuka Morii
 ---
 set: neo-revelation
 number: '46'
+order: 45
 name: Murkrow
 rarity: common
 holographic: false
@@ -1797,6 +1843,7 @@ illustrator: Hironobu Yoshida
 ---
 set: neo-revelation
 number: '47'
+order: 46
 name: Paras
 rarity: common
 holographic: false
@@ -1832,6 +1879,7 @@ illustrator: Kagemaru Himeno
 ---
 set: neo-revelation
 number: '48'
+order: 47
 name: Quagsire
 rarity: common
 holographic: false
@@ -1870,6 +1918,7 @@ illustrator: Yuka Morii
 ---
 set: neo-revelation
 number: '49'
+order: 48
 name: Qwilfish
 rarity: common
 holographic: false
@@ -1908,6 +1957,7 @@ illustrator: Sumiyoshi Kizuki
 ---
 set: neo-revelation
 number: '50'
+order: 49
 name: Remoraid
 rarity: common
 holographic: false
@@ -1939,6 +1989,7 @@ illustrator: Miki Tanaka
 ---
 set: neo-revelation
 number: '51'
+order: 50
 name: Shuckle
 rarity: common
 holographic: false
@@ -1979,6 +2030,7 @@ illustrator: Yuka Morii
 ---
 set: neo-revelation
 number: '52'
+order: 51
 name: Skiploom
 rarity: common
 holographic: false
@@ -2016,6 +2068,7 @@ illustrator: Mitsuhiro Arita
 ---
 set: neo-revelation
 number: '53'
+order: 52
 name: Slugma
 rarity: common
 holographic: false
@@ -2052,6 +2105,7 @@ illustrator: Kagemaru Himeno
 ---
 set: neo-revelation
 number: '54'
+order: 53
 name: Smoochum
 rarity: common
 holographic: false
@@ -2080,6 +2134,7 @@ illustrator: Atsuko Nishida
 ---
 set: neo-revelation
 number: '55'
+order: 54
 name: Snubbull
 rarity: common
 holographic: false
@@ -2118,6 +2173,7 @@ illustrator: Tomokazu Komiya
 ---
 set: neo-revelation
 number: '56'
+order: 55
 name: Staryu
 rarity: common
 holographic: false
@@ -2153,6 +2209,7 @@ illustrator: Mitsuhiro Arita
 ---
 set: neo-revelation
 number: '57'
+order: 56
 name: Swinub
 rarity: common
 holographic: false
@@ -2189,6 +2246,7 @@ illustrator: Miki Tanaka
 ---
 set: neo-revelation
 number: '58'
+order: 57
 name: Unown K
 rarity: common
 holographic: false
@@ -2228,6 +2286,7 @@ illustrator: CR CG gangs
 ---
 set: neo-revelation
 number: '59'
+order: 58
 name: Zubat
 rarity: common
 holographic: false
@@ -2262,6 +2321,7 @@ illustrator: Yukiko Baba
 ---
 set: neo-revelation
 number: '60'
+order: 59
 name: Balloon Berry
 rarity: uncommon
 holographic: false
@@ -2286,6 +2346,7 @@ illustrator: Keiji Kinebuchi
 ---
 set: neo-revelation
 number: '61'
+order: 60
 name: Healing Field
 rarity: uncommon
 holographic: false
@@ -2308,6 +2369,7 @@ illustrator: Keiji Kinebuchi
 ---
 set: neo-revelation
 number: '62'
+order: 61
 name: Pokémon Breeder Fields
 rarity: uncommon
 holographic: false
@@ -2325,6 +2387,7 @@ illustrator: Ken Sugimori
 ---
 set: neo-revelation
 number: '63'
+order: 62
 name: Rocket's Hideout
 rarity: uncommon
 holographic: false
@@ -2346,6 +2409,7 @@ illustrator: Keiji Kinebuchi
 ---
 set: neo-revelation
 number: '64'
+order: 63
 name: Old Rod
 rarity: common
 holographic: false
@@ -2363,6 +2427,7 @@ illustrator: Keiji Kinebuchi
 ---
 set: neo-revelation
 number: '65'
+order: 64
 name: Shining Gyarados
 rarity: rare
 holographic: true
@@ -2407,6 +2472,7 @@ illustrator: Ken Sugimori
 ---
 set: neo-revelation
 number: '66'
+order: 65
 name: Shining Magikarp
 rarity: rare
 holographic: true

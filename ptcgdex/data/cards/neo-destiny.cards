@@ -1,6 +1,7 @@
 ---
 set: neo-destiny
 number: '1'
+order: 0
 name: Dark Ampharos
 rarity: rare
 holographic: true
@@ -47,6 +48,7 @@ illustrator: Kagemaru Himeno
 ---
 set: neo-destiny
 number: '2'
+order: 1
 name: Dark Crobat
 rarity: rare
 holographic: true
@@ -91,6 +93,7 @@ illustrator: Shin-ichi Yoshida, CR CG gangs
 ---
 set: neo-destiny
 number: '3'
+order: 2
 name: Dark Donphan
 rarity: rare
 holographic: true
@@ -135,6 +138,7 @@ illustrator: Shin-ichi Yoshida
 ---
 set: neo-destiny
 number: '4'
+order: 3
 name: Dark Espeon
 rarity: rare
 holographic: true
@@ -178,6 +182,7 @@ illustrator: Atsuko Nishida
 ---
 set: neo-destiny
 number: '5'
+order: 4
 name: Dark Feraligatr
 rarity: rare
 holographic: true
@@ -222,6 +227,7 @@ illustrator: Atsuko Nishida
 ---
 set: neo-destiny
 number: '6'
+order: 5
 name: Dark Gengar
 rarity: rare
 holographic: true
@@ -265,6 +271,7 @@ illustrator: Aya Kusube
 ---
 set: neo-destiny
 number: '7'
+order: 6
 name: Dark Houndoom
 rarity: rare
 holographic: true
@@ -313,6 +320,7 @@ illustrator: Kagemaru Himeno
 ---
 set: neo-destiny
 number: '8'
+order: 7
 name: Dark Porygon2
 rarity: rare
 holographic: true
@@ -361,6 +369,7 @@ illustrator: Shin-ichi Yoshikawa, CR CG gangs
 ---
 set: neo-destiny
 number: '9'
+order: 8
 name: Dark Scizor
 rarity: rare
 holographic: true
@@ -404,6 +413,7 @@ illustrator: Mitsuhiro Arita
 ---
 set: neo-destiny
 number: '10'
+order: 9
 name: Dark Typhlosion
 rarity: rare
 holographic: true
@@ -447,6 +457,7 @@ illustrator: Mitsuhiro Arita
 ---
 set: neo-destiny
 number: '11'
+order: 10
 name: Dark Tyranitar
 rarity: rare
 holographic: true
@@ -497,6 +508,7 @@ illustrator: Shin-ichi Yoshida
 ---
 set: neo-destiny
 number: '12'
+order: 11
 name: Light Arcanine
 rarity: rare
 holographic: true
@@ -545,6 +557,7 @@ illustrator: Atsuko Nishida
 ---
 set: neo-destiny
 number: '13'
+order: 12
 name: Light Azumarill
 rarity: rare
 holographic: true
@@ -592,6 +605,7 @@ illustrator: Yuka Morii
 ---
 set: neo-destiny
 number: '14'
+order: 13
 name: Light Dragonite
 rarity: rare
 holographic: true
@@ -635,6 +649,7 @@ illustrator: Atsuko Nishida
 ---
 set: neo-destiny
 number: '15'
+order: 14
 name: Light Togetic
 rarity: rare
 holographic: true
@@ -675,6 +690,7 @@ illustrator: Naoyo Kimura
 ---
 set: neo-destiny
 number: '16'
+order: 15
 name: Miracle Energy
 rarity: rare
 holographic: true
@@ -696,6 +712,7 @@ illustrator: Milky Isobe
 ---
 set: neo-destiny
 number: '17'
+order: 16
 name: Dark Ariados
 rarity: rare
 holographic: false
@@ -743,6 +760,7 @@ illustrator: Toshinao Aoki
 ---
 set: neo-destiny
 number: '18'
+order: 17
 name: Dark Magcargo
 rarity: rare
 holographic: false
@@ -792,6 +810,7 @@ illustrator: Toshinao Aoki
 ---
 set: neo-destiny
 number: '19'
+order: 18
 name: Dark Omastar
 rarity: rare
 holographic: false
@@ -839,6 +858,7 @@ illustrator: Tomokazu Komiya
 ---
 set: neo-destiny
 number: '20'
+order: 19
 name: Dark Slowking
 rarity: rare
 holographic: false
@@ -884,6 +904,7 @@ illustrator: Tomokazu Komiya
 ---
 set: neo-destiny
 number: '21'
+order: 20
 name: Dark Ursaring
 rarity: rare
 holographic: false
@@ -931,6 +952,7 @@ illustrator: Mitsuhiro Arita
 ---
 set: neo-destiny
 number: '22'
+order: 21
 name: Light Dragonair
 rarity: rare
 holographic: false
@@ -970,6 +992,7 @@ illustrator: Atsuko Nishida
 ---
 set: neo-destiny
 number: '23'
+order: 22
 name: Light Lanturn
 rarity: rare
 holographic: false
@@ -1015,6 +1038,7 @@ illustrator: Miki Tanaka
 ---
 set: neo-destiny
 number: '24'
+order: 23
 name: Light Ledian
 rarity: rare
 holographic: false
@@ -1061,6 +1085,7 @@ illustrator: Tomokazu Komiya
 ---
 set: neo-destiny
 number: '25'
+order: 24
 name: Light Machamp
 rarity: rare
 holographic: false
@@ -1105,6 +1130,7 @@ illustrator: Miki Tanaka
 ---
 set: neo-destiny
 number: '26'
+order: 25
 name: Light Piloswine
 rarity: rare
 holographic: false
@@ -1150,6 +1176,7 @@ illustrator: Yukiko Baba
 ---
 set: neo-destiny
 number: '27'
+order: 26
 name: Unown G
 rarity: rare
 holographic: false
@@ -1195,6 +1222,7 @@ illustrator: CR CG gangs
 ---
 set: neo-destiny
 number: '28'
+order: 27
 name: Unown H
 rarity: rare
 holographic: false
@@ -1239,6 +1267,7 @@ illustrator: CR CG gangs
 ---
 set: neo-destiny
 number: '29'
+order: 28
 name: Unown W
 rarity: rare
 holographic: false
@@ -1283,6 +1312,7 @@ illustrator: CR CG gangs
 ---
 set: neo-destiny
 number: '30'
+order: 29
 name: Unown X
 rarity: rare
 holographic: false
@@ -1327,6 +1357,7 @@ illustrator: CR CG gangs
 ---
 set: neo-destiny
 number: '31'
+order: 30
 name: Chansey
 rarity: uncommon
 holographic: false
@@ -1369,6 +1400,7 @@ illustrator: Yuka Morii
 ---
 set: neo-destiny
 number: '32'
+order: 31
 name: Dark Croconaw
 rarity: uncommon
 holographic: false
@@ -1408,6 +1440,7 @@ illustrator: Shin-ichi Yoshida
 ---
 set: neo-destiny
 number: '33'
+order: 32
 name: Dark Exeggutor
 rarity: uncommon
 holographic: false
@@ -1455,6 +1488,7 @@ illustrator: Toshinao Aoki
 ---
 set: neo-destiny
 number: '34'
+order: 33
 name: Dark Flaaffy
 rarity: uncommon
 holographic: false
@@ -1500,6 +1534,7 @@ illustrator: Kagemaru Himeno
 ---
 set: neo-destiny
 number: '35'
+order: 34
 name: Dark Forretress
 rarity: uncommon
 holographic: false
@@ -1544,6 +1579,7 @@ illustrator: Mitsuhiro Arita
 ---
 set: neo-destiny
 number: '36'
+order: 35
 name: Dark Haunter
 rarity: uncommon
 holographic: false
@@ -1586,6 +1622,7 @@ illustrator: Aya Kusube
 ---
 set: neo-destiny
 number: '37'
+order: 36
 name: Dark Omanyte
 rarity: uncommon
 holographic: false
@@ -1625,6 +1662,7 @@ illustrator: Tomokazu Komiya
 ---
 set: neo-destiny
 number: '38'
+order: 37
 name: Dark Pupitar
 rarity: uncommon
 holographic: false
@@ -1673,6 +1711,7 @@ illustrator: Mitsuhiro Arita
 ---
 set: neo-destiny
 number: '39'
+order: 38
 name: Dark Quilava
 rarity: uncommon
 holographic: false
@@ -1719,6 +1758,7 @@ illustrator: Mitsuhiro Arita
 ---
 set: neo-destiny
 number: '40'
+order: 39
 name: Dark Wigglytuff
 rarity: uncommon
 holographic: false
@@ -1765,6 +1805,7 @@ illustrator: Miki Tanaka
 ---
 set: neo-destiny
 number: '41'
+order: 40
 name: Heracross
 rarity: uncommon
 holographic: false
@@ -1803,6 +1844,7 @@ illustrator: K. Hoshiba, CR CG gangs
 ---
 set: neo-destiny
 number: '42'
+order: 41
 name: Hitmonlee
 rarity: uncommon
 holographic: false
@@ -1844,6 +1886,7 @@ illustrator: Yukiko Baba
 ---
 set: neo-destiny
 number: '43'
+order: 42
 name: Houndour
 rarity: uncommon
 holographic: false
@@ -1881,6 +1924,7 @@ illustrator: Yukiko Baba
 ---
 set: neo-destiny
 number: '44'
+order: 43
 name: Jigglypuff
 rarity: uncommon
 holographic: false
@@ -1917,6 +1961,7 @@ illustrator: Yuka Morii
 ---
 set: neo-destiny
 number: '45'
+order: 44
 name: Light Dewgong
 rarity: uncommon
 holographic: false
@@ -1963,6 +2008,7 @@ illustrator: Masako Yamashita
 ---
 set: neo-destiny
 number: '46'
+order: 45
 name: Light Flareon
 rarity: uncommon
 holographic: false
@@ -2009,6 +2055,7 @@ illustrator: Atsuko Nishida
 ---
 set: neo-destiny
 number: '47'
+order: 46
 name: Light Golduck
 rarity: uncommon
 holographic: false
@@ -2061,6 +2108,7 @@ illustrator: Atsuko Nishida
 ---
 set: neo-destiny
 number: '48'
+order: 47
 name: Light Jolteon
 rarity: uncommon
 holographic: false
@@ -2110,6 +2158,7 @@ illustrator: Naoyo Kimura
 ---
 set: neo-destiny
 number: '49'
+order: 48
 name: Light Machoke
 rarity: uncommon
 holographic: false
@@ -2158,6 +2207,7 @@ illustrator: Miki Tanaka
 ---
 set: neo-destiny
 number: '50'
+order: 49
 name: Light Ninetales
 rarity: uncommon
 holographic: false
@@ -2207,6 +2257,7 @@ illustrator: Masako Yamashita
 ---
 set: neo-destiny
 number: '51'
+order: 50
 name: Light Slowbro
 rarity: uncommon
 holographic: false
@@ -2257,6 +2308,7 @@ illustrator: Tomokazu Komiya
 ---
 set: neo-destiny
 number: '52'
+order: 51
 name: Light Vaporeon
 rarity: uncommon
 holographic: false
@@ -2307,6 +2359,7 @@ illustrator: Kagemaru Himeno
 ---
 set: neo-destiny
 number: '53'
+order: 52
 name: Light Venomoth
 rarity: uncommon
 holographic: false
@@ -2357,6 +2410,7 @@ illustrator: Masako Yamashita
 ---
 set: neo-destiny
 number: '54'
+order: 53
 name: Light Wigglytuff
 rarity: uncommon
 holographic: false
@@ -2409,6 +2463,7 @@ illustrator: Naoyo Kimura
 ---
 set: neo-destiny
 number: '55'
+order: 54
 name: Scyther
 rarity: uncommon
 holographic: false
@@ -2448,6 +2503,7 @@ illustrator: Shin-ichi Yoshida
 ---
 set: neo-destiny
 number: '56'
+order: 55
 name: Togepi
 rarity: uncommon
 holographic: false
@@ -2485,6 +2541,7 @@ illustrator: Yuka Morii
 ---
 set: neo-destiny
 number: '57'
+order: 56
 name: Unown C
 rarity: uncommon
 holographic: false
@@ -2528,6 +2585,7 @@ illustrator: CR CG gangs
 ---
 set: neo-destiny
 number: '58'
+order: 57
 name: Unown P
 rarity: uncommon
 holographic: false
@@ -2573,6 +2631,7 @@ illustrator: CR CG gangs
 ---
 set: neo-destiny
 number: '59'
+order: 58
 name: Unown Q
 rarity: uncommon
 holographic: false
@@ -2617,6 +2676,7 @@ illustrator: CR CG gangs
 ---
 set: neo-destiny
 number: '60'
+order: 59
 name: Unown Z
 rarity: uncommon
 holographic: false
@@ -2659,6 +2719,7 @@ illustrator: CR CG gangs
 ---
 set: neo-destiny
 number: '61'
+order: 60
 name: Cyndaquil
 rarity: common
 holographic: false
@@ -2695,6 +2756,7 @@ illustrator: Yukiko Baba
 ---
 set: neo-destiny
 number: '62'
+order: 61
 name: Dark Octillery
 rarity: common
 holographic: false
@@ -2742,6 +2804,7 @@ illustrator: Shin-ichi Yoshida
 ---
 set: neo-destiny
 number: '63'
+order: 62
 name: Dratini
 rarity: common
 holographic: false
@@ -2779,6 +2842,7 @@ illustrator: Yuka Morii
 ---
 set: neo-destiny
 number: '64'
+order: 63
 name: Exeggcute
 rarity: common
 holographic: false
@@ -2819,6 +2883,7 @@ illustrator: Toshinao Aoki
 ---
 set: neo-destiny
 number: '65'
+order: 64
 name: Gastly
 rarity: common
 holographic: false
@@ -2849,6 +2914,7 @@ illustrator: Aya Kusube
 ---
 set: neo-destiny
 number: '66'
+order: 65
 name: Girafarig
 rarity: common
 holographic: false
@@ -2887,6 +2953,7 @@ illustrator: Yuka Morii
 ---
 set: neo-destiny
 number: '67'
+order: 66
 name: Gligar
 rarity: common
 holographic: false
@@ -2922,6 +2989,7 @@ illustrator: Ken Sugimori
 ---
 set: neo-destiny
 number: '68'
+order: 67
 name: Growlithe
 rarity: common
 holographic: false
@@ -2953,6 +3021,7 @@ illustrator: Atsuko Nishida
 ---
 set: neo-destiny
 number: '69'
+order: 68
 name: Hitmonchan
 rarity: common
 holographic: false
@@ -2992,6 +3061,7 @@ illustrator: Shin-ichi Yoshida
 ---
 set: neo-destiny
 number: '70'
+order: 69
 name: Larvitar
 rarity: common
 holographic: false
@@ -3032,6 +3102,7 @@ illustrator: Ken Sugimori
 ---
 set: neo-destiny
 number: '71'
+order: 70
 name: Ledyba
 rarity: common
 holographic: false
@@ -3067,6 +3138,7 @@ illustrator: Tomokazu Komiya
 ---
 set: neo-destiny
 number: '72'
+order: 71
 name: Light Sunflora
 rarity: common
 holographic: false
@@ -3108,6 +3180,7 @@ illustrator: Toshinao Aoki
 ---
 set: neo-destiny
 number: '73'
+order: 72
 name: Machop
 rarity: common
 holographic: false
@@ -3143,6 +3216,7 @@ illustrator: Toshinao Aoki
 ---
 set: neo-destiny
 number: '74'
+order: 73
 name: Mantine
 rarity: common
 holographic: false
@@ -3178,6 +3252,7 @@ illustrator: Yukiko Baba
 ---
 set: neo-destiny
 number: '75'
+order: 74
 name: Mareep
 rarity: common
 holographic: false
@@ -3210,6 +3285,7 @@ illustrator: Kagemaru Himeno
 ---
 set: neo-destiny
 number: '76'
+order: 75
 name: Phanpy
 rarity: common
 holographic: false
@@ -3246,6 +3322,7 @@ illustrator: Miki Tanaka
 ---
 set: neo-destiny
 number: '77'
+order: 76
 name: Pineco
 rarity: common
 holographic: false
@@ -3278,6 +3355,7 @@ illustrator: Ken Sugimori
 ---
 set: neo-destiny
 number: '78'
+order: 77
 name: Porygon
 rarity: common
 holographic: false
@@ -3311,6 +3389,7 @@ illustrator: Hiromichi Sugiyama, CR CG gangs
 ---
 set: neo-destiny
 number: '79'
+order: 78
 name: Psyduck
 rarity: common
 holographic: false
@@ -3350,6 +3429,7 @@ illustrator: Yuka Morii
 ---
 set: neo-destiny
 number: '80'
+order: 79
 name: Remoraid
 rarity: common
 holographic: false
@@ -3384,6 +3464,7 @@ illustrator: Jungo Suzuki, CR CG gangs
 ---
 set: neo-destiny
 number: '81'
+order: 80
 name: Seel
 rarity: common
 holographic: false
@@ -3418,6 +3499,7 @@ illustrator: Masako Yamashita
 ---
 set: neo-destiny
 number: '82'
+order: 81
 name: Slugma
 rarity: common
 holographic: false
@@ -3449,6 +3531,7 @@ illustrator: Ken Sugimori
 ---
 set: neo-destiny
 number: '83'
+order: 82
 name: Sunkern
 rarity: common
 holographic: false
@@ -3489,6 +3572,7 @@ illustrator: Etsuya Hattori
 ---
 set: neo-destiny
 number: '84'
+order: 83
 name: Swinub
 rarity: common
 holographic: false
@@ -3524,6 +3608,7 @@ illustrator: Kagemaru Himeno
 ---
 set: neo-destiny
 number: '85'
+order: 84
 name: Totodile
 rarity: common
 holographic: false
@@ -3560,6 +3645,7 @@ illustrator: Miki Tanaka
 ---
 set: neo-destiny
 number: '86'
+order: 85
 name: Unown L
 rarity: common
 holographic: false
@@ -3602,6 +3688,7 @@ illustrator: CR CG gangs
 ---
 set: neo-destiny
 number: '87'
+order: 86
 name: Unown S
 rarity: common
 holographic: false
@@ -3644,6 +3731,7 @@ illustrator: CR CG gangs
 ---
 set: neo-destiny
 number: '88'
+order: 87
 name: Unown T
 rarity: common
 holographic: false
@@ -3687,6 +3775,7 @@ illustrator: CR CG gangs
 ---
 set: neo-destiny
 number: '89'
+order: 88
 name: Unown V
 rarity: common
 holographic: false
@@ -3731,6 +3820,7 @@ illustrator: CR CG gangs
 ---
 set: neo-destiny
 number: '90'
+order: 89
 name: Venonat
 rarity: common
 holographic: false
@@ -3769,6 +3859,7 @@ illustrator: Masako Yamashita
 ---
 set: neo-destiny
 number: '91'
+order: 90
 name: Vulpix
 rarity: common
 holographic: false
@@ -3804,6 +3895,7 @@ illustrator: Masako Yamashita
 ---
 set: neo-destiny
 number: '92'
+order: 91
 name: Broken Ground Gym
 rarity: rare
 holographic: false
@@ -3825,6 +3917,7 @@ illustrator: Tomokazu Komiya
 ---
 set: neo-destiny
 number: '93'
+order: 92
 name: EXP.ALL
 rarity: rare
 holographic: false
@@ -3849,6 +3942,7 @@ illustrator: Keiji Kinebuchi
 ---
 set: neo-destiny
 number: '94'
+order: 93
 name: Impostor Professor Oak's Invention
 rarity: rare
 holographic: false
@@ -3867,6 +3961,7 @@ illustrator: Ken Sugimori
 ---
 set: neo-destiny
 number: '95'
+order: 94
 name: Radio Tower
 rarity: rare
 holographic: false
@@ -3889,6 +3984,7 @@ illustrator: Yousuke Hirata, CR CG gangs
 ---
 set: neo-destiny
 number: '96'
+order: 95
 name: Thought Wave Machine
 rarity: rare
 holographic: false
@@ -3908,6 +4004,7 @@ illustrator: Sumiyoshi Kizuki
 ---
 set: neo-destiny
 number: '97'
+order: 96
 name: Counterattack Claws
 rarity: uncommon
 holographic: false
@@ -3933,6 +4030,7 @@ illustrator: Keiji Kinebuchi
 ---
 set: neo-destiny
 number: '98'
+order: 97
 name: Energy Amplifier
 rarity: uncommon
 holographic: false
@@ -3951,6 +4049,7 @@ illustrator: Big Mama Tagawa, CR CG gangs
 ---
 set: neo-destiny
 number: '99'
+order: 98
 name: Energy Stadium
 rarity: uncommon
 holographic: false
@@ -3974,6 +4073,7 @@ illustrator: Hideki Kazama
 ---
 set: neo-destiny
 number: '100'
+order: 99
 name: Lucky Stadium
 rarity: uncommon
 holographic: false
@@ -3995,6 +4095,7 @@ illustrator: Imakuni?
 ---
 set: neo-destiny
 number: '101'
+order: 100
 name: Magnifier
 rarity: uncommon
 holographic: false
@@ -4011,6 +4112,7 @@ illustrator: Keiji Kinebuchi
 ---
 set: neo-destiny
 number: '102'
+order: 101
 name: Pokémon Personality Test
 rarity: uncommon
 holographic: false
@@ -4032,6 +4134,7 @@ illustrator: Tomokazu Komiya
 ---
 set: neo-destiny
 number: '103'
+order: 102
 name: Team Rocket's Evil Deeds
 rarity: uncommon
 holographic: false
@@ -4048,6 +4151,7 @@ illustrator: Ken Sugimori
 ---
 set: neo-destiny
 number: '104'
+order: 103
 name: Heal Powder
 rarity: common
 holographic: false
@@ -4064,6 +4168,7 @@ illustrator: Ryuta Kusumi, CR CG gangs
 ---
 set: neo-destiny
 number: '105'
+order: 104
 name: Mail from Bill
 rarity: common
 holographic: false
@@ -4080,6 +4185,7 @@ illustrator: Ken Sugimori
 ---
 set: neo-destiny
 number: '106'
+order: 105
 name: Shining Celebi
 rarity: triple-rare
 holographic: true
@@ -4126,6 +4232,7 @@ illustrator: Hironobu Yoshida
 ---
 set: neo-destiny
 number: '107'
+order: 106
 name: Shining Charizard
 rarity: triple-rare
 holographic: true
@@ -4164,6 +4271,7 @@ illustrator: Hironobu Yoshida
 ---
 set: neo-destiny
 number: '108'
+order: 107
 name: Shining Kabutops
 rarity: triple-rare
 holographic: true
@@ -4211,6 +4319,7 @@ illustrator: Hironobu Yoshida
 ---
 set: neo-destiny
 number: '109'
+order: 108
 name: Shining Mewtwo
 rarity: triple-rare
 holographic: true
@@ -4257,6 +4366,7 @@ illustrator: Hironobu Yoshida
 ---
 set: neo-destiny
 number: '110'
+order: 109
 name: Shining Noctowl
 rarity: triple-rare
 holographic: true
@@ -4296,6 +4406,7 @@ illustrator: Ken Sugimori
 ---
 set: neo-destiny
 number: '111'
+order: 110
 name: Shining Raichu
 rarity: triple-rare
 holographic: true
@@ -4336,6 +4447,7 @@ illustrator: Hironobu Yoshida
 ---
 set: neo-destiny
 number: '112'
+order: 111
 name: Shining Steelix
 rarity: triple-rare
 holographic: true
@@ -4376,6 +4488,7 @@ illustrator: Ken Sugimori
 ---
 set: neo-destiny
 number: '113'
+order: 112
 name: Shining Tyranitar
 rarity: triple-rare
 holographic: true

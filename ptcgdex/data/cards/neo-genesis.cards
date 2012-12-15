@@ -1,6 +1,7 @@
 ---
 set: neo-genesis
 number: '1'
+order: 0
 name: Ampharos
 rarity: rare
 holographic: true
@@ -39,6 +40,7 @@ illustrator: Ken Sugimori
 ---
 set: neo-genesis
 number: '2'
+order: 1
 name: Azumarill
 rarity: rare
 holographic: true
@@ -81,6 +83,7 @@ illustrator: Ken Sugimori
 ---
 set: neo-genesis
 number: '3'
+order: 2
 name: Bellossom
 rarity: rare
 holographic: true
@@ -123,6 +126,7 @@ illustrator: Atsuko Nishida
 ---
 set: neo-genesis
 number: '4'
+order: 3
 name: Feraligatr
 rarity: rare
 holographic: true
@@ -166,6 +170,7 @@ illustrator: Ken Sugimori
 ---
 set: neo-genesis
 number: '5'
+order: 4
 name: Feraligatr
 rarity: rare
 holographic: true
@@ -209,6 +214,7 @@ illustrator: Ken Sugimori
 ---
 set: neo-genesis
 number: '6'
+order: 5
 name: Heracross
 rarity: rare
 holographic: true
@@ -249,6 +255,7 @@ illustrator: Ken Sugimori
 ---
 set: neo-genesis
 number: '7'
+order: 6
 name: Jumpluff
 rarity: rare
 holographic: true
@@ -292,6 +299,7 @@ illustrator: Atsuko Nishida
 ---
 set: neo-genesis
 number: '8'
+order: 7
 name: Kingdra
 rarity: rare
 holographic: true
@@ -332,6 +340,7 @@ illustrator: Ken Sugimori
 ---
 set: neo-genesis
 number: '9'
+order: 8
 name: Lugia
 rarity: rare
 holographic: true
@@ -368,6 +377,7 @@ illustrator: Hironobu Yoshida
 ---
 set: neo-genesis
 number: '10'
+order: 9
 name: Meganium
 rarity: rare
 holographic: true
@@ -409,6 +419,7 @@ illustrator: Ken Sugimori
 ---
 set: neo-genesis
 number: '11'
+order: 10
 name: Meganium
 rarity: rare
 holographic: true
@@ -450,6 +461,7 @@ illustrator: Ken Sugimori
 ---
 set: neo-genesis
 number: '12'
+order: 11
 name: Pichu
 rarity: rare
 holographic: true
@@ -480,6 +492,7 @@ illustrator: Ken Sugimori
 ---
 set: neo-genesis
 number: '13'
+order: 12
 name: Skarmory
 rarity: rare
 holographic: true
@@ -523,6 +536,7 @@ illustrator: Ken Sugimori
 ---
 set: neo-genesis
 number: '14'
+order: 13
 name: Slowking
 rarity: rare
 holographic: true
@@ -567,6 +581,7 @@ illustrator: Ken Sugimori
 ---
 set: neo-genesis
 number: '15'
+order: 14
 name: Steelix
 rarity: rare
 holographic: true
@@ -608,6 +623,7 @@ illustrator: Ken Sugimori
 ---
 set: neo-genesis
 number: '16'
+order: 15
 name: Togetic
 rarity: rare
 holographic: true
@@ -653,6 +669,7 @@ illustrator: Ken Sugimori
 ---
 set: neo-genesis
 number: '17'
+order: 16
 name: Typhlosion
 rarity: rare
 holographic: true
@@ -697,6 +714,7 @@ illustrator: Shin-ichi Yoshida
 ---
 set: neo-genesis
 number: '18'
+order: 17
 name: Typhlosion
 rarity: rare
 holographic: true
@@ -741,6 +759,7 @@ illustrator: Ken Sugimori
 ---
 set: neo-genesis
 number: '19'
+order: 18
 name: Metal Energy
 rarity: rare
 holographic: true
@@ -763,6 +782,7 @@ illustrator: Milky Isobe
 ---
 set: neo-genesis
 number: '20'
+order: 19
 name: Cleffa
 rarity: rare
 holographic: false
@@ -792,6 +812,7 @@ illustrator: Kagemaru Himeno
 ---
 set: neo-genesis
 number: '21'
+order: 20
 name: Donphan
 rarity: rare
 holographic: false
@@ -838,6 +859,7 @@ illustrator: Ken Sugimori
 ---
 set: neo-genesis
 number: '22'
+order: 21
 name: Elekid
 rarity: rare
 holographic: false
@@ -870,6 +892,7 @@ illustrator: Miki Tanaka
 ---
 set: neo-genesis
 number: '23'
+order: 22
 name: Magby
 rarity: rare
 holographic: false
@@ -901,6 +924,7 @@ illustrator: Ken Sugimori
 ---
 set: neo-genesis
 number: '24'
+order: 23
 name: Murkrow
 rarity: rare
 holographic: false
@@ -940,6 +964,7 @@ illustrator: Shin-ichi Yoshida
 ---
 set: neo-genesis
 number: '25'
+order: 24
 name: Sneasel
 rarity: rare
 holographic: false
@@ -978,6 +1003,7 @@ illustrator: Ken Sugimori
 ---
 set: neo-genesis
 number: '26'
+order: 25
 name: Aipom
 rarity: uncommon
 holographic: false
@@ -1020,6 +1046,7 @@ illustrator: Hironobu Yoshida
 ---
 set: neo-genesis
 number: '27'
+order: 26
 name: Ariados
 rarity: uncommon
 holographic: false
@@ -1065,6 +1092,7 @@ illustrator: Ken Sugimori
 ---
 set: neo-genesis
 number: '28'
+order: 27
 name: Bayleef
 rarity: uncommon
 holographic: false
@@ -1107,6 +1135,7 @@ illustrator: Ken Sugimori
 ---
 set: neo-genesis
 number: '29'
+order: 28
 name: Bayleef
 rarity: uncommon
 holographic: false
@@ -1153,6 +1182,7 @@ illustrator: Ken Sugimori
 ---
 set: neo-genesis
 number: '30'
+order: 29
 name: Clefairy
 rarity: uncommon
 holographic: false
@@ -1197,6 +1227,7 @@ illustrator: Sumiyoshi Kizuki
 ---
 set: neo-genesis
 number: '31'
+order: 30
 name: Croconaw
 rarity: uncommon
 holographic: false
@@ -1243,6 +1274,7 @@ illustrator: Ken Sugimori
 ---
 set: neo-genesis
 number: '32'
+order: 31
 name: Croconaw
 rarity: uncommon
 holographic: false
@@ -1282,6 +1314,7 @@ illustrator: Ken Sugimori
 ---
 set: neo-genesis
 number: '33'
+order: 32
 name: Electabuzz
 rarity: uncommon
 holographic: false
@@ -1321,6 +1354,7 @@ illustrator: Shin-ichi Yoshida
 ---
 set: neo-genesis
 number: '34'
+order: 33
 name: Flaaffy
 rarity: uncommon
 holographic: false
@@ -1367,6 +1401,7 @@ illustrator: Ken Sugimori
 ---
 set: neo-genesis
 number: '35'
+order: 34
 name: Furret
 rarity: uncommon
 holographic: false
@@ -1411,6 +1446,7 @@ illustrator: Ken Sugimori
 ---
 set: neo-genesis
 number: '36'
+order: 35
 name: Gloom
 rarity: uncommon
 holographic: false
@@ -1459,6 +1495,7 @@ illustrator: Mitsuhiro Arita
 ---
 set: neo-genesis
 number: '37'
+order: 36
 name: Granbull
 rarity: uncommon
 holographic: false
@@ -1500,6 +1537,7 @@ illustrator: Ken Sugimori
 ---
 set: neo-genesis
 number: '38'
+order: 37
 name: Lanturn
 rarity: uncommon
 holographic: false
@@ -1542,6 +1580,7 @@ illustrator: Ken Sugimori
 ---
 set: neo-genesis
 number: '39'
+order: 38
 name: Ledian
 rarity: uncommon
 holographic: false
@@ -1579,6 +1618,7 @@ illustrator: Ken Sugimori
 ---
 set: neo-genesis
 number: '40'
+order: 39
 name: Magmar
 rarity: uncommon
 holographic: false
@@ -1615,6 +1655,7 @@ illustrator: Naoyo Kimura
 ---
 set: neo-genesis
 number: '41'
+order: 40
 name: Miltank
 rarity: uncommon
 holographic: false
@@ -1657,6 +1698,7 @@ illustrator: Ken Sugimori
 ---
 set: neo-genesis
 number: '42'
+order: 41
 name: Noctowl
 rarity: uncommon
 holographic: false
@@ -1698,6 +1740,7 @@ illustrator: Ken Sugimori
 ---
 set: neo-genesis
 number: '43'
+order: 42
 name: Phanpy
 rarity: uncommon
 holographic: false
@@ -1738,6 +1781,7 @@ illustrator: Ken Sugimori
 ---
 set: neo-genesis
 number: '44'
+order: 43
 name: Piloswine
 rarity: uncommon
 holographic: false
@@ -1784,6 +1828,7 @@ illustrator: Ken Sugimori
 ---
 set: neo-genesis
 number: '45'
+order: 44
 name: Quagsire
 rarity: uncommon
 holographic: false
@@ -1825,6 +1870,7 @@ illustrator: Atsuko Nishida
 ---
 set: neo-genesis
 number: '46'
+order: 45
 name: Quilava
 rarity: uncommon
 holographic: false
@@ -1869,6 +1915,7 @@ illustrator: Ken Sugimori
 ---
 set: neo-genesis
 number: '47'
+order: 46
 name: Quilava
 rarity: uncommon
 holographic: false
@@ -1917,6 +1964,7 @@ illustrator: Ken Sugimori
 ---
 set: neo-genesis
 number: '48'
+order: 47
 name: Seadra
 rarity: uncommon
 holographic: false
@@ -1961,6 +2009,7 @@ illustrator: Shin-ichi Yoshida
 ---
 set: neo-genesis
 number: '49'
+order: 48
 name: Skiploom
 rarity: uncommon
 holographic: false
@@ -2002,6 +2051,7 @@ illustrator: Atsuko Nishida
 ---
 set: neo-genesis
 number: '50'
+order: 49
 name: Sunflora
 rarity: uncommon
 holographic: false
@@ -2038,6 +2088,7 @@ illustrator: Kagemaru Himeno
 ---
 set: neo-genesis
 number: '51'
+order: 50
 name: Togepi
 rarity: uncommon
 holographic: false
@@ -2069,6 +2120,7 @@ illustrator: Naoyo Kimura
 ---
 set: neo-genesis
 number: '52'
+order: 51
 name: Xatu
 rarity: uncommon
 holographic: false
@@ -2110,6 +2162,7 @@ illustrator: Ken Sugimori
 ---
 set: neo-genesis
 number: '53'
+order: 52
 name: Chikorita
 rarity: common
 holographic: false
@@ -2149,6 +2202,7 @@ illustrator: Naoyo Kimura
 ---
 set: neo-genesis
 number: '54'
+order: 53
 name: Chikorita
 rarity: common
 holographic: false
@@ -2189,6 +2243,7 @@ illustrator: Ken Sugimori
 ---
 set: neo-genesis
 number: '55'
+order: 54
 name: Chinchou
 rarity: common
 holographic: false
@@ -2228,6 +2283,7 @@ illustrator: Ken Sugimori
 ---
 set: neo-genesis
 number: '56'
+order: 55
 name: Cyndaquil
 rarity: common
 holographic: false
@@ -2270,6 +2326,7 @@ illustrator: Ken Sugimori
 ---
 set: neo-genesis
 number: '57'
+order: 56
 name: Cyndaquil
 rarity: common
 holographic: false
@@ -2311,6 +2368,7 @@ illustrator: Shin-ichi Yoshida
 ---
 set: neo-genesis
 number: '58'
+order: 57
 name: Girafarig
 rarity: common
 holographic: false
@@ -2348,6 +2406,7 @@ illustrator: Ken Sugimori
 ---
 set: neo-genesis
 number: '59'
+order: 58
 name: Gligar
 rarity: common
 holographic: false
@@ -2386,6 +2445,7 @@ illustrator: Hironobu Yoshida
 ---
 set: neo-genesis
 number: '60'
+order: 59
 name: Hoothoot
 rarity: common
 holographic: false
@@ -2424,6 +2484,7 @@ illustrator: Sumiyoshi Kizuki
 ---
 set: neo-genesis
 number: '61'
+order: 60
 name: Hoppip
 rarity: common
 holographic: false
@@ -2463,6 +2524,7 @@ illustrator: Atsuko Nishida
 ---
 set: neo-genesis
 number: '62'
+order: 61
 name: Horsea
 rarity: common
 holographic: false
@@ -2498,6 +2560,7 @@ illustrator: Miki Tanaka
 ---
 set: neo-genesis
 number: '63'
+order: 62
 name: Ledyba
 rarity: common
 holographic: false
@@ -2538,6 +2601,7 @@ illustrator: Sumiyoshi Kizuki
 ---
 set: neo-genesis
 number: '64'
+order: 63
 name: Mantine
 rarity: common
 holographic: false
@@ -2574,6 +2638,7 @@ illustrator: Ken Sugimori
 ---
 set: neo-genesis
 number: '65'
+order: 64
 name: Mareep
 rarity: common
 holographic: false
@@ -2614,6 +2679,7 @@ illustrator: Ken Sugimori
 ---
 set: neo-genesis
 number: '66'
+order: 65
 name: Marill
 rarity: common
 holographic: false
@@ -2656,6 +2722,7 @@ illustrator: Atsuko Nishida
 ---
 set: neo-genesis
 number: '67'
+order: 66
 name: Natu
 rarity: common
 holographic: false
@@ -2696,6 +2763,7 @@ illustrator: Ken Sugimori
 ---
 set: neo-genesis
 number: '68'
+order: 67
 name: Oddish
 rarity: common
 holographic: false
@@ -2739,6 +2807,7 @@ illustrator: Sumiyoshi Kizuki
 ---
 set: neo-genesis
 number: '69'
+order: 68
 name: Onix
 rarity: common
 holographic: false
@@ -2781,6 +2850,7 @@ illustrator: Mitsuhiro Arita
 ---
 set: neo-genesis
 number: '70'
+order: 69
 name: Pikachu
 rarity: common
 holographic: false
@@ -2823,6 +2893,7 @@ illustrator: Naoyo Kimura
 ---
 set: neo-genesis
 number: '71'
+order: 70
 name: Sentret
 rarity: common
 holographic: false
@@ -2859,6 +2930,7 @@ illustrator: Ken Sugimori
 ---
 set: neo-genesis
 number: '72'
+order: 71
 name: Shuckle
 rarity: common
 holographic: false
@@ -2900,6 +2972,7 @@ illustrator: Ken Sugimori
 ---
 set: neo-genesis
 number: '73'
+order: 72
 name: Slowpoke
 rarity: common
 holographic: false
@@ -2942,6 +3015,7 @@ illustrator: Tomokazu Komiya
 ---
 set: neo-genesis
 number: '74'
+order: 73
 name: Snubbull
 rarity: common
 holographic: false
@@ -2985,6 +3059,7 @@ illustrator: Mitsuhiro Arita
 ---
 set: neo-genesis
 number: '75'
+order: 74
 name: Spinarak
 rarity: common
 holographic: false
@@ -3025,6 +3100,7 @@ illustrator: Ken Sugimori
 ---
 set: neo-genesis
 number: '76'
+order: 75
 name: Stantler
 rarity: common
 holographic: false
@@ -3066,6 +3142,7 @@ illustrator: Ken Sugimori
 ---
 set: neo-genesis
 number: '77'
+order: 76
 name: Sudowoodo
 rarity: common
 holographic: false
@@ -3104,6 +3181,7 @@ illustrator: Ken Sugimori
 ---
 set: neo-genesis
 number: '78'
+order: 77
 name: Sunkern
 rarity: common
 holographic: false
@@ -3147,6 +3225,7 @@ illustrator: Kagemaru Himeno
 ---
 set: neo-genesis
 number: '79'
+order: 78
 name: Swinub
 rarity: common
 holographic: false
@@ -3182,6 +3261,7 @@ illustrator: Ken Sugimori
 ---
 set: neo-genesis
 number: '80'
+order: 79
 name: Totodile
 rarity: common
 holographic: false
@@ -3221,6 +3301,7 @@ illustrator: Ken Sugimori
 ---
 set: neo-genesis
 number: '81'
+order: 80
 name: Totodile
 rarity: common
 holographic: false
@@ -3263,6 +3344,7 @@ illustrator: Hironobu Yoshida
 ---
 set: neo-genesis
 number: '82'
+order: 81
 name: Wooper
 rarity: common
 holographic: false
@@ -3305,6 +3387,7 @@ illustrator: Miki Tanaka
 ---
 set: neo-genesis
 number: '83'
+order: 82
 name: Arcade Game
 rarity: rare
 holographic: false
@@ -3322,6 +3405,7 @@ illustrator: K. Hoshiba, CR CG gangs
 ---
 set: neo-genesis
 number: '84'
+order: 83
 name: Ecogym
 rarity: rare
 holographic: false
@@ -3346,6 +3430,7 @@ illustrator: Shin-ichi Yoshikawa, CR CG gangs
 ---
 set: neo-genesis
 number: '85'
+order: 84
 name: Energy Charge
 rarity: rare
 holographic: false
@@ -3361,6 +3446,7 @@ illustrator: Keiji Kinebuchi
 ---
 set: neo-genesis
 number: '86'
+order: 85
 name: Focus Band
 rarity: rare
 holographic: false
@@ -3386,6 +3472,7 @@ illustrator: Tomokazu Komiya
 ---
 set: neo-genesis
 number: '87'
+order: 86
 name: Mary
 rarity: rare
 holographic: false
@@ -3401,6 +3488,7 @@ illustrator: Ken Sugimori
 ---
 set: neo-genesis
 number: '88'
+order: 87
 name: PokéGear
 rarity: rare
 holographic: false
@@ -3418,6 +3506,7 @@ illustrator: Katsura Tabata, CR CG gangs
 ---
 set: neo-genesis
 number: '89'
+order: 88
 name: Super Energy Retrieval
 rarity: rare
 holographic: false
@@ -3434,6 +3523,7 @@ illustrator: Keiji Kinebuchi
 ---
 set: neo-genesis
 number: '90'
+order: 89
 name: Time Capsule
 rarity: rare
 holographic: false
@@ -3453,6 +3543,7 @@ illustrator: Big Mama Tagawa, CR CG gangs
 ---
 set: neo-genesis
 number: '91'
+order: 90
 name: Bill's Teleporter
 rarity: uncommon
 holographic: false
@@ -3467,6 +3558,7 @@ illustrator: Keiji Kinebuchi
 ---
 set: neo-genesis
 number: '92'
+order: 91
 name: Card-Flip Game
 rarity: uncommon
 holographic: false
@@ -3484,6 +3576,7 @@ illustrator: K. Hoshiba, CR CG gangs
 ---
 set: neo-genesis
 number: '93'
+order: 92
 name: Gold Berry
 rarity: uncommon
 holographic: false
@@ -3511,6 +3604,7 @@ illustrator: Ryuta Kusumi, CR CG gangs
 ---
 set: neo-genesis
 number: '94'
+order: 93
 name: Miracle Berry
 rarity: uncommon
 holographic: false
@@ -3536,6 +3630,7 @@ illustrator: Yousuke Hirata, CR CG gangs
 ---
 set: neo-genesis
 number: '95'
+order: 94
 name: New Pokédex
 rarity: uncommon
 holographic: false
@@ -3551,6 +3646,7 @@ illustrator: Keiji Kinebuchi
 ---
 set: neo-genesis
 number: '96'
+order: 95
 name: Professor Elm
 rarity: uncommon
 holographic: false
@@ -3566,6 +3662,7 @@ illustrator: Ken Sugimori
 ---
 set: neo-genesis
 number: '97'
+order: 96
 name: Sprout Tower
 rarity: uncommon
 holographic: false
@@ -3587,6 +3684,7 @@ illustrator: Hiromichi Sugiyama, CR CG gangs
 ---
 set: neo-genesis
 number: '98'
+order: 97
 name: Super Scoop Up
 rarity: uncommon
 holographic: false
@@ -3603,6 +3701,7 @@ illustrator: Keiji Kinebuchi
 ---
 set: neo-genesis
 number: '99'
+order: 98
 name: Berry
 rarity: common
 holographic: false
@@ -3630,6 +3729,7 @@ illustrator: Yousuke Hirata, CR CG gangs
 ---
 set: neo-genesis
 number: '100'
+order: 99
 name: Double Gust
 rarity: common
 holographic: false
@@ -3647,6 +3747,7 @@ illustrator: Tomokazu Komiya
 ---
 set: neo-genesis
 number: '101'
+order: 100
 name: Moo-Moo Milk
 rarity: common
 holographic: false
@@ -3663,6 +3764,7 @@ illustrator: Tomokazu Komiya
 ---
 set: neo-genesis
 number: '102'
+order: 101
 name: Pokémon March
 rarity: common
 holographic: false
@@ -3681,6 +3783,7 @@ illustrator: Tomokazu Komiya
 ---
 set: neo-genesis
 number: '103'
+order: 102
 name: Super Rod
 rarity: common
 holographic: false
@@ -3697,6 +3800,7 @@ illustrator: Keiji Kinebuchi
 ---
 set: neo-genesis
 number: '104'
+order: 103
 name: Darkness Energy
 rarity: rare
 holographic: false
@@ -3721,6 +3825,7 @@ illustrator: Milky Isobe
 ---
 set: neo-genesis
 number: '105'
+order: 104
 name: Recycle Energy
 rarity: rare
 holographic: false
@@ -3740,6 +3845,7 @@ illustrator: Hideki Kazama
 ---
 set: neo-genesis
 number: '106'
+order: 105
 name: Fighting Energy
 rarity: common
 holographic: false
@@ -3757,6 +3863,7 @@ illustrator: Keiji Kinebuchi
 ---
 set: neo-genesis
 number: '107'
+order: 106
 name: Fire Energy
 rarity: common
 holographic: false
@@ -3774,6 +3881,7 @@ illustrator: Keiji Kinebuchi
 ---
 set: neo-genesis
 number: '108'
+order: 107
 name: Grass Energy
 rarity: common
 holographic: false
@@ -3791,6 +3899,7 @@ illustrator: Keiji Kinebuchi
 ---
 set: neo-genesis
 number: '109'
+order: 108
 name: Lightning Energy
 rarity: common
 holographic: false
@@ -3808,6 +3917,7 @@ illustrator: Keiji Kinebuchi
 ---
 set: neo-genesis
 number: '110'
+order: 109
 name: Psychic Energy
 rarity: common
 holographic: false
@@ -3825,6 +3935,7 @@ illustrator: Keiji Kinebuchi
 ---
 set: neo-genesis
 number: '111'
+order: 110
 name: Water Energy
 rarity: common
 holographic: false

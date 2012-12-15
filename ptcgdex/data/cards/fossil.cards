@@ -1,6 +1,7 @@
 ---
 set: fossil
 number: '1'
+order: 0
 name: Aerodactyl
 rarity: rare
 holographic: true
@@ -37,6 +38,7 @@ illustrator: Kagemaru Himeno
 ---
 set: fossil
 number: '2'
+order: 1
 name: Articuno
 rarity: rare
 holographic: true
@@ -74,6 +76,7 @@ illustrator: Mitsuhiro Arita
 ---
 set: fossil
 number: '3'
+order: 2
 name: Ditto
 rarity: rare
 holographic: true
@@ -109,6 +112,7 @@ illustrator: Keiji Kinebuchi
 ---
 set: fossil
 number: '4'
+order: 3
 name: Dragonite
 rarity: rare
 holographic: true
@@ -144,6 +148,7 @@ illustrator: Kagemaru Himeno
 ---
 set: fossil
 number: '5'
+order: 4
 name: Gengar
 rarity: rare
 holographic: true
@@ -182,6 +187,7 @@ illustrator: Keiji Kinebuchi
 ---
 set: fossil
 number: '6'
+order: 5
 name: Haunter
 rarity: rare
 holographic: true
@@ -217,6 +223,7 @@ illustrator: Ken Sugimori
 ---
 set: fossil
 number: '7'
+order: 6
 name: Hitmonlee
 rarity: rare
 holographic: true
@@ -253,6 +260,7 @@ illustrator: Ken Sugimori
 ---
 set: fossil
 number: '8'
+order: 7
 name: Hypno
 rarity: rare
 holographic: true
@@ -293,6 +301,7 @@ illustrator: Ken Sugimori
 ---
 set: fossil
 number: '9'
+order: 8
 name: Kabutops
 rarity: rare
 holographic: true
@@ -333,6 +342,7 @@ illustrator: Ken Sugimori
 ---
 set: fossil
 number: '10'
+order: 9
 name: Lapras
 rarity: rare
 holographic: true
@@ -372,6 +382,7 @@ illustrator: Ken Sugimori
 ---
 set: fossil
 number: '11'
+order: 10
 name: Magneton
 rarity: rare
 holographic: true
@@ -414,6 +425,7 @@ illustrator: Ken Sugimori
 ---
 set: fossil
 number: '12'
+order: 11
 name: Moltres
 rarity: rare
 holographic: true
@@ -449,6 +461,7 @@ illustrator: Mitsuhiro Arita
 ---
 set: fossil
 number: '13'
+order: 12
 name: Muk
 rarity: rare
 holographic: true
@@ -486,6 +499,7 @@ illustrator: Mitsuhiro Arita
 ---
 set: fossil
 number: '14'
+order: 13
 name: Raichu
 rarity: rare
 holographic: true
@@ -521,6 +535,7 @@ illustrator: Mitsuhiro Arita
 ---
 set: fossil
 number: '15'
+order: 14
 name: Zapdos
 rarity: rare
 holographic: true
@@ -552,6 +567,7 @@ illustrator: Mitsuhiro Arita
 ---
 set: fossil
 number: '16'
+order: 15
 name: Aerodactyl
 rarity: rare
 holographic: false
@@ -589,6 +605,7 @@ illustrator: Kagemaru Himeno
 ---
 set: fossil
 number: '17'
+order: 16
 name: Articuno
 rarity: rare
 holographic: false
@@ -627,6 +644,7 @@ illustrator: Mitsuhiro Arita
 ---
 set: fossil
 number: '18'
+order: 17
 name: Ditto
 rarity: rare
 holographic: false
@@ -663,6 +681,7 @@ illustrator: Keiji Kinebuchi
 ---
 set: fossil
 number: '19'
+order: 18
 name: Dragonite
 rarity: rare
 holographic: false
@@ -699,6 +718,7 @@ illustrator: Kagemaru Himeno
 ---
 set: fossil
 number: '20'
+order: 19
 name: Gengar
 rarity: rare
 holographic: false
@@ -738,6 +758,7 @@ illustrator: Keiji Kinebuchi
 ---
 set: fossil
 number: '21'
+order: 20
 name: Haunter
 rarity: rare
 holographic: false
@@ -774,6 +795,7 @@ illustrator: Ken Sugimori
 ---
 set: fossil
 number: '22'
+order: 21
 name: Hitmonlee
 rarity: rare
 holographic: false
@@ -811,6 +833,7 @@ illustrator: Ken Sugimori
 ---
 set: fossil
 number: '23'
+order: 22
 name: Hypno
 rarity: rare
 holographic: false
@@ -852,6 +875,7 @@ illustrator: Ken Sugimori
 ---
 set: fossil
 number: '24'
+order: 23
 name: Kabutops
 rarity: rare
 holographic: false
@@ -893,6 +917,7 @@ illustrator: Ken Sugimori
 ---
 set: fossil
 number: '25'
+order: 24
 name: Lapras
 rarity: rare
 holographic: false
@@ -933,6 +958,7 @@ illustrator: Ken Sugimori
 ---
 set: fossil
 number: '26'
+order: 25
 name: Magneton
 rarity: rare
 holographic: false
@@ -976,6 +1002,7 @@ illustrator: Ken Sugimori
 ---
 set: fossil
 number: '27'
+order: 26
 name: Moltres
 rarity: rare
 holographic: false
@@ -1012,6 +1039,7 @@ illustrator: Mitsuhiro Arita
 ---
 set: fossil
 number: '28'
+order: 27
 name: Muk
 rarity: rare
 holographic: false
@@ -1050,6 +1078,7 @@ illustrator: Mitsuhiro Arita
 ---
 set: fossil
 number: '29'
+order: 28
 name: Raichu
 rarity: rare
 holographic: false
@@ -1086,6 +1115,7 @@ illustrator: Mitsuhiro Arita
 ---
 set: fossil
 number: '30'
+order: 29
 name: Zapdos
 rarity: rare
 holographic: false
@@ -1118,6 +1148,7 @@ illustrator: Mitsuhiro Arita
 ---
 set: fossil
 number: '31'
+order: 30
 name: Arbok
 rarity: uncommon
 holographic: false
@@ -1159,6 +1190,7 @@ illustrator: Ken Sugimori
 ---
 set: fossil
 number: '32'
+order: 31
 name: Cloyster
 rarity: uncommon
 holographic: false
@@ -1199,6 +1231,7 @@ illustrator: Kagemaru Himeno
 ---
 set: fossil
 number: '33'
+order: 32
 name: Gastly
 rarity: uncommon
 holographic: false
@@ -1232,6 +1265,7 @@ illustrator: Mitsuhiro Arita
 ---
 set: fossil
 number: '34'
+order: 33
 name: Golbat
 rarity: uncommon
 holographic: false
@@ -1271,6 +1305,7 @@ illustrator: Kagemaru Himeno
 ---
 set: fossil
 number: '35'
+order: 34
 name: Golduck
 rarity: uncommon
 holographic: false
@@ -1310,6 +1345,7 @@ illustrator: Kagemaru Himeno
 ---
 set: fossil
 number: '36'
+order: 35
 name: Golem
 rarity: uncommon
 holographic: false
@@ -1348,6 +1384,7 @@ illustrator: Kagemaru Himeno
 ---
 set: fossil
 number: '37'
+order: 36
 name: Graveler
 rarity: uncommon
 holographic: false
@@ -1385,6 +1422,7 @@ illustrator: Kagemaru Himeno
 ---
 set: fossil
 number: '38'
+order: 37
 name: Kingler
 rarity: uncommon
 holographic: false
@@ -1421,6 +1459,7 @@ illustrator: Kagemaru Himeno
 ---
 set: fossil
 number: '39'
+order: 38
 name: Magmar
 rarity: uncommon
 holographic: false
@@ -1460,6 +1499,7 @@ illustrator: Mitsuhiro Arita
 ---
 set: fossil
 number: '40'
+order: 39
 name: Omastar
 rarity: uncommon
 holographic: false
@@ -1501,6 +1541,7 @@ illustrator: Ken Sugimori
 ---
 set: fossil
 number: '41'
+order: 40
 name: Sandslash
 rarity: uncommon
 holographic: false
@@ -1539,6 +1580,7 @@ illustrator: Ken Sugimori
 ---
 set: fossil
 number: '42'
+order: 41
 name: Seadra
 rarity: uncommon
 holographic: false
@@ -1580,6 +1622,7 @@ illustrator: Ken Sugimori
 ---
 set: fossil
 number: '43'
+order: 42
 name: Slowbro
 rarity: uncommon
 holographic: false
@@ -1619,6 +1662,7 @@ illustrator: Kagemaru Himeno
 ---
 set: fossil
 number: '44'
+order: 43
 name: Tentacruel
 rarity: uncommon
 holographic: false
@@ -1655,6 +1699,7 @@ illustrator: Kagemaru Himeno
 ---
 set: fossil
 number: '45'
+order: 44
 name: Weezing
 rarity: uncommon
 holographic: false
@@ -1695,6 +1740,7 @@ illustrator: Mitsuhiro Arita
 ---
 set: fossil
 number: '46'
+order: 45
 name: Ekans
 rarity: common
 holographic: false
@@ -1731,6 +1777,7 @@ illustrator: Kagemaru Himeno
 ---
 set: fossil
 number: '47'
+order: 46
 name: Geodude
 rarity: common
 holographic: false
@@ -1763,6 +1810,7 @@ illustrator: Kagemaru Himeno
 ---
 set: fossil
 number: '48'
+order: 47
 name: Grimer
 rarity: common
 holographic: false
@@ -1800,6 +1848,7 @@ illustrator: Mitsuhiro Arita
 ---
 set: fossil
 number: '49'
+order: 48
 name: Horsea
 rarity: common
 holographic: false
@@ -1832,6 +1881,7 @@ illustrator: Mitsuhiro Arita
 ---
 set: fossil
 number: '50'
+order: 49
 name: Kabuto
 rarity: common
 holographic: false
@@ -1870,6 +1920,7 @@ illustrator: Ken Sugimori
 ---
 set: fossil
 number: '51'
+order: 50
 name: Krabby
 rarity: common
 holographic: false
@@ -1906,6 +1957,7 @@ illustrator: Mitsuhiro Arita
 ---
 set: fossil
 number: '52'
+order: 51
 name: Omanyte
 rarity: common
 holographic: false
@@ -1945,6 +1997,7 @@ illustrator: Kagemaru Himeno
 ---
 set: fossil
 number: '53'
+order: 52
 name: Psyduck
 rarity: common
 holographic: false
@@ -1983,6 +2036,7 @@ illustrator: Kagemaru Himeno
 ---
 set: fossil
 number: '54'
+order: 53
 name: Shellder
 rarity: common
 holographic: false
@@ -2020,6 +2074,7 @@ illustrator: Mitsuhiro Arita
 ---
 set: fossil
 number: '55'
+order: 54
 name: Slowpoke
 rarity: common
 holographic: false
@@ -2059,6 +2114,7 @@ illustrator: Miki Tanaka
 ---
 set: fossil
 number: '56'
+order: 55
 name: Tentacool
 rarity: common
 holographic: false
@@ -2094,6 +2150,7 @@ illustrator: Kagemaru Himeno
 ---
 set: fossil
 number: '57'
+order: 56
 name: Zubat
 rarity: common
 holographic: false
@@ -2133,6 +2190,7 @@ illustrator: Kagemaru Himeno
 ---
 set: fossil
 number: '58'
+order: 57
 name: Mr. Fuji
 rarity: uncommon
 holographic: false
@@ -2148,6 +2206,7 @@ illustrator: Ken Sugimori
 ---
 set: fossil
 number: '59'
+order: 58
 name: Energy Search
 rarity: common
 holographic: false
@@ -2164,6 +2223,7 @@ illustrator: Keiji Kinebuchi
 ---
 set: fossil
 number: '60'
+order: 59
 name: Gambler
 rarity: common
 holographic: false
@@ -2179,6 +2239,7 @@ illustrator: Keiji Kinebuchi
 ---
 set: fossil
 number: '61'
+order: 60
 name: Recycle
 rarity: common
 holographic: false
@@ -2194,6 +2255,7 @@ illustrator: Keiji Kinebuchi
 ---
 set: fossil
 number: '62'
+order: 61
 name: Mysterious Fossil
 rarity: common
 holographic: false

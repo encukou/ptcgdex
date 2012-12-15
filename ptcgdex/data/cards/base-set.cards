@@ -1,6 +1,7 @@
 ---
 set: base-set
 number: '1'
+order: 0
 name: Alakazam
 rarity: rare
 holographic: true
@@ -43,6 +44,7 @@ illustrator: Ken Sugimori
 ---
 set: base-set
 number: '2'
+order: 1
 name: Blastoise
 rarity: rare
 holographic: true
@@ -88,6 +90,7 @@ illustrator: Ken Sugimori
 ---
 set: base-set
 number: '3'
+order: 2
 name: Chansey
 rarity: rare
 holographic: true
@@ -130,6 +133,7 @@ illustrator: Ken Sugimori
 ---
 set: base-set
 number: '4'
+order: 3
 name: Charizard
 rarity: rare
 holographic: true
@@ -175,6 +179,7 @@ illustrator: Mitsuhiro Arita
 ---
 set: base-set
 number: '5'
+order: 4
 name: Clefairy
 rarity: rare
 holographic: true
@@ -218,6 +223,7 @@ illustrator: Ken Sugimori
 ---
 set: base-set
 number: '6'
+order: 5
 name: Gyarados
 rarity: rare
 holographic: true
@@ -258,6 +264,7 @@ illustrator: Mitsuhiro Arita
 ---
 set: base-set
 number: '7'
+order: 6
 name: Hitmonchan
 rarity: rare
 holographic: true
@@ -295,6 +302,7 @@ illustrator: Ken Sugimori
 ---
 set: base-set
 number: '8'
+order: 7
 name: Machamp
 rarity: rare
 holographic: true
@@ -336,6 +344,7 @@ illustrator: Ken Sugimori
 ---
 set: base-set
 number: '9'
+order: 8
 name: Magneton
 rarity: rare
 holographic: true
@@ -379,6 +388,7 @@ illustrator: Keiji Kinebuchi
 ---
 set: base-set
 number: '10'
+order: 9
 name: Mewtwo
 rarity: rare
 holographic: true
@@ -421,6 +431,7 @@ illustrator: Ken Sugimori
 ---
 set: base-set
 number: '11'
+order: 10
 name: Nidoking
 rarity: rare
 holographic: true
@@ -466,6 +477,7 @@ illustrator: Ken Sugimori
 ---
 set: base-set
 number: '12'
+order: 11
 name: Ninetales
 rarity: rare
 holographic: true
@@ -508,6 +520,7 @@ illustrator: Ken Sugimori
 ---
 set: base-set
 number: '13'
+order: 12
 name: Poliwrath
 rarity: rare
 holographic: true
@@ -552,6 +565,7 @@ illustrator: Ken Sugimori
 ---
 set: base-set
 number: '14'
+order: 13
 name: Raichu
 rarity: rare
 holographic: true
@@ -594,6 +608,7 @@ illustrator: Ken Sugimori
 ---
 set: base-set
 number: '15'
+order: 14
 name: Venusaur
 rarity: rare
 holographic: true
@@ -634,6 +649,7 @@ illustrator: Mitsuhiro Arita
 ---
 set: base-set
 number: '16'
+order: 15
 name: Zapdos
 rarity: rare
 holographic: true
@@ -672,6 +688,7 @@ illustrator: Ken Sugimori
 ---
 set: base-set
 number: '17'
+order: 16
 name: Beedrill
 rarity: rare
 holographic: false
@@ -713,6 +730,7 @@ illustrator: Ken Sugimori
 ---
 set: base-set
 number: '18'
+order: 17
 name: Dragonair
 rarity: rare
 holographic: false
@@ -752,6 +770,7 @@ illustrator: Mitsuhiro Arita
 ---
 set: base-set
 number: '19'
+order: 18
 name: Dugtrio
 rarity: rare
 holographic: false
@@ -793,6 +812,7 @@ illustrator: Keiji Kinebuchi
 ---
 set: base-set
 number: '20'
+order: 19
 name: Electabuzz
 rarity: rare
 holographic: false
@@ -836,6 +856,7 @@ illustrator: Ken Sugimori
 ---
 set: base-set
 number: '21'
+order: 20
 name: Electrode
 rarity: rare
 holographic: false
@@ -882,6 +903,7 @@ illustrator: Keiji Kinebuchi
 ---
 set: base-set
 number: '22'
+order: 21
 name: Pidgeotto
 rarity: rare
 holographic: false
@@ -926,6 +948,7 @@ illustrator: Ken Sugimori
 ---
 set: base-set
 number: '23'
+order: 22
 name: Arcanine
 rarity: uncommon
 holographic: false
@@ -968,6 +991,7 @@ illustrator: Ken Sugimori
 ---
 set: base-set
 number: '24'
+order: 23
 name: Charmeleon
 rarity: uncommon
 holographic: false
@@ -1009,6 +1033,7 @@ illustrator: Mitsuhiro Arita
 ---
 set: base-set
 number: '25'
+order: 24
 name: Dewgong
 rarity: uncommon
 holographic: false
@@ -1048,6 +1073,7 @@ illustrator: Mitsuhiro Arita
 ---
 set: base-set
 number: '26'
+order: 25
 name: Dratini
 rarity: uncommon
 holographic: false
@@ -1077,6 +1103,7 @@ illustrator: Ken Sugimori
 ---
 set: base-set
 number: '27'
+order: 26
 name: Farfetch'd
 rarity: uncommon
 holographic: false
@@ -1119,6 +1146,7 @@ illustrator: Ken Sugimori
 ---
 set: base-set
 number: '28'
+order: 27
 name: Growlithe
 rarity: uncommon
 holographic: false
@@ -1151,6 +1179,7 @@ illustrator: Ken Sugimori
 ---
 set: base-set
 number: '29'
+order: 28
 name: Haunter
 rarity: uncommon
 holographic: false
@@ -1189,6 +1218,7 @@ illustrator: Keiji Kinebuchi
 ---
 set: base-set
 number: '30'
+order: 29
 name: Ivysaur
 rarity: uncommon
 holographic: false
@@ -1228,6 +1258,7 @@ illustrator: Ken Sugimori
 ---
 set: base-set
 number: '31'
+order: 30
 name: Jynx
 rarity: uncommon
 holographic: false
@@ -1270,6 +1301,7 @@ illustrator: Ken Sugimori
 ---
 set: base-set
 number: '32'
+order: 31
 name: Kadabra
 rarity: uncommon
 holographic: false
@@ -1309,6 +1341,7 @@ illustrator: Ken Sugimori
 ---
 set: base-set
 number: '33'
+order: 32
 name: Kakuna
 rarity: uncommon
 holographic: false
@@ -1351,6 +1384,7 @@ illustrator: Keiji Kinebuchi
 ---
 set: base-set
 number: '34'
+order: 33
 name: Machoke
 rarity: uncommon
 holographic: false
@@ -1393,6 +1427,7 @@ illustrator: Ken Sugimori
 ---
 set: base-set
 number: '35'
+order: 34
 name: Magikarp
 rarity: uncommon
 holographic: false
@@ -1431,6 +1466,7 @@ illustrator: Mitsuhiro Arita
 ---
 set: base-set
 number: '36'
+order: 35
 name: Magmar
 rarity: uncommon
 holographic: false
@@ -1470,6 +1506,7 @@ illustrator: Ken Sugimori
 ---
 set: base-set
 number: '37'
+order: 36
 name: Nidorino
 rarity: uncommon
 holographic: false
@@ -1509,6 +1546,7 @@ illustrator: Mitsuhiro Arita
 ---
 set: base-set
 number: '38'
+order: 37
 name: Poliwhirl
 rarity: uncommon
 holographic: false
@@ -1550,6 +1588,7 @@ illustrator: Ken Sugimori
 ---
 set: base-set
 number: '39'
+order: 38
 name: Porygon
 rarity: uncommon
 holographic: false
@@ -1591,6 +1630,7 @@ illustrator: Tomoaki Imakuni
 ---
 set: base-set
 number: '40'
+order: 39
 name: Raticate
 rarity: uncommon
 holographic: false
@@ -1632,6 +1672,7 @@ illustrator: Ken Sugimori
 ---
 set: base-set
 number: '41'
+order: 40
 name: Seel
 rarity: uncommon
 holographic: false
@@ -1664,6 +1705,7 @@ illustrator: Ken Sugimori
 ---
 set: base-set
 number: '42'
+order: 41
 name: Wartortle
 rarity: uncommon
 holographic: false
@@ -1704,6 +1746,7 @@ illustrator: Ken Sugimori
 ---
 set: base-set
 number: '43'
+order: 42
 name: Abra
 rarity: common
 holographic: false
@@ -1737,6 +1780,7 @@ illustrator: Mitsuhiro Arita
 ---
 set: base-set
 number: '44'
+order: 43
 name: Bulbasaur
 rarity: common
 holographic: false
@@ -1772,6 +1816,7 @@ illustrator: Mitsuhiro Arita
 ---
 set: base-set
 number: '45'
+order: 44
 name: Caterpie
 rarity: common
 holographic: false
@@ -1806,6 +1851,7 @@ illustrator: Ken Sugimori
 ---
 set: base-set
 number: '46'
+order: 45
 name: Charmander
 rarity: common
 holographic: false
@@ -1845,6 +1891,7 @@ illustrator: Mitsuhiro Arita
 ---
 set: base-set
 number: '47'
+order: 46
 name: Diglett
 rarity: common
 holographic: false
@@ -1881,6 +1928,7 @@ illustrator: Keiji Kinebuchi
 ---
 set: base-set
 number: '48'
+order: 47
 name: Doduo
 rarity: common
 holographic: false
@@ -1916,6 +1964,7 @@ illustrator: Mitsuhiro Arita
 ---
 set: base-set
 number: '49'
+order: 48
 name: Drowzee
 rarity: common
 holographic: false
@@ -1954,6 +2003,7 @@ illustrator: Ken Sugimori
 ---
 set: base-set
 number: '50'
+order: 49
 name: Gastly
 rarity: common
 holographic: false
@@ -1990,6 +2040,7 @@ illustrator: Keiji Kinebuchi
 ---
 set: base-set
 number: '51'
+order: 50
 name: Koffing
 rarity: common
 holographic: false
@@ -2025,6 +2076,7 @@ illustrator: Mitsuhiro Arita
 ---
 set: base-set
 number: '52'
+order: 51
 name: Machop
 rarity: common
 holographic: false
@@ -2057,6 +2109,7 @@ illustrator: Mitsuhiro Arita
 ---
 set: base-set
 number: '53'
+order: 52
 name: Magnemite
 rarity: common
 holographic: false
@@ -2099,6 +2152,7 @@ illustrator: Keiji Kinebuchi
 ---
 set: base-set
 number: '54'
+order: 53
 name: Metapod
 rarity: common
 holographic: false
@@ -2141,6 +2195,7 @@ illustrator: Ken Sugimori
 ---
 set: base-set
 number: '55'
+order: 54
 name: Nidoran ♂
 rarity: common
 holographic: false
@@ -2175,6 +2230,7 @@ illustrator: Ken Sugimori
 ---
 set: base-set
 number: '56'
+order: 55
 name: Onix
 rarity: common
 holographic: false
@@ -2214,6 +2270,7 @@ illustrator: Ken Sugimori
 ---
 set: base-set
 number: '57'
+order: 56
 name: Pidgey
 rarity: common
 holographic: false
@@ -2251,6 +2308,7 @@ illustrator: Ken Sugimori
 ---
 set: base-set
 number: '58'
+order: 57
 name: Pikachu
 rarity: common
 holographic: false
@@ -2291,6 +2349,7 @@ illustrator: Mitsuhiro Arita
 ---
 set: base-set
 number: '59'
+order: 58
 name: Poliwag
 rarity: common
 holographic: false
@@ -2326,6 +2385,7 @@ illustrator: Ken Sugimori
 ---
 set: base-set
 number: '60'
+order: 59
 name: Ponyta
 rarity: common
 holographic: false
@@ -2362,6 +2422,7 @@ illustrator: Ken Sugimori
 ---
 set: base-set
 number: '61'
+order: 60
 name: Rattata
 rarity: common
 holographic: false
@@ -2394,6 +2455,7 @@ illustrator: Mitsuhiro Arita
 ---
 set: base-set
 number: '62'
+order: 61
 name: Sandshrew
 rarity: common
 holographic: false
@@ -2431,6 +2493,7 @@ illustrator: Ken Sugimori
 ---
 set: base-set
 number: '63'
+order: 62
 name: Squirtle
 rarity: common
 holographic: false
@@ -2472,6 +2535,7 @@ illustrator: Mitsuhiro Arita
 ---
 set: base-set
 number: '64'
+order: 63
 name: Starmie
 rarity: common
 holographic: false
@@ -2513,6 +2577,7 @@ illustrator: Keiji Kinebuchi
 ---
 set: base-set
 number: '65'
+order: 64
 name: Staryu
 rarity: common
 holographic: false
@@ -2545,6 +2610,7 @@ illustrator: Keiji Kinebuchi
 ---
 set: base-set
 number: '66'
+order: 65
 name: Tangela
 rarity: common
 holographic: false
@@ -2585,6 +2651,7 @@ illustrator: Mitsuhiro Arita
 ---
 set: base-set
 number: '67'
+order: 66
 name: Voltorb
 rarity: common
 holographic: false
@@ -2617,6 +2684,7 @@ illustrator: Keiji Kinebuchi
 ---
 set: base-set
 number: '68'
+order: 67
 name: Vulpix
 rarity: common
 holographic: false
@@ -2651,6 +2719,7 @@ illustrator: Ken Sugimori
 ---
 set: base-set
 number: '69'
+order: 68
 name: Weedle
 rarity: common
 holographic: false
@@ -2685,6 +2754,7 @@ illustrator: Mitsuhiro Arita
 ---
 set: base-set
 number: '70'
+order: 69
 name: Clefairy Doll
 rarity: rare
 holographic: false
@@ -2710,6 +2780,7 @@ illustrator: Keiji Kinebuchi
 ---
 set: base-set
 number: '71'
+order: 70
 name: Computer Search
 rarity: rare
 holographic: false
@@ -2726,6 +2797,7 @@ illustrator: Keiji Kinebuchi
 ---
 set: base-set
 number: '72'
+order: 71
 name: Devolution Spray
 rarity: rare
 holographic: false
@@ -2744,6 +2816,7 @@ illustrator: Keiji Kinebuchi
 ---
 set: base-set
 number: '73'
+order: 72
 name: Impostor Professor Oak
 rarity: rare
 holographic: false
@@ -2759,6 +2832,7 @@ illustrator: Ken Sugimori
 ---
 set: base-set
 number: '74'
+order: 73
 name: Item Finder
 rarity: rare
 holographic: false
@@ -2774,6 +2848,7 @@ illustrator: Keiji Kinebuchi
 ---
 set: base-set
 number: '75'
+order: 74
 name: Lass
 rarity: rare
 holographic: false
@@ -2789,6 +2864,7 @@ illustrator: Ken Sugimori
 ---
 set: base-set
 number: '76'
+order: 75
 name: Pokémon Breeder
 rarity: rare
 holographic: false
@@ -2805,6 +2881,7 @@ illustrator: Ken Sugimori
 ---
 set: base-set
 number: '77'
+order: 76
 name: Pokémon Trader
 rarity: rare
 holographic: false
@@ -2821,6 +2898,7 @@ illustrator: Ken Sugimori
 ---
 set: base-set
 number: '78'
+order: 77
 name: Scoop Up
 rarity: rare
 holographic: false
@@ -2837,6 +2915,7 @@ illustrator: Keiji Kinebuchi
 ---
 set: base-set
 number: '79'
+order: 78
 name: Super Energy Removal
 rarity: rare
 holographic: false
@@ -2853,6 +2932,7 @@ illustrator: Keiji Kinebuchi
 ---
 set: base-set
 number: '80'
+order: 79
 name: Defender
 rarity: uncommon
 holographic: false
@@ -2869,6 +2949,7 @@ illustrator: Keiji Kinebuchi
 ---
 set: base-set
 number: '81'
+order: 80
 name: Energy Retrieval
 rarity: uncommon
 holographic: false
@@ -2884,6 +2965,7 @@ illustrator: Keiji Kinebuchi
 ---
 set: base-set
 number: '82'
+order: 81
 name: Full Heal
 rarity: uncommon
 holographic: false
@@ -2899,6 +2981,7 @@ illustrator: Keiji Kinebuchi
 ---
 set: base-set
 number: '83'
+order: 82
 name: Maintenance
 rarity: uncommon
 holographic: false
@@ -2914,6 +2997,7 @@ illustrator: Keiji Kinebuchi
 ---
 set: base-set
 number: '84'
+order: 83
 name: PlusPower
 rarity: uncommon
 holographic: false
@@ -2932,6 +3016,7 @@ illustrator: Keiji Kinebuchi
 ---
 set: base-set
 number: '85'
+order: 84
 name: Pokémon Center
 rarity: uncommon
 holographic: false
@@ -2948,6 +3033,7 @@ illustrator: Keiji Kinebuchi
 ---
 set: base-set
 number: '86'
+order: 85
 name: Pokémon Flute
 rarity: uncommon
 holographic: false
@@ -2964,6 +3050,7 @@ illustrator: Keiji Kinebuchi
 ---
 set: base-set
 number: '87'
+order: 86
 name: Pokédex
 rarity: uncommon
 holographic: false
@@ -2979,6 +3066,7 @@ illustrator: Keiji Kinebuchi
 ---
 set: base-set
 number: '88'
+order: 87
 name: Professor Oak
 rarity: uncommon
 holographic: false
@@ -2993,6 +3081,7 @@ illustrator: Ken Sugimori
 ---
 set: base-set
 number: '89'
+order: 88
 name: Revive
 rarity: uncommon
 holographic: false
@@ -3010,6 +3099,7 @@ illustrator: Keiji Kinebuchi
 ---
 set: base-set
 number: '90'
+order: 89
 name: Super Potion
 rarity: uncommon
 holographic: false
@@ -3025,6 +3115,7 @@ illustrator: Keiji Kinebuchi
 ---
 set: base-set
 number: '91'
+order: 90
 name: Bill
 rarity: common
 holographic: false
@@ -3039,6 +3130,7 @@ illustrator: Ken Sugimori
 ---
 set: base-set
 number: '92'
+order: 91
 name: Energy Removal
 rarity: common
 holographic: false
@@ -3054,6 +3146,7 @@ illustrator: Keiji Kinebuchi
 ---
 set: base-set
 number: '93'
+order: 92
 name: Gust of Wind
 rarity: common
 holographic: false
@@ -3069,6 +3162,7 @@ illustrator: Keiji Kinebuchi
 ---
 set: base-set
 number: '94'
+order: 93
 name: Potion
 rarity: common
 holographic: false
@@ -3084,6 +3178,7 @@ illustrator: Keiji Kinebuchi
 ---
 set: base-set
 number: '95'
+order: 94
 name: Switch
 rarity: common
 holographic: false
@@ -3099,6 +3194,7 @@ illustrator: Keiji Kinebuchi
 ---
 set: base-set
 number: '96'
+order: 95
 name: Double Colorless Energy
 rarity: uncommon
 holographic: false
@@ -3116,6 +3212,7 @@ illustrator: Keiji Kinebuchi
 ---
 set: base-set
 number: '97'
+order: 96
 name: Fighting Energy
 rarity: none
 holographic: false
@@ -3132,6 +3229,7 @@ illustrator: Keiji Kinebuchi
 ---
 set: base-set
 number: '98'
+order: 97
 name: Fire Energy
 rarity: none
 holographic: false
@@ -3148,6 +3246,7 @@ illustrator: Keiji Kinebuchi
 ---
 set: base-set
 number: '99'
+order: 98
 name: Grass Energy
 rarity: none
 holographic: false
@@ -3164,6 +3263,7 @@ illustrator: Keiji Kinebuchi
 ---
 set: base-set
 number: '100'
+order: 99
 name: Lightning Energy
 rarity: none
 holographic: false
@@ -3180,6 +3280,7 @@ illustrator: Keiji Kinebuchi
 ---
 set: base-set
 number: '101'
+order: 100
 name: Psychic Energy
 rarity: none
 holographic: false
@@ -3196,6 +3297,7 @@ illustrator: Keiji Kinebuchi
 ---
 set: base-set
 number: '102'
+order: 101
 name: Water Energy
 rarity: none
 holographic: false

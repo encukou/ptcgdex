@@ -1,6 +1,7 @@
 ---
 set: gym-challenge
 number: '1'
+order: 0
 name: Blaine's Arcanine
 rarity: rare
 holographic: true
@@ -42,6 +43,7 @@ illustrator: Ken Sugimori
 ---
 set: gym-challenge
 number: '2'
+order: 1
 name: Blaine's Charizard
 rarity: rare
 holographic: true
@@ -89,6 +91,7 @@ illustrator: Ken Sugimori
 ---
 set: gym-challenge
 number: '3'
+order: 2
 name: Brock's Ninetales
 rarity: rare
 holographic: true
@@ -134,6 +137,7 @@ illustrator: Ken Sugimori
 ---
 set: gym-challenge
 number: '4'
+order: 3
 name: Erika's Venusaur
 rarity: rare
 holographic: true
@@ -177,6 +181,7 @@ illustrator: Ken Sugimori
 ---
 set: gym-challenge
 number: '5'
+order: 4
 name: Giovanni's Gyarados
 rarity: rare
 holographic: true
@@ -221,6 +226,7 @@ illustrator: Ken Sugimori
 ---
 set: gym-challenge
 number: '6'
+order: 5
 name: Giovanni's Machamp
 rarity: rare
 holographic: true
@@ -264,6 +270,7 @@ illustrator: Ken Sugimori
 ---
 set: gym-challenge
 number: '7'
+order: 6
 name: Giovanni's Nidoking
 rarity: rare
 holographic: true
@@ -306,6 +313,7 @@ illustrator: Ken Sugimori
 ---
 set: gym-challenge
 number: '8'
+order: 7
 name: Giovanni's Persian
 rarity: rare
 holographic: true
@@ -348,6 +356,7 @@ illustrator: Ken Sugimori
 ---
 set: gym-challenge
 number: '9'
+order: 8
 name: Koga's Beedrill
 rarity: rare
 holographic: true
@@ -392,6 +401,7 @@ illustrator: Ken Sugimori
 ---
 set: gym-challenge
 number: '10'
+order: 9
 name: Koga's Ditto
 rarity: rare
 holographic: true
@@ -431,6 +441,7 @@ illustrator: Ken Sugimori
 ---
 set: gym-challenge
 number: '11'
+order: 10
 name: Lt. Surge's Raichu
 rarity: rare
 holographic: true
@@ -475,6 +486,7 @@ illustrator: Ken Sugimori
 ---
 set: gym-challenge
 number: '12'
+order: 11
 name: Misty's Golduck
 rarity: rare
 holographic: true
@@ -517,6 +529,7 @@ illustrator: Ken Sugimori
 ---
 set: gym-challenge
 number: '13'
+order: 12
 name: Misty's Gyarados
 rarity: rare
 holographic: true
@@ -557,6 +570,7 @@ illustrator: Ken Sugimori
 ---
 set: gym-challenge
 number: '14'
+order: 13
 name: Rocket's Mewtwo
 rarity: rare
 holographic: true
@@ -602,6 +616,7 @@ illustrator: Shin-ichi Yoshida
 ---
 set: gym-challenge
 number: '15'
+order: 14
 name: Rocket's Zapdos
 rarity: rare
 holographic: true
@@ -640,6 +655,7 @@ illustrator: Shin-ichi Yoshida
 ---
 set: gym-challenge
 number: '16'
+order: 15
 name: Sabrina's Alakazam
 rarity: rare
 holographic: true
@@ -682,6 +698,7 @@ illustrator: Ken Sugimori
 ---
 set: gym-challenge
 number: '17'
+order: 16
 name: Blaine
 rarity: rare
 holographic: true
@@ -699,6 +716,7 @@ illustrator: Ken Sugimori
 ---
 set: gym-challenge
 number: '18'
+order: 17
 name: Giovanni
 rarity: rare
 holographic: true
@@ -717,6 +735,7 @@ illustrator: Ken Sugimori
 ---
 set: gym-challenge
 number: '19'
+order: 18
 name: Koga
 rarity: rare
 holographic: true
@@ -732,6 +751,7 @@ illustrator: Ken Sugimori
 ---
 set: gym-challenge
 number: '20'
+order: 19
 name: Sabrina
 rarity: rare
 holographic: true
@@ -748,6 +768,7 @@ illustrator: Ken Sugimori
 ---
 set: gym-challenge
 number: '21'
+order: 20
 name: Blaine's Ninetales
 rarity: rare
 holographic: false
@@ -790,6 +811,7 @@ illustrator: Ken Sugimori
 ---
 set: gym-challenge
 number: '22'
+order: 21
 name: Brock's Dugtrio
 rarity: rare
 holographic: false
@@ -832,6 +854,7 @@ illustrator: Ken Sugimori
 ---
 set: gym-challenge
 number: '23'
+order: 22
 name: Giovanni's Nidoqueen
 rarity: rare
 holographic: false
@@ -872,6 +895,7 @@ illustrator: Ken Sugimori
 ---
 set: gym-challenge
 number: '24'
+order: 23
 name: Giovanni's Pinsir
 rarity: rare
 holographic: false
@@ -915,6 +939,7 @@ illustrator: Ken Sugimori
 ---
 set: gym-challenge
 number: '25'
+order: 24
 name: Koga's Arbok
 rarity: rare
 holographic: false
@@ -955,6 +980,7 @@ illustrator: Ken Sugimori
 ---
 set: gym-challenge
 number: '26'
+order: 25
 name: Koga's Muk
 rarity: rare
 holographic: false
@@ -996,6 +1022,7 @@ illustrator: Ken Sugimori
 ---
 set: gym-challenge
 number: '27'
+order: 26
 name: Koga's Pidgeotto
 rarity: rare
 holographic: false
@@ -1040,6 +1067,7 @@ illustrator: Ken Sugimori
 ---
 set: gym-challenge
 number: '28'
+order: 27
 name: Lt. Surge's Jolteon
 rarity: rare
 holographic: false
@@ -1083,6 +1111,7 @@ illustrator: Ken Sugimori
 ---
 set: gym-challenge
 number: '29'
+order: 28
 name: Sabrina's Gengar
 rarity: rare
 holographic: false
@@ -1122,6 +1151,7 @@ illustrator: Ken Sugimori
 ---
 set: gym-challenge
 number: '30'
+order: 29
 name: Sabrina's Golduck
 rarity: rare
 holographic: false
@@ -1164,6 +1194,7 @@ illustrator: Ken Sugimori
 ---
 set: gym-challenge
 number: '31'
+order: 30
 name: Blaine's Charmeleon
 rarity: uncommon
 holographic: false
@@ -1207,6 +1238,7 @@ illustrator: Ken Sugimori
 ---
 set: gym-challenge
 number: '32'
+order: 31
 name: Blaine's Dodrio
 rarity: uncommon
 holographic: false
@@ -1242,6 +1274,7 @@ illustrator: Ken Sugimori
 ---
 set: gym-challenge
 number: '33'
+order: 32
 name: Blaine's Rapidash
 rarity: uncommon
 holographic: false
@@ -1283,6 +1316,7 @@ illustrator: Ken Sugimori
 ---
 set: gym-challenge
 number: '34'
+order: 33
 name: Brock's Graveler
 rarity: uncommon
 holographic: false
@@ -1324,6 +1358,7 @@ illustrator: Atsuko Nishida
 ---
 set: gym-challenge
 number: '35'
+order: 34
 name: Brock's Primeape
 rarity: uncommon
 holographic: false
@@ -1365,6 +1400,7 @@ illustrator: Ken Sugimori
 ---
 set: gym-challenge
 number: '36'
+order: 35
 name: Brock's Sandslash
 rarity: uncommon
 holographic: false
@@ -1407,6 +1443,7 @@ illustrator: Atsuko Nishida
 ---
 set: gym-challenge
 number: '37'
+order: 36
 name: Brock's Vulpix
 rarity: uncommon
 holographic: false
@@ -1447,6 +1484,7 @@ illustrator: Ken Sugimori
 ---
 set: gym-challenge
 number: '38'
+order: 37
 name: Erika's Bellsprout
 rarity: uncommon
 holographic: false
@@ -1488,6 +1526,7 @@ illustrator: Ken Sugimori
 ---
 set: gym-challenge
 number: '39'
+order: 38
 name: Erika's Bulbasaur
 rarity: uncommon
 holographic: false
@@ -1528,6 +1567,7 @@ illustrator: Ken Sugimori
 ---
 set: gym-challenge
 number: '40'
+order: 39
 name: Erika's Clefairy
 rarity: uncommon
 holographic: false
@@ -1568,6 +1608,7 @@ illustrator: Atsuko Nishida
 ---
 set: gym-challenge
 number: '41'
+order: 40
 name: Erika's Ivysaur
 rarity: uncommon
 holographic: false
@@ -1612,6 +1653,7 @@ illustrator: Ken Sugimori
 ---
 set: gym-challenge
 number: '42'
+order: 41
 name: Giovanni's Machoke
 rarity: uncommon
 holographic: false
@@ -1655,6 +1697,7 @@ illustrator: Ken Sugimori
 ---
 set: gym-challenge
 number: '43'
+order: 42
 name: Giovanni's Meowth
 rarity: uncommon
 holographic: false
@@ -1697,6 +1740,7 @@ illustrator: Atsuko Nishida
 ---
 set: gym-challenge
 number: '44'
+order: 43
 name: Giovanni's Nidorina
 rarity: uncommon
 holographic: false
@@ -1738,6 +1782,7 @@ illustrator: Ken Sugimori
 ---
 set: gym-challenge
 number: '45'
+order: 44
 name: Giovanni's Nidorino
 rarity: uncommon
 holographic: false
@@ -1774,6 +1819,7 @@ illustrator: Ken Sugimori
 ---
 set: gym-challenge
 number: '46'
+order: 45
 name: Koga's Golbat
 rarity: uncommon
 holographic: false
@@ -1813,6 +1859,7 @@ illustrator: Ken Sugimori
 ---
 set: gym-challenge
 number: '47'
+order: 46
 name: Koga's Kakuna
 rarity: uncommon
 holographic: false
@@ -1857,6 +1904,7 @@ illustrator: Ken Sugimori
 ---
 set: gym-challenge
 number: '48'
+order: 47
 name: Koga's Koffing
 rarity: uncommon
 holographic: false
@@ -1899,6 +1947,7 @@ illustrator: Ken Sugimori
 ---
 set: gym-challenge
 number: '49'
+order: 48
 name: Koga's Pidgey
 rarity: uncommon
 holographic: false
@@ -1939,6 +1988,7 @@ illustrator: Atsuko Nishida
 ---
 set: gym-challenge
 number: '50'
+order: 49
 name: Koga's Weezing
 rarity: uncommon
 holographic: false
@@ -1983,6 +2033,7 @@ illustrator: Ken Sugimori
 ---
 set: gym-challenge
 number: '51'
+order: 50
 name: Lt. Surge's Eevee
 rarity: uncommon
 holographic: false
@@ -2021,6 +2072,7 @@ illustrator: Ken Sugimori
 ---
 set: gym-challenge
 number: '52'
+order: 51
 name: Lt. Surge's Electrode
 rarity: uncommon
 holographic: false
@@ -2063,6 +2115,7 @@ illustrator: Ken Sugimori
 ---
 set: gym-challenge
 number: '53'
+order: 52
 name: Lt. Surge's Raticate
 rarity: uncommon
 holographic: false
@@ -2104,6 +2157,7 @@ illustrator: Ken Sugimori
 ---
 set: gym-challenge
 number: '54'
+order: 53
 name: Misty's Dewgong
 rarity: uncommon
 holographic: false
@@ -2145,6 +2199,7 @@ illustrator: Ken Sugimori
 ---
 set: gym-challenge
 number: '55'
+order: 54
 name: Sabrina's Haunter
 rarity: uncommon
 holographic: false
@@ -2182,6 +2237,7 @@ illustrator: Ken Sugimori
 ---
 set: gym-challenge
 number: '56'
+order: 55
 name: Sabrina's Hypno
 rarity: uncommon
 holographic: false
@@ -2226,6 +2282,7 @@ illustrator: Ken Sugimori
 ---
 set: gym-challenge
 number: '57'
+order: 56
 name: Sabrina's Jynx
 rarity: uncommon
 holographic: false
@@ -2266,6 +2323,7 @@ illustrator: Atsuko Nishida
 ---
 set: gym-challenge
 number: '58'
+order: 57
 name: Sabrina's Kadabra
 rarity: uncommon
 holographic: false
@@ -2304,6 +2362,7 @@ illustrator: Ken Sugimori
 ---
 set: gym-challenge
 number: '59'
+order: 58
 name: Sabrina's Mr. Mime
 rarity: uncommon
 holographic: false
@@ -2338,6 +2397,7 @@ illustrator: Ken Sugimori
 ---
 set: gym-challenge
 number: '60'
+order: 59
 name: Blaine's Charmander
 rarity: common
 holographic: false
@@ -2373,6 +2433,7 @@ illustrator: Ken Sugimori
 ---
 set: gym-challenge
 number: '61'
+order: 60
 name: Blaine's Doduo
 rarity: common
 holographic: false
@@ -2413,6 +2474,7 @@ illustrator: Ken Sugimori
 ---
 set: gym-challenge
 number: '62'
+order: 61
 name: Blaine's Growlithe
 rarity: common
 holographic: false
@@ -2452,6 +2514,7 @@ illustrator: Ken Sugimori
 ---
 set: gym-challenge
 number: '63'
+order: 62
 name: Blaine's Mankey
 rarity: common
 holographic: false
@@ -2491,6 +2554,7 @@ illustrator: Atsuko Nishida
 ---
 set: gym-challenge
 number: '64'
+order: 63
 name: Blaine's Ponyta
 rarity: common
 holographic: false
@@ -2525,6 +2589,7 @@ illustrator: Ken Sugimori
 ---
 set: gym-challenge
 number: '65'
+order: 64
 name: Blaine's Rhyhorn
 rarity: common
 holographic: false
@@ -2567,6 +2632,7 @@ illustrator: Ken Sugimori
 ---
 set: gym-challenge
 number: '66'
+order: 65
 name: Blaine's Vulpix
 rarity: common
 holographic: false
@@ -2604,6 +2670,7 @@ illustrator: Ken Sugimori
 ---
 set: gym-challenge
 number: '67'
+order: 66
 name: Brock's Diglett
 rarity: common
 holographic: false
@@ -2645,6 +2712,7 @@ illustrator: Ken Sugimori
 ---
 set: gym-challenge
 number: '68'
+order: 67
 name: Brock's Geodude
 rarity: common
 holographic: false
@@ -2679,6 +2747,7 @@ illustrator: Ken Sugimori
 ---
 set: gym-challenge
 number: '69'
+order: 68
 name: Erika's Jigglypuff
 rarity: common
 holographic: false
@@ -2721,6 +2790,7 @@ illustrator: Ken Sugimori
 ---
 set: gym-challenge
 number: '70'
+order: 69
 name: Erika's Oddish
 rarity: common
 holographic: false
@@ -2755,6 +2825,7 @@ illustrator: Ken Sugimori
 ---
 set: gym-challenge
 number: '71'
+order: 70
 name: Erika's Paras
 rarity: common
 holographic: false
@@ -2794,6 +2865,7 @@ illustrator: Ken Sugimori
 ---
 set: gym-challenge
 number: '72'
+order: 71
 name: Giovanni's Machop
 rarity: common
 holographic: false
@@ -2832,6 +2904,7 @@ illustrator: Ken Sugimori
 ---
 set: gym-challenge
 number: '73'
+order: 72
 name: Giovanni's Magikarp
 rarity: common
 holographic: false
@@ -2875,6 +2948,7 @@ illustrator: Ken Sugimori
 ---
 set: gym-challenge
 number: '74'
+order: 73
 name: Giovanni's Meowth
 rarity: common
 holographic: false
@@ -2912,6 +2986,7 @@ illustrator: Ken Sugimori
 ---
 set: gym-challenge
 number: '75'
+order: 74
 name: Giovanni's Nidoran ♀
 rarity: common
 holographic: false
@@ -2951,6 +3026,7 @@ illustrator: Ken Sugimori
 ---
 set: gym-challenge
 number: '76'
+order: 75
 name: Giovanni's Nidoran ♂
 rarity: common
 holographic: false
@@ -2992,6 +3068,7 @@ illustrator: Ken Sugimori
 ---
 set: gym-challenge
 number: '77'
+order: 76
 name: Koga's Ekans
 rarity: common
 holographic: false
@@ -3026,6 +3103,7 @@ illustrator: Ken Sugimori
 ---
 set: gym-challenge
 number: '78'
+order: 77
 name: Koga's Grimer
 rarity: common
 holographic: false
@@ -3065,6 +3143,7 @@ illustrator: Ken Sugimori
 ---
 set: gym-challenge
 number: '79'
+order: 78
 name: Koga's Koffing
 rarity: common
 holographic: false
@@ -3100,6 +3179,7 @@ illustrator: Ken Sugimori
 ---
 set: gym-challenge
 number: '80'
+order: 79
 name: Koga's Pidgey
 rarity: common
 holographic: false
@@ -3140,6 +3220,7 @@ illustrator: Ken Sugimori
 ---
 set: gym-challenge
 number: '81'
+order: 80
 name: Koga's Tangela
 rarity: common
 holographic: false
@@ -3178,6 +3259,7 @@ illustrator: Atsuko Nishida
 ---
 set: gym-challenge
 number: '82'
+order: 81
 name: Koga's Weedle
 rarity: common
 holographic: false
@@ -3216,6 +3298,7 @@ illustrator: Ken Sugimori
 ---
 set: gym-challenge
 number: '83'
+order: 82
 name: Koga's Zubat
 rarity: common
 holographic: false
@@ -3254,6 +3337,7 @@ illustrator: Ken Sugimori
 ---
 set: gym-challenge
 number: '84'
+order: 83
 name: Lt. Surge's Pikachu
 rarity: common
 holographic: false
@@ -3287,6 +3371,7 @@ illustrator: Atsuko Nishida
 ---
 set: gym-challenge
 number: '85'
+order: 84
 name: Lt. Surge's Rattata
 rarity: common
 holographic: false
@@ -3327,6 +3412,7 @@ illustrator: Atsuko Nishida
 ---
 set: gym-challenge
 number: '86'
+order: 85
 name: Lt. Surge's Voltorb
 rarity: common
 holographic: false
@@ -3361,6 +3447,7 @@ illustrator: Atsuko Nishida
 ---
 set: gym-challenge
 number: '87'
+order: 86
 name: Misty's Horsea
 rarity: common
 holographic: false
@@ -3396,6 +3483,7 @@ illustrator: Ken Sugimori
 ---
 set: gym-challenge
 number: '88'
+order: 87
 name: Misty's Magikarp
 rarity: common
 holographic: false
@@ -3434,6 +3522,7 @@ illustrator: Ken Sugimori
 ---
 set: gym-challenge
 number: '89'
+order: 88
 name: Misty's Poliwag
 rarity: common
 holographic: false
@@ -3474,6 +3563,7 @@ illustrator: Ken Sugimori
 ---
 set: gym-challenge
 number: '90'
+order: 89
 name: Misty's Psyduck
 rarity: common
 holographic: false
@@ -3511,6 +3601,7 @@ illustrator: Ken Sugimori
 ---
 set: gym-challenge
 number: '91'
+order: 90
 name: Misty's Seel
 rarity: common
 holographic: false
@@ -3553,6 +3644,7 @@ illustrator: Ken Sugimori
 ---
 set: gym-challenge
 number: '92'
+order: 91
 name: Misty's Staryu
 rarity: common
 holographic: false
@@ -3588,6 +3680,7 @@ illustrator: Ken Sugimori
 ---
 set: gym-challenge
 number: '93'
+order: 92
 name: Sabrina's Abra
 rarity: common
 holographic: false
@@ -3625,6 +3718,7 @@ illustrator: Ken Sugimori
 ---
 set: gym-challenge
 number: '94'
+order: 93
 name: Sabrina's Abra
 rarity: common
 holographic: false
@@ -3664,6 +3758,7 @@ illustrator: Ken Sugimori
 ---
 set: gym-challenge
 number: '95'
+order: 94
 name: Sabrina's Drowzee
 rarity: common
 holographic: false
@@ -3705,6 +3800,7 @@ illustrator: Ken Sugimori
 ---
 set: gym-challenge
 number: '96'
+order: 95
 name: Sabrina's Gastly
 rarity: common
 holographic: false
@@ -3742,6 +3838,7 @@ illustrator: Ken Sugimori
 ---
 set: gym-challenge
 number: '97'
+order: 96
 name: Sabrina's Gastly
 rarity: common
 holographic: false
@@ -3776,6 +3873,7 @@ illustrator: Atsuko Nishida
 ---
 set: gym-challenge
 number: '98'
+order: 97
 name: Sabrina's Porygon
 rarity: common
 holographic: false
@@ -3816,6 +3914,7 @@ illustrator: Ken Sugimori
 ---
 set: gym-challenge
 number: '99'
+order: 98
 name: Sabrina's Psyduck
 rarity: common
 holographic: false
@@ -3855,6 +3954,7 @@ illustrator: Ken Sugimori
 ---
 set: gym-challenge
 number: '100'
+order: 99
 name: Blaine
 rarity: rare
 holographic: false
@@ -3872,6 +3972,7 @@ illustrator: Ken Sugimori
 ---
 set: gym-challenge
 number: '101'
+order: 100
 name: Brock's Protection
 rarity: rare
 holographic: false
@@ -3890,6 +3991,7 @@ illustrator: Ken Sugimori
 ---
 set: gym-challenge
 number: '102'
+order: 101
 name: Chaos Gym
 rarity: rare
 holographic: false
@@ -3916,6 +4018,7 @@ illustrator: Keiji Kinebuchi
 ---
 set: gym-challenge
 number: '103'
+order: 102
 name: Erika's Kindness
 rarity: rare
 holographic: false
@@ -3932,6 +4035,7 @@ illustrator: Ken Sugimori
 ---
 set: gym-challenge
 number: '104'
+order: 103
 name: Giovanni
 rarity: rare
 holographic: false
@@ -3950,6 +4054,7 @@ illustrator: Ken Sugimori
 ---
 set: gym-challenge
 number: '105'
+order: 104
 name: Giovanni's Las Resort
 rarity: rare
 holographic: false
@@ -3965,6 +4070,7 @@ illustrator: Ken Sugimori
 ---
 set: gym-challenge
 number: '106'
+order: 105
 name: Koga
 rarity: rare
 holographic: false
@@ -3980,6 +4086,7 @@ illustrator: Ken Sugimori
 ---
 set: gym-challenge
 number: '107'
+order: 106
 name: Lt. Surge's Secret Plan
 rarity: rare
 holographic: false
@@ -4003,6 +4110,7 @@ illustrator: Ken Sugimori
 ---
 set: gym-challenge
 number: '108'
+order: 107
 name: Misty's Wish
 rarity: rare
 holographic: false
@@ -4021,6 +4129,7 @@ illustrator: Ken Sugimori
 ---
 set: gym-challenge
 number: '109'
+order: 108
 name: Resistance Gym
 rarity: rare
 holographic: false
@@ -4042,6 +4151,7 @@ illustrator: Keiji Kinebuchi
 ---
 set: gym-challenge
 number: '110'
+order: 109
 name: Sabrina
 rarity: rare
 holographic: false
@@ -4058,6 +4168,7 @@ illustrator: Ken Sugimori
 ---
 set: gym-challenge
 number: '111'
+order: 110
 name: 'Blaine''s Quiz #2'
 rarity: uncommon
 holographic: false
@@ -4077,6 +4188,7 @@ illustrator: Ken Sugimori
 ---
 set: gym-challenge
 number: '112'
+order: 111
 name: 'Blaine''s Quiz #3'
 rarity: uncommon
 holographic: false
@@ -4096,6 +4208,7 @@ illustrator: Ken Sugimori
 ---
 set: gym-challenge
 number: '113'
+order: 112
 name: Cinnabar City Gym
 rarity: uncommon
 holographic: false
@@ -4117,6 +4230,7 @@ illustrator: Keiji Kinebuchi
 ---
 set: gym-challenge
 number: '114'
+order: 113
 name: Fuchsia City Gym
 rarity: uncommon
 holographic: false
@@ -4140,6 +4254,7 @@ illustrator: Keiji Kinebuchi
 ---
 set: gym-challenge
 number: '115'
+order: 114
 name: Koga's Ninja Trick
 rarity: uncommon
 holographic: false
@@ -4158,6 +4273,7 @@ illustrator: Sumiyoshi Kizuki
 ---
 set: gym-challenge
 number: '116'
+order: 115
 name: Master Ball
 rarity: uncommon
 holographic: false
@@ -4175,6 +4291,7 @@ illustrator: Keiji Kinebuchi
 ---
 set: gym-challenge
 number: '117'
+order: 116
 name: Max Revive
 rarity: uncommon
 holographic: false
@@ -4191,6 +4308,7 @@ illustrator: Hikaru Koike
 ---
 set: gym-challenge
 number: '118'
+order: 117
 name: Misty's Tears
 rarity: uncommon
 holographic: false
@@ -4208,6 +4326,7 @@ illustrator: Ken Sugimori
 ---
 set: gym-challenge
 number: '119'
+order: 118
 name: Rocket's Minefield Gym
 rarity: uncommon
 holographic: false
@@ -4230,6 +4349,7 @@ illustrator: Keiji Kinebuchi
 ---
 set: gym-challenge
 number: '120'
+order: 119
 name: Rocket's Secret Experiment
 rarity: uncommon
 holographic: false
@@ -4246,6 +4366,7 @@ illustrator: Ken Sugimori
 ---
 set: gym-challenge
 number: '121'
+order: 120
 name: Sabrina's Psychic Control
 rarity: uncommon
 holographic: false
@@ -4265,6 +4386,7 @@ illustrator: Ken Sugimori
 ---
 set: gym-challenge
 number: '122'
+order: 121
 name: Saffron City Gym
 rarity: uncommon
 holographic: false
@@ -4288,6 +4410,7 @@ illustrator: Keiji Kinebuchi
 ---
 set: gym-challenge
 number: '123'
+order: 122
 name: Viridian City Gym
 rarity: uncommon
 holographic: false
@@ -4310,6 +4433,7 @@ illustrator: Keiji Kinebuchi
 ---
 set: gym-challenge
 number: '124'
+order: 123
 name: Fervor
 rarity: common
 holographic: false
@@ -4325,6 +4449,7 @@ illustrator: Ken Sugimori
 ---
 set: gym-challenge
 number: '125'
+order: 124
 name: Transparent Walls
 rarity: common
 holographic: false
@@ -4341,6 +4466,7 @@ illustrator: Keiji Kinebuchi
 ---
 set: gym-challenge
 number: '126'
+order: 125
 name: Warp Point
 rarity: common
 holographic: false
@@ -4359,6 +4485,7 @@ illustrator: Keiji Kinebuchi
 ---
 set: gym-challenge
 number: '127'
+order: 126
 name: Fighting Energy
 rarity: common
 holographic: false
@@ -4375,6 +4502,7 @@ illustrator: Keiji Kinebuchi
 ---
 set: gym-challenge
 number: '128'
+order: 127
 name: Fire Energy
 rarity: common
 holographic: false
@@ -4391,6 +4519,7 @@ illustrator: Keiji Kinebuchi
 ---
 set: gym-challenge
 number: '129'
+order: 128
 name: Grass Energy
 rarity: common
 holographic: false
@@ -4407,6 +4536,7 @@ illustrator: Keiji Kinebuchi
 ---
 set: gym-challenge
 number: '130'
+order: 129
 name: Lightning Energy
 rarity: common
 holographic: false
@@ -4423,6 +4553,7 @@ illustrator: Keiji Kinebuchi
 ---
 set: gym-challenge
 number: '131'
+order: 130
 name: Psychic Energy
 rarity: common
 holographic: false
@@ -4439,6 +4570,7 @@ illustrator: Keiji Kinebuchi
 ---
 set: gym-challenge
 number: '132'
+order: 131
 name: Water Energy
 rarity: common
 holographic: false

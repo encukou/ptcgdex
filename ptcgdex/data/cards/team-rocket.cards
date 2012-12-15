@@ -1,6 +1,7 @@
 ---
 set: team-rocket
 number: '1'
+order: 0
 name: Dark Alakazam
 rarity: rare
 holographic: true
@@ -47,6 +48,7 @@ illustrator: Ken Sugimori
 ---
 set: team-rocket
 number: '2'
+order: 1
 name: Dark Arbok
 rarity: rare
 holographic: true
@@ -96,6 +98,7 @@ illustrator: Mitsuhiro Arita
 ---
 set: team-rocket
 number: '3'
+order: 2
 name: Dark Blastoise
 rarity: rare
 holographic: true
@@ -142,6 +145,7 @@ illustrator: Mitsuhiro Arita
 ---
 set: team-rocket
 number: '4'
+order: 3
 name: Dark Charizard
 rarity: rare
 holographic: true
@@ -187,6 +191,7 @@ illustrator: Ken Sugimori
 ---
 set: team-rocket
 number: '5'
+order: 4
 name: Dark Dragonite
 rarity: rare
 holographic: true
@@ -227,6 +232,7 @@ illustrator: Mitsuhiro Arita
 ---
 set: team-rocket
 number: '6'
+order: 5
 name: Dark Dugtrio
 rarity: rare
 holographic: true
@@ -274,6 +280,7 @@ illustrator: Kagemaru Himeno
 ---
 set: team-rocket
 number: '7'
+order: 6
 name: Dark Golbat
 rarity: rare
 holographic: true
@@ -319,6 +326,7 @@ illustrator: Mitsuhiro Arita
 ---
 set: team-rocket
 number: '8'
+order: 7
 name: Dark Gyarados
 rarity: rare
 holographic: true
@@ -365,6 +373,7 @@ illustrator: Kagemaru Himeno
 ---
 set: team-rocket
 number: '9'
+order: 8
 name: Dark Hypno
 rarity: rare
 holographic: true
@@ -410,6 +419,7 @@ illustrator: Kagemaru Himeno
 ---
 set: team-rocket
 number: '10'
+order: 9
 name: Dark Machamp
 rarity: rare
 holographic: true
@@ -452,6 +462,7 @@ illustrator: Mitsuhiro Arita
 ---
 set: team-rocket
 number: '11'
+order: 10
 name: Dark Magneton
 rarity: rare
 holographic: true
@@ -499,6 +510,7 @@ illustrator: Miki Tanaka
 ---
 set: team-rocket
 number: '12'
+order: 11
 name: Dark Slowbro
 rarity: rare
 holographic: true
@@ -542,6 +554,7 @@ illustrator: Mitsuhiro Arita
 ---
 set: team-rocket
 number: '13'
+order: 12
 name: Dark Vileplume
 rarity: rare
 holographic: true
@@ -586,6 +599,7 @@ illustrator: Kagemaru Himeno
 ---
 set: team-rocket
 number: '14'
+order: 13
 name: Dark Weezing
 rarity: rare
 holographic: true
@@ -634,6 +648,7 @@ illustrator: Shin-ichi Yoshida
 ---
 set: team-rocket
 number: '15'
+order: 14
 name: Here Comes Team Rocket!
 rarity: rare
 holographic: true
@@ -649,6 +664,7 @@ illustrator: Ken Sugimori
 ---
 set: team-rocket
 number: '16'
+order: 15
 name: Rocket's Sneak Attack
 rarity: rare
 holographic: true
@@ -665,6 +681,7 @@ illustrator: Ken Sugimori
 ---
 set: team-rocket
 number: '17'
+order: 16
 name: Rainbow Energy
 rarity: rare
 holographic: true
@@ -687,6 +704,7 @@ illustrator: Takumi Akabane
 ---
 set: team-rocket
 number: '18'
+order: 17
 name: Dark Alakazam
 rarity: rare
 holographic: false
@@ -734,6 +752,7 @@ illustrator: Ken Sugimori
 ---
 set: team-rocket
 number: '19'
+order: 18
 name: Dark Arbok
 rarity: rare
 holographic: false
@@ -784,6 +803,7 @@ illustrator: Mitsuhiro Arita
 ---
 set: team-rocket
 number: '20'
+order: 19
 name: Dark Blastoise
 rarity: rare
 holographic: false
@@ -831,6 +851,7 @@ illustrator: Mitsuhiro Arita
 ---
 set: team-rocket
 number: '21'
+order: 20
 name: Dark Charizard
 rarity: rare
 holographic: false
@@ -877,6 +898,7 @@ illustrator: Ken Sugimori
 ---
 set: team-rocket
 number: '22'
+order: 21
 name: Dark Dragonite
 rarity: rare
 holographic: false
@@ -918,6 +940,7 @@ illustrator: Mitsuhiro Arita
 ---
 set: team-rocket
 number: '23'
+order: 22
 name: Dark Dugtrio
 rarity: rare
 holographic: false
@@ -966,6 +989,7 @@ illustrator: Kagemaru Himeno
 ---
 set: team-rocket
 number: '24'
+order: 23
 name: Dark Golbat
 rarity: rare
 holographic: false
@@ -1012,6 +1036,7 @@ illustrator: Mitsuhiro Arita
 ---
 set: team-rocket
 number: '25'
+order: 24
 name: Dark Gyarados
 rarity: rare
 holographic: false
@@ -1059,6 +1084,7 @@ illustrator: Kagemaru Himeno
 ---
 set: team-rocket
 number: '26'
+order: 25
 name: Dark Hypno
 rarity: rare
 holographic: false
@@ -1105,6 +1131,7 @@ illustrator: Kagemaru Himeno
 ---
 set: team-rocket
 number: '27'
+order: 26
 name: Dark Machamp
 rarity: rare
 holographic: false
@@ -1148,6 +1175,7 @@ illustrator: Mitsuhiro Arita
 ---
 set: team-rocket
 number: '28'
+order: 27
 name: Dark Magneton
 rarity: rare
 holographic: false
@@ -1196,6 +1224,7 @@ illustrator: Miki Tanaka
 ---
 set: team-rocket
 number: '29'
+order: 28
 name: Dark Slowbro
 rarity: rare
 holographic: false
@@ -1240,6 +1269,7 @@ illustrator: Mitsuhiro Arita
 ---
 set: team-rocket
 number: '30'
+order: 29
 name: Dark Vileplume
 rarity: rare
 holographic: false
@@ -1285,6 +1315,7 @@ illustrator: Kagemaru Himeno
 ---
 set: team-rocket
 number: '31'
+order: 30
 name: Dark Weezing
 rarity: rare
 holographic: false
@@ -1334,6 +1365,7 @@ illustrator: Shin-ichi Yoshida
 ---
 set: team-rocket
 number: '32'
+order: 31
 name: Dark Charmeleon
 rarity: uncommon
 holographic: false
@@ -1377,6 +1409,7 @@ illustrator: Kagemaru Himeno
 ---
 set: team-rocket
 number: '33'
+order: 32
 name: Dark Dragonair
 rarity: uncommon
 holographic: false
@@ -1420,6 +1453,7 @@ illustrator: Kagemaru Himeno
 ---
 set: team-rocket
 number: '34'
+order: 33
 name: Dark Electrode
 rarity: uncommon
 holographic: false
@@ -1464,6 +1498,7 @@ illustrator: Ken Sugimori
 ---
 set: team-rocket
 number: '35'
+order: 34
 name: Dark Flareon
 rarity: uncommon
 holographic: false
@@ -1511,6 +1546,7 @@ illustrator: Mitsuhiro Arita
 ---
 set: team-rocket
 number: '36'
+order: 35
 name: Dark Gloom
 rarity: uncommon
 holographic: false
@@ -1555,6 +1591,7 @@ illustrator: Kagemaru Himeno
 ---
 set: team-rocket
 number: '37'
+order: 36
 name: Dark Golduck
 rarity: uncommon
 holographic: false
@@ -1596,6 +1633,7 @@ illustrator: Mitsuhiro Arita
 ---
 set: team-rocket
 number: '38'
+order: 37
 name: Dark Jolteon
 rarity: uncommon
 holographic: false
@@ -1642,6 +1680,7 @@ illustrator: Mitsuhiro Arita
 ---
 set: team-rocket
 number: '39'
+order: 38
 name: Dark Kadabra
 rarity: uncommon
 holographic: false
@@ -1687,6 +1726,7 @@ illustrator: Kagemaru Himeno
 ---
 set: team-rocket
 number: '40'
+order: 39
 name: Dark Machoke
 rarity: uncommon
 holographic: false
@@ -1735,6 +1775,7 @@ illustrator: Mitsuhiro Arita
 ---
 set: team-rocket
 number: '41'
+order: 40
 name: Dark Muk
 rarity: uncommon
 holographic: false
@@ -1778,6 +1819,7 @@ illustrator: Kagemaru Himeno
 ---
 set: team-rocket
 number: '42'
+order: 41
 name: Dark Persian
 rarity: uncommon
 holographic: false
@@ -1822,6 +1864,7 @@ illustrator: Shin-ichi Yoshida
 ---
 set: team-rocket
 number: '43'
+order: 42
 name: Dark Primeape
 rarity: uncommon
 holographic: false
@@ -1864,6 +1907,7 @@ illustrator: Mitsuhiro Arita
 ---
 set: team-rocket
 number: '44'
+order: 43
 name: Dark Rapidash
 rarity: uncommon
 holographic: false
@@ -1908,6 +1952,7 @@ illustrator: Kagemaru Himeno
 ---
 set: team-rocket
 number: '45'
+order: 44
 name: Dark Vaporeon
 rarity: uncommon
 holographic: false
@@ -1950,6 +1995,7 @@ illustrator: Mitsuhiro Arita
 ---
 set: team-rocket
 number: '46'
+order: 45
 name: Dark Wartortle
 rarity: uncommon
 holographic: false
@@ -1995,6 +2041,7 @@ illustrator: Kagemaru Himeno
 ---
 set: team-rocket
 number: '47'
+order: 46
 name: Magikarp
 rarity: uncommon
 holographic: false
@@ -2034,6 +2081,7 @@ illustrator: Kagemaru Himeno
 ---
 set: team-rocket
 number: '48'
+order: 47
 name: Porygon
 rarity: uncommon
 holographic: false
@@ -2075,6 +2123,7 @@ illustrator: Keiji Kinebuchi
 ---
 set: team-rocket
 number: '49'
+order: 48
 name: Abra
 rarity: common
 holographic: false
@@ -2115,6 +2164,7 @@ illustrator: Sumiyoshi Kizuki
 ---
 set: team-rocket
 number: '50'
+order: 49
 name: Charmander
 rarity: common
 holographic: false
@@ -2154,6 +2204,7 @@ illustrator: Kagemaru Himeno
 ---
 set: team-rocket
 number: '51'
+order: 50
 name: Dark Raticate
 rarity: common
 holographic: false
@@ -2196,6 +2247,7 @@ illustrator: Shin-ichi Yoshida
 ---
 set: team-rocket
 number: '52'
+order: 51
 name: Diglett
 rarity: common
 holographic: false
@@ -2236,6 +2288,7 @@ illustrator: Sumiyoshi Kizuki
 ---
 set: team-rocket
 number: '53'
+order: 52
 name: Dratini
 rarity: common
 holographic: false
@@ -2267,6 +2320,7 @@ illustrator: Kagemaru Himeno
 ---
 set: team-rocket
 number: '54'
+order: 53
 name: Drowzee
 rarity: common
 holographic: false
@@ -2308,6 +2362,7 @@ illustrator: Kagemaru Himeno
 ---
 set: team-rocket
 number: '55'
+order: 54
 name: Eevee
 rarity: common
 holographic: false
@@ -2349,6 +2404,7 @@ illustrator: Atsuko Nishida
 ---
 set: team-rocket
 number: '56'
+order: 55
 name: Ekans
 rarity: common
 holographic: false
@@ -2387,6 +2443,7 @@ illustrator: Ken Sugimori
 ---
 set: team-rocket
 number: '57'
+order: 56
 name: Grimer
 rarity: common
 holographic: false
@@ -2428,6 +2485,7 @@ illustrator: Kagemaru Himeno
 ---
 set: team-rocket
 number: '58'
+order: 57
 name: Koffing
 rarity: common
 holographic: false
@@ -2466,6 +2524,7 @@ illustrator: Sumiyoshi Kizuki
 ---
 set: team-rocket
 number: '59'
+order: 58
 name: Machop
 rarity: common
 holographic: false
@@ -2501,6 +2560,7 @@ illustrator: Ken Sugimori
 ---
 set: team-rocket
 number: '60'
+order: 59
 name: Magnemite
 rarity: common
 holographic: false
@@ -2540,6 +2600,7 @@ illustrator: Miki Tanaka
 ---
 set: team-rocket
 number: '61'
+order: 60
 name: Mankey
 rarity: common
 holographic: false
@@ -2579,6 +2640,7 @@ illustrator: Sumiyoshi Kizuki
 ---
 set: team-rocket
 number: '62'
+order: 61
 name: Meowth
 rarity: common
 holographic: false
@@ -2616,6 +2678,7 @@ illustrator: Atsuko Nishida
 ---
 set: team-rocket
 number: '63'
+order: 62
 name: Oddish
 rarity: common
 holographic: false
@@ -2653,6 +2716,7 @@ illustrator: Kagemaru Himeno
 ---
 set: team-rocket
 number: '64'
+order: 63
 name: Ponyta
 rarity: common
 holographic: false
@@ -2688,6 +2752,7 @@ illustrator: Atsuko Nishida
 ---
 set: team-rocket
 number: '65'
+order: 64
 name: Psyduck
 rarity: common
 holographic: false
@@ -2729,6 +2794,7 @@ illustrator: Mitsuhiro Arita
 ---
 set: team-rocket
 number: '66'
+order: 65
 name: Rattata
 rarity: common
 holographic: false
@@ -2769,6 +2835,7 @@ illustrator: Atsuko Nishida
 ---
 set: team-rocket
 number: '67'
+order: 66
 name: Slowpoke
 rarity: common
 holographic: false
@@ -2807,6 +2874,7 @@ illustrator: Sumiyoshi Kizuki
 ---
 set: team-rocket
 number: '68'
+order: 67
 name: Squirtle
 rarity: common
 holographic: false
@@ -2839,6 +2907,7 @@ illustrator: Atsuko Nishida
 ---
 set: team-rocket
 number: '69'
+order: 68
 name: Voltorb
 rarity: common
 holographic: false
@@ -2871,6 +2940,7 @@ illustrator: Ken Sugimori
 ---
 set: team-rocket
 number: '70'
+order: 69
 name: Zubat
 rarity: common
 holographic: false
@@ -2907,6 +2977,7 @@ illustrator: Mitsuhiro Arita
 ---
 set: team-rocket
 number: '71'
+order: 70
 name: Here Comes Team Rocket!
 rarity: rare
 holographic: false
@@ -2924,6 +2995,7 @@ illustrator: Ken Sugimori
 ---
 set: team-rocket
 number: '72'
+order: 71
 name: Rocket's Sneak Attack
 rarity: rare
 holographic: false
@@ -2942,6 +3014,7 @@ illustrator: Ken Sugimori
 ---
 set: team-rocket
 number: '73'
+order: 72
 name: The Boss's Way
 rarity: uncommon
 holographic: false
@@ -2958,6 +3031,7 @@ illustrator: Ken Sugimori
 ---
 set: team-rocket
 number: '74'
+order: 73
 name: Challenge!
 rarity: uncommon
 holographic: false
@@ -2978,6 +3052,7 @@ illustrator: Kagemaru Himeno
 ---
 set: team-rocket
 number: '75'
+order: 74
 name: Digger
 rarity: uncommon
 holographic: false
@@ -2997,6 +3072,7 @@ illustrator: Sumiyoshi Kizuki
 ---
 set: team-rocket
 number: '76'
+order: 75
 name: Impostor Oak's Revenge
 rarity: uncommon
 holographic: false
@@ -3013,6 +3089,7 @@ illustrator: Ken Sugimori
 ---
 set: team-rocket
 number: '77'
+order: 76
 name: Nightly Garbage Run
 rarity: uncommon
 holographic: false
@@ -3031,6 +3108,7 @@ illustrator: Sumiyoshi Kizuki
 ---
 set: team-rocket
 number: '78'
+order: 77
 name: Goop Gas Attack
 rarity: common
 holographic: false
@@ -3046,6 +3124,7 @@ illustrator: Sumiyoshi Kizuki
 ---
 set: team-rocket
 number: '79'
+order: 78
 name: Sleep!
 rarity: common
 holographic: false
@@ -3062,6 +3141,7 @@ illustrator: Sumiyoshi Kizuki
 ---
 set: team-rocket
 number: '80'
+order: 79
 name: Rainbow Energy
 rarity: rare
 holographic: false
@@ -3085,6 +3165,7 @@ illustrator: Takumi Akabane
 ---
 set: team-rocket
 number: '81'
+order: 80
 name: Full Heal Energy
 rarity: uncommon
 holographic: false
@@ -3104,6 +3185,7 @@ illustrator: Keiji Kinebuchi
 ---
 set: team-rocket
 number: '82'
+order: 81
 name: Potion Energy
 rarity: uncommon
 holographic: false
@@ -3123,6 +3205,7 @@ illustrator: Keiji Kinebuchi
 ---
 set: team-rocket
 number: '83'
+order: 82
 name: Dark Raichu
 rarity: rare
 holographic: true

@@ -122,6 +122,7 @@ def load_sets(session, directory, set_names=None, verbose=True):
             query = session.query(tcg_tables.Print)
             query = query.filter(tcg_tables.Print.set == tcg_set)
             query = query.filter(tcg_tables.Print.set_number == card_info['number'])
+            query = query.filter(tcg_tables.Print.order == card_info['order'])
             try:
                 previous = query.one()
             except NoResultFound:
@@ -330,30 +331,10 @@ def load_sets(session, directory, set_names=None, verbose=True):
             card_print.card = card
             card_print.set = tcg_set
             card_print.set_number = card_info.pop('number')
-            try:
-                card_print.order = int(card_print.set_number)
-            except ValueError:
-                card_print.order = 500  # TODO
+            card_print.order = card_info.pop('order')
             card_print.rarity = rarity
             card_print.illustrator = illustrator
             card_print.holographic = card_info.pop('holographic')
-
-            if dex_number:
-                flavor = tcg_tables.PokemonFlavor()
-                species_name = card_info.pop('pokemon')
-                if species.name.lower() != species_name.lower():
-                    raise ValueError("{!r} != {!r}".format(
-                        species.name, species_name))
-                feet, inches = card_info.pop('height').split("'")
-                flavor.species = species
-                flavor.weight = card_info.pop('weight')
-                flavor.height = int(feet) * 12 + int(inches)
-                flavor.dex_entry_map[en] = card_info.pop('dex entry', None)
-                flavor.genus_map[en] = card_info.pop('species')
-                session.add(flavor)
-                card_print.pokemon_flavor = flavor
-            else:
-                flavor = None
 
             scan = tcg_tables.Scan()
             scan.print_ = card_print
@@ -363,7 +344,36 @@ def load_sets(session, directory, set_names=None, verbose=True):
 
             session.add(card_print)
 
-            card_info.pop('evolves from', None)  # XXX: Handle evolution
+            #import pdb; pdb.set_trace()
+            if dex_number or any(x in card_info for x in (
+                    'height', 'weight', 'dex entry', 'species')):
+                session.flush()
+                flavor = tcg_tables.PokemonFlavor()
+                if dex_number:
+                    species_name = card_info.pop('pokemon')
+                    if species.name.lower() != species_name.lower():
+                        raise ValueError("{!r} != {!r}".format(
+                            species.name, species_name))
+                    flavor.species = species
+                if 'height' in card_info:
+                    feet, inches = card_info.pop('height').split("'")
+                    flavor.height = int(feet) * 12 + int(inches)
+                if 'weight' in card_info:
+                    flavor.weight = card_info.pop('weight')
+                session.add(flavor)
+                session.flush()
+                if any(x in card_info for x in ('dex entry', 'species')):
+                    link = tcg_tables.PokemonFlavor.flavor_table()
+                    link.local_language = en
+                    link.tcg_pokemon_flavor_id = flavor.id
+                    if 'dex entry' in card_info:
+                        link.dex_entry = card_info.pop('dex entry')
+                    if 'species' in card_info:
+                        link.genus = card_info.pop('species')
+                    session.add(link)
+                card_print.pokemon_flavor = flavor
+            else:
+                flavor = None
 
             card_info.pop('orphan', None)  # XXX
             card_info.pop('has-variant', None)  # XXX
@@ -400,6 +410,7 @@ def dump_set(tcg_set, outfile, verbose=True):
         card_info = OrderedDict([
             ('set', tcg_set.identifier),
             ('number', print_.set_number),
+            ('order', print_.order),
             ('name', card.name),
             ('rarity', print_.rarity.identifier),
             ('holographic', print_.holographic),

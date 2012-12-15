@@ -273,14 +273,14 @@ class PokemonFlavor(TableBase):
     __singlename__ = 'tcg_pokemon_flavor'
     id = make_id()
     species_id = Column(Integer, ForeignKey(dex_tables.PokemonSpecies.id),
-        nullable=False,
+        nullable=True,
         info=dict(description=u"The ID of the Pokémon species"))
-    height = Column(Integer, nullable=False,
+    height = Column(Integer, nullable=True,
         info=dict(description="Height in pounds"))
-    weight = Column(Integer, nullable=False,
+    weight = Column(Integer, nullable=True,
         info=dict(description="Weight in inches"))
 
-create_translation_table('tcg_pokemon_flavor_text', PokemonFlavor, 'flavor',
+create_translation_table('tcg_pokemon_flavor', PokemonFlavor, 'flavor',
     genus = Column(Unicode(16), nullable=True, index=True,
         info=dict(description="The species, if different from games",
                   format='plaintext', official=True)),

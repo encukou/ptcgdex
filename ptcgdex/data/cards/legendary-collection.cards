@@ -1,6 +1,7 @@
 ---
 set: legendary-collection
 number: '1'
+order: 0
 name: Alakazam
 rarity: rare
 holographic: true
@@ -44,6 +45,7 @@ illustrator: Ken Sugimori
 ---
 set: legendary-collection
 number: '2'
+order: 1
 name: Articuno
 rarity: rare
 holographic: true
@@ -85,6 +87,7 @@ illustrator: Mitsuhiro Arita
 ---
 set: legendary-collection
 number: '3'
+order: 2
 name: Charizard
 rarity: rare
 holographic: true
@@ -131,6 +134,7 @@ illustrator: Mitsuhiro Arita
 ---
 set: legendary-collection
 number: '4'
+order: 3
 name: Dark Blastoise
 rarity: rare
 holographic: true
@@ -178,6 +182,7 @@ illustrator: Mitsuhiro Arita
 ---
 set: legendary-collection
 number: '5'
+order: 4
 name: Dark Dragonite
 rarity: rare
 holographic: true
@@ -219,6 +224,7 @@ illustrator: Mitsuhiro Arita
 ---
 set: legendary-collection
 number: '6'
+order: 5
 name: Dark Persian
 rarity: rare
 holographic: true
@@ -264,6 +270,7 @@ illustrator: Shin-ichi Yoshida
 ---
 set: legendary-collection
 number: '7'
+order: 6
 name: Dark Raichu
 rarity: rare
 holographic: true
@@ -304,6 +311,7 @@ illustrator: Mitsuhiro Arita
 ---
 set: legendary-collection
 number: '8'
+order: 7
 name: Dark Slowbro
 rarity: rare
 holographic: true
@@ -348,6 +356,7 @@ illustrator: Mitsuhiro Arita
 ---
 set: legendary-collection
 number: '9'
+order: 8
 name: Dark Vaporeon
 rarity: rare
 holographic: true
@@ -391,6 +400,7 @@ illustrator: Mitsuhiro Arita
 ---
 set: legendary-collection
 number: '10'
+order: 9
 name: Flareon
 rarity: rare
 holographic: true
@@ -435,6 +445,7 @@ illustrator: Kagemaru Himeno
 ---
 set: legendary-collection
 number: '11'
+order: 10
 name: Gengar
 rarity: rare
 holographic: true
@@ -477,6 +488,7 @@ illustrator: Keiji Kinebuchi
 ---
 set: legendary-collection
 number: '12'
+order: 11
 name: Gyarados
 rarity: rare
 holographic: true
@@ -518,6 +530,7 @@ illustrator: Mitsuhiro Arita
 ---
 set: legendary-collection
 number: '13'
+order: 12
 name: Hitmonlee
 rarity: rare
 holographic: true
@@ -558,6 +571,7 @@ illustrator: Ken Sugimori
 ---
 set: legendary-collection
 number: '14'
+order: 13
 name: Jolteon
 rarity: rare
 holographic: true
@@ -602,6 +616,7 @@ illustrator: Kagemaru Himeno
 ---
 set: legendary-collection
 number: '15'
+order: 14
 name: Machamp
 rarity: rare
 holographic: true
@@ -644,6 +659,7 @@ illustrator: Ken Sugimori
 ---
 set: legendary-collection
 number: '16'
+order: 15
 name: Muk
 rarity: rare
 holographic: true
@@ -685,6 +701,7 @@ illustrator: Mitsuhiro Arita
 ---
 set: legendary-collection
 number: '17'
+order: 16
 name: Ninetales
 rarity: rare
 holographic: true
@@ -728,6 +745,7 @@ illustrator: Ken Sugimori
 ---
 set: legendary-collection
 number: '18'
+order: 17
 name: Venusaur
 rarity: rare
 holographic: true
@@ -769,6 +787,7 @@ illustrator: Mitsuhiro Arita
 ---
 set: legendary-collection
 number: '19'
+order: 18
 name: Zapdos
 rarity: rare
 holographic: true
@@ -808,6 +827,7 @@ illustrator: Ken Sugimori
 ---
 set: legendary-collection
 number: '20'
+order: 19
 name: Beedrill
 rarity: rare
 holographic: false
@@ -850,6 +870,7 @@ illustrator: Ken Sugimori
 ---
 set: legendary-collection
 number: '21'
+order: 20
 name: Butterfree
 rarity: rare
 holographic: false
@@ -896,6 +917,7 @@ illustrator: Kagemaru Himeno
 ---
 set: legendary-collection
 number: '22'
+order: 21
 name: Electrode
 rarity: rare
 holographic: false
@@ -938,6 +960,7 @@ illustrator: Mitsuhiro Arita
 ---
 set: legendary-collection
 number: '23'
+order: 22
 name: Exeggutor
 rarity: rare
 holographic: false
@@ -981,6 +1004,7 @@ illustrator: Kagemaru Himeno
 ---
 set: legendary-collection
 number: '24'
+order: 23
 name: Golem
 rarity: rare
 holographic: false
@@ -1023,6 +1047,7 @@ illustrator: Kagemaru Himeno
 ---
 set: legendary-collection
 number: '25'
+order: 24
 name: Hypno
 rarity: rare
 holographic: false
@@ -1067,6 +1092,7 @@ illustrator: Ken Sugimori
 ---
 set: legendary-collection
 number: '26'
+order: 25
 name: Jynx
 rarity: rare
 holographic: false
@@ -1110,6 +1136,7 @@ illustrator: Ken Sugimori
 ---
 set: legendary-collection
 number: '27'
+order: 26
 name: Kabutops
 rarity: rare
 holographic: false
@@ -1154,6 +1181,7 @@ illustrator: Ken Sugimori
 ---
 set: legendary-collection
 number: '28'
+order: 27
 name: Magneton
 rarity: rare
 holographic: false
@@ -1200,6 +1228,7 @@ illustrator: Ken Sugimori
 ---
 set: legendary-collection
 number: '29'
+order: 28
 name: Mewtwo
 rarity: rare
 holographic: false
@@ -1244,6 +1273,7 @@ illustrator: Christopher Rush
 ---
 set: legendary-collection
 number: '30'
+order: 29
 name: Moltres
 rarity: rare
 holographic: false
@@ -1283,6 +1313,7 @@ illustrator: Mitsuhiro Arita
 ---
 set: legendary-collection
 number: '31'
+order: 30
 name: Nidoking
 rarity: rare
 holographic: false
@@ -1329,6 +1360,7 @@ illustrator: Ken Sugimori
 ---
 set: legendary-collection
 number: '32'
+order: 31
 name: Nidoqueen
 rarity: rare
 holographic: false
@@ -1370,6 +1402,7 @@ illustrator: Ken Sugimori
 ---
 set: legendary-collection
 number: '33'
+order: 32
 name: Pidgeot
 rarity: rare
 holographic: false
@@ -1412,6 +1445,7 @@ illustrator: Kagemaru Himeno
 ---
 set: legendary-collection
 number: '34'
+order: 33
 name: Pidgeotto
 rarity: rare
 holographic: false
@@ -1457,6 +1491,7 @@ illustrator: Ken Sugimori
 ---
 set: legendary-collection
 number: '35'
+order: 34
 name: Rhydon
 rarity: rare
 holographic: false
@@ -1502,6 +1537,7 @@ illustrator: Kagemaru Himeno
 ---
 set: legendary-collection
 number: '36'
+order: 35
 name: Arcanine
 rarity: uncommon
 holographic: false
@@ -1545,6 +1581,7 @@ illustrator: Ken Sugimori
 ---
 set: legendary-collection
 number: '37'
+order: 36
 name: Charmeleon
 rarity: uncommon
 holographic: false
@@ -1587,6 +1624,7 @@ illustrator: Mitsuhiro Arita
 ---
 set: legendary-collection
 number: '38'
+order: 37
 name: Dark Dragonair
 rarity: uncommon
 holographic: false
@@ -1631,6 +1669,7 @@ illustrator: Kagemaru Himeno
 ---
 set: legendary-collection
 number: '39'
+order: 38
 name: Dark Wartortle
 rarity: uncommon
 holographic: false
@@ -1677,6 +1716,7 @@ illustrator: Kagemaru Himeno
 ---
 set: legendary-collection
 number: '40'
+order: 39
 name: Dewgong
 rarity: uncommon
 holographic: false
@@ -1717,6 +1757,7 @@ illustrator: Mitsuhiro Arita
 ---
 set: legendary-collection
 number: '41'
+order: 40
 name: Dodrio
 rarity: uncommon
 holographic: false
@@ -1759,6 +1800,7 @@ illustrator: Mitsuhiro Arita
 ---
 set: legendary-collection
 number: '42'
+order: 41
 name: Fearow
 rarity: uncommon
 holographic: false
@@ -1800,6 +1842,7 @@ illustrator: Mitsuhiro Arita
 ---
 set: legendary-collection
 number: '43'
+order: 42
 name: Golduck
 rarity: uncommon
 holographic: false
@@ -1843,6 +1886,7 @@ illustrator: Kagemaru Himeno
 ---
 set: legendary-collection
 number: '44'
+order: 43
 name: Graveler
 rarity: uncommon
 holographic: false
@@ -1884,6 +1928,7 @@ illustrator: Kagemaru Himeno
 ---
 set: legendary-collection
 number: '45'
+order: 44
 name: Growlithe
 rarity: uncommon
 holographic: false
@@ -1917,6 +1962,7 @@ illustrator: Ken Sugimori
 ---
 set: legendary-collection
 number: '46'
+order: 45
 name: Haunter
 rarity: uncommon
 holographic: false
@@ -1956,6 +2002,7 @@ illustrator: Keiji Kinebuchi
 ---
 set: legendary-collection
 number: '47'
+order: 46
 name: Ivysaur
 rarity: uncommon
 holographic: false
@@ -1996,6 +2043,7 @@ illustrator: Ken Sugimori
 ---
 set: legendary-collection
 number: '48'
+order: 47
 name: Kadabra
 rarity: uncommon
 holographic: false
@@ -2036,6 +2084,7 @@ illustrator: Ken Sugimori
 ---
 set: legendary-collection
 number: '49'
+order: 48
 name: Kabuto
 rarity: uncommon
 holographic: false
@@ -2080,6 +2129,7 @@ illustrator: Ken Sugimori
 ---
 set: legendary-collection
 number: '50'
+order: 49
 name: Kakuna
 rarity: uncommon
 holographic: false
@@ -2123,6 +2173,7 @@ illustrator: Keiji Kinebuchi
 ---
 set: legendary-collection
 number: '51'
+order: 50
 name: Machoke
 rarity: uncommon
 holographic: false
@@ -2166,6 +2217,7 @@ illustrator: Ken Sugimori
 ---
 set: legendary-collection
 number: '52'
+order: 51
 name: Magikarp
 rarity: uncommon
 holographic: false
@@ -2205,6 +2257,7 @@ illustrator: Mitsuhiro Arita
 ---
 set: legendary-collection
 number: '53'
+order: 52
 name: Meowth
 rarity: uncommon
 holographic: false
@@ -2241,6 +2294,7 @@ illustrator: Mitsuhiro Arita
 ---
 set: legendary-collection
 number: '54'
+order: 53
 name: Metapod
 rarity: uncommon
 holographic: false
@@ -2284,6 +2338,7 @@ illustrator: Ken Sugimori
 ---
 set: legendary-collection
 number: '55'
+order: 54
 name: Nidorina
 rarity: uncommon
 holographic: false
@@ -2326,6 +2381,7 @@ illustrator: Ken Sugimori
 ---
 set: legendary-collection
 number: '56'
+order: 55
 name: Nidorino
 rarity: uncommon
 holographic: false
@@ -2366,6 +2422,7 @@ illustrator: Mitsuhiro Arita
 ---
 set: legendary-collection
 number: '57'
+order: 56
 name: Omanyte
 rarity: uncommon
 holographic: false
@@ -2409,6 +2466,7 @@ illustrator: Kagemaru Himeno
 ---
 set: legendary-collection
 number: '58'
+order: 57
 name: Omastar
 rarity: uncommon
 holographic: false
@@ -2454,6 +2512,7 @@ illustrator: Ken Sugimori
 ---
 set: legendary-collection
 number: '59'
+order: 58
 name: Primeape
 rarity: uncommon
 holographic: false
@@ -2498,6 +2557,7 @@ illustrator: Kagemaru Himeno
 ---
 set: legendary-collection
 number: '60'
+order: 59
 name: Rapidash
 rarity: uncommon
 holographic: false
@@ -2541,6 +2601,7 @@ illustrator: Mitsuhiro Arita
 ---
 set: legendary-collection
 number: '61'
+order: 60
 name: Raticate
 rarity: uncommon
 holographic: false
@@ -2583,6 +2644,7 @@ illustrator: Ken Sugimori
 ---
 set: legendary-collection
 number: '62'
+order: 61
 name: Sandslash
 rarity: uncommon
 holographic: false
@@ -2625,6 +2687,7 @@ illustrator: Ken Sugimori
 ---
 set: legendary-collection
 number: '63'
+order: 62
 name: Seadra
 rarity: uncommon
 holographic: false
@@ -2670,6 +2733,7 @@ illustrator: Ken Sugimori
 ---
 set: legendary-collection
 number: '64'
+order: 63
 name: Snorlax
 rarity: uncommon
 holographic: false
@@ -2712,6 +2776,7 @@ illustrator: Ken Sugimori
 ---
 set: legendary-collection
 number: '65'
+order: 64
 name: Tauros
 rarity: uncommon
 holographic: false
@@ -2756,6 +2821,7 @@ illustrator: Kagemaru Himeno
 ---
 set: legendary-collection
 number: '66'
+order: 65
 name: Tentacruel
 rarity: uncommon
 holographic: false
@@ -2796,6 +2862,7 @@ illustrator: Kagemaru Himeno
 ---
 set: legendary-collection
 number: '67'
+order: 66
 name: Abra
 rarity: common
 holographic: false
@@ -2830,6 +2897,7 @@ illustrator: Mitsuhiro Arita
 ---
 set: legendary-collection
 number: '68'
+order: 67
 name: Bulbasaur
 rarity: common
 holographic: false
@@ -2866,6 +2934,7 @@ illustrator: Mitsuhiro Arita
 ---
 set: legendary-collection
 number: '69'
+order: 68
 name: Caterpie
 rarity: common
 holographic: false
@@ -2901,6 +2970,7 @@ illustrator: Ken Sugimori
 ---
 set: legendary-collection
 number: '70'
+order: 69
 name: Charmander
 rarity: common
 holographic: false
@@ -2941,6 +3011,7 @@ illustrator: Mitsuhiro Arita
 ---
 set: legendary-collection
 number: '71'
+order: 70
 name: Doduo
 rarity: common
 holographic: false
@@ -2977,6 +3048,7 @@ illustrator: Mitsuhiro Arita
 ---
 set: legendary-collection
 number: '72'
+order: 71
 name: Dratini
 rarity: common
 holographic: false
@@ -3007,6 +3079,7 @@ illustrator: Ken Sugimori
 ---
 set: legendary-collection
 number: '73'
+order: 72
 name: Drowzee
 rarity: common
 holographic: false
@@ -3046,6 +3119,7 @@ illustrator: Ken Sugimori
 ---
 set: legendary-collection
 number: '74'
+order: 73
 name: Eevee
 rarity: common
 holographic: false
@@ -3090,6 +3164,7 @@ illustrator: Kagemaru Himeno
 ---
 set: legendary-collection
 number: '75'
+order: 74
 name: Exeggcute
 rarity: common
 holographic: false
@@ -3131,6 +3206,7 @@ illustrator: Mitsuhiro Arita
 ---
 set: legendary-collection
 number: '76'
+order: 75
 name: Gastly
 rarity: common
 holographic: false
@@ -3168,6 +3244,7 @@ illustrator: Mitsuhiro Arita
 ---
 set: legendary-collection
 number: '77'
+order: 76
 name: Geodude
 rarity: common
 holographic: false
@@ -3204,6 +3281,7 @@ illustrator: Kagemaru Himeno
 ---
 set: legendary-collection
 number: '78'
+order: 77
 name: Grimer
 rarity: common
 holographic: false
@@ -3245,6 +3323,7 @@ illustrator: Mitsuhiro Arita
 ---
 set: legendary-collection
 number: '79'
+order: 78
 name: Machop
 rarity: common
 holographic: false
@@ -3281,6 +3360,7 @@ illustrator: Ken Sugimori
 ---
 set: legendary-collection
 number: '80'
+order: 79
 name: Magnemite
 rarity: common
 holographic: false
@@ -3324,6 +3404,7 @@ illustrator: Keiji Kinebuchi
 ---
 set: legendary-collection
 number: '81'
+order: 80
 name: Mankey
 rarity: common
 holographic: false
@@ -3364,6 +3445,7 @@ illustrator: Sumiyoshi Kizuki
 ---
 set: legendary-collection
 number: '82'
+order: 81
 name: Nidoran ♀
 rarity: common
 holographic: false
@@ -3407,6 +3489,7 @@ illustrator: Ken Sugimori
 ---
 set: legendary-collection
 number: '83'
+order: 82
 name: Nidoran ♂
 rarity: common
 holographic: false
@@ -3442,6 +3525,7 @@ illustrator: Ken Sugimori
 ---
 set: legendary-collection
 number: '84'
+order: 83
 name: Onix
 rarity: common
 holographic: false
@@ -3482,6 +3566,7 @@ illustrator: Ken Sugimori
 ---
 set: legendary-collection
 number: '85'
+order: 84
 name: Pidgey
 rarity: common
 holographic: false
@@ -3520,6 +3605,7 @@ illustrator: Ken Sugimori
 ---
 set: legendary-collection
 number: '86'
+order: 85
 name: Pikachu
 rarity: common
 holographic: false
@@ -3557,6 +3643,7 @@ illustrator: Ken Sugimori
 ---
 set: legendary-collection
 number: '87'
+order: 86
 name: Ponyta
 rarity: common
 holographic: false
@@ -3594,6 +3681,7 @@ illustrator: Ken Sugimori
 ---
 set: legendary-collection
 number: '88'
+order: 87
 name: Psyduck
 rarity: common
 holographic: false
@@ -3636,6 +3724,7 @@ illustrator: Kagemaru Himeno
 ---
 set: legendary-collection
 number: '89'
+order: 88
 name: Rattata
 rarity: common
 holographic: false
@@ -3669,6 +3758,7 @@ illustrator: Mitsuhiro Arita
 ---
 set: legendary-collection
 number: '90'
+order: 89
 name: Rhyhorn
 rarity: common
 holographic: false
@@ -3710,6 +3800,7 @@ illustrator: Mitsuhiro Arita
 ---
 set: legendary-collection
 number: '91'
+order: 90
 name: Sandshrew
 rarity: common
 holographic: false
@@ -3748,6 +3839,7 @@ illustrator: Ken Sugimori
 ---
 set: legendary-collection
 number: '92'
+order: 91
 name: Seel
 rarity: common
 holographic: false
@@ -3781,6 +3873,7 @@ illustrator: Ken Sugimori
 ---
 set: legendary-collection
 number: '93'
+order: 92
 name: Slowpoke
 rarity: common
 holographic: false
@@ -3824,6 +3917,7 @@ illustrator: Miki Tanaka
 ---
 set: legendary-collection
 number: '94'
+order: 93
 name: Spearow
 rarity: common
 holographic: false
@@ -3863,6 +3957,7 @@ illustrator: Mitsuhiro Arita
 ---
 set: legendary-collection
 number: '95'
+order: 94
 name: Squirtle
 rarity: common
 holographic: false
@@ -3905,6 +4000,7 @@ illustrator: Mitsuhiro Arita
 ---
 set: legendary-collection
 number: '96'
+order: 95
 name: Tentacool
 rarity: common
 holographic: false
@@ -3944,6 +4040,7 @@ illustrator: Kagemaru Himeno
 ---
 set: legendary-collection
 number: '97'
+order: 96
 name: Voltorb
 rarity: common
 holographic: false
@@ -3977,6 +4074,7 @@ illustrator: Keiji Kinebuchi
 ---
 set: legendary-collection
 number: '98'
+order: 97
 name: Vulpix
 rarity: common
 holographic: false
@@ -4012,6 +4110,7 @@ illustrator: Ken Sugimori
 ---
 set: legendary-collection
 number: '99'
+order: 98
 name: Weedle
 rarity: common
 holographic: false
@@ -4047,6 +4146,7 @@ illustrator: Mitsuhiro Arita
 ---
 set: legendary-collection
 number: '100'
+order: 99
 name: Full Heal Energy
 rarity: uncommon
 holographic: false
@@ -4066,6 +4166,7 @@ illustrator: Keiji Kinebuchi
 ---
 set: legendary-collection
 number: '101'
+order: 100
 name: Potion Energy
 rarity: uncommon
 holographic: false
@@ -4085,6 +4186,7 @@ illustrator: Keiji Kinebuchi
 ---
 set: legendary-collection
 number: '102'
+order: 101
 name: Pokémon Breeder
 rarity: rare
 holographic: false
@@ -4101,6 +4203,7 @@ illustrator: Ken Sugimori
 ---
 set: legendary-collection
 number: '103'
+order: 102
 name: Pokémon Trader
 rarity: rare
 holographic: false
@@ -4117,6 +4220,7 @@ illustrator: Ken Sugimori
 ---
 set: legendary-collection
 number: '104'
+order: 103
 name: Scoop Up
 rarity: rare
 holographic: false
@@ -4133,6 +4237,7 @@ illustrator: Keiji Kinebuchi
 ---
 set: legendary-collection
 number: '105'
+order: 104
 name: The Boss's Way
 rarity: uncommon
 holographic: false
@@ -4149,6 +4254,7 @@ illustrator: Ken Sugimori
 ---
 set: legendary-collection
 number: '106'
+order: 105
 name: Challenge!
 rarity: uncommon
 holographic: false
@@ -4167,6 +4273,7 @@ illustrator: Kagemaru Himeno
 ---
 set: legendary-collection
 number: '107'
+order: 106
 name: Energy Retrieval
 rarity: uncommon
 holographic: false
@@ -4182,6 +4289,7 @@ illustrator: Keiji Kinebuchi
 ---
 set: legendary-collection
 number: '108'
+order: 107
 name: Bill
 rarity: common
 holographic: false
@@ -4196,6 +4304,7 @@ illustrator: Ken Sugimori
 ---
 set: legendary-collection
 number: '109'
+order: 108
 name: Mysterious Fossil
 rarity: common
 holographic: false
@@ -4217,6 +4326,7 @@ illustrator: Keiji Kinebuchi
 ---
 set: legendary-collection
 number: '110'
+order: 109
 name: Potion
 rarity: common
 holographic: false
@@ -4232,6 +4342,7 @@ illustrator: Keiji Kinebuchi
 ---
 set: legendary-collection
 number: S1
+order: 110
 name: Charizard
 rarity: promo
 holographic: false
@@ -4278,6 +4389,7 @@ illustrator: Mitsuhiro Arita
 ---
 set: legendary-collection
 number: S2
+order: 111
 name: Dark Blastoise
 rarity: promo
 holographic: false
@@ -4326,6 +4438,7 @@ illustrator: Mitsuhiro Arita
 ---
 set: legendary-collection
 number: S3
+order: 112
 name: Dark Raichu
 rarity: promo
 holographic: false
@@ -4367,6 +4480,7 @@ illustrator: Mitsuhiro Arita
 ---
 set: legendary-collection
 number: S4
+order: 113
 name: Mewtwo
 rarity: promo
 holographic: false

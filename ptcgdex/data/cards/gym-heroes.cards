@@ -1,6 +1,7 @@
 ---
 set: gym-heroes
 number: '1'
+order: 0
 name: Blaine's Moltres
 rarity: rare
 holographic: true
@@ -32,6 +33,7 @@ illustrator: Ken Sugimori
 ---
 set: gym-heroes
 number: '2'
+order: 1
 name: Brock's Rhydon
 rarity: rare
 holographic: true
@@ -75,6 +77,7 @@ illustrator: Ken Sugimori
 ---
 set: gym-heroes
 number: '3'
+order: 2
 name: Erika's Clefable
 rarity: rare
 holographic: true
@@ -114,6 +117,7 @@ illustrator: Atsuko Nishida
 ---
 set: gym-heroes
 number: '4'
+order: 3
 name: Erika's Dragonair
 rarity: rare
 holographic: true
@@ -155,6 +159,7 @@ illustrator: Atsuko Nishida
 ---
 set: gym-heroes
 number: '5'
+order: 4
 name: Erika's Vileplume
 rarity: rare
 holographic: true
@@ -202,6 +207,7 @@ illustrator: Ken Sugimori
 ---
 set: gym-heroes
 number: '6'
+order: 5
 name: Lt. Surge's Electabuzz
 rarity: rare
 holographic: true
@@ -244,6 +250,7 @@ illustrator: Ken Sugimori
 ---
 set: gym-heroes
 number: '7'
+order: 6
 name: Lt. Surge's Fearow
 rarity: rare
 holographic: true
@@ -286,6 +293,7 @@ illustrator: Ken Sugimori
 ---
 set: gym-heroes
 number: '8'
+order: 7
 name: Lt. Surge's Magneton
 rarity: rare
 holographic: true
@@ -329,6 +337,7 @@ illustrator: Ken Sugimori
 ---
 set: gym-heroes
 number: '9'
+order: 8
 name: Misty's Seadra
 rarity: rare
 holographic: true
@@ -369,6 +378,7 @@ illustrator: Atsuko Nishida
 ---
 set: gym-heroes
 number: '10'
+order: 9
 name: Misty's Tentacruel
 rarity: rare
 holographic: true
@@ -411,6 +421,7 @@ illustrator: Ken Sugimori
 ---
 set: gym-heroes
 number: '11'
+order: 10
 name: Rocket's Hitmonchan
 rarity: rare
 holographic: true
@@ -452,6 +463,7 @@ illustrator: Ken Sugimori
 ---
 set: gym-heroes
 number: '12'
+order: 11
 name: Rocket's Moltres
 rarity: rare
 holographic: true
@@ -492,6 +504,7 @@ illustrator: Ken Sugimori
 ---
 set: gym-heroes
 number: '13'
+order: 12
 name: Rocket's Scyther
 rarity: rare
 holographic: true
@@ -533,6 +546,7 @@ illustrator: Ken Sugimori
 ---
 set: gym-heroes
 number: '14'
+order: 13
 name: Sabrina's Gengar
 rarity: rare
 holographic: true
@@ -573,6 +587,7 @@ illustrator: Ken Sugimori
 ---
 set: gym-heroes
 number: '15'
+order: 14
 name: Brock
 rarity: rare
 holographic: true
@@ -588,6 +603,7 @@ illustrator: Ken Sugimori
 ---
 set: gym-heroes
 number: '16'
+order: 15
 name: Erika
 rarity: rare
 holographic: true
@@ -603,6 +619,7 @@ illustrator: Ken Sugimori
 ---
 set: gym-heroes
 number: '17'
+order: 16
 name: Lt. Surge
 rarity: rare
 holographic: true
@@ -621,6 +638,7 @@ illustrator: Ken Sugimori
 ---
 set: gym-heroes
 number: '18'
+order: 17
 name: Misty
 rarity: rare
 holographic: true
@@ -639,6 +657,7 @@ illustrator: Ken Sugimori
 ---
 set: gym-heroes
 number: '19'
+order: 18
 name: The Rocket's Trap
 rarity: rare
 holographic: true
@@ -655,6 +674,7 @@ illustrator: Ken Sugimori
 ---
 set: gym-heroes
 number: '20'
+order: 19
 name: Brock's Golem
 rarity: rare
 holographic: false
@@ -695,6 +715,7 @@ illustrator: Ken Sugimori
 ---
 set: gym-heroes
 number: '21'
+order: 20
 name: Brock's Onix
 rarity: rare
 holographic: false
@@ -736,6 +757,7 @@ illustrator: Benimaru Itoh
 ---
 set: gym-heroes
 number: '22'
+order: 21
 name: Brock's Rhyhorn
 rarity: rare
 holographic: false
@@ -778,6 +800,7 @@ illustrator: Ken Sugimori
 ---
 set: gym-heroes
 number: '23'
+order: 22
 name: Brock's Sandslash
 rarity: rare
 holographic: false
@@ -822,6 +845,7 @@ illustrator: Ken Sugimori
 ---
 set: gym-heroes
 number: '24'
+order: 23
 name: Brock's Zubat
 rarity: rare
 holographic: false
@@ -859,6 +883,7 @@ illustrator: Ken Sugimori
 ---
 set: gym-heroes
 number: '25'
+order: 24
 name: Erika's Clefairy
 rarity: rare
 holographic: false
@@ -901,6 +926,7 @@ illustrator: Ken Sugimori
 ---
 set: gym-heroes
 number: '26'
+order: 25
 name: Erika's Victreebel
 rarity: rare
 holographic: false
@@ -941,6 +967,7 @@ illustrator: Ken Sugimori
 ---
 set: gym-heroes
 number: '27'
+order: 26
 name: Lt. Surge's Electabuzz
 rarity: rare
 holographic: false
@@ -982,6 +1009,7 @@ illustrator: Ken Sugimori
 ---
 set: gym-heroes
 number: '28'
+order: 27
 name: Lt. Surge's Raichu
 rarity: rare
 holographic: false
@@ -1021,6 +1049,7 @@ illustrator: Ken Sugimori
 ---
 set: gym-heroes
 number: '29'
+order: 28
 name: Misty's Cloyster
 rarity: rare
 holographic: false
@@ -1063,6 +1092,7 @@ illustrator: Ken Sugimori
 ---
 set: gym-heroes
 number: '30'
+order: 29
 name: Misty's Goldeen
 rarity: rare
 holographic: false
@@ -1095,6 +1125,7 @@ illustrator: Ken Sugimori
 ---
 set: gym-heroes
 number: '31'
+order: 30
 name: Misty's Poliwrath
 rarity: rare
 holographic: false
@@ -1130,6 +1161,7 @@ illustrator: Ken Sugimori
 ---
 set: gym-heroes
 number: '32'
+order: 31
 name: Misty's Tentacool
 rarity: rare
 holographic: false
@@ -1169,6 +1201,7 @@ illustrator: Ken Sugimori
 ---
 set: gym-heroes
 number: '33'
+order: 32
 name: Rocket's Snorlax
 rarity: rare
 holographic: false
@@ -1209,6 +1242,7 @@ illustrator: Shin-ichi Yoshida
 ---
 set: gym-heroes
 number: '34'
+order: 33
 name: Sabrina's Venomoth
 rarity: rare
 holographic: false
@@ -1252,6 +1286,7 @@ illustrator: Ken Sugimori
 ---
 set: gym-heroes
 number: '35'
+order: 34
 name: Blaine's Growlithe
 rarity: uncommon
 holographic: false
@@ -1293,6 +1328,7 @@ illustrator: Ken Sugimori
 ---
 set: gym-heroes
 number: '36'
+order: 35
 name: Blaine's Kangaskhan
 rarity: uncommon
 holographic: false
@@ -1334,6 +1370,7 @@ illustrator: Ken Sugimori
 ---
 set: gym-heroes
 number: '37'
+order: 36
 name: Blaine's Magmar
 rarity: uncommon
 holographic: false
@@ -1377,6 +1414,7 @@ illustrator: Ken Sugimori
 ---
 set: gym-heroes
 number: '38'
+order: 37
 name: Brock's Geodude
 rarity: uncommon
 holographic: false
@@ -1416,6 +1454,7 @@ illustrator: Atsuko Nishida
 ---
 set: gym-heroes
 number: '39'
+order: 38
 name: Brock's Golbat
 rarity: uncommon
 holographic: false
@@ -1455,6 +1494,7 @@ illustrator: Ken Sugimori
 ---
 set: gym-heroes
 number: '40'
+order: 39
 name: Brock's Graveler
 rarity: uncommon
 holographic: false
@@ -1490,6 +1530,7 @@ illustrator: Ken Sugimori
 ---
 set: gym-heroes
 number: '41'
+order: 40
 name: Brock's Lickitung
 rarity: uncommon
 holographic: false
@@ -1529,6 +1570,7 @@ illustrator: Ken Sugimori
 ---
 set: gym-heroes
 number: '42'
+order: 41
 name: Erika's Dratini
 rarity: uncommon
 holographic: false
@@ -1568,6 +1610,7 @@ illustrator: Ken Sugimori
 ---
 set: gym-heroes
 number: '43'
+order: 42
 name: Erika's Exeggcute
 rarity: uncommon
 holographic: false
@@ -1609,6 +1652,7 @@ illustrator: Atsuko Nishida
 ---
 set: gym-heroes
 number: '44'
+order: 43
 name: Erika's Exeggutor
 rarity: uncommon
 holographic: false
@@ -1649,6 +1693,7 @@ illustrator: Ken Sugimori
 ---
 set: gym-heroes
 number: '45'
+order: 44
 name: Erika's Gloom
 rarity: uncommon
 holographic: false
@@ -1691,6 +1736,7 @@ illustrator: Ken Sugimori
 ---
 set: gym-heroes
 number: '46'
+order: 45
 name: Erika's Gloom
 rarity: uncommon
 holographic: false
@@ -1733,6 +1779,7 @@ illustrator: Ken Sugimori
 ---
 set: gym-heroes
 number: '47'
+order: 46
 name: Erika's Oddish
 rarity: uncommon
 holographic: false
@@ -1772,6 +1819,7 @@ illustrator: Atsuko Nishida
 ---
 set: gym-heroes
 number: '48'
+order: 47
 name: Erika's Weepinbell
 rarity: uncommon
 holographic: false
@@ -1812,6 +1860,7 @@ illustrator: Atsuko Nishida
 ---
 set: gym-heroes
 number: '49'
+order: 48
 name: Erika's Weepinbell
 rarity: uncommon
 holographic: false
@@ -1849,6 +1898,7 @@ illustrator: Ken Sugimori
 ---
 set: gym-heroes
 number: '50'
+order: 49
 name: Lt. Surge's Magnemite
 rarity: uncommon
 holographic: false
@@ -1890,6 +1940,7 @@ illustrator: Atsuko Nishida
 ---
 set: gym-heroes
 number: '51'
+order: 50
 name: Lt. Surge's Raticate
 rarity: uncommon
 holographic: false
@@ -1926,6 +1977,7 @@ illustrator: Ken Sugimori
 ---
 set: gym-heroes
 number: '52'
+order: 51
 name: Lt. Surge's Spearow
 rarity: uncommon
 holographic: false
@@ -1957,6 +2009,7 @@ illustrator: Ken Sugimori
 ---
 set: gym-heroes
 number: '53'
+order: 52
 name: Misty's Poliwhirl
 rarity: uncommon
 holographic: false
@@ -2001,6 +2054,7 @@ illustrator: Ken Sugimori
 ---
 set: gym-heroes
 number: '54'
+order: 53
 name: Misty's Psyduck
 rarity: uncommon
 holographic: false
@@ -2040,6 +2094,7 @@ illustrator: Atsuko Nishida
 ---
 set: gym-heroes
 number: '55'
+order: 54
 name: Misty's Seaking
 rarity: uncommon
 holographic: false
@@ -2081,6 +2136,7 @@ illustrator: Ken Sugimori
 ---
 set: gym-heroes
 number: '56'
+order: 55
 name: Misty's Starmie
 rarity: uncommon
 holographic: false
@@ -2123,6 +2179,7 @@ illustrator: Ken Sugimori
 ---
 set: gym-heroes
 number: '57'
+order: 56
 name: Misty's Tentacool
 rarity: uncommon
 holographic: false
@@ -2157,6 +2214,7 @@ illustrator: Ken Sugimori
 ---
 set: gym-heroes
 number: '58'
+order: 57
 name: Sabrina's Haunter
 rarity: uncommon
 holographic: false
@@ -2189,6 +2247,7 @@ illustrator: Atsuko Nishida
 ---
 set: gym-heroes
 number: '59'
+order: 58
 name: Sabrina's Jynx
 rarity: uncommon
 holographic: false
@@ -2228,6 +2287,7 @@ illustrator: Atsuko Nishida
 ---
 set: gym-heroes
 number: '60'
+order: 59
 name: Sabrina's Slowbro
 rarity: uncommon
 holographic: false
@@ -2270,6 +2330,7 @@ illustrator: Ken Sugimori
 ---
 set: gym-heroes
 number: '61'
+order: 60
 name: Blaine's Charmander
 rarity: common
 holographic: false
@@ -2309,6 +2370,7 @@ illustrator: Ken Sugimori
 ---
 set: gym-heroes
 number: '62'
+order: 61
 name: Blaine's Growlithe
 rarity: common
 holographic: false
@@ -2343,6 +2405,7 @@ illustrator: Atsuko Nishida
 ---
 set: gym-heroes
 number: '63'
+order: 62
 name: Blaine's Ponyta
 rarity: common
 holographic: false
@@ -2377,6 +2440,7 @@ illustrator: Ken Sugimori
 ---
 set: gym-heroes
 number: '64'
+order: 63
 name: Blaine's Tauros
 rarity: common
 holographic: false
@@ -2420,6 +2484,7 @@ illustrator: Ken Sugimori
 ---
 set: gym-heroes
 number: '65'
+order: 64
 name: Blaine's Vulpix
 rarity: common
 holographic: false
@@ -2459,6 +2524,7 @@ illustrator: Ken Sugimori
 ---
 set: gym-heroes
 number: '66'
+order: 65
 name: Brock's Geodude
 rarity: common
 holographic: false
@@ -2501,6 +2567,7 @@ illustrator: Ken Sugimori
 ---
 set: gym-heroes
 number: '67'
+order: 66
 name: Brock's Mankey
 rarity: common
 holographic: false
@@ -2537,6 +2604,7 @@ illustrator: Atsuko Nishida
 ---
 set: gym-heroes
 number: '68'
+order: 67
 name: Brock's Mankey
 rarity: common
 holographic: false
@@ -2575,6 +2643,7 @@ illustrator: Ken Sugimori
 ---
 set: gym-heroes
 number: '69'
+order: 68
 name: Brock's Onix
 rarity: common
 holographic: false
@@ -2611,6 +2680,7 @@ illustrator: Ken Sugimori
 ---
 set: gym-heroes
 number: '70'
+order: 69
 name: Brock's Rhyhorn
 rarity: common
 holographic: false
@@ -2646,6 +2716,7 @@ illustrator: Ken Sugimori
 ---
 set: gym-heroes
 number: '71'
+order: 70
 name: Brock's Sandshrew
 rarity: common
 holographic: false
@@ -2685,6 +2756,7 @@ illustrator: Ken Sugimori
 ---
 set: gym-heroes
 number: '72'
+order: 71
 name: Brock's Sandshrew
 rarity: common
 holographic: false
@@ -2720,6 +2792,7 @@ illustrator: Ken Sugimori
 ---
 set: gym-heroes
 number: '73'
+order: 72
 name: Brock's Vulpix
 rarity: common
 holographic: false
@@ -2758,6 +2831,7 @@ illustrator: Ken Sugimori
 ---
 set: gym-heroes
 number: '74'
+order: 73
 name: Brock's Zubat
 rarity: common
 holographic: false
@@ -2795,6 +2869,7 @@ illustrator: Atsuko Nishida
 ---
 set: gym-heroes
 number: '75'
+order: 74
 name: Erika's Bellsprout
 rarity: common
 holographic: false
@@ -2832,6 +2907,7 @@ illustrator: Atsuko Nishida
 ---
 set: gym-heroes
 number: '76'
+order: 75
 name: Erika's Bellsprout
 rarity: common
 holographic: false
@@ -2865,6 +2941,7 @@ illustrator: Ken Sugimori
 ---
 set: gym-heroes
 number: '77'
+order: 76
 name: Erika's Exeggcute
 rarity: common
 holographic: false
@@ -2907,6 +2984,7 @@ illustrator: Ken Sugimori
 ---
 set: gym-heroes
 number: '78'
+order: 77
 name: Erika's Oddish
 rarity: common
 holographic: false
@@ -2948,6 +3026,7 @@ illustrator: Ken Sugimori
 ---
 set: gym-heroes
 number: '79'
+order: 78
 name: Erika's Tangela
 rarity: common
 holographic: false
@@ -2986,6 +3065,7 @@ illustrator: Ken Sugimori
 ---
 set: gym-heroes
 number: '80'
+order: 79
 name: Lt. Surge's Magnemite
 rarity: common
 holographic: false
@@ -3023,6 +3103,7 @@ illustrator: Ken Sugimori
 ---
 set: gym-heroes
 number: '81'
+order: 80
 name: Lt. Surge's Pikachu
 rarity: common
 holographic: false
@@ -3062,6 +3143,7 @@ illustrator: Ken Sugimori
 ---
 set: gym-heroes
 number: '82'
+order: 81
 name: Lt. Surge's Rattata
 rarity: common
 holographic: false
@@ -3100,6 +3182,7 @@ illustrator: Ken Sugimori
 ---
 set: gym-heroes
 number: '83'
+order: 82
 name: Lt. Surge's Spearow
 rarity: common
 holographic: false
@@ -3141,6 +3224,7 @@ illustrator: Atsuko Nishida
 ---
 set: gym-heroes
 number: '84'
+order: 83
 name: Lt. Surge's Voltorb
 rarity: common
 holographic: false
@@ -3182,6 +3266,7 @@ illustrator: Ken Sugimori
 ---
 set: gym-heroes
 number: '85'
+order: 84
 name: Misty's Goldeen
 rarity: common
 holographic: false
@@ -3221,6 +3306,7 @@ illustrator: Atsuko Nishida
 ---
 set: gym-heroes
 number: '86'
+order: 85
 name: Misty's Horsea
 rarity: common
 holographic: false
@@ -3259,6 +3345,7 @@ illustrator: Ken Sugimori
 ---
 set: gym-heroes
 number: '87'
+order: 86
 name: Misty's Poliwag
 rarity: common
 holographic: false
@@ -3299,6 +3386,7 @@ illustrator: Ken Sugimori
 ---
 set: gym-heroes
 number: '88'
+order: 87
 name: Misty's Seel
 rarity: common
 holographic: false
@@ -3330,6 +3418,7 @@ illustrator: Atsuko Nishida
 ---
 set: gym-heroes
 number: '89'
+order: 88
 name: Misty's Shellder
 rarity: common
 holographic: false
@@ -3368,6 +3457,7 @@ illustrator: Ken Sugimori
 ---
 set: gym-heroes
 number: '90'
+order: 89
 name: Misty's Staryu
 rarity: common
 holographic: false
@@ -3402,6 +3492,7 @@ illustrator: Ken Sugimori
 ---
 set: gym-heroes
 number: '91'
+order: 90
 name: Sabrina's Abra
 rarity: common
 holographic: false
@@ -3435,6 +3526,7 @@ illustrator: Ken Sugimori
 ---
 set: gym-heroes
 number: '92'
+order: 91
 name: Sabrina's Drowzee
 rarity: common
 holographic: false
@@ -3472,6 +3564,7 @@ illustrator: Atsuko Nishida
 ---
 set: gym-heroes
 number: '93'
+order: 92
 name: Sabrina's Gastly
 rarity: common
 holographic: false
@@ -3503,6 +3596,7 @@ illustrator: Ken Sugimori
 ---
 set: gym-heroes
 number: '94'
+order: 93
 name: Sabrina's Mr. Mime
 rarity: common
 holographic: false
@@ -3542,6 +3636,7 @@ illustrator: Ken Sugimori
 ---
 set: gym-heroes
 number: '95'
+order: 94
 name: Sabrina's Slowpoke
 rarity: common
 holographic: false
@@ -3575,6 +3670,7 @@ illustrator: Ken Sugimori
 ---
 set: gym-heroes
 number: '96'
+order: 95
 name: Sabrina's Venonat
 rarity: common
 holographic: false
@@ -3615,6 +3711,7 @@ illustrator: Ken Sugimori
 ---
 set: gym-heroes
 number: '97'
+order: 96
 name: 'Blaine''s Quiz #1'
 rarity: rare
 holographic: false
@@ -3635,6 +3732,7 @@ illustrator: Ken Sugimori
 ---
 set: gym-heroes
 number: '98'
+order: 97
 name: Brock
 rarity: rare
 holographic: false
@@ -3650,6 +3748,7 @@ illustrator: Ken Sugimori
 ---
 set: gym-heroes
 number: '99'
+order: 98
 name: Charity
 rarity: rare
 holographic: false
@@ -3668,6 +3767,7 @@ illustrator: Ken Sugimori
 ---
 set: gym-heroes
 number: '100'
+order: 99
 name: Erika
 rarity: rare
 holographic: false
@@ -3683,6 +3783,7 @@ illustrator: Ken Sugimori
 ---
 set: gym-heroes
 number: '101'
+order: 100
 name: Lt. Surge
 rarity: rare
 holographic: false
@@ -3701,6 +3802,7 @@ illustrator: Ken Sugimori
 ---
 set: gym-heroes
 number: '102'
+order: 101
 name: Misty
 rarity: rare
 holographic: false
@@ -3719,6 +3821,7 @@ illustrator: Ken Sugimori
 ---
 set: gym-heroes
 number: '103'
+order: 102
 name: No Removal Gym
 rarity: rare
 holographic: false
@@ -3740,6 +3843,7 @@ illustrator: Keiji Kinebuchi
 ---
 set: gym-heroes
 number: '104'
+order: 103
 name: The Rocket's Training Gym
 rarity: rare
 holographic: false
@@ -3760,6 +3864,7 @@ illustrator: Ken Sugimori
 ---
 set: gym-heroes
 number: '105'
+order: 104
 name: Blaine's Last Resort
 rarity: uncommon
 holographic: false
@@ -3776,6 +3881,7 @@ illustrator: Ken Sugimori
 ---
 set: gym-heroes
 number: '106'
+order: 105
 name: Brock's Training Method
 rarity: uncommon
 holographic: false
@@ -3792,6 +3898,7 @@ illustrator: Ken Sugimori
 ---
 set: gym-heroes
 number: '107'
+order: 106
 name: Celadon City Gym
 rarity: uncommon
 holographic: false
@@ -3815,6 +3922,7 @@ illustrator: Keiji Kinebuchi
 ---
 set: gym-heroes
 number: '108'
+order: 107
 name: Cerulean City Gym
 rarity: uncommon
 holographic: false
@@ -3836,6 +3944,7 @@ illustrator: Keiji Kinebuchi
 ---
 set: gym-heroes
 number: '109'
+order: 108
 name: Erika's Maids
 rarity: uncommon
 holographic: false
@@ -3853,6 +3962,7 @@ illustrator: Ken Sugimori
 ---
 set: gym-heroes
 number: '110'
+order: 109
 name: Erika's Perfume
 rarity: uncommon
 holographic: false
@@ -3869,6 +3979,7 @@ illustrator: Ken Sugimori
 ---
 set: gym-heroes
 number: '111'
+order: 110
 name: Good Manners
 rarity: uncommon
 holographic: false
@@ -3886,6 +3997,7 @@ illustrator: Ken Sugimori
 ---
 set: gym-heroes
 number: '112'
+order: 111
 name: Lt. Surge's Treaty
 rarity: uncommon
 holographic: false
@@ -3902,6 +4014,7 @@ illustrator: Ken Sugimori
 ---
 set: gym-heroes
 number: '113'
+order: 112
 name: Minion of Team Rocket
 rarity: uncommon
 holographic: false
@@ -3919,6 +4032,7 @@ illustrator: Ken Sugimori
 ---
 set: gym-heroes
 number: '114'
+order: 113
 name: Misty's Wrath
 rarity: uncommon
 holographic: false
@@ -3934,6 +4048,7 @@ illustrator: Ken Sugimori
 ---
 set: gym-heroes
 number: '115'
+order: 114
 name: Pewter City Gym
 rarity: uncommon
 holographic: false
@@ -3955,6 +4070,7 @@ illustrator: Keiji Kinebuchi
 ---
 set: gym-heroes
 number: '116'
+order: 115
 name: Recall
 rarity: uncommon
 holographic: false
@@ -3971,6 +4087,7 @@ illustrator: Sumiyoshi Kizuki
 ---
 set: gym-heroes
 number: '117'
+order: 116
 name: Sabrina's ESP
 rarity: uncommon
 holographic: false
@@ -3989,6 +4106,7 @@ illustrator: Ken Sugimori
 ---
 set: gym-heroes
 number: '118'
+order: 117
 name: Secret Mission
 rarity: uncommon
 holographic: false
@@ -4005,6 +4123,7 @@ illustrator: Ken Sugimori
 ---
 set: gym-heroes
 number: '119'
+order: 118
 name: Tickling Machine
 rarity: uncommon
 holographic: false
@@ -4023,6 +4142,7 @@ illustrator: Sumiyoshi Kizuki
 ---
 set: gym-heroes
 number: '120'
+order: 119
 name: Vermilion City Gym
 rarity: uncommon
 holographic: false
@@ -4049,6 +4169,7 @@ illustrator: Keiji Kinebuchi
 ---
 set: gym-heroes
 number: '121'
+order: 120
 name: Blaine's Gamble
 rarity: common
 holographic: false
@@ -4064,6 +4185,7 @@ illustrator: Ken Sugimori
 ---
 set: gym-heroes
 number: '122'
+order: 121
 name: Energy Flow
 rarity: common
 holographic: false
@@ -4079,6 +4201,7 @@ illustrator: Keiji Kinebuchi
 ---
 set: gym-heroes
 number: '123'
+order: 122
 name: Misty's Duel
 rarity: common
 holographic: false
@@ -4096,6 +4219,7 @@ illustrator: Ken Sugimori
 ---
 set: gym-heroes
 number: '124'
+order: 123
 name: Narrow Gym
 rarity: common
 holographic: false
@@ -4121,6 +4245,7 @@ illustrator: Keiji Kinebuchi
 ---
 set: gym-heroes
 number: '125'
+order: 124
 name: Sabrina's Gaze
 rarity: common
 holographic: false
@@ -4136,6 +4261,7 @@ illustrator: Ken Sugimori
 ---
 set: gym-heroes
 number: '126'
+order: 125
 name: Trash Exchange
 rarity: common
 holographic: false
@@ -4152,6 +4278,7 @@ illustrator: Keiji Kinebuchi
 ---
 set: gym-heroes
 number: '127'
+order: 126
 name: Fighting Energy
 rarity: common
 holographic: false
@@ -4168,6 +4295,7 @@ illustrator: Keiji Kinebuchi
 ---
 set: gym-heroes
 number: '128'
+order: 127
 name: Fire Energy
 rarity: common
 holographic: false
@@ -4184,6 +4312,7 @@ illustrator: Keiji Kinebuchi
 ---
 set: gym-heroes
 number: '129'
+order: 128
 name: Grass Energy
 rarity: common
 holographic: false
@@ -4200,6 +4329,7 @@ illustrator: Keiji Kinebuchi
 ---
 set: gym-heroes
 number: '130'
+order: 129
 name: Lightning Energy
 rarity: common
 holographic: false
@@ -4216,6 +4346,7 @@ illustrator: Keiji Kinebuchi
 ---
 set: gym-heroes
 number: '131'
+order: 130
 name: Psychic Energy
 rarity: common
 holographic: false
@@ -4232,6 +4363,7 @@ illustrator: Keiji Kinebuchi
 ---
 set: gym-heroes
 number: '132'
+order: 131
 name: Water Energy
 rarity: common
 holographic: false

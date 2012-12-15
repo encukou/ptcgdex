@@ -151,6 +151,8 @@ def main(infile, destdir=None):
         tcg_set = data.get('set')
         simple_out('set', 'set')
         simple_out('number', 'num')
+        set_list = sets.setdefault(tcg_set or 'unknown', [])
+        result['order'] = len(set_list)
         simple_out('name', 'card-name')
 
         rarity = pop('rarity')
@@ -210,7 +212,7 @@ def main(infile, destdir=None):
                     ('pokemon-power', 'pkmn-power-txt', [('name', 'pkmn-power-1')]),
                     ('pokepower', 'power-1-txt', [('name', 'power-1')]),
                     ('pokepower', 'power-2-txt', [('name', 'power-2')]),
-                    ('pokébody', 'body-1-txt', [('name', 'body-1')]),
+                    ('pokebody', 'body-1-txt', [('name', 'body-1')]),
                     ('item', 'poke-item-txt', [('name', 'poke-item')]),
                     ) + tuple([
                         ('attack', 'attack-{}-txt'.format(i),
@@ -290,7 +292,7 @@ def main(infile, destdir=None):
 
         print(dump(result), end='')
 
-        sets.setdefault(tcg_set or 'unknown', []).append(result)
+        set_list.append(result)
 
         if any(data.values()):
             print(yaml.dump(_orig_data))

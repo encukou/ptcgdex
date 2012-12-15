@@ -1,6 +1,7 @@
 ---
 set: jungle
 number: '1'
+order: 0
 name: Clefable
 rarity: rare
 holographic: true
@@ -46,6 +47,7 @@ illustrator: Mitsuhiro Arita
 ---
 set: jungle
 number: '2'
+order: 1
 name: Electrode
 rarity: rare
 holographic: true
@@ -87,6 +89,7 @@ illustrator: Mitsuhiro Arita
 ---
 set: jungle
 number: '3'
+order: 2
 name: Flareon
 rarity: rare
 holographic: true
@@ -130,6 +133,7 @@ illustrator: Kagemaru Himeno
 ---
 set: jungle
 number: '4'
+order: 3
 name: Jolteon
 rarity: rare
 holographic: true
@@ -173,6 +177,7 @@ illustrator: Kagemaru Himeno
 ---
 set: jungle
 number: '5'
+order: 4
 name: Kangaskhan
 rarity: rare
 holographic: true
@@ -214,6 +219,7 @@ illustrator: Mitsuhiro Arita
 ---
 set: jungle
 number: '6'
+order: 5
 name: Mr. Mime
 rarity: rare
 holographic: true
@@ -257,6 +263,7 @@ illustrator: Ken Sugimori
 ---
 set: jungle
 number: '7'
+order: 6
 name: Nidoqueen
 rarity: rare
 holographic: true
@@ -297,6 +304,7 @@ illustrator: Ken Sugimori
 ---
 set: jungle
 number: '8'
+order: 7
 name: Pidgeot
 rarity: rare
 holographic: true
@@ -338,6 +346,7 @@ illustrator: Kagemaru Himeno
 ---
 set: jungle
 number: '9'
+order: 8
 name: Pinsir
 rarity: rare
 holographic: true
@@ -376,6 +385,7 @@ illustrator: Kagemaru Himeno
 ---
 set: jungle
 number: '10'
+order: 9
 name: Scyther
 rarity: rare
 holographic: true
@@ -415,6 +425,7 @@ illustrator: Ken Sugimori
 ---
 set: jungle
 number: '11'
+order: 10
 name: Snorlax
 rarity: rare
 holographic: true
@@ -456,6 +467,7 @@ illustrator: Ken Sugimori
 ---
 set: jungle
 number: '12'
+order: 11
 name: Vaporeon
 rarity: rare
 holographic: true
@@ -500,6 +512,7 @@ illustrator: Kagemaru Himeno
 ---
 set: jungle
 number: '13'
+order: 12
 name: Venomoth
 rarity: rare
 holographic: true
@@ -543,6 +556,7 @@ illustrator: Ken Sugimori
 ---
 set: jungle
 number: '14'
+order: 13
 name: Victreebel
 rarity: rare
 holographic: true
@@ -585,6 +599,7 @@ illustrator: Ken Sugimori
 ---
 set: jungle
 number: '15'
+order: 14
 name: Vileplume
 rarity: rare
 holographic: true
@@ -628,6 +643,7 @@ illustrator: Keiji Kinebuchi
 ---
 set: jungle
 number: '16'
+order: 15
 name: Wigglytuff
 rarity: rare
 holographic: true
@@ -670,6 +686,7 @@ illustrator: Mitsuhiro Arita
 ---
 set: jungle
 number: '17'
+order: 16
 name: Clefable
 rarity: rare
 holographic: false
@@ -716,6 +733,7 @@ illustrator: Mitsuhiro Arita
 ---
 set: jungle
 number: '18'
+order: 17
 name: Electrode
 rarity: rare
 holographic: false
@@ -758,6 +776,7 @@ illustrator: Mitsuhiro Arita
 ---
 set: jungle
 number: '19'
+order: 18
 name: Flareon
 rarity: rare
 holographic: false
@@ -802,6 +821,7 @@ illustrator: Kagemaru Himeno
 ---
 set: jungle
 number: '20'
+order: 19
 name: Jolteon
 rarity: rare
 holographic: false
@@ -846,6 +866,7 @@ illustrator: Kagemaru Himeno
 ---
 set: jungle
 number: '21'
+order: 20
 name: Kangaskhan
 rarity: rare
 holographic: false
@@ -888,6 +909,7 @@ illustrator: Mitsuhiro Arita
 ---
 set: jungle
 number: '22'
+order: 21
 name: Mr. Mime
 rarity: rare
 holographic: false
@@ -932,6 +954,7 @@ illustrator: Ken Sugimori
 ---
 set: jungle
 number: '23'
+order: 22
 name: Nidoqueen
 rarity: rare
 holographic: false
@@ -973,6 +996,7 @@ illustrator: Ken Sugimori
 ---
 set: jungle
 number: '24'
+order: 23
 name: Pidgeot
 rarity: rare
 holographic: false
@@ -1015,6 +1039,7 @@ illustrator: Kagemaru Himeno
 ---
 set: jungle
 number: '25'
+order: 24
 name: Pinsir
 rarity: rare
 holographic: false
@@ -1054,6 +1079,7 @@ illustrator: Kagemaru Himeno
 ---
 set: jungle
 number: '26'
+order: 25
 name: Scyther
 rarity: rare
 holographic: false
@@ -1094,6 +1120,7 @@ illustrator: Ken Sugimori
 ---
 set: jungle
 number: '27'
+order: 26
 name: Snorlax
 rarity: rare
 holographic: false
@@ -1136,6 +1163,7 @@ illustrator: Ken Sugimori
 ---
 set: jungle
 number: '28'
+order: 27
 name: Vaporeon
 rarity: rare
 holographic: false
@@ -1181,6 +1209,7 @@ illustrator: Kagemaru Himeno
 ---
 set: jungle
 number: '29'
+order: 28
 name: Venomoth
 rarity: rare
 holographic: false
@@ -1225,6 +1254,7 @@ illustrator: Ken Sugimori
 ---
 set: jungle
 number: '30'
+order: 29
 name: Victreebel
 rarity: rare
 holographic: false
@@ -1268,6 +1298,7 @@ illustrator: Ken Sugimori
 ---
 set: jungle
 number: '31'
+order: 30
 name: Vileplume
 rarity: rare
 holographic: false
@@ -1312,6 +1343,7 @@ illustrator: Keiji Kinebuchi
 ---
 set: jungle
 number: '32'
+order: 31
 name: Wigglytuff
 rarity: rare
 holographic: false
@@ -1355,6 +1387,7 @@ illustrator: Mitsuhiro Arita
 ---
 set: jungle
 number: '33'
+order: 32
 name: Butterfree
 rarity: uncommon
 holographic: false
@@ -1400,6 +1433,7 @@ illustrator: Kagemaru Himeno
 ---
 set: jungle
 number: '34'
+order: 33
 name: Dodrio
 rarity: uncommon
 holographic: false
@@ -1441,6 +1475,7 @@ illustrator: Mitsuhiro Arita
 ---
 set: jungle
 number: '35'
+order: 34
 name: Exeggutor
 rarity: uncommon
 holographic: false
@@ -1483,6 +1518,7 @@ illustrator: Kagemaru Himeno
 ---
 set: jungle
 number: '36'
+order: 35
 name: Fearow
 rarity: uncommon
 holographic: false
@@ -1523,6 +1559,7 @@ illustrator: Mitsuhiro Arita
 ---
 set: jungle
 number: '37'
+order: 36
 name: Gloom
 rarity: uncommon
 holographic: false
@@ -1564,6 +1601,7 @@ illustrator: Keiji Kinebuchi
 ---
 set: jungle
 number: '38'
+order: 37
 name: Lickitung
 rarity: uncommon
 holographic: false
@@ -1604,6 +1642,7 @@ illustrator: Mitsuhiro Arita
 ---
 set: jungle
 number: '39'
+order: 38
 name: Marowak
 rarity: uncommon
 holographic: false
@@ -1648,6 +1687,7 @@ illustrator: Mitsuhiro Arita
 ---
 set: jungle
 number: '40'
+order: 39
 name: Nidorina
 rarity: uncommon
 holographic: false
@@ -1689,6 +1729,7 @@ illustrator: Ken Sugimori
 ---
 set: jungle
 number: '41'
+order: 40
 name: Parasect
 rarity: uncommon
 holographic: false
@@ -1727,6 +1768,7 @@ illustrator: Ken Sugimori
 ---
 set: jungle
 number: '42'
+order: 41
 name: Persian
 rarity: uncommon
 holographic: false
@@ -1769,6 +1811,7 @@ illustrator: Kagemaru Himeno
 ---
 set: jungle
 number: '43'
+order: 42
 name: Primeape
 rarity: uncommon
 holographic: false
@@ -1812,6 +1855,7 @@ illustrator: Kagemaru Himeno
 ---
 set: jungle
 number: '44'
+order: 43
 name: Rapidash
 rarity: uncommon
 holographic: false
@@ -1854,6 +1898,7 @@ illustrator: Mitsuhiro Arita
 ---
 set: jungle
 number: '45'
+order: 44
 name: Rhydon
 rarity: uncommon
 holographic: false
@@ -1898,6 +1943,7 @@ illustrator: Kagemaru Himeno
 ---
 set: jungle
 number: '46'
+order: 45
 name: Seaking
 rarity: uncommon
 holographic: false
@@ -1935,6 +1981,7 @@ illustrator: Kagemaru Himeno
 ---
 set: jungle
 number: '47'
+order: 46
 name: Tauros
 rarity: uncommon
 holographic: false
@@ -1978,6 +2025,7 @@ illustrator: Kagemaru Himeno
 ---
 set: jungle
 number: '48'
+order: 47
 name: Weepinbell
 rarity: uncommon
 holographic: false
@@ -2017,6 +2065,7 @@ illustrator: Kagemaru Himeno
 ---
 set: jungle
 number: '49'
+order: 48
 name: Bellsprout
 rarity: common
 holographic: false
@@ -2056,6 +2105,7 @@ illustrator: Kagemaru Himeno
 ---
 set: jungle
 number: '50'
+order: 49
 name: Cubone
 rarity: common
 holographic: false
@@ -2100,6 +2150,7 @@ illustrator: Mitsuhiro Arita
 ---
 set: jungle
 number: '51'
+order: 50
 name: Eevee
 rarity: common
 holographic: false
@@ -2143,6 +2194,7 @@ illustrator: Kagemaru Himeno
 ---
 set: jungle
 number: '52'
+order: 51
 name: Exeggcute
 rarity: common
 holographic: false
@@ -2183,6 +2235,7 @@ illustrator: Mitsuhiro Arita
 ---
 set: jungle
 number: '53'
+order: 52
 name: Goldeen
 rarity: common
 holographic: false
@@ -2214,6 +2267,7 @@ illustrator: Kagemaru Himeno
 ---
 set: jungle
 number: '54'
+order: 53
 name: Jigglypuff
 rarity: common
 holographic: false
@@ -2252,6 +2306,7 @@ illustrator: Kagemaru Himeno
 ---
 set: jungle
 number: '55'
+order: 54
 name: Mankey
 rarity: common
 holographic: false
@@ -2291,6 +2346,7 @@ illustrator: Kagemaru Himeno
 ---
 set: jungle
 number: '56'
+order: 55
 name: Meowth
 rarity: common
 holographic: false
@@ -2326,6 +2382,7 @@ illustrator: Mitsuhiro Arita
 ---
 set: jungle
 number: '57'
+order: 56
 name: Nidoran ♀
 rarity: common
 holographic: false
@@ -2368,6 +2425,7 @@ illustrator: Ken Sugimori
 ---
 set: jungle
 number: '58'
+order: 57
 name: Oddish
 rarity: common
 holographic: false
@@ -2409,6 +2467,7 @@ illustrator: Keiji Kinebuchi
 ---
 set: jungle
 number: '59'
+order: 58
 name: Paras
 rarity: common
 holographic: false
@@ -2446,6 +2505,7 @@ illustrator: Ken Sugimori
 ---
 set: jungle
 number: '60'
+order: 59
 name: Pikachu
 rarity: common
 holographic: false
@@ -2482,6 +2542,7 @@ illustrator: Ken Sugimori
 ---
 set: jungle
 number: '61'
+order: 60
 name: Rhyhorn
 rarity: common
 holographic: false
@@ -2522,6 +2583,7 @@ illustrator: Mitsuhiro Arita
 ---
 set: jungle
 number: '62'
+order: 61
 name: Spearow
 rarity: common
 holographic: false
@@ -2560,6 +2622,7 @@ illustrator: Mitsuhiro Arita
 ---
 set: jungle
 number: '63'
+order: 62
 name: Venonat
 rarity: common
 holographic: false
@@ -2602,6 +2665,7 @@ illustrator: Mitsuhiro Arita
 ---
 set: jungle
 number: '64'
+order: 63
 name: Poké Ball
 rarity: common
 holographic: false
