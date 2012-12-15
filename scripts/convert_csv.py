@@ -155,10 +155,6 @@ def main(infile, destdir=None):
 
         simple_out('hp', 'hp', convertor=int)
 
-        trainer_class = pop('trainer-class')
-        if trainer_class and trainer_class != 'Trainer':
-            result['trainer class'] = trainer_class
-
         simple_out('stage', 'stage')
 
         simple_out('evolves from', 'evolves-from')
@@ -181,6 +177,9 @@ def main(infile, destdir=None):
             class2 = pop('class2')
             if class2:
                 subclasses.append(class_from_initials[class2])
+            trainer_class = pop('trainer-class')
+            if trainer_class and trainer_class != 'Trainer':
+                subclasses.append(trainer_class)
             names = ['trainer-sub-class', 'energy-class'] + [
                 'sub-class-{}'.format(i) for i in range(1, 4)]
             for name in names:

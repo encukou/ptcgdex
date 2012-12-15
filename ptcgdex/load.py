@@ -42,7 +42,7 @@ class Dumper(yaml.SafeDumper):
 
 class Text(unicode):
     def __new__(cls, value=''):
-        return unicode.__new__(cls, value.replace('’', "'"))
+        return unicode.__new__(cls, value)
 
 def long_text_representer(dumper, data):
     return dumper.represent_scalar('tag:yaml.org,2002:str', data, style='>')
@@ -78,6 +78,7 @@ def export_mechanic(mechanic):
 
 def identifier_from_name(name):
     name = name.replace('!', '')
+    name = name.replace('#', '')
     return pokedex.db.identifier_from_name(name)
 
 def get_family(session, en, name):
