@@ -83,6 +83,12 @@ def identifier_from_name(name):
     return pokedex.db.identifier_from_name(name)
 
 def get_family(session, en, name):
+    if name == 'Ho-oh':
+        # Standardize Ho-Oh capitaliation
+        name = 'Ho-Oh'  # TODO
+    if name.startswith('Unown'):
+        # All Unown are named Unown (TODO: Hm, is that correct?)
+        name = 'Unown'
     try:
         return util.get(session, tcg_tables.CardFamily,
                         name=name)

@@ -1,0 +1,5096 @@
+---
+set: ex-unseen-forces
+number: '1'
+order: 0
+name: Ampharos
+rarity: rare
+holographic: true
+class: P
+types:
+- Lightning
+hp: 120
+stage: Stage 2
+evolves from: Flaaffy
+legal: false
+filename: 1-ampharos
+pokemon: Ampharos
+mechanics:
+- name: Energy Connect
+  type: pokepower
+  text: >-
+    As often as you like during your turn (before your attack),
+    you may move a basic Energy card attached to 1 of your Benched
+    Pokémon to your Active Pokémon. This power can't be used if
+    Ampharos is affected by a Special Condition.
+- name: Miraculous Thunder
+  cost: LCC
+  damage: '50'
+  type: attack
+  text: >-
+    You may discard all L Energy attached to Ampharos. If you
+    do, the Defending Pokémon is now Burned and Confused.
+weakness:
+  amount: 2
+  operation: ×
+  type: F
+resistance: M
+retreat: 2
+illustrator: Kyoko Umemoto
+---
+set: ex-unseen-forces
+number: '2'
+order: 1
+name: Ariados
+rarity: rare
+holographic: true
+class: P
+types:
+- Grass
+hp: 70
+stage: Stage 1
+evolves from: Spinarak
+legal: false
+filename: 2-ariados
+pokemon: Ariados
+mechanics:
+- name: Reactive Poison
+  cost: C
+  damage: '10'
+  type: attack
+  text: >-
+    Does 10 damage plus 30 more damage for each Special Condition
+    affecting the Defending Pokémon.
+- name: Spider Trap
+  cost: G
+  type: attack
+  text: >-
+    The defending Pokémon is now Asleep and Poisoned. Before applying
+    this effect, you may switch 1 of your opponent's Benched Pokémon
+    with 1 of the Defending Pokémon. If you do, the new Defending
+    Pokémon is now Asleep and Poisoned. Your opponent chooses
+    the Defending Pokémon to switch.
+weakness:
+  amount: 2
+  operation: ×
+  type: P
+retreat: 1
+illustrator: Mitsuhiro Arita
+---
+set: ex-unseen-forces
+number: '3'
+order: 2
+name: Bellossom
+rarity: rare
+holographic: true
+class: P
+types:
+- Grass
+hp: 90
+stage: Stage 2
+evolves from: Gloom
+legal: false
+filename: 3-bellossom
+pokemon: Bellossom
+mechanics:
+- name: Green Dance
+  cost: G
+  type: attack
+  text: >-
+    Search your deck for up to 2 G Pokémon, show them to your
+    opponent, and put them into your hand. Shuffle your deck afterward.
+    If you put any G Pokémon into your hand, you may switch Bellossom
+    with 1 of your Benched Pokémon.
+- name: Full Bloom
+  cost: CCC
+  damage: '50'
+  type: attack
+  text: >-
+    If you have at least 3 Bellossom in play, this attack does
+    50 damage plus 50 more damage.
+weakness:
+  amount: 2
+  operation: ×
+  type: R
+resistance: W
+retreat: 1
+illustrator: Kouki Saitou
+---
+set: ex-unseen-forces
+number: '4'
+order: 3
+name: Feraligatr
+rarity: rare
+holographic: true
+class: P
+types:
+- Water
+hp: 120
+stage: Stage 2
+evolves from: Croconaw
+legal: false
+filename: 4-feraligatr
+pokemon: Feraligatr
+mechanics:
+- name: Intimidating Fang
+  type: pokebody
+  text: >-
+    As long as Feraligatr is your Active Pokémon, any damage done
+    by an opponent's attack is reduced by 10 (before applying
+    Weakness and Resistance).
+- name: Pull Away
+  cost: WC
+  damage: '30'
+  type: attack
+  text: >-
+    If your opponent has 5 or more cards in his or her hand, you
+    opponent discards a number of cards until your opponent has
+    4 cards left in his or her hand.
+- name: Tonnage
+  cost: WCC
+  damage: '50'
+  type: attack
+  text: >-
+    You may do 50 damage plus 30 more damage. If you do, Feraligatr
+    does 30 damage to itself.
+weakness:
+  amount: 2
+  operation: ×
+  type: L
+retreat: 2
+illustrator: Masakazu Fukuda
+---
+set: ex-unseen-forces
+number: '5'
+order: 4
+name: Flareon
+rarity: rare
+holographic: true
+class: P
+types:
+- Fire
+hp: 70
+stage: Stage 1
+evolves from: Eevee
+legal: false
+filename: 5-flareon
+pokemon: Flareon
+mechanics:
+- type: note
+  text: >-
+    When Pokémon-ex has been Knocked Out, your opponent takes
+    2 Prize cards.
+- name: Fire Dance
+  cost: R
+  damage: '20'
+  type: attack
+  text: >-
+    Search your discard pile for a R Energy card and attach it
+    to 1 of your Pokémon.
+- name: Multi Burn
+  cost: CCC
+  damage: '40'
+  type: attack
+  text: >-
+    If Flareon has 3 or more different types of basic Energy cards
+    attached to it, this attack does 40 damage plus 20 more damage
+    and the Defending Pokémon is now Burned.
+weakness:
+  amount: 2
+  operation: ×
+  type: W
+retreat: 1
+illustrator: Naoyo Kimura
+---
+set: ex-unseen-forces
+number: '6'
+order: 5
+name: Forretress
+rarity: rare
+holographic: true
+class: P
+types:
+- Metal
+hp: 70
+stage: Stage 1
+evolves from: Pineco
+legal: false
+filename: 6-forretress
+pokemon: Forretress
+mechanics:
+- type: note
+  text: >-
+    When Pokémon-ex has been Knocked Out, your opponent takes
+    2 Prize cards.
+- name: Spiky Shell
+  cost: CC
+  damage: '20'
+  type: attack
+  text: >-
+    Put 3 damage counters on the Defending Pokémon at the end
+    of your opponent's next turn.
+- name: Pop
+  cost: MCCC
+  damage: '100'
+  type: attack
+  text: >-
+    Put 7 damage counters on Forretress. Move all Energy cards
+    attached to Forretress to your Benched Pokémon in any way
+    you like. (Ignore this effect if you don't have any Benched
+    Pokémon.)
+weakness:
+  amount: 2
+  operation: ×
+  type: R
+resistance: G
+retreat: 1
+illustrator: Aya Kusube
+---
+set: ex-unseen-forces
+number: '7'
+order: 6
+name: Houndoom
+rarity: rare
+holographic: true
+class: P
+types:
+- Fire
+hp: 70
+stage: Stage 1
+evolves from: Houndour
+legal: false
+filename: 7-houndoom
+pokemon: Houndoom
+mechanics:
+- type: note
+  text: >-
+    When Pokémon-ex has been Knocked Out, your opponent takes
+    2 Prize cards.
+- name: Lonesome
+  type: pokebody
+  text: >-
+    As long as you have less Pokémon in play than your opponent,
+    your opponent can't play any Trainer cards (except for Supporter
+    cards) from his or her hand.
+- name: Tight Jaw
+  cost: CC
+  damage: '20'
+  type: attack
+  text: >-
+    Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+- name: Flamethrower
+  cost: RRC
+  damage: '70'
+  type: attack
+  text: >-
+    Discard a R Energy attached to Houndoom.
+weakness:
+  amount: 2
+  operation: ×
+  type: W
+retreat: 1
+illustrator: Midori Harada
+---
+set: ex-unseen-forces
+number: '8'
+order: 7
+name: Jolteon
+rarity: rare
+holographic: true
+class: P
+types:
+- Lightning
+hp: 70
+stage: Stage 1
+evolves from: Eevee
+legal: false
+filename: 8-jolteon
+pokemon: Jolteon
+mechanics:
+- type: note
+  text: >-
+    When Pokémon-ex has been Knocked Out, your opponent takes
+    2 Prize cards.
+- name: Attract Current
+  cost: L
+  damage: '20'
+  type: attack
+  text: >-
+    Flip a coin. If heads, search your deck for a L Energy card
+    and attach it to 1 of your Pokémon. Shuffle your deck afterward.
+- name: Multi Pulse
+  cost: CCC
+  damage: '40'
+  type: attack
+  text: >-
+    If Jolteon has 3 or more different types of basic Energy cards
+    attached to it, this attack does 40 damage plus 20 more damage
+    and the Defending Pokémon is now Confused.
+weakness:
+  amount: 2
+  operation: ×
+  type: F
+resistance: M
+illustrator: Mitsuhiro Arita
+---
+set: ex-unseen-forces
+number: '9'
+order: 8
+name: Meganium
+rarity: rare
+holographic: true
+class: P
+types:
+- Grass
+hp: 100
+stage: Stage 2
+evolves from: Bayleef
+legal: false
+filename: 9-meganium
+pokemon: Meganium
+mechanics:
+- type: note
+  text: >-
+    When Pokémon-ex has been Knocked Out, your opponent takes
+    2 Prize cards.
+- name: Healing Aroma
+  type: pokebody
+  text: >-
+    As long as Meganium is your Active Pokémon, remove 1 damage
+    counter from each Pokémon (excluding Pokémon-ex) (both your
+    and your opponent's) between turns.
+- name: Bouncy Move
+  cost: GGC
+  damage: '50'
+  type: attack
+  text: >-
+    You may put up to 5 damage counters on Meganium. If you do,
+    this attack does 50 damage plus 10 more damage for each damage
+    counter you put on Meganium in this way.
+weakness:
+  amount: 2
+  operation: ×
+  type: R
+resistance: W
+retreat: 3
+illustrator: Atsuko Nishida
+---
+set: ex-unseen-forces
+number: '10'
+order: 9
+name: Octillery
+rarity: rare
+holographic: true
+class: P
+types:
+- Water
+hp: 80
+stage: Stage 1
+evolves from: Remoraid
+legal: false
+filename: 10-octillery
+pokemon: Octillery
+mechanics:
+- type: note
+  text: >-
+    When Pokémon-ex has been Knocked Out, your opponent takes
+    2 Prize cards.
+- name: Super Suction Cups
+  type: pokebody
+  text: >-
+    As long as Octillery is your Active Pokémon, your opponent's
+    Pokémon can't retreat.
+- name: Standing By
+  cost: C
+  type: attack
+  text: >-
+    Discard an Energy card attached to Octillery. During your
+    next turn, Octillery's Pulse Blast attack's base damage is
+    120.
+- name: Pulse Blast
+  cost: WC
+  damage: '30'
+  type: attack
+weakness:
+  amount: 2
+  operation: ×
+  type: L
+retreat: 1
+illustrator: Naoyo Kimura
+---
+set: ex-unseen-forces
+number: '11'
+order: 10
+name: Poliwrath
+rarity: rare
+holographic: true
+class: P
+types:
+- Fighting
+hp: 120
+stage: Stage 2
+evolves from: Poliwhirl
+legal: false
+filename: 11-poliwrath
+pokemon: Poliwrath
+mechanics:
+- type: note
+  text: >-
+    When Pokémon-ex has been Knocked Out, your opponent takes
+    2 Prize cards.
+- name: Spiral Swirl
+  type: pokebody
+  text: >-
+    If Poliwrath is your Active Pokémon and is Knocked Out by
+    damage from an opponent's attack, the Attacking Pokémon is
+    now Confused.
+- name: Beatdown
+  cost: FC
+  damage: '40'
+  type: attack
+  text: >-
+    If the Defending Pokémon is a D Pokémon or has Dark in its
+    name, this attack does 40 damage plus 30 more damage.
+- name: Hyper Splash
+  cost: WCC
+  damage: '60'
+  type: attack
+  text: >-
+    If the Defending Pokémon is a Stage 2 Evolved Pokémon, this
+    attack does 60 damage plus 30 more damage.
+weakness:
+  amount: 2
+  operation: ×
+  type: P
+retreat: 2
+illustrator: Hajime Kusajima
+---
+set: ex-unseen-forces
+number: '12'
+order: 11
+name: Porygon2
+rarity: rare
+holographic: true
+class: P
+types:
+- Colorless
+hp: 70
+stage: Stage 1
+evolves from: Porygon
+legal: false
+filename: 12-porygon2
+pokemon: Porygon2
+mechanics:
+- type: note
+  text: >-
+    When Pokémon-ex has been Knocked Out, your opponent takes
+    2 Prize cards.
+- name: 3-D Reset
+  type: pokepower
+  text: >-
+    As often as you like during your turn (before your attack),
+    return a Pokémon Tool card attached to 1 of your Pokémon to
+    your hand. This power can't be used if Porygon2 is affected
+    by a Special Condition.
+- name: Data Retrieval
+  cost: C
+  type: attack
+  text: >-
+    If you have less than 8 cards in your hand, draw cards until
+    you have 8 cards in your hand.
+- name: Scramble Trip
+  cost: CCC
+  damage: '40'
+  type: attack
+  text: >-
+    If Porygon2 has a Scramble Energy card attached to it, this
+    attack does 40 damage plus 20 more damage and the Defending
+    Pokémon is now Confused.
+weakness:
+  amount: 2
+  operation: ×
+  type: F
+retreat: 1
+illustrator: Kagemaru Himeno
+---
+set: ex-unseen-forces
+number: '13'
+order: 12
+name: Slowbro
+rarity: rare
+holographic: true
+class: P
+types:
+- Water
+hp: 80
+stage: Stage 1
+evolves from: Slowpoke
+legal: false
+filename: 13-slowbro
+pokemon: Slowbro
+mechanics:
+- type: note
+  text: >-
+    When Pokémon-ex has been Knocked Out, your opponent takes
+    2 Prize cards.
+- name: Dual Armor
+  type: pokebody
+  text: >-
+    As long as Slowbro has any P Energy attached to it, Slowbro
+    is both W and P type.
+- name: Parallel Gain
+  cost: C
+  damage: '20'
+  type: attack
+  text: >-
+    Remove 1 damage counter from each of your Pokémon (including
+    Slowbro).
+- name: Rolling Tackle
+  cost: WCC
+  damage: '50'
+  type: attack
+weakness:
+  amount: 2
+  operation: ×
+  type: G
+retreat: 2
+illustrator: Midori Harada
+---
+set: ex-unseen-forces
+number: '14'
+order: 13
+name: Slowking
+rarity: rare
+holographic: true
+class: P
+types:
+- Psychic
+hp: 70
+stage: Stage 1
+evolves from: Slowpoke
+legal: false
+filename: 14-slowking
+pokemon: Slowking
+mechanics:
+- type: note
+  text: >-
+    When Pokémon-ex has been Knocked Out, your opponent takes
+    2 Prize cards.
+- name: Item Search
+  type: pokepower
+  text: >-
+    Once during your turn (before your attack), you may search
+    your deck for a Pokémon Tool card, show it to your opponent,
+    and put it into your hand. Shuffle your deck afterward. This
+    power can't be used if Slowking is affected by a Special Condition.
+- name: Aftermath
+  cost: PC
+  damage: '20'
+  type: attack
+  text: >-
+    Does 20 damage plus 10 more damage for each Pokémon Tool card
+    in your discard pile. You can't add more than 60 damage in
+    this way.
+weakness:
+  amount: 2
+  operation: ×
+  type: G
+retreat: 1
+illustrator: Midori Harada
+---
+set: ex-unseen-forces
+number: '15'
+order: 14
+name: Sudowoodo
+rarity: rare
+holographic: true
+class: P
+types:
+- Fighting
+hp: 60
+stage: Basic
+legal: false
+filename: 15-sudowoodo
+pokemon: Sudowoodo
+mechanics:
+- type: note
+  text: >-
+    When Pokémon-ex has been Knocked Out, your opponent takes
+    2 Prize cards.
+- name: Copy
+  cost: C
+  type: attack
+  text: >-
+    Choose 1 of the Defending Pokémon's attacks. Copy copies that
+    attack. This attack does nothing if Sudowoodo doesn't have
+    the Energy necessary to use that attack. (You must still do
+    anything else required for that attack.) Sudowoodo performs
+    that attack.
+- name: Karate Chop
+  cost: FCC
+  damage: '-50'
+  type: attack
+  text: >-
+    Does 50 damage minus 10 damage for each damage counter on
+    Sudowoodo.
+weakness:
+  amount: 2
+  operation: ×
+  type: W
+retreat: 1
+illustrator: Tomokazu Komiya
+---
+set: ex-unseen-forces
+number: '16'
+order: 15
+name: Sunflora
+rarity: rare
+holographic: true
+class: P
+types:
+- Grass
+hp: 70
+stage: Stage 1
+evolves from: Sunkern
+legal: false
+filename: 16-sunflora
+pokemon: Sunflora
+mechanics:
+- type: note
+  text: >-
+    When Pokémon-ex has been Knocked Out, your opponent takes
+    2 Prize cards.
+- name: Dazzle Dance
+  cost: G
+  type: attack
+  text: >-
+    Each Defending Pokémon is now Confused.
+- name: Green Blast
+  cost: CC
+  damage: '20'
+  type: attack
+  text: >-
+    Does 20 damage plus 10 more damage for each G Energy attached
+    to all of your Pokémon.
+weakness:
+  amount: 2
+  operation: ×
+  type: R
+resistance: W
+retreat: 1
+illustrator: Sumiyoshi Kizuki
+---
+set: ex-unseen-forces
+number: '17'
+order: 16
+name: Typhlosion
+rarity: rare
+holographic: true
+class: P
+types:
+- Fire
+hp: 110
+stage: Stage 2
+evolves from: Quilava
+legal: false
+filename: 17-typhlosion
+pokemon: Typhlosion
+mechanics:
+- type: note
+  text: >-
+    You can't have more than 1 Pokémon * (Star Pokémon) in your
+    deck.
+- name: Burning Aura
+  type: pokebody
+  text: >-
+    As long as Typhlosion is your Active Pokémon, put 1 damage
+    counter on each Active Pokémon (both yours and your opponent's)
+    between turns.
+- name: Flickering Flames
+  cost: R
+  damage: '20'
+  type: attack
+  text: >-
+    The Defending Pokémon is now Asleep.
+- name: Rage
+  cost: RCC
+  damage: '50'
+  type: attack
+  text: >-
+    Does 50 damage plus 10 more damage for each damage counter
+    on Typhlosion.
+weakness:
+  amount: 2
+  operation: ×
+  type: W
+retreat: 1
+illustrator: Hajime Kusajima
+---
+set: ex-unseen-forces
+number: '18'
+order: 17
+name: Ursaring
+rarity: rare
+holographic: true
+class: P
+types:
+- Colorless
+hp: 80
+stage: Stage 1
+evolves from: Teddiursa
+legal: false
+filename: 18-ursaring
+pokemon: Ursaring
+mechanics:
+- type: note
+  text: >-
+    You can't have more than 1 Pokémon * (Star Pokémon) in your
+    deck.
+- name: Intimidating Ring
+  type: pokebody
+  text: >-
+    As long as Ursaring is your Active Pokémon, your opponent's
+    Basic Pokémon can't attack or use any Poke-Powers.
+- name: Drag Off
+  cost: CC
+  damage: '20'
+  type: attack
+  text: >-
+    Before doing damage, you may switch 1 of your opponent's Benched
+    Pokémon with the Defending Pokémon. If you do, this attack
+    does 20 damage to the new Defending Pokémon. Your opponent
+    chooses the Defending Pokémon to switch.
+- name: Rock Smash
+  cost: CCC
+  damage: '40'
+  type: attack
+  text: >-
+    Flip a coin. If heads, this attack does 40 damage plus 20
+    more damage.
+weakness:
+  amount: 2
+  operation: ×
+  type: F
+retreat: 2
+illustrator: Atsuko Nishida
+---
+set: ex-unseen-forces
+number: '19'
+order: 18
+name: Vaporeon
+rarity: rare
+holographic: true
+class: P
+types:
+- Water
+hp: 70
+stage: Stage 1
+evolves from: Eevee
+legal: false
+filename: 19-vaporeon
+pokemon: Vaporeon
+mechanics:
+- type: note
+  text: >-
+    You can't have more than 1 Pokémon * (Star Pokémon) in your
+    deck.
+- name: Aqua Supply
+  cost: W
+  damage: '20'
+  type: attack
+  text: >-
+    You may attach a basic Energy card from your hand to 1 of
+    your Pokémon.
+- name: Multi Bubble
+  cost: CCC
+  damage: '40'
+  type: attack
+  text: >-
+    If Vaporeon has 3 or more different types of basic Energy
+    cards attached to it, this attack does 40 damage plus 20 more
+    damage and the Defending Pokémon is now Asleep.
+weakness:
+  amount: 2
+  operation: ×
+  type: L
+retreat: 1
+illustrator: Atsuko Nishida
+---
+set: ex-unseen-forces
+number: '20'
+order: 19
+name: Chansey
+rarity: rare
+holographic: false
+class: P
+types:
+- Colorless
+hp: 90
+stage: Basic
+legal: false
+filename: 20-chansey
+pokemon: Chansey
+mechanics:
+- type: note
+  text: >-
+    When Pokémon-ex has been Knocked Out, your opponent takes
+    2 Prize cards.
+- name: Hyper Healing
+  cost: C
+  type: attack
+  text: >-
+    Remove 1 damage counter and all Special Conditions from each
+    of your Active Pokémon.
+- name: Double Tackle
+  cost: CC
+  type: attack
+  text: >-
+    Does 20 damage to each Defending Pokémon.
+weakness:
+  amount: 2
+  operation: ×
+  type: F
+retreat: 2
+illustrator: Yukiko Baba
+---
+set: ex-unseen-forces
+number: '21'
+order: 20
+name: Cleffa
+rarity: rare
+holographic: false
+class: P
+types:
+- Colorless
+hp: 50
+stage: Basic
+legal: false
+filename: 21-cleffa
+pokemon: Cleffa
+mechanics:
+- type: note
+  text: >-
+    When Pokémon-ex has been Knocked Out, your opponent takes
+    2 Prize cards.
+- name: Baby Evolution
+  type: pokepower
+  text: >-
+    Once during your turn (before your attack), you may put Clefairy
+    from your hand onto Cleffa (this counts as evolving Cleffa)
+    and remove all damage counters from Cleffa.
+- name: Eeeeeeek
+  cost: C
+  type: attack
+  text: >-
+    Shuffle your hand into your deck, then draw 6 cards.
+weakness:
+  amount: 2
+  operation: ×
+  type: F
+retreat: 1
+illustrator: Yuka Morii
+---
+set: ex-unseen-forces
+number: '22'
+order: 21
+name: Electabuzz
+rarity: rare
+holographic: false
+class: P
+types:
+- Lightning
+hp: 70
+stage: Basic
+legal: false
+filename: 22-electabuzz
+pokemon: Electabuzz
+mechanics:
+- name: Stages of Evolution
+  type: pokebody
+  text: >-
+    As long as Electabuzz is an Evolved Pokémon, any damage done
+    to Electabuzz by attacks from your opponent's Pokémon that
+    has any Special Energy cards attached to it is reduced by
+    40 (after applying Weakness and Resistance).
+- name: Double Shock
+  cost: LC
+  damage: 10×
+  type: attack
+  text: >-
+    Flip 2 coins. This attack does 10 damage times the number
+    of heads. If either of the coins is heads, the Defending Pokémon
+    is now Paralyzed.
+- name: Luster Blast
+  cost: LCCC
+  damage: '70'
+  type: attack
+  text: >-
+    Discard 3 Energy attached to Electabuzz.
+weakness:
+  amount: 2
+  operation: ×
+  type: F
+retreat: 1
+illustrator: Mitsuhiro Arita
+---
+set: ex-unseen-forces
+number: '23'
+order: 22
+name: Elekid
+rarity: rare
+holographic: false
+class: P
+types:
+- Lightning
+hp: 50
+stage: Basic
+legal: false
+filename: 23-elekid
+pokemon: Elekid
+mechanics:
+- name: Baby Evolution
+  type: pokepower
+  text: >-
+    Once during your turn (before your attack), you may put Electabuzz
+    from your hand onto Elekid (this counts as evolving Elekid)
+    and remove all damage counters from Elekid.
+- name: Magnetic Trip
+  cost: C
+  damage: '10'
+  type: attack
+  text: >-
+    If Low Pressure System is in play, the Defending Pokémon is
+    now Confused.
+weakness:
+  amount: 2
+  operation: ×
+  type: F
+retreat: 1
+illustrator: Yuka Morii
+---
+set: ex-unseen-forces
+number: '24'
+order: 23
+name: Hitmonchan
+rarity: rare
+holographic: false
+class: P
+types:
+- Fighting
+hp: 70
+stage: Basic
+legal: false
+filename: 24-hitmonchan
+pokemon: Hitmonchan
+mechanics:
+- name: Stages of Evolution
+  type: pokebody
+  text: >-
+    As long as Hitmonchan is an Evolved Pokémon, Hitmonchan gets
+    +30 HP.
+- name: Heavy Punch
+  cost: FC
+  damage: 10×
+  type: attack
+  text: >-
+    Does 10 damage times the number of your opponent's Benched
+    Pokémon.
+- name: Speedy Uppercut
+  cost: CCC
+  damage: '50'
+  type: attack
+  text: >-
+    This attack's damage isn't affected by Weakness, Resistance,
+    Poke-Powers, Poke-Bodies, or any other effects on the Defending
+    Pokémon.
+weakness:
+  amount: 2
+  operation: ×
+  type: P
+retreat: 1
+illustrator: Hisao Nakamura
+---
+set: ex-unseen-forces
+number: '25'
+order: 24
+name: Hitmonlee
+rarity: rare
+holographic: false
+class: P
+types:
+- Fighting
+hp: 60
+stage: Basic
+legal: false
+filename: 25-hitmonlee
+pokemon: Hitmonlee
+mechanics:
+- name: Stages of Evolution
+  type: pokebody
+  text: >-
+    As long as Hitmonlee is an Evolved Pokémon, Hitmonlee's attacks
+    do 20 more damage to your opponent's Pokémon (before applying
+    Weakness and Resistance).
+- name: Stretch Kick
+  cost: F
+  type: attack
+  text: >-
+    Choose 1 of your opponent's Benched Pokémon. This attack does
+    10 damage to that Pokémon. (Don't apply Weakness and Resistance
+    for Benched Pokémon.)
+- name: Mega Kick
+  cost: FCC
+  damage: '40'
+  type: attack
+weakness:
+  amount: 2
+  operation: ×
+  type: P
+retreat: 1
+illustrator: Hisao Nakamura
+---
+set: ex-unseen-forces
+number: '26'
+order: 25
+name: Hitmontop
+rarity: rare
+holographic: false
+class: P
+types:
+- Fighting
+hp: 70
+stage: Basic
+legal: false
+filename: 26-hitmontop
+pokemon: Hitmontop
+mechanics:
+- name: Stages of Evolution
+  type: pokebody
+  text: >-
+    As long as Hitmontop is an Evolved Pokémon, is your Active
+    Pokémon, and is damaged by an opponent's attack (even if Hitmontop
+    is Knocked Out), put 2 damage counters on the Attacking Pokémon.
+- name: Upward Kick
+  cost: FC
+  damage: '20'
+  type: attack
+  text: >-
+    If the Defending Pokémon already has at least 2 damage counters
+    on it, this attack does 20 damage plus 30 more damage.
+- name: Spiral Kick
+  cost: CCCC
+  damage: '50'
+  type: attack
+weakness:
+  amount: 2
+  operation: ×
+  type: P
+retreat: 1
+illustrator: Hisao Nakamura
+---
+set: ex-unseen-forces
+number: '27'
+order: 26
+name: Ho-Oh
+rarity: rare
+holographic: false
+class: P
+types:
+- Fire
+hp: 80
+stage: Basic
+legal: false
+filename: 27-ho-oh
+pokemon: Ho-Oh
+mechanics:
+- name: Gust
+  cost: CC
+  damage: '20'
+  type: attack
+- name: Sacred Fire
+  cost: RRCC
+  type: attack
+  text: >-
+    Flip a coin. If heads, choose 1 of your opponent's Pokémon.
+    This attack does 60 damage to that Pokémon. This attacks damage
+    isn't affected by Weakness or Resistance.
+weakness:
+  amount: 2
+  operation: ×
+  type: W
+retreat: 2
+illustrator: Kouki Saitou
+---
+set: ex-unseen-forces
+number: '28'
+order: 27
+name: Jynx
+rarity: rare
+holographic: false
+class: P
+types:
+- Water
+hp: 70
+stage: Basic
+legal: false
+filename: 28-jynx
+pokemon: Jynx
+mechanics:
+- name: Stages of Evolution
+  type: pokebody
+  text: >-
+    As long as Jynx is an Evolved Pokémon, prevent all effects
+    of opponent's attacks, except damage, done to Jynx, and Jynx
+    has no Weakness.
+- name: Freeze Light
+  cost: C
+  type: attack
+  text: >-
+    Flip a coin. If heads, the Defending Pokémon is now Paralyzed
+    If tails, the Defending Pokémon is now Burned.
+- name: Pure Power
+  cost: PWC
+  type: attack
+  text: >-
+    Put 4 damage counters on your opponent's Pokémon in any way
+    you like.
+weakness:
+  amount: 2
+  operation: ×
+  type: M
+retreat: 1
+illustrator: Yukiko Baba
+---
+set: ex-unseen-forces
+number: '29'
+order: 28
+name: Lugia
+rarity: rare
+holographic: false
+class: P
+types:
+- Psychic
+hp: 80
+stage: Basic
+legal: false
+filename: 29-lugia
+pokemon: Lugia
+mechanics:
+- name: Aeroblast
+  cost: CCC
+  damage: '20'
+  type: attack
+  text: >-
+    Flip 2 coins. This attack does 20 damage plus 20 more damage
+    for each heads.
+weakness:
+  amount: 2
+  operation: ×
+  type: P
+retreat: 2
+illustrator: Kouki Saitou
+---
+set: ex-unseen-forces
+number: '30'
+order: 29
+name: Murkrow
+rarity: rare
+holographic: false
+class: P
+types:
+- Darkness
+hp: 70
+stage: Basic
+legal: false
+filename: 30-murkrow
+pokemon: Murkrow
+mechanics:
+- name: Night Song
+  cost: C
+  type: attack
+  text: >-
+    Switch 1 of your opponent's Benched Pokémon with 1 of the
+    Defending Pokémon. Your opponent chooses the Defending Pokémon
+    to switch. The new Defending Pokémon is now Asleep.
+- name: Plunder
+  cost: CC
+  damage: '20'
+  type: attack
+  text: >-
+    Before doing damage, discard all Trainer cards attached to
+    the Defending Pokémon.
+weakness:
+  amount: 2
+  operation: ×
+  type: L
+resistance: F
+retreat: 1
+illustrator: Kouki Saitou
+---
+set: ex-unseen-forces
+number: '31'
+order: 30
+name: Smoochum
+rarity: rare
+holographic: false
+class: P
+types:
+- Water
+hp: 50
+stage: Basic
+legal: false
+filename: 31-smoochum
+pokemon: Smoochum
+mechanics:
+- name: Baby Evolution
+  type: pokepower
+  text: >-
+    Once during your turn (before your attack), you may put Jynx
+    from your hand onto Smoochum (this counts as evolving Smoochum)
+    and remove all damage counters from Smoochum.
+- name: Blown Kiss
+  cost: C
+  type: attack
+  text: >-
+    Put 1 damage counter on 1 of your opponent's Pokémon.
+weakness:
+  amount: 2
+  operation: ×
+  type: M
+retreat: 1
+illustrator: Yuka Morii
+---
+set: ex-unseen-forces
+number: '32'
+order: 31
+name: Stantler
+rarity: rare
+holographic: false
+class: P
+types:
+- Colorless
+hp: 70
+stage: Basic
+legal: false
+filename: 32-stantler
+pokemon: Stantler
+mechanics:
+- name: Screechy Voice
+  cost: C
+  damage: '10'
+  type: attack
+  text: >-
+    If the Defending Pokémon is an Evolved Pokémon, the Defending
+    Pokémon is now Confused.
+- name: Push Away
+  cost: CC
+  damage: '20'
+  type: attack
+  text: >-
+    Look at your opponent's hand, choose a Trainer card you find
+    there, and discard it.
+weakness:
+  amount: 2
+  operation: ×
+  type: F
+retreat: 1
+illustrator: Atsuko Nishida
+---
+set: ex-unseen-forces
+number: '33'
+order: 32
+name: Tyrogue
+rarity: rare
+holographic: false
+class: P
+types:
+- Fighting
+hp: 40
+stage: Basic
+legal: false
+filename: 33-tyrogue
+pokemon: Tyrogue
+mechanics:
+- name: Baby Evolution
+  type: pokepower
+  text: >-
+    Once during your turn (before your attack), you may put Hitmonlee,
+    Hitmonchan, or Hitmontop from your hand onto Tyrogue (this
+    counts as evolving Tyrogue) and remove all damage counters
+    from Tyrogue.
+- name: Desperate Punch
+  cost: C
+  damage: 10×
+  type: attack
+  text: >-
+    Does 10 damage times the number of Pokémon in play your opponent
+    has more than you.
+weakness:
+  amount: 2
+  operation: ×
+  type: P
+retreat: 1
+illustrator: Yuka Morii
+---
+set: ex-unseen-forces
+number: '34'
+order: 33
+name: Aipom
+rarity: uncommon
+holographic: false
+class: P
+types:
+- Colorless
+hp: 50
+stage: Basic
+legal: false
+filename: 34-aipom
+pokemon: Aipom
+mechanics:
+- name: Snappy Move
+  type: pokepower
+  text: >-
+    Once during your turn (before your attack), if Aipom is on
+    your Bench, you may draw a card. Then, discard all cards attached
+    to Aipom and put Aipom on the bottom of your deck. You can't
+    use more than 1 Snappy Move Poke-Power each turn.
+- name: Snap Tail
+  cost: C
+  type: attack
+  text: >-
+    Choose 1 of your opponent's Pokémon. This attack does 10 damage
+    to that Pokémon. (Don't apply Weakness and Resistance for
+    Benched Pokémon.)
+weakness:
+  amount: 2
+  operation: ×
+  type: F
+retreat: 1
+illustrator: Sachiko Adachi
+---
+set: ex-unseen-forces
+number: '35'
+order: 34
+name: Bayleef
+rarity: uncommon
+holographic: false
+class: P
+types:
+- Grass
+hp: 70
+stage: Stage 1
+evolves from: Chikorita
+legal: false
+filename: 35-bayleef
+pokemon: Bayleef
+mechanics:
+- name: Soothing Scent
+  cost: C
+  damage: '10'
+  type: attack
+  text: >-
+    The Defending Pokémon is now Asleep.
+- name: Razor Leaf
+  cost: GGC
+  damage: '50'
+  type: attack
+weakness:
+  amount: 2
+  operation: ×
+  type: R
+resistance: W
+retreat: 1
+illustrator: Atsuko Nishida
+---
+set: ex-unseen-forces
+number: '36'
+order: 35
+name: Clefable
+rarity: uncommon
+holographic: false
+class: P
+types:
+- Colorless
+hp: 80
+stage: Stage 1
+evolves from: Clefairy
+legal: false
+filename: 36-clefable
+pokemon: Clefable
+mechanics:
+- name: Shining Fingers
+  cost: C
+  damage: '10'
+  type: attack
+  text: >-
+    The Defending Pokémon is now Asleep.
+- name: Extra Comet Punch
+  cost: CC
+  damage: '30'
+  type: attack
+  text: >-
+    During your next turn, Extra Comet Punch does 30 damage plus
+    30 more damage.
+weakness:
+  amount: 2
+  operation: ×
+  type: F
+retreat: 1
+illustrator: Midori Harada
+---
+set: ex-unseen-forces
+number: '37'
+order: 36
+name: Corsola
+rarity: uncommon
+holographic: false
+class: P
+types:
+- Water
+hp: 60
+stage: Basic
+legal: false
+filename: 37-corsola
+pokemon: Corsola
+mechanics:
+- name: Cry for Help
+  cost: C
+  type: attack
+  text: >-
+    Search your deck for a W or F Pokémon (excluding Pokémon-ex),
+    show it to your opponent, and put it into your hand. Shuffle
+    your deck afterward.
+- name: Double Attack
+  cost: W
+  type: attack
+  text: >-
+    Choose 2 of your opponent's Benched Pokémon. This attack does
+    10 damage to each of them. (Don't apply Weakness and Resistance
+    for Benched Pokémon.)
+weakness:
+  amount: 2
+  operation: ×
+  type: G
+retreat: 1
+illustrator: Kagemaru Himeno
+---
+set: ex-unseen-forces
+number: '38'
+order: 37
+name: Croconaw
+rarity: uncommon
+holographic: false
+class: P
+types:
+- Water
+hp: 80
+stage: Stage 1
+evolves from: Totodile
+legal: false
+filename: 38-croconaw
+pokemon: Croconaw
+mechanics:
+- name: Bite
+  cost: CC
+  damage: '20'
+  type: attack
+- name: Aqua Sonic
+  cost: WWC
+  damage: '50'
+  type: attack
+  text: >-
+    This attack's damage isn't affected by Resistance.
+weakness:
+  amount: 2
+  operation: ×
+  type: L
+retreat: 2
+illustrator: Masakazu Fukuda
+---
+set: ex-unseen-forces
+number: '39'
+order: 38
+name: Granbull
+rarity: uncommon
+holographic: false
+class: P
+types:
+- Colorless
+hp: 70
+stage: Stage 1
+evolves from: Snubbull
+legal: false
+filename: 39-granbull
+pokemon: Granbull
+mechanics:
+- name: Intimidating Fang
+  type: pokebody
+  text: >-
+    As long as Granbull is your Active Pokémon, any damage done
+    by an opponent's attack is reduced by 10 (before applying
+    Weakness and Resistance).
+- name: Crushing Blow
+  cost: CC
+  damage: '30'
+  type: attack
+  text: >-
+    Flip a coin. If heads, discard an Energy attached to the Defending
+    Pokémon.
+- name: Double Lariat
+  cost: CCCC
+  damage: 50×
+  type: attack
+  text: >-
+    Flip 2 coins. This attack does 50 damage times the number
+    of heads.
+weakness:
+  amount: 2
+  operation: ×
+  type: F
+retreat: 2
+illustrator: Midori Harada
+---
+set: ex-unseen-forces
+number: '40'
+order: 39
+name: Lanturn
+rarity: uncommon
+holographic: false
+class: P
+types:
+- Lightning
+hp: 80
+stage: Stage 1
+evolves from: Chinchou
+legal: false
+filename: 40-lanturn
+pokemon: Lanturn
+mechanics:
+- name: Energy Stream
+  cost: L
+  damage: '20'
+  type: attack
+  text: >-
+    Search your discard pile for a basic Energy card and attach
+    it to Lanturn.
+- name: Take Down
+  cost: CCC
+  damage: '50'
+  type: attack
+  text: >-
+    Lanturn does 10 damage to itself.
+weakness:
+  amount: 2
+  operation: ×
+  type: F
+retreat: 1
+illustrator: Hajime Kusajima
+---
+set: ex-unseen-forces
+number: '41'
+order: 40
+name: Magcargo
+rarity: uncommon
+holographic: false
+class: P
+types:
+- Fire
+hp: 80
+stage: Stage 1
+evolves from: Slugma
+legal: false
+filename: 41-magcargo
+pokemon: Magcargo
+mechanics:
+- name: Dual Armor
+  type: pokebody
+  text: >-
+    As long as Magcargo has any F Energy attached to it, Magcargo
+    is both R and F type.
+- name: Smokescreen
+  cost: RC
+  damage: '30'
+  type: attack
+  text: >-
+    If the Defending Pokémon tries to attack during your opponent's
+    next turn, your opponent flips a coin. If tails, that attack
+    does nothing.
+- name: Extra Flame
+  cost: RCC
+  damage: '40'
+  type: attack
+  text: >-
+    If the Defending Pokémon is Pokémon-ex, this attack does 40
+    damage plus 30 more damage.
+weakness:
+  amount: 2
+  operation: ×
+  type: W
+retreat: 2
+illustrator: Tomokazu Komiya
+---
+set: ex-unseen-forces
+number: '42'
+order: 41
+name: Miltank
+rarity: uncommon
+holographic: false
+class: P
+types:
+- Colorless
+hp: 60
+stage: Basic
+legal: false
+filename: 42-miltank
+pokemon: Miltank
+mechanics:
+- name: Thick Fat
+  type: pokebody
+  text: >-
+    Any damage done to Miltank by attacks from R Pokémon and W
+    Pokémon is reduced by 30 (after applying Weakness and Resistance).
+- name: Healing Milk
+  cost: C
+  type: attack
+  text: >-
+    Flip 2 coins. For each heads, remove 2 damage counters from
+    1 of your Pokémon.
+- name: Body Slam
+  cost: CC
+  damage: '20'
+  type: attack
+  text: >-
+    Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+weakness:
+  amount: 2
+  operation: ×
+  type: F
+retreat: 1
+illustrator: Tomokazu Komiya
+---
+set: ex-unseen-forces
+number: '43'
+order: 42
+name: Noctowl
+rarity: uncommon
+holographic: false
+class: P
+types:
+- Colorless
+hp: 70
+stage: Stage 1
+evolves from: Hoothoot
+legal: false
+filename: 43-noctowl
+pokemon: Noctowl
+mechanics:
+- name: Spearhead
+  cost: C
+  type: attack
+  text: >-
+    Draw 3 cards.
+- name: Surprise
+  cost: CC
+  damage: '30'
+  type: attack
+  text: >-
+    Choose 1 card from your opponent's hand without looking. Look
+    at the card you chose, then have your opponent shuffle that
+    card into his or her deck.
+weakness:
+  amount: 2
+  operation: ×
+  type: L
+resistance: F
+retreat: 1
+illustrator: Mitsuhiro Arita
+---
+set: ex-unseen-forces
+number: '44'
+order: 43
+name: Quagsire
+rarity: uncommon
+holographic: false
+class: P
+types:
+- Fighting
+hp: 80
+stage: Stage 1
+evolves from: Wooper
+legal: false
+filename: 44-quagsire
+pokemon: Quagsire
+mechanics:
+- name: Dense
+  type: pokebody
+  text: >-
+    Any damage done to Quagsire by attacks from your opponent's
+    Evolved Pokémon is reduced by 20 (after applying Weakness
+    and Resistance).
+- name: Mud Shot
+  cost: C
+  damage: '20'
+  type: attack
+- name: Rock Hurl
+  cost: FCC
+  damage: '50'
+  type: attack
+  text: >-
+    This attack's damage isn't affected by Resistance.
+weakness:
+  amount: 2
+  operation: ×
+  type: G
+retreat: 2
+illustrator: Kagemaru Himeno
+---
+set: ex-unseen-forces
+number: '45'
+order: 44
+name: Quilava
+rarity: uncommon
+holographic: false
+class: P
+types:
+- Fire
+hp: 70
+stage: Stage 1
+evolves from: Cyndaquil
+legal: false
+filename: 45-quilava
+pokemon: Quilava
+mechanics:
+- name: Smokescreen
+  cost: RC
+  damage: '20'
+  type: attack
+  text: >-
+    If the Defending Pokémon tries to attack during your opponent's
+    next turn, your opponent flips a coin. If tails, that attack
+    does nothing.
+- name: Tackle
+  cost: CCC
+  damage: '40'
+  type: attack
+weakness:
+  amount: 2
+  operation: ×
+  type: W
+retreat: 1
+illustrator: Hajime Kusajima
+---
+set: ex-unseen-forces
+number: '46'
+order: 45
+name: Scyther
+rarity: uncommon
+holographic: false
+class: P
+types:
+- Grass
+hp: 60
+stage: Basic
+legal: false
+filename: 46-scyther
+pokemon: Scyther
+mechanics:
+- name: Twin Play
+  cost: C
+  type: attack
+  text: >-
+    Search your deck for up to 2 in any combination of Scyther
+    and Scyther ex and put them onto your Bench. Shuffle your
+    deck afterward.
+- name: Agility
+  cost: CC
+  damage: '20'
+  type: attack
+  text: >-
+    Flip a coin. If heads, prevent all effects of an attack, including
+    damage, done to Scyther during your opponent's next turn.
+weakness:
+  amount: 2
+  operation: ×
+  type: R
+retreat: 1
+illustrator: Hajime Kusajima
+---
+set: ex-unseen-forces
+number: '47'
+order: 46
+name: Shuckle
+rarity: uncommon
+holographic: false
+class: P
+types:
+- Grass
+hp: 60
+stage: Basic
+legal: false
+filename: 47-shuckle
+pokemon: Shuckle
+mechanics:
+- name: Extra-tight
+  type: pokebody
+  text: >-
+    Prevent all damage done to Shuckle by attacks from your opponent's
+    Pokémon-ex.
+- name: Toxic
+  cost: GC
+  type: attack
+  text: >-
+    The Defending Pokémon is now Poisoned. Put 2 damage counters
+    instead of 1 on the Defending Pokémon between turns.
+weakness:
+  amount: 2
+  operation: ×
+  type: R
+retreat: 1
+illustrator: Miki Tanaka
+---
+set: ex-unseen-forces
+number: '48'
+order: 47
+name: Smeargle
+rarity: uncommon
+holographic: false
+class: P
+types:
+- Colorless
+hp: 50
+stage: Basic
+legal: false
+filename: 48-smeargle
+pokemon: Smeargle
+mechanics:
+- name: Makeover
+  type: pokepower
+  text: >-
+    Once during your turn (before your attack), you may discard
+    a basic Energy card attached to 1 of your Pokémon (excluding
+    Pokémon-ex). If you do, search your discard pile for a basic
+    Energy card (excluding the one you discarded) and attach it
+    to that Pokémon. This power can't be used if Smeargle is affected
+    by a Special Condition.
+- name: Split Spiral Punch
+  cost: C
+  damage: '10'
+  type: attack
+  text: >-
+    Flip a coin. If heads, the Defending Pokémon is now Confused.
+weakness:
+  amount: 2
+  operation: ×
+  type: F
+retreat: 1
+illustrator: Sumiyoshi Kizuki
+---
+set: ex-unseen-forces
+number: '49'
+order: 48
+name: Xatu
+rarity: uncommon
+holographic: false
+class: P
+types:
+- Psychic
+hp: 80
+stage: Stage 1
+evolves from: Natu
+legal: false
+filename: 49-xatu
+pokemon: Xatu
+mechanics:
+- name: Telekinesis
+  cost: PC
+  type: attack
+  text: >-
+    Choose 1 of your opponent's Pokémon. This attack does 30 damage
+    to that Pokémon. This attack's damage isn't affected by Weakness
+    or Resistance.
+- name: Psyshock
+  cost: PCC
+  damage: '40'
+  type: attack
+  text: >-
+    Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+weakness:
+  amount: 2
+  operation: ×
+  type: P
+retreat: 1
+illustrator: Masakazu Fukuda
+---
+set: ex-unseen-forces
+number: '50'
+order: 49
+name: Yanma
+rarity: uncommon
+holographic: false
+class: P
+types:
+- Grass
+hp: 60
+stage: Basic
+legal: false
+filename: 50-yanma
+pokemon: Yanma
+mechanics:
+- name: Grand Loop
+  cost: C
+  type: attack
+  text: >-
+    Draw 2 cards. You may switch Yanma with 1 of your Benched
+    Pokémon.
+- name: Spinning Tail
+  cost: GC
+  type: attack
+  text: >-
+    Flip a coin. If heads, this attack does 20 damage to each
+    of your opponent's Pokémon. (Don't apply Weakness and Resistance
+    for Benched Pokémon.)
+weakness:
+  amount: 2
+  operation: ×
+  type: R
+retreat: 1
+illustrator: Kagemaru Himeno
+---
+set: ex-unseen-forces
+number: '51'
+order: 50
+name: Chikorita
+rarity: common
+holographic: false
+class: P
+types:
+- Grass
+hp: 50
+stage: Basic
+legal: false
+filename: 51-chikorita
+pokemon: Chikorita
+mechanics:
+- name: Headbutt
+  cost: C
+  damage: '10'
+  type: attack
+- name: Razor Leaf
+  cost: GC
+  damage: '20'
+  type: attack
+weakness:
+  amount: 2
+  operation: ×
+  type: R
+resistance: W
+retreat: 1
+illustrator: Atsuko Nishida
+---
+set: ex-unseen-forces
+number: '52'
+order: 51
+name: Chinchou
+rarity: common
+holographic: false
+class: P
+types:
+- Lightning
+hp: 50
+stage: Basic
+legal: false
+filename: 52-chinchou
+pokemon: Chinchou
+mechanics:
+- name: Thunder Wave
+  cost: C
+  type: attack
+  text: >-
+    Flip a coin. If the Defending Pokémon is now Paralyzed.
+- name: Razor Fin
+  cost: L
+  damage: '10'
+  type: attack
+weakness:
+  amount: 2
+  operation: ×
+  type: F
+retreat: 1
+illustrator: Hajime Kusajima
+---
+set: ex-unseen-forces
+number: '53'
+order: 52
+name: Clefairy
+rarity: common
+holographic: false
+class: P
+types:
+- Colorless
+hp: 50
+stage: Basic
+legal: false
+filename: 53-clefairy
+pokemon: Clefairy
+mechanics:
+- name: Pound
+  cost: C
+  damage: '10'
+  type: attack
+- name: Lullaby
+  cost: CC
+  damage: '10'
+  type: attack
+  text: >-
+    The Defending Pokémon is now Asleep.
+weakness:
+  amount: 2
+  operation: ×
+  type: F
+retreat: 1
+illustrator: Midori Harada
+---
+set: ex-unseen-forces
+number: '54'
+order: 53
+name: Cyndaquil
+rarity: common
+holographic: false
+class: P
+types:
+- Fire
+hp: 50
+stage: Basic
+legal: false
+filename: 54-cyndaquil
+pokemon: Cyndaquil
+mechanics:
+- name: Paralyzing Gaze
+  cost: C
+  type: attack
+  text: >-
+    Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+- name: Fireworks
+  cost: RC
+  damage: '30'
+  type: attack
+  text: >-
+    Flip a coin. If tails, discard a R Energy card attached to
+    Cyndaquil.
+weakness:
+  amount: 2
+  operation: ×
+  type: W
+retreat: 1
+illustrator: Hajime Kusajima
+---
+set: ex-unseen-forces
+number: '55'
+order: 54
+name: Eevee
+rarity: common
+holographic: false
+class: P
+types:
+- Colorless
+hp: 40
+stage: Basic
+legal: false
+filename: 55-eevee
+pokemon: Eevee
+mechanics:
+- name: Energy Evolution
+  type: pokepower
+  text: >-
+    Whenever you attach an Energy card from your hand to Eevee,
+    you may search your deck for a card that evolves from Eevee
+    that is the same type as the Energy card you attached to Eevee.
+    Put that card onto Eevee. (This counts as evolving Eevee.)
+    Shuffle your deck afterward. This power can't be used when
+    you attach an Energy card to Eevee as part of an attack's
+    effect.
+- name: Tail Whap
+  cost: C
+  damage: '10'
+  type: attack
+weakness:
+  amount: 2
+  operation: ×
+  type: F
+retreat: 1
+illustrator: Miki Tanaka
+---
+set: ex-unseen-forces
+number: '56'
+order: 55
+name: Flaaffy
+rarity: common
+holographic: false
+class: P
+types:
+- Lightning
+hp: 80
+stage: Stage 1
+evolves from: Mareep
+legal: false
+filename: 56-flaaffy
+pokemon: Flaaffy
+mechanics:
+- name: Thunder Wave
+  cost: C
+  damage: '10'
+  type: attack
+  text: >-
+    Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+- name: Thunder
+  cost: LCC
+  damage: '50'
+  type: attack
+  text: >-
+    Flaaffy does 10 damage to itself.
+weakness:
+  amount: 2
+  operation: ×
+  type: F
+resistance: M
+retreat: 1
+illustrator: Kyoko Umemoto
+---
+set: ex-unseen-forces
+number: '57'
+order: 56
+name: Gligar
+rarity: common
+holographic: false
+class: P
+types:
+- Fighting
+hp: 50
+stage: Basic
+legal: false
+filename: 57-gligar
+pokemon: Gligar
+mechanics:
+- name: Free Flight
+  type: pokebody
+  text: >-
+    If Gligar has no Energy attached to it, Gligar's Retreat Cost
+    is 0.
+- name: Toxic Grip
+  cost: F
+  damage: '10'
+  type: attack
+  text: >-
+    The Defending Pokémon is now Poisoned.
+weakness:
+  amount: 2
+  operation: ×
+  type: L
+retreat: 1
+illustrator: Mitsuhiro Arita
+---
+set: ex-unseen-forces
+number: '58'
+order: 57
+name: Gloom
+rarity: common
+holographic: false
+class: P
+types:
+- Grass
+hp: 70
+stage: Stage 1
+evolves from: Oddish
+legal: false
+filename: 58-gloom
+pokemon: Gloom
+mechanics:
+- name: Poisonpowder
+  cost: GC
+  damage: '20'
+  type: attack
+  text: >-
+    The Defending Pokémon is now Poisoned.
+weakness:
+  amount: 2
+  operation: ×
+  type: P
+retreat: 1
+illustrator: Kouki Saitou
+---
+set: ex-unseen-forces
+number: '59'
+order: 58
+name: Hoothoot
+rarity: common
+holographic: false
+class: P
+types:
+- Colorless
+hp: 50
+stage: Basic
+legal: false
+filename: 59-hoothoot
+pokemon: Hoothoot
+mechanics:
+- name: Confuse Ray
+  cost: C
+  type: attack
+  text: >-
+    Flip a coin. If heads, the Defending Pokémon is now Confused.
+- name: Peck
+  cost: CC
+  damage: '20'
+  type: attack
+weakness:
+  amount: 2
+  operation: ×
+  type: L
+resistance: F
+retreat: 1
+illustrator: Mitsuhiro Arita
+---
+set: ex-unseen-forces
+number: '60'
+order: 59
+name: Houndour
+rarity: common
+holographic: false
+class: P
+types:
+- Fire
+hp: 50
+stage: Basic
+legal: false
+filename: 60-houndour
+pokemon: Houndour
+mechanics:
+- name: Smog
+  cost: R
+  type: attack
+  text: >-
+    The Defending Pokémon is now Poisoned.
+weakness:
+  amount: 2
+  operation: ×
+  type: W
+retreat: 1
+illustrator: Kagemaru Himeno
+---
+set: ex-unseen-forces
+number: '61'
+order: 60
+name: Larvitar
+rarity: common
+holographic: false
+class: P
+types:
+- Fighting
+hp: 50
+stage: Basic
+legal: false
+filename: 61-larvitar
+pokemon: Larvitar
+mechanics:
+- name: Retaliate
+  cost: F
+  damage: 10×
+  type: attack
+  text: >-
+    Does 10 damage times the number of damage counters on Larvitar.
+- name: Tackle
+  cost: CC
+  damage: '20'
+  type: attack
+weakness:
+  amount: 2
+  operation: ×
+  type: G
+retreat: 1
+illustrator: Aya Kusube
+---
+set: ex-unseen-forces
+number: '62'
+order: 61
+name: Mareep
+rarity: common
+holographic: false
+class: P
+types:
+- Lightning
+hp: 50
+stage: Basic
+legal: false
+filename: 62-mareep
+pokemon: Mareep
+mechanics:
+- name: Tackle
+  cost: L
+  damage: '10'
+  type: attack
+weakness:
+  amount: 2
+  operation: ×
+  type: F
+resistance: M
+retreat: 1
+illustrator: Kyoko Umemoto
+---
+set: ex-unseen-forces
+number: '63'
+order: 62
+name: Natu
+rarity: common
+holographic: false
+class: P
+types:
+- Psychic
+hp: 50
+stage: Basic
+legal: false
+filename: 63-natu
+pokemon: Natu
+mechanics:
+- name: Telekinesis
+  cost: C
+  type: attack
+  text: >-
+    Choose 1 of your opponent's Pokémon. This attack does 10 damage
+    to that Pokémon. This attack's damage isn't affected by Weakness
+    or Resistance.
+weakness:
+  amount: 2
+  operation: ×
+  type: P
+retreat: 1
+illustrator: Masakazu Fukuda
+---
+set: ex-unseen-forces
+number: '64'
+order: 63
+name: Oddish
+rarity: common
+holographic: false
+class: P
+types:
+- Grass
+hp: 50
+stage: Basic
+legal: false
+filename: 64-oddish
+pokemon: Oddish
+mechanics:
+- name: Stun Spurt
+  cost: G
+  damage: '10'
+  type: attack
+  text: >-
+    Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+weakness:
+  amount: 2
+  operation: ×
+  type: P
+retreat: 1
+illustrator: Kouki Saitou
+---
+set: ex-unseen-forces
+number: '65'
+order: 64
+name: Onix
+rarity: common
+holographic: false
+class: P
+types:
+- Fighting
+hp: 80
+stage: Basic
+legal: false
+filename: 65-onix
+pokemon: Onix
+mechanics:
+- name: Dig Deep
+  cost: C
+  type: attack
+  text: >-
+    Search your discard pile for an Energy card, show it to your
+    opponent, and put it into your hand.
+- name: Mud Slap
+  cost: CC
+  damage: '20'
+  type: attack
+weakness:
+  amount: 2
+  operation: ×
+  type: W
+retreat: 3
+illustrator: Yukiko Baba
+---
+set: ex-unseen-forces
+number: '66'
+order: 65
+name: Pineco
+rarity: common
+holographic: false
+class: P
+types:
+- Grass
+hp: 50
+stage: Basic
+legal: false
+filename: 66-pineco
+pokemon: Pineco
+mechanics:
+- type: note
+  text: >-
+    When Pokémon-ex has been Knocked Out, your opponent takes
+    2 Prize cards.
+- name: Ram
+  cost: C
+  damage: '10'
+  type: attack
+weakness:
+  amount: 2
+  operation: ×
+  type: R
+retreat: 1
+illustrator: Aya Kusube
+---
+set: ex-unseen-forces
+number: '67'
+order: 66
+name: Poliwag
+rarity: common
+holographic: false
+class: P
+types:
+- Water
+hp: 50
+stage: Basic
+legal: false
+filename: 67-poliwag
+pokemon: Poliwag
+mechanics:
+- name: Hypnosis
+  cost: C
+  type: attack
+  text: >-
+    The Defending Pokémon is now Asleep.
+- name: Wave Splash
+  cost: W
+  damage: '10'
+  type: attack
+weakness:
+  amount: 2
+  operation: ×
+  type: L
+retreat: 1
+illustrator: Kagemaru Himeno
+---
+set: ex-unseen-forces
+number: '68'
+order: 67
+name: Poliwhirl
+rarity: common
+holographic: false
+class: P
+types:
+- Water
+hp: 70
+stage: Stage 1
+evolves from: Poliwag
+legal: false
+filename: 68-poliwhirl
+pokemon: Poliwhirl
+mechanics:
+- name: Energy Ball
+  cost: CC
+  damage: '30'
+  type: attack
+  text: >-
+    Does 30 damage plus 10 more damage for each Energy attached
+    to Poliwhirl but not used to pay for this attack's Energy
+    cost. You can't add more than 20 damage in this way.
+weakness:
+  amount: 2
+  operation: ×
+  type: L
+retreat: 1
+illustrator: Miki Tanaka
+---
+set: ex-unseen-forces
+number: '69'
+order: 68
+name: Porygon
+rarity: common
+holographic: false
+class: P
+types:
+- Colorless
+hp: 50
+stage: Basic
+legal: false
+filename: 69-porygon
+pokemon: Porygon
+mechanics:
+- name: 3-D Attack
+  cost: C
+  damage: 10×
+  type: attack
+  text: >-
+    Flip 3 coins. This attack does 10 damage times the number
+    of heads.
+weakness:
+  amount: 2
+  operation: ×
+  type: F
+retreat: 1
+illustrator: Kagemaru Himeno
+---
+set: ex-unseen-forces
+number: '70'
+order: 69
+name: Pupitar
+rarity: common
+holographic: false
+class: P
+types:
+- Fighting
+hp: 70
+stage: Stage 1
+evolves from: Larvitar
+legal: false
+filename: 70-pupitar
+pokemon: Pupitar
+mechanics:
+- name: Slash
+  cost: CC
+  damage: '20'
+  type: attack
+- name: Rock Throw
+  cost: FFC
+  damage: '40'
+  type: attack
+weakness:
+  amount: 2
+  operation: ×
+  type: G
+illustrator: Aya Kusube
+---
+set: ex-unseen-forces
+number: '71'
+order: 70
+name: Remoraid
+rarity: common
+holographic: false
+class: P
+types:
+- Water
+hp: 50
+stage: Basic
+legal: false
+filename: 71-remoraid
+pokemon: Remoraid
+mechanics:
+- name: Call for Family
+  cost: C
+  type: attack
+  text: >-
+    Search you deck for a Basic Pokémon and put it onto your Bench.
+    Shuffle your deck afterward.
+- name: Splash
+  cost: C
+  damage: '10'
+  type: attack
+weakness:
+  amount: 2
+  operation: ×
+  type: L
+retreat: 1
+illustrator: Sachiko Adachi
+---
+set: ex-unseen-forces
+number: '72'
+order: 71
+name: Slowpoke
+rarity: common
+holographic: false
+class: P
+types:
+- Psychic
+hp: 50
+stage: Basic
+legal: false
+filename: 72-slowpoke
+pokemon: Slowpoke
+mechanics:
+- name: Fishing Tail
+  cost: C
+  type: attack
+  text: >-
+    Search your discard pile for a Basic Pokémon, Evolution card,
+    or basic Energy card, show it to your opponent, and put it
+    into your hand.
+- name: Trip Over
+  cost: CC
+  damage: '20'
+  type: attack
+  text: >-
+    Flip a coin. If heads, this attack does 20 damage plus 10
+    more damage.
+weakness:
+  amount: 2
+  operation: ×
+  type: P
+retreat: 1
+illustrator: Midori Harada
+---
+set: ex-unseen-forces
+number: '73'
+order: 72
+name: Slugma
+rarity: common
+holographic: false
+class: P
+types:
+- Fire
+hp: 40
+stage: Basic
+legal: false
+filename: 73-slugma
+pokemon: Slugma
+mechanics:
+- name: Yawn
+  cost: C
+  type: attack
+  text: >-
+    The Defending Pokémon is now Asleep.
+- name: Headbutt
+  cost: C
+  damage: '10'
+  type: attack
+weakness:
+  amount: 2
+  operation: ×
+  type: W
+retreat: 1
+illustrator: Tomokazu Komiya
+---
+set: ex-unseen-forces
+number: '74'
+order: 73
+name: Snubbull
+rarity: common
+holographic: false
+class: P
+types:
+- Colorless
+hp: 50
+stage: Basic
+legal: false
+filename: 74-snubbull
+pokemon: Snubbull
+mechanics:
+- name: Lick
+  cost: C
+  damage: '10'
+  type: attack
+  text: >-
+    Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+weakness:
+  amount: 2
+  operation: ×
+  type: F
+retreat: 1
+illustrator: Midori Harada
+---
+set: ex-unseen-forces
+number: '75'
+order: 74
+name: Spinarak
+rarity: common
+holographic: false
+class: P
+types:
+- Grass
+hp: 50
+stage: Basic
+legal: false
+filename: 75-spinarak
+pokemon: Spinarak
+mechanics:
+- name: Stun Poison
+  cost: G
+  type: attack
+  text: >-
+    Flip a coin. If heads, the Defending Pokémon is now Paralyzed
+    and Poisoned.
+- name: Pierce
+  cost: CC
+  damage: '20'
+  type: attack
+weakness:
+  amount: 2
+  operation: ×
+  type: P
+retreat: 1
+illustrator: Sachiko Adachi
+---
+set: ex-unseen-forces
+number: '76'
+order: 75
+name: Sunkern
+rarity: common
+holographic: false
+class: P
+types:
+- Grass
+hp: 40
+stage: Basic
+legal: false
+filename: 76-sunkern
+pokemon: Sunkern
+mechanics:
+- name: Minor Errand-Running
+  cost: C
+  type: attack
+  text: >-
+    Search your deck for a basic Energy card, show it to your
+    opponent, and put it into your hand. Shuffle your deck afterward.
+- name: Rollout
+  cost: GC
+  damage: '20'
+  type: attack
+weakness:
+  amount: 2
+  operation: ×
+  type: R
+resistance: W
+retreat: 1
+illustrator: Sumiyoshi Kizuki
+---
+set: ex-unseen-forces
+number: '77'
+order: 76
+name: Teddiursa
+rarity: common
+holographic: false
+class: P
+types:
+- Colorless
+hp: 40
+stage: Basic
+legal: false
+filename: 77-teddiursa
+pokemon: Teddiursa
+mechanics:
+- name: Teary Eyes
+  cost: C
+  type: attack
+  text: >-
+    During your opponent's next turn, any damage done to Teddiursa
+    by attacks is reduced by 20 (after applying Weakness and Resistance).
+- name: Scratch
+  cost: C
+  damage: '10'
+  type: attack
+weakness:
+  amount: 2
+  operation: ×
+  type: F
+retreat: 1
+illustrator: Naoyo Kimura
+---
+set: ex-unseen-forces
+number: '78'
+order: 77
+name: Totodile
+rarity: common
+holographic: false
+class: P
+types:
+- Water
+hp: 50
+stage: Basic
+legal: false
+filename: 78-totodile
+pokemon: Totodile
+mechanics:
+- name: Splatter
+  cost: C
+  type: attack
+  text: >-
+    Choose 1 of your opponent's Pokémon. This attack does 10 damage
+    to that Pokémon. This attack's damage isn't affected by Weakness
+    or Resistance.
+weakness:
+  amount: 2
+  operation: ×
+  type: L
+retreat: 1
+illustrator: Masakazu Fukuda
+---
+set: ex-unseen-forces
+number: '79'
+order: 78
+name: Wooper
+rarity: common
+holographic: false
+class: P
+types:
+- Fighting
+hp: 50
+stage: Basic
+legal: false
+filename: 79-wooper
+pokemon: Wooper
+mechanics:
+- name: Mud Shot
+  cost: C
+  damage: '10'
+  type: attack
+- name: Tail Whap
+  cost: CC
+  damage: '20'
+  type: attack
+weakness:
+  amount: 2
+  operation: ×
+  type: G
+retreat: 1
+illustrator: Kagemaru Himeno
+---
+set: ex-unseen-forces
+number: '80'
+order: 79
+name: Curse Powder
+rarity: uncommon
+holographic: false
+class: T
+legal: false
+filename: 80-curse-powder
+subclasses:
+- Tool
+mechanics:
+- type: rule
+  text: >-
+    Attach Curse Powder to 1 of your Evolved Pokémon (excluding
+    Pokémon-ex) that doesn't already have a Pokémon Tool attached
+    to it. If the Pokémon Curse Powder is attached to is a Basic
+    Pokémon or Pokémon-ex, discard Curse Powder.
+- type: effect
+  text: >-
+    If the Pokémon that Curse Powder is attached to is Knocked
+    Out by damage from an opponent's attack, put 3 damage counters
+    on the Attacking Pokémon.
+illustrator: Ryo Ueda
+---
+set: ex-unseen-forces
+number: '81'
+order: 80
+name: Energy Recycle System
+rarity: uncommon
+holographic: false
+class: T
+legal: false
+filename: 81-energy-recycle-system
+mechanics:
+- type: effect
+  text: >-
+    Search your discard pile for basic Energy cards. You may either
+    show 1 basic Energy card to your opponent and put it into
+    your hand, or show 3 basic Energy cards to your opponent and
+    shuffle them into your deck.
+illustrator: Zu-Ka
+---
+set: ex-unseen-forces
+number: '82'
+order: 81
+name: Energy Removal 2
+rarity: uncommon
+holographic: false
+class: T
+legal: false
+filename: 82-energy-removal-2
+mechanics:
+- type: effect
+  text: >-
+    Flip a coin. If heads, choose 1 Energy card attached to 1
+    of your opponent's Pokémon and discard it.
+illustrator: Kieji Kinebuchi
+---
+set: ex-unseen-forces
+number: '83'
+order: 82
+name: Energy Root
+rarity: uncommon
+holographic: false
+class: T
+legal: false
+filename: 83-energy-root
+subclasses:
+- Tool
+mechanics:
+- type: rule
+  text: >-
+    Attach Energy Root to 1 of your Pokémon (excluding Pokémon-ex
+    and Pokémon that has Dark or an owner in its name) that doesn't
+    already have a Pokémon Tool attached to it. If the Pokémon
+    Energy Root is attached to is Pokémon-ex or has Dark or an
+    owner in its name, discard Energy Root.
+- type: effect
+  text: >-
+    As long as Energy Root is attached to a Pokémon, that Pokémon
+    gets +20 HP and can't use any Poke-Powers or Poke-Bodies.
+illustrator: Ryo Ueda
+---
+set: ex-unseen-forces
+number: '84'
+order: 83
+name: Energy Switch
+rarity: uncommon
+holographic: false
+class: T
+legal: true
+filename: 84-energy-switch
+mechanics:
+- type: effect
+  text: >-
+    Move a basic Energy card attached to 1 of your Pokémon to
+    another of your Pokémon.
+illustrator: Ken Ikuji
+---
+set: ex-unseen-forces
+number: '85'
+order: 84
+name: Fluffy Berry
+rarity: uncommon
+holographic: false
+class: T
+legal: false
+filename: 85-fluffy-berry
+subclasses:
+- Tool
+mechanics:
+- type: rule
+  text: >-
+    Attach Fluffy Berry to 1 of your Pokémon (excluding Pokémon-ex
+    and Pokémon that has Dark or an owner in its name) that doesn't
+    already have a Pokémon Tool attached to it. If the Pokémon
+    Fluffy Berry is attached to is Pokémon-ex or has Dark or an
+    owner in its name, discard Fluffy Berry.
+- type: effect
+  text: >-
+    As long as Fluffy Berry is attached to a Pokémon, that Pokémon's
+    Retreat Cost is 0.
+illustrator: Ryo Ueda
+---
+set: ex-unseen-forces
+number: '86'
+order: 85
+name: Mary's Request
+rarity: uncommon
+holographic: false
+class: T
+legal: false
+filename: 86-mary's-request
+subclasses:
+- Supporter
+mechanics:
+- type: rule
+  text: >-
+    You can play only one Supporter card each turn. When you play
+    this card, put it next to your Active Pokémon. When your turn
+    ends, discard this card.
+- type: effect
+  text: >-
+    Draw a card. If you don't have any Stage 2 Evolved Pokémon
+    in play, draw 2 more cards.
+illustrator: Ken Sugimori
+---
+set: ex-unseen-forces
+number: '87'
+order: 86
+name: Poké Ball
+rarity: uncommon
+holographic: false
+class: T
+legal: true
+filename: 87-poke-ball
+mechanics:
+- type: note
+  text: >-
+    You may attach this as an Energy card from your hand to 1
+    of your Pokémon that already has an Energy card attached to
+    it. When you attach this card, return an Energy card attached
+    to that Pokémon to your hand. While attached, this card is
+    a Special Energy card and provides every type of Energy but
+    2 Energy at a time. (Has no effect other than providing Energy.)
+- type: effect
+  text: >-
+    Flip a coin. If heads, search your deck for a Basic Pokémon
+    or Evolution card, show it to your opponent, and put it into
+    your hand. Shuffle your deck afterward.
+illustrator: Shin-ichi Yoshikawa
+---
+set: ex-unseen-forces
+number: '88'
+order: 87
+name: Pokémon Reversal
+rarity: uncommon
+holographic: false
+class: T
+legal: false
+filename: 88-pokemon-reversal
+mechanics:
+- type: note
+  text: >-
+    You may attach this as an Energy card from your hand to 1
+    of your Pokémon that already has an Energy card attached to
+    it. When you attach this card, return an Energy card attached
+    to that Pokémon to your hand. While attached, this card is
+    a Special Energy card and provides every type of Energy but
+    2 Energy at a time. (Has no effect other than providing Energy.)
+- type: effect
+  text: >-
+    Flip a coin. If heads, choose 1 of your opponent's Benched
+    Pokémon and switch it with 1 of the Defending Pokémon. Your
+    opponent chooses the Defending Pokémon to switch.
+illustrator: Hiromichi Sugiyama
+---
+set: ex-unseen-forces
+number: '89'
+order: 88
+name: Professor Elm's Training Method
+rarity: uncommon
+holographic: false
+class: T
+legal: false
+filename: 89-professor-elm's-training-method
+subclasses:
+- Supporter
+mechanics:
+- type: rule
+  text: >-
+    You can play only one Supporter card each turn. When you play
+    this card, put it next to your Active Pokémon. When your turn
+    ends, discard this card.
+- type: effect
+  text: >-
+    Search your deck for an Evolution card, show it to your opponent,
+    and put it into your hand. Shuffle your deck afterward.
+illustrator: Ken Sugimori
+---
+set: ex-unseen-forces
+number: '90'
+order: 89
+name: Protective Orb
+rarity: uncommon
+holographic: false
+class: T
+legal: false
+filename: 90-protective-orb
+subclasses:
+- Tool
+mechanics:
+- type: rule
+  text: >-
+    Attach Protective Orb to 1 of your Evolved Pokémon (excluding
+    Pokémon-ex) that doesn't already have a Pokémon Tool attached
+    to it. If the Pokémon Protective Orb is attached to is a Basic
+    Pokémon or Pokémon-ex, discard Protective Orb.
+- type: effect
+  text: >-
+    As long as Protective Orb is attached to a Pokémon, that Pokémon
+    has no Weakness.
+illustrator: Ryo Ueda
+---
+set: ex-unseen-forces
+number: '91'
+order: 90
+name: Sitrus Berry
+rarity: uncommon
+holographic: false
+class: T
+legal: false
+filename: 91-sitrus-berry
+subclasses:
+- Tool
+mechanics:
+- type: rule
+  text: >-
+    Attach Sitrus Berry to 1 of your Pokémon (excluding Pokémon-ex
+    and Pokémon that has Dark or an owner in its name) that doesn't
+    already have a Pokémon Tool attached to it. If the Pokémon
+    Sitrus Berry is attached to is Pokémon-ex or has Dark or an
+    owner in its name, discard Sitrus Berry.
+- type: effect
+  text: >-
+    At any time between turns, if the Pokémon this card is attached
+    to has at least 3 damage counters on it, remove 3 damage counters
+    from it. Then, discard Sitrus Berry.
+illustrator: Ryo Ueda
+---
+set: ex-unseen-forces
+number: '92'
+order: 91
+name: Solid Rage
+rarity: uncommon
+holographic: false
+class: T
+legal: false
+filename: 92-solid-rage
+subclasses:
+- Tool
+mechanics:
+- type: rule
+  text: >-
+    Attach Solid Rage to 1 of your Evolved Pokémon (excluding
+    Pokémon-ex) that doesn't already have a Pokémon Tool attached
+    to it. If the Pokémon Solid Rage is attached to is a Basic
+    Pokémon or Pokémon-ex, discard Solid Rage.
+- type: effect
+  text: >-
+    If you have ore Prize cards left than your opponent, the Pokémon
+    that Solid Rage is attached to does 20 more damage to the
+    Active Pokémon (before applying Weakness and Resistance).
+illustrator: Ryo Ueda
+---
+set: ex-unseen-forces
+number: '93'
+order: 92
+name: Warp Point
+rarity: uncommon
+holographic: false
+class: T
+legal: true
+filename: 93-warp-point
+mechanics:
+- type: effect
+  text: >-
+    Your opponent switches 1 of his or her Defending Pokémon with
+    1 of his or her Benched Pokémon, if any. You switch 1 of your
+    Active Pokémon with 1 of your Benched Pokémon, if any.
+illustrator: Keiji Kinebuchi
+---
+set: ex-unseen-forces
+number: '94'
+order: 93
+name: Energy Search
+rarity: common
+holographic: false
+class: T
+legal: true
+filename: 94-energy-search
+mechanics:
+- type: effect
+  text: >-
+    Search your deck for a basic Energy card, show it to your
+    opponent, and put it into your hand. Shuffle your deck afterward.
+illustrator: Kai Ishikawa
+---
+set: ex-unseen-forces
+number: '95'
+order: 94
+name: Potion
+rarity: common
+holographic: false
+class: T
+legal: true
+filename: 95-potion
+mechanics:
+- type: effect
+  text: >-
+    Remove 2 damage counters from 1 of your Pokémon (remove 1
+    damage counter if that Pokémon has only 1).
+illustrator: Shin-ichi Yoshikawa
+---
+set: ex-unseen-forces
+number: '96'
+order: 95
+name: Darkness Energy
+rarity: rare
+holographic: false
+class: E
+legal: true
+filename: 96-darkness-energy
+subclasses:
+- Special
+mechanics:
+- type: effect
+  text: >-
+    If the Pokémon Darkness Energy is attached to attacks, the
+    attack does 10 more damage to the Active Pokémon (before applying
+    Weakness and Resistance). Ignore this effect unless the Attacking
+    Pokémon is D or has Dark in its name. Darkness Energy provides
+    D energy. (Doesn't count as a basic Energy card.)
+illustrator: Milky Isobe
+---
+set: ex-unseen-forces
+number: '97'
+order: 96
+name: Metal Energy
+rarity: rare
+holographic: false
+class: E
+legal: true
+filename: 97-metal-energy
+subclasses:
+- Special
+mechanics:
+- type: effect
+  text: >-
+    Damage done by attacks to the Pokémon that Metal Energy is
+    attached to is reduced by 10 (after applying Weakness and
+    Resistance). Ignore this effect if the Pokémon that Metal
+    Energy is attached to isn't M. Metal Energy provides M Energy.
+    (Doesn't count as a basic Energy card.)
+illustrator: Milky Isobe
+---
+set: ex-unseen-forces
+number: '98'
+order: 97
+name: Boost Energy
+rarity: uncommon
+holographic: false
+class: E
+legal: false
+filename: 98-boost-energy
+subclasses:
+- Special
+mechanics:
+- type: effect
+  text: >-
+    Boost Energy can be attached only to an Evolved Pokémon. Discard
+    Boost Energy at the end of the turn it was attached. Boost
+    Energy provides CCC Energy. The Pokémon Boost Energy is attached
+    to can't retreat. If the Pokémon Boost Energy is attached
+    to isn't an Evolved Pokémon, discard Boost Energy.
+illustrator: Shin-Ichi Yoshikawa
+---
+set: ex-unseen-forces
+number: '99'
+order: 98
+name: Cyclone Energy
+rarity: uncommon
+holographic: false
+class: E
+legal: true
+filename: 99-cyclone-energy
+subclasses:
+- Special
+mechanics:
+- type: effect
+  text: >-
+    Cyclone Energy provides C Energy. When you attach this card
+    from your hand to your Active Pokémon, switch 1 of the Defending
+    Pokémon with 1 of your opponent's Benched Pokémon. Your opponent
+    chooses the Benched Pokémon to switch.
+illustrator: Shin-Ichi Yoshikawa
+---
+set: ex-unseen-forces
+number: '100'
+order: 99
+name: Warp Energy
+rarity: uncommon
+holographic: false
+class: E
+legal: true
+filename: 100-warp-energy
+subclasses:
+- Special
+mechanics:
+- type: effect
+  text: >-
+    Warp Energy provides C Energy. When you attach this card from
+    your hand to your Active Pokémon, switch that Pokémon with
+    1 of your Benched Pokémon.
+illustrator: Shin-Ichi Yoshikawa
+---
+set: ex-unseen-forces
+number: '101'
+order: 100
+name: Blissey ex
+rarity: rare
+holographic: true
+class: P
+types:
+- Colorless
+hp: 160
+stage: Stage 1
+evolves from: Chansey, Chansey EX
+legal: false
+filename: 101-blissey-ex
+pokemon: Blissey
+subclasses:
+- EX
+mechanics:
+- name: Blissful Support
+  type: pokepower
+  text: >-
+    Once during your turn, when you play Blissey ex from your
+    hand to evolve 1 of your Pokémon, you may discard all Energy
+    cards attached to any number of your Pokémon and remove all
+    damage counters from those Pokémon.
+- name: Energy Absorption
+  cost: C
+  type: attack
+  text: >-
+    Attach up to 3 Energy cards from your discard pile to Blissey
+    ex.
+- name: Rollout
+  cost: CCCC
+  damage: '60'
+  type: attack
+weakness:
+  amount: 2
+  operation: ×
+  type: F
+retreat: 1
+illustrator: Ryo Ueda
+---
+set: ex-unseen-forces
+number: '102'
+order: 101
+name: Espeon ex
+rarity: rare
+holographic: true
+class: P
+types:
+- Psychic
+hp: 110
+stage: Stage 1
+evolves from: Eevee
+legal: false
+filename: 102-espeon-ex
+pokemon: Espeon
+subclasses:
+- EX
+mechanics:
+- name: Devo Flash
+  type: pokepower
+  text: >-
+    Once during your turn, when you play Espeon ex from your hand
+    to evolve 1 of your Pokémon, you may choose 1 Evolved Pokémon
+    on your opponent's Bench, remove the highest Stage Evolution
+    card from that Pokémon, and put it back into his or her hand.
+- name: Snap Tail
+  cost: CC
+  type: attack
+  text: >-
+    Choose 1 of your opponent's Pokémon. This attack does 30 damage
+    to that Pokémon. (Don't apply Weakness and Resistance for
+    Benched Pokémon.)
+- name: Psyloop
+  cost: PCC
+  damage: '60'
+  type: attack
+  text: >-
+    Does 60 damage plus 30 more damage for each Trainer card your
+    opponent has in play.
+weakness:
+  amount: 2
+  operation: ×
+  type: P
+illustrator: Ryo Ueda
+---
+set: ex-unseen-forces
+number: '103'
+order: 102
+name: Feraligatr ex
+rarity: rare
+holographic: true
+class: P
+types:
+- Water
+hp: 150
+stage: Stage 2
+evolves from: Croconaw
+legal: false
+filename: 103-feraligatr-ex
+pokemon: Feraligatr
+subclasses:
+- EX
+mechanics:
+- name: Overpowering Fang
+  type: pokebody
+  text: >-
+    As long as Feraligatr ex is your Active Pokémon, each player's
+    Pokémon (excluding Pokémon-ex) can't use any Poke-Powers or
+    Poke-Bodies.
+- name: Tsunami
+  cost: WC
+  damage: '30'
+  type: attack
+  text: >-
+    Does 10 damage to each of your opponent's Benched Pokémon.
+    (Don't apply Weakness and Resistance for Benched Pokémon.)
+- name: Sore Sport
+  cost: WCCC
+  damage: '70'
+  type: attack
+  text: >-
+    Does 70 damage plus 10 more damage for each damage counter
+    on the Defending Pokémon.
+weakness:
+  amount: 2
+  operation: ×
+  type: L
+retreat: 3
+illustrator: Hikaru Koike
+---
+set: ex-unseen-forces
+number: '104'
+order: 103
+name: Ho-Oh ex
+rarity: rare
+holographic: true
+class: P
+types:
+- Fire
+hp: 110
+stage: Basic
+legal: false
+filename: 104-ho-oh-ex
+pokemon: Ho-Oh
+subclasses:
+- EX
+mechanics:
+- name: Golden Wing
+  type: pokepower
+  text: >-
+    If Ho-oh ex would be Knocked Out by damage from an opponent's
+    attack, you may move 2 Energy attached to Ho-oh ex to your
+    Pokémon in any way you like.
+- name: Rainbow Burn
+  cost: CCC
+  damage: '10'
+  type: attack
+  text: >-
+    Does 10 damage plus 20 more damage for each type of basic
+    Energy card attached to Ho-oh ex.
+weakness:
+  amount: 2
+  operation: ×
+  type: W
+retreat: 2
+illustrator: Mitsuhiro Arita
+---
+set: ex-unseen-forces
+number: '105'
+order: 104
+name: Lugia ex
+rarity: rare
+holographic: true
+class: P
+types:
+- Colorless
+hp: 100
+stage: Basic
+legal: false
+filename: 105-lugia-ex
+pokemon: Lugia
+subclasses:
+- EX
+mechanics:
+- name: Silver Sparkle
+  type: pokebody
+  text: >-
+    If Lugia ex is your Active Pokémon and is damaged by an opponent's
+    attack (even if Lugia ex is Knocked Out), flip a coin. If
+    heads, choose an Energy card attached to the Attacking Pokémon
+    and return it to your opponent's hand.
+- name: Elemental Blast
+  cost: LRW
+  damage: '200'
+  type: attack
+  text: >-
+    Discard a R Energy, W Energy, and L Energy attached to Lugia
+    ex.
+weakness:
+  amount: 2
+  operation: ×
+  type: P
+resistance: F
+retreat: 1
+illustrator: Hikaru Koike
+---
+set: ex-unseen-forces
+number: '106'
+order: 105
+name: Meganium ex
+rarity: rare
+holographic: true
+class: P
+types:
+- Grass
+hp: 150
+stage: Stage 2
+evolves from: Bayleef
+legal: false
+filename: 106-meganium-ex
+pokemon: Meganium
+subclasses:
+- EX
+mechanics:
+- name: Nurture and Heal
+  type: pokepower
+  text: >-
+    Once during your turn (before your attack), you may attach
+    a G Energy card from your hand to 1 of your Pokémon. If you
+    do, remove 1 damage counter from that Pokémon. This power
+    can't be used if Meganium ex is affected by a Special Condition.
+- name: Razor Leaf
+  cost: CCC
+  damage: '50'
+  type: attack
+- name: Power Poison
+  cost: GGCCC
+  damage: '90'
+  type: attack
+  text: >-
+    Discard 1 Energy attached to Meganium ex. The Defending Pokémon
+    is now Poisoned.
+weakness:
+  amount: 2
+  operation: ×
+  type: GR
+resistance: W
+retreat: 2
+illustrator: Ryo Ueda
+---
+set: ex-unseen-forces
+number: '107'
+order: 106
+name: Politoed ex
+rarity: rare
+holographic: true
+class: P
+types:
+- Water
+hp: 150
+stage: Stage 2
+evolves from: Poliwhirl
+legal: false
+filename: 107-politoed-ex
+pokemon: Politoed
+subclasses:
+- EX
+mechanics:
+- name: Upward Lick
+  cost: WC
+  type: attack
+  text: >-
+    Choose 1 of your opponent's Pokémon. This attack does 30 damage
+    to that Pokémon. If that Pokémon is a Stage 2 Evolved Pokémon,
+    this attack does 50 damage instead. (Don't apply Weakness
+    and Resistance for Benched Pokémon.)
+- name: Punch and Run
+  cost: CCC
+  damage: '40'
+  type: attack
+  text: >-
+    Switch Politoed ex with 1 of your Benched Pokémon.
+- name: Swallow Up
+  cost: WWCC
+  damage: '70'
+  type: attack
+  text: >-
+    Before doing damage, count the remaining HP of the Defending
+    Pokémon and Politoed ex. If the Defending Pokémon has fewer
+    remaining HP than Politoed ex's, this attack does 120 damage
+    instead.
+weakness:
+  amount: 2
+  operation: ×
+  type: G
+retreat: 3
+illustrator: Ryo Ueda
+---
+set: ex-unseen-forces
+number: '108'
+order: 107
+name: Scizor ex
+rarity: rare
+holographic: true
+class: P
+types:
+- Metal
+hp: 120
+stage: Stage 1
+evolves from: Scyther, Scyther EX
+legal: false
+filename: 108-scizor-ex
+pokemon: Scizor
+subclasses:
+- EX
+mechanics:
+- name: Danger Perception
+  type: pokebody
+  text: >-
+    As long as Scizor ex's remaining HP is 60 or less, Scizor
+    ex does 40 more damage to the Defending Pokémon (before applying
+    Weakness and Resistance).
+- name: Steel Wing
+  cost: MC
+  damage: '40'
+  type: attack
+  text: >-
+    During your opponent's next turn, any damage done to Scizor
+    ex by attacks is reduced by 20 (after applying Weakness and
+    Resistance).
+- name: Cross-Cut
+  cost: CCC
+  damage: '50'
+  type: attack
+  text: >-
+    If the Defending Pokémon is an Evolved Pokémon, this attack
+    does 50 damage plus 30 more damage.
+weakness:
+  amount: 2
+  operation: ×
+  type: R
+resistance: G
+retreat: 1
+illustrator: Mitsuhiro Arita
+---
+set: ex-unseen-forces
+number: '109'
+order: 108
+name: Steelix ex
+rarity: rare
+holographic: true
+class: P
+types:
+- Metal
+hp: 150
+stage: Stage 1
+evolves from: Onix
+legal: false
+filename: 109-steelix-ex
+pokemon: Steelix
+subclasses:
+- EX
+mechanics:
+- name: Poison Resistance
+  type: pokebody
+  text: >-
+    Steelix ex can't be Poisoned.
+- name: Metal Charge
+  cost: MCC
+  damage: '70'
+  type: attack
+  text: >-
+    Put 1 damage counter on Steelix ex.
+- name: Mudslide
+  cost: FFCC
+  type: attack
+  text: >-
+    Discard 2 F Energy attached to Steelix ex and choose 1 of
+    your opponent's Pokémon. This attack does 100 damage to that
+    Pokémon. (Don't apply Weakness and Resistance for Benched
+    Pokémon.)
+weakness:
+  amount: 2
+  operation: ×
+  type: RF
+resistance: GL
+retreat: 5
+illustrator: Ryo Ueda
+---
+set: ex-unseen-forces
+number: '110'
+order: 109
+name: Typhlosion ex
+rarity: rare
+holographic: true
+class: P
+types:
+- Fire
+hp: 150
+stage: Stage 2
+evolves from: Quilava
+legal: false
+filename: 110-typhlosion-ex
+pokemon: Typhlosion
+subclasses:
+- EX
+mechanics:
+- name: Bursting Up
+  type: pokepower
+  text: >-
+    Once during your turn, when you play Typhlosion ex from your
+    hand to evolve 1 of your Pokémon, count the number of your
+    opponent's Benched Pokémon. You may search your deck for up
+    to that number of R Energy cards and attach them to 1 of your
+    R Pokémon. Shuffle your deck afterward.
+- name: Kindle
+  cost: RRCC
+  damage: '80'
+  type: attack
+  text: >-
+    Discard an Energy card attach to Typhlosion ex and then discard
+    an Energy card attached to the Defending Pokémon.
+weakness:
+  amount: 2
+  operation: ×
+  type: WF
+retreat: 1
+illustrator: Mitsuhiro Arita
+---
+set: ex-unseen-forces
+number: '111'
+order: 110
+name: Tyranitar ex
+rarity: rare
+holographic: true
+class: P
+types:
+- Darkness
+hp: 160
+stage: Stage 2
+evolves from: Pupitar
+legal: false
+filename: 111-tyranitar-ex
+pokemon: Tyranitar
+subclasses:
+- EX
+mechanics:
+- name: Shatter
+  cost: F
+  damage: '30'
+  type: attack
+  text: >-
+    Discard any Stadium card in play.
+- name: Derail
+  cost: CC
+  damage: '30'
+  type: attack
+  text: >-
+    Discard a Special Energy card, if any, attached to the Defending
+    Pokémon.
+- name: Mix-Up
+  cost: DFC
+  damage: '70'
+  type: attack
+  text: >-
+    Your opponent discards the top card of his or her deck.
+- name: Losing Control
+  cost: DDFC
+  damage: '120'
+  type: attack
+  text: >-
+    Discard the top 3 cards of your deck.
+weakness:
+  amount: 2
+  operation: ×
+  type: GF
+resistance: P
+retreat: 2
+illustrator: Mitsuhiro Arita
+---
+set: ex-unseen-forces
+number: '112'
+order: 111
+name: Umbreon ex
+rarity: rare
+holographic: true
+class: P
+types:
+- Darkness
+hp: 110
+stage: Stage 1
+evolves from: Eevee
+legal: false
+filename: 112-umbreon-ex
+pokemon: Umbreon
+subclasses:
+- EX
+mechanics:
+- name: Darker Ring
+  type: pokepower
+  text: >-
+    Once during your turn (before your attack), when you play
+    Umbreon ex from your hand to evolve 1 of your Pokémon, switch
+    1 of your opponent's Benched Pokémon with 1 of the Defending
+    Pokémon. Your opponent chooses the Defending Pokémon to switch.
+- name: Black Cry
+  cost: C
+  damage: '20'
+  type: attack
+  text: >-
+    The Defending Pokémon can't retreat or use any Poke-Powers
+    during your opponent's next turn.
+- name: Darkness Fang
+  cost: DCC
+  damage: '60'
+  type: attack
+weakness:
+  amount: 2
+  operation: ×
+  type: F
+resistance: P
+retreat: 1
+illustrator: Ryo Ueda
+---
+set: ex-unseen-forces
+number: '113'
+order: 112
+name: Entei *
+rarity: rare
+holographic: true
+class: P
+types:
+- Fire
+hp: 80
+stage: Basic
+legal: false
+filename: 113-entei-star
+pokemon: Entei
+subclasses:
+- Star
+mechanics:
+- name: Burning Turn
+  cost: RC
+  damage: '20'
+  type: attack
+  text: >-
+    Switch Entei * with 1 of your Benched Pokémon.
+- name: Detonation
+  cost: RRR
+  damage: '70'
+  type: attack
+  text: >-
+    If you have less Prize cards left than your opponent, discard
+    the top 10 cards from your deck.
+weakness:
+  amount: 2
+  operation: ×
+  type: W
+retreat: 1
+illustrator: Masakazu Fukuda
+---
+set: ex-unseen-forces
+number: '114'
+order: 113
+name: Raikou *
+rarity: rare
+holographic: true
+class: P
+types:
+- Lightning
+hp: 80
+stage: Basic
+legal: false
+filename: 114-raikou-star
+pokemon: Raikou
+subclasses:
+- Star
+mechanics:
+- name: Lightning Turn
+  cost: LC
+  damage: '20'
+  type: attack
+  text: >-
+    Switch Raikou with 1 of your Benched Pokémon.
+- name: Meta Voltage
+  cost: LLL
+  damage: '70'
+  type: attack
+  text: >-
+    If you have less Prize cards left than your opponent, this
+    attack does 40 damage to each of your Pokémon. (Don't apply
+    Weakness and Resistance for Benched Pokémon.)
+weakness:
+  amount: 2
+  operation: ×
+  type: F
+retreat: 1
+illustrator: Masakazu Fukuda
+---
+set: ex-unseen-forces
+number: '115'
+order: 114
+name: Suicune *
+rarity: rare
+holographic: true
+class: P
+types:
+- Water
+hp: 80
+stage: Basic
+legal: false
+filename: 115-suicune-star
+pokemon: Suicune
+subclasses:
+- Star
+mechanics:
+- name: Splashing Turn
+  cost: WC
+  damage: '20'
+  type: attack
+  text: >-
+    Switch Suicune with 1 of your Benched Pokémon.
+- name: Cross Wind
+  cost: WWW
+  damage: '70'
+  type: attack
+  text: >-
+    If you have less Prize cards than your opponent, discard all
+    Energy cards attached to all of your Pokémon.
+weakness:
+  amount: 2
+  operation: ×
+  type: L
+retreat: 1
+illustrator: Masakazu Fukuda
+---
+set: ex-unseen-forces
+number: '116'
+order: 115
+name: Rocket's Persian ex
+rarity: rare
+holographic: true
+class: P
+types:
+- Darkness
+hp: 100
+stage: Stage 1
+evolves from: Rocket's Meowth
+legal: false
+filename: 116-rocket's-persian-ex
+pokemon: Persian
+subclasses:
+- Rocket
+- EX
+mechanics:
+- name: Night Cry
+  type: pokepower
+  text: >-
+    Once during your turn, if Rocket's Persian ex is on your Bench,
+    you may search your deck for a Pokémon with Dark or Rocket's
+    in its name. Show it to your opponent and put it into your
+    hand. Shuffle your deck afterward.
+- name: Toxic Claws
+  cost: CCC
+  damage: '20'
+  type: attack
+  text: >-
+    The Defending Pokémon is now Poisoned. Put 2 damage counters
+    instead of 1 on the Defending Pokémon between turns.
+weakness:
+  amount: 2
+  operation: ×
+  type: F
+retreat: 1
+illustrator: Mitsuhiro Arita
+---
+set: ex-unseen-forces
+number: '117'
+order: 116
+name: Celebi ex
+rarity: rare
+holographic: true
+class: P
+types:
+- Grass
+hp: 70
+stage: Basic
+legal: false
+filename: 117-celebi-ex
+pokemon: Celebi
+subclasses:
+- EX
+mechanics:
+- name: Spiral Leaf
+  cost: G
+  type: attack
+  text: >-
+    Flip a coin. If heads, put 1 damage counter on each of your
+    opponent's Pokémon. If tails, remove 1 damage counter from
+    each of your Pokémon.
+- name: Time Trap
+  cost: GC
+  damage: '30'
+  type: attack
+  text: >-
+    Flip a coin. If heads, look at the top 4 cards of your opponent's
+    deck, and put them back on top of your opponent's deck in
+    any order. If tails, look at the top 4 cards of your deck,
+    and put them back on top of your deck in any order.
+weakness:
+  amount: 2
+  operation: ×
+  type: R
+retreat: 1
+illustrator: Ryo Ueda
+---
+set: ex-unseen-forces
+number: '118'
+order: 117
+name: Unown (A)
+rarity: rare
+holographic: true
+class: P
+types:
+- Psychic
+hp: 60
+stage: Basic
+legal: false
+filename: a-unown
+pokemon: Unown
+mechanics:
+- name: Shuffle
+  type: pokepower
+  text: >-
+    Once during your turn (before your attack), you may search
+    you deck for another Unown and switch it with Unown. (Any
+    cards attached to Unown, damage counters, Special Conditions,
+    and effects on it are now on the new Pokémon.) If you do,
+    put Unown on top of your deck. Shuffle your deck afterward.
+    You can't use more than 1 Shuffle Poke-Power each turn.
+- name: Hidden Power
+  cost: CC
+  type: attack
+  text: >-
+    Search your deck for up to 2 Supporter cards, show them to
+    your opponent, and put them into your hand.
+weakness:
+  amount: 2
+  operation: ×
+  type: P
+retreat: 1
+illustrator: Shin-ichi Yoshikawa
+---
+set: ex-unseen-forces
+number: '119'
+order: 118
+name: Unown (B)
+rarity: rare
+holographic: true
+class: P
+types:
+- Psychic
+hp: 60
+stage: Basic
+legal: false
+filename: b-unown
+pokemon: Unown
+mechanics:
+- name: Shuffle
+  type: pokepower
+  text: >-
+    Once during your turn (before your attack), you may search
+    you deck for another Unown and switch it with Unown. (Any
+    cards attached to Unown, damage counters, Special Conditions,
+    and effects on it are now on the new Pokémon.) If you do,
+    put Unown on top of your deck. Shuffle your deck afterward.
+    You can't use more than 1 Shuffle Poke-Power each turn.
+- name: Hidden Power
+  cost: CCC
+  type: attack
+  text: >-
+    Count the number of cards in your opponent's hand. Put that
+    many damage counters on the Defending Pokémon.
+weakness:
+  amount: 2
+  operation: ×
+  type: P
+retreat: 1
+illustrator: Shin-ichi Yoshikawa
+---
+set: ex-unseen-forces
+number: '120'
+order: 119
+name: Unown (C)
+rarity: rare
+holographic: true
+class: P
+types:
+- Psychic
+hp: 60
+stage: Basic
+legal: false
+filename: c-unown
+pokemon: Unown
+mechanics:
+- name: Shuffle
+  type: pokepower
+  text: >-
+    Once during your turn (before your attack), you may search
+    you deck for another Unown and switch it with Unown. (Any
+    cards attached to Unown, damage counters, Special Conditions,
+    and effects on it are now on the new Pokémon.) If you do,
+    put Unown on top of your deck. Shuffle your deck afterward.
+    You can't use more than 1 Shuffle Poke-Power each turn.
+- name: Hidden Power
+  cost: C
+  type: attack
+  text: >-
+    Search your opponent's discard pile for a Supporter card and
+    use the effect of that card as the effect of this attack.
+    (The Supporter card remains in your opponent's discard pile.)
+weakness:
+  amount: 2
+  operation: ×
+  type: P
+retreat: 1
+illustrator: Shin-ichi Yoshikawa
+---
+set: ex-unseen-forces
+number: '121'
+order: 120
+name: Unown (D)
+rarity: rare
+holographic: true
+class: P
+types:
+- Psychic
+hp: 60
+stage: Basic
+legal: false
+filename: d-unown
+pokemon: Unown
+mechanics:
+- name: Shuffle
+  type: pokepower
+  text: >-
+    Once during your turn (before your attack), you may search
+    you deck for another Unown and switch it with Unown. (Any
+    cards attached to Unown, damage counters, Special Conditions,
+    and effects on it are now on the new Pokémon.) If you do,
+    put Unown on top of your deck. Shuffle your deck afterward.
+    You can't use more than 1 Shuffle Poke-Power each turn.
+- name: Hidden Power
+  cost: C
+  type: attack
+  text: >-
+    Flip a coin. If heads, choose 1 of either player's Evolved
+    Pokémon, remove the highest Stage Evolution card from that
+    Pokémon, and put it into that player's hand.
+weakness:
+  amount: 2
+  operation: ×
+  type: P
+retreat: 1
+illustrator: Shin-ichi Yoshikawa
+---
+set: ex-unseen-forces
+number: '122'
+order: 121
+name: Unown (E)
+rarity: rare
+holographic: true
+class: P
+types:
+- Psychic
+hp: 60
+stage: Basic
+legal: false
+filename: e-unown
+pokemon: Unown
+mechanics:
+- name: Shuffle
+  type: pokepower
+  text: >-
+    Once during your turn (before your attack), you may search
+    you deck for another Unown and switch it with Unown. (Any
+    cards attached to Unown, damage counters, Special Conditions,
+    and effects on it are now on the new Pokémon.) If you do,
+    put Unown on top of your deck. Shuffle your deck afterward.
+    You can't use more than 1 Shuffle Poke-Power each turn.
+- name: Hidden Power
+  cost: C
+  type: attack
+  text: >-
+    If your opponent's Bench isn't full, look at his or her hand.
+    Choose 1 Basic Pokémon you find there and put it onto your
+    opponent's bench. Then, switch it with the Defending Pokémon.
+    Your opponent chooses the Defending Pokémon to switch.
+weakness:
+  amount: 2
+  operation: ×
+  type: P
+retreat: 1
+illustrator: Shin-ichi Yoshikawa
+---
+set: ex-unseen-forces
+number: '123'
+order: 122
+name: Unown (F)
+rarity: rare
+holographic: true
+class: P
+types:
+- Psychic
+hp: 60
+stage: Basic
+legal: false
+filename: f-unown
+pokemon: Unown
+mechanics:
+- name: Shuffle
+  type: pokepower
+  text: >-
+    Once during your turn (before your attack), you may search
+    you deck for another Unown and switch it with Unown. (Any
+    cards attached to Unown, damage counters, Special Conditions,
+    and effects on it are now on the new Pokémon.) If you do,
+    put Unown on top of your deck. Shuffle your deck afterward.
+    You can't use more than 1 Shuffle Poke-Power each turn.
+- name: Hidden Power
+  cost: PC
+  damage: '10'
+  type: attack
+  text: >-
+    Flip 3 coins. If 1 of them is heads, the Defending Pokémon
+    is now Asleep. If 2 of them are heads, the Defending Pokémon
+    is now Confused. If all of them are heads, the Defending Pokémon
+    is now Paralyzed.
+weakness:
+  amount: 2
+  operation: ×
+  type: P
+retreat: 1
+illustrator: Shin-ichi Yoshikawa
+---
+set: ex-unseen-forces
+number: '124'
+order: 123
+name: Unown (G)
+rarity: rare
+holographic: true
+class: P
+types:
+- Psychic
+hp: 60
+stage: Basic
+legal: false
+filename: g-unown
+pokemon: Unown
+mechanics:
+- name: Shuffle
+  type: pokepower
+  text: >-
+    Once during your turn (before your attack), you may search
+    you deck for another Unown and switch it with Unown. (Any
+    cards attached to Unown, damage counters, Special Conditions,
+    and effects on it are now on the new Pokémon.) If you do,
+    put Unown on top of your deck. Shuffle your deck afterward.
+    You can't use more than 1 Shuffle Poke-Power each turn.
+- name: Hidden Power
+  cost: CC
+  type: attack
+  text: >-
+    Count the number of your Pokémon that have any damage counters
+    on them. Put that many damage counters on the Defending Pokémon.
+weakness:
+  amount: 2
+  operation: ×
+  type: P
+retreat: 1
+illustrator: Shin-ichi Yoshikawa
+---
+set: ex-unseen-forces
+number: '125'
+order: 124
+name: Unown (H)
+rarity: rare
+holographic: true
+class: P
+types:
+- Psychic
+hp: 60
+stage: Basic
+legal: false
+filename: h-unown
+pokemon: Unown
+mechanics:
+- name: Shuffle
+  type: pokepower
+  text: >-
+    Once during your turn (before your attack), you may search
+    you deck for another Unown and switch it with Unown. (Any
+    cards attached to Unown, damage counters, Special Conditions,
+    and effects on it are now on the new Pokémon.) If you do,
+    put Unown on top of your deck. Shuffle your deck afterward.
+    You can't use more than 1 Shuffle Poke-Power each turn.
+- name: Hidden Power
+  cost: C
+  type: attack
+  text: >-
+    Search your deck for up to 2 Pokémon Tool cards and attach
+    them to any of your Pokémon (excluding Pokémon that already
+    have a Pokémon Tool attached to them). Shuffle your deck afterward.
+weakness:
+  amount: 2
+  operation: ×
+  type: P
+retreat: 1
+illustrator: Shin-ichi Yoshikawa
+---
+set: ex-unseen-forces
+number: '126'
+order: 125
+name: Unown (I)
+rarity: rare
+holographic: true
+class: P
+types:
+- Psychic
+hp: 60
+stage: Basic
+legal: false
+filename: i-unown
+pokemon: Unown
+mechanics:
+- name: Shuffle
+  type: pokepower
+  text: >-
+    Once during your turn (before your attack), you may search
+    you deck for another Unown and switch it with Unown. (Any
+    cards attached to Unown, damage counters, Special Conditions,
+    and effects on it are now on the new Pokémon.) If you do,
+    put Unown on top of your deck. Shuffle your deck afterward.
+    You can't use more than 1 Shuffle Poke-Power each turn.
+- name: Hidden Power
+  cost: PC
+  type: attack
+  text: >-
+    Switch 1 of your opponent's Benched Pokémon with 1 of the
+    Defending Pokémon. Your opponent chooses the Defending Pokémon
+    to switch. The new Defending Pokémon is now Burned and Confused.
+weakness:
+  amount: 2
+  operation: ×
+  type: P
+retreat: 1
+illustrator: Nakaoka
+---
+set: ex-unseen-forces
+number: '127'
+order: 126
+name: Unown (J)
+rarity: rare
+holographic: true
+class: P
+types:
+- Psychic
+hp: 60
+stage: Basic
+legal: false
+filename: j-unown
+pokemon: Unown
+mechanics:
+- name: Shuffle
+  type: pokepower
+  text: >-
+    Once during your turn (before your attack), you may search
+    you deck for another Unown and switch it with Unown. (Any
+    cards attached to Unown, damage counters, Special Conditions,
+    and effects on it are now on the new Pokémon.) If you do,
+    put Unown on top of your deck. Shuffle your deck afterward.
+    You can't use more than 1 Shuffle Poke-Power each turn.
+- name: Hidden Power
+  cost: C
+  type: attack
+  text: >-
+    Flip a coin. If heads, switch all damage counters on Unown
+    with those on the Defending Pokémon. (If an effect of this
+    attack is prevented, this attack does nothing.)
+weakness:
+  amount: 2
+  operation: ×
+  type: P
+retreat: 1
+illustrator: Nakaoka
+---
+set: ex-unseen-forces
+number: '128'
+order: 127
+name: Unown (K)
+rarity: rare
+holographic: true
+class: P
+types:
+- Psychic
+hp: 60
+stage: Basic
+legal: false
+filename: k-unown
+pokemon: Unown
+mechanics:
+- name: Shuffle
+  type: pokepower
+  text: >-
+    Once during your turn (before your attack), you may search
+    you deck for another Unown and switch it with Unown. (Any
+    cards attached to Unown, damage counters, Special Conditions,
+    and effects on it are now on the new Pokémon.) If you do,
+    put Unown on top of your deck. Shuffle your deck afterward.
+    You can't use more than 1 Shuffle Poke-Power each turn.
+- name: Hidden Power
+  cost: PC
+  damage: '20'
+  type: attack
+  text: >-
+    You may discard any Stadium in play.
+weakness:
+  amount: 2
+  operation: ×
+  type: P
+retreat: 1
+illustrator: Nakaoka
+---
+set: ex-unseen-forces
+number: '129'
+order: 128
+name: Unown (L)
+rarity: rare
+holographic: true
+class: P
+types:
+- Psychic
+hp: 60
+stage: Basic
+legal: false
+filename: l-unown
+pokemon: Unown
+mechanics:
+- name: Shuffle
+  type: pokepower
+  text: >-
+    Once during your turn (before your attack), you may search
+    you deck for another Unown and switch it with Unown. (Any
+    cards attached to Unown, damage counters, Special Conditions,
+    and effects on it are now on the new Pokémon.) If you do,
+    put Unown on top of your deck. Shuffle your deck afterward.
+    You can't use more than 1 Shuffle Poke-Power each turn.
+- name: Hidden Power
+  cost: PC
+  type: attack
+  text: >-
+    Flip a coin. If heads, put damage counters on the Defending
+    Pokémon until it is 10 HP away from being Knocked Out.
+weakness:
+  amount: 2
+  operation: ×
+  type: P
+retreat: 1
+illustrator: Nakaoka
+---
+set: ex-unseen-forces
+number: '130'
+order: 129
+name: Unown (M)
+rarity: rare
+holographic: true
+class: P
+types:
+- Psychic
+hp: 60
+stage: Basic
+legal: false
+filename: m-unown
+pokemon: Unown
+mechanics:
+- name: Shuffle
+  type: pokepower
+  text: >-
+    Once during your turn (before your attack), you may search
+    you deck for another Unown and switch it with Unown. (Any
+    cards attached to Unown, damage counters, Special Conditions,
+    and effects on it are now on the new Pokémon.) If you do,
+    put Unown on top of your deck. Shuffle your deck afterward.
+    You can't use more than 1 Shuffle Poke-Power each turn.
+- name: Hidden Power
+  cost: P
+  type: attack
+  text: >-
+    Search your deck for a card that evolves from 1 of your Pokémon
+    and put it on that Pokémon. (This counts as evolving that
+    Pokémon.) If you do, put 1 damage counter on Unown. Shuffle
+    your deck afterward.
+weakness:
+  amount: 2
+  operation: ×
+  type: P
+retreat: 1
+illustrator: Nakaoka
+---
+set: ex-unseen-forces
+number: '131'
+order: 130
+name: Unown (N)
+rarity: rare
+holographic: true
+class: P
+types:
+- Psychic
+hp: 60
+stage: Basic
+legal: false
+filename: n-unown
+pokemon: Unown
+mechanics:
+- name: Shuffle
+  type: pokepower
+  text: >-
+    Once during your turn (before your attack), you may search
+    you deck for another Unown and switch it with Unown. (Any
+    cards attached to Unown, damage counters, Special Conditions,
+    and effects on it are now on the new Pokémon.) If you do,
+    put Unown on top of your deck. Shuffle your deck afterward.
+    You can't use more than 1 Shuffle Poke-Power each turn.
+- name: Hidden Power
+  cost: C
+  type: attack
+  text: >-
+    Remove 5 damage counters from Unown. (All if there are less
+    than 5.)
+weakness:
+  amount: 2
+  operation: ×
+  type: P
+retreat: 1
+illustrator: Nakaoka
+---
+set: ex-unseen-forces
+number: '132'
+order: 131
+name: Unown (O)
+rarity: rare
+holographic: true
+class: P
+types:
+- Psychic
+hp: 60
+stage: Basic
+legal: false
+filename: o-unown
+pokemon: Unown
+mechanics:
+- name: Shuffle
+  type: pokepower
+  text: >-
+    Once during your turn (before your attack), you may search
+    you deck for another Unown and switch it with Unown. (Any
+    cards attached to Unown, damage counters, Special Conditions,
+    and effects on it are now on the new Pokémon.) If you do,
+    put Unown on top of your deck. Shuffle your deck afterward.
+    You can't use more than 1 Shuffle Poke-Power each turn.
+- name: Hidden Power
+  cost: PC
+  damage: '20'
+  type: attack
+  text: >-
+    Return Unown and all Energy cards attached to it to your hand.
+weakness:
+  amount: 2
+  operation: ×
+  type: P
+retreat: 1
+illustrator: Nakaoka
+---
+set: ex-unseen-forces
+number: '133'
+order: 132
+name: Unown (P)
+rarity: rare
+holographic: true
+class: P
+types:
+- Psychic
+hp: 60
+stage: Basic
+legal: false
+filename: p-unown
+pokemon: Unown
+mechanics:
+- name: Shuffle
+  type: pokepower
+  text: >-
+    Once during your turn (before your attack), you may search
+    you deck for another Unown and switch it with Unown. (Any
+    cards attached to Unown, damage counters, Special Conditions,
+    and effects on it are now on the new Pokémon.) If you do,
+    put Unown on top of your deck. Shuffle your deck afterward.
+    You can't use more than 1 Shuffle Poke-Power each turn.
+- name: Hidden Power
+  cost: CC
+  type: attack
+  text: >-
+    Put 1 damage counter on each of your opponent's Pokémon that
+    already has damage counters on it.
+weakness:
+  amount: 2
+  operation: ×
+  type: P
+retreat: 1
+illustrator: Nakaoka
+---
+set: ex-unseen-forces
+number: '134'
+order: 133
+name: Unown (Q)
+rarity: rare
+holographic: true
+class: P
+types:
+- Psychic
+hp: 60
+stage: Basic
+legal: false
+filename: q-unown
+pokemon: Unown
+mechanics:
+- name: Shuffle
+  type: pokepower
+  text: >-
+    Once during your turn (before your attack), you may search
+    you deck for another Unown and switch it with Unown. (Any
+    cards attached to Unown, damage counters, Special Conditions,
+    and effects on it are now on the new Pokémon.) If you do,
+    put Unown on top of your deck. Shuffle your deck afterward.
+    You can't use more than 1 Shuffle Poke-Power each turn.
+- name: Hidden Power
+  cost: C
+  type: attack
+  text: >-
+    Search your deck for up to 3 different types of basic Energy
+    cards, show them to your opponents, and put them into your
+    hand. Shuffle your deck afterward.
+weakness:
+  amount: 2
+  operation: ×
+  type: P
+retreat: 1
+illustrator: Nakaoka
+---
+set: ex-unseen-forces
+number: '135'
+order: 134
+name: Unown (R)
+rarity: rare
+holographic: true
+class: P
+types:
+- Psychic
+hp: 60
+stage: Basic
+legal: false
+filename: r-unown
+pokemon: Unown
+mechanics:
+- name: Shuffle
+  type: pokepower
+  text: >-
+    Once during your turn (before your attack), you may search
+    you deck for another Unown and switch it with Unown. (Any
+    cards attached to Unown, damage counters, Special Conditions,
+    and effects on it are now on the new Pokémon.) If you do,
+    put Unown on top of your deck. Shuffle your deck afterward.
+    You can't use more than 1 Shuffle Poke-Power each turn.
+- name: Hidden Power
+  cost: CC
+  type: attack
+  text: >-
+    Flip a coin. If heads, your opponent returns the Defending
+    Pokémon and all cards attached to it to his or her hand. (If
+    your opponent doesn't have any Benched Pokémon or other Active
+    Pokémon, this attack does nothing.)
+weakness:
+  amount: 2
+  operation: ×
+  type: P
+retreat: 1
+illustrator: Nakaoka
+---
+set: ex-unseen-forces
+number: '136'
+order: 135
+name: Unown (S)
+rarity: rare
+holographic: true
+class: P
+types:
+- Psychic
+hp: 60
+stage: Basic
+legal: false
+filename: s-unown
+pokemon: Unown
+mechanics:
+- type: note
+  text: >-
+    You may attach this as an Energy card from your hand to 1
+    of your Pokémon. While attached, this card is a Special Energy
+    card and provides [C] Energy.
+- name: Shuffle
+  type: pokepower
+  text: >-
+    Once during your turn (before your attack), you may search
+    you deck for another Unown and switch it with Unown. (Any
+    cards attached to Unown, damage counters, Special Conditions,
+    and effects on it are now on the new Pokémon.) If you do,
+    put Unown on top of your deck. Shuffle your deck afterward.
+    You can't use more than 1 Shuffle Poke-Power each turn.
+- name: Hidden Power
+  cost: PP
+  type: attack
+  text: >-
+    If the Defending Pokémon has a Poke-Power or a Poke-Body,
+    choose up to 2 basic Energy cards attached to 1 of your opponent's
+    Pokémon and attach them to the Defending Pokémon.
+weakness:
+  amount: 2
+  operation: ×
+  type: P
+retreat: 1
+illustrator: Nakaoka
+---
+set: ex-unseen-forces
+number: '137'
+order: 136
+name: Unown (T)
+rarity: rare
+holographic: true
+class: P
+types:
+- Psychic
+hp: 60
+stage: Basic
+legal: false
+filename: t-unown
+pokemon: Unown
+mechanics:
+- type: note
+  text: >-
+    You may attach this as an Energy card from your hand to 1
+    of your Pokémon. While attached, this card is a Special Energy
+    card and provides [C] Energy.
+- name: Shuffle
+  type: pokepower
+  text: >-
+    Once during your turn (before your attack), you may search
+    you deck for another Unown and switch it with Unown. (Any
+    cards attached to Unown, damage counters, Special Conditions,
+    and effects on it are now on the new Pokémon.) If you do,
+    put Unown on top of your deck. Shuffle your deck afterward.
+    You can't use more than 1 Shuffle Poke-Power each turn.
+- name: Hidden Power
+  cost: CC
+  type: attack
+  text: >-
+    Choose 1 of your opponent's Pokémon. This attack does 20 damage
+    to that Pokémon. This attack's damage isn't affected by Weakness
+    or Resistance.
+weakness:
+  amount: 2
+  operation: ×
+  type: P
+retreat: 1
+illustrator: Kyoko Koizumi
+---
+set: ex-unseen-forces
+number: '138'
+order: 137
+name: Unown (U)
+rarity: rare
+holographic: true
+class: P
+types:
+- Psychic
+hp: 60
+stage: Basic
+legal: false
+filename: u-unown
+pokemon: Unown
+mechanics:
+- name: Shuffle
+  type: pokepower
+  text: >-
+    Once during your turn (before your attack), you may search
+    you deck for another Unown and switch it with Unown. (Any
+    cards attached to Unown, damage counters, Special Conditions,
+    and effects on it are now on the new Pokémon.) If you do,
+    put Unown on top of your deck. Shuffle your deck afterward.
+    You can't use more than 1 Shuffle Poke-Power each turn.
+- name: Hidden Power
+  cost: PC
+  damage: '10'
+  type: attack
+  text: >-
+    Choose 1 of the Defending Pokémon's attacks. That Pokémon
+    can't use that attack during your opponent's next turn.
+weakness:
+  amount: 2
+  operation: ×
+  type: P
+retreat: 1
+illustrator: Kyoko Koizumi
+---
+set: ex-unseen-forces
+number: '139'
+order: 138
+name: Unown (V)
+rarity: rare
+holographic: true
+class: P
+types:
+- Psychic
+hp: 60
+stage: Basic
+legal: false
+filename: v-unown
+pokemon: Unown
+mechanics:
+- name: Shuffle
+  type: pokepower
+  text: >-
+    Once during your turn (before your attack), you may search
+    you deck for another Unown and switch it with Unown. (Any
+    cards attached to Unown, damage counters, Special Conditions,
+    and effects on it are now on the new Pokémon.) If you do,
+    put Unown on top of your deck. Shuffle your deck afterward.
+    You can't use more than 1 Shuffle Poke-Power each turn.
+- name: Hidden Power
+  cost: PCC
+  damage: '20'
+  type: attack
+  text: >-
+    Does 20 damage plus 10 more damage for each Basic Pokémon
+    and each Evolution card in your discard pile. You can't add
+    more than 60 damage in this way.
+weakness:
+  amount: 2
+  operation: ×
+  type: P
+retreat: 1
+illustrator: Kyoko Koizumi
+---
+set: ex-unseen-forces
+number: '140'
+order: 139
+name: Unown (W)
+rarity: rare
+holographic: true
+class: P
+types:
+- Psychic
+hp: 60
+stage: Basic
+legal: false
+filename: w-unown
+pokemon: Unown
+mechanics:
+- name: Shuffle
+  type: pokepower
+  text: >-
+    Once during your turn (before your attack), you may search
+    you deck for another Unown and switch it with Unown. (Any
+    cards attached to Unown, damage counters, Special Conditions,
+    and effects on it are now on the new Pokémon.) If you do,
+    put Unown on top of your deck. Shuffle your deck afterward.
+    You can't use more than 1 Shuffle Poke-Power each turn.
+- name: Hidden Power
+  cost: PC
+  damage: '20'
+  type: attack
+  text: >-
+    Flip a coin. If heads, search your discard pile for a card,
+    show it to your opponent, and put it on top of your deck.
+weakness:
+  amount: 2
+  operation: ×
+  type: P
+retreat: 1
+illustrator: Kyoko Koizumi
+---
+set: ex-unseen-forces
+number: '141'
+order: 140
+name: Unown (X)
+rarity: rare
+holographic: true
+class: P
+types:
+- Psychic
+hp: 60
+stage: Basic
+legal: false
+filename: x-unown
+pokemon: Unown
+mechanics:
+- name: Shuffle
+  type: pokepower
+  text: >-
+    Once during your turn (before your attack), you may search
+    you deck for another Unown and switch it with Unown. (Any
+    cards attached to Unown, damage counters, Special Conditions,
+    and effects on it are now on the new Pokémon.) If you do,
+    put Unown on top of your deck. Shuffle your deck afterward.
+    You can't use more than 1 Shuffle Poke-Power each turn.
+- name: Hidden Power
+  cost: PC
+  damage: 20×
+  type: attack
+  text: >-
+    Flip a coin until you get tails. This attack does 20 damage
+    times the number of heads.
+weakness:
+  amount: 2
+  operation: ×
+  type: P
+retreat: 1
+illustrator: Kyoko Koizumi
+---
+set: ex-unseen-forces
+number: '142'
+order: 141
+name: Unown (Y)
+rarity: rare
+holographic: true
+class: P
+types:
+- Psychic
+hp: 60
+stage: Basic
+legal: false
+filename: y-unown
+pokemon: Unown
+mechanics:
+- name: Shuffle
+  type: pokepower
+  text: >-
+    Once during your turn (before your attack), you may search
+    you deck for another Unown and switch it with Unown. (Any
+    cards attached to Unown, damage counters, Special Conditions,
+    and effects on it are now on the new Pokémon.) If you do,
+    put Unown on top of your deck. Shuffle your deck afterward.
+    You can't use more than 1 Shuffle Poke-Power each turn.
+- name: Hidden Power
+  cost: C
+  damage: '10'
+  type: attack
+  text: >-
+    The Defending Pokémon is now Asleep.
+weakness:
+  amount: 2
+  operation: ×
+  type: P
+retreat: 1
+illustrator: Kyoko Koizumi
+---
+set: ex-unseen-forces
+number: '143'
+order: 142
+name: Unown (Z)
+rarity: rare
+holographic: true
+class: P
+types:
+- Psychic
+hp: 60
+stage: Basic
+legal: false
+filename: z-unown
+pokemon: Unown
+mechanics:
+- name: Shuffle
+  type: pokepower
+  text: >-
+    Once during your turn (before your attack), you may search
+    you deck for another Unown and switch it with Unown. (Any
+    cards attached to Unown, damage counters, Special Conditions,
+    and effects on it are now on the new Pokémon.) If you do,
+    put Unown on top of your deck. Shuffle your deck afterward.
+    You can't use more than 1 Shuffle Poke-Power each turn.
+- name: Hidden Power
+  cost: P
+  type: attack
+  text: >-
+    Does 20 damage to each Pokémon that has any Poke-Powers or
+    Poke-Bodies (both yours and your opponent's). Don't apply
+    Weakness or Resistance.
+weakness:
+  amount: 2
+  operation: ×
+  type: P
+retreat: 1
+illustrator: Kyoko Koizumi
+---
+set: ex-unseen-forces
+number: '144'
+order: 143
+name: Unown (?)
+rarity: rare
+holographic: true
+class: P
+types:
+- Psychic
+hp: 60
+stage: Basic
+legal: false
+filename: question-unown
+pokemon: Unown
+mechanics:
+- name: Shuffle
+  type: pokepower
+  text: >-
+    Once during your turn (before your attack), you may search
+    you deck for another Unown and switch it with Unown. (Any
+    cards attached to Unown, damage counters, Special Conditions,
+    and effects on it are now on the new Pokémon.) If you do,
+    put Unown on top of your deck. Shuffle your deck afterward.
+    You can't use more than 1 Shuffle Poke-Power each turn.
+- name: Hidden Power
+  cost: C
+  type: attack
+  text: >-
+    Choose a card from your hand and put it face down. You opponent
+    guesses if that card is a Pokémon, Trainer, or Energy card.
+    Reveal the card. If your opponent guess wrong, draw 2 cards.
+    Put the card back into your hand.
+weakness:
+  amount: 2
+  operation: ×
+  type: P
+retreat: 1
+illustrator: Kyoko Koizumi
+---
+set: ex-unseen-forces
+number: '145'
+order: 144
+name: Unown (!)
+rarity: rare
+holographic: true
+class: P
+types:
+- Psychic
+hp: 60
+stage: Basic
+legal: false
+filename: exclamation-unown
+pokemon: Unown
+mechanics:
+- name: Shuffle
+  type: pokepower
+  text: >-
+    Once during your turn (before your attack), you may search
+    you deck for another Unown and switch it with Unown. (Any
+    cards attached to Unown, damage counters, Special Conditions,
+    and effects on it are now on the new Pokémon.) If you do,
+    put Unown on top of your deck. Shuffle your deck afterward.
+    You can't use more than 1 Shuffle Poke-Power each turn.
+- name: Hidden Power
+  cost: C
+  type: attack
+  text: >-
+    Flip 2 coins. If heads, put 2 damage counters on 1 of your
+    opponent's Pokémon. If tails, put 2 damage counters on 1 of
+    your Pokémon.
+weakness:
+  amount: 2
+  operation: ×
+  type: P
+retreat: 1
+illustrator: Kyoko Koizumi
