@@ -74,6 +74,8 @@ def export_mechanic(mechanic):
             ('type', mechanic.class_.identifier),
             ('text', Text(effect.source_text) if effect else None),
         ])
+    if mechanic.cost_string == '' and mechanic.class_.identifier == 'attack':
+        mech['cost'] = '#'
     return OrderedDict([(k, v) for k, v in mech.items() if v])
 
 def identifier_from_name(name):
@@ -231,6 +233,8 @@ def load_sets(session, directory, set_names=None, verbose=True):
                         mechanic.effect_map[en] = effect
                         mechanic.class_ = mechanic_class
 
+                        if cost_string == '#':
+                            cost_string = ''
                         cost_list = list(cost_string)
                         cost_index = 0
                         while cost_list:
