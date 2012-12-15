@@ -337,9 +337,9 @@ def load_sets(session, directory, set_names=None, verbose=True):
                 species = util.get(session, dex_tables.PokemonSpecies,
                                         id=dex_number)
                 species_name = card_info.pop('pokemon')
-                if species.name != species_name:
+                if species.name.lower() != species_name.lower():
                     raise ValueError("{!r} != {!r}".format(
-                        flavor.species.name, species_name))
+                        species.name, species_name))
                 feet, inches = card_info.pop('height').split("'")
                 flavor.species = species
                 flavor.weight = card_info.pop('weight')
