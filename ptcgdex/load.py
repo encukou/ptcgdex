@@ -259,15 +259,19 @@ def load_sets(session, directory, set_names=None, verbose=True):
                     session.add(link)
 
                 if weak_info:
-                    w_type = type_by_initial(weak_info.pop('type'))
-                    weakness = tcg_tables.Weakness()
-                    weakness.card = card
-                    weakness.type = w_type
-                    weakness.amount = weak_info.pop('amount')
-                    operation = weak_info.pop('operation')
-                    weakness.operation = {'x': '×'}.get(
-                        operation, operation)
-                    session.add(weakness)
+                    weak_amount = weak_info.pop('amount')
+                    weak_operation = weak_info.pop('operation')
+                    weak_operation = {'x': '×'}.get(
+                            weak_operation, weak_operation)
+                    for w_index, initial in enumerate(weak_info.pop('type')):
+                        w_type = type_by_initial(initial)
+                        weakness = tcg_tables.Weakness()
+                        weakness.card = card
+                        weakness.type = w_type
+                        weakness.amount = weak_amount
+                        weakness.order = w_index
+                        weakness.operation = weak_operation
+                        session.add(weakness)
 
                 for subclass_index, subclass_name in enumerate(
                         card_info.pop('subclasses', ())):
@@ -444,7 +448,12 @@ def dump_set(tcg_set, outfile, verbose=True):
                 )
             weaknesses.append(OrderedDict([(k, v) for k, v in weakness]))
         if weaknesses:
-            [card_info['weakness']] = weaknesses
+            first_weakness = weaknesses[0]
+            assert all(w['amount'] == first_weakness['amount'] and
+                       w['operation'] == first_weakness['operation']
+                       for w in weaknesses)
+            first_weakness['type'] = ''.join(w['type'] for w in weaknesses)
+            card_info['weakness'] = first_weakness
 
         if card.resistance_type:
             card_info['resistance'] = card.resistance_type.initial

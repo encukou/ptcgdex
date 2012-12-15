@@ -267,6 +267,8 @@ class Weakness(TableBase):
         info=dict(description=u"The operator in the damage adjustment"))
     amount = Column(Integer, nullable=False,
         info=dict(description=u"The number in the damage adjustment"))
+    order = Column(Integer, primary_key=True, nullable=False,
+        info=dict(description=u"Order of appearance on card."))
 
 class PokemonFlavor(TableBase):
     __tablename__ = 'tcg_pokemon_flavors'
@@ -396,7 +398,8 @@ MechanicCost.mechanic = relationship(Mechanic, backref=backref(
     'costs', order_by=MechanicCost.order.asc()))
 MechanicCost.type = relationship(TCGType)
 
-Weakness.card = relationship(Card, backref='weaknesses')
+Weakness.card = relationship(Card, backref=backref(
+    'weaknesses', order_by=Weakness.order.asc()))
 Weakness.type = relationship(TCGType, backref='weaknesses')
 
 CardMechanic.card = relationship(Card, backref=backref(
