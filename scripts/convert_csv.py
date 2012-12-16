@@ -81,6 +81,11 @@ def munge_errors(data):
     elif set_name == ('mysterious-treasures', "Celebi"):
         assert data['height'] == '2.00"', `data['height']`
         data['height'] = "2'0"
+    elif set_name == ('platinum', "Scyther"):
+        assert data['resist'] == 'R-30'
+        data['resist'] = "F-30"
+    elif set_name == ('platinum', "Pluspower"):
+        data['card-name'] = "PlusPower"
     elif set_name in [
             ('platinum', "Dialga G"),
             ('platinum', "Palkia G"),
