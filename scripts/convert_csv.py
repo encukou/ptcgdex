@@ -62,6 +62,9 @@ def munge_errors(data):
     elif set_name == ('mysterious-treasures', "Mantine"):
         assert data['dex-no.'] == '225'
         data['dex-no.'] = '226'
+    elif set_name == ('great-encounters', "Linoone"):
+        assert data['dex-no.'] == '254'
+        data['dex-no.'] = '264'
     elif set_name == ('mysterious-treasures', "Larivitar"):
         assert data['card-name'] == 'Larivitar'
         data['card-name'] = 'Larvitar'

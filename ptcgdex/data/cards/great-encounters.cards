@@ -1,0 +1,4378 @@
+---
+set: great-encounters
+number: '1'
+order: 0
+name: Blaziken
+rarity: rare
+holographic: true
+class: P
+types:
+- Fire
+hp: 130
+stage: Stage 2
+evolves from: Combusken
+legal: true
+filename: 1-blaziken
+pokemon: Blaziken
+mechanics:
+- name: Fire Dance
+  cost: C
+  damage: '30'
+  type: attack
+  text: >-
+    Search your discard pile for a R Energy card and attach it
+    to 1 of your Pokémon.
+- name: Flame Kick
+  cost: RRC
+  type: attack
+  text: >-
+    Discard 2 R Energy attached to Blaziken.  This attack does
+    80 damage to 1 of your opponent's Pokémon.  (Don't apply Weakness
+    and Resistance for Benched Pokémon.)
+weakness:
+  amount: 30
+  operation: +
+  type: W
+retreat: 1
+dex number: 257
+species: Blaze
+weight: 144.6
+height: 6'3
+dex entry: >-
+  Flames sprout from it's wrists, enveloping it's knuckles. It's
+  punches scorch it's foes.
+illustrator: Kagemaru Himeno
+---
+set: great-encounters
+number: '2'
+order: 1
+name: Cresselia
+rarity: rare
+holographic: true
+class: P
+types:
+- Psychic
+hp: 80
+stage: Basic
+legal: true
+filename: 2-cresselia
+pokemon: Cresselia
+mechanics:
+- name: Moon Twinkle
+  cost: C
+  damage: '10'
+  type: attack
+  text: >-
+    If there is any Stadium card in play, remove 2 damage counters
+    from Cresselia.
+- name: Lunar Dance
+  cost: PPC
+  damage: '50'
+  type: attack
+  text: >-
+    You may discard 2 Energy cards attached to Cresselia.  If
+    you do, remove all damage counters from 1 of your Benched
+    Pokémon.
+weakness:
+  amount: 20
+  operation: +
+  type: P
+retreat: 1
+dex number: 488
+species: Lunar
+weight: 188.7
+height: 4'11
+dex entry: >-
+  Shiny particles are released from it's wings like a veil. It
+  is said to represent the crescent moon.
+illustrator: Ryo Ueda
+---
+set: great-encounters
+number: '3'
+order: 2
+name: Darkrai
+rarity: rare
+holographic: true
+class: P
+types:
+- Darkness
+hp: 70
+stage: Basic
+legal: true
+filename: 3-darkrai
+pokemon: Darkrai
+mechanics:
+- name: Reach Over
+  cost: '#'
+  type: attack
+  text: >-
+    Search your deck for an Energy card, show it to your opponent,
+    and put it into your hand.  Shuffle your deck afterward.
+- name: Darkness Pursuit
+  cost: DDD
+  damage: '50'
+  type: attack
+  text: >-
+    If the Defending Pokémon is Cresselia, this attack's base
+    damage is 100.
+weakness:
+  amount: 20
+  operation: +
+  type: F
+resistance: P-20
+retreat: 1
+dex number: 491
+species: Pitch-Black
+weight: 111.3
+height: 4'11
+dex entry: >-
+  It can lull people to sleep and make them dream. It is active
+  during nights of the new moon.
+illustrator: Masakazu Fukuda
+---
+set: great-encounters
+number: '4'
+order: 3
+name: Darkrai
+rarity: rare
+holographic: true
+class: P
+types:
+- Darkness
+hp: 80
+stage: Basic
+legal: true
+filename: 4-darkrai
+pokemon: Darkrai
+mechanics:
+- name: Darkness Roar
+  cost: C
+  damage: '10'
+  type: attack
+  text: >-
+    You may have your opponent switch the Defending Pokémon with
+    1 of his or her Benched Pokémon.
+- name: Sleep Hole
+  cost: DDC
+  damage: '40'
+  type: attack
+  text: >-
+    If the Defending Pokémon is Asleep, this attack does 40 damage
+    plus 40 more damage.  If the Defending Pokémon is not Asleep,
+    that Pokémon is now Asleep.
+weakness:
+  amount: 20
+  operation: +
+  type: F
+resistance: P-20
+retreat: 1
+dex number: 491
+species: Pitch-Black
+weight: 111.3
+height: 4'11
+dex entry: >-
+  It can lull people to sleep and make them dream. It is active
+  during nights of the new moon.
+illustrator: Ryo Ueda
+---
+set: great-encounters
+number: '5'
+order: 4
+name: Pachirisu
+rarity: rare
+holographic: true
+class: P
+types:
+- Lightning
+hp: 70
+stage: Basic
+legal: true
+filename: 5-pachirisu
+pokemon: Pachirisu
+mechanics:
+- name: Call for Family
+  cost: C
+  type: attack
+  text: >-
+    Search your deck for up to 3 Basic Pokémon and put them onto
+    your Bench.  Shuffle your deck afterward.
+- name: Smash Short
+  cost: C
+  damage: '10'
+  type: attack
+  text: >-
+    If the Defending Pokémon has a Pokémon Tool card attached
+    to it, this attack does 10 damage plus 30 more damage.  Discard
+    that Pokémon Tool card, look at your opponent's hand, and
+    discard any Pokémon Tool cards of the same name you find there.
+weakness:
+  amount: 20
+  operation: +
+  type: F
+resistance: M-20
+retreat: 1
+dex number: 417
+species: EleSquirrel
+weight: 8.6
+height: 1'4
+dex entry: >-
+  It makes fur balls that crackle with static electricity. It
+  stores them with berries in tree holes.
+illustrator: Hironobu Yoshida
+---
+set: great-encounters
+number: '6'
+order: 5
+name: Porygon-Z
+rarity: rare
+holographic: true
+class: P
+types:
+- Colorless
+hp: 110
+stage: Stage 2
+evolves from: Porygon2
+legal: true
+filename: 6-porygon-z
+pokemon: Porygon-Z
+mechanics:
+- name: Conversion
+  type: pokepower
+  text: >-
+    Once during your turn (before your attack), you may discard
+    a basic Energy card from your hand.  Porygon-Z is the same
+    type as that Energy card until the end of your turn.  This
+    power can't be used if Porygon-Z is affected by a Special
+    Condition.
+- name: Tri Attack
+  cost: CC
+  damage: 40×
+  type: attack
+  text: >-
+    Flip 3 coins.  This attack does 40 damage times the number
+    of heads.
+weakness:
+  amount: 30
+  operation: +
+  type: F
+retreat: 2
+dex number: 474
+species: Virtual
+weight: 75
+height: 2'11
+dex entry: >-
+  Additional software was installed to make it a better Pokémon.
+  It began acting oddly, however.
+illustrator: Kent Kanetsuna
+---
+set: great-encounters
+number: '7'
+order: 6
+name: Rotom
+rarity: rare
+holographic: true
+class: P
+types:
+- Lightning
+hp: 70
+stage: Basic
+legal: true
+filename: 7-rotom
+pokemon: Rotom
+mechanics:
+- name: Astonish
+  cost: CC
+  damage: '20'
+  type: attack
+  text: >-
+    Choose 1 card from your opponent's hand without looking.  Look
+    at that card you chose, then have your opponent shuffle that
+    card into his or her deck.
+- name: Telebeam
+  cost: LL
+  damage: '30'
+  type: attack
+  text: >-
+    Flip a coin.  If heads, this attack does 30 damage plus 30
+    more damage and the Defending Pokémon is now Paralyzed.
+weakness:
+  amount: 20
+  operation: +
+  type: D
+resistance: C-20
+retreat: 1
+dex number: 479
+species: Plasma
+weight: 0.7
+height: 1'0
+dex entry: >-
+  It's body is composed of plasma. It is known to infiltrate electronic
+  devices and wreak havoc.
+illustrator: Daisuke Ito
+---
+set: great-encounters
+number: '8'
+order: 7
+name: Sceptile
+rarity: rare
+holographic: true
+class: P
+types:
+- Grass
+hp: 100
+stage: Stage 2
+evolves from: Grovyle
+legal: true
+filename: 8-sceptile
+pokemon: Sceptile
+mechanics:
+- name: Wild Growth
+  type: pokebody
+  text: >-
+    Each basic G Energy card attached to your G Pokémon provides
+    GG Energy instead.  You can't use more than 1 Wild Growth
+    Poke-Body each turn.
+- name: Leaf Blade
+  cost: GGCC
+  damage: '50'
+  type: attack
+  text: >-
+    Flip a coin.  If heads, this attack does 50 damage plus 20
+    more damage.
+weakness:
+  amount: 30
+  operation: +
+  type: R
+resistance: W-20
+retreat: 3
+dex number: 254
+species: Forest
+weight: 115.1
+height: 5'7
+dex entry: >-
+  The leaves that grow on it's arms can slice down thick trees.
+  It is without peer in jungle combat.
+illustrator: Masakazu Fukuda
+---
+set: great-encounters
+number: '9'
+order: 8
+name: Swampert
+rarity: rare
+holographic: true
+class: P
+types:
+- Water
+hp: 130
+stage: Stage 2
+evolves from: Marshtomp
+legal: true
+filename: 9-swampert
+pokemon: Swampert
+mechanics:
+- name: Wash Out
+  type: pokepower
+  text: >-
+    As often as you like during your turn (before your attack),
+    you may move a W or F Energy attached to 1 of your Benched
+    Pokémon to your Active Pokémon.  This power can't be used
+    if Swampert is affected by a Special Condition.
+- name: Hammer Arm
+  cost: WWCC
+  damage: '80'
+  type: attack
+  text: >-
+    Discard the top card from your opponent's deck.
+weakness:
+  amount: 30
+  operation: +
+  type: G
+retreat: 2
+dex number: 260
+species: Mud Fish
+weight: 180.6
+height: 4'11
+dex entry: >-
+  It can swim while towing a large ship. It bashes down foes with
+  a swing of it's thick arms.
+illustrator: Midori Harada
+---
+set: great-encounters
+number: '10'
+order: 9
+name: Tangrowth
+rarity: rare
+holographic: true
+class: P
+types:
+- Grass
+hp: 110
+stage: Stage 1
+evolves from: Tangela
+legal: true
+filename: 10-tangrowth
+pokemon: Tangrowth
+mechanics:
+- name: Power Whip
+  cost: G
+  type: attack
+  text: >-
+    Choose 1 of your opponent's Pokémon.  This attack does 10
+    damage for each basic Energy card attached to Tangrowth to
+    that Pokémon.  (Don't apply Weakness and Resistance for Benched
+    Pokémon.)
+- name: Stick and Absorb
+  cost: GGCC
+  damage: '60'
+  type: attack
+  text: >-
+    Remove 3 damage counters from Tangrowth.  The Defending Pokémon
+    can't retreat during your opponent's next turn.
+weakness:
+  amount: 30
+  operation: +
+  type: R
+resistance: W-20
+retreat: 2
+dex number: 465
+species: Vine
+weight: 283.5
+height: 6'7
+dex entry: >-
+  It ensnares prey by extending arms made of vines. Losing arms
+  to predators does not trouble it.
+illustrator: Kent Kanetsuna
+---
+set: great-encounters
+number: '11'
+order: 10
+name: Togekiss
+rarity: rare
+holographic: true
+class: P
+types:
+- Colorless
+hp: 120
+stage: Stage 2
+evolves from: Togetic
+legal: true
+filename: 11-togekiss
+pokemon: Togekiss
+mechanics:
+- name: Serene Grace
+  type: pokepower
+  text: >-
+    Once during your turn, when you play Togekiss from your hand
+    to evolve 1 of your Pokémon, you may look at the top 10 cards
+    of your deck, choose as many basic Energy cards as you like,
+    and attach them to your Pokémon in any way you like.  Put
+    the other cards back on top of your deck.  Shuffle your deck
+    afterward.
+- name: Air Scroll
+  cost: CCC
+  damage: '40'
+  type: attack
+  text: >-
+    Flip a coin.  If heads, this attack does 40 damage plus 30
+    more damage.  If tails, remove 3 damage counters from Togekiss.
+weakness:
+  amount: 30
+  operation: +
+  type: L
+resistance: F-20
+retreat: 1
+dex number: 468
+species: Jubilee
+weight: 83.8
+height: 4'11
+dex entry: >-
+  It will never appear where there is strife. It's sightings have
+  become rare recently.
+illustrator: Kent Kanetsuna
+---
+set: great-encounters
+number: '12'
+order: 11
+name: Altaria
+rarity: rare
+holographic: false
+class: P
+types:
+- Colorless
+hp: 80
+stage: Stage 1
+evolves from: Swablu
+legal: true
+filename: 12-altaria
+pokemon: Altaria
+mechanics:
+- type: note
+  text: >-
+    Put this card onto your Active Gardevoir.  Gardevoir Lv.X
+    can use any attack, Poke-Power, or Poke-Body from its previous
+    level.
+- name: Dragonbreath
+  cost: C
+  damage: '40'
+  type: attack
+  text: >-
+    Flip a coin.  If tails, this attack does nothing.  If heads,
+    the Defending Pokémon is now Paralyzed.
+- name: Cotton Cloud
+  cost: CCC
+  damage: '60'
+  type: attack
+  text: >-
+    During your opponent's next turn, any damage done to Altaria
+    by attacks from your opponent's evolved Pokémon is reduced
+    by 30 (after applying Weakness and Resistance).
+weakness:
+  amount: 20
+  operation: +
+  type: C
+resistance: F-20
+retreat: 1
+dex number: 334
+species: Humming
+weight: 45.4
+height: 3'7
+dex entry: >-
+  It looks like a fluffy cloud when it is in flight. It hums with
+  it's soprano voice.
+illustrator: Kagemaru Himeno
+---
+set: great-encounters
+number: '13'
+order: 12
+name: Beedrill
+rarity: rare
+holographic: false
+class: P
+types:
+- Grass
+hp: 110
+stage: Stage 2
+evolves from: Kakuna
+legal: true
+filename: 13-beedrill
+pokemon: Beedrill
+mechanics:
+- type: note
+  text: >-
+    Put this card onto your Active Honchkrow.  Honchkrow Lv.X
+    can use any attack, Poke-Power, or Poke-Body from its previous
+    level.
+- name: Band Attack
+  cost: G
+  damage: 30×
+  type: attack
+  text: >-
+    Does 30 damage times the number of Beedrill you have in play.
+- name: Twineedle
+  cost: CCC
+  damage: 50×
+  type: attack
+  text: >-
+    Flip 2 coins.  This attack does 50 damage times the number
+    of heads.
+weakness:
+  amount: 30
+  operation: +
+  type: R
+dex number: 15
+species: Poison Bee
+weight: 65
+height: 3'3
+dex entry: >-
+  It's best attack involves flying around at high speed, striking
+  with poison needles, then flying off.
+illustrator: Kouki Saitou
+---
+set: great-encounters
+number: '14'
+order: 13
+name: Butterfree
+rarity: rare
+holographic: false
+class: P
+types:
+- Grass
+hp: 120
+stage: Stage 2
+evolves from: Metapod
+legal: true
+filename: 14-butterfree
+pokemon: Butterfree
+mechanics:
+- name: Parallel Drain
+  cost: G
+  damage: '30'
+  type: attack
+  text: >-
+    After your attack, remove from 1 of your Pokémon the number
+    of damage counters equal to the damage you did to the Defending
+    Pokémon.
+- name: Dozing Scales
+  cost: GGC
+  damage: '60'
+  type: attack
+  text: >-
+    Flip a coin.  If heads, the Defending Pokémon is now Asleep.  If
+    tails, the Defending Pokémon is now Poisoned.
+weakness:
+  amount: 30
+  operation: +
+  type: R
+dex number: 12
+species: Butterfly
+weight: 70.5
+height: 3'7
+dex entry: >-
+  It loves the honey of flowers and can locate flower patches
+  that have even tiny amounts of pollen.
+illustrator: Sumiyoshi Kizuki
+---
+set: great-encounters
+number: '15'
+order: 14
+name: Claydol
+rarity: rare
+holographic: false
+class: P
+types:
+- Fighting
+hp: 80
+stage: Stage 1
+evolves from: Baltoy
+legal: true
+filename: 15-claydol
+pokemon: Claydol
+mechanics:
+- name: Cosmic Power
+  type: pokepower
+  text: >-
+    Once during your turn (before your attack), you may choose
+    up to 2 cards from your hand and put them on the bottom of
+    your deck in any order.  If you do, draw cards until you have
+    6 cards in your hand.  This power can't be used if Claydol
+    is affected by a Special Condition.
+- name: Spinning Attack
+  cost: FC
+  damage: '40'
+  type: attack
+weakness:
+  amount: 20
+  operation: +
+  type: G
+retreat: 2
+dex number: 344
+species: Clay Doll
+weight: 238.1
+height: 4'11
+dex entry: >-
+  An ancient clay figurine that came to life as a Pokémon from
+  exposure to a mysterious ray of light.
+illustrator: Midori Harada
+---
+set: great-encounters
+number: '16'
+order: 15
+name: Dialga
+rarity: rare
+holographic: false
+class: P
+types:
+- Metal
+hp: 90
+stage: Basic
+legal: true
+filename: 16-dialga
+reprint of: 'diamond-and-pearl: 1-dialga as a non-holo with different
+  artwork'
+pokemon: Dialga
+mechanics:
+- name: Time Bellow
+  cost: M
+  damage: '10'
+  type: attack
+  text: >-
+    Draw a card.
+- name: Flash Cannon
+  cost: MMC
+  damage: '40'
+  type: attack
+  text: >-
+    You may return all Energy cards attached to Dialga to your
+    hand.  If you do, remove the highest Stage Evolution card
+    from the Defending Pokémon and shuffle that card into your
+    opponent's deck.
+weakness:
+  amount: 20
+  operation: +
+  type: R
+resistance: P-20
+retreat: 2
+dex number: 483
+species: Temporal
+weight: 1505.8
+height: 17'9
+dex entry: >-
+  It has the power to control time. It appears in Sinnoh-region
+  myths as an ancient deity.
+illustrator: Daisuke Ito
+---
+set: great-encounters
+number: '17'
+order: 16
+name: Exploud
+rarity: rare
+holographic: false
+class: P
+types:
+- Colorless
+hp: 130
+stage: Stage 2
+evolves from: Loudred
+legal: true
+filename: 17-exploud
+pokemon: Exploud
+mechanics:
+- name: Ambient Noise
+  cost: CC
+  type: attack
+  text: >-
+    Flip 2 coins.  If the first coin is heads, this attack does
+    50 damage to the Defending Pokémon.  If the first coin is
+    tails, this attack does 20 damage to each of your opponent's
+    Benched Pokémon.  (Don't apply Weakness and Resistance for
+    Benched Pokémon.)  If the second coin is heads, the Defending
+    Pokémon is now Confused.  If the second coin is tails, your
+    opponent can't play any Trainer, Supporter, or Stadium cards
+    from his or her hand during your opponent's next turn.
+- name: Hyper Voice
+  cost: CCCC
+  damage: '70'
+  type: attack
+weakness:
+  amount: 30
+  operation: +
+  type: F
+retreat: 3
+dex number: 295
+species: Loud Noise
+weight: 185.2
+height: 4'11
+dex entry: >-
+  It's howls can be heard over six miles away. It emits all sorts
+  of noises from the ports on it's body.
+illustrator: Daisuke Ito
+---
+set: great-encounters
+number: '18'
+order: 17
+name: Houndoom
+rarity: rare
+holographic: false
+class: P
+types:
+- Darkness
+hp: 90
+stage: Stage 1
+evolves from: Houndour
+legal: true
+filename: 18-houndoom
+pokemon: Houndoom
+mechanics:
+- name: Dark Fang
+  cost: D
+  damage: '20'
+  type: attack
+  text: >-
+    Choose 1 card from your opponent's hand without looking and
+    discard it.
+- name: Black Fire
+  cost: RC
+  damage: '40'
+  type: attack
+  text: >-
+    You may discard a R or D Energy attached to Houndoom.  If
+    you discard a R Energy, the Defending Pokémon is now Burned.  If
+    you discard a D Energy, this attack does 40 damage plus 30
+    more damage.
+weakness:
+  amount: 20
+  operation: +
+  type: W
+resistance: P-20
+retreat: 1
+dex number: 229
+species: Dark
+weight: 77.2
+height: 4'7
+dex entry: >-
+  Long ago, people imagined it's eerie howls to be the call of
+  the grim reaper.
+illustrator: Ken Sugimori
+---
+set: great-encounters
+number: '19'
+order: 18
+name: Hypno
+rarity: rare
+holographic: false
+class: P
+types:
+- Psychic
+hp: 80
+stage: Stage 1
+evolves from: Drowzee
+legal: true
+filename: 19-hypno
+pokemon: Hypno
+mechanics:
+- name: Dream Catcher
+  cost: CC
+  type: attack
+  text: >-
+    If the Defending Pokémon is Asleep, move all damage counters
+    from Hypno to the Defending Pokémon.
+- name: Hypnoblast
+  cost: PPC
+  damage: '60'
+  type: attack
+  text: >-
+    The Defending Pokémon is now Asleep.
+weakness:
+  amount: 20
+  operation: +
+  type: P
+retreat: 2
+dex number: 97
+species: Hypnosis
+weight: 166.7
+height: 5'3
+dex entry: >-
+  Seeing it's swinging pendulum can induce sleep in three seconds,
+  even in someone who just woke up.
+illustrator: Mitsuhiro Arita
+---
+set: great-encounters
+number: '20'
+order: 19
+name: Kingler
+rarity: rare
+holographic: false
+class: P
+types:
+- Water
+hp: 90
+stage: Stage 1
+evolves from: Krabby
+legal: true
+filename: 20-kingler
+pokemon: Kingler
+mechanics:
+- name: Crabhammer
+  cost: CC
+  damage: '30'
+  type: attack
+- name: Scissor Blow
+  cost: WWC
+  damage: '80'
+  type: attack
+  text: >-
+    If the Defending Pokémon would be Knocked Out by this attack,
+    Kingler does 30 damage to itself.
+weakness:
+  amount: 20
+  operation: +
+  type: L
+retreat: 3
+dex number: 99
+species: Pincer
+weight: 132.3
+height: 4'3
+dex entry: >-
+  The largest pincer has 10,000-horsepower strength. However,
+  it is so heavy, it is difficult to aim.
+illustrator: Mitsuhiro Arita
+---
+set: great-encounters
+number: '21'
+order: 20
+name: Lapras
+rarity: rare
+holographic: false
+class: P
+types:
+- Water
+hp: 80
+stage: Basic
+legal: true
+filename: 21-lapras
+pokemon: Lapras
+mechanics:
+- name: Carry In
+  cost: W
+  type: attack
+  text: >-
+    Search your deck for a Pokémon Tool card, a Supporter card,
+    and a basic Energy card, show them to your opponent, and put
+    them into your hand.  Shuffle your deck afterward.
+- name: Wave Splash
+  cost: WC
+  damage: '20'
+  type: attack
+weakness:
+  amount: 20
+  operation: +
+  type: L
+retreat: 1
+dex number: 131
+species: Transport
+weight: 485
+height: 8'2
+dex entry: >-
+  It loves crossing the sea with people and Pokémon on it's back.
+  It understands human speech.
+illustrator: Atsuko Nishida
+---
+set: great-encounters
+number: '22'
+order: 21
+name: Latias
+rarity: rare
+holographic: false
+class: P
+types:
+- Colorless
+hp: 80
+stage: Basic
+legal: true
+filename: 22-latias
+pokemon: Latias
+mechanics:
+- name: Miraculous Light
+  cost: C
+  damage: '10'
+  type: attack
+  text: >-
+    Remove 2 damage counters and all Special Conditions from Latias.
+- name: Mist Ball
+  cost: RWC
+  damage: '80'
+  type: attack
+  text: >-
+    Discard a R Energy and a W Energy attached to Latias.
+weakness:
+  amount: 20
+  operation: +
+  type: C
+resistance: F-20
+retreat: 1
+dex number: 380
+species: Eon
+weight: 88.2
+height: 4'7
+dex entry: >-
+  It's body is covered with a down that can refract light in such
+  a way that it becomes invisible.
+illustrator: Daisuke Ito
+---
+set: great-encounters
+number: '23'
+order: 22
+name: Latios
+rarity: rare
+holographic: false
+class: P
+types:
+- Colorless
+hp: 90
+stage: Basic
+legal: true
+filename: 23-latios
+pokemon: Latios
+mechanics:
+- name: Energy Draw
+  cost: C
+  damage: '10'
+  type: attack
+  text: >-
+    Flip a coin.  If heads, search your deck for a basic Energy
+    card and attach it to Latios.  Shuffle your deck afterward.
+- name: Luster Purge
+  cost: GLCC
+  damage: '120'
+  type: attack
+  text: >-
+    Discard 3 Energy attached to Latios
+weakness:
+  amount: 20
+  operation: +
+  type: C
+resistance: F-20
+retreat: 2
+dex number: 381
+species: Eon
+weight: 132.3
+height: 6'7
+dex entry: >-
+  A highly intelligent Pokémon. By holding back it's wings in
+  flight, it can overtake jet planes.
+illustrator: Daisuke Ito
+---
+set: great-encounters
+number: '24'
+order: 23
+name: Mawile
+rarity: rare
+holographic: false
+class: P
+types:
+- Metal
+hp: 70
+stage: Basic
+legal: true
+filename: 24-mawile
+pokemon: Mawile
+mechanics:
+- name: Pick Out
+  cost: '#'
+  type: attack
+  text: >-
+    Choose 1 face-down Prize card (yours or your opponent's) and
+    put it face up.  If that card is a Supporter card, use the
+    effect of that card as the effect of this attack.  (That card
+    remains face up for the rest of the game.)
+- name: Jaw Bite
+  cost: MC
+  damage: '20'
+  type: attack
+  text: >-
+    During your next turn, if an attack does damage to the Defending
+    Pokémon (after applying Weakness and Resistance), that attack
+    does 20 more damage.
+weakness:
+  amount: 10
+  operation: +
+  type: R
+resistance: P-20
+retreat: 1
+dex number: 303
+species: Deceiver
+weight: 25.4
+height: 2'0
+dex entry: >-
+  Attached to it's head are a huge set of jaws formed by horns.
+  It can chew through iron beams.
+illustrator: Midori Harada
+---
+set: great-encounters
+number: '25'
+order: 24
+name: Milotic
+rarity: rare
+holographic: false
+class: P
+types:
+- Water
+hp: 90
+stage: Stage 1
+evolves from: Feebas
+legal: true
+filename: 25-milotic
+pokemon: Milotic
+mechanics:
+- name: Marvel Scale
+  type: pokebody
+  text: >-
+    Prevent all effects of attacks, including damage, done to
+    Milotic by your opponent's Pokémon LV.X.
+- name: Twister
+  cost: WCC
+  damage: '50'
+  type: attack
+  text: >-
+    Flip 2 coins.  If both are tails, this attack does nothing.  For
+    each heads, discard an Energy attached to the Defending Pokémon.
+weakness:
+  amount: 20
+  operation: +
+  type: L
+retreat: 2
+dex number: 350
+species: Tender
+weight: 357.1
+height: 20'4
+dex entry: >-
+  When people bicker, it is said to arise from the depths of lakes
+  to becalm violent hearts.
+illustrator: Suwama Chiaki
+---
+set: great-encounters
+number: '26'
+order: 25
+name: Palkia
+rarity: rare
+holographic: false
+class: P
+types:
+- Water
+hp: 90
+stage: Basic
+legal: true
+filename: 26-palkia
+reprint of: 'diamond-and-pearl: 11-palkia as a non-holo with different
+  artwork'
+pokemon: Palkia
+mechanics:
+- name: Spacial Rend
+  cost: W
+  damage: '10'
+  type: attack
+  text: >-
+    Search your deck for a Stadium card, show it to your opponent,
+    and put it into your hand.  Shuffle your deck afterward.  If
+    there is a Stadium card in play, discard it.
+- name: Transback
+  cost: WWC
+  damage: '40'
+  type: attack
+  text: >-
+    You may flip a coin.  If heads, discard all Energy attached
+    to Palkia and put the Defending Pokémon and all cards attached
+    to it on top of your opponent's deck.  Your opponent shuffles
+    his or her deck afterward.
+weakness:
+  amount: 20
+  operation: +
+  type: L
+retreat: 2
+dex number: 484
+species: Spatial
+weight: 740.8
+height: 13'9
+dex entry: >-
+  It has the ability to distort space. It is described as a deity
+  in Sinnoh-region mythology.
+illustrator: Daisuke Ito
+---
+set: great-encounters
+number: '27'
+order: 26
+name: Primeape
+rarity: rare
+holographic: false
+class: P
+types:
+- Fighting
+hp: 90
+stage: Stage 1
+evolves from: Mankey
+legal: true
+filename: 27-primeape
+pokemon: Primeape
+mechanics:
+- name: Anger Point
+  type: pokebody
+  text: >-
+    If Primeape has any damage counters on it, Primeape's atacks
+    do 40 more damage to the Active Pokémon (before applying Weakness
+    and Resistance).
+- name: Whump
+  cost: FCC
+  damage: '50'
+  type: attack
+  text: >-
+    Primeape is now Confused. Flip a coin.  If heads, the Defending
+    Pokémon can't attack during your opponent's next turn.
+weakness:
+  amount: 20
+  operation: +
+  type: P
+retreat: 1
+dex number: 57
+species: Pig Monkey
+weight: 70.5
+height: 3'3
+dex entry: >-
+  It grows angry if you see it's eyes and gets angrier if you
+  run. If you beat it, it gets even madder.
+illustrator: Kagemaru Himeno
+---
+set: great-encounters
+number: '28'
+order: 27
+name: Slowking
+rarity: rare
+holographic: false
+class: P
+types:
+- Psychic
+hp: 80
+stage: Stage 1
+evolves from: Slowpoke
+legal: true
+filename: 28-slowking
+pokemon: Slowking
+mechanics:
+- name: Trump Card
+  type: pokepower
+  text: >-
+    Once during your turn (before your attack),  if any of your
+    Pokémon were Knocked Out during your opponent's last turn,
+    search your deck for any 1 card and put it into your hand.  Shuffle
+    your deck afterward.  This power can't be used if Slowking
+    is affected by a Special Condition.
+- name: Psych Up
+  cost: PC
+  damage: '30'
+  type: attack
+  text: >-
+    During your next turn, Slowking's Psych Up attack's base damage
+    is 60.
+weakness:
+  amount: 20
+  operation: +
+  type: P
+retreat: 2
+dex number: 199
+species: Royal
+weight: 175.3
+height: 6'7
+dex entry: >-
+  Being bitten by SHELLDER gave it intelligence comparable to
+  that of award-winning scientists.
+illustrator: Ken Sugimori
+---
+set: great-encounters
+number: '29'
+order: 28
+name: Unown H
+rarity: rare
+holographic: false
+class: P
+types:
+- Psychic
+hp: 60
+stage: Basic
+legal: true
+filename: 29-unown-h
+pokemon: Unown
+mechanics:
+- name: HEAL
+  type: pokepower
+  text: >-
+    Once during your turn (before your attack), if you have Unown
+    H, Unown E, Unown A, and Unown L on your Bench, you may remove
+    all Special Conditions from 1 of your Active Pokémon.
+- name: Hidden Power
+  cost: P
+  damage: '30'
+  type: attack
+  text: >-
+    Discard a card from your hand.  (If you can't discard a card
+    from your hand, this attack does nothing.)
+weakness:
+  amount: 10
+  operation: +
+  type: P
+retreat: 1
+dex number: 201
+species: Symbol
+weight: 11
+height: 1'8
+dex entry: >-
+  Shaped like ancient writing, it is a huge mystery whether language
+  or UNOWN came first.
+illustrator: Daisuke Ito
+---
+set: great-encounters
+number: '30'
+order: 29
+name: Wailord
+rarity: rare
+holographic: false
+class: P
+types:
+- Water
+hp: 200
+stage: Stage 1
+evolves from: Wailmer
+legal: true
+filename: 30-wailord
+pokemon: Wailord
+mechanics:
+- name: Sleeping Pulse
+  type: pokebody
+  text: >-
+    As long as Wailord remains Asleep between turns, remove 1
+    damage counter from Wailord.
+- name: Sink Deep
+  cost: WWWC
+  damage: '60'
+  type: attack
+  text: >-
+    If Wailord has any damage counters on it, Wailord is now Asleep.
+weakness:
+  amount: 2
+  operation: ×
+  type: L
+retreat: 4
+dex number: 321
+species: Float Whale
+weight: 877.4
+height: 47'7
+dex entry: >-
+  The biggest of all Pokémon. It can dive to a depth of almost
+  10,000 feet on only one breath.
+illustrator: Mitsuhiro Arita
+---
+set: great-encounters
+number: '31'
+order: 30
+name: Weezing
+rarity: rare
+holographic: false
+class: P
+types:
+- Psychic
+hp: 80
+stage: Stage 1
+evolves from: Koffing
+legal: true
+filename: 31-weezing
+pokemon: Weezing
+mechanics:
+- name: Toxic Virus
+  type: pokebody
+  text: >-
+    At any time between turns, each player puts 1 more damage
+    counter on his or her Poisoned Pokémon.
+- name: Offensive Gas
+  cost: PC
+  damage: '30'
+  type: attack
+  text: >-
+    Flip a coin.  If heads, the Defending Pokémon is now Confused
+    and Poisoned.
+weakness:
+  amount: 20
+  operation: +
+  type: P
+retreat: 2
+dex number: 110
+species: Poison Gas
+weight: 20.9
+height: 3'11
+dex entry: >-
+  It grows by feeding on on gases released by garbage. Though
+  very rare, triplets have been found.
+illustrator: Kouki Saitou
+---
+set: great-encounters
+number: '32'
+order: 31
+name: Wigglytuff
+rarity: rare
+holographic: false
+class: P
+types:
+- Colorless
+hp: 90
+stage: Stage 1
+evolves from: Jigglypuff
+legal: true
+filename: 32-wigglytuff
+pokemon: Wigglytuff
+mechanics:
+- name: Good Night Melody
+  type: pokepower
+  text: >-
+    Once during your turn (before your attack), you may use this
+    power.  Each Active Pokémon (both yours and your opponent's)
+    is now Asleep.  This power can't be used if Wigglytuff is
+    affected by a Special Condition.
+- name: Balloon Attack
+  cost: CC
+  damage: '40'
+  type: attack
+  text: >-
+    If Igglybuff is anywhere under Wigglytuff, this attack does
+    40 damage plus 20 more damage.
+weakness:
+  amount: 20
+  operation: +
+  type: F
+retreat: 1
+dex number: 40
+species: Balloon
+weight: 26.5
+height: 3'3
+dex entry: >-
+  It's fine fur feels sublime to the touch. It can expand it's
+  body by inhaling air.
+illustrator: Kagemaru Himeno
+---
+set: great-encounters
+number: '33'
+order: 32
+name: Arbok
+rarity: uncommon
+holographic: false
+class: P
+types:
+- Psychic
+hp: 80
+stage: Stage 1
+evolves from: Ekans
+legal: true
+filename: 33-arbok
+pokemon: Arbok
+mechanics:
+- name: Deadly Poison
+  cost: P
+  damage: '10'
+  type: attack
+  text: >-
+    If the Defending Pokémon is Poisoned, this attack does 10
+    damage plus 40 more damage.  If the Defending Pokémon is not
+    Poisoned, that Pokémon is now Poisoned.
+- name: Wrap
+  cost: CCC
+  damage: '50'
+  type: attack
+  text: >-
+    Flip a coin.  If heads, the Defending Pokémon is now Paralyzed.
+weakness:
+  amount: 20
+  operation: +
+  type: P
+retreat: 2
+dex number: 24
+species: Cobra
+weight: 143.3
+height: 11'6
+dex entry: >-
+  The pattern on it's belly is for intimidation. It constricts
+  foes while they are frozen in fear.
+illustrator: Ken Sugimori
+---
+set: great-encounters
+number: '34'
+order: 33
+name: Cacturne
+rarity: uncommon
+holographic: false
+class: P
+types:
+- Darkness
+hp: 80
+stage: Stage 1
+evolves from: Cacnea
+legal: true
+filename: 34-cacturne
+pokemon: Cacturne
+mechanics:
+- name: Pin Missile
+  cost: CC
+  damage: 20×
+  type: attack
+  text: >-
+    Flip 3 coins.  This attack does 20 damage times the number
+    of heads.
+- name: Needle Arm
+  cost: DCC
+  damage: '50'
+  type: attack
+  text: >-
+    If the Defending Pokémon already has any damage counters on
+    it, this attack does 50 damage plus 20 more damage.
+weakness:
+  amount: 20
+  operation: +
+  type: R
+resistance: P-20
+retreat: 1
+dex number: 332
+species: Scarecrow
+weight: 170.6
+height: 4'3
+dex entry: >-
+  It becomes active at night, seeking prey that is exhausted from
+  the day's desert heat.
+illustrator: Midori Harada
+---
+set: great-encounters
+number: '35'
+order: 34
+name: Combusken
+rarity: uncommon
+holographic: false
+class: P
+types:
+- Fire
+hp: 80
+stage: Stage 1
+evolves from: Torchic
+legal: true
+filename: 35-combusken
+pokemon: Combusken
+mechanics:
+- name: Bulk Up
+  cost: R
+  damage: '30'
+  type: attack
+  text: >-
+    During your opponent's next turn, each of Combusken's attacks
+    does 30 more damage to the Defending Pokémon (before applying
+    Weakness and Resistance).
+- name: Double Kick
+  cost: RCC
+  damage: 50×
+  type: attack
+  text: >-
+    Flip 2 coins.  This attack does 50 damage times the number
+    of heads.
+weakness:
+  amount: 20
+  operation: +
+  type: W
+retreat: 1
+dex number: 256
+species: Young Fowl
+weight: 43
+height: 2'11
+dex entry: >-
+  It's kicking mastery lets it loose 10 kicks per second. It emits
+  sharp cries to intimidate foes.
+illustrator: Naoyo Kimura
+---
+set: great-encounters
+number: '36'
+order: 35
+name: Delibird
+rarity: uncommon
+holographic: false
+class: P
+types:
+- Water
+hp: 70
+stage: Basic
+legal: true
+filename: 36-delibird
+pokemon: Delibird
+mechanics:
+- name: Present
+  cost: '#'
+  type: attack
+  text: >-
+    Flip a coin.  If heads, search your deck for any 1 card and
+    put it into your hand.  Shuffle your deck afterward.
+- name: Ice Ball
+  cost: W
+  damage: '20'
+  type: attack
+weakness:
+  amount: 20
+  operation: +
+  type: M
+retreat: 1
+dex number: 225
+species: Delivery
+weight: 35.3
+height: 2'11
+dex entry: >-
+  It carries food rolled up in it's tail. It has the habit of
+  sharing food with people lost in mountians.
+illustrator: Masakazu Fukuda
+---
+set: great-encounters
+number: '37'
+order: 36
+name: Floatzel
+rarity: uncommon
+holographic: false
+class: P
+types:
+- Water
+hp: 80
+stage: Stage 1
+evolves from: Buizel
+legal: true
+filename: 37-floatzel
+pokemon: Floatzel
+mechanics:
+- name: Agility
+  cost: CC
+  damage: '20'
+  type: attack
+  text: >-
+    Flip a coin.  If heads, prevent all effects of an attack,
+    including damage, done to Floatzel during your opponent's
+    next turn.
+- name: Aqua Jet
+  cost: WWC
+  damage: '60'
+  type: attack
+  text: >-
+    Flip a coin.  If heads, this attack does 10 damage to 1 of
+    your opponent's Benched Pokémon.  (Don't apply Weakness and
+    Resistance for Benched Pokémon.)
+weakness:
+  amount: 20
+  operation: +
+  type: L
+retreat: 1
+dex number: 419
+species: Sea Weasel
+weight: 73.9
+height: 3'7
+dex entry: >-
+  It floats using it's well-developed floatation sac. It assists
+  in the rescues of drowning people.
+illustrator: Kouki Saitou
+---
+set: great-encounters
+number: '38'
+order: 37
+name: Gorebyss
+rarity: uncommon
+holographic: false
+class: P
+types:
+- Water
+hp: 80
+stage: Stage 1
+evolves from: Clamperl
+legal: true
+filename: 38-gorebyss
+pokemon: Gorebyss
+mechanics:
+- name: Sweet Temptation
+  cost: '#'
+  type: attack
+  text: >-
+    Switch 1 of your opponent's Benched Pokémon with 1 of the
+    Defending Pokémon.  This attack does 10 damage to the new
+    Defending Pokémon.
+- name: Psychic Snap
+  cost: WC
+  damage: '30'
+  type: attack
+  text: >-
+    If Gorebyss has any P Energy attached to it, this attack does
+    30 damage plus 20 more damage and the Defending Pokémon is
+    now Confused.
+weakness:
+  amount: 20
+  operation: +
+  type: L
+dex number: 368
+species: South Sea
+weight: 49.8
+height: 5'11
+dex entry: >-
+  It lives at the bottom of the sea. in the springtime, it's pink
+  body turns more vivid for some reason.
+illustrator: Ken Sugimori
+---
+set: great-encounters
+number: '39'
+order: 38
+name: Granbull
+rarity: uncommon
+holographic: false
+class: P
+types:
+- Colorless
+hp: 90
+stage: Stage 1
+evolves from: Snubbull
+legal: true
+filename: 39-granbull
+pokemon: Granbull
+mechanics:
+- name: Daunt
+  cost: CC
+  damage: '30'
+  type: attack
+  text: >-
+    During your opponent's next turn, any damage done to Granbull
+    by attacks from the Defending Pokémon is reduced by 20 (before
+    applying Weakness and Resistance).
+- name: Rage
+  cost: CCCC
+  damage: '40'
+  type: attack
+  text: >-
+    Does 40 damage plus 10 more damage for each damage counter
+    on Granbull.
+weakness:
+  amount: 20
+  operation: +
+  type: F
+retreat: 2
+dex number: 210
+species: Fairy
+weight: 107.4
+height: 4'7
+dex entry: >-
+  It is timid in spite of it's looks. If it becomes enraged, however,
+  it will strike with it's huge fangs.
+illustrator: Mitsuhiro Arita
+---
+set: great-encounters
+number: '40'
+order: 39
+name: Grovyle
+rarity: uncommon
+holographic: false
+class: P
+types:
+- Grass
+hp: 80
+stage: Stage 1
+evolves from: Treecko
+legal: true
+filename: 40-grovyle
+pokemon: Grovyle
+mechanics:
+- name: Greenness
+  cost: '#'
+  type: attack
+  text: >-
+    Search your deck for up to 2 G Energy cards, show them to
+    your opponent, and put them into your hand.  Shuffle your
+    deck afterward.
+- name: Poison Breath
+  cost: GG
+  damage: '30'
+  type: attack
+  text: >-
+    The Defending Pokémon is now Poisoned.
+weakness:
+  amount: 20
+  operation: +
+  type: R
+resistance: W-20
+retreat: 1
+dex number: 253
+species: Wood Gecko
+weight: 47.6
+height: 2'11
+dex entry: >-
+  It lives in dense jungles. While closing in on it's prey, it
+  leaps from branch to branch.
+illustrator: Kagemaru Himeno
+---
+set: great-encounters
+number: '41'
+order: 40
+name: Hariyama
+rarity: uncommon
+holographic: false
+class: P
+types:
+- Fighting
+hp: 100
+stage: Stage 1
+evolves from: Makuhita
+legal: true
+filename: 41-hariyama
+pokemon: Hariyama
+mechanics:
+- name: Palm Strike
+  cost: FC
+  damage: '20'
+  type: attack
+  text: >-
+    Flip a coin.  If heads, this attack does 20 damage plus 40
+    more damage.
+- name: Spirited Throw
+  cost: FFC
+  damage: '50'
+  type: attack
+  text: >-
+    If Hariyama has fewer remaining HP than the Defending Pokémon,
+    this attack's base damage is 80.
+weakness:
+  amount: 30
+  operation: +
+  type: P
+retreat: 3
+dex number: 297
+species: Arm Thrust
+weight: 559.5
+height: 7'7
+dex entry: >-
+  It loves to match power with big-bodied Pokémon. It can knock
+  a truck flying with it's arm thrusts.
+illustrator: Mitsuhiro Arita
+---
+set: great-encounters
+number: '42'
+order: 41
+name: Huntail
+rarity: uncommon
+holographic: false
+class: P
+types:
+- Water
+hp: 90
+stage: Stage 1
+evolves from: Clamperl
+legal: true
+filename: 42-huntail
+pokemon: Huntail
+mechanics:
+- name: Scary Face
+  cost: '#'
+  type: attack
+  text: >-
+    Flip a coin.  If heads, the Defending Pokémon can't attack
+    or retreat during your opponent's next turn.
+- name: Threaten and Drop
+  cost: WC
+  damage: '30'
+  type: attack
+  text: >-
+    If Huntail has any D Energy attached to it, this attack does
+    30 damage plus 20 more damage and discard a Special Energy
+    card, if any, attached to the Defending Pokémon.
+weakness:
+  amount: 20
+  operation: +
+  type: L
+retreat: 1
+dex number: 367
+species: Deep Sea
+weight: 59.5
+height: 5'7
+dex entry: >-
+  It lives deep in the sea. With a tail shaped like a small fish,
+  it attracts unsuspecting prey.
+illustrator: Ken Sugimori
+---
+set: great-encounters
+number: '43'
+order: 42
+name: Linoone
+rarity: uncommon
+holographic: false
+class: P
+types:
+- Colorless
+hp: 80
+stage: Stage 1
+evolves from: Zigzagoon
+legal: true
+filename: 43-linoone
+pokemon: Linoone
+mechanics:
+- name: Switcheroo
+  cost: '#'
+  type: attack
+  text: >-
+    Move a Pokémon Tool card attached to 1 of your opponent's
+    Pokémon to another of your opponent's Pokémon (excluding Pokémon
+    that already has a Pokémon Tool attached to it).  (If an effect
+    of this attack is prevented, this attack does nothing.)
+- name: Overrun
+  cost: CCC
+  damage: '30'
+  type: attack
+  text: >-
+    Does 30 damage to 1 of your opponent's Benched Pokémon.  (Don't
+    apply Weakness and Resistance for Benched Pokémon.)
+weakness:
+  amount: 20
+  operation: +
+  type: F
+dex number: 264
+species: Rushing
+weight: 71.6
+height: 1'8
+dex entry: >-
+  It charges prey at speeds over 60 mph. However, because it can
+  only run straight, it often fails.
+illustrator: Kouki Saitou
+---
+set: great-encounters
+number: '44'
+order: 43
+name: Loudred
+rarity: uncommon
+holographic: false
+class: P
+types:
+- Colorless
+hp: 80
+stage: Stage 1
+evolves from: Whismur
+legal: true
+filename: 44-loudred
+pokemon: Loudred
+mechanics:
+- name: Bass Control
+  cost: CC
+  type: attack
+  text: >-
+    Choose 1 of your opponent's Pokémon.  This attack does 20
+    damage to that Pokémon.  (Don't apply Weakness and Resistance
+    for Benched Pokémon.)
+- name: Stomp
+  cost: CCC
+  damage: '40'
+  type: attack
+  text: >-
+    Flip a coin.  If heads, this attack does 40 damage plus 20
+    more damage.
+weakness:
+  amount: 20
+  operation: +
+  type: F
+retreat: 2
+dex number: 294
+species: Big Voice
+weight: 89.3
+height: 3'3
+dex entry: >-
+  The shock waves from it's cries can tip over trucks. It stamps
+  it's feet to power up.
+illustrator: Ken Sugimori
+---
+set: great-encounters
+number: '45'
+order: 44
+name: Magcargo
+rarity: uncommon
+holographic: false
+class: P
+types:
+- Fire
+hp: 90
+stage: Stage 1
+evolves from: Slugma
+legal: true
+filename: 45-magcargo
+pokemon: Magcargo
+mechanics:
+- name: Magma Armor
+  type: pokebody
+  text: >-
+    Magcargo can't be Asleep or Paralyzed.
+- name: Lava Plume
+  cost: RRC
+  damage: '60'
+  type: attack
+  text: >-
+    You may discard the top card of your deck. If you do, the
+    Defending Pokémon is now Burned.
+weakness:
+  amount: 20
+  operation: +
+  type: W
+retreat: 3
+dex number: 219
+species: Lava
+weight: 121.3
+height: 2'7
+dex entry: >-
+  It's body temperature is roughly 18,000 degrees F. Flames spout
+  from gaps in it's hardened shell.
+illustrator: Mitsuhiro Arita
+---
+set: great-encounters
+number: '46'
+order: 45
+name: Marshtomp
+rarity: uncommon
+holographic: false
+class: P
+types:
+- Water
+hp: 90
+stage: Stage 1
+evolves from: Mudkip
+legal: true
+filename: 46-marshtomp
+pokemon: Marshtomp
+mechanics:
+- name: Pound
+  cost: CC
+  damage: '20'
+  type: attack
+- name: Muddy Bomb
+  cost: FCC
+  type: attack
+  text: >-
+    Choose 1 of your opponent's Pokémon.  This attack does 30
+    damage to that Pokémon and 10 damage to each of your opponent's
+    other Pokémon.  (Don't apply Weakness and Resistance for Benched
+    Pokémon.)
+weakness:
+  amount: 20
+  operation: +
+  type: G
+retreat: 2
+dex number: 259
+species: Mud Fish
+weight: 61.7
+height: 2'4
+dex entry: >-
+  It's sturdy legs give it sure footing, even in mud. It burrows
+  into dirt to sleep.
+illustrator: Sumiyoshi Kizuki
+---
+set: great-encounters
+number: '47'
+order: 46
+name: Metapod
+rarity: uncommon
+holographic: false
+class: P
+types:
+- Grass
+hp: 70
+stage: Stage 1
+evolves from: Caterpie
+legal: true
+filename: 47-metapod
+pokemon: Metapod
+mechanics:
+- name: Emerge
+  type: pokepower
+  text: >-
+    Once during your turn (before your attack), if Metapod is
+    your Active Pokémon, you may flip a coin.  If heads, search
+    your deck for a card that evolves from Metapod and put it
+    onto Metapod.  (This counts as evolving Metapod.)  Shuffle
+    your deck afterward.  This power can't be used if Metapod
+    is affected by a Special Condition.
+- name: Ram
+  cost: GC
+  damage: '30'
+  type: attack
+weakness:
+  amount: 20
+  operation: +
+  type: R
+retreat: 2
+dex number: 11
+species: Cocoon
+weight: 21.8
+height: 2'4
+dex entry: >-
+  A steel-hard shell protects it's tender body. It quietly endures
+  hardships while awaiting evolution.
+illustrator: Ken Sugimori
+---
+set: great-encounters
+number: '48'
+order: 47
+name: Pelipper
+rarity: uncommon
+holographic: false
+class: P
+types:
+- Water
+hp: 80
+stage: Stage 1
+evolves from: Wingull
+legal: true
+filename: 48-pelipper
+pokemon: Pelipper
+mechanics:
+- name: Guzzle
+  cost: '#'
+  type: attack
+  text: >-
+    Choose up to 2 basic W Energy cards from your hand and attach
+    them to Pelipper.  Remove 2 damage counters for each Energy
+    card attached in this way.
+- name: Jet Return
+  cost: WCC
+  damage: 30×
+  type: attack
+  text: >-
+    Does 30 damage times the number of Energy cards attached to
+    Pelipper.  Then, put all Energy cards attached to Pelipper
+    on top of your deck.  Shuffle your deck afterward.
+weakness:
+  amount: 20
+  operation: +
+  type: L
+resistance: F-20
+retreat: 1
+dex number: 279
+species: Water Bird
+weight: 61.7
+height: 3'11
+dex entry: >-
+  It dips it's large bill into the sea, then scoops up numerous
+  prey along with water.
+illustrator: Ken Sugimori
+---
+set: great-encounters
+number: '49'
+order: 48
+name: Porygon2
+rarity: uncommon
+holographic: false
+class: P
+types:
+- Colorless
+hp: 70
+stage: Stage 1
+evolves from: Porygon
+legal: true
+filename: 49-porygon2
+pokemon: Porygon2
+mechanics:
+- name: Download
+  type: pokepower
+  text: >-
+    Once during your turn (before your attack), you may discard
+    a Supporter card from your hand and use the effect of that
+    card as the effet of this power.  This power can't be used
+    if Porygon2 is affected by a Special Condition.
+- name: Speed Attack
+  cost: CC
+  damage: '30'
+  type: attack
+weakness:
+  amount: 20
+  operation: +
+  type: F
+retreat: 2
+dex number: 233
+species: Virtual
+weight: 71.6
+height: 2'0
+dex entry: >-
+  With planetary development software installed, it became capable
+  of working in space.
+illustrator: Kent Kanetsuna
+---
+set: great-encounters
+number: '50'
+order: 49
+name: Purugly
+rarity: uncommon
+holographic: false
+class: P
+types:
+- Colorless
+hp: 90
+stage: Stage 1
+evolves from: Glameow
+legal: true
+filename: 50-purugly
+pokemon: Purugly
+mechanics:
+- name: Swagger
+  cost: CC
+  damage: '20'
+  type: attack
+  text: >-
+    Flip a coin.  If heads, discard an Energy attached to the
+    Defending Pokémon.
+- name: Fury Swipes
+  cost: CCC
+  damage: 40×
+  type: attack
+  text: >-
+    Flip 3 coins.  This attack does 40 damage times the number
+    of heads.
+weakness:
+  amount: 20
+  operation: +
+  type: F
+retreat: 2
+dex number: 432
+species: Tiger Cat
+weight: 96.6
+height: 3'3
+dex entry: >-
+  It is a brazen brute that barges it's way into another Pokémon's
+  nest and claims it as it's own.
+illustrator: Ken Sugimori
+---
+set: great-encounters
+number: '51'
+order: 50
+name: Relicanth
+rarity: uncommon
+holographic: false
+class: P
+types:
+- Water
+hp: 70
+stage: Basic
+legal: true
+filename: 51-relicanth
+pokemon: Relicanth
+mechanics:
+- name: Primal Calling
+  cost: '#'
+  type: attack
+  text: >-
+    Search your deck for up to 3 Trainer cards that have Fossil
+    in their names, show them to your opponent, and put them into
+    your hand.  Shuffle your deck afterward.
+- name: Sleep Swirl
+  cost: CC
+  damage: '30'
+  type: attack
+  text: >-
+    Both Relicanth and the Defending Pokémon are now asleep.
+weakness:
+  amount: 20
+  operation: +
+  type: L
+retreat: 1
+dex number: 369
+species: Longevity
+weight: 51.6
+height: 3'3
+dex entry: >-
+  A rare Pokémon discovered during a deep-sea exploration. It
+  has not changed in over 100 million years.
+illustrator: Ken Sugimori
+---
+set: great-encounters
+number: '52'
+order: 51
+name: Seviper
+rarity: uncommon
+holographic: false
+class: P
+types:
+- Psychic
+hp: 80
+stage: Basic
+legal: true
+filename: 52-seviper
+pokemon: Seviper
+mechanics:
+- name: Tail Blade
+  cost: P
+  damage: '20'
+  type: attack
+  text: >-
+    Flip a coin.  If heads, your opponent can't play any Trainer
+    cards from his or her hand during your opponent's next turn.
+- name: Poison Tail
+  cost: PCC
+  damage: '30'
+  type: attack
+  text: >-
+    Flip a coin.  If heads, this attack does 30 damage plus 30
+    more damage and the Defending Pokémon is now Poisoned.
+weakness:
+  amount: 20
+  operation: +
+  type: P
+retreat: 2
+dex number: 336
+species: Fang Snake
+weight: 115.7
+height: 8'10
+dex entry: >-
+  For many generations, it has feuded with ZANGOOSE. It whets
+  it's bladed tail on rocks for battle.
+illustrator: Masakazu Fukuda
+---
+set: great-encounters
+number: '53'
+order: 52
+name: Skarmory
+rarity: uncommon
+holographic: false
+class: P
+types:
+- Metal
+hp: 70
+stage: Basic
+legal: true
+filename: 53-skarmory
+pokemon: Skarmory
+mechanics:
+- name: Air Crash
+  cost: M
+  damage: '20'
+  type: attack
+  text: >-
+    Flip a coin.  If heads, discard an Energy attached to the
+    Defending Pokémon.
+- name: Steel Wing
+  cost: MCC
+  damage: '40'
+  type: attack
+  text: >-
+    During your opponent's turn, any damage done to Skarmory by
+    attacks is reduced by 20 (after applying Weakness and Resistance).
+weakness:
+  amount: 20
+  operation: +
+  type: R
+resistance: P-20
+retreat: 1
+dex number: 227
+species: Armor Bird
+weight: 111.3
+height: 5'7
+dex entry: >-
+  Despite being clad entirely in iron-hard armor, it flies at
+  speeds over 180 mph.
+illustrator: Mitsuhiro Arita
+---
+set: great-encounters
+number: '54'
+order: 53
+name: Slowbro
+rarity: uncommon
+holographic: false
+class: P
+types:
+- Water
+hp: 80
+stage: Stage 1
+evolves from: Slowpoke
+legal: true
+filename: 54-slowbro
+pokemon: Slowbro
+mechanics:
+- name: Amnesia
+  cost: CC
+  damage: '20'
+  type: attack
+  text: >-
+    Choose 1 of the Defending Pokémon's attacks.  That Pokémon
+    can't use that attack during your opponent's next turn.
+- name: Zen Headbutt
+  cost: PCC
+  damage: '60'
+  type: attack
+weakness:
+  amount: 20
+  operation: +
+  type: L
+retreat: 2
+dex number: 80
+species: Hermitcrab
+weight: 173.1
+height: 5'3
+dex entry: >-
+  Though usually dim witted, it seems to become inspired if the
+  SHELLDER on it's tail bites down.
+illustrator: Atsuko Nishida
+---
+set: great-encounters
+number: '55'
+order: 54
+name: Togetic
+rarity: uncommon
+holographic: false
+class: P
+types:
+- Colorless
+hp: 70
+stage: Stage 1
+evolves from: Togepi
+legal: true
+filename: 55-togetic
+pokemon: Togetic
+mechanics:
+- name: Speed Dive
+  cost: CC
+  damage: '20'
+  type: attack
+- name: Sweet Kiss
+  cost: CCC
+  damage: '50'
+  type: attack
+  text: >-
+    Your opponent may draw a card.
+weakness:
+  amount: 20
+  operation: +
+  type: L
+resistance: F-20
+retreat: 1
+dex number: 176
+species: Happiness
+weight: 7.1
+height: 2'0
+dex entry: >-
+  It is said to appear in front of kindly people to scatter a
+  glowing down called "joy dust."
+illustrator: Kagemaru Himeno
+---
+set: great-encounters
+number: '56'
+order: 55
+name: Unown F
+rarity: uncommon
+holographic: false
+class: P
+types:
+- Psychic
+hp: 50
+stage: Basic
+legal: true
+filename: 56-unown-f
+pokemon: Unown
+mechanics:
+- name: Fake
+  type: pokepower
+  text: >-
+    Once during your turn (before your attack), if Unown F is
+    on your Bench, you may use this power.  Put a coin next to
+    your Active Pokémon without showing your opponent and cover
+    it with your hand.  Your opponent guesses if the coin is head
+    or tails.  If he or she is wrong, draw a card.
+- name: Hidden Power
+  cost: P
+  damage: '10'
+  type: attack
+  text: >-
+    You may flip a coin.  If tails, this attack does nothing.  If
+    heads, this attack's base damage is 30.
+weakness:
+  amount: 10
+  operation: +
+  type: P
+retreat: 1
+dex number: 201
+species: Symbol
+weight: 11
+height: 1'8
+dex entry: >-
+  Shaped like ancient writing, it is a huge mystery whether language
+  or UNOWN came first.
+illustrator: Daisuke Ito
+---
+set: great-encounters
+number: '57'
+order: 56
+name: Unown G
+rarity: uncommon
+holographic: false
+class: P
+types:
+- Psychic
+hp: 50
+stage: Basic
+legal: true
+filename: 57-unown-g
+pokemon: Unown
+subclasses:
+- Trainer
+mechanics:
+- name: Guard
+  type: pokepower
+  text: >-
+    Once during your turn (before your attack), if Unown G is
+    on your Bench, you may discard all cards attached to Unown
+    G and attach Unown G to 1 of your Pokémon as a Pokémon Tool
+    card.  As long as Unown G is attached to a Pokémon, prevent
+    all effects of attacks, excluding damage, done to that Pokémon.
+- name: Hidden Power
+  cost: PC
+  damage: '50'
+  type: attack
+  text: >-
+    If Unown G has any damage counters on it, this attack's base
+    damage is 10.
+weakness:
+  amount: 10
+  operation: +
+  type: P
+retreat: 1
+dex number: 201
+species: Symbol
+weight: 11
+height: 1'8
+dex entry: >-
+  Shaped like ancient writing, it is a huge mystery whether language
+  or UNOWN came first.
+illustrator: Daisuke Ito
+---
+set: great-encounters
+number: '58'
+order: 57
+name: Wailmer
+rarity: uncommon
+holographic: false
+class: P
+types:
+- Water
+hp: 90
+stage: Basic
+legal: true
+filename: 58-wailmer
+pokemon: Wailmer
+mechanics:
+- name: Tsunami
+  cost: WC
+  damage: '10'
+  type: attack
+  text: >-
+    Flip a coin.  If heads, this attack does 10 damage to each
+    of your opponent's Benched Pokémon.  (Don't apply Weakness
+    and Resistance for Benched Pokémon.)
+- name: Ram
+  cost: CCC
+  damage: '30'
+  type: attack
+weakness:
+  amount: 20
+  operation: +
+  type: L
+retreat: 3
+dex number: 320
+species: Ball Whale
+weight: 286.6
+height: 6'7
+dex entry: >-
+  On sunny days, it lands on beaches to bounce like a ball and
+  play. It spouts water from it's nose.
+illustrator: Satoshi Ohta
+---
+set: great-encounters
+number: '59'
+order: 58
+name: Zangoose
+rarity: uncommon
+holographic: false
+class: P
+types:
+- Colorless
+hp: 70
+stage: Basic
+legal: true
+filename: 59-zangoose
+pokemon: Zangoose
+mechanics:
+- name: Slash
+  cost: C
+  damage: '20'
+  type: attack
+- name: Cutting Claw
+  cost: CCC
+  damage: '40'
+  type: attack
+  text: >-
+    If your opponent has Seviper in play, this attack does 40
+    damage plus 50 more damage.
+weakness:
+  amount: 20
+  operation: +
+  type: F
+retreat: 1
+dex number: 335
+species: Cat Ferret
+weight: 88.8
+height: 4'3
+dex entry: >-
+  It has feuded with SEVIPER for many generations. It's sharp
+  claws are it's biggest weapons.
+illustrator: Masakazu Fukuda
+---
+set: great-encounters
+number: '60'
+order: 59
+name: Baltoy
+rarity: common
+holographic: false
+class: P
+types:
+- Fighting
+hp: 50
+stage: Basic
+legal: true
+filename: 60-baltoy
+pokemon: Baltoy
+mechanics:
+- name: Psychic Balance
+  cost: C
+  type: attack
+  text: >-
+    If you have less cards in your hand than your opponent, draw
+    cards until you have the same number of cards as your opponent.  (If
+    you have more or the same number of cards in your hand as
+    your opponent, this attack does nothing.)
+- name: Spin Turn
+  cost: FC
+  damage: '20'
+  type: attack
+  text: >-
+    Switch Baltoy with 1 of your Benched Pokémon.
+weakness:
+  amount: 10
+  operation: +
+  type: G
+retreat: 1
+dex number: 343
+species: Clay Doll
+weight: 47.4
+height: 1'8
+dex entry: >-
+  It moves by spinning on it's foot. It is a rare Pokémon that
+  was discovered in ancient ruins.
+illustrator: Sumiyoshi Kizuki
+---
+set: great-encounters
+number: '61'
+order: 60
+name: Buizel
+rarity: common
+holographic: false
+class: P
+types:
+- Water
+hp: 60
+stage: Basic
+legal: true
+filename: 61-buizel
+pokemon: Buizel
+mechanics:
+- name: Headbutt
+  cost: '#'
+  damage: '10'
+  type: attack
+- name: Surf
+  cost: WW
+  damage: '30'
+  type: attack
+weakness:
+  amount: 10
+  operation: +
+  type: L
+retreat: 1
+dex number: 418
+species: Sea Weasel
+weight: 65
+height: 2'4
+dex entry: >-
+  It has a flotation sac that is like an inflatable collar. It
+  floats on water with it's head out.
+illustrator: Masakazu Fukuda
+---
+set: great-encounters
+number: '62'
+order: 61
+name: Cacnea
+rarity: common
+holographic: false
+class: P
+types:
+- Grass
+hp: 50
+stage: Basic
+legal: true
+filename: 62-cacnea
+pokemon: Cacnea
+mechanics:
+- name: Sand Attack
+  cost: C
+  type: attack
+  text: >-
+    If the Defending Pokémon tries to attack during your opponent's
+    next turn, your opponent flips a coin.  If tails, that attack
+    does nothing.
+- name: Poison Sting
+  cost: GC
+  damage: '20'
+  type: attack
+  text: >-
+    The Defending Pokémon is now Poisoned.
+weakness:
+  amount: 10
+  operation: +
+  type: R
+resistance: W-20
+retreat: 1
+dex number: 331
+species: Cactus
+weight: 113.1
+height: 1'4
+dex entry: >-
+  By storing water in it's body, this desert dweller can survive
+  for 30 days without water.
+illustrator: Saya Tsuruta
+---
+set: great-encounters
+number: '63'
+order: 62
+name: Caterpie
+rarity: common
+holographic: false
+class: P
+types:
+- Grass
+hp: 40
+stage: Basic
+legal: true
+filename: 63-caterpie
+pokemon: Caterpie
+mechanics:
+- name: Pupate
+  type: pokepower
+  text: >-
+    Once during your turn (before your attack), if Caterpie is
+    your Active Pokémon, you may flip a coin.  If heads, search
+    your deck for a card that evolves from Caterpie and put it
+    onto Caterpie.  (This counts as evolving Caterpie.)  Shuffle
+    your deck afterward.  This power can't be used if Caterpie
+    is affected by a Special Condition.
+- name: Tackle
+  cost: G
+  damage: '20'
+  type: attack
+weakness:
+  amount: 10
+  operation: +
+  type: R
+retreat: 1
+dex number: 10
+species: Worm
+weight: 6.4
+height: 1'0
+dex entry: >-
+  It releases a stench from it's red antenna to repel enemies.
+  It grows by molting repeatedly.
+illustrator: Midori Harada
+---
+set: great-encounters
+number: '64'
+order: 63
+name: Clamperl
+rarity: common
+holographic: false
+class: P
+types:
+- Water
+hp: 40
+stage: Basic
+legal: true
+filename: 64-clamperl
+pokemon: Clamperl
+mechanics:
+- name: Clamp
+  cost: C
+  damage: '10'
+  type: attack
+  text: >-
+    Flip a coin.  If tails, this attack does nothing.  If heads,
+    the Defending Pokémon is now Paralyzed.
+- name: Sparkling Pearl
+  cost: WC
+  damage: '20'
+  type: attack
+weakness:
+  amount: 10
+  operation: +
+  type: L
+retreat: 1
+dex number: 366
+species: Bivalve
+weight: 115.7
+height: 1'4
+dex entry: >-
+  It makes a single pearl during it's lifetime. The pearl is said
+  to amplify psychic power.
+illustrator: Ken Sugimori
+---
+set: great-encounters
+number: '65'
+order: 64
+name: Drowzee
+rarity: common
+holographic: false
+class: P
+types:
+- Psychic
+hp: 60
+stage: Basic
+legal: true
+filename: 65-drowzee
+pokemon: Drowzee
+mechanics:
+- name: Hypnosis
+  cost: C
+  type: attack
+  text: >-
+    The Defending Pokémon is now Asleep.
+- name: Headbutt
+  cost: PC
+  damage: '20'
+  type: attack
+weakness:
+  amount: 10
+  operation: +
+  type: P
+retreat: 1
+dex number: 96
+species: Hypnosis
+weight: 71.4
+height: 3'3
+dex entry: >-
+  It can tell what people are dreaming by sniffing with it's big
+  nose. It loves fun dreams.
+illustrator: Ken Sugimori
+---
+set: great-encounters
+number: '66'
+order: 65
+name: Ekans
+rarity: common
+holographic: false
+class: P
+types:
+- Psychic
+hp: 60
+stage: Basic
+legal: true
+filename: 66-ekans
+pokemon: Ekans
+mechanics:
+- name: Shed Skin
+  cost: C
+  type: attack
+  text: >-
+    Remove 2 damage counters from Ekans.
+- name: Poison Fang
+  cost: P
+  damage: '10'
+  type: attack
+  text: >-
+    Flip a coin.  If heads, the Defending Pokémon is now Poisoned.
+weakness:
+  amount: 10
+  operation: +
+  type: P
+retreat: 2
+dex number: 23
+species: Snake
+weight: 15.2
+height: 6'7
+dex entry: >-
+  It sneaks through grass without making a sound and strikes unsuspecting
+  prey from behind.
+illustrator: Ken Sugimori
+---
+set: great-encounters
+number: '67'
+order: 66
+name: Feebas
+rarity: common
+holographic: false
+class: P
+types:
+- Water
+hp: 30
+stage: Basic
+legal: true
+filename: 67-feebas
+pokemon: Feebas
+mechanics:
+- name: Splash
+  cost: C
+  damage: '10'
+  type: attack
+- name: Fast Evolution
+  cost: W
+  type: attack
+  text: >-
+    Search your deck for an Evolution card, show it to your opponent,
+    and put it into your hand.  Shuffle your deck afterward.
+weakness:
+  amount: 10
+  operation: +
+  type: L
+retreat: 1
+dex number: 349
+species: Fish
+weight: 16.3
+height: 2'0
+dex entry: >-
+  It is famous for it's shabby appearance. While populous, they
+  tend to cluster in set locations.
+illustrator: Ken Sugimori
+---
+set: great-encounters
+number: '68'
+order: 67
+name: Glameow
+rarity: common
+holographic: false
+class: P
+types:
+- Colorless
+hp: 50
+stage: Basic
+legal: true
+filename: 68-glameow
+pokemon: Glameow
+mechanics:
+- name: Captivate
+  cost: C
+  type: attack
+  text: >-
+    Switch 1 of your opponent's Benched Pokémon with 1 of the
+    Defending Pokémon.
+- name: Slash
+  cost: CC
+  damage: '20'
+  type: attack
+weakness:
+  amount: 10
+  operation: +
+  type: F
+retreat: 1
+dex number: 431
+species: Catty
+weight: 8.6
+height: 1'8
+dex entry: >-
+  It claws if displeased and purrs when affectionate. It's fickleness
+  is very popular among some.
+illustrator: Kagemaru Himeno
+---
+set: great-encounters
+number: '69'
+order: 68
+name: Houndour
+rarity: common
+holographic: false
+class: P
+types:
+- Fire
+hp: 50
+stage: Basic
+legal: true
+filename: 69-houndour
+pokemon: Houndour
+mechanics:
+- name: Ember
+  cost: R
+  damage: '20'
+  type: attack
+  text: >-
+    Flip a coin.  If tails, discard a R Energy attached to Houndour.
+- name: Smash Kick
+  cost: CC
+  damage: '20'
+  type: attack
+weakness:
+  amount: 10
+  operation: +
+  type: W
+retreat: 1
+dex number: 228
+species: Dark
+weight: 23.8
+height: 2'0
+dex entry: >-
+  It conveys it's feelings using different cries. It works in
+  a pack to cleverly take down prey.
+illustrator: Ken Sugimori
+---
+set: great-encounters
+number: '70'
+order: 69
+name: Igglybuff
+rarity: common
+holographic: false
+class: P
+types:
+- Colorless
+hp: 50
+stage: Basic
+legal: true
+filename: 70-igglybuff
+pokemon: Igglybuff
+mechanics:
+- name: Baby Evolution
+  type: pokepower
+  text: >-
+    Once during your turn (before your attack), you may put Jigglypuff
+    from your hand onto Igglybuff (this counts as evolving Igglybuff)
+    and remove all damage counters from Igglybuff.
+- name: Inquire
+  cost: '#'
+  type: attack
+  text: >-
+    Draw a card. If you didn't play any Supporter card from your
+    hand during this turn, draw 2 more cards.
+weakness:
+  amount: 10
+  operation: +
+  type: F
+retreat: 1
+dex number: 174
+species: Balloon
+weight: 2.2
+height: 1'0
+dex entry: >-
+  It has a soft and bouncy body. Once it starts bouncing, it becomes
+  impossible to stop.
+illustrator: Ken Sugimori
+---
+set: great-encounters
+number: '71'
+order: 70
+name: Illumise
+rarity: common
+holographic: false
+class: P
+types:
+- Grass
+hp: 70
+stage: Basic
+legal: true
+filename: 71-illumise
+pokemon: Illumise
+mechanics:
+- name: Scent Conduct
+  type: pokepower
+  text: >-
+    Once during your turn (before your attack), you may flip a
+    coin. If heads, search your deck for a G Basic Pokémon and
+    put it onto your Bench. Shuffle your deck afterward. This
+    power can't be used if Illumise is affected by a Special Condition.
+- name: Firefly Scent
+  cost: GC
+  damage: '30'
+  type: attack
+  text: >-
+    If the Defending Pokémon has any Poke-Bodies, that Pokémon
+    is now Asleep.
+weakness:
+  amount: 20
+  operation: +
+  type: R
+retreat: 1
+dex number: 314
+species: Firefly
+weight: 39
+height: 2'0
+dex entry: >-
+  With it's sweet aroma, it guides VOLBEAT to draw signs with
+  light in the night sky.
+illustrator: Ken Sugimori
+---
+set: great-encounters
+number: '72'
+order: 71
+name: Jigglypuff
+rarity: common
+holographic: false
+class: P
+types:
+- Colorless
+hp: 60
+stage: Basic
+legal: true
+filename: 72-jigglypuff
+pokemon: Jigglypuff
+mechanics:
+- name: Hypnotic Gaze
+  cost: C
+  type: attack
+  text: >-
+    The Defending Pokémon is now Asleep
+- name: Expand
+  cost: CC
+  damage: '20'
+  type: attack
+  text: >-
+    During your opponent's next turn, any damage done to Jigglypuff
+    by attacks is reduced by 20 (after applying Weakness and Resistance).
+weakness:
+  amount: 10
+  operation: +
+  type: F
+retreat: 1
+dex number: 39
+species: Balloon
+weight: 12.1
+height: 1'8
+dex entry: >-
+  When it wavers it's big, round eyes, it begins singing a lullaby
+  that makes everyone drowsy.
+illustrator: Kenkichi Toyama
+---
+set: great-encounters
+number: '73'
+order: 72
+name: Kakuna
+rarity: common
+holographic: false
+class: P
+types:
+- Grass
+hp: 80
+stage: Stage 1
+evolves from: Weedle
+legal: true
+filename: 73-kakuna
+pokemon: Kakuna
+mechanics:
+- name: Stiffen
+  cost: '#'
+  type: attack
+  text: >-
+    During your opponent's next turn, any damage done to Kakuna
+    by attacks is reduced by 30 (after applying Weakness and Resistance).
+- name: Spit Poison
+  cost: G
+  damage: '10'
+  type: attack
+  text: >-
+    The Defending Pokémon is now Poisoned.
+weakness:
+  amount: 20
+  operation: +
+  type: R
+retreat: 2
+dex number: 14
+species: Cocoon
+weight: 22
+height: 2'0
+dex entry: >-
+  While awaiting evolution, it hides from predators under leaves
+  and in nooks of branches.
+illustrator: Ken Sugimori
+---
+set: great-encounters
+number: '74'
+order: 73
+name: Koffing
+rarity: common
+holographic: false
+class: P
+types:
+- Psychic
+hp: 60
+stage: Basic
+legal: true
+filename: 74-koffing
+pokemon: Koffing
+mechanics:
+- name: Tackle
+  cost: C
+  damage: '10'
+  type: attack
+- name: Smogscreen
+  cost: PC
+  damage: '10'
+  type: attack
+  text: >-
+    The Defending Pokémon is now Poisoned. If the Defending Pokémon
+    tries to attack during your opponent's next turn, your opponent
+    flips a coin. If tails, that attack does nothing.
+weakness:
+  amount: 10
+  operation: +
+  type: P
+retreat: 2
+dex number: 109
+species: Poison Gas
+weight: 2.2
+height: 2'0
+dex entry: >-
+  Lighter-than-air gases in it's body keep it aloft. The gases
+  not only smell, they are also explosive.
+illustrator: Lee HyunJung
+---
+set: great-encounters
+number: '75'
+order: 74
+name: Krabby
+rarity: common
+holographic: false
+class: P
+types:
+- Water
+hp: 60
+stage: Basic
+legal: true
+filename: 75-krabby
+pokemon: Krabby
+mechanics:
+- name: Irongrip
+  cost: C
+  damage: '10'
+  type: attack
+- name: Guillotine
+  cost: WC
+  damage: '30'
+  type: attack
+weakness:
+  amount: 10
+  operation: +
+  type: L
+retreat: 2
+dex number: 98
+species: River Crab
+weight: 14.3
+height: 1'4
+dex entry: >-
+  It lives in burrows dug on sandy beaches. It's pincers fully
+  grow back if they are broken in battle.
+illustrator: Ken Sugimori
+---
+set: great-encounters
+number: '76'
+order: 75
+name: Lunatone
+rarity: common
+holographic: false
+class: P
+types:
+- Fighting
+hp: 60
+stage: Basic
+legal: true
+filename: 76-lunatone
+pokemon: Lunatone
+mechanics:
+- name: Gravity Charge
+  type: pokepower
+  text: >-
+    Once during your turn (before your attack), you may discard
+    a card from your hand. Then, if you have Solrock in play,
+    draw a card. This power can't be used if Lunatone is affected
+    by a Special Condition.
+- name: Knock Over
+  cost: C
+  damage: '20'
+  type: attack
+  text: >-
+    You may discard any Stadium card in play.
+weakness:
+  amount: 20
+  operation: +
+  type: P
+retreat: 1
+dex number: 337
+species: Meteorite
+weight: 370.4
+height: 3'3
+dex entry: >-
+  Because it turns active on nights of the full moon, it is said
+  to have some link to the lunar phases.
+illustrator: Ken Sugimori
+---
+set: great-encounters
+number: '77'
+order: 76
+name: Luvdisc
+rarity: common
+holographic: false
+class: P
+types:
+- Water
+hp: 60
+stage: Basic
+legal: true
+filename: 77-luvdisc
+pokemon: Luvdisc
+mechanics:
+- name: Rendezvous
+  cost: C
+  type: attack
+  text: >-
+    Reveal the top card of your deck and put it into your hand.
+    If that card is a Pokémon, draw 2 cards.
+- name: Synchro Dance
+  cost: W
+  damage: '10'
+  type: attack
+  text: >-
+    If Luvdisc and the Defending Pokémon have the same amount
+    of Energy attached to them, this attack does 10 damage plus
+    20 more damage.
+weakness:
+  amount: 10
+  operation: +
+  type: L
+retreat: 1
+dex number: 370
+species: Rendezvous
+weight: 19.2
+height: 2'0
+dex entry: >-
+  It lives in warm seas. It is said that a couple finding this
+  Pokémon will be blessed with eternal love.
+illustrator: Atsuko Nishida
+---
+set: great-encounters
+number: '78'
+order: 77
+name: Makuhita
+rarity: common
+holographic: false
+class: P
+types:
+- Fighting
+hp: 60
+stage: Basic
+legal: true
+filename: 78-makuhita
+pokemon: Makuhita
+mechanics:
+- name: Punch
+  cost: C
+  damage: '10'
+  type: attack
+- name: Arm Thrust
+  cost: FC
+  damage: '40'
+  type: attack
+  text: >-
+    Flip a coin. If tails, this attack does nothing. If heads,
+    discard an Energy card attached to the Defending Pokémon.
+weakness:
+  amount: 10
+  operation: +
+  type: P
+retreat: 2
+dex number: 296
+species: Guts
+weight: 190.5
+height: 3'3
+dex entry: >-
+  It toughens it's body by slamming into thick trees. Many snapped
+  trees can be found near it's nest.
+illustrator: Atsuko Nishida
+---
+set: great-encounters
+number: '79'
+order: 78
+name: Mankey
+rarity: common
+holographic: false
+class: P
+types:
+- Fighting
+hp: 50
+stage: Basic
+legal: true
+filename: 79-mankey
+pokemon: Mankey
+mechanics:
+- name: Light Punch
+  cost: F
+  damage: '10'
+  type: attack
+- name: Rage
+  cost: CC
+  damage: '10'
+  type: attack
+  text: >-
+    Does 10 damage plus 10 more damage for each damage counter
+    on Mankey.
+weakness:
+  amount: 10
+  operation: +
+  type: P
+retreat: 1
+dex number: 56
+species: Pig Monkey
+weight: 61.7
+height: 1'8
+dex entry: >-
+  It lives in treetop colonies. If one becomes enraged, the whole
+  colony rampages for no reason.
+illustrator: Ken Sugimori
+---
+set: great-encounters
+number: '80'
+order: 79
+name: Mudkip
+rarity: common
+holographic: false
+class: P
+types:
+- Water
+hp: 60
+stage: Basic
+legal: true
+filename: 80-mudkip
+pokemon: Mudkip
+mechanics:
+- name: Mud Spatter
+  cost: C
+  damage: '10'
+  type: attack
+- name: Endeavor
+  cost: CCC
+  damage: '30'
+  type: attack
+  text: >-
+    Flip 2 coins. This attack does 30 damage plus 20 more damage
+    for each heads.
+weakness:
+  amount: 10
+  operation: +
+  type: G
+retreat: 1
+dex number: 258
+species: Mud Fish
+weight: 16.8
+height: 1'4
+dex entry: >-
+  To alert it, the fin on it's head senses the flow of water.
+  It has the strength to heft boulders.
+illustrator: Emi Yoshida
+---
+set: great-encounters
+number: '81'
+order: 80
+name: Porygon
+rarity: common
+holographic: false
+class: P
+types:
+- Colorless
+hp: 50
+stage: Basic
+legal: true
+filename: 81-porygon
+pokemon: Porygon
+mechanics:
+- name: Calculate
+  cost: C
+  type: attack
+  text: >-
+    Look at the top 3 cards of your deck and put them back on
+    top of your deck in any order.
+- name: Sharpen
+  cost: CC
+  damage: '20'
+  type: attack
+weakness:
+  amount: 10
+  operation: +
+  type: F
+retreat: 1
+dex number: 137
+species: Virtual
+weight: 80.5
+height: 2'7
+dex entry: >-
+  The world's first artificially created Pokémon. It can travel
+  through electronic space.
+illustrator: Kent Kanetsuna
+---
+set: great-encounters
+number: '82'
+order: 81
+name: Slowpoke
+rarity: common
+holographic: false
+class: P
+types:
+- Water
+hp: 60
+stage: Basic
+legal: true
+filename: 82-slowpoke
+pokemon: Slowpoke
+mechanics:
+- name: Rest
+  cost: C
+  type: attack
+  text: >-
+    Remove all Special Conditions and 3 damage counters from Slowpoke.
+    Slowpoke is now Asleep.
+- name: Tumble Over
+  cost: W
+  damage: '20'
+  type: attack
+  text: >-
+    Slowpoke can't attack during your next turn.
+weakness:
+  amount: 10
+  operation: +
+  type: L
+retreat: 2
+dex number: 79
+species: Dopey
+weight: 79.4
+height: 3'11
+dex entry: >-
+  Although slow, it is skilled at fishing with it's tail. It does
+  not feel pain if it's tail is bitten.
+illustrator: Saya Tsuruta
+---
+set: great-encounters
+number: '83'
+order: 82
+name: Slugma
+rarity: common
+holographic: false
+class: P
+types:
+- Fire
+hp: 60
+stage: Basic
+legal: true
+filename: 83-slugma
+pokemon: Slugma
+mechanics:
+- name: Steady Firebreathing
+  cost: R
+  damage: '10'
+  type: attack
+- name: Body Slam
+  cost: CC
+  damage: '20'
+  type: attack
+  text: >-
+    Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+weakness:
+  amount: 10
+  operation: +
+  type: W
+retreat: 2
+dex number: 218
+species: Lava
+weight: 77.2
+height: 2'4
+dex entry: >-
+  It's body is made of magma. If it doesn't keep moving, it's
+  body will cool and harden.
+illustrator: Masakazu Fukuda
+---
+set: great-encounters
+number: '84'
+order: 83
+name: Snubbull
+rarity: common
+holographic: false
+class: P
+types:
+- Colorless
+hp: 60
+stage: Basic
+legal: true
+filename: 84-snubbull
+pokemon: Snubbull
+mechanics:
+- name: Roar
+  cost: C
+  type: attack
+  text: >-
+    Your opponent switches the Defending Pokémon with 1 of his
+    or her Benched Pokémon.
+- name: Bite
+  cost: CCC
+  damage: '30'
+  type: attack
+weakness:
+  amount: 10
+  operation: +
+  type: F
+retreat: 1
+dex number: 209
+species: Fairy
+weight: 17.2
+height: 2'0
+dex entry: >-
+  Small Pokémon flee from it's scary face. It is, however, considered
+  by women to be cute.
+illustrator: Atsuko Nishida
+---
+set: great-encounters
+number: '85'
+order: 84
+name: Solrock
+rarity: common
+holographic: false
+class: P
+types:
+- Fighting
+hp: 70
+stage: Basic
+legal: true
+filename: 85-solrock
+pokemon: Solrock
+mechanics:
+- name: Sunlight
+  type: pokebody
+  text: >-
+    If you have Lunatione in play, damage done to your opponent's
+    Pokémon by your P or F Pokémon isn't affected by Resistance.
+- name: Sol Charge
+  cost: F
+  damage: '20'
+  type: attack
+  text: >-
+    Search your discard pile for a basic Energy card and attach
+    it to 1 of your Benched Pokémon.
+weakness:
+  amount: 20
+  operation: +
+  type: G
+retreat: 1
+dex number: 338
+species: Meteorite
+weight: 339.5
+height: 3'11
+dex entry: >-
+  A new Pokémon species, rumored to be from the sun. It gives
+  off light while spinning.
+illustrator: Ken Sugimori
+---
+set: great-encounters
+number: '86'
+order: 85
+name: Swablu
+rarity: common
+holographic: false
+class: P
+types:
+- Colorless
+hp: 40
+stage: Basic
+legal: true
+filename: 86-swablu
+pokemon: Swablu
+mechanics:
+- name: Super Speed
+  cost: C
+  type: attack
+  text: >-
+    Flip a coin. If heads, prevent all effects of an attack, including
+    damage, done to Swablu during your opponent's next turn.
+- name: Shoot Through
+  cost: CC
+  damage: '10'
+  type: attack
+  text: >-
+    Does 10 damage to 1 of your opponent's Benched Pokémon. (Don't
+    apply Weakness and Resistance for Benched Pokémon.)
+weakness:
+  amount: 10
+  operation: +
+  type: L
+resistance: F-20
+retreat: 1
+dex number: 333
+species: Cotton Bird
+weight: 2.6
+height: 1'4
+dex entry: >-
+  It's wings are like cotton tufts. If it perches on someone's
+  head, It looks like a cotton hat.
+illustrator: Kanako Eo
+---
+set: great-encounters
+number: '87'
+order: 86
+name: Tangela
+rarity: common
+holographic: false
+class: P
+types:
+- Grass
+hp: 70
+stage: Basic
+legal: true
+filename: 87-tangela
+pokemon: Tangela
+mechanics:
+- name: Vine Invite
+  cost: C
+  type: attack
+  text: >-
+    Switch 1 of your opponent's Benched Pokémon with 1 of the
+    Defending Pokémon.
+- name: Grass Knot
+  cost: GC
+  damage: '20'
+  type: attack
+  text: >-
+    Does 20 damage plus 10 more damage for each C Energy in the
+    Defending Pokémon's Retreat Cost (after applying effects to
+    the Retreat Cost).
+weakness:
+  amount: 10
+  operation: +
+  type: R
+retreat: 2
+dex number: 114
+species: Vine
+weight: 77.2
+height: 3'3
+dex entry: >-
+  It is shrouded by blue vines. No one has seen the face hidden
+  behind this growth of vines.
+illustrator: Sumiyoshi Kizuki
+---
+set: great-encounters
+number: '88'
+order: 87
+name: Togepi
+rarity: common
+holographic: false
+class: P
+types:
+- Colorless
+hp: 50
+stage: Basic
+legal: true
+filename: 88-togepi
+pokemon: Togepi
+mechanics:
+- name: Yawn
+  cost: C
+  type: attack
+  text: >-
+    The Defending Pokémon is now Asleep.
+- name: Find a Friend
+  cost: C
+  type: attack
+  text: >-
+    Flip a coin. If heads, search your deck for a Pokémon, show
+    it to your opponent, and put it into your hand. Shuffle your
+    deck afterward.
+weakness:
+  amount: 10
+  operation: +
+  type: F
+retreat: 1
+dex number: 175
+species: Spike Ball
+weight: 3.3
+height: 1'0
+dex entry: >-
+  It's shell is said to be stuffed with happiness that it shares
+  with kindhearted people.
+illustrator: Ken Sugimori
+---
+set: great-encounters
+number: '89'
+order: 88
+name: Torchic
+rarity: common
+holographic: false
+class: P
+types:
+- Fire
+hp: 50
+stage: Basic
+legal: true
+filename: 89-torchic
+pokemon: Torchic
+mechanics:
+- name: Peck
+  cost: '#'
+  damage: '10'
+  type: attack
+- name: Singe
+  cost: R
+  type: attack
+  text: >-
+    The Defending Pokémon is now Burned.
+weakness:
+  amount: 10
+  operation: +
+  type: W
+retreat: 1
+dex number: 255
+species: Chick
+weight: 5.5
+height: 1'4
+dex entry: >-
+  A fire burns inside, so it feels very warm to hug. It launches
+  fireballs of 1,800 degrees F.
+illustrator: Hiroki Fuchino
+---
+set: great-encounters
+number: '90'
+order: 89
+name: Treecko
+rarity: common
+holographic: false
+class: P
+types:
+- Grass
+hp: 50
+stage: Basic
+legal: true
+filename: 90-treecko
+pokemon: Treecko
+mechanics:
+- name: Energy Ball
+  cost: C
+  damage: '10'
+  type: attack
+  text: >-
+    Does 10 damage plus 10 more damage for each Energy attached
+    to Treecko but not used to pay for this attack's Energy cost.
+    You can't add more than 20 damage in this way.
+- name: Absorb
+  cost: GC
+  damage: '20'
+  type: attack
+  text: >-
+    Remove 1 damage counter from Treecko.
+weakness:
+  amount: 10
+  operation: +
+  type: R
+resistance: W-20
+retreat: 1
+dex number: 252
+species: Wood Gecko
+weight: 11
+height: 1'8
+dex entry: >-
+  The soles of it's feet are covered by countless tiny spikes,
+  enabling it to walk on walls and ceilings.
+illustrator: Kouki Saitou
+---
+set: great-encounters
+number: '91'
+order: 90
+name: Unown L
+rarity: common
+holographic: false
+class: P
+types:
+- Psychic
+hp: 50
+stage: Basic
+legal: true
+filename: 91-unown-l
+pokemon: Unown
+mechanics:
+- name: LINK
+  type: pokebody
+  text: >-
+    Unown L can use any attack from any Unown in play (both yours
+    and your opponent's). (You still have to pay for that attack's
+    Energy cost.)
+- name: Hidden Power
+  cost: PC
+  type: attack
+  text: >-
+    Search either player's discard pile for up to any 2 cards,
+    show them to your opponent, and put them on top of that player's
+    deck in any order you like.
+weakness:
+  amount: 10
+  operation: +
+  type: P
+retreat: 1
+dex number: 201
+species: Symbol
+weight: 11
+height: 1'8
+dex entry: >-
+  Shaped like ancient writing, it is a huge mystery whether language
+  or UNOWN came first.
+illustrator: Daisuke Ito
+---
+set: great-encounters
+number: '92'
+order: 91
+name: Volbeat
+rarity: common
+holographic: false
+class: P
+types:
+- Grass
+hp: 70
+stage: Basic
+legal: true
+filename: 92-volbeat
+pokemon: Volbeat
+mechanics:
+- name: Light Conduct
+  type: pokepower
+  text: >-
+    Once during your turn (before your attack), if you have Illumise
+    in play, you may search your discard pile for a Supporter
+    card, show it to your opponent, and put it on top of your
+    deck. This power can't be used if Volbeat is affected by a
+    Special Condition.
+- name: Firefly Light
+  cost: GG
+  damage: '20'
+  type: attack
+  text: >-
+    Flip a coin. If heads, the Defending Pokémon is now Confused.
+weakness:
+  amount: 20
+  operation: +
+  type: R
+retreat: 1
+dex number: 313
+species: Firefly
+weight: 39
+height: 2'4
+dex entry: >-
+  It communicates with others by lighting up it's rear at night.
+  It loves ILLUMISE's sweet aroma.
+illustrator: Ken Sugimori
+---
+set: great-encounters
+number: '93'
+order: 92
+name: Weedle
+rarity: common
+holographic: false
+class: P
+types:
+- Grass
+hp: 50
+stage: Basic
+legal: true
+filename: 93-weedle
+pokemon: Weedle
+mechanics:
+- name: Call for Family
+  cost: C
+  type: attack
+  text: >-
+    search your deck for a Basic Pokémon and put it onto your
+    Bench. Shuffle your deck afterward.
+- name: String Shot
+  cost: G
+  type: attack
+  text: >-
+    Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+weakness:
+  amount: 10
+  operation: +
+  type: R
+retreat: 1
+dex number: 13
+species: Hairy Bug
+weight: 7.1
+height: 1'0
+dex entry: >-
+  It eats it's weight in leaves every day. It fends off attackers
+  with the needle on it's head.
+illustrator: Mitsuhiro Arita
+---
+set: great-encounters
+number: '94'
+order: 93
+name: Whismur
+rarity: common
+holographic: false
+class: P
+types:
+- Colorless
+hp: 50
+stage: Basic
+legal: true
+filename: 94-whismur
+pokemon: Whismur
+mechanics:
+- name: Mumble
+  cost: '#'
+  damage: '10'
+  type: attack
+- name: Uproar
+  cost: C
+  type: attack
+  text: >-
+    Flip a coin. If heads, this attack does 10 damage to each
+    of your opponent's Pokémon. (Don't apply Weakness and Resistance
+    for Benched Pokémon.)
+weakness:
+  amount: 10
+  operation: +
+  type: F
+retreat: 1
+dex number: 293
+species: Whisper
+weight: 35.9
+height: 2'0
+dex entry: >-
+  Usually it's cries are like quiet murmurs. If frightened, it
+  shrieks at the same volume as a jet plane.
+illustrator: Takao Unno
+---
+set: great-encounters
+number: '95'
+order: 94
+name: Wingull
+rarity: common
+holographic: false
+class: P
+types:
+- Water
+hp: 50
+stage: Basic
+legal: true
+filename: 95-wingull
+pokemon: Wingull
+mechanics:
+- name: Water Drip
+  cost: W
+  damage: '10'
+  type: attack
+- name: Wing Attack
+  cost: CC
+  damage: '20'
+  type: attack
+weakness:
+  amount: 10
+  operation: +
+  type: L
+resistance: F-20
+retreat: 1
+dex number: 278
+species: Seagull
+weight: 20.9
+height: 2'0
+dex entry: >-
+  It makes it's nest on steep sea cliffs. Riding updrafts, it
+  soars to great heights.
+illustrator: Ken Sugimori
+---
+set: great-encounters
+number: '96'
+order: 95
+name: Zigzagoon
+rarity: common
+holographic: false
+class: P
+types:
+- Colorless
+hp: 50
+stage: Basic
+legal: true
+filename: 96-zigzagoon
+pokemon: Zigzagoon
+mechanics:
+- name: Pull Out
+  cost: C
+  type: attack
+  text: >-
+    Search your discard pile for any 1 card, show it to your opponent,
+    and put it on top of your deck.
+- name: Double Stab
+  cost: C
+  damage: 10×
+  type: attack
+  text: >-
+    Flip 2 coins. This attack does 10 damage times the number
+    of heads.
+weakness:
+  amount: 10
+  operation: +
+  type: F
+retreat: 1
+dex number: 263
+species: Tinyraccoon
+weight: 38.6
+height: 1'4
+dex entry: >-
+  It walks in zigzag fashion. It is good at finding items in the
+  grass and even in the ground.
+illustrator: Ken Sugimori
+---
+set: great-encounters
+number: '97'
+order: 96
+name: Amulet Coin
+rarity: uncommon
+holographic: false
+class: T
+legal: true
+filename: 97-amulet-coin
+subclasses:
+- Tool
+mechanics:
+- type: rule
+  text: >-
+    Attach Amulet Coin to 1 of your Pokémon that doesn't already
+    have a Pokémon Tool attached to it. If that Pokémon is Knocked
+    Out, discard this card.
+- type: effect
+  text: >-
+    If the Pokémon Amulet Coin is attached to is your Active Pokémon
+    at the end of your turn, draw a card.
+illustrator: Daisuke Ito
+---
+set: great-encounters
+number: '98'
+order: 97
+name: Felicity's Drawing
+rarity: uncommon
+holographic: false
+class: T
+legal: true
+filename: 98-felicity's-drawing
+subclasses:
+- Supporter
+mechanics:
+- type: rule
+  text: >-
+    You can play only one Supporter card each turn. When you play
+    this card, put it next to your Active Pokémon. When your turn
+    ends, discard this card.
+- type: effect
+  text: >-
+    Discard up to 2 cards from your hand. If you discard 1 card,
+    draw 3 cards. If you discard 2 cards, draw 4 cards.
+illustrator: Ken Sugimori
+---
+set: great-encounters
+number: '99'
+order: 98
+name: Leftovers
+rarity: uncommon
+holographic: false
+class: T
+legal: true
+filename: 99-leftovers
+subclasses:
+- Tool
+mechanics:
+- type: rule
+  text: >-
+    Attach Leftovers to 1 of your Pokémon that doesn't already
+    have a Pokémon Tool attached to it. If that Pokémon is Knocked
+    Out, discard this card.
+- type: effect
+  text: >-
+    If the Pokémon Leftovers is attached to is your active Pokémon
+    at the end of your turn, remove 1 damage counter from that
+    Pokémon.
+illustrator: Daisuke Ito
+---
+set: great-encounters
+number: '100'
+order: 99
+name: Moonlight Stadium
+rarity: uncommon
+holographic: false
+class: T
+legal: true
+filename: 100-moonlight-stadium
+subclasses:
+- Stadium
+mechanics:
+- type: rule
+  text: >-
+    This card stays in play when you play it. Discard this card
+    if another Stadium card comes into play. If another card with
+    the same name is in play, you can't play this card.
+- type: effect
+  text: >-
+    The Retreat Cost for each P and D Pokémon (both yours and
+    your opponent's) is 0.
+illustrator: Ryo Ueda
+---
+set: great-encounters
+number: '101'
+order: 100
+name: Premier Ball
+rarity: uncommon
+holographic: false
+class: T
+legal: true
+filename: 101-premier-ball
+mechanics:
+- type: effect
+  text: >-
+    Search your deck or your discard pile for a Pokémon Lv.X,
+    show it to your opponent, and put it into your hand. If you
+    search your deck, shuffle your deck afterward.
+illustrator: Ryo Ueda
+---
+set: great-encounters
+number: '102'
+order: 101
+name: Rare Candy
+rarity: uncommon
+holographic: false
+class: T
+legal: true
+filename: 102-rare-candy
+mechanics:
+- type: effect
+  text: >-
+    Choose 1 of your Basic Pokémon in play. If you have a Stage
+    1 or Stage 2 card that evolves from that Pokémon in your hand,
+    put that card on the Basic Pokémon. (This counts as evolving
+    that Pokémon.)
+illustrator: Ryo Ueda
+---
+set: great-encounters
+number: '103'
+order: 102
+name: Cresselia LV.X
+rarity: rare
+holographic: true
+class: P
+types:
+- Psychic
+hp: 100
+stage: Level-Up
+evolves from: Cresselia
+legal: true
+filename: 103-cresselia-lv.x
+pokemon: Cresselia
+subclasses:
+- LV. X
+mechanics:
+- name: Full Moon Dance
+  type: pokepower
+  text: >-
+    Once during your turn (before your attack), you may move 1
+    damage counter from either player's Pokémon to another Pokémon
+    (yours or your opponent's). This power can't be used if Cresselia
+    is affected by a Special Condition.
+- name: Moon Skip
+  cost: PPC
+  damage: '40'
+  type: attack
+  text: >-
+    If the Defending Pokémon is Knocked Out by this attack, take
+    1 more Prize card.
+weakness:
+  amount: 2
+  operation: ×
+  type: P
+retreat: 1
+illustrator: Shizurow
+---
+set: great-encounters
+number: '104'
+order: 103
+name: Darkrai LV.X
+rarity: rare
+holographic: true
+class: P
+types:
+- Darkness
+hp: 100
+stage: Level-Up
+evolves from: Darkrai
+legal: true
+filename: 104-darkrai-lv.x
+pokemon: Darkrai
+subclasses:
+- LV. X
+mechanics:
+- name: Dark Shadow
+  type: pokebody
+  text: >-
+    Each basic D Energy card attached to your D Pokémon now has
+    the effect "If the Pokémon Darkness Energy is attached to
+    attacks, the attack does 10 more damage to the Active pokemon
+    (before applying Weakness and Resistance)." You can't use
+    more than 1 Dark Shadow Poke-Body each turn.
+- name: Endless Darkness
+  cost: DDC
+  damage: '40'
+  type: attack
+  text: >-
+    The Defending Pokémon is now Asleep. Flip 2 coins instead
+    of 1 between turns. If either of them is tails, the Defending
+    Pokémon is still Asleep. If both of them are tails, the Defending
+    Pokémon is Knocked Out.
+weakness:
+  amount: 2
+  operation: ×
+  type: F
+resistance: P-20
+retreat: 1
+illustrator: Shizurow
+---
+set: great-encounters
+number: '105'
+order: 104
+name: Dialga LV.X
+rarity: rare
+holographic: true
+class: P
+types:
+- Metal
+hp: 110
+stage: Level-Up
+evolves from: Dialga
+legal: true
+filename: 105-dialga-lv.x
+pokemon: Dialga
+subclasses:
+- LV. X
+mechanics:
+- name: Time Skip
+  type: pokepower
+  text: >-
+    Once during your turn (before your attack), you may have your
+    opponent flip 2 coins. If both of them are heads, your turn
+    ends. If both of them are tails, after your opponent draws
+    a card at the beginning of his or her next turn, his or her
+    turn ends. This power can't be used if Dialga is affected
+    by a Special Condition.
+- name: Metal Flash
+  cost: MMCC
+  damage: '80'
+  type: attack
+  text: >-
+    During your next turn, Dialga can't use Metal Flash.
+weakness:
+  amount: 2
+  operation: ×
+  type: R
+resistance: P-20
+retreat: 2
+illustrator: Ryo Ueda
+---
+set: great-encounters
+number: '106'
+order: 105
+name: Palkia LV.X
+rarity: rare
+holographic: true
+class: P
+types:
+- Water
+hp: 120
+stage: Level-Up
+evolves from: Palkia
+legal: true
+filename: 106-palkia-lv.x
+pokemon: Palkia
+subclasses:
+- LV. X
+mechanics:
+- name: Restructure
+  type: pokepower
+  text: >-
+    Once during your turn (before your attack), you may have your
+    opponent switch 1 of your Active Pokémon with 1 of your Benched
+    Pokémon. Then, you switch 1 of the Defending Pokémon with
+    1 of your opponent's Benched Pokémon. This power can't be
+    used if Palkia is affected by a Special Condition.
+- name: Hydro Reflect
+  cost: WWW
+  damage: '60'
+  type: attack
+  text: >-
+    You may move all Energy cards attach to Palkia to your Benched
+    Pokémon in any way you like. (Ignore this effect if you don't
+    have any Benched Pokémon.)
+weakness:
+  amount: 2
+  operation: ×
+  type: L
+retreat: 3
+illustrator: Ryo Ueda
