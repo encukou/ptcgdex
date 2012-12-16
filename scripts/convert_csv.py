@@ -12,6 +12,7 @@ from __future__ import division, print_function, unicode_literals
 
 import os
 import io
+import re
 import sys
 import csv
 import textwrap
@@ -194,7 +195,9 @@ def main(infile, destdir=None):
         simple_out('number', 'num')
         set_list = sets.setdefault(tcg_set or 'unknown', [])
         result['order'] = len(set_list)
-        simple_out('name', 'card-name')
+        name = data.pop('card-name')
+        name = re.sub(r'Unown \((.)\)', r'Unown \1', name)
+        result['name'] = name
 
         rarity = pop('rarity')
         if rarity == 'P':
