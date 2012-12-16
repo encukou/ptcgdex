@@ -278,7 +278,7 @@ def main(infile, destdir=None):
             }
 
         resist = pop('resist')
-        if resist and resist != 'None':
+        if resist and resist.lower() != 'none':
             result['resistance'] = resist
 
         retreat = pop('retreat')
