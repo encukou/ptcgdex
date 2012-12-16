@@ -408,7 +408,7 @@ CARD_EXPORT_KEYS = [
 INCLUDED_KEYS = set(['holographic', 'legal', 'order'])
 
 def export_card(card):
-    return {
+    card_info = {
         'name': card.name,
         'class': card.class_.identifier[0].upper(),
         'hp': card.hp,
@@ -420,8 +420,8 @@ def export_card(card):
         'retreat': card.retreat_cost,
     }
     if card.stage:
-        print_info['stage'] = card.stage.name
-    print_info['damage modifiers'] = damage_mods = []
+        card_info['stage'] = card.stage.name
+    card_info['damage modifiers'] = damage_mods = []
     for m in card.damage_modifiers:
         damage_mods.append(OrderedDict([
                 ('amount', m.amount),
