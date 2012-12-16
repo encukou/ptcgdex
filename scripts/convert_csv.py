@@ -59,6 +59,17 @@ def munge_errors(data):
     elif set_name == ('diamond-and-pearl', "Marill"):
         assert data['dex-no.'] == '184'
         data['dex-no.'] = '183'
+    elif set_name == ('mysterious-treasures', "Mantine"):
+        assert data['dex-no.'] == '225'
+        data['dex-no.'] = '226'
+    elif set_name == ('mysterious-treasures', "Larivitar"):
+        assert data['card-name'] == 'Larivitar'
+        data['card-name'] = 'Larvitar'
+        assert data['pokemon'] == 'Larivitar'
+        data['pokemon'] = 'Larvitar'
+    elif set_name == ('mysterious-treasures', "Celebi"):
+        assert data['height'] == '2.00"', `data['height']`
+        data['height'] = "2'0"
     elif set_name in [
             ('platinum', "Dialga G"),
             ('platinum', "Palkia G"),
