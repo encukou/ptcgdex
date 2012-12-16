@@ -82,6 +82,7 @@ def identifier_from_name(name):
     name = name.replace('!', '')
     name = name.replace('#', '')
     name = name.replace('*', 'star')
+    name = name.replace('δ', 'delta')
     return pokedex.db.identifier_from_name(name)
 
 def get_family(session, en, name):
@@ -393,25 +394,40 @@ def export_set(tcg_set):
     for print_ in tcg_set.prints:
         export_print(print_)
 
-def export_print(print_):
-    included_keys = set(['holographic', 'legal', 'order'])
+def make_ordered_dict(data, key_order, always_included_keys=[]):
+    items = [(k, v) for k, v in data.items() if v or k in always_included_keys]
+    items.sort(key=lambda k_v: key_order.index(k_v[0]))
+    return OrderedDict(items)
 
-    card = print_.card
-    tcg_set = print_.set
-    flavor = print_.pokemon_flavor
-    card_info = OrderedDict([
-        ('set', tcg_set.identifier),
-        ('number', print_.set_number),
-        ('order', print_.order),
-        ('name', card.name),
-        ('rarity', print_.rarity.identifier),
-        ('holographic', print_.holographic),
-        ('class', card.class_.identifier[0].upper()),
-        ('types', [t.name for t in card.types]),
-        ('hp', card.hp),
-    ])
+CARD_EXPORT_KEYS = [
+    'name', 'class', 'types', 'hp', 'stage', 'evolves from', 'evolves to',
+    'legal', 'subclasses', 'mechanics', 'damage modifiers',
+    'retreat',
+]
+
+INCLUDED_KEYS = set(['holographic', 'legal', 'order'])
+
+def export_card(card):
+    return {
+        'name': card.name,
+        'class': card.class_.identifier[0].upper(),
+        'hp': card.hp,
+        'legal': card.legal,
+        'types': [t.name for t in card.types],
+        'subclasses': [sc.name for sc in card.subclasses],
+        'mechanics': [export_mechanic(cm.mechanic) for cm
+                                    in card.card_mechanics],
+        'retreat': card.retreat_cost,
+    }
     if card.stage:
-        card_info['stage'] = card.stage.name
+        print_info['stage'] = card.stage.name
+    print_info['damage modifiers'] = damage_mods = []
+    for m in card.damage_modifiers:
+        damage_mods.append(OrderedDict([
+                ('amount', m.amount),
+                ('operation', m.operation),
+                ('type', m.type.name),
+            ]))
     if card.evolutions:
         assert len(card.evolutions) == 1  # TODO
         for evo in card.evolutions:
@@ -419,34 +435,38 @@ def export_print(print_):
                 card_info['evolves from'] = evo.family.name
             else:
                 card_info['evolves into'] = evo.family.name
-    card_info['legal'] = card.legal
-    [card_info['filename']] = [s.filename for s in print_.scans]
+    return make_ordered_dict(card_info, CARD_EXPORT_KEYS, INCLUDED_KEYS)
+
+PRINT_EXPORT_KEYS = [
+    'set', 'number', 'order', 'name', 'rarity', 'holographic', 'class',
+    'types', 'hp', 'stage', 'evolves from', 'evolves to', 'legal',
+    'filename', 'pokemon', 'subclasses', 'mechanics', 'damage modifiers',
+    'retreat', 'dex number', 'species', 'weight', 'height', 'dex entry',
+    'illustrator',
+]
+
+def export_print(print_):
+    print_info = export_card(print_.card)
+    tcg_set = print_.set
+    flavor = print_.pokemon_flavor
+    print_info.update({
+        'set': tcg_set.identifier,
+        'number': print_.set_number,
+        'order': print_.order,
+        'rarity': print_.rarity.identifier,
+        'holographic': print_.holographic,
+        'illustrator': print_.illustrator.name
+    })
+    [print_info['filename']] = [s.filename for s in print_.scans]
     if flavor and flavor.species:
-        card_info['pokemon'] = flavor.species.name
-    card_info['subclasses'] = [sc.name for sc in card.subclasses]
-    card_info['mechanics'] = [export_mechanic(cm.mechanic) for cm
-                                in card.card_mechanics]
-
-    card_info['damage modifiers'] = damage_mods = []
-    for m in card.damage_modifiers:
-        damage_mods.append(OrderedDict([
-                ('amount', m.amount),
-                ('operation', m.operation),
-                ('type', m.type.name),
-            ]))
-
-    card_info['retreat'] = card.retreat_cost
+        print_info['pokemon'] = flavor.species.name
 
     if flavor:
         if flavor.species:
-            card_info['dex number'] = flavor.species.id
-        card_info['species'] = flavor.genus
-        card_info['weight'] = flavor.weight
-        card_info['height'] = "{}'{}".format(*divmod(flavor.height, 12))
-        card_info['dex entry'] = Text(flavor.dex_entry or '')
+            print_info['dex number'] = flavor.species.id
+        print_info['species'] = flavor.genus
+        print_info['weight'] = flavor.weight
+        print_info['height'] = "{}'{}".format(*divmod(flavor.height, 12))
+        print_info['dex entry'] = Text(flavor.dex_entry or '')
 
-    card_info['illustrator'] = print_.illustrator.name
-
-    card_info = OrderedDict((k, v) for k, v in card_info.items()
-        if v or k in included_keys)
-    return yaml_dump(card_info)
+    return make_ordered_dict(print_info, PRINT_EXPORT_KEYS, INCLUDED_KEYS)

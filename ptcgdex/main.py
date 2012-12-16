@@ -140,7 +140,7 @@ def export(session, options):
     if options['--all']:
         prints = session.query(tcg_tables.Print)
     for tcg_print in prints:
-        print ptcg_load.export_print(tcg_print),
+        print ptcg_load.yaml_dump(ptcg_load.export_print(tcg_print)),
 
 
 def main(argv=None):
