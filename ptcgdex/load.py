@@ -102,364 +102,351 @@ def get_family(session, en, name):
     return family
 
 
-def load_sets(session, directory, set_names=None, verbose=True):
+def import_(session, fileobj, label, verbose=True):
+    prints = dex_load._get_verbose_prints(verbose)
+    print_start, print_status, print_done = prints
+    print_start(label)
+    infos = list(yaml.safe_load_all(fileobj))
+    for i, info in enumerate(infos):
+        print_status('{}/{} {}'.format(i, len(infos), info.get('name')))
+        import_print(session, info, do_commit=False)
+    session.commit()
+    print_done()
+
+
+def import_print(session, card_info, do_commit=True):
     def type_by_initial(initial):
         query = session.query(tcg_tables.TCGType)
         query = query.filter_by(initial=initial)
         return query.one()
 
-    prints = dex_load._get_verbose_prints(verbose)
-    print_start, print_status, print_done = prints
-
     en = session.query(dex_tables.Language).get(session.default_language_id)
 
-    if set_names is None:
-        set_names = [n for [n] in session.query(tcg_tables.Set.identifier)]
-    for set_ident in set_names:
-        tcg_set = util.get(session, tcg_tables.Set, set_ident)
-        print_start(tcg_set.name)
-        with open(os.path.join(directory, set_ident + '.cards')) as infile:
-            cards = list(yaml.load_all(infile, Loader=Loader))
+    set_ident = card_info.pop('set')
+    tcg_set = util.get(session, tcg_tables.Set, set_ident)
 
-        for card_index, card_info in enumerate(cards):
+    card_name = card_info.pop('name')
 
-            assert tcg_set.identifier == card_info.pop('set')
-            card_name = card_info.pop('name')
-            print_status('{}/{} {}'.format(card_index, len(cards), card_name))
+    # Exists already? Remove it
+    query = session.query(tcg_tables.Print)
+    query = query.filter(tcg_tables.Print.set == tcg_set)
+    query = query.filter(tcg_tables.Print.set_number == card_info['number'])
+    query = query.filter(tcg_tables.Print.order == card_info['order'])
+    try:
+        previous = query.one()
+    except NoResultFound:
+        pass
+    else:
+        for scan in previous.scans:
+            session.delete(scan)
+        session.delete(previous)
 
-            # Exists already? Remove it
-            query = session.query(tcg_tables.Print)
-            query = query.filter(tcg_tables.Print.set == tcg_set)
-            query = query.filter(tcg_tables.Print.set_number == card_info['number'])
-            query = query.filter(tcg_tables.Print.order == card_info['order'])
+    # Card bits
+    if 'stage' in card_info:
+        stage = util.get(session, tcg_tables.Stage,
+                            name=card_info.pop('stage'))
+    else:
+        stage = None
+    card_class = util.get(session, tcg_tables.Class,
+                            card_class_idents[card_info.pop('class')])
+    hp = card_info.pop('hp', None)
+    retreat_cost = card_info.pop('retreat', None)
+
+    card_types = tuple(
+        util.get(session, tcg_tables.TCGType, name=t) for t in
+            card_info.pop('types', ()))
+
+    damage_mod_info = card_info.pop('damage modifiers', [])
+
+    card_family = get_family(session, en, card_name)
+
+    # Find/make corresponding card
+    query = session.query(tcg_tables.Card)
+    query = query.filter(tcg_tables.Card.stage == stage)
+    query = query.filter(tcg_tables.Card.hp == hp)
+    query = query.filter(tcg_tables.Card.class_ == card_class)
+    query = query.filter(tcg_tables.Card.retreat_cost == retreat_cost)
+    query = query.filter(tcg_tables.Card.family == card_family)
+    for card in query.all():
+        if card.types != card_types:
+            continue
+        mechanics = [export_mechanic(m.mechanic) for m
+                in card.card_mechanics]
+        if mechanics != card_info['mechanics']:
+            continue
+        # TODO: damage_mod_info
+        # TODO: card_subclass
+        # TODO: evolutions
+        # TODO: subclasses
+        break
+    else:
+        card = None
+    if not card:
+        card = tcg_tables.Card()
+        card.stage = stage
+        card.class_ = card_class
+        card.hp = hp
+        card.retreat_cost = retreat_cost
+        card.legal = card_info.pop('legal')
+        card.family = card_family
+        session.add(card)
+        for mechanic_index, mechanic_info in enumerate(
+                card_info.pop('mechanics', ())):
+            # Mechanic bits
+            mechanic_name = mechanic_info.pop('name', None)
+            effect = mechanic_info.pop('text', None)
+            cost_string = mechanic_info.pop('cost', '')
+            mechanic_class = util.get(
+                session, tcg_tables.MechanicClass,
+                mechanic_info.pop('type'))
+            damage = mechanic_info.pop('damage', None)
+
+            # Find/make mechanic
+            query = session.query(tcg_tables.Mechanic)
+            if mechanic_name:
+                query = util.filter_name(query, tcg_tables.Mechanic,
+                                    mechanic_name, en)
+            if effect:
+                query = util.filter_name(query, tcg_tables.Mechanic,
+                                    effect, en, name_attribute='effect',
+                                    names_table_name='effects_table')
+            query = query.filter(tcg_tables.Mechanic.class_ == mechanic_class)
+            for mechanic in query.all():
+                if export_mechanic(mechanic) == mechanic_info:
+                    break
+            else:
+                mechanic = None
+            if not mechanic:
+                mechanic = tcg_tables.Mechanic()
+                mechanic.name_map[en] = mechanic_name
+                mechanic.effect_map[en] = effect
+                mechanic.class_ = mechanic_class
+
+                if cost_string == '#':
+                    cost_string = ''
+                cost_list = list(cost_string)
+                cost_index = 0
+                while cost_list:
+                    cost = tcg_tables.MechanicCost()
+                    initial = cost_list[0]
+                    cost.type = type_by_initial(initial)
+                    cost.amount = 0
+                    while cost_list and cost_list[0] == initial:
+                        cost.amount += 1
+                        del cost_list[0]
+                    cost.mechanic = mechanic
+                    cost.order = cost_index
+                    cost_index += 1
+                    session.add(cost)
+
+                if damage:
+                    if damage.endswith(('+', '-', '?', '×')):
+                        mechanic.damage_modifier = damage[-1]
+                        damage = damage[:-1]
+                    if damage:
+                        mechanic.damage_base = int(damage)
+
+                session.add(mechanic)
+
+            link = tcg_tables.CardMechanic()
+            link.card = card
+            link.mechanic = mechanic
+            link.order = mechanic_index
+            session.add(link)
+
+        for type_index, card_type in enumerate(card_types):
+            link = tcg_tables.CardType()
+            link.card = card
+            link.type = card_type
+            link.order = type_index
+            session.add(link)
+
+        for dm_index, dm_info in enumerate(damage_mod_info):
+            dm_type = util.get(session, tcg_tables.TCGType,
+                name=dm_info.pop('type'))
+            modifier = tcg_tables.DamageModifier()
+            modifier.card = card
+            modifier.type = dm_type
+            modifier.amount = dm_info.pop('amount')
+            modifier.order = dm_index
+            modifier.operation = dm_info.pop('operation')
+            session.add(modifier)
+
+        for subclass_index, subclass_name in enumerate(
+                card_info.pop('subclasses', ())):
             try:
-                previous = query.one()
+                subclass = util.get(session, tcg_tables.Subclass,
+                                    name=subclass_name)
             except NoResultFound:
-                pass
-            else:
-                for scan in previous.scans:
-                    session.delete(scan)
-                session.delete(previous)
+                subclass = tcg_tables.Subclass()
+                subclass.identifier = identifier_from_name(
+                    subclass_name)
+                subclass.name_map[en] = subclass_name
+                session.add(subclass)
+            link = tcg_tables.CardSubclass()
+            link.card = card
+            link.subclass = subclass
+            link.order = subclass_index
+            session.add(link)
 
-            # Card bits
-            if 'stage' in card_info:
-                stage = util.get(session, tcg_tables.Stage,
-                                 name=card_info.pop('stage'))
-            else:
-                stage = None
-            card_class = util.get(session, tcg_tables.Class,
-                                  card_class_idents[card_info.pop('class')])
-            hp = card_info.pop('hp', None)
-            retreat_cost = card_info.pop('retreat', None)
+        evolves_from = card_info.pop('evolves from', None)
+        if evolves_from:
+            family = get_family(session, en, evolves_from)
+            link = tcg_tables.Evolution()
+            link.card = card
+            link.family = family
+            link.order = 0
+            link.family_to_card = True
+            session.add(link)
 
-            card_types = tuple(
-                util.get(session, tcg_tables.TCGType, name=t) for t in
-                    card_info.pop('types', ()))
+        evolves_into = card_info.pop('evolves into', None)
+        if evolves_into:
+            family = get_family(session, en, evolves_into)
+            link = tcg_tables.Evolution()
+            link.card = card
+            link.family = family
+            link.order = 0
+            link.family_to_card = False
+            session.add(link)
 
-            damage_mod_info = card_info.pop('damage modifiers', [])
+    # Print bits
+    illustrator_name = card_info.pop('illustrator')
+    try:
+        illustrator = util.get(session, tcg_tables.Illustrator,
+                        name=illustrator_name)
+    except NoResultFound:
+        illustrator = tcg_tables.Illustrator()
+        illustrator.name = illustrator_name
+        session.add(illustrator)
+    rarity = util.get(session, tcg_tables.Rarity,
+                        card_info.pop('rarity'))
 
-            card_family = get_family(session, en, card_name)
+    dex_number = card_info.pop('dex number', None)
+    if dex_number:
+        species = util.get(session, dex_tables.PokemonSpecies,
+                                id=dex_number)
+    else:
+        species = None
 
-            # Find/make corresponding card
-            query = session.query(tcg_tables.Card)
-            query = query.filter(tcg_tables.Card.stage == stage)
-            query = query.filter(tcg_tables.Card.hp == hp)
-            query = query.filter(tcg_tables.Card.class_ == card_class)
-            query = query.filter(tcg_tables.Card.retreat_cost == retreat_cost)
-            query = query.filter(tcg_tables.Card.family == card_family)
-            for card in query.all():
-                if card.types != card_types:
-                    continue
-                mechanics = [export_mechanic(m.mechanic) for m
-                        in card.card_mechanics]
-                if mechanics != card_info['mechanics']:
-                    continue
-                # TODO: damage_mod_info
-                # TODO: card_subclass
-                # TODO: evolutions
-                # TODO: subclasses
-                break
-            else:
-                card = None
-            if not card:
-                card = tcg_tables.Card()
-                card.stage = stage
-                card.class_ = card_class
-                card.hp = hp
-                card.retreat_cost = retreat_cost
-                card.legal = card_info.pop('legal')
-                card.family = card_family
-                session.add(card)
-                for mechanic_index, mechanic_info in enumerate(
-                        card_info.pop('mechanics', ())):
-                    # Mechanic bits
-                    mechanic_name = mechanic_info.pop('name', None)
-                    effect = mechanic_info.pop('text', None)
-                    cost_string = mechanic_info.pop('cost', '')
-                    mechanic_class = util.get(
-                        session, tcg_tables.MechanicClass,
-                        mechanic_info.pop('type'))
-                    damage = mechanic_info.pop('damage', None)
+    # Make the print
 
-                    # Find/make mechanic
-                    query = session.query(tcg_tables.Mechanic)
-                    if mechanic_name:
-                        query = util.filter_name(query, tcg_tables.Mechanic,
-                                         mechanic_name, en)
-                    if effect:
-                        query = util.filter_name(query, tcg_tables.Mechanic,
-                                         effect, en, name_attribute='effect',
-                                         names_table_name='effects_table')
-                    query = query.filter(tcg_tables.Mechanic.class_ == mechanic_class)
-                    for mechanic in query.all():
-                        if export_mechanic(mechanic) == mechanic_info:
-                            break
-                    else:
-                        mechanic = None
-                    if not mechanic:
-                        mechanic = tcg_tables.Mechanic()
-                        mechanic.name_map[en] = mechanic_name
-                        mechanic.effect_map[en] = effect
-                        mechanic.class_ = mechanic_class
+    card_print = tcg_tables.Print()
+    card_print.card = card
+    card_print.set = tcg_set
+    card_print.set_number = card_info.pop('number')
+    card_print.order = card_info.pop('order')
+    card_print.rarity = rarity
+    card_print.illustrator = illustrator
+    card_print.holographic = card_info.pop('holographic')
 
-                        if cost_string == '#':
-                            cost_string = ''
-                        cost_list = list(cost_string)
-                        cost_index = 0
-                        while cost_list:
-                            cost = tcg_tables.MechanicCost()
-                            initial = cost_list[0]
-                            cost.type = type_by_initial(initial)
-                            cost.amount = 0
-                            while cost_list and cost_list[0] == initial:
-                                cost.amount += 1
-                                del cost_list[0]
-                            cost.mechanic = mechanic
-                            cost.order = cost_index
-                            cost_index += 1
-                            session.add(cost)
+    scan = tcg_tables.Scan()
+    scan.print_ = card_print
+    scan.filename = card_info.pop('filename')
+    scan.order = 0
+    session.add(scan)
 
-                        if damage:
-                            if damage.endswith(('+', '-', '?', '×')):
-                                mechanic.damage_modifier = damage[-1]
-                                damage = damage[:-1]
-                            if damage:
-                                mechanic.damage_base = int(damage)
+    session.add(card_print)
 
-                        session.add(mechanic)
+    #import pdb; pdb.set_trace()
+    if dex_number or any(x in card_info for x in (
+            'height', 'weight', 'dex entry', 'species')):
+        session.flush()
+        flavor = tcg_tables.PokemonFlavor()
+        if dex_number:
+            species_name = card_info.pop('pokemon')
+            if species.name.lower() != species_name.lower():
+                raise ValueError("{!r} != {!r}".format(
+                    species.name, species_name))
+            flavor.species = species
+        if 'height' in card_info:
+            feet, inches = card_info.pop('height').split("'")
+            flavor.height = int(feet) * 12 + int(inches)
+        if 'weight' in card_info:
+            flavor.weight = card_info.pop('weight')
+        session.add(flavor)
+        session.flush()
+        if any(x in card_info for x in ('dex entry', 'species')):
+            link = tcg_tables.PokemonFlavor.flavor_table()
+            link.local_language = en
+            link.tcg_pokemon_flavor_id = flavor.id
+            if 'dex entry' in card_info:
+                link.dex_entry = card_info.pop('dex entry')
+            if 'species' in card_info:
+                link.genus = card_info.pop('species')
+            session.add(link)
+        card_print.pokemon_flavor = flavor
+    else:
+        flavor = None
 
-                    link = tcg_tables.CardMechanic()
-                    link.card = card
-                    link.mechanic = mechanic
-                    link.order = mechanic_index
-                    session.add(link)
+    card_info.pop('orphan', None)  # XXX
+    card_info.pop('has-variant', None)  # XXX
+    card_info.pop('dated', None)  # XXX
+    card_info.pop('in-set-variant-of', None)  # XXX
 
-                for type_index, card_type in enumerate(card_types):
-                    link = tcg_tables.CardType()
-                    link.card = card
-                    link.type = card_type
-                    link.order = type_index
-                    session.add(link)
+    session.flush()
 
-                for dm_index, dm_info in enumerate(damage_mod_info):
-                    dm_type = util.get(session, tcg_tables.TCGType,
-                        name=dm_info.pop('type'))
-                    modifier = tcg_tables.DamageModifier()
-                    modifier.card = card
-                    modifier.type = dm_type
-                    modifier.amount = dm_info.pop('amount')
-                    modifier.order = dm_index
-                    modifier.operation = dm_info.pop('operation')
-                    session.add(modifier)
-
-                for subclass_index, subclass_name in enumerate(
-                        card_info.pop('subclasses', ())):
-                    try:
-                        subclass = util.get(session, tcg_tables.Subclass,
-                                            name=subclass_name)
-                    except NoResultFound:
-                        subclass = tcg_tables.Subclass()
-                        subclass.identifier = identifier_from_name(
-                            subclass_name)
-                        subclass.name_map[en] = subclass_name
-                        session.add(subclass)
-                    link = tcg_tables.CardSubclass()
-                    link.card = card
-                    link.subclass = subclass
-                    link.order = subclass_index
-                    session.add(link)
-
-                evolves_from = card_info.pop('evolves from', None)
-                if evolves_from:
-                    family = get_family(session, en, evolves_from)
-                    link = tcg_tables.Evolution()
-                    link.card = card
-                    link.family = family
-                    link.order = 0
-                    link.family_to_card = True
-                    session.add(link)
-
-                evolves_into = card_info.pop('evolves into', None)
-                if evolves_into:
-                    family = get_family(session, en, evolves_into)
-                    link = tcg_tables.Evolution()
-                    link.card = card
-                    link.family = family
-                    link.order = 0
-                    link.family_to_card = False
-                    session.add(link)
-
-            # Print bits
-            illustrator_name = card_info.pop('illustrator')
-            try:
-                illustrator = util.get(session, tcg_tables.Illustrator,
-                             name=illustrator_name)
-            except NoResultFound:
-                illustrator = tcg_tables.Illustrator()
-                illustrator.name = illustrator_name
-                session.add(illustrator)
-            rarity = util.get(session, tcg_tables.Rarity,
-                              card_info.pop('rarity'))
-
-            dex_number = card_info.pop('dex number', None)
-            if dex_number:
-                species = util.get(session, dex_tables.PokemonSpecies,
-                                        id=dex_number)
-            else:
-                species = None
-
-            # Make the print
-
-            card_print = tcg_tables.Print()
-            card_print.card = card
-            card_print.set = tcg_set
-            card_print.set_number = card_info.pop('number')
-            card_print.order = card_info.pop('order')
-            card_print.rarity = rarity
-            card_print.illustrator = illustrator
-            card_print.holographic = card_info.pop('holographic')
-
-            scan = tcg_tables.Scan()
-            scan.print_ = card_print
-            scan.filename = card_info.pop('filename')
-            scan.order = 0
-            session.add(scan)
-
-            session.add(card_print)
-
-            #import pdb; pdb.set_trace()
-            if dex_number or any(x in card_info for x in (
-                    'height', 'weight', 'dex entry', 'species')):
-                session.flush()
-                flavor = tcg_tables.PokemonFlavor()
-                if dex_number:
-                    species_name = card_info.pop('pokemon')
-                    if species.name.lower() != species_name.lower():
-                        raise ValueError("{!r} != {!r}".format(
-                            species.name, species_name))
-                    flavor.species = species
-                if 'height' in card_info:
-                    feet, inches = card_info.pop('height').split("'")
-                    flavor.height = int(feet) * 12 + int(inches)
-                if 'weight' in card_info:
-                    flavor.weight = card_info.pop('weight')
-                session.add(flavor)
-                session.flush()
-                if any(x in card_info for x in ('dex entry', 'species')):
-                    link = tcg_tables.PokemonFlavor.flavor_table()
-                    link.local_language = en
-                    link.tcg_pokemon_flavor_id = flavor.id
-                    if 'dex entry' in card_info:
-                        link.dex_entry = card_info.pop('dex entry')
-                    if 'species' in card_info:
-                        link.genus = card_info.pop('species')
-                    session.add(link)
-                card_print.pokemon_flavor = flavor
-            else:
-                flavor = None
-
-            card_info.pop('orphan', None)  # XXX
-            card_info.pop('has-variant', None)  # XXX
-            card_info.pop('dated', None)  # XXX
-            card_info.pop('in-set-variant-of', None)  # XXX
-
-            session.flush()
+    if do_commit:
         session.commit()
 
-        print_done()
 
+def export_set(tcg_set):
+    for print_ in tcg_set.prints:
+        export_print(print_)
 
-def dump_sets(session, directory, set_identifiers=None, verbose=True):
-    sets = session.query(tcg_tables.Set).order_by(tcg_tables.Set.id).all()
-    for tcg_set in sets:
-        ident = tcg_set.identifier
-        if set_identifiers is None or ident in set_identifiers:
-            pathname = os.path.join(directory, '{}.cards'.format(ident))
-            outfile = open(pathname, 'w')
-            dump_set(tcg_set, outfile, verbose=verbose)
-
-def dump_set(tcg_set, outfile, verbose=True):
-    prints = dex_load._get_verbose_prints(verbose)
-    print_start, print_status, print_done = prints
-
-    print_start(tcg_set.name)
-
+def export_print(print_):
     included_keys = set(['holographic', 'legal', 'order'])
 
-    for i, print_ in enumerate(tcg_set.prints):
-        card = print_.card
-        flavor = print_.pokemon_flavor
-        print_status('{}/{}'.format(i, len(tcg_set.prints)))
-        card_info = OrderedDict([
-            ('set', tcg_set.identifier),
-            ('number', print_.set_number),
-            ('order', print_.order),
-            ('name', card.name),
-            ('rarity', print_.rarity.identifier),
-            ('holographic', print_.holographic),
-            ('class', card.class_.identifier[0].upper()),
-            ('types', [t.name for t in card.types]),
-            ('hp', card.hp),
-        ])
-        if card.stage:
-            card_info['stage'] = card.stage.name
-        if card.evolutions:
-            assert len(card.evolutions) == 1  # TODO
-            for evo in card.evolutions:
-                if evo.family_to_card:
-                    card_info['evolves from'] = evo.family.name
-                else:
-                    card_info['evolves into'] = evo.family.name
-        card_info['legal'] = card.legal
-        [card_info['filename']] = [s.filename for s in print_.scans]
-        if flavor and flavor.species:
-            card_info['pokemon'] = flavor.species.name
-        card_info['subclasses'] = [sc.name for sc in card.subclasses]
-        card_info['mechanics'] = [export_mechanic(cm.mechanic) for cm
-                                  in card.card_mechanics]
+    card = print_.card
+    tcg_set = print_.set
+    flavor = print_.pokemon_flavor
+    card_info = OrderedDict([
+        ('set', tcg_set.identifier),
+        ('number', print_.set_number),
+        ('order', print_.order),
+        ('name', card.name),
+        ('rarity', print_.rarity.identifier),
+        ('holographic', print_.holographic),
+        ('class', card.class_.identifier[0].upper()),
+        ('types', [t.name for t in card.types]),
+        ('hp', card.hp),
+    ])
+    if card.stage:
+        card_info['stage'] = card.stage.name
+    if card.evolutions:
+        assert len(card.evolutions) == 1  # TODO
+        for evo in card.evolutions:
+            if evo.family_to_card:
+                card_info['evolves from'] = evo.family.name
+            else:
+                card_info['evolves into'] = evo.family.name
+    card_info['legal'] = card.legal
+    [card_info['filename']] = [s.filename for s in print_.scans]
+    if flavor and flavor.species:
+        card_info['pokemon'] = flavor.species.name
+    card_info['subclasses'] = [sc.name for sc in card.subclasses]
+    card_info['mechanics'] = [export_mechanic(cm.mechanic) for cm
+                                in card.card_mechanics]
 
-        card_info['damage modifiers'] = damage_mods = []
-        for m in card.damage_modifiers:
-            damage_mods.append(OrderedDict([
-                    ('amount', m.amount),
-                    ('operation', m.operation),
-                    ('type', m.type.name),
-                ]))
+    card_info['damage modifiers'] = damage_mods = []
+    for m in card.damage_modifiers:
+        damage_mods.append(OrderedDict([
+                ('amount', m.amount),
+                ('operation', m.operation),
+                ('type', m.type.name),
+            ]))
 
-        card_info['retreat'] = card.retreat_cost
+    card_info['retreat'] = card.retreat_cost
 
-        if flavor:
-            if flavor.species:
-                card_info['dex number'] = flavor.species.id
-            card_info['species'] = flavor.genus
-            card_info['weight'] = flavor.weight
-            card_info['height'] = "{}'{}".format(*divmod(flavor.height, 12))
-            card_info['dex entry'] = Text(flavor.dex_entry or '')
+    if flavor:
+        if flavor.species:
+            card_info['dex number'] = flavor.species.id
+        card_info['species'] = flavor.genus
+        card_info['weight'] = flavor.weight
+        card_info['height'] = "{}'{}".format(*divmod(flavor.height, 12))
+        card_info['dex entry'] = Text(flavor.dex_entry or '')
 
-        card_info['illustrator'] = print_.illustrator.name
+    card_info['illustrator'] = print_.illustrator.name
 
-        card_info = OrderedDict((k, v) for k, v in card_info.items()
-            if v or k in included_keys)
-        outfile.write(yaml_dump(card_info))
-
-    print_done()
+    card_info = OrderedDict((k, v) for k, v in card_info.items()
+        if v or k in included_keys)
+    return yaml_dump(card_info)
