@@ -25,6 +25,7 @@ Global options:
 
     -q --quiet              Don't print nonessential output
     -v --verbose            Be verbose (default)
+       --display-sql        Display SQL statements as they're executed
 
 Load/dump options:
     -e --engine-uri URI     The database location (default: $POKEDEX_DB_ENGINE,
@@ -51,12 +52,26 @@ from docopt import docopt
 
 
 def make_session(options):
-    class DummyDexOptions(object):
-        engine_uri = options['--engine-uri']
-        verbose = options['--verbose']
+    from pokedex import defaults, db
 
-    from pokedex import main as dex_main
-    return dex_main.get_session(DummyDexOptions)
+    engine_uri = options['--engine-uri']
+    got_from = 'command line'
+
+    if engine_uri is None:
+        engine_uri, got_from = defaults.get_default_db_uri_with_origin()
+
+    engine_args = {}
+    if options['--display-sql']:
+        engine_args['echo'] = True
+
+    session = db.connect(engine_uri, engine_args=engine_args)
+
+    if options['--verbose']:
+        print >>sys.stderr, (
+            "Connected to database %(engine)s (from %(got_from)s)" %
+                dict(engine=session.bind.url, got_from=got_from))
+
+    return session
 
 def all_tables(tcg_tables):
     result = list(tcg_tables)

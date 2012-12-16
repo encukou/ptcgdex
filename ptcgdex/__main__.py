@@ -1,3 +1,3 @@
-from .main import main
+from ptcgdex.main import main
 
 main()
