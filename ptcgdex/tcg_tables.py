@@ -54,8 +54,7 @@ class Card(TableBase):
 
     @property
     def subclasses(self):
-        return tuple(sorted((cs.subclass for cs in self.card_subclasses),
-                            key=lambda s: s.id))
+        return tuple(cs.subclass for cs in self.card_subclasses)
 
 
 class Print(TableBase):
@@ -386,7 +385,8 @@ CardType.card = relationship(Card, backref=backref(
     'card_types', order_by=CardType.order.asc()))
 CardType.type = relationship(TCGType, backref='card_types')
 
-CardSubclass.card = relationship(Card, backref='card_subclasses')
+CardSubclass.card = relationship(Card, backref=backref(
+    'card_subclasses', order_by=CardSubclass.order.asc()))
 CardSubclass.subclass = relationship(Subclass, backref='card_subclasses')
 
 Mechanic.class_ = relationship(MechanicClass, backref='mechanics')
