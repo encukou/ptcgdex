@@ -29,11 +29,13 @@ mechanics:
     of your opponent's Benched Pokémon.  If tails, this attack
     does 10 damage to each of your Benched Pokémon.  (Don't apply
     Weakness and Resistance for Benched Pokémon.)
-weakness:
-  amount: 2
+damage modifiers:
+- amount: 2
   operation: ×
-  type: M
-resistance: F-20
+  type: Metal
+- amount: 20
+  operation: '-'
+  type: Fighting
 retreat: 2
 dex number: 144
 species: Freeze
@@ -71,10 +73,10 @@ mechanics:
   type: attack
   text: >-
     Remove 1 damage counter from each of your Pokémon.
-weakness:
-  amount: 20
+damage modifiers:
+- amount: 20
   operation: +
-  type: P
+  type: Psychic
 retreat: 1
 dex number: 488
 species: Lunar
@@ -120,11 +122,13 @@ mechanics:
   text: >-
     If the Defending Pokémon is Asleep, remove 4 damage counters
     from Darkrai.
-weakness:
-  amount: 20
+damage modifiers:
+- amount: 20
   operation: +
-  type: F
-resistance: P-20
+  type: Fighting
+- amount: 20
+  operation: '-'
+  type: Psychic
 retreat: 2
 dex number: 491
 species: Pitch-Black
@@ -162,11 +166,13 @@ mechanics:
   text: >-
     Flip a coin.  If heads, this attack does 60 damage plus 20
     more damage.
-weakness:
-  amount: 20
+damage modifiers:
+- amount: 20
   operation: +
-  type: R
-resistance: P-20
+  type: Fire
+- amount: 20
+  operation: '-'
+  type: Psychic
 retreat: 3
 illustrator: Masakazu Fukuda
 ---
@@ -201,10 +207,10 @@ mechanics:
   text: >-
     This attack's damage isn't affected by Resistance, Poke-Powers,
     Poke-Bodies, or any other effects on the Defending Pokémon.
-weakness:
-  amount: 20
+damage modifiers:
+- amount: 20
   operation: +
-  type: M
+  type: Metal
 retreat: 1
 dex number: 471
 species: Fresh Snow
@@ -244,10 +250,10 @@ mechanics:
     Does 10 damage to each of your opponent's Benched Pokémon
     that has any damage counters on it.  (Don't apply Weakness
     and Resistance for Benched Pokémon.)
-weakness:
-  amount: 30
+damage modifiers:
+- amount: 30
   operation: +
-  type: G
+  type: Grass
 retreat: 2
 dex number: 141
 species: Shellfish
@@ -288,11 +294,13 @@ mechanics:
   text: >-
     During your opponent's next turn, any damage done to Leafeon
     by attacks is reduced by 20 (after applying Weakness and Resistance).
-weakness:
-  amount: 20
+damage modifiers:
+- amount: 20
   operation: +
-  type: R
-resistance: W-20
+  type: Fire
+- amount: 20
+  operation: '-'
+  type: Water
 retreat: 2
 dex number: 470
 species: Verdant
@@ -336,10 +344,10 @@ mechanics:
   text: >-
     You may attach up to 2 basic W Energy cards from your hand
     to your Benched Pokémon in any way you like.
-weakness:
-  amount: 20
+damage modifiers:
+- amount: 20
   operation: +
-  type: L
+  type: Lightning
 retreat: 1
 dex number: 490
 species: Seafaring
@@ -381,10 +389,10 @@ mechanics:
   cost: PPC
   damage: '60'
   type: attack
-weakness:
-  amount: 2
+damage modifiers:
+- amount: 2
   operation: ×
-  type: P
+  type: Psychic
 retreat: 2
 dex number: 150
 species: Genetic
@@ -428,11 +436,13 @@ mechanics:
   type: attack
   text: >-
     Discard all R Energy attached to Moltres.
-weakness:
-  amount: 2
+damage modifiers:
+- amount: 2
   operation: ×
-  type: W
-resistance: F-20
+  type: Water
+- amount: 20
+  operation: '-'
+  type: Fighting
 retreat: 2
 dex number: 146
 species: Flame
@@ -477,10 +487,10 @@ mechanics:
     You may return an Energy card attached to Palkia to your hand.  If
     you do, choose an Energy card attached to the Defending Pokémon
     and return it to your opponent's hand.
-weakness:
-  amount: 20
+damage modifiers:
+- amount: 20
   operation: +
-  type: L
+  type: Lightning
 retreat: 3
 illustrator: Masakazu Fukuda
 ---
@@ -516,10 +526,10 @@ mechanics:
   type: attack
   text: >-
     The Defending Pokémon is now Asleep.
-weakness:
-  amount: 10
+damage modifiers:
+- amount: 10
   operation: +
-  type: L
+  type: Lightning
 retreat: 1
 dex number: 489
 species: Sea Drifter
@@ -562,11 +572,13 @@ mechanics:
   text: >-
     Move an Energy card attached to Rotom to 1 of your Benched
     Pokémon.
-weakness:
-  amount: 20
+damage modifiers:
+- amount: 20
   operation: +
-  type: D
-resistance: C-20
+  type: Darkness
+- amount: 20
+  operation: '-'
+  type: Colorless
 retreat: 1
 dex number: 479
 species: Plasma
@@ -605,11 +617,13 @@ mechanics:
   text: >-
     Does 40 damage to 1 of your Pokémon, and don't apply Weakness
     and Resistance to this damage.
-weakness:
-  amount: 2
+damage modifiers:
+- amount: 2
   operation: ×
-  type: L
-resistance: F-20
+  type: Lightning
+- amount: 20
+  operation: '-'
+  type: Fighting
 retreat: 2
 dex number: 145
 species: Electric
@@ -647,11 +661,13 @@ mechanics:
   type: attack
   text: >-
     Flip a coin.  If heads, the Defending Pokémon is now Confused.
-weakness:
-  amount: 20
+damage modifiers:
+- amount: 20
   operation: +
-  type: L
-resistance: F-20
+  type: Lightning
+- amount: 20
+  operation: '-'
+  type: Fighting
 retreat: 1
 dex number: 142
 species: Fossil
@@ -697,11 +713,13 @@ mechanics:
   text: >-
     During your opponent's next turn, any damage done to Bronzong
     by attacks is reduced by 20 (after applying Weakness and Resistance).
-weakness:
-  amount: 20
+damage modifiers:
+- amount: 20
   operation: +
-  type: P
-resistance: R-20
+  type: Psychic
+- amount: 20
+  operation: '-'
+  type: Fire
 retreat: 3
 dex number: 437
 species: Bronze Bell
@@ -744,10 +762,10 @@ mechanics:
     Pokémon.  Flip a coin.  If tails, this attack does 10 damage
     to each of your Benched Pokémon.  (Don't apply Weakness and
     Resistance for Benched Pokémon.)
-weakness:
-  amount: 30
+damage modifiers:
+- amount: 30
   operation: +
-  type: L
+  type: Lightning
 retreat: 2
 dex number: 395
 species: Emperor
@@ -786,10 +804,10 @@ mechanics:
   text: >-
     You may move an Energy card attached to Espeon to 1 of your
     Benched Pokémon.
-weakness:
-  amount: 20
+damage modifiers:
+- amount: 20
   operation: +
-  type: P
+  type: Psychic
 retreat: 1
 dex number: 196
 species: Sun
@@ -829,10 +847,10 @@ mechanics:
   text: >-
     Discard an Energy card attached to Flareon and then discard
     an Energy card attached to the Defending Pokémon.
-weakness:
-  amount: 20
+damage modifiers:
+- amount: 20
   operation: +
-  type: W
+  type: Water
 retreat: 2
 dex number: 136
 species: Flame
@@ -872,10 +890,10 @@ mechanics:
   type: attack
   text: >-
     Flip a coin.  If heads, the Defending Pokémon is now Asleep.
-weakness:
-  amount: 20
+damage modifiers:
+- amount: 20
   operation: +
-  type: M
+  type: Metal
 retreat: 1
 dex number: 471
 species: Fresh Snow
@@ -916,10 +934,10 @@ mechanics:
   text: >-
     Flip a coin for each F Energy attached to Hippowdon.  This
     attack does 50 damage plus 20 more for each heads.
-weakness:
-  amount: 20
+damage modifiers:
+- amount: 20
   operation: +
-  type: W
+  type: Water
 retreat: 3
 dex number: 450
 species: Heavyweight
@@ -960,10 +978,10 @@ mechanics:
   text: >-
     Discard all R Energy attached to Infernape.  This attack does
     40 damage times the amount of R Energy you discarded.
-weakness:
-  amount: 30
+damage modifiers:
+- amount: 30
   operation: +
-  type: W
+  type: Water
 dex number: 392
 species: Flame
 weight: 121.3
@@ -1002,11 +1020,13 @@ mechanics:
   text: >-
     You may discard 2 Energy attached to Jolteon.  If you do,
     this attack's base damage is 90 instead of 50.
-weakness:
-  amount: 20
+damage modifiers:
+- amount: 20
   operation: +
-  type: F
-resistance: M-20
+  type: Fighting
+- amount: 20
+  operation: '-'
+  type: Metal
 dex number: 135
 species: Lightning
 weight: 54.0
@@ -1045,11 +1065,13 @@ mechanics:
   text: >-
     Flip a coin.  If heads, this attack does 50 damage plus 20
     more damage.
-weakness:
-  amount: 20
+damage modifiers:
+- amount: 20
   operation: +
-  type: R
-resistance: W-20
+  type: Fire
+- amount: 20
+  operation: '-'
+  type: Water
 retreat: 1
 dex number: 470
 species: Verdant
@@ -1087,11 +1109,13 @@ mechanics:
     If Plusle is on your Bench, this attack does 20 damage to
     1 of your opponent's Benched Pokémon.  (Don't apply Weakness
     and Resistance for Benched Pokémon.)
-weakness:
-  amount: 10
+damage modifiers:
+- amount: 10
   operation: +
-  type: F
-resistance: M-20
+  type: Fighting
+- amount: 20
+  operation: '-'
+  type: Metal
 retreat: 1
 dex number: 312
 species: Cheering
@@ -1133,10 +1157,10 @@ mechanics:
   text: >-
     Your opponent switches the Defending Pokémon with 1 of his
     or her Benched Pokémon.
-weakness:
-  amount: 30
+damage modifiers:
+- amount: 30
   operation: +
-  type: G
+  type: Grass
 retreat: 1
 dex number: 139
 species: Spiral
@@ -1176,10 +1200,10 @@ mechanics:
   text: >-
     Flip a coin.  If heads, discard an Energy card attached to
     the Defending Pokémon.
-weakness:
-  amount: 10
+damage modifiers:
+- amount: 10
   operation: +
-  type: L
+  type: Lightning
 retreat: 1
 dex number: 489
 species: Sea Drifter
@@ -1218,11 +1242,13 @@ mechanics:
   text: >-
     If Minun is on your Bench, this attack does 20 damage plus
     20 more damage.
-weakness:
-  amount: 10
+damage modifiers:
+- amount: 10
   operation: +
-  type: F
-resistance: M-20
+  type: Fighting
+- amount: 20
+  operation: '-'
+  type: Metal
 retreat: 1
 dex number: 311
 species: Cheering
@@ -1263,11 +1289,13 @@ mechanics:
   text: >-
     Flip a coin.  If heads, this attack does 50 damage plus 40
     more damage.
-weakness:
-  amount: 30
+damage modifiers:
+- amount: 30
   operation: +
-  type: R
-resistance: P-20
+  type: Fire
+- amount: 20
+  operation: '-'
+  type: Psychic
 retreat: 1
 dex number: 212
 species: Scissors
@@ -1307,10 +1335,10 @@ mechanics:
   type: attack
   text: >-
     Torterra can't use Frenzy Plant during your next turn.
-weakness:
-  amount: 30
+damage modifiers:
+- amount: 30
   operation: +
-  type: R
+  type: Fire
 retreat: 4
 dex number: 389
 species: Continent
@@ -1348,10 +1376,10 @@ mechanics:
   cost: PCC
   damage: '60'
   type: attack
-weakness:
-  amount: 20
+damage modifiers:
+- amount: 20
   operation: +
-  type: P
+  type: Psychic
 retreat: 1
 dex number: 454
 species: Toxic Mouth
@@ -1389,11 +1417,13 @@ mechanics:
   type: attack
   text: >-
     The Defending Pokémon is now Confused.
-weakness:
-  amount: 20
+damage modifiers:
+- amount: 20
   operation: +
-  type: F
-resistance: P-20
+  type: Fighting
+- amount: 20
+  operation: '-'
+  type: Psychic
 retreat: 1
 dex number: 197
 species: Moonlight
@@ -1433,10 +1463,10 @@ mechanics:
     Each player discards the top card of his or her deck.  This
     attack does 20 damage plus 20 more damage for each Unown discarded
     in this way.
-weakness:
-  amount: 10
+damage modifiers:
+- amount: 10
   operation: +
-  type: P
+  type: Psychic
 retreat: 1
 dex number: 201
 species: Symbol
@@ -1482,10 +1512,10 @@ mechanics:
   text: >-
     Flip a coin until you get tails.  For each heads, discard
     an Energy card attached to the Defending Pokémon.
-weakness:
-  amount: 20
+damage modifiers:
+- amount: 20
   operation: +
-  type: L
+  type: Lightning
 retreat: 1
 dex number: 134
 species: Bubble Jet
@@ -1527,10 +1557,10 @@ mechanics:
     Choose 1 of your opponent's Pokémon.  This attack does 40
     damage to that Pokémon.  (Don't apply Weakness and Resistance
     for Benched Pokémon.)
-weakness:
-  amount: 20
+damage modifiers:
+- amount: 20
   operation: +
-  type: F
+  type: Fighting
 retreat: 1
 dex number: 424
 species: Long Tail
@@ -1568,11 +1598,13 @@ mechanics:
   cost: CCC
   damage: '60'
   type: attack
-weakness:
-  amount: 20
+damage modifiers:
+- amount: 20
   operation: +
-  type: L
-resistance: F-20
+  type: Lightning
+- amount: 20
+  operation: '-'
+  type: Fighting
 dex number: 22
 species: Beak
 weight: 83.8
@@ -1610,11 +1642,13 @@ mechanics:
   type: attack
   text: >-
     Flip a coin.  If heads, the Defending Pokémon is now Paralyzed.
-weakness:
-  amount: 20
+damage modifiers:
+- amount: 20
   operation: +
-  type: R
-resistance: W-20
+  type: Fire
+- amount: 20
+  operation: '-'
+  type: Water
 retreat: 3
 dex number: 388
 species: Grove
@@ -1651,10 +1685,10 @@ mechanics:
   text: >-
     Flip 4 coins.  This attack does 20 damage times the number
     of heads.
-weakness:
-  amount: 20
+damage modifiers:
+- amount: 20
   operation: +
-  type: F
+  type: Fighting
 retreat: 3
 dex number: 115
 species: Parent
@@ -1692,10 +1726,10 @@ mechanics:
   text: >-
     Flip 2 coins.  This attack does 20 damage times the number
     of heads.
-weakness:
-  amount: 20
+damage modifiers:
+- amount: 20
   operation: +
-  type: F
+  type: Fighting
 retreat: 2
 dex number: 108
 species: Licking
@@ -1735,11 +1769,13 @@ mechanics:
   text: >-
     Flip a coin.  If heads, discard an Energy attached to Manectric
     and this attack does 40 damage plus 30 more damage.
-weakness:
-  amount: 20
+damage modifiers:
+- amount: 20
   operation: +
-  type: F
-resistance: M-20
+  type: Fighting
+- amount: 20
+  operation: '-'
+  type: Metal
 dex number: 310
 species: Discharge
 weight: 88.6
@@ -1784,10 +1820,10 @@ mechanics:
   text: >-
     Flip a coin.  If heads, this attack does 30 damage plus 30
     more damage.
-weakness:
-  amount: 20
+damage modifiers:
+- amount: 20
   operation: +
-  type: W
+  type: Water
 dex number: 391
 species: Playful
 weight: 48.5
@@ -1833,11 +1869,13 @@ mechanics:
     You may switch Mothim with 1 of your Benched Pokémon.  If
     you do, move as many Energy cards attached to Mothim as you
     like to the new Active Pokémon.
-weakness:
-  amount: 20
+damage modifiers:
+- amount: 20
   operation: +
-  type: R
-resistance: F-20
+  type: Fire
+- amount: 20
+  operation: '-'
+  type: Fighting
 dex number: 414
 species: Moth
 weight: 51.4
@@ -1874,11 +1912,13 @@ mechanics:
   type: attack
   text: >-
     Flip a coin.  If heads, the Defending Pokémon is now Paralyzed.
-weakness:
-  amount: 20
+damage modifiers:
+- amount: 20
   operation: +
-  type: F
-resistance: M-20
+  type: Fighting
+- amount: 20
+  operation: '-'
+  type: Metal
 retreat: 1
 dex number: 417
 species: EleSquirrel
@@ -1919,10 +1959,10 @@ mechanics:
   text: >-
     Does 10 damage to 2 of your opponent's Benched Pokémon.  (Don't
     apply Weakness and Resistance for Benched Pokémon.)
-weakness:
-  amount: 20
+damage modifiers:
+- amount: 20
   operation: +
-  type: L
+  type: Lightning
 retreat: 1
 dex number: 394
 species: Penguin
@@ -1963,11 +2003,13 @@ mechanics:
   type: attack
   text: >-
     Discard all Energy cards attached to Raichu.
-weakness:
-  amount: 20
+damage modifiers:
+- amount: 20
   operation: +
-  type: F
-resistance: M-20
+  type: Fighting
+- amount: 20
+  operation: '-'
+  type: Metal
 dex number: 26
 species: Mouse
 weight: 66.1
@@ -2005,11 +2047,13 @@ mechanics:
     damage plus 10 more damage.  If 2 of them are heads, this
     attack does 10 damage plus 20 more damage.  If all of them
     are heads, this attack does 10 damage plus 40 more damage.
-weakness:
-  amount: 20
+damage modifiers:
+- amount: 20
   operation: +
-  type: R
-resistance: F-20
+  type: Fire
+- amount: 20
+  operation: '-'
+  type: Fighting
 retreat: 1
 dex number: 123
 species: Mantis
@@ -2047,11 +2091,13 @@ mechanics:
   cost: CCC
   damage: '50'
   type: attack
-weakness:
-  amount: 20
+damage modifiers:
+- amount: 20
   operation: +
-  type: L
-resistance: F-20
+  type: Lightning
+- amount: 20
+  operation: '-'
+  type: Fighting
 dex number: 397
 species: Starling
 weight: 34.2
@@ -2088,10 +2134,10 @@ mechanics:
   type: attack
   text: >-
     Sudowoodo does 30 damage to itself.
-weakness:
-  amount: 20
+damage modifiers:
+- amount: 20
   operation: +
-  type: W
+  type: Water
 retreat: 2
 dex number: 185
 species: Imitation
@@ -2131,10 +2177,10 @@ mechanics:
   cost: C
   damage: '20'
   type: attack
-weakness:
-  amount: 10
+damage modifiers:
+- amount: 10
   operation: +
-  type: P
+  type: Psychic
 dex number: 201
 species: Symbol
 weight: 11.0
@@ -2171,10 +2217,10 @@ mechanics:
   text: >-
     Return Aipom and all cards attached to it to your hand.  (If
     you don't have any Benched Pokémon, this attack does nothing.)
-weakness:
-  amount: 10
+damage modifiers:
+- amount: 10
   operation: +
-  type: F
+  type: Fighting
 retreat: 1
 dex number: 190
 species: Long Tail
@@ -2210,10 +2256,10 @@ mechanics:
   type: attack
   text: >-
     Flip a coin.  If tails, this attack does nothing.
-weakness:
-  amount: 10
+damage modifiers:
+- amount: 10
   operation: +
-  type: F
+  type: Fighting
 retreat: 1
 dex number: 190
 species: Long Tail
@@ -2250,11 +2296,13 @@ mechanics:
   type: attack
   text: >-
     Flip a coin.  If heads, the Defending Pokémon is now Confused.
-weakness:
-  amount: 10
+damage modifiers:
+- amount: 10
   operation: +
-  type: P
-resistance: R-20
+  type: Psychic
+- amount: 20
+  operation: '-'
+  type: Fire
 retreat: 1
 dex number: 436
 species: Bronze
@@ -2292,10 +2340,10 @@ mechanics:
   type: attack
   text: >-
     Remove 1 damage counter from each of your Benched Pokémon.
-weakness:
-  amount: 10
+damage modifiers:
+- amount: 10
   operation: +
-  type: F
+  type: Fighting
 retreat: 1
 dex number: 427
 species: Rabbit
@@ -2332,10 +2380,10 @@ mechanics:
   cost: FC
   damage: '30'
   type: attack
-weakness:
-  amount: 10
+damage modifiers:
+- amount: 10
   operation: +
-  type: R
+  type: Fire
 retreat: 1
 dex number: 412
 species: Bagworm
@@ -2374,11 +2422,13 @@ mechanics:
   text: >-
     The Defending Pokémon can't retreat during opponent's next
     turn.
-weakness:
-  amount: 20
+damage modifiers:
+- amount: 20
   operation: +
-  type: L
-resistance: F-20
+  type: Lightning
+- amount: 20
+  operation: '-'
+  type: Fighting
 dex number: 441
 species: Music Note
 weight: 4.2
@@ -2413,10 +2463,10 @@ mechanics:
   type: attack
   text: >-
     Flip a coin.  If tails, this attack does nothing.
-weakness:
-  amount: 10
+damage modifiers:
+- amount: 10
   operation: +
-  type: W
+  type: Water
 retreat: 1
 dex number: 390
 species: Chimp
@@ -2449,10 +2499,10 @@ mechanics:
   text: >-
     Flip 3 coins.  This attack does 10 damage times the number
     of heads.
-weakness:
-  amount: 10
+damage modifiers:
+- amount: 10
   operation: +
-  type: W
+  type: Water
 retreat: 1
 illustrator: Naoyo Kimura
 ---
@@ -2484,10 +2534,10 @@ mechanics:
     Flip a coin.  If heads, this attack does 10 damage to each
     of your opponent's Pokémon.  (Don't apply Weakness and Resistance
     for Benched Pokémon.)
-weakness:
-  amount: 10
+damage modifiers:
+- amount: 10
   operation: +
-  type: P
+  type: Psychic
 retreat: 1
 dex number: 433
 species: Bell
@@ -2525,11 +2575,13 @@ mechanics:
     Choose 1 of your opponent's Pokémon.  This attack does 20
     damage to that Pokémon.  This attack's damage isn't affected
     by Weakness or Resistance
-weakness:
-  amount: 10
+damage modifiers:
+- amount: 10
   operation: +
-  type: R
-resistance: F-20
+  type: Fire
+- amount: 20
+  operation: '-'
+  type: Fighting
 retreat: 1
 dex number: 415
 species: Tiny Bee
@@ -2564,10 +2616,10 @@ mechanics:
   type: attack
   text: >-
     Flip a coin.  If heads, the Defending Pokémon is now Poisoned.
-weakness:
-  amount: 10
+damage modifiers:
+- amount: 10
   operation: +
-  type: P
+  type: Psychic
 retreat: 1
 dex number: 453
 species: Toxic Mouth
@@ -2605,11 +2657,13 @@ mechanics:
   type: attack
   text: >-
     Switch Drifloon with 1 of your Benched Pokémon.
-weakness:
-  amount: 10
+damage modifiers:
+- amount: 10
   operation: +
-  type: D
-resistance: C-20
+  type: Darkness
+- amount: 20
+  operation: '-'
+  type: Colorless
 retreat: 1
 dex number: 425
 species: Balloon
@@ -2647,10 +2701,10 @@ mechanics:
   type: attack
   text: >-
     Flip a coin.  If tails, this attack does nothing.
-weakness:
-  amount: 10
+damage modifiers:
+- amount: 10
   operation: +
-  type: F
+  type: Fighting
 retreat: 1
 dex number: 133
 species: Evolution
@@ -2687,10 +2741,10 @@ mechanics:
     If the Defending Pokémon tries to attack during your opponent's
     next turn, your opponent flips a coin.  If tails, that attack
     does nothing.
-weakness:
-  amount: 10
+damage modifiers:
+- amount: 10
   operation: +
-  type: F
+  type: Fighting
 retreat: 1
 dex number: 133
 species: Evolution
@@ -2727,11 +2781,13 @@ mechanics:
   cost: CC
   damage: '20'
   type: attack
-weakness:
-  amount: 10
+damage modifiers:
+- amount: 10
   operation: +
-  type: F
-resistance: M-20
+  type: Fighting
+- amount: 20
+  operation: '-'
+  type: Metal
 retreat: 1
 dex number: 309
 species: Lightning
@@ -2770,10 +2826,10 @@ mechanics:
   text: >-
     Flip a coin.  If heads, discard an Energy card attached to
     the Defending Pokémon.
-weakness:
-  amount: 10
+damage modifiers:
+- amount: 10
   operation: +
-  type: F
+  type: Fighting
 retreat: 1
 dex number: 431
 species: Catty
@@ -2812,10 +2868,10 @@ mechanics:
   type: attack
   text: >-
     Hippopotas does 10 damage to itself.
-weakness:
-  amount: 10
+damage modifiers:
+- amount: 10
   operation: +
-  type: W
+  type: Water
 retreat: 2
 dex number: 449
 species: Hippo
@@ -2854,10 +2910,10 @@ mechanics:
   cost: F
   damage: '20'
   type: attack
-weakness:
-  amount: 20
+damage modifiers:
+- amount: 20
   operation: +
-  type: G
+  type: Grass
 retreat: 1
 dex number: 140
 species: Shellfish
@@ -2895,10 +2951,10 @@ mechanics:
   type: attack
   text: >-
     Flip a coin.  If heads, the Defending Pokémon is now Paralyzed.
-weakness:
-  amount: 10
+damage modifiers:
+- amount: 10
   operation: +
-  type: F
+  type: Fighting
 retreat: 2
 dex number: 446
 species: Big Eater
@@ -2939,10 +2995,10 @@ mechanics:
   text: >-
     Does 10 damage to 2 of your opponent's Benched Pokémon.  (Don't
     apply Weakness and Resistance for Benched Pokémon.)
-weakness:
-  amount: 20
+damage modifiers:
+- amount: 20
   operation: +
-  type: G
+  type: Grass
 retreat: 1
 dex number: 138
 species: Spiral
@@ -2981,11 +3037,13 @@ mechanics:
   type: attack
   text: >-
     Pikachu does 10 damage to itself.
-weakness:
-  amount: 10
+damage modifiers:
+- amount: 10
   operation: +
-  type: F
-resistance: M-20
+  type: Fighting
+- amount: 20
+  operation: '-'
+  type: Metal
 retreat: 1
 dex number: 25
 species: Mouse
@@ -3022,10 +3080,10 @@ mechanics:
   cost: CC
   damage: '20'
   type: attack
-weakness:
-  amount: 10
+damage modifiers:
+- amount: 10
   operation: +
-  type: L
+  type: Lightning
 retreat: 1
 dex number: 393
 species: Penguin
@@ -3058,10 +3116,10 @@ mechanics:
     Choose 1 of your opponent's Pokémon.  This attack does 10
     damage to that Pokémon.  This attack's damage isn't affected
     by Weakness and Resistance.
-weakness:
-  amount: 10
+damage modifiers:
+- amount: 10
   operation: +
-  type: L
+  type: Lightning
 retreat: 1
 illustrator: Naoyo Kimura
 ---
@@ -3091,10 +3149,10 @@ mechanics:
   text: >-
     Does 10 damage to 1 of your opponent's Benched Pokémon.  (Don't
     apply Weakness and Resistance for Benched Pokémon.)
-weakness:
-  amount: 10
+damage modifiers:
+- amount: 10
   operation: +
-  type: L
+  type: Lightning
 retreat: 2
 dex number: 422
 species: Sea Slug
@@ -3130,11 +3188,13 @@ mechanics:
   type: attack
   text: >-
     Flip a coin.  If tails, this attack does nothing.
-weakness:
-  amount: 10
+damage modifiers:
+- amount: 10
   operation: +
-  type: L
-resistance: F-20
+  type: Lightning
+- amount: 20
+  operation: '-'
+  type: Fighting
 retreat: 1
 dex number: 21
 species: Tiny Bird
@@ -3171,11 +3231,13 @@ mechanics:
   cost: CC
   damage: '20'
   type: attack
-weakness:
-  amount: 10
+damage modifiers:
+- amount: 10
   operation: +
-  type: L
-resistance: F-20
+  type: Lightning
+- amount: 20
+  operation: '-'
+  type: Fighting
 retreat: 1
 dex number: 396
 species: Starling
@@ -3210,11 +3272,13 @@ mechanics:
   cost: CC
   damage: '20'
   type: attack
-weakness:
-  amount: 10
+damage modifiers:
+- amount: 10
   operation: +
-  type: F
-resistance: P-20
+  type: Fighting
+- amount: 20
+  operation: '-'
+  type: Psychic
 retreat: 1
 dex number: 434
 species: Skunk
@@ -3248,11 +3312,13 @@ mechanics:
   cost: GC
   damage: '30'
   type: attack
-weakness:
-  amount: 10
+damage modifiers:
+- amount: 10
   operation: +
-  type: R
-resistance: W-20
+  type: Fire
+- amount: 20
+  operation: '-'
+  type: Water
 retreat: 2
 dex number: 387
 species: Tiny Leaf
@@ -3282,11 +3348,13 @@ mechanics:
   cost: GC
   damage: '30'
   type: attack
-weakness:
-  amount: 10
+damage modifiers:
+- amount: 10
   operation: +
-  type: R
-resistance: W-20
+  type: Fire
+- amount: 20
+  operation: '-'
+  type: Water
 retreat: 2
 illustrator: Naoyo Kimura
 ---
@@ -3761,10 +3829,10 @@ mechanics:
     Lv.X) and put it onto your bench as a basic Pokémon. Then,
     you may search your discard pile for up to 3 basic Energy
     cards and attach them to that Pokémon.
-weakness:
-  amount: 2
+damage modifiers:
+- amount: 2
   operation: ×
-  type: C
+  type: Colorless
 illustrator: Ryo Ueda
 ---
 set: majestic-dawn
@@ -3798,10 +3866,10 @@ mechanics:
     Flip a coin. If heads, this attack does 20 damage to each
     of your opponent's Benched Pokémon. (Don't apply Weakness
     and Resistance for Benched Pokémon.)
-weakness:
-  amount: 30
+damage modifiers:
+- amount: 30
   operation: +
-  type: M
+  type: Metal
 retreat: 1
 illustrator: Ryo Ueda
 ---
@@ -3836,11 +3904,13 @@ mechanics:
   text: >-
     Does 30 damage plus 10 more damage for each Energy attached
     to all of your Pokémon.
-weakness:
-  amount: 30
+damage modifiers:
+- amount: 30
   operation: +
-  type: R
-resistance: W-20
+  type: Fire
+- amount: 20
+  operation: '-'
+  type: Water
 retreat: 2
 illustrator: Ryo Ueda
 ---
@@ -3873,9 +3943,9 @@ mechanics:
     put Porygon-Z Lv.X from your hand onto your Active Porygon-Z,
     you may discard all of your opponent's Special Energy cards
     in play.
-weakness:
-  amount: 2
+damage modifiers:
+- amount: 2
   operation: ×
-  type: F
+  type: Fighting
 retreat: 2
 illustrator: Ryo Ueda

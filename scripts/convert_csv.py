@@ -33,6 +33,8 @@ type_initials = dict(
     Darkness = 'D',
 )
 
+type_from_initial = {v: k for k, v in type_initials.items()}
+
 class_from_initials = dict(
     P='Pokemon',
     T='Trainer',
@@ -273,6 +275,7 @@ def main(infile, destdir=None):
                         mechanic['text'] = Text(text)
                     mechanics.append(mechanic)
 
+        damage_modifiers = []
         weakness = pop('weakness')
         if weakness and weakness != 'None':
             weakness = weakness.replace(' ', '')
@@ -289,15 +292,25 @@ def main(infile, destdir=None):
                     weak_type, weak_sign, weak_amount = weakness, '', ''
                 else:
                     raise AssertionError('Bad weakness {!r}'.format(weakness))
-            result['weakness'] = {
-                'type': weak_type,
-                'operation': weak_sign,
-                'amount': weak_amount,
-            }
-
+            for t in weak_type:
+                damage_modifiers.append(dict(
+                    type=type_from_initial[t],
+                    operation=weak_sign,
+                    amount=weak_amount,
+                ))
         resist = pop('resist')
         if resist and resist.lower() != 'none':
-            result['resistance'] = resist
+            res = dict(operation='-', amount=30)
+            if resist.endswith('-30'):
+                resist = resist[:-3]
+            elif resist.endswith('-20'):
+                resist = resist[:-3]
+                res['amount'] = 20
+            for t in resist:
+                res['type'] = type_from_initial[t]
+                damage_modifiers.append(dict(res))
+        if damage_modifiers:
+            result['damage modifiers'] = damage_modifiers
 
         retreat = pop('retreat')
         if retreat and int(retreat):

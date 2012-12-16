@@ -152,25 +152,11 @@ def load_sets(session, directory, set_names=None, verbose=True):
             hp = card_info.pop('hp', None)
             retreat_cost = card_info.pop('retreat', None)
 
-            resistance = card_info.pop('resistance', None)  # TODO
-            if resistance and resistance.endswith('-20'):
-                resistance = resistance[:-len('-20')]
-                resistance_amount = 20
-            elif resistance and resistance.endswith('-30'):
-                resistance = resistance[:-len('-30')]
-                resistance_amount = 30
-            else:
-                resistance_amount = 30
-            if not resistance or resistance == 'None':
-                resistant_types = []
-            else:
-                resistant_types = [type_by_initial(i) for i in resistance]
-
             card_types = tuple(
                 util.get(session, tcg_tables.TCGType, name=t) for t in
                     card_info.pop('types', ()))
 
-            weak_info = card_info.pop('weakness', None)
+            damage_mod_info = card_info.pop('damage modifiers', [])
 
             card_family = get_family(session, en, card_name)
 
@@ -188,7 +174,7 @@ def load_sets(session, directory, set_names=None, verbose=True):
                         in card.card_mechanics]
                 if mechanics != card_info['mechanics']:
                     continue
-                # TODO: weak_info/resistance_types
+                # TODO: damage_mod_info
                 # TODO: card_subclass
                 # TODO: evolutions
                 # TODO: subclasses
@@ -275,31 +261,15 @@ def load_sets(session, directory, set_names=None, verbose=True):
                     link.order = type_index
                     session.add(link)
 
-                if weak_info:
-                    weak_amount = weak_info.pop('amount')
-                    weak_operation = weak_info.pop('operation')
-                    weak_operation = {'x': '×'}.get(
-                            weak_operation, weak_operation)
-                    for w_index, initial in enumerate(weak_info.pop('type')):
-                        w_type = type_by_initial(initial)
-                        modifier = tcg_tables.DamageModifier()
-                        modifier.card = card
-                        modifier.type = w_type
-                        modifier.amount = weak_amount
-                        modifier.order = w_index
-                        modifier.operation = weak_operation
-                        session.add(modifier)
-                else:
-                    w_index = 0
-
-                for r_index, r_type in enumerate(resistant_types,
-                        start=w_index):
+                for dm_index, dm_info in enumerate(damage_mod_info):
+                    dm_type = util.get(session, tcg_tables.TCGType,
+                        name=dm_info.pop('type'))
                     modifier = tcg_tables.DamageModifier()
                     modifier.card = card
-                    modifier.type = r_type
-                    modifier.amount = resistance_amount
-                    modifier.order = r_index
-                    modifier.operation = '-'
+                    modifier.type = dm_type
+                    modifier.amount = dm_info.pop('amount')
+                    modifier.order = dm_index
+                    modifier.operation = dm_info.pop('operation')
                     session.add(modifier)
 
                 for subclass_index, subclass_name in enumerate(
@@ -468,34 +438,13 @@ def dump_set(tcg_set, outfile, verbose=True):
         card_info['mechanics'] = [export_mechanic(cm.mechanic) for cm
                                   in card.card_mechanics]
 
-        weaknesses = []
-        resistances = []
+        card_info['damage modifiers'] = damage_mods = []
         for m in card.damage_modifiers:
-            mod = (
+            damage_mods.append(OrderedDict([
                     ('amount', m.amount),
                     ('operation', m.operation),
-                    ('type', m.type.initial),
-                )
-            if m.operation == '-':
-                resistances.append(OrderedDict([(k, v) for k, v in mod]))
-            else:
-                weaknesses.append(OrderedDict([(k, v) for k, v in mod]))
-        if weaknesses:
-            first_weakness = weaknesses[0]
-            assert all(w['amount'] == first_weakness['amount'] and
-                       w['operation'] == first_weakness['operation']
-                       for w in weaknesses)
-            first_weakness['type'] = ''.join(w['type'] for w in weaknesses)
-            card_info['weakness'] = first_weakness
-        if resistances:
-            first_resistance = resistances[0]
-            assert all(w['amount'] == first_resistance['amount'] and
-                       w['operation'] == '-'
-                       for w in resistances)
-            resist_string = ''.join(w['type'] for w in resistances)
-            if first_resistance['amount'] != 30:
-                resist_string += '-{}'.format(first_resistance['amount'])
-            card_info['resistance'] = resist_string
+                    ('type', m.type.name),
+                ]))
 
         card_info['retreat'] = card.retreat_cost
 

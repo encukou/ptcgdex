@@ -32,11 +32,13 @@ mechanics:
   type: attack
   text: >-
     Your opponent discards the top card of his or her deck.
-weakness:
-  amount: 2
+damage modifiers:
+- amount: 2
   operation: ×
-  type: R
-resistance: G
+  type: Fire
+- amount: 30
+  operation: '-'
+  type: Grass
 retreat: 4
 illustrator: Ken Sugimori
 ---
@@ -73,11 +75,16 @@ mechanics:
   cost: LCC
   damage: '50'
   type: attack
-weakness:
-  amount: 2
+damage modifiers:
+- amount: 2
   operation: ×
-  type: C
-resistance: FG
+  type: Colorless
+- amount: 30
+  operation: '-'
+  type: Fighting
+- amount: 30
+  operation: '-'
+  type: Grass
 retreat: 1
 illustrator: Ken Sugimori
 ---
@@ -112,10 +119,10 @@ mechanics:
   type: attack
   text: >-
     This attack's damage isn't affected by Resistance.
-weakness:
-  amount: 2
+damage modifiers:
+- amount: 2
   operation: ×
-  type: G
+  type: Grass
 retreat: 3
 illustrator: Ken Sugimori
 ---
@@ -151,11 +158,13 @@ mechanics:
     of his or her Benched Pokémon. This attack does 40 damage
     times the number of tails. This attack's damage isn't affected
     by Weakness or Resistance.
-weakness:
-  amount: 2
+damage modifiers:
+- amount: 2
   operation: ×
-  type: D
-resistance: F
+  type: Darkness
+- amount: 30
+  operation: '-'
+  type: Fighting
 retreat: 1
 illustrator: Ken Sugimori
 ---
@@ -191,10 +200,10 @@ mechanics:
     Discard a R Energy card attached to Blaziken. This attack
     does 10 damage to each of your opponent's Benched Pokémon.
     (Don't apply Weakness and Resistance for Benched Pokémon.)
-weakness:
-  amount: 2
+damage modifiers:
+- amount: 2
   operation: ×
-  type: W
+  type: Water
 retreat: 2
 illustrator: Masakazu Fukuda
 ---
@@ -224,10 +233,10 @@ mechanics:
   type: attack
   text: >-
     Each Defending Pokémon is now Burned.
-weakness:
-  amount: 2
+damage modifiers:
+- amount: 2
   operation: ×
-  type: W
+  type: Water
 retreat: 2
 illustrator: Ken Sugimori
 ---
@@ -262,10 +271,10 @@ mechanics:
   text: >-
     The Defending Pokémon is now Poisoned. The Defending Pokémon
     can't retreat during your opponent's next turn.
-weakness:
-  amount: 2
+damage modifiers:
+- amount: 2
   operation: ×
-  type: R
+  type: Fire
 retreat: 2
 illustrator: Ken Sugimori
 ---
@@ -300,10 +309,10 @@ mechanics:
   text: >-
     Does 10 damage times the amount of Energy attached to all
     of your Active Pokémon.
-weakness:
-  amount: 2
+damage modifiers:
+- amount: 2
   operation: ×
-  type: F
+  type: Fighting
 retreat: 1
 illustrator: Masakazu Fukuda
 ---
@@ -340,10 +349,10 @@ mechanics:
   text: >-
     Does 10 damage times the total amount of Energy attached to
     Gardevoir and the Defending Pokémon.
-weakness:
-  amount: 2
+damage modifiers:
+- amount: 2
   operation: ×
-  type: P
+  type: Psychic
 retreat: 2
 illustrator: Midori Harada
 ---
@@ -382,10 +391,10 @@ mechanics:
   cost: FFC
   damage: '60'
   type: attack
-weakness:
-  amount: 2
+damage modifiers:
+- amount: 2
   operation: ×
-  type: G
+  type: Grass
 retreat: 2
 illustrator: Ken Sugimori
 ---
@@ -425,10 +434,10 @@ mechanics:
   text: >-
     Flip a coin. If heads, this attack does 60 damage plus 30
     more damage.
-weakness:
-  amount: 2
+damage modifiers:
+- amount: 2
   operation: ×
-  type: P
+  type: Psychic
 retreat: 2
 illustrator: Ken Sugimori
 ---
@@ -461,10 +470,10 @@ mechanics:
   type: attack
   text: >-
     Discard all Energy cards attached to Raichu.
-weakness:
-  amount: 2
+damage modifiers:
+- amount: 2
   operation: ×
-  type: F
+  type: Fighting
 retreat: 1
 illustrator: Hajime Kusajima
 ---
@@ -497,10 +506,10 @@ mechanics:
   text: >-
     Discard a Basic Energy card attached to Slaking or this attack
     does nothing. Slaking can't attack during your next turn.
-weakness:
-  amount: 2
+damage modifiers:
+- amount: 2
   operation: ×
-  type: F
+  type: Fighting
 retreat: 3
 illustrator: Midori Harada
 ---
@@ -534,11 +543,13 @@ mechanics:
   text: >-
     If Phoebe's Stadium is in play, the Defending Pokémon is now
     Confused.
-weakness:
-  amount: 2
+damage modifiers:
+- amount: 2
   operation: ×
-  type: D
-resistance: F
+  type: Darkness
+- amount: 30
+  operation: '-'
+  type: Fighting
 retreat: 2
 illustrator: Ken Sugimori
 ---
@@ -574,10 +585,10 @@ mechanics:
   text: >-
     You may discard all L Energy attached to Lanturn. If you do,
     this attack's base damage is 90 instead of 50.
-weakness:
-  amount: 2
+damage modifiers:
+- amount: 2
   operation: ×
-  type: F
+  type: Fighting
 retreat: 2
 illustrator: Midori Harada
 ---
@@ -615,11 +626,13 @@ mechanics:
   text: >-
     Does 10 damage times the amount of Energy attached to all
     of your Pokémon (including Magneton).
-weakness:
-  amount: 2
+damage modifiers:
+- amount: 2
   operation: ×
-  type: F
-resistance: M
+  type: Fighting
+- amount: 30
+  operation: '-'
+  type: Metal
 retreat: 1
 illustrator: Masakazu Fukuda
 ---
@@ -652,11 +665,13 @@ mechanics:
     If your opponent has 5 or more cards in his or her hand, your
     opponent discards a number of cards until your opponent has
     4 cards left in his or her hand.
-weakness:
-  amount: 2
+damage modifiers:
+- amount: 2
   operation: ×
-  type: R
-resistance: G
+  type: Fire
+- amount: 30
+  operation: '-'
+  type: Grass
 retreat: 1
 illustrator: Ken Sugimori
 ---
@@ -690,11 +705,13 @@ mechanics:
   text: >-
     If Sidney's Stadium is in play, this attack does 50 damage
     plus 20 more damage.
-weakness:
-  amount: 2
+damage modifiers:
+- amount: 2
   operation: ×
-  type: F
-resistance: P
+  type: Fighting
+- amount: 30
+  operation: '-'
+  type: Psychic
 illustrator: Midori Harada
 ---
 set: ex-power-keepers
@@ -730,10 +747,10 @@ mechanics:
   cost: RCC
   damage: '50'
   type: attack
-weakness:
-  amount: 2
+damage modifiers:
+- amount: 2
   operation: ×
-  type: W
+  type: Water
 retreat: 1
 illustrator: Tomoaki Imakuni
 ---
@@ -769,10 +786,10 @@ mechanics:
     Does 30 damage plus 20 more damage for each W Energy attached
     to Omastar but not used to pay for this attack's Energy cost.
     You can't add more than 40 damage in this way.
-weakness:
-  amount: 2
+damage modifiers:
+- amount: 2
   operation: ×
-  type: L
+  type: Lightning
 retreat: 2
 illustrator: Ken Sugimori
 ---
@@ -804,10 +821,10 @@ mechanics:
     Search your deck for a L Pokémon (excluding Pokémon-ex), show
     it to your opponent, and put it into your hand. Shuffle your
     deck afterward.
-weakness:
-  amount: 2
+damage modifiers:
+- amount: 2
   operation: ×
-  type: F
+  type: Fighting
 retreat: 1
 illustrator: Ken Sugimori
 ---
@@ -844,7 +861,10 @@ mechanics:
     to that Pokémon. This attack's damage isn't affected by Weakness,
     Resistance, Poke-Powers, Poke-Bodies, or any other effects
     on that Pokémon.
-resistance: C
+damage modifiers:
+- amount: 30
+  operation: '-'
+  type: Colorless
 retreat: 1
 illustrator: Ken Sugimori
 ---
@@ -873,10 +893,10 @@ mechanics:
   text: >-
     The Defending Pokémon is now Poisoned. Put 2 damage counters
     instead of 1 on the Defending Pokémon between turns.
-weakness:
-  amount: 2
+damage modifiers:
+- amount: 2
   operation: ×
-  type: P
+  type: Psychic
 retreat: 1
 illustrator: Midori Harada
 ---
@@ -908,10 +928,10 @@ mechanics:
   text: >-
     Wobbuffet does 10 damage to itself, and don't apply Weakness
     and Resistance to this damage.
-weakness:
-  amount: 2
+damage modifiers:
+- amount: 2
   operation: ×
-  type: P
+  type: Psychic
 retreat: 2
 illustrator: Masakazu Fukuda
 ---
@@ -947,10 +967,10 @@ mechanics:
   text: >-
     Flip a coin. If heads, this attack does 10 damage plus 20
     more damage.
-weakness:
-  amount: 2
+damage modifiers:
+- amount: 2
   operation: ×
-  type: F
+  type: Fighting
 retreat: 1
 illustrator: Ken Sugimori
 ---
@@ -984,10 +1004,10 @@ mechanics:
     plus 10 more damage. If 2 of them are heads, this attack does
     10 damage plus 30 more damage. If all of them are heads, this
     attack does 10 damage plus 50 more damage.
-weakness:
-  amount: 2
+damage modifiers:
+- amount: 2
   operation: ×
-  type: G
+  type: Grass
 retreat: 1
 illustrator: Midori Harada
 ---
@@ -1021,11 +1041,13 @@ mechanics:
   text: >-
     Flip 4 coins. This attack does 20 damage times the number
     of heads.
-weakness:
-  amount: 2
+damage modifiers:
+- amount: 2
   operation: ×
-  type: F
-resistance: P
+  type: Fighting
+- amount: 30
+  operation: '-'
+  type: Psychic
 retreat: 1
 illustrator: Ken Sugimori
 ---
@@ -1055,10 +1077,10 @@ mechanics:
   cost: RRC
   damage: '50'
   type: attack
-weakness:
-  amount: 2
+damage modifiers:
+- amount: 2
   operation: ×
-  type: W
+  type: Water
 retreat: 1
 illustrator: Midori Harada
 ---
@@ -1091,10 +1113,10 @@ mechanics:
   type: attack
   text: >-
     Flip a coin. If tails, this attack does nothing.
-weakness:
-  amount: 2
+damage modifiers:
+- amount: 2
   operation: ×
-  type: W
+  type: Water
 retreat: 1
 illustrator: Atsuko Nishida
 ---
@@ -1132,10 +1154,10 @@ mechanics:
   type: attack
   text: >-
     Glalie does 10 damage to itself.
-weakness:
-  amount: 2
+damage modifiers:
+- amount: 2
   operation: ×
-  type: M
+  type: Metal
 retreat: 1
 illustrator: Ken Sugimori
 ---
@@ -1166,10 +1188,10 @@ mechanics:
   type: attack
   text: >-
     If the Defending Pokémon is not Asleep, this attack does nothing.
-weakness:
-  amount: 2
+damage modifiers:
+- amount: 2
   operation: ×
-  type: P
+  type: Psychic
 retreat: 1
 illustrator: Sachiko Adachi
 ---
@@ -1203,11 +1225,13 @@ mechanics:
   text: >-
     Flip a coin. If heads, this attack does 30 damage plus 20
     more damage.
-weakness:
-  amount: 2
+damage modifiers:
+- amount: 2
   operation: ×
-  type: R
-resistance: G
+  type: Fire
+- amount: 30
+  operation: '-'
+  type: Grass
 retreat: 2
 illustrator: Sachiko Adachi
 ---
@@ -1238,10 +1262,10 @@ mechanics:
   cost: FCC
   damage: '50'
   type: attack
-weakness:
-  amount: 2
+damage modifiers:
+- amount: 2
   operation: ×
-  type: P
+  type: Psychic
 retreat: 1
 illustrator: Ken Sugimori
 ---
@@ -1277,10 +1301,10 @@ mechanics:
   type: attack
   text: >-
     Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
-weakness:
-  amount: 2
+damage modifiers:
+- amount: 2
   operation: ×
-  type: P
+  type: Psychic
 retreat: 1
 illustrator: Tomoaki Imakuni
 ---
@@ -1310,11 +1334,13 @@ mechanics:
   type: attack
   text: >-
     During your next turn, Extra Comet Punch does 30 more damage.
-weakness:
-  amount: 2
+damage modifiers:
+- amount: 2
   operation: ×
-  type: R
-resistance: G
+  type: Fire
+- amount: 30
+  operation: '-'
+  type: Grass
 retreat: 2
 illustrator: Tomokazu Komiya
 ---
@@ -1344,11 +1370,13 @@ mechanics:
   cost: DCC
   damage: '40'
   type: attack
-weakness:
-  amount: 2
+damage modifiers:
+- amount: 2
   operation: ×
-  type: F
-resistance: P
+  type: Fighting
+- amount: 30
+  operation: '-'
+  type: Psychic
 retreat: 1
 illustrator: Hajime Kusajima
 ---
@@ -1374,10 +1402,10 @@ mechanics:
   type: attack
   text: >-
     Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
-weakness:
-  amount: 2
+damage modifiers:
+- amount: 2
   operation: ×
-  type: L
+  type: Lightning
 retreat: 1
 illustrator: Ken Sugimori
 ---
@@ -1409,11 +1437,13 @@ mechanics:
   type: attack
   text: >-
     Put 1 damage counter on Sharpedo.
-weakness:
-  amount: 2
+damage modifiers:
+- amount: 2
   operation: ×
-  type: G
-resistance: P
+  type: Grass
+- amount: 30
+  operation: '-'
+  type: Psychic
 illustrator: Midori Harada
 ---
 set: ex-power-keepers
@@ -1443,11 +1473,16 @@ mechanics:
   cost: WCC
   damage: '40'
   type: attack
-weakness:
-  amount: 2
+damage modifiers:
+- amount: 2
   operation: ×
-  type: C
-resistance: FR
+  type: Colorless
+- amount: 30
+  operation: '-'
+  type: Fighting
+- amount: 30
+  operation: '-'
+  type: Fire
 retreat: 2
 illustrator: Midori Harada
 ---
@@ -1478,11 +1513,16 @@ mechanics:
   text: >-
     Flip a coin. If tails, this attack does nothing. If heads,
     the Defending Pokémon is Paralyzed.
-weakness:
-  amount: 2
+damage modifiers:
+- amount: 2
   operation: ×
-  type: C
-resistance: FL
+  type: Colorless
+- amount: 30
+  operation: '-'
+  type: Fighting
+- amount: 30
+  operation: '-'
+  type: Lightning
 retreat: 1
 illustrator: Mitsuhiro Arita
 ---
@@ -1515,10 +1555,10 @@ mechanics:
   text: >-
     Flip a coin. If heads, this attack does 20 damage plus 20
     more damage.
-weakness:
-  amount: 2
+damage modifiers:
+- amount: 2
   operation: ×
-  type: F
+  type: Fighting
 retreat: 1
 illustrator: Hajime Kusajima
 ---
@@ -1547,11 +1587,13 @@ mechanics:
   cost: MC
   damage: '20'
   type: attack
-weakness:
-  amount: 2
+damage modifiers:
+- amount: 2
   operation: ×
-  type: R
-resistance: G
+  type: Fire
+- amount: 30
+  operation: '-'
+  type: Grass
 retreat: 2
 illustrator: Tomokazu Komiya
 ---
@@ -1576,11 +1618,16 @@ mechanics:
   type: attack
   text: >-
     Does 10 damage times the number of damage counters on Bagon.
-weakness:
-  amount: 2
+damage modifiers:
+- amount: 2
   operation: ×
-  type: C
-resistance: FR
+  type: Colorless
+- amount: 30
+  operation: '-'
+  type: Fighting
+- amount: 30
+  operation: '-'
+  type: Fire
 retreat: 1
 illustrator: Midori Harada
 ---
@@ -1609,10 +1656,10 @@ mechanics:
   cost: CC
   damage: '20'
   type: attack
-weakness:
-  amount: 2
+damage modifiers:
+- amount: 2
   operation: ×
-  type: P
+  type: Psychic
 retreat: 1
 illustrator: Mitsuhiro Arita
 ---
@@ -1639,11 +1686,13 @@ mechanics:
     Flip a coin. If heads, move a basic Energy card from the Defending
     Pokémon to another of your opponent's Pokémon. (Ignore this
     effect if your opponent has only 1 Pokémon.)
-weakness:
-  amount: 2
+damage modifiers:
+- amount: 2
   operation: ×
-  type: R
-resistance: G
+  type: Fire
+- amount: 30
+  operation: '-'
+  type: Grass
 retreat: 2
 illustrator: Midori Harada
 ---
@@ -1670,10 +1719,10 @@ mechanics:
     to that Pokémon. This attack's damage isn't affected by Weakness,
     Resistance, Poke-Powers, Poke-Bodies, or any other effects
     on that Pokémon.
-weakness:
-  amount: 2
+damage modifiers:
+- amount: 2
   operation: ×
-  type: R
+  type: Fire
 retreat: 1
 illustrator: Hajime Kusajima
 ---
@@ -1702,11 +1751,13 @@ mechanics:
   cost: DC
   damage: '20'
   type: attack
-weakness:
-  amount: 2
+damage modifiers:
+- amount: 2
   operation: ×
-  type: G
-resistance: P
+  type: Grass
+- amount: 30
+  operation: '-'
+  type: Psychic
 retreat: 1
 illustrator: Ken Sugimori
 ---
@@ -1733,10 +1784,10 @@ mechanics:
     If the Defending Pokémon tries to attack during your opponent's
     next turn, your opponent flips a coin. If tails, that attack
     does nothing.
-weakness:
-  amount: 2
+damage modifiers:
+- amount: 2
   operation: ×
-  type: W
+  type: Water
 retreat: 1
 illustrator: Sachiko Adachi
 ---
@@ -1770,10 +1821,10 @@ mechanics:
     During your opponent's next turn, any damage done by attacks
     from the Defending Pokémon is reduced by 10 (before applying
     Weakness and Resistance).
-weakness:
-  amount: 2
+damage modifiers:
+- amount: 2
   operation: ×
-  type: F
+  type: Fighting
 retreat: 1
 illustrator: Mitsuhiro Arita
 ---
@@ -1798,11 +1849,13 @@ mechanics:
   type: attack
   text: >-
     Flip a coin. If tails, this attack does nothing.
-weakness:
-  amount: 2
+damage modifiers:
+- amount: 2
   operation: ×
-  type: D
-resistance: F
+  type: Darkness
+- amount: 30
+  operation: '-'
+  type: Fighting
 retreat: 1
 illustrator: Ken Sugimori
 ---
@@ -1835,10 +1888,10 @@ mechanics:
   text: >-
     Flip 2 coins. This attack does 20 damage times the number
     of heads.
-weakness:
-  amount: 2
+damage modifiers:
+- amount: 2
   operation: ×
-  type: G
+  type: Grass
 retreat: 2
 illustrator: Ken Sugimori
 ---
@@ -1873,10 +1926,10 @@ mechanics:
   text: >-
     The Defending Pokémon can't retreat during your opponent's
     next turn.
-weakness:
-  amount: 2
+damage modifiers:
+- amount: 2
   operation: ×
-  type: R
+  type: Fire
 retreat: 2
 illustrator: Hajime Kusajima
 ---
@@ -1907,10 +1960,10 @@ mechanics:
   type: attack
   text: >-
     Machop does 10 damage to itself.
-weakness:
-  amount: 2
+damage modifiers:
+- amount: 2
   operation: ×
-  type: P
+  type: Psychic
 retreat: 1
 illustrator: Ken Sugimori
 ---
@@ -1940,11 +1993,13 @@ mechanics:
   text: >-
     Does 10 damage to 1 of your opponent's Benched Pokémon. (Don't
     apply Weakness and Resistance for Benched Pokémon.)
-weakness:
-  amount: 2
+damage modifiers:
+- amount: 2
   operation: ×
-  type: F
-resistance: M
+  type: Fighting
+- amount: 30
+  operation: '-'
+  type: Metal
 retreat: 1
 illustrator: Hajime Kusajima
 ---
@@ -1976,10 +2031,10 @@ mechanics:
   text: >-
     Flip a coin. If heads, this attack does 10 damage plus 10
     more damage.
-weakness:
-  amount: 2
+damage modifiers:
+- amount: 2
   operation: ×
-  type: P
+  type: Psychic
 retreat: 1
 illustrator: Midori Harada
 ---
@@ -2010,10 +2065,10 @@ mechanics:
   cost: CC
   damage: '20'
   type: attack
-weakness:
-  amount: 2
+damage modifiers:
+- amount: 2
   operation: ×
-  type: L
+  type: Lightning
 retreat: 1
 illustrator: Ken Sugimori
 ---
@@ -2045,10 +2100,10 @@ mechanics:
   text: >-
     Flip 2 coins. This attack does 20 damage times the number
     of heads.
-weakness:
-  amount: 2
+damage modifiers:
+- amount: 2
   operation: ×
-  type: F
+  type: Fighting
 retreat: 1
 illustrator: Kagemaru Himeno
 ---
@@ -2073,11 +2128,13 @@ mechanics:
   type: attack
   text: >-
     Flip 2 coins. This attack does 10 times the number of heads.
-weakness:
-  amount: 2
+damage modifiers:
+- amount: 2
   operation: ×
-  type: F
-resistance: P
+  type: Fighting
+- amount: 30
+  operation: '-'
+  type: Psychic
 retreat: 1
 illustrator: Midori Harada
 ---
@@ -2106,10 +2163,10 @@ mechanics:
   type: attack
   text: >-
     Switch Ralts with 1 of your Benched Pokémon.
-weakness:
-  amount: 2
+damage modifiers:
+- amount: 2
   operation: ×
-  type: P
+  type: Psychic
 retreat: 1
 illustrator: Midori Harada
 ---
@@ -2140,10 +2197,10 @@ mechanics:
   text: >-
     Flip 2 coins. This attack does 20 damage times the number
     of heads.
-weakness:
-  amount: 2
+damage modifiers:
+- amount: 2
   operation: ×
-  type: R
+  type: Fire
 retreat: 1
 illustrator: Midori Harada
 ---
@@ -2169,11 +2226,13 @@ mechanics:
   text: >-
     Flip a coin. If heads, the Defending Pokémon is now Asleep.
     If tails, the Defending Pokémon is now Confused.
-weakness:
-  amount: 2
+damage modifiers:
+- amount: 2
   operation: ×
-  type: D
-resistance: F
+  type: Darkness
+- amount: 30
+  operation: '-'
+  type: Fighting
 retreat: 1
 illustrator: Ken Sugimori
 ---
@@ -2202,10 +2261,10 @@ mechanics:
   cost: CC
   damage: '20'
   type: attack
-weakness:
-  amount: 2
+damage modifiers:
+- amount: 2
   operation: ×
-  type: F
+  type: Fighting
 retreat: 1
 illustrator: Tomokazu Komiya
 ---
@@ -2234,10 +2293,10 @@ mechanics:
   cost: C
   damage: '10'
   type: attack
-weakness:
-  amount: 2
+damage modifiers:
+- amount: 2
   operation: ×
-  type: F
+  type: Fighting
 retreat: 1
 illustrator: Tomokazu Komiya
 ---
@@ -2270,10 +2329,10 @@ mechanics:
   text: >-
     Flip 2 coins. This attack does 20 damage times the number
     of heads.
-weakness:
-  amount: 2
+damage modifiers:
+- amount: 2
   operation: ×
-  type: M
+  type: Metal
 retreat: 1
 illustrator: Ken Sugimori
 ---
@@ -2302,10 +2361,10 @@ mechanics:
   cost: WC
   damage: '20'
   type: attack
-weakness:
-  amount: 2
+damage modifiers:
+- amount: 2
   operation: ×
-  type: L
+  type: Lightning
 retreat: 1
 illustrator: Ken Sugimori
 ---
@@ -2330,11 +2389,13 @@ mechanics:
   type: attack
   text: >-
     Flip 3 coins. This attack does 10 times the number of heads.
-weakness:
-  amount: 2
+damage modifiers:
+- amount: 2
   operation: ×
-  type: L
-resistance: F
+  type: Lightning
+- amount: 30
+  operation: '-'
+  type: Fighting
 retreat: 1
 illustrator: Ken Sugimori
 ---
@@ -2359,10 +2420,10 @@ mechanics:
   type: attack
   text: >-
     Flip a coin. If heads, the Defending Pokémon is now Burned.
-weakness:
-  amount: 2
+damage modifiers:
+- amount: 2
   operation: ×
-  type: W
+  type: Water
 retreat: 1
 illustrator: Mitsuhiro Arita
 ---
@@ -2387,10 +2448,10 @@ mechanics:
   type: attack
   text: >-
     Flip a coin. If tails, this attack does nothing.
-weakness:
-  amount: 2
+damage modifiers:
+- amount: 2
   operation: ×
-  type: G
+  type: Grass
 retreat: 1
 illustrator: Sachiko Adachi
 ---
@@ -2420,10 +2481,10 @@ mechanics:
   type: attack
   text: >-
     Discard a R Energy attached to Vulpix.
-weakness:
-  amount: 2
+damage modifiers:
+- amount: 2
   operation: ×
-  type: W
+  type: Water
 retreat: 1
 illustrator: Ken Sugimori
 ---
@@ -2454,10 +2515,10 @@ mechanics:
   type: attack
   text: >-
     Does 10 times the number of damage counters on Wynaut.
-weakness:
-  amount: 2
+damage modifiers:
+- amount: 2
   operation: ×
-  type: P
+  type: Psychic
 retreat: 1
 illustrator: Ken Sugimori
 ---
@@ -3005,11 +3066,13 @@ mechanics:
     Does 10 damage to each of your opponent's Benched Pokémon
     that has any damage counters on it. (Don't apply Weakness
     and Resistance for Benched Pokémon.)
-weakness:
-  amount: 2
+damage modifiers:
+- amount: 2
   operation: ×
-  type: F
-resistance: P
+  type: Fighting
+- amount: 30
+  operation: '-'
+  type: Psychic
 retreat: 1
 illustrator: Ryo Ueda
 ---
@@ -3050,10 +3113,10 @@ mechanics:
   text: >-
     You may discard a P Energy card attached to Claydol ex. If
     you do, discard an Energy card attached to the Defending Pokémon.
-weakness:
-  amount: 2
+damage modifiers:
+- amount: 2
   operation: ×
-  type: P
+  type: Psychic
 retreat: 2
 illustrator: Ryo Ueda
 ---
@@ -3088,11 +3151,16 @@ mechanics:
   text: >-
     Flip a coin. If tails, Flygon ex can't use Slashing Strike
     during your next turn.
-weakness:
-  amount: 2
+damage modifiers:
+- amount: 2
   operation: ×
-  type: C
-resistance: FL
+  type: Colorless
+- amount: 30
+  operation: '-'
+  type: Fighting
+- amount: 30
+  operation: '-'
+  type: Lightning
 illustrator: Mitsuhiro Arita
 ---
 set: ex-power-keepers
@@ -3129,11 +3197,16 @@ mechanics:
     Does 70 damage to each of your opponent's Benched Pokémon
     that has the same name as the Defending Pokémon. (Don'[t apply
     Weakness and Resistance for Benched Pokémon.)
-weakness:
-  amount: 2
+damage modifiers:
+- amount: 2
   operation: ×
-  type: FR
-resistance: G
+  type: Fighting
+- amount: 2
+  operation: ×
+  type: Fire
+- amount: 30
+  operation: '-'
+  type: Grass
 retreat: 4
 illustrator: Ryo Ueda
 ---
@@ -3168,11 +3241,16 @@ mechanics:
     Discard all W Energy attached to Salamence ex. This attack
     does 30 damage to each of your opponent's Benched Pokémon.
     (Don't apply Weakness and Resistance for Benched Pokémon.)
-weakness:
-  amount: 2
+damage modifiers:
+- amount: 2
   operation: ×
-  type: C
-resistance: FR
+  type: Colorless
+- amount: 30
+  operation: '-'
+  type: Fighting
+- amount: 30
+  operation: '-'
+  type: Fire
 retreat: 2
 illustrator: Mitsuhiro Arita
 ---
@@ -3212,11 +3290,16 @@ mechanics:
     Does 60 damage to each of your opponent's Benched Pokémon
     that has the same name as the Defending Pokémon. (Don't apply
     Weakness and Resistance for Benched Pokémon.)
-weakness:
-  amount: 2
+damage modifiers:
+- amount: 2
   operation: ×
-  type: FG
-resistance: P
+  type: Fighting
+- amount: 2
+  operation: ×
+  type: Grass
+- amount: 30
+  operation: '-'
+  type: Psychic
 retreat: 1
 illustrator: Ryo Ueda
 ---
@@ -3254,11 +3337,13 @@ mechanics:
   cost: MMC
   damage: '60'
   type: attack
-weakness:
-  amount: 2
+damage modifiers:
+- amount: 2
   operation: ×
-  type: R
-resistance: G
+  type: Fire
+- amount: 30
+  operation: '-'
+  type: Grass
 retreat: 1
 illustrator: Ryo Ueda
 ---
@@ -3294,10 +3379,10 @@ mechanics:
   text: >-
     If there is any Stadium in play, this attack does 70 damage
     plus 20 more damage. Discard that Stadium card.
-weakness:
-  amount: 2
+damage modifiers:
+- amount: 2
   operation: ×
-  type: L
+  type: Lightning
 retreat: 3
 illustrator: Ryo Ueda
 ---
@@ -3330,10 +3415,10 @@ mechanics:
   type: attack
   text: >-
     Discard a R Energy attached to Flareon *.
-weakness:
-  amount: 2
+damage modifiers:
+- amount: 2
   operation: ×
-  type: W
+  type: Water
 retreat: 1
 illustrator: Masakazu Fukuda
 ---
@@ -3367,11 +3452,13 @@ mechanics:
   text: >-
     Flip a coin. If heads, prevent all effects of an attack, including
     damage, done to Jolteon * during your opponent's next turn.
-weakness:
-  amount: 2
+damage modifiers:
+- amount: 2
   operation: ×
-  type: F
-resistance: M
+  type: Fighting
+- amount: 30
+  operation: '-'
+  type: Metal
 retreat: 1
 illustrator: Masakazu Fukuda
 ---
@@ -3406,10 +3493,10 @@ mechanics:
   text: >-
     Flip a coin. If heads, discard an Energy card attached to
     the Defending Pokémon.
-weakness:
-  amount: 2
+damage modifiers:
+- amount: 2
   operation: ×
-  type: L
+  type: Lightning
 retreat: 1
 illustrator: Masakazu Fukuda
 ---
