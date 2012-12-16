@@ -156,6 +156,9 @@ def load_sets(session, directory, set_names=None, verbose=True):
             if resistance and resistance.endswith('-20'):
                 resistance = resistance[:-len('-20')]
                 resistance_amount = 20
+            elif resistance and resistance.endswith('-30'):
+                resistance = resistance[:-len('-30')]
+                resistance_amount = 30
             else:
                 resistance_amount = 30
             if not resistance or resistance == 'None':

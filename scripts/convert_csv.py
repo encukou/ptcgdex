@@ -68,6 +68,11 @@ def munge_errors(data):
     elif set_name == ('legends-awakened', "Regirock"):
         assert data['dex-no.'] == '277'
         data['dex-no.'] = '377'
+    elif set_name == ('stormfront', "Mamoswine"):
+        assert data['dex-no.'] == '474'
+        data['dex-no.'] = '473'
+    elif set_name == ('stormfront', "Voltorb") and data['dex-no.'] == '101':
+        data['dex-no.'] = '100'
     elif set_name == ('mysterious-treasures', "Larivitar"):
         assert data['card-name'] == 'Larivitar'
         data['card-name'] = 'Larvitar'
@@ -112,6 +117,8 @@ def munge_errors(data):
 
     if data['set'] == 'ex-team-magma-vs.-team-aqua':
         data['set'] = 'ex-team-magma-vs-team-aqua'
+    elif data['set'] == 'stormfront' and data['card-name'].startswith('Poké\x81'):
+        data['card-name'] = data['card-name'].replace('\x81', '')
 
 @contextmanager
 def nonempty_setter(target_dict, name, default=None):
