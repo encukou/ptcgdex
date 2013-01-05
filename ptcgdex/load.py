@@ -102,6 +102,17 @@ def get_family(session, en, name):
         session.add(family)
     return family
 
+def get_illustrator(session, en, name):
+    identifier = identifier_from_name(name)
+    try:
+        return util.get(session, tcg_tables.Illustrator, identifier)
+    except NoResultFound:
+        entity = tcg_tables.Illustrator()
+        entity.name = name
+        entity.identifier = identifier
+        session.add(entity)
+    return entity
+
 
 def assert_dicts_equal(a, b):
     if a != b:
@@ -337,14 +348,7 @@ def import_print(session, card_info, do_commit=True):
         {k: v for k, v in card_info.items() if k in CARD_EXPORT_KEYS})
 
     # Print bits
-    illustrator_name = card_info.get('illustrator')
-    try:
-        illustrator = util.get(session, tcg_tables.Illustrator,
-                        name=illustrator_name)
-    except NoResultFound:
-        illustrator = tcg_tables.Illustrator()
-        illustrator.name = illustrator_name
-        session.add(illustrator)
+    illustrator = get_illustrator(session, en, card_info.get('illustrator'))
     rarity = util.get(session, tcg_tables.Rarity,
                         card_info.get('rarity'))
 

@@ -68,8 +68,8 @@ class Print(TableBase):
     set_number = Column(Unicode(5), nullable=False,
         info=dict(description="The card number in the set (may not be actually numeric)"))
     order = Column(Integer, nullable=False,
-        info=dict(description="Sort order inside the set (may not be unique)"))
-    illusrator_id = Column(Integer, ForeignKey('tcg_illustrators.id'),
+        info=dict(description="Sort order inside the set"))
+    illustrator_id = Column(Integer, ForeignKey('tcg_illustrators.id'),
         nullable=False,
         info=dict(description="ID of the illustrator"))
     pokemon_flavor_id = Column(Integer, ForeignKey('tcg_pokemon_flavors.id'),
@@ -312,6 +312,7 @@ class Illustrator(TableBase):
     __tablename__ = 'tcg_illustrators'
     __singlename__ = 'tcg_illustrator'
     id = make_id()
+    identifier = make_identifier(50)
     name = Column(Unicode(50), nullable=False,
         info=dict(description="Name of the illustrator"))
 
@@ -375,7 +376,8 @@ Card.family = relationship(CardFamily, backref='cards')
 Print.card = relationship(Card, backref='prints')
 Print.set = relationship(Set, backref=backref(
     'prints', order_by=(Print.order.asc(), Print.set_number.asc())))
-Print.illustrator = relationship(Illustrator, backref='prints')
+Print.illustrator = relationship(Illustrator, backref=backref(
+    'prints', order_by=(Print.set_id, Print.order, Print.set_number)))
 Print.pokemon_flavor = relationship(PokemonFlavor, backref='prints')
 Print.rarity = relationship(Rarity, backref='prints')
 
