@@ -16,7 +16,7 @@ def make_id():
         info=dict(description="A numeric ID"))
 
 def make_identifier(length):
-    return Column(Unicode(length), nullable=False, unique=True,
+    return Column(Unicode(length), nullable=False, unique=True, index=True,
         info=dict(description=u"An identifier", format='identifier'))
 
 class Card(TableBase):
@@ -25,11 +25,12 @@ class Card(TableBase):
     id = make_id()
     stage_id = Column(Integer, ForeignKey('tcg_stages.id'), nullable=True,
         info=dict(description="ID of the card's evolution stage, if any"))
-    class_id = Column(Integer, ForeignKey('tcg_classes.id'), nullable=False,
+    class_id = Column(Integer, ForeignKey('tcg_classes.id'),
+        nullable=False, index=True,
         info=dict(description="The ID of the card class"))
 
     family_id = Column(Integer, ForeignKey('tcg_card_families.id'),
-        nullable=True,
+        nullable=False, index=True,
         info=dict(description="ID of the card's family"))
     hp = Column(Integer, nullable=True,
         info=dict(description="The card's HP, if any"))
@@ -61,16 +62,18 @@ class Print(TableBase):
     __tablename__ = 'tcg_prints'
     __singlename__ = 'tcg_print'
     id = make_id()
-    card_id = Column(Integer, ForeignKey('tcg_cards.id'), nullable=False,
+    card_id = Column(Integer, ForeignKey('tcg_cards.id'),
+        nullable=False, index=True,
         info=dict(description="The ID of the card"))
-    set_id = Column(Integer, ForeignKey('tcg_sets.id'), nullable=False,
+    set_id = Column(Integer, ForeignKey('tcg_sets.id'),
+        nullable=False, index=True,
         info=dict(description="The ID of the set this appeard in"))
     set_number = Column(Unicode(5), nullable=False,
         info=dict(description="The card number in the set (may not be actually numeric)"))
     order = Column(Integer, nullable=False,
         info=dict(description="Sort order inside the set"))
     illustrator_id = Column(Integer, ForeignKey('tcg_illustrators.id'),
-        nullable=False,
+        nullable=False, index=True,
         info=dict(description="ID of the illustrator"))
     pokemon_flavor_id = Column(Integer, ForeignKey('tcg_pokemon_flavors.id'),
         nullable=True,
@@ -83,7 +86,8 @@ class Print(TableBase):
         info=dict(description="Modified ban date, if different from set"))
     holographic = Column(Boolean, nullable=False,
         info=dict(description="True iff the card is holographic"))
-    rarity_id = Column(Integer, ForeignKey('tcg_rarities.id'), nullable=False,
+    rarity_id = Column(Integer, ForeignKey('tcg_rarities.id'),
+        nullable=False, index=True,
         info=dict(description="The ID of the rarity"))
 
 class TCGType(TableBase):
@@ -96,7 +100,7 @@ class TCGType(TableBase):
     initial = Column(Unicode(1), nullable=False, unique=True,
         info=dict(description=u"Unique shorthand initial", format='plaintext'))
     game_type_id = Column(Integer, ForeignKey(dex_tables.Type.id),
-        nullable=False,
+        nullable=False, index=True,
         info=dict(description="ID of the type's handheld game counterpart"))
 
 create_translation_table('tcg_type_names', TCGType, 'names',
@@ -112,7 +116,7 @@ class CardType(TableBase):
         primary_key=True,
         info=dict(description="The ID of the card"))
     type_id = Column(Integer, ForeignKey('tcg_types.id'), nullable=False,
-        primary_key=True,
+        primary_key=True, index=True,
         info=dict(description="The ID of the type"))
     order = Column(Integer, nullable=False,
         info=dict(description="Type's sort order on the card"))
@@ -162,7 +166,7 @@ class CardSubclass(TableBase):
         primary_key=True,
         info=dict(description="The ID of the card"))
     subclass_id = Column(Integer, ForeignKey('tcg_subclasses.id'),
-        nullable=False, primary_key=True,
+        nullable=False, primary_key=True, index=True,
         info=dict(description="The ID of the subclass"))
     order = Column(Integer, nullable=False,
         info=dict(description="Order of appearace on card"))
@@ -173,7 +177,7 @@ class Mechanic(TableBase):
     __singlename__ = 'tcg_mechanic'
     id = make_id()
     class_id = Column(Integer, ForeignKey('tcg_mechanic_classes.id'),
-        nullable=False,
+        nullable=False, index=True,
         info=dict(description="The ID of the mechanic class"))
     damage_base = Column(Integer, nullable=True,
         info=dict(description="Base attack damage, if applicable"))
@@ -245,7 +249,7 @@ class CardMechanic(TableBase):
         primary_key=True, nullable=False,
         info=dict(description="The ID of the card"))
     mechanic_id = Column(Integer, ForeignKey('tcg_mechanics.id'),
-        primary_key=True, nullable=False,
+        primary_key=True, nullable=False, index=True,
         info=dict(description="The ID of the mechanic"))
     order = Column(Integer, primary_key=True, nullable=False,
         info=dict(description=u"Order of appearance on card."))
@@ -258,7 +262,7 @@ class DamageModifier(TableBase):
         primary_key=True, nullable=False,
         info=dict(description=u"The ID of the card"))
     type_id = Column(Integer, ForeignKey('tcg_types.id'),
-        primary_key=True, nullable=False,
+        primary_key=True, nullable=False, index=True,
         info=dict(description=u"The type this card is weak/resistant to"))
     operation = Column(Unicode(2), nullable=False,
         info=dict(description=u"The operator in the damage adjustment"))
@@ -316,11 +320,13 @@ class Illustrator(TableBase):
     name = Column(Unicode(50), nullable=False,
         info=dict(description="Name of the illustrator"))
 
+
 class Scan(TableBase):
     __tablename__ = 'tcg_scans'
     __singlename__ = 'tcg_scan'
     id = make_id()
-    print_id = Column(Integer, ForeignKey('tcg_prints.id'), nullable=False,
+    print_id = Column(Integer, ForeignKey('tcg_prints.id'),
+        nullable=False, index=True,
         info=dict(description=u"The ID of the print this is a scan of"))
     filename = Column(Unicode(30), nullable=False,
         info=dict(description="Filename for this scan"))
@@ -355,7 +361,7 @@ class Evolution(TableBase):
         primary_key=True, nullable=False,
         info=dict(description=u"The ID of the card the evolution appears on"))
     family_id = Column(Integer, ForeignKey('tcg_card_families.id'),
-        primary_key=True, nullable=False,
+        primary_key=True, nullable=False, index=True,
         info=dict(description=u"The ID of the family"))
     family_to_card = Column(Boolean, nullable=False,
         info=dict(description=u"True for 'evolves from', false for 'evolves to'"))
