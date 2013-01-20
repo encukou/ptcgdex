@@ -44,7 +44,8 @@ height: 4'7
 dex entry: >-
   Its brightly lit tail can be seen for miles in the dark, even
   by ships on the sea.
-illustrator: Kagemaru Himeno
+illustrators:
+- Kagemaru Himeno
 ---
 set: neo-destiny
 number: '2'
@@ -91,7 +92,9 @@ height: 5'11
 dex entry: >-
   Although the wings it has evolved on its feet allow it to fly
   at high speeds, they unfortunately make it difficult to perch.
-illustrator: Shin-ichi Yoshida, CR CG gangs
+illustrators:
+- Shin-ichi Yoshida
+- CR CG gangs
 ---
 set: neo-destiny
 number: '3'
@@ -138,7 +141,8 @@ weight: 265
 height: 3'7
 dex entry: >-
   The larger its tusks, the higher its status in the herd.
-illustrator: Shin-ichi Yoshida
+illustrators:
+- Shin-ichi Yoshida
 ---
 set: neo-destiny
 number: '4'
@@ -182,7 +186,8 @@ height: 2'11
 dex entry: >-
   The tips of its split tail quiver whenever it uses its psychic
   abilities to read its opponent's next move.
-illustrator: Atsuko Nishida
+illustrators:
+- Atsuko Nishida
 ---
 set: neo-destiny
 number: '5'
@@ -227,7 +232,8 @@ height: 7'7
 dex entry: >-
   Its powerful muscles allow it to move at a speed that belies
   its bulk.
-illustrator: Atsuko Nishida
+illustrators:
+- Atsuko Nishida
 ---
 set: neo-destiny
 number: '6'
@@ -274,7 +280,8 @@ height: 4'11
 dex entry: >-
   It absorbs the heat in the air around it. If you suddenly feel
   cold, it's because a Gengar has appeared.
-illustrator: Aya Kusube
+illustrators:
+- Aya Kusube
 ---
 set: neo-destiny
 number: '7'
@@ -323,7 +330,8 @@ height: 4'7
 dex entry: >-
   The flame it breathes is actually a volatile poison it produces
   internally that ignites when exposed to air.
-illustrator: Kagemaru Himeno
+illustrators:
+- Kagemaru Himeno
 ---
 set: neo-destiny
 number: '8'
@@ -374,7 +382,9 @@ height: 2'0
 dex entry: >-
   Advances in technology have allowed it to evolve. It occasionally
   displays behavior not found in its programming.
-illustrator: Shin-ichi Yoshikawa, CR CG gangs
+illustrators:
+- Shin-ichi Yoshikawa
+- CR CG gangs
 ---
 set: neo-destiny
 number: '9'
@@ -420,7 +430,8 @@ height: 5'11
 dex entry: >-
   Nothing can withstand the pressure of the vise-like grip of
   this Pokémon's steel claws.
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: neo-destiny
 number: '10'
@@ -464,7 +475,8 @@ height: 5'7
 dex entry: >-
   When it's in combat, the air around it shimmers and warps from
   the intense heat it produces.
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: neo-destiny
 number: '11'
@@ -517,7 +529,8 @@ weight: 445
 height: 6'7
 dex entry: >-
   Its power is such that not even mountains can stand in its way.
-illustrator: Shin-ichi Yoshida
+illustrators:
+- Shin-ichi Yoshida
 ---
 set: neo-destiny
 number: '12'
@@ -566,7 +579,8 @@ height: 6'3
 dex entry: >-
   This legendary Chinese Pokémon is easily recognized by its large
   flowing mane.
-illustrator: Atsuko Nishida
+illustrators:
+- Atsuko Nishida
 ---
 set: neo-destiny
 number: '13'
@@ -614,7 +628,8 @@ height: 2'7
 dex entry: >-
   It curls up its long ears when swimming to prevent water from
   entering them.
-illustrator: Yuka Morii
+illustrators:
+- Yuka Morii
 ---
 set: neo-destiny
 number: '14'
@@ -661,7 +676,8 @@ height: 7'3
 dex entry: >-
   It is said to fly constantly over the sea, looking for people
   in need of aid.
-illustrator: Atsuko Nishida
+illustrators:
+- Atsuko Nishida
 ---
 set: neo-destiny
 number: '15'
@@ -705,7 +721,8 @@ height: 2'0
 dex entry: >-
   It becomes depressed if it is not near kind-hearted people.
   It is able to float in the air without moving its wings.
-illustrator: Naoyo Kimura
+illustrators:
+- Naoyo Kimura
 ---
 set: neo-destiny
 number: '16'
@@ -727,7 +744,8 @@ mechanics:
     If this card is attached to a Pokémon that isn't a Shining
     Pokémon or a Gentle Pokémon, this card is discarded. NOTE:
     You may only include 1 Miracle Energy card in your deck.
-illustrator: Milky Isobe
+illustrators:
+- Milky Isobe
 ---
 set: neo-destiny
 number: '17'
@@ -775,7 +793,8 @@ height: 3'7
 dex entry: >-
   Wherever it goes, it spins a thread that always leads back to
   its web.
-illustrator: Toshinao Aoki
+illustrators:
+- Toshinao Aoki
 ---
 set: neo-destiny
 number: '18'
@@ -825,7 +844,8 @@ height: 2'7
 dex entry: >-
   The shell on its back comes off easily, exposing the flames
   running through its body.
-illustrator: Toshinao Aoki
+illustrators:
+- Toshinao Aoki
 ---
 set: neo-destiny
 number: '19'
@@ -873,7 +893,8 @@ height: 3'3
 dex entry: >-
   Nothing can escape once wrapped in its tentacles, which it uses
   for self-defense as well as to catch food.
-illustrator: Tomokazu Komiya
+illustrators:
+- Tomokazu Komiya
 ---
 set: neo-destiny
 number: '20'
@@ -919,7 +940,8 @@ height: 6'7
 dex entry: >-
   Each time it yawns, the Shellder on its head releases an enzyme
   that makes it grow even smarter.
-illustrator: Tomokazu Komiya
+illustrators:
+- Tomokazu Komiya
 ---
 set: neo-destiny
 number: '21'
@@ -969,7 +991,8 @@ height: 5'11
 dex entry: >-
   Its keen nose can pick out any scent, even that of food buried
   deep underground.
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: neo-destiny
 number: '22'
@@ -1012,7 +1035,8 @@ height: 13'1
 dex entry: >-
   The aura it projects from its body has an effect on the surrounding
   climate and weather.
-illustrator: Atsuko Nishida
+illustrators:
+- Atsuko Nishida
 ---
 set: neo-destiny
 number: '23'
@@ -1058,7 +1082,8 @@ height: 3'11
 dex entry: >-
   This Pokémon has evolved its dorsal fin to emit light, which
   attracts the fish it feeds on.
-illustrator: Miki Tanaka
+illustrators:
+- Miki Tanaka
 ---
 set: neo-destiny
 number: '24'
@@ -1107,7 +1132,8 @@ height: 4'7
 dex entry: >-
   The number of spots on its back increase or decrease depending
   on the number of stars visible in the night sky.
-illustrator: Tomokazu Komiya
+illustrators:
+- Tomokazu Komiya
 ---
 set: neo-destiny
 number: '25'
@@ -1152,7 +1178,8 @@ height: 5'3
 dex entry: >-
   It uses its four arms in combat to unleash a ceaseless flurry
   of punches.
-illustrator: Miki Tanaka
+illustrators:
+- Miki Tanaka
 ---
 set: neo-destiny
 number: '26'
@@ -1200,7 +1227,8 @@ height: 3'7
 dex entry: >-
   Its legs are short, but its hooves are wide and flat, allowing
   it to easily walk over snow.
-illustrator: Yukiko Baba
+illustrators:
+- Yukiko Baba
 ---
 set: neo-destiny
 number: '27'
@@ -1246,7 +1274,8 @@ dex entry: >-
   It is believed that the variety of types of this Pokémon were
   created by evolutionary adaptation, as each possesses a different
   ability.
-illustrator: CR CG gangs
+illustrators:
+- CR CG gangs
 ---
 set: neo-destiny
 number: '28'
@@ -1291,7 +1320,8 @@ dex entry: >-
   It is believed that the variety of types of this Pokémon were
   created by evolutionary adaptation, as each possesses a different
   ability.
-illustrator: CR CG gangs
+illustrators:
+- CR CG gangs
 ---
 set: neo-destiny
 number: '29'
@@ -1336,7 +1366,8 @@ dex entry: >-
   It is believed that the variety of types of this Pokémon were
   created by evolutionary adaptation, as each possesses a different
   ability.
-illustrator: CR CG gangs
+illustrators:
+- CR CG gangs
 ---
 set: neo-destiny
 number: '30'
@@ -1381,7 +1412,8 @@ dex entry: >-
   It is believed that the variety of types of this Pokémon were
   created by evolutionary adaptation, as each possesses a different
   ability.
-illustrator: CR CG gangs
+illustrators:
+- CR CG gangs
 ---
 set: neo-destiny
 number: '31'
@@ -1426,7 +1458,8 @@ height: 3'7
 dex entry: >-
   It holds its egg carefully when moving so as not to break it.
   Still, it is fast enough to disappear in the blink of an eye.
-illustrator: Yuka Morii
+illustrators:
+- Yuka Morii
 ---
 set: neo-destiny
 number: '32'
@@ -1466,7 +1499,8 @@ height: 3'7
 dex entry: >-
   It has 49 teeth in its mouth that are constantly replacing themselves.
   Pull one out, and a new one grows in.
-illustrator: Shin-ichi Yoshida
+illustrators:
+- Shin-ichi Yoshida
 ---
 set: neo-destiny
 number: '33'
@@ -1514,7 +1548,8 @@ dex entry: >-
   If one of its heads falls off, it turns into an Exeggcute, which
   begins to look for other Exeggcutes using a special form of
   telepathy.
-illustrator: Toshinao Aoki
+illustrators:
+- Toshinao Aoki
 ---
 set: neo-destiny
 number: '34'
@@ -1560,7 +1595,8 @@ height: 2'7
 dex entry: >-
   As a result of storing massive amounts of electricity there,
   it can no longer grow wool on certain areas of its body.
-illustrator: Kagemaru Himeno
+illustrators:
+- Kagemaru Himeno
 ---
 set: neo-destiny
 number: '35'
@@ -1605,7 +1641,8 @@ height: 3'11
 dex entry: >-
   It stays motionless in trees, driving away with flying armored
   shards from its hard shell any who come close.
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: neo-destiny
 number: '36'
@@ -1651,7 +1688,8 @@ weight: 0.2
 height: 5'3
 dex entry: >-
   It silently hunts its prey in dark rooms.
-illustrator: Aya Kusube
+illustrators:
+- Aya Kusube
 ---
 set: neo-destiny
 number: '37'
@@ -1691,7 +1729,8 @@ height: 1'4
 dex entry: >-
   This ancient Pokémon possessed 10 tentacles, which it used to
   swim through the ocean.
-illustrator: Tomokazu Komiya
+illustrators:
+- Tomokazu Komiya
 ---
 set: neo-destiny
 number: '38'
@@ -1742,7 +1781,8 @@ height: 3'11
 dex entry: >-
   It is encased within a hard shell, yet retains a great deal
   of mobility - a dangerous combination.
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: neo-destiny
 number: '39'
@@ -1789,7 +1829,8 @@ height: 2'11
 dex entry: >-
   If it turns its back to an opponent, it is a sign that it is
   getting ready to attack.
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: neo-destiny
 number: '40'
@@ -1838,7 +1879,8 @@ height: 3'3
 dex entry: >-
   This Pokémon has soft, fine hair. When angered, it increases
   in size and has been known to charge those it considers a threat.
-illustrator: Miki Tanaka
+illustrators:
+- Miki Tanaka
 ---
 set: neo-destiny
 number: '41'
@@ -1877,7 +1919,9 @@ height: 4'11
 dex entry: >-
   It is normally peaceful, but will attack any who get between
   it and honey, its favorite food.
-illustrator: K. Hoshiba, CR CG gangs
+illustrators:
+- K. Hoshiba
+- CR CG gangs
 ---
 set: neo-destiny
 number: '42'
@@ -1919,7 +1963,8 @@ height: 4'11
 dex entry: >-
   It has a perfect sense of balance and can lash out with powerful
   kicks from any position.
-illustrator: Yukiko Baba
+illustrators:
+- Yukiko Baba
 ---
 set: neo-destiny
 number: '43'
@@ -1960,7 +2005,8 @@ height: 2'0
 dex entry: >-
   When night falls, the air fills with the eerie cries of this
   Pokémon as it stakes out its territory.
-illustrator: Yukiko Baba
+illustrators:
+- Yukiko Baba
 ---
 set: neo-destiny
 number: '44'
@@ -1999,7 +2045,8 @@ height: 1'8
 dex entry: >-
   It puffs its body up like a balloon and sings a lullaby that
   makes all who hear it fall into a deep sleep.
-illustrator: Yuka Morii
+illustrators:
+- Yuka Morii
 ---
 set: neo-destiny
 number: '45'
@@ -2046,7 +2093,8 @@ height: 5'7
 dex entry: >-
   It has an aerodynamic shape that allows it to swim at great
   speeds. The colder the water gets, the more active it becomes.
-illustrator: Masako Yamashita
+illustrators:
+- Masako Yamashita
 ---
 set: neo-destiny
 number: '46'
@@ -2093,7 +2141,8 @@ height: 2'11
 dex entry: >-
   It creates its flames by swallowing air into a special pouch
   within its body, then heating it to over 3600 degrees.
-illustrator: Atsuko Nishida
+illustrators:
+- Atsuko Nishida
 ---
 set: neo-destiny
 number: '47'
@@ -2146,7 +2195,8 @@ weight: 169
 height: 5'7
 dex entry: >-
   The faster it swims, the brighter the glow on its forehead becomes.
-illustrator: Atsuko Nishida
+illustrators:
+- Atsuko Nishida
 ---
 set: neo-destiny
 number: '48'
@@ -2196,7 +2246,8 @@ height: 2'7
 dex entry: >-
   It can collect the ambient electrical energy in its cells and
   expel it in massive bursts.
-illustrator: Naoyo Kimura
+illustrators:
+- Naoyo Kimura
 ---
 set: neo-destiny
 number: '49'
@@ -2245,7 +2296,8 @@ height: 4'11
 dex entry: >-
   This Pokémon never gets tired, no matter what it does or how
   hard it works.
-illustrator: Miki Tanaka
+illustrators:
+- Miki Tanaka
 ---
 set: neo-destiny
 number: '50'
@@ -2295,7 +2347,8 @@ height: 3'7
 dex entry: >-
   It is said that each of its nine tails contains a different
   magical power.
-illustrator: Masako Yamashita
+illustrators:
+- Masako Yamashita
 ---
 set: neo-destiny
 number: '51'
@@ -2346,7 +2399,8 @@ height: 5'3
 dex entry: >-
   If the Shellder attached to its tail becomes separated, this
   Pokémon reverts to a normal Slowpoke.
-illustrator: Tomokazu Komiya
+illustrators:
+- Tomokazu Komiya
 ---
 set: neo-destiny
 number: '52'
@@ -2397,7 +2451,8 @@ height: 3'3
 dex entry: >-
   If its fins begin to vibrate, it is a sign that it will begin
   raining soon.
-illustrator: Kagemaru Himeno
+illustrators:
+- Kagemaru Himeno
 ---
 set: neo-destiny
 number: '53'
@@ -2450,7 +2505,8 @@ height: 4'11
 dex entry: >-
   It defends itself by flapping its wings at high speed, spreading
   poisonous powder throughout the air.
-illustrator: Masako Yamashita
+illustrators:
+- Masako Yamashita
 ---
 set: neo-destiny
 number: '54'
@@ -2505,7 +2561,8 @@ dex entry: >-
   If two of them brush against each other, they will not be able
   to separate themselves, as they enjoy touching each other's
   soft fur too much.
-illustrator: Naoyo Kimura
+illustrators:
+- Naoyo Kimura
 ---
 set: neo-destiny
 number: '55'
@@ -2545,7 +2602,8 @@ height: 4'11
 dex entry: >-
   It moves so fast as to be invisible to the naked eye. Even when
   standing still, its camouflage prevents it from being seen.
-illustrator: Shin-ichi Yoshida
+illustrators:
+- Shin-ichi Yoshida
 ---
 set: neo-destiny
 number: '56'
@@ -2586,7 +2644,8 @@ height: 1'0
 dex entry: >-
   Its shell is said to contain happiness itself, which it will
   share with those who are kind to it.
-illustrator: Yuka Morii
+illustrators:
+- Yuka Morii
 ---
 set: neo-destiny
 number: '57'
@@ -2630,7 +2689,8 @@ dex entry: >-
   It is believed that the variety of types of this Pokémon were
   created by evolutionary adaptation, as each possesses a different
   ability.
-illustrator: CR CG gangs
+illustrators:
+- CR CG gangs
 ---
 set: neo-destiny
 number: '58'
@@ -2676,7 +2736,8 @@ dex entry: >-
   It is believed that the variety of types of this Pokémon were
   created by evolutionary adaptation, as each possesses a different
   ability.
-illustrator: CR CG gangs
+illustrators:
+- CR CG gangs
 ---
 set: neo-destiny
 number: '59'
@@ -2721,7 +2782,8 @@ dex entry: >-
   It is believed that the variety of types of this Pokémon were
   created by evolutionary adaptation, as each possesses a different
   ability.
-illustrator: CR CG gangs
+illustrators:
+- CR CG gangs
 ---
 set: neo-destiny
 number: '60'
@@ -2764,7 +2826,8 @@ dex entry: >-
   It is believed that the variety of types of this Pokémon were
   created by evolutionary adaptation, as each possesses a different
   ability.
-illustrator: CR CG gangs
+illustrators:
+- CR CG gangs
 ---
 set: neo-destiny
 number: '61'
@@ -2801,7 +2864,8 @@ height: 1'8
 dex entry: >-
   It is very meek and constantly crouches in a defensive posture.
   When threatened, it protects itself with the flame on its back.
-illustrator: Yukiko Baba
+illustrators:
+- Yukiko Baba
 ---
 set: neo-destiny
 number: '62'
@@ -2849,7 +2913,8 @@ height: 2'11
 dex entry: >-
   It likes to sleep in rock caves and will even steal other Octillery's
   nests.
-illustrator: Shin-ichi Yoshida
+illustrators:
+- Shin-ichi Yoshida
 ---
 set: neo-destiny
 number: '63'
@@ -2890,7 +2955,8 @@ height: 5'11
 dex entry: >-
   Large from birth, this Pokémon increases in size throughout
   its life by regularly shedding its skin.
-illustrator: Yuka Morii
+illustrators:
+- Yuka Morii
 ---
 set: neo-destiny
 number: '64'
@@ -2931,7 +2997,8 @@ height: 1'4
 dex entry: >-
   Its shell is very durable, allowing it to survive even if the
   shell becomes cracked.
-illustrator: Toshinao Aoki
+illustrators:
+- Toshinao Aoki
 ---
 set: neo-destiny
 number: '65'
@@ -2965,7 +3032,8 @@ height: 4'3
 dex entry: >-
   Its gas-like body allows it to enter almost anywhere, but it
   is vulnerable to high winds.
-illustrator: Aya Kusube
+illustrators:
+- Aya Kusube
 ---
 set: neo-destiny
 number: '66'
@@ -3004,7 +3072,8 @@ dex entry: >-
   Its tail has a brain of its own, which can respond to stimuli
   such as scents. Many unsuspecting people have been bitten by
   it.
-illustrator: Yuka Morii
+illustrators:
+- Yuka Morii
 ---
 set: neo-destiny
 number: '67'
@@ -3042,7 +3111,8 @@ height: 3'7
 dex entry: >-
   It spends its days hanging from cliffs, swooping down on any
   prey it spots from its high vantage point.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: neo-destiny
 number: '68'
@@ -3074,7 +3144,8 @@ weight: 42
 height: 2'4
 dex entry: >-
   It fears nothing, not even opponents larger than itself.
-illustrator: Atsuko Nishida
+illustrators:
+- Atsuko Nishida
 ---
 set: neo-destiny
 number: '69'
@@ -3114,7 +3185,8 @@ height: 4'7
 dex entry: >-
   Its punches are blindingly fast, but it can only punch for three
   minutes before tiring and needing to rest.
-illustrator: Shin-ichi Yoshida
+illustrators:
+- Shin-ichi Yoshida
 ---
 set: neo-destiny
 number: '70'
@@ -3157,7 +3229,8 @@ height: 2'0
 dex entry: >-
   It is born deep within the ground and has to burrow its way
   out.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: neo-destiny
 number: '71'
@@ -3195,7 +3268,8 @@ height: 3'3
 dex entry: >-
   Sensitive to cold, Ledyba gather together in groups to share
   warmth when the temperature drops.
-illustrator: Tomokazu Komiya
+illustrators:
+- Tomokazu Komiya
 ---
 set: neo-destiny
 number: '72'
@@ -3237,7 +3311,8 @@ height: 2'7
 dex entry: >-
   Although it is extremely active during the day, it stops moving
   entirely as soon as the sun sets.
-illustrator: Toshinao Aoki
+illustrators:
+- Toshinao Aoki
 ---
 set: neo-destiny
 number: '73'
@@ -3273,7 +3348,8 @@ weight: 43
 height: 2'7
 dex entry: >-
   When bored, this super-strong Pokémon trains by lifting rocks.
-illustrator: Toshinao Aoki
+illustrators:
+- Toshinao Aoki
 ---
 set: neo-destiny
 number: '74'
@@ -3311,7 +3387,8 @@ height: 6'11
 dex entry: >-
   This Pokémon is perfectly adapted to its ocean home. It can
   gather up enough speed to burst above the water like a whale.
-illustrator: Yukiko Baba
+illustrators:
+- Yukiko Baba
 ---
 set: neo-destiny
 number: '75'
@@ -3344,7 +3421,8 @@ height: 2'0
 dex entry: >-
   Its soft wool coat captures air, allowing it to remain cool
   during the summer and warm in the winter.
-illustrator: Kagemaru Himeno
+illustrators:
+- Kagemaru Himeno
 ---
 set: neo-destiny
 number: '76'
@@ -3383,7 +3461,8 @@ dex entry: >-
   It hits people with its nose as a sign of affection but doesn't
   know its own strength and so sometimes knocks people off their
   feet.
-illustrator: Miki Tanaka
+illustrators:
+- Miki Tanaka
 ---
 set: neo-destiny
 number: '77'
@@ -3416,7 +3495,8 @@ height: 2'0
 dex entry: >-
   It waits suspended from tree branches for insects to fly into
   its mouth, often not moving for hours at a time.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: neo-destiny
 number: '78'
@@ -3452,7 +3532,9 @@ height: 2'7
 dex entry: >-
   This Pokémon was created by human computer engineering. Its
   program is only capable of simple action and reaction.
-illustrator: Hiromichi Sugiyama, CR CG gangs
+illustrators:
+- Hiromichi Sugiyama
+- CR CG gangs
 ---
 set: neo-destiny
 number: '79'
@@ -3492,7 +3574,8 @@ height: 2'7
 dex entry: >-
   Although possessed of great mental powers, it doesn't know how
   to use them.
-illustrator: Yuka Morii
+illustrators:
+- Yuka Morii
 ---
 set: neo-destiny
 number: '80'
@@ -3527,7 +3610,9 @@ height: 2'0
 dex entry: >-
   It can shoot a burst of water from its mouth to propel itself
   backward at high speed, allowing it to flee from surprised enemies.
-illustrator: Jungo Suzuki, CR CG gangs
+illustrators:
+- Jungo Suzuki
+- CR CG gangs
 ---
 set: neo-destiny
 number: '81'
@@ -3562,7 +3647,8 @@ height: 3'7
 dex entry: >-
   Although clumsy on land, it moves easily through the arctic
   waters it calls home.
-illustrator: Masako Yamashita
+illustrators:
+- Masako Yamashita
 ---
 set: neo-destiny
 number: '82'
@@ -3594,7 +3680,8 @@ weight: 77
 height: 2'4
 dex entry: >-
   This Pokémon is often seen crawling around in volcanic regions.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: neo-destiny
 number: '83'
@@ -3635,7 +3722,8 @@ height: 1'0
 dex entry: >-
   It is very small and powerless. It attacked, the best it can
   do is flap its leaves in an attempt to frighten away its enemies.
-illustrator: Etsuya Hattori
+illustrators:
+- Etsuya Hattori
 ---
 set: neo-destiny
 number: '84'
@@ -3673,7 +3761,8 @@ height: 1'4
 dex entry: >-
   It moves with its sensitive nose pressed to the ground, always
   searching for food.
-illustrator: Kagemaru Himeno
+illustrators:
+- Kagemaru Himeno
 ---
 set: neo-destiny
 number: '85'
@@ -3710,7 +3799,8 @@ height: 2'0
 dex entry: >-
   Its highly developed jaws are powerful enough to crush anything.
   Even experienced adult trainers must handle it with great caution.
-illustrator: Miki Tanaka
+illustrators:
+- Miki Tanaka
 ---
 set: neo-destiny
 number: '86'
@@ -3753,7 +3843,8 @@ dex entry: >-
   It is believed that the variety of types of this Pokémon were
   created by evolutionary adaptation, as each possesses a different
   ability.
-illustrator: CR CG gangs
+illustrators:
+- CR CG gangs
 ---
 set: neo-destiny
 number: '87'
@@ -3796,7 +3887,8 @@ dex entry: >-
   It is believed that the variety of types of this Pokémon were
   created by evolutionary adaptation, as each possesses a different
   ability.
-illustrator: CR CG gangs
+illustrators:
+- CR CG gangs
 ---
 set: neo-destiny
 number: '88'
@@ -3840,7 +3932,8 @@ dex entry: >-
   It is believed that the variety of types of this Pokémon were
   created by evolutionary adaptation, as each possesses a different
   ability.
-illustrator: CR CG gangs
+illustrators:
+- CR CG gangs
 ---
 set: neo-destiny
 number: '89'
@@ -3885,7 +3978,8 @@ dex entry: >-
   It is believed that the variety of types of this Pokémon were
   created by evolutionary adaptation, as each possesses a different
   ability.
-illustrator: CR CG gangs
+illustrators:
+- CR CG gangs
 ---
 set: neo-destiny
 number: '90'
@@ -3924,7 +4018,8 @@ height: 3'3
 dex entry: >-
   It possesses a type of radar, which it can use to find the insects
   it eats for food, even in pitch darkness.
-illustrator: Masako Yamashita
+illustrators:
+- Masako Yamashita
 ---
 set: neo-destiny
 number: '91'
@@ -3960,7 +4055,8 @@ height: 2'0
 dex entry: >-
   As it grows older, its white tail changes color and splits into
   six different tails. Its body radiates a faint warmth.
-illustrator: Masako Yamashita
+illustrators:
+- Masako Yamashita
 ---
 set: neo-destiny
 number: '92'
@@ -3982,7 +4078,8 @@ mechanics:
   text: >-
     The Retreat Cost for each player's Baby Pokémon and Basic
     Pokémon is increased by 1.
-illustrator: Tomokazu Komiya
+illustrators:
+- Tomokazu Komiya
 ---
 set: neo-destiny
 number: '93'
@@ -4007,7 +4104,8 @@ mechanics:
     Active Pokémon with an attack, you may choose 1 Basic Energy
     card attached to that Pokémon and attach it to this Pokémon
     and discard this card.
-illustrator: Keiji Kinebuchi
+illustrators:
+- Keiji Kinebuchi
 ---
 set: neo-destiny
 number: '94'
@@ -4026,7 +4124,8 @@ mechanics:
     cards from the top of his or her deck equal to the number
     of Prizes he or she had before. These cards become his or
     her new Prizes.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: neo-destiny
 number: '95'
@@ -4049,7 +4148,9 @@ mechanics:
     During his or her turn, a player may (before his or her attack),
     look at the top 2 cards of his or her deck, then return those
     cards to the top of his or her deck in any order.
-illustrator: Yousuke Hirata, CR CG gangs
+illustrators:
+- Yousuke Hirata
+- CR CG gangs
 ---
 set: neo-destiny
 number: '96'
@@ -4069,7 +4170,8 @@ mechanics:
     cards attached to your opponent's Active Pokémon equal to
     the number of heads, and return them to your opponent's hand.
     Your is now over.
-illustrator: Sumiyoshi Kizuki
+illustrators:
+- Sumiyoshi Kizuki
 ---
 set: neo-destiny
 number: '97'
@@ -4095,7 +4197,8 @@ mechanics:
     if this Pokémon is Knocked Out), flip a coin. If heads, put
     2 damage counters on the Defending Pokémon and discard this
     card.
-illustrator: Keiji Kinebuchi
+illustrators:
+- Keiji Kinebuchi
 ---
 set: neo-destiny
 number: '98'
@@ -4114,7 +4217,9 @@ mechanics:
     your deck for up to 3 Basic Energy cards, show them to your
     opponent, then put them into your hand. Shuffle your deck
     afterward.
-illustrator: Big Mama Tagawa, CR CG gangs
+illustrators:
+- Big Mama Tagawa
+- CR CG gangs
 ---
 set: neo-destiny
 number: '99'
@@ -4138,7 +4243,8 @@ mechanics:
     his or her attack). If heads, that player chooses a Basic
     Energy card in his or her discard pile, shows it to his or
     her opponent, and put it into his or her hand.
-illustrator: Hideki Kazama
+illustrators:
+- Hideki Kazama
 ---
 set: neo-destiny
 number: '100'
@@ -4160,7 +4266,8 @@ mechanics:
   text: >-
     Once during each player's turn (before attacking), the player
     may flip a coin. If heads, that player draws a card.
-illustrator: Imakuni?
+illustrators:
+- Imakuni?
 ---
 set: neo-destiny
 number: '101'
@@ -4177,7 +4284,8 @@ mechanics:
     Attach this card to 1 of your Pokémon. Discard this card at
     the end of your turn. When the Pokémon this card is attached
     to attacks, the Defending Pokémon's Resistance is ignored.
-illustrator: Keiji Kinebuchi
+illustrators:
+- Keiji Kinebuchi
 ---
 set: neo-destiny
 number: '102'
@@ -4199,7 +4307,8 @@ mechanics:
     you draw 3 cards. Either way, return the card in front of
     you to your hand. If you don't have an Evolution card in your
     hand, you can't play this card.
-illustrator: Tomokazu Komiya
+illustrators:
+- Tomokazu Komiya
 ---
 set: neo-destiny
 number: '103'
@@ -4216,7 +4325,8 @@ mechanics:
     Look at your opponent's hand and choose 1 card there. Shuffle
     that card into your opponent's deck. Your opponent may then
     draw up to 2 cards.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: neo-destiny
 number: '104'
@@ -4233,7 +4343,9 @@ mechanics:
     Flip a coin. If heads, remove 2 damage counters from your
     Active Pokémon, and that Pokémon is no longer Asleep, Confused,
     Paralyzed or Poisoned.
-illustrator: Ryuta Kusumi, CR CG gangs
+illustrators:
+- Ryuta Kusumi
+- CR CG gangs
 ---
 set: neo-destiny
 number: '105'
@@ -4250,7 +4362,8 @@ mechanics:
     If you have less than 4 cards in your hand, draw cards until
     you have 4 cards. (If you cannot play this card if you have
     5 or more cards in your hand.)
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: neo-destiny
 number: '106'
@@ -4297,7 +4410,8 @@ height: 2'0
 dex entry: >-
   It is worshipped as a god of the forest. It appears only in
   undisturbed old-growth forests.
-illustrator: Hironobu Yoshida
+illustrators:
+- Hironobu Yoshida
 ---
 set: neo-destiny
 number: '107'
@@ -4338,7 +4452,8 @@ weight: 200
 height: 5'7
 dex entry: >-
   The flames it breathes are so hot that they can melt anything.
-illustrator: Hironobu Yoshida
+illustrators:
+- Hironobu Yoshida
 ---
 set: neo-destiny
 number: '108'
@@ -4386,7 +4501,8 @@ height: 4'3
 dex entry: >-
   This ancient Pokémon uses its razor-sharp claws to cut open
   its prey and gain access to its blood.
-illustrator: Hironobu Yoshida
+illustrators:
+- Hironobu Yoshida
 ---
 set: neo-destiny
 number: '109'
@@ -4433,7 +4549,8 @@ height: 6'7
 dex entry: >-
   It uses its highly developed psychic powers to defeat its enemies
   before they even have time to think.
-illustrator: Hironobu Yoshida
+illustrators:
+- Hironobu Yoshida
 ---
 set: neo-destiny
 number: '110'
@@ -4475,7 +4592,8 @@ height: 5'3
 dex entry: >-
   It speeds up its thought processes by turning its head around
   180 degrees.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: neo-destiny
 number: '111'
@@ -4516,7 +4634,8 @@ height: 2'7
 dex entry: >-
   If the electricity in its cheeks runs out, it sticks its tail
   straight up and uses it to collect energy from the air.
-illustrator: Hironobu Yoshida
+illustrators:
+- Hironobu Yoshida
 ---
 set: neo-destiny
 number: '112'
@@ -4559,7 +4678,8 @@ height: 30'2
 dex entry: >-
   If an Onix lives 100 years or more, its skin hardens, eventually
   becoming even harder than a diamond.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: neo-destiny
 number: '113'
@@ -4608,4 +4728,5 @@ height: 6'7
 dex entry: >-
   It is so powerful, it can knock down a mountain with hust one
   arm.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori

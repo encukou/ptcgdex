@@ -40,7 +40,8 @@ dex number: 181
 species: Light
 weight: 136
 height: 4'7
-illustrator: Toshinao Aoki
+illustrators:
+- Toshinao Aoki
 ---
 set: neo-revelation
 number: '2'
@@ -83,7 +84,8 @@ dex number: 242
 species: Happiness
 weight: 103
 height: 4'11
-illustrator: Yuka Morii
+illustrators:
+- Yuka Morii
 ---
 set: neo-revelation
 number: '3'
@@ -122,7 +124,8 @@ dex number: 251
 species: Timetravel
 weight: 11
 height: 2'0
-illustrator: Hironobu Yoshida
+illustrators:
+- Hironobu Yoshida
 ---
 set: neo-revelation
 number: '4'
@@ -168,7 +171,8 @@ dex number: 169
 species: Bat
 weight: 165
 height: 5'11
-illustrator: Shin-ichi Yoshida
+illustrators:
+- Shin-ichi Yoshida
 ---
 set: neo-revelation
 number: '5'
@@ -207,7 +211,8 @@ dex number: 225
 species: Delivery
 weight: 35
 height: 2'11
-illustrator: Tomokazu Komiya
+illustrators:
+- Tomokazu Komiya
 ---
 set: neo-revelation
 number: '6'
@@ -252,7 +257,8 @@ dex number: 244
 species: Volcano
 weight: 437
 height: 6'11
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: neo-revelation
 number: '7'
@@ -304,7 +310,8 @@ dex number: 250
 species: Rainbow
 weight: 439
 height: 12'6
-illustrator: Kimiya Masago
+illustrators:
+- Kimiya Masago
 ---
 set: neo-revelation
 number: '8'
@@ -347,7 +354,8 @@ dex number: 229
 species: Dark
 weight: 77
 height: 4'7
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: neo-revelation
 number: '9'
@@ -389,7 +397,8 @@ dex number: 189
 species: Cottonweed
 weight: 7
 height: 2'7
-illustrator: Kagemaru Himeno
+illustrators:
+- Kagemaru Himeno
 ---
 set: neo-revelation
 number: '10'
@@ -434,7 +443,9 @@ dex number: 82
 species: Magnet
 weight: 132
 height: 3'3
-illustrator: Big Mama Tagawa, CR CG gangs
+illustrators:
+- Big Mama Tagawa
+- CR CG gangs
 ---
 set: neo-revelation
 number: '11'
@@ -471,7 +482,8 @@ dex number: 200
 species: Screech
 weight: 2
 height: 2'4
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: neo-revelation
 number: '12'
@@ -518,7 +530,8 @@ dex number: 233
 species: Virtual
 weight: 72
 height: 2'0
-illustrator: Keiji Kinebuchi
+illustrators:
+- Keiji Kinebuchi
 ---
 set: neo-revelation
 number: '13'
@@ -557,7 +570,8 @@ dex number: 243
 species: Thunder
 weight: 392
 height: 6'3
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: neo-revelation
 number: '14'
@@ -597,7 +611,8 @@ dex number: 245
 species: Aurora
 weight: 412
 height: 6'7
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: neo-revelation
 number: '15'
@@ -643,7 +658,8 @@ dex number: 142
 species: Fossil
 weight: 130
 height: 5'11
-illustrator: Shin-ichi Yoshida
+illustrators:
+- Shin-ichi Yoshida
 ---
 set: neo-revelation
 number: '16'
@@ -680,7 +696,8 @@ dex number: 251
 species: Timetravel
 weight: 11
 height: 2'0
-illustrator: Sumiyoshi Kizuki
+illustrators:
+- Sumiyoshi Kizuki
 ---
 set: neo-revelation
 number: '17'
@@ -721,7 +738,8 @@ dex number: 244
 species: Volcano
 weight: 437
 height: 6'11
-illustrator: Naoyo Kimura
+illustrators:
+- Naoyo Kimura
 ---
 set: neo-revelation
 number: '18'
@@ -757,7 +775,8 @@ dex number: 250
 species: Rainbow
 weight: 439
 height: 12'6
-illustrator: Aya Kusube
+illustrators:
+- Aya Kusube
 ---
 set: neo-revelation
 number: '19'
@@ -795,7 +814,8 @@ dex number: 230
 species: Dragon
 weight: 335
 height: 5'11
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: neo-revelation
 number: '20'
@@ -831,7 +851,8 @@ dex number: 249
 species: Diving
 weight: 476
 height: 17'1
-illustrator: Aya Kusube
+illustrators:
+- Aya Kusube
 ---
 set: neo-revelation
 number: '21'
@@ -871,7 +892,8 @@ dex number: 26
 species: Mouse
 weight: 66
 height: 2'7
-illustrator: Masako Yamashita
+illustrators:
+- Masako Yamashita
 ---
 set: neo-revelation
 number: '22'
@@ -913,7 +935,8 @@ dex number: 243
 species: Thunder
 weight: 392
 height: 6'3
-illustrator: Naoyo Kimura
+illustrators:
+- Naoyo Kimura
 ---
 set: neo-revelation
 number: '23'
@@ -956,7 +979,8 @@ dex number: 227
 species: Armor Bird
 weight: 111
 height: 5'7
-illustrator: Aya Kusube
+illustrators:
+- Aya Kusube
 ---
 set: neo-revelation
 number: '24'
@@ -994,7 +1018,8 @@ dex number: 215
 species: Sharp Claw
 weight: 62
 height: 2'11
-illustrator: Sumiyoshi Kizuki
+illustrators:
+- Sumiyoshi Kizuki
 ---
 set: neo-revelation
 number: '25'
@@ -1035,7 +1060,9 @@ dex number: 121
 species: Mysterious
 weight: 176
 height: 3'7
-illustrator: Keita Komatsuya, CR CG gangs
+illustrators:
+- Keita Komatsuya
+- CR CG gangs
 ---
 set: neo-revelation
 number: '26'
@@ -1075,7 +1102,8 @@ dex number: 185
 species: Imitation
 weight: 84
 height: 3'11
-illustrator: Sumiyoshi Kizuki
+illustrators:
+- Sumiyoshi Kizuki
 ---
 set: neo-revelation
 number: '27'
@@ -1119,7 +1147,8 @@ dex number: 245
 species: Aurora
 weight: 412
 height: 6'7
-illustrator: Naoyo Kimura
+illustrators:
+- Naoyo Kimura
 ---
 set: neo-revelation
 number: '28'
@@ -1158,7 +1187,8 @@ dex number: 180
 species: Wool
 weight: 29
 height: 2'7
-illustrator: Toshinao Aoki
+illustrators:
+- Toshinao Aoki
 ---
 set: neo-revelation
 number: '29'
@@ -1205,7 +1235,8 @@ dex number: 42
 species: Bat
 weight: 121
 height: 5'3
-illustrator: Masako Yamashita
+illustrators:
+- Masako Yamashita
 ---
 set: neo-revelation
 number: '30'
@@ -1245,7 +1276,8 @@ dex number: 75
 species: Rock
 weight: 232
 height: 3'3
-illustrator: Yukiko Baba
+illustrators:
+- Yukiko Baba
 ---
 set: neo-revelation
 number: '31'
@@ -1284,7 +1316,8 @@ dex number: 124
 species: Human Shape
 weight: 90
 height: 4'7
-illustrator: Tomokazu Komiya
+illustrators:
+- Tomokazu Komiya
 ---
 set: neo-revelation
 number: '32'
@@ -1325,7 +1358,8 @@ dex number: 171
 species: Light
 weight: 171
 height: 3'11
-illustrator: Kagemaru Himeno
+illustrators:
+- Kagemaru Himeno
 ---
 set: neo-revelation
 number: '33'
@@ -1368,7 +1402,8 @@ dex number: 219
 species: Lava
 weight: 121
 height: 2'7
-illustrator: Shin-ichi Yoshida
+illustrators:
+- Shin-ichi Yoshida
 ---
 set: neo-revelation
 number: '34'
@@ -1409,7 +1444,8 @@ dex number: 224
 species: Jet
 weight: 63
 height: 2'11
-illustrator: Tomokazu Komiya
+illustrators:
+- Tomokazu Komiya
 ---
 set: neo-revelation
 number: '35'
@@ -1448,7 +1484,8 @@ dex number: 47
 species: Mushroom
 weight: 65
 height: 3'3
-illustrator: Atsuko Nishida
+illustrators:
+- Atsuko Nishida
 ---
 set: neo-revelation
 number: '36'
@@ -1491,7 +1528,8 @@ dex number: 221
 species: Swine
 weight: 123
 height: 3'7
-illustrator: Atsuko Nishida
+illustrators:
+- Atsuko Nishida
 ---
 set: neo-revelation
 number: '37'
@@ -1533,7 +1571,8 @@ dex number: 119
 species: Goldfish
 weight: 86
 height: 4'3
-illustrator: Miki Tanaka
+illustrators:
+- Miki Tanaka
 ---
 set: neo-revelation
 number: '38'
@@ -1577,7 +1616,8 @@ dex number: 234
 species: Big Horn
 weight: 157
 height: 4'7
-illustrator: Yukiko Baba
+illustrators:
+- Yukiko Baba
 ---
 set: neo-revelation
 number: '39'
@@ -1619,7 +1659,8 @@ dex number: 201
 species: Symbol
 weight: 11
 height: 1'8
-illustrator: CR CG gangs
+illustrators:
+- CR CG gangs
 ---
 set: neo-revelation
 number: '40'
@@ -1661,7 +1702,8 @@ dex number: 201
 species: Symbol
 weight: 11
 height: 1'8
-illustrator: CR CG gangs
+illustrators:
+- CR CG gangs
 ---
 set: neo-revelation
 number: '41'
@@ -1699,7 +1741,8 @@ dex number: 190
 species: Long Tail
 weight: 25
 height: 2'7
-illustrator: Sumiyoshi Kizuki
+illustrators:
+- Sumiyoshi Kizuki
 ---
 set: neo-revelation
 number: '42'
@@ -1741,7 +1784,8 @@ dex number: 170
 species: Angler
 weight: 26
 height: 1'8
-illustrator: Atsuko Nishida
+illustrators:
+- Atsuko Nishida
 ---
 set: neo-revelation
 number: '43'
@@ -1781,7 +1825,8 @@ dex number: 83
 species: Wild Duck
 weight: 33
 height: 2'7
-illustrator: Miki Tanaka
+illustrators:
+- Miki Tanaka
 ---
 set: neo-revelation
 number: '44'
@@ -1811,7 +1856,8 @@ dex number: 74
 species: Rock
 weight: 44
 height: 1'4
-illustrator: Masako Yamashita
+illustrators:
+- Masako Yamashita
 ---
 set: neo-revelation
 number: '45'
@@ -1843,7 +1889,8 @@ dex number: 118
 species: Goldfish
 weight: 33
 height: 2'0
-illustrator: Yuka Morii
+illustrators:
+- Yuka Morii
 ---
 set: neo-revelation
 number: '46'
@@ -1883,7 +1930,8 @@ dex number: 198
 species: Darkness
 weight: 5
 height: 1'8
-illustrator: Hironobu Yoshida
+illustrators:
+- Hironobu Yoshida
 ---
 set: neo-revelation
 number: '47'
@@ -1919,7 +1967,8 @@ dex number: 46
 species: Mushroom
 weight: 12
 height: 1'0
-illustrator: Kagemaru Himeno
+illustrators:
+- Kagemaru Himeno
 ---
 set: neo-revelation
 number: '48'
@@ -1960,7 +2009,8 @@ dex number: 195
 species: Water Fish
 weight: 165
 height: 4'7
-illustrator: Yuka Morii
+illustrators:
+- Yuka Morii
 ---
 set: neo-revelation
 number: '49'
@@ -1999,7 +2049,8 @@ dex number: 211
 species: Balloon
 weight: 9
 height: 1'8
-illustrator: Sumiyoshi Kizuki
+illustrators:
+- Sumiyoshi Kizuki
 ---
 set: neo-revelation
 number: '50'
@@ -2031,7 +2082,8 @@ dex number: 223
 species: Jet
 weight: 26
 height: 2'0
-illustrator: Miki Tanaka
+illustrators:
+- Miki Tanaka
 ---
 set: neo-revelation
 number: '51'
@@ -2072,7 +2124,8 @@ dex number: 213
 species: Mold
 weight: 45
 height: 2'0
-illustrator: Yuka Morii
+illustrators:
+- Yuka Morii
 ---
 set: neo-revelation
 number: '52'
@@ -2112,7 +2165,8 @@ dex number: 188
 species: Cottonweed
 weight: 2
 height: 2'0
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: neo-revelation
 number: '53'
@@ -2149,7 +2203,8 @@ dex number: 218
 species: Lava
 weight: 77
 height: 2'4
-illustrator: Kagemaru Himeno
+illustrators:
+- Kagemaru Himeno
 ---
 set: neo-revelation
 number: '54'
@@ -2178,7 +2233,8 @@ dex number: 238
 species: Kiss
 weight: 13
 height: 1'4
-illustrator: Atsuko Nishida
+illustrators:
+- Atsuko Nishida
 ---
 set: neo-revelation
 number: '55'
@@ -2219,7 +2275,8 @@ dex number: 209
 species: Fairy
 weight: 17
 height: 2'0
-illustrator: Tomokazu Komiya
+illustrators:
+- Tomokazu Komiya
 ---
 set: neo-revelation
 number: '56'
@@ -2255,7 +2312,8 @@ dex number: 120
 species: Starshape
 weight: 76
 height: 2'7
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: neo-revelation
 number: '57'
@@ -2294,7 +2352,8 @@ dex number: 220
 species: Pig
 weight: 14
 height: 1'4
-illustrator: Miki Tanaka
+illustrators:
+- Miki Tanaka
 ---
 set: neo-revelation
 number: '58'
@@ -2334,7 +2393,8 @@ dex number: 201
 species: Symbol
 weight: 11
 height: 1'8
-illustrator: CR CG gangs
+illustrators:
+- CR CG gangs
 ---
 set: neo-revelation
 number: '59'
@@ -2371,7 +2431,8 @@ dex number: 41
 species: Bat
 weight: 17
 height: 2'7
-illustrator: Yukiko Baba
+illustrators:
+- Yukiko Baba
 ---
 set: neo-revelation
 number: '60'
@@ -2396,7 +2457,8 @@ mechanics:
     a Pokémon Tool attached to it. When the Pokémon Balloon Berry
     is attached to retreats, discard Balloon Berry instead of
     discarding Energy cards.
-illustrator: Keiji Kinebuchi
+illustrators:
+- Keiji Kinebuchi
 ---
 set: neo-revelation
 number: '61'
@@ -2419,7 +2481,8 @@ mechanics:
     Once during each player's turn, he or she may flip a coin.
     If heads, that player removes 2 damage counters from his or
     her Active Pokémon (1 if it only has 1).
-illustrator: Keiji Kinebuchi
+illustrators:
+- Keiji Kinebuchi
 ---
 set: neo-revelation
 number: '62'
@@ -2437,7 +2500,8 @@ mechanics:
     For each heads, search your deck for a later-Stage card that
     matches that Pokémon. Then put that card into your hand. Shuffle
     your deck afterward.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: neo-revelation
 number: '63'
@@ -2459,7 +2523,8 @@ mechanics:
   text: >-
     Each Pokémon in play with Dark in its name (even your opponent's)
     gets +20 HP.
-illustrator: Keiji Kinebuchi
+illustrators:
+- Keiji Kinebuchi
 ---
 set: neo-revelation
 number: '64'
@@ -2477,7 +2542,8 @@ mechanics:
     or Evolution card from your discard pile into your hand. If
     both are tails, put a Trainer card from your discard pile
     into your hand.
-illustrator: Keiji Kinebuchi
+illustrators:
+- Keiji Kinebuchi
 ---
 set: neo-revelation
 number: '65'
@@ -2524,7 +2590,8 @@ damage modifiers:
   operation: '-'
   type: Fighting
 retreat: 3
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: neo-revelation
 number: '66'
@@ -2561,4 +2628,5 @@ damage modifiers:
   operation: ×
   type: Lightning
 retreat: 1
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori

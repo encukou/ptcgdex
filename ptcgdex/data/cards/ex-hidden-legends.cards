@@ -35,7 +35,8 @@ damage modifiers:
   operation: ×
   type: Darkness
 retreat: 1
-illustrator: Midori Harada
+illustrators:
+- Midori Harada
 ---
 set: ex-hidden-legends
 number: '2'
@@ -70,7 +71,8 @@ damage modifiers:
   operation: ×
   type: Psychic
 retreat: 1
-illustrator: Kyoko Umemoto
+illustrators:
+- Kyoko Umemoto
 ---
 set: ex-hidden-legends
 number: '3'
@@ -106,7 +108,8 @@ damage modifiers:
 - amount: 2
   operation: ×
   type: Psychic
-illustrator: Midori Harada
+illustrators:
+- Midori Harada
 ---
 set: ex-hidden-legends
 number: '4'
@@ -142,7 +145,8 @@ damage modifiers:
   operation: ×
   type: Fire
 retreat: 1
-illustrator: Ken Ikuji
+illustrators:
+- Ken Ikuji
 ---
 set: ex-hidden-legends
 number: '5'
@@ -180,7 +184,8 @@ damage modifiers:
   operation: ×
   type: Fighting
 retreat: 1
-illustrator: Kyoko Umemoto
+illustrators:
+- Kyoko Umemoto
 ---
 set: ex-hidden-legends
 number: '6'
@@ -225,7 +230,8 @@ damage modifiers:
   operation: ×
   type: Fighting
 retreat: 2
-illustrator: Tomokazu Komiya
+illustrators:
+- Tomokazu Komiya
 ---
 set: ex-hidden-legends
 number: '7'
@@ -260,7 +266,8 @@ damage modifiers:
   operation: ×
   type: Fire
 retreat: 1
-illustrator: Hajime Kusajima
+illustrators:
+- Hajime Kusajima
 ---
 set: ex-hidden-legends
 number: '8'
@@ -296,7 +303,8 @@ damage modifiers:
   operation: ×
   type: Fire
 retreat: 1
-illustrator: Ryo Ueda
+illustrators:
+- Ryo Ueda
 ---
 set: ex-hidden-legends
 number: '9'
@@ -339,7 +347,8 @@ damage modifiers:
   operation: ×
   type: Psychic
 retreat: 2
-illustrator: Hajime Kusajima
+illustrators:
+- Hajime Kusajima
 ---
 set: ex-hidden-legends
 number: '10'
@@ -376,7 +385,8 @@ damage modifiers:
   operation: ×
   type: Psychic
 retreat: 1
-illustrator: Atsuko Nishida
+illustrators:
+- Atsuko Nishida
 ---
 set: ex-hidden-legends
 number: '11'
@@ -417,7 +427,8 @@ damage modifiers:
   operation: '-'
   type: Psychic
 retreat: 2
-illustrator: Kouki Saitou
+illustrators:
+- Kouki Saitou
 ---
 set: ex-hidden-legends
 number: '12'
@@ -458,7 +469,8 @@ damage modifiers:
   operation: ×
   type: Lightning
 retreat: 2
-illustrator: Atsuko Nishida
+illustrators:
+- Atsuko Nishida
 ---
 set: ex-hidden-legends
 number: '13'
@@ -492,7 +504,8 @@ damage modifiers:
   operation: ×
   type: Fire
 retreat: 1
-illustrator: Hajime Kusajima
+illustrators:
+- Hajime Kusajima
 ---
 set: ex-hidden-legends
 number: '14'
@@ -533,7 +546,8 @@ damage modifiers:
   operation: '-'
   type: Psychic
 retreat: 2
-illustrator: Hisao Nakamura
+illustrators:
+- Hisao Nakamura
 ---
 set: ex-hidden-legends
 number: '15'
@@ -571,7 +585,8 @@ damage modifiers:
   operation: ×
   type: Metal
 retreat: 3
-illustrator: Atsuko Nishida
+illustrators:
+- Atsuko Nishida
 ---
 set: ex-hidden-legends
 number: '16'
@@ -615,7 +630,8 @@ damage modifiers:
   operation: '-'
   type: Water
 retreat: 2
-illustrator: Yuka Morii
+illustrators:
+- Yuka Morii
 ---
 set: ex-hidden-legends
 number: '17'
@@ -651,7 +667,8 @@ damage modifiers:
   operation: ×
   type: Psychic
 retreat: 1
-illustrator: Miki Tanaka
+illustrators:
+- Miki Tanaka
 ---
 set: ex-hidden-legends
 number: '18'
@@ -685,7 +702,8 @@ damage modifiers:
 - amount: 2
   operation: ×
   type: Lightning
-illustrator: Kagemaru Himeno
+illustrators:
+- Kagemaru Himeno
 ---
 set: ex-hidden-legends
 number: '19'
@@ -718,7 +736,8 @@ damage modifiers:
   operation: ×
   type: Lightning
 retreat: 1
-illustrator: Kagemaru Himeno
+illustrators:
+- Kagemaru Himeno
 ---
 set: ex-hidden-legends
 number: '20'
@@ -758,7 +777,8 @@ damage modifiers:
 - amount: 30
   operation: '-'
   type: Fighting
-illustrator: Toshinao Aoki
+illustrators:
+- Toshinao Aoki
 ---
 set: ex-hidden-legends
 number: '21'
@@ -794,7 +814,8 @@ damage modifiers:
   operation: '-'
   type: Grass
 retreat: 2
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: ex-hidden-legends
 number: '22'
@@ -833,7 +854,8 @@ damage modifiers:
   operation: ×
   type: Water
 retreat: 1
-illustrator: Toshinao Aoki
+illustrators:
+- Toshinao Aoki
 ---
 set: ex-hidden-legends
 number: '23'
@@ -877,7 +899,8 @@ damage modifiers:
   operation: ×
   type: Lightning
 retreat: 1
-illustrator: Sumiyoshi Kizuki
+illustrators:
+- Sumiyoshi Kizuki
 ---
 set: ex-hidden-legends
 number: '24'
@@ -911,7 +934,8 @@ damage modifiers:
   operation: ×
   type: Lightning
 retreat: 1
-illustrator: Kagemaru Himeno
+illustrators:
+- Kagemaru Himeno
 ---
 set: ex-hidden-legends
 number: '25'
@@ -956,7 +980,8 @@ damage modifiers:
   operation: ×
   type: Metal
 retreat: 2
-illustrator: Sumiyoshi Kizuki
+illustrators:
+- Sumiyoshi Kizuki
 ---
 set: ex-hidden-legends
 number: '26'
@@ -1001,7 +1026,8 @@ damage modifiers:
   operation: ×
   type: Water
 retreat: 2
-illustrator: Sumiyoshi Kizuki
+illustrators:
+- Sumiyoshi Kizuki
 ---
 set: ex-hidden-legends
 number: '27'
@@ -1034,7 +1060,8 @@ damage modifiers:
   operation: ×
   type: Fire
 retreat: 1
-illustrator: Kouki Saitou
+illustrators:
+- Kouki Saitou
 ---
 set: ex-hidden-legends
 number: '28'
@@ -1068,7 +1095,8 @@ damage modifiers:
   operation: '-'
   type: Grass
 retreat: 2
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: ex-hidden-legends
 number: '29'
@@ -1106,7 +1134,8 @@ damage modifiers:
   operation: '-'
   type: Grass
 retreat: 2
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: ex-hidden-legends
 number: '30'
@@ -1151,7 +1180,8 @@ damage modifiers:
   operation: ×
   type: Fighting
 retreat: 1
-illustrator: Sumiyoshi Kizuki
+illustrators:
+- Sumiyoshi Kizuki
 ---
 set: ex-hidden-legends
 number: '31'
@@ -1185,7 +1215,8 @@ damage modifiers:
   operation: ×
   type: Water
 retreat: 1
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: ex-hidden-legends
 number: '32'
@@ -1214,7 +1245,8 @@ damage modifiers:
   operation: ×
   type: Grass
 retreat: 1
-illustrator: Naoyo Kimura
+illustrators:
+- Naoyo Kimura
 ---
 set: ex-hidden-legends
 number: '33'
@@ -1256,7 +1288,8 @@ damage modifiers:
 - amount: 30
   operation: '-'
   type: Fighting
-illustrator: Miki Tanaka
+illustrators:
+- Miki Tanaka
 ---
 set: ex-hidden-legends
 number: '34'
@@ -1292,7 +1325,8 @@ damage modifiers:
   operation: ×
   type: Metal
 retreat: 1
-illustrator: Midori Harada
+illustrators:
+- Midori Harada
 ---
 set: ex-hidden-legends
 number: '35'
@@ -1331,7 +1365,8 @@ damage modifiers:
   operation: ×
   type: Fire
 retreat: 1
-illustrator: Yuka Morii
+illustrators:
+- Yuka Morii
 ---
 set: ex-hidden-legends
 number: '36'
@@ -1363,7 +1398,8 @@ damage modifiers:
   operation: ×
   type: Psychic
 retreat: 1
-illustrator: Midori Harada
+illustrators:
+- Midori Harada
 ---
 set: ex-hidden-legends
 number: '37'
@@ -1398,7 +1434,8 @@ damage modifiers:
   operation: ×
   type: Fighting
 retreat: 1
-illustrator: Naoyo Kimura
+illustrators:
+- Naoyo Kimura
 ---
 set: ex-hidden-legends
 number: '38'
@@ -1436,7 +1473,8 @@ damage modifiers:
   operation: ×
   type: Fighting
 retreat: 2
-illustrator: Aya Kusube
+illustrators:
+- Aya Kusube
 ---
 set: ex-hidden-legends
 number: '39'
@@ -1469,7 +1507,8 @@ damage modifiers:
   operation: ×
   type: Fighting
 retreat: 2
-illustrator: Tomokazu Komiya
+illustrators:
+- Tomokazu Komiya
 ---
 set: ex-hidden-legends
 number: '40'
@@ -1505,7 +1544,8 @@ damage modifiers:
   operation: ×
   type: Lightning
 retreat: 1
-illustrator: Miki Tanaka
+illustrators:
+- Miki Tanaka
 ---
 set: ex-hidden-legends
 number: '41'
@@ -1538,7 +1578,8 @@ damage modifiers:
   operation: ×
   type: Psychic
 retreat: 1
-illustrator: Hajime Kusajima
+illustrators:
+- Hajime Kusajima
 ---
 set: ex-hidden-legends
 number: '42'
@@ -1576,7 +1617,8 @@ damage modifiers:
   operation: ×
   type: Psychic
 retreat: 1
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: ex-hidden-legends
 number: '43'
@@ -1610,7 +1652,8 @@ damage modifiers:
   operation: ×
   type: Psychic
 retreat: 2
-illustrator: Kouki Saitou
+illustrators:
+- Kouki Saitou
 ---
 set: ex-hidden-legends
 number: '44'
@@ -1645,7 +1688,8 @@ damage modifiers:
   operation: '-'
   type: Grass
 retreat: 2
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: ex-hidden-legends
 number: '45'
@@ -1685,7 +1729,8 @@ damage modifiers:
   operation: '-'
   type: Psychic
 retreat: 1
-illustrator: Hisao Nakamura
+illustrators:
+- Hisao Nakamura
 ---
 set: ex-hidden-legends
 number: '46'
@@ -1724,7 +1769,8 @@ damage modifiers:
   operation: ×
   type: Water
 retreat: 2
-illustrator: Atsuko Nishida
+illustrators:
+- Atsuko Nishida
 ---
 set: ex-hidden-legends
 number: '47'
@@ -1757,7 +1803,8 @@ damage modifiers:
   operation: ×
   type: Metal
 retreat: 1
-illustrator: Atsuko Nishida
+illustrators:
+- Atsuko Nishida
 ---
 set: ex-hidden-legends
 number: '48'
@@ -1791,7 +1838,8 @@ damage modifiers:
   operation: ×
   type: Fighting
 retreat: 1
-illustrator: Kagemaru Himeno
+illustrators:
+- Kagemaru Himeno
 ---
 set: ex-hidden-legends
 number: '49'
@@ -1828,7 +1876,8 @@ damage modifiers:
   operation: ×
   type: Psychic
 retreat: 1
-illustrator: Aya Kusube
+illustrators:
+- Aya Kusube
 ---
 set: ex-hidden-legends
 number: '50'
@@ -1867,7 +1916,8 @@ damage modifiers:
   operation: ×
   type: Psychic
 retreat: 2
-illustrator: Yuka Morii
+illustrators:
+- Yuka Morii
 ---
 set: ex-hidden-legends
 number: '51'
@@ -1902,7 +1952,8 @@ damage modifiers:
 - amount: 2
   operation: ×
   type: Lightning
-illustrator: Hisao Nakamura
+illustrators:
+- Hisao Nakamura
 ---
 set: ex-hidden-legends
 number: '52'
@@ -1930,7 +1981,8 @@ damage modifiers:
   operation: ×
   type: Psychic
 retreat: 1
-illustrator: Kyoko Umemoto
+illustrators:
+- Kyoko Umemoto
 ---
 set: ex-hidden-legends
 number: '53'
@@ -1960,7 +2012,8 @@ damage modifiers:
   operation: ×
   type: Water
 retreat: 1
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: ex-hidden-legends
 number: '54'
@@ -1993,7 +2046,8 @@ damage modifiers:
   operation: ×
   type: Psychic
 retreat: 1
-illustrator: Kouki Saitou
+illustrators:
+- Kouki Saitou
 ---
 set: ex-hidden-legends
 number: '55'
@@ -2023,7 +2077,8 @@ damage modifiers:
   operation: '-'
   type: Water
 retreat: 1
-illustrator: Shin-ichi Yoshikawa
+illustrators:
+- Shin-ichi Yoshikawa
 ---
 set: ex-hidden-legends
 number: '56'
@@ -2057,7 +2112,8 @@ damage modifiers:
   operation: ×
   type: Fighting
 retreat: 1
-illustrator: Aya Kusube
+illustrators:
+- Aya Kusube
 ---
 set: ex-hidden-legends
 number: '57'
@@ -2090,7 +2146,8 @@ damage modifiers:
   operation: ×
   type: Fighting
 retreat: 1
-illustrator: Nakaoka
+illustrators:
+- Nakaoka
 ---
 set: ex-hidden-legends
 number: '58'
@@ -2123,7 +2180,8 @@ damage modifiers:
   operation: ×
   type: Lightning
 retreat: 1
-illustrator: Kagemaru Himeno
+illustrators:
+- Kagemaru Himeno
 ---
 set: ex-hidden-legends
 number: '59'
@@ -2159,7 +2217,8 @@ damage modifiers:
   operation: ×
   type: Water
 retreat: 1
-illustrator: Ken Ikuji
+illustrators:
+- Ken Ikuji
 ---
 set: ex-hidden-legends
 number: '60'
@@ -2188,7 +2247,8 @@ damage modifiers:
   operation: '-'
   type: Fighting
 retreat: 1
-illustrator: Miki Tanaka
+illustrators:
+- Miki Tanaka
 ---
 set: ex-hidden-legends
 number: '61'
@@ -2221,7 +2281,8 @@ damage modifiers:
   operation: ×
   type: Lightning
 retreat: 1
-illustrator: Tomokazu Komiya
+illustrators:
+- Tomokazu Komiya
 ---
 set: ex-hidden-legends
 number: '62'
@@ -2253,7 +2314,8 @@ damage modifiers:
   operation: ×
   type: Psychic
 retreat: 1
-illustrator: Yuka Morii
+illustrators:
+- Yuka Morii
 ---
 set: ex-hidden-legends
 number: '63'
@@ -2284,7 +2346,8 @@ damage modifiers:
   operation: ×
   type: Fighting
 retreat: 1
-illustrator: Naoyo Kimura
+illustrators:
+- Naoyo Kimura
 ---
 set: ex-hidden-legends
 number: '64'
@@ -2317,7 +2380,8 @@ damage modifiers:
   operation: ×
   type: Psychic
 retreat: 1
-illustrator: Hajime Kusajima
+illustrators:
+- Hajime Kusajima
 ---
 set: ex-hidden-legends
 number: '65'
@@ -2352,7 +2416,8 @@ damage modifiers:
   operation: ×
   type: Psychic
 retreat: 1
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: ex-hidden-legends
 number: '66'
@@ -2385,7 +2450,8 @@ damage modifiers:
   operation: ×
   type: Psychic
 retreat: 1
-illustrator: Atsuko Nishida
+illustrators:
+- Atsuko Nishida
 ---
 set: ex-hidden-legends
 number: '67'
@@ -2423,7 +2489,8 @@ damage modifiers:
   operation: '-'
   type: Metal
 retreat: 1
-illustrator: Kagemaru Himeno
+illustrators:
+- Kagemaru Himeno
 ---
 set: ex-hidden-legends
 number: '68'
@@ -2454,7 +2521,8 @@ damage modifiers:
   operation: ×
   type: Fire
 retreat: 1
-illustrator: Yuka Morii
+illustrators:
+- Yuka Morii
 ---
 set: ex-hidden-legends
 number: '69'
@@ -2491,7 +2559,8 @@ damage modifiers:
   operation: '-'
   type: Metal
 retreat: 1
-illustrator: Kagemaru Himeno
+illustrators:
+- Kagemaru Himeno
 ---
 set: ex-hidden-legends
 number: '70'
@@ -2526,7 +2595,8 @@ damage modifiers:
   operation: ×
   type: Water
 retreat: 1
-illustrator: Atsuko Nishida
+illustrators:
+- Atsuko Nishida
 ---
 set: ex-hidden-legends
 number: '71'
@@ -2560,7 +2630,8 @@ damage modifiers:
   operation: ×
   type: Fire
 retreat: 1
-illustrator: Hisao Nakamura
+illustrators:
+- Hisao Nakamura
 ---
 set: ex-hidden-legends
 number: '72'
@@ -2593,7 +2664,8 @@ damage modifiers:
   operation: '-'
   type: Fighting
 retreat: 1
-illustrator: Midori Harada
+illustrators:
+- Midori Harada
 ---
 set: ex-hidden-legends
 number: '73'
@@ -2624,7 +2696,8 @@ damage modifiers:
   operation: ×
   type: Metal
 retreat: 1
-illustrator: Midori Harada
+illustrators:
+- Midori Harada
 ---
 set: ex-hidden-legends
 number: '74'
@@ -2652,7 +2725,8 @@ damage modifiers:
   operation: ×
   type: Metal
 retreat: 1
-illustrator: Atsuko Nishida
+illustrators:
+- Atsuko Nishida
 ---
 set: ex-hidden-legends
 number: '75'
@@ -2684,7 +2758,8 @@ damage modifiers:
   operation: ×
   type: Lightning
 retreat: 1
-illustrator: Aya Kusube
+illustrators:
+- Aya Kusube
 ---
 set: ex-hidden-legends
 number: '76'
@@ -2713,7 +2788,8 @@ damage modifiers:
   operation: ×
   type: Fire
 retreat: 1
-illustrator: Toshinao Aoki
+illustrators:
+- Toshinao Aoki
 ---
 set: ex-hidden-legends
 number: '77'
@@ -2745,7 +2821,8 @@ damage modifiers:
   operation: ×
   type: Lightning
 retreat: 1
-illustrator: Hisao Nakamura
+illustrators:
+- Hisao Nakamura
 ---
 set: ex-hidden-legends
 number: '78'
@@ -2772,7 +2849,8 @@ damage modifiers:
   operation: ×
   type: Fighting
 retreat: 1
-illustrator: Nakaoka
+illustrators:
+- Nakaoka
 ---
 set: ex-hidden-legends
 number: '79'
@@ -2804,7 +2882,8 @@ damage modifiers:
   operation: ×
   type: Lightning
 retreat: 1
-illustrator: Shin-ichi Yoshikawa
+illustrators:
+- Shin-ichi Yoshikawa
 ---
 set: ex-hidden-legends
 number: '80'
@@ -2836,7 +2915,8 @@ damage modifiers:
   operation: ×
   type: Fighting
 retreat: 1
-illustrator: Kyoko Umemoto
+illustrators:
+- Kyoko Umemoto
 ---
 set: ex-hidden-legends
 number: '81'
@@ -2869,7 +2949,8 @@ damage modifiers:
   operation: ×
   type: Water
 retreat: 1
-illustrator: Toshinao Aoki
+illustrators:
+- Toshinao Aoki
 ---
 set: ex-hidden-legends
 number: '82'
@@ -2898,7 +2979,8 @@ damage modifiers:
   operation: ×
   type: Fighting
 retreat: 1
-illustrator: Tomokazu Komiya
+illustrators:
+- Tomokazu Komiya
 ---
 set: ex-hidden-legends
 number: '83'
@@ -2934,7 +3016,8 @@ damage modifiers:
   operation: ×
   type: Psychic
 retreat: 1
-illustrator: Midori Harada
+illustrators:
+- Midori Harada
 ---
 set: ex-hidden-legends
 number: '84'
@@ -2960,7 +3043,8 @@ mechanics:
     cards in play. If you do, prevent all effects, including damage,
     done to the Pokémon using this attack during your opponent's
     next turn.
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: ex-hidden-legends
 number: '85'
@@ -2985,7 +3069,8 @@ mechanics:
     [1] Stone Generator - If your opponent has any Evolved Pokémon
     in play, remove the highest State Evolution card from each
     of them and put those cards back into his or her hand.
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: ex-hidden-legends
 number: '86'
@@ -3011,7 +3096,8 @@ mechanics:
     or Poke-Body, choose up to 2 basic Energy cards attached to
     1 of your opponent's Pokémon and attach them to the Defending
     Pokémon.
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: ex-hidden-legends
 number: '87'
@@ -3033,7 +3119,8 @@ mechanics:
   text: >-
     Don't apply Weakness for all Pokémon in play (excluding Pokémon-ex
     and Pokémon that has an owner in its name).
-illustrator: Ken Ikuji
+illustrators:
+- Ken Ikuji
 ---
 set: ex-hidden-legends
 number: '88'
@@ -3055,7 +3142,8 @@ mechanics:
   text: >-
     At any time between turns, each player puts 1 damage counter
     on his or her Pokémon-ex with maximum HP of at least 100.
-illustrator: Shin-ichi Yoshida
+illustrators:
+- Shin-ichi Yoshida
 ---
 set: ex-hidden-legends
 number: '89'
@@ -3078,7 +3166,8 @@ mechanics:
     Whenever any player attaches an Energy card from his or her
     hand to W Pokémon, F Pokémon, or M Pokémon, remove any Special
     Conditions from that Pokémon.
-illustrator: Ken Ikuji
+illustrators:
+- Ken Ikuji
 ---
 set: ex-hidden-legends
 number: '90'
@@ -3095,7 +3184,8 @@ mechanics:
     Flip a coin. If heads, choose 1 of your Pokémon (excluding
     Pokémon-ex). Remove all Special Conditions and 6 damage counters
     from that Pokémon (all if there are less than 6).
-illustrator: Ryo Ueda
+illustrators:
+- Ryo Ueda
 ---
 set: ex-hidden-legends
 number: '91'
@@ -3117,7 +3207,8 @@ mechanics:
   text: >-
     Any damage done by attacks from both P Pokémon and F Pokémon
     (both yours and your opponent's) is not affected by Resistance.
-illustrator: Shin-ichi Yoshikawa
+illustrators:
+- Shin-ichi Yoshikawa
 ---
 set: ex-hidden-legends
 number: '92'
@@ -3141,7 +3232,8 @@ mechanics:
     Draw a number of cards up to the number of your opponent's
     Pokémon in play. If you have 7 or more cards (including this
     one) in your hand, you can't play this card.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: ex-hidden-legends
 number: '93'
@@ -3188,7 +3280,8 @@ damage modifiers:
   operation: ×
   type: Water
 retreat: 3
-illustrator: Hikaru Koike
+illustrators:
+- Hikaru Koike
 ---
 set: ex-hidden-legends
 number: '94'
@@ -3237,7 +3330,8 @@ damage modifiers:
   operation: ×
   type: Grass
 retreat: 3
-illustrator: Hikaru Koike
+illustrators:
+- Hikaru Koike
 ---
 set: ex-hidden-legends
 number: '95'
@@ -3288,7 +3382,8 @@ damage modifiers:
   operation: '-'
   type: Grass
 retreat: 4
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: ex-hidden-legends
 number: '96'
@@ -3330,7 +3425,8 @@ damage modifiers:
   operation: ×
   type: Water
 retreat: 1
-illustrator: Ryo Ueda
+illustrators:
+- Ryo Ueda
 ---
 set: ex-hidden-legends
 number: '97'
@@ -3371,7 +3467,8 @@ damage modifiers:
   operation: ×
   type: Metal
 retreat: 2
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: ex-hidden-legends
 number: '98'
@@ -3411,7 +3508,8 @@ damage modifiers:
   operation: ×
   type: Water
 retreat: 3
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: ex-hidden-legends
 number: '99'
@@ -3451,7 +3549,8 @@ damage modifiers:
   operation: '-'
   type: Grass
 retreat: 2
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: ex-hidden-legends
 number: '100'
@@ -3489,7 +3588,8 @@ damage modifiers:
   operation: ×
   type: Psychic
 retreat: 2
-illustrator: Ryo Ueda
+illustrators:
+- Ryo Ueda
 ---
 set: ex-hidden-legends
 number: '101'
@@ -3531,7 +3631,8 @@ damage modifiers:
   operation: ×
   type: Fighting
 retreat: 1
-illustrator: Ryo Ueda
+illustrators:
+- Ryo Ueda
 ---
 set: ex-hidden-legends
 number: '102'
@@ -3564,4 +3665,5 @@ damage modifiers:
   operation: ×
   type: Grass
 retreat: 3
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita

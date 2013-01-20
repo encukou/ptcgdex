@@ -40,7 +40,8 @@ height: 4'11
 dex entry: >-
   Its brain can outperform a supercomputer. Its intelligence quotient
   is said to be 5000.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: base-set
 number: '2'
@@ -86,7 +87,8 @@ height: 5'3
 dex entry: >-
   A brutal Pokémon with pressurized water jets on its shell. They
   are used for high-speed tackles.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: base-set
 number: '3'
@@ -131,7 +133,8 @@ height: 3'7
 dex entry: >-
   A rare and elusive Pokémon that is said to bring happiness to
   those who manage to catch it.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: base-set
 number: '4'
@@ -179,7 +182,8 @@ height: 5'7
 dex entry: >-
   Spits fire that is hot enough to melt boulders. Known to unintentionally
   cause forest fires.
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: base-set
 number: '5'
@@ -225,7 +229,8 @@ height: 2'0
 dex entry: >-
   Its magical and cute appeal has many admirers. It is rare and
   found only in certain areas.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: base-set
 number: '6'
@@ -268,7 +273,8 @@ height: 21'4
 dex entry: >-
   Rarely seen in the wild. Huge and vicious, it is capable of
   destroying entire cities in a rage.
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: base-set
 number: '7'
@@ -306,7 +312,8 @@ height: 4'7
 dex entry: >-
   While seeming to do nothing, it fires punches in lightning-fast
   volleys that are impossible to see.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: base-set
 number: '8'
@@ -348,7 +355,8 @@ height: 5'3
 dex entry: >-
   Using its amazing muscles, it throws powerful punches that can
   knock its victim clear over the horizon.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: base-set
 number: '9'
@@ -392,7 +400,8 @@ height: 3'3
 dex entry: >-
   Formed by several Magnemites linked together. It frequently
   appears when sunspots flare up.
-illustrator: Keiji Kinebuchi
+illustrators:
+- Keiji Kinebuchi
 ---
 set: base-set
 number: '10'
@@ -435,7 +444,8 @@ height: 6'7
 dex entry: >-
   A scientist created this Pokémon after years of horrific gene-splicing
   and DNA engineering experiments.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: base-set
 number: '11'
@@ -481,7 +491,8 @@ height: 4'7
 dex entry: >-
   Uses its powerful tail in battle to smash, constrict, then break
   its prey's bones.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: base-set
 number: '12'
@@ -524,7 +535,8 @@ height: 3'7
 dex entry: >-
   Very smart and very vengeful. Grabbing one of its many tails
   could result in a 1,000-year curse.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: base-set
 number: '13'
@@ -569,7 +581,8 @@ height: 4'3
 dex entry: >-
   An adept swimmer at both the front crawl and breaststroke. Easily
   overtakes the best human swimmers.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: base-set
 number: '14'
@@ -612,7 +625,8 @@ height: 2'7
 dex entry: >-
   Its long tail serves as a ground to protect itself from its
   own high-voltage power.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: base-set
 number: '15'
@@ -653,7 +667,8 @@ height: 6'7
 dex entry: >-
   This plant blooms when it is absorbing solar energy. It stays
   on the move to seek sunlight.
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: base-set
 number: '16'
@@ -695,7 +710,8 @@ height: 5'3
 dex entry: >-
   A legendary bird Pokémon said to appear from clouds while wielding
   enormous lightning bolts.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: base-set
 number: '17'
@@ -739,7 +755,8 @@ height: 3'3
 dex entry: >-
   Flies at high speed and attacks using the large, venomous stingers
   on its forelegs and tail.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: base-set
 number: '18'
@@ -782,7 +799,8 @@ height: 13'1
 dex entry: >-
   A mystical Pokémon that exudes a gentle aura. Has the ability
   to change climate conditions.
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: base-set
 number: '19'
@@ -826,7 +844,8 @@ height: 2'4
 dex entry: >-
   A team of Diglett triplets. It triggers huge earthquakes by
   burrowing 60 miles underground.
-illustrator: Keiji Kinebuchi
+illustrators:
+- Keiji Kinebuchi
 ---
 set: base-set
 number: '20'
@@ -870,7 +889,8 @@ height: 3'7
 dex entry: >-
   Normally found near power plants, it can wander away and cause
   major blackouts in cities.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: base-set
 number: '21'
@@ -917,7 +937,8 @@ height: 3'11
 dex entry: >-
   It stores electrical energy under very high pressure. It often
   explodes with little or no provocation.
-illustrator: Keiji Kinebuchi
+illustrators:
+- Keiji Kinebuchi
 ---
 set: base-set
 number: '22'
@@ -964,7 +985,8 @@ height: 3'7
 dex entry: >-
   Very protective of its sprawling territory, this Pokémon will
   fiercely peck at any intruder.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: base-set
 number: '23'
@@ -1007,7 +1029,8 @@ height: 6'3
 dex entry: >-
   A Pokémon that has been long admired for its beauty. It runs
   gracefully, as if on wings.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: base-set
 number: '24'
@@ -1049,7 +1072,8 @@ height: 3'7
 dex entry: >-
   When it swings its burning tail, it raises the temperature to
   unbearably high levels.
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: base-set
 number: '25'
@@ -1089,7 +1113,8 @@ height: 5'7
 dex entry: >-
   Stores thermal energy in its body. Swims at a steady 8 knots
   even in intensely cold waters.
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: base-set
 number: '26'
@@ -1122,7 +1147,8 @@ height: 5'11
 dex entry: >-
   Long considered a mythical Pokémon until recently, when a small
   colony was found living underwater.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: base-set
 number: '27'
@@ -1167,7 +1193,8 @@ height: 2'7
 dex entry: >-
   The sprig of green onions it holds is its weapon. This sprig
   is used much like a metal sword.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: base-set
 number: '28'
@@ -1200,7 +1227,8 @@ height: 2'4
 dex entry: >-
   Very protective of its territory. It will bark and bite to repel
   intruders from its space.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: base-set
 number: '29'
@@ -1242,7 +1270,8 @@ height: 5'3
 dex entry: >-
   Because of its ability to slip through block walls, it is said
   to be from another dimension.
-illustrator: Keiji Kinebuchi
+illustrators:
+- Keiji Kinebuchi
 ---
 set: base-set
 number: '30'
@@ -1282,7 +1311,8 @@ height: 3'3
 dex entry: >-
   When the bulb on its back grows large, the Pokémon seems to
   lose the ability to stand on its hind legs.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: base-set
 number: '31'
@@ -1325,7 +1355,8 @@ height: 4'7
 dex entry: >-
   Merely by meditating, the Pokémon launches a powerful psychic
   energy attack.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: base-set
 number: '32'
@@ -1365,7 +1396,8 @@ height: 4'3
 dex entry: >-
   It emits special alpha waves from its body that induce headaches
   even to those just nearby.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: base-set
 number: '33'
@@ -1408,7 +1440,8 @@ height: 2'0
 dex entry: >-
   Almost incapable of moving, this Pokémon can only harden its
   shell to protect itself from predators.
-illustrator: Keiji Kinebuchi
+illustrators:
+- Keiji Kinebuchi
 ---
 set: base-set
 number: '34'
@@ -1451,7 +1484,8 @@ height: 4'11
 dex entry: >-
   Its muscular body is so powerful that it must wear a power-save
   belt to help regulate its motions.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: base-set
 number: '35'
@@ -1490,7 +1524,8 @@ height: 2'11
 dex entry: >-
   In the distant past, it was stronger than its horribly weak
   descendants that exist today.
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: base-set
 number: '36'
@@ -1530,7 +1565,8 @@ height: 4'3
 dex entry: >-
   Its body always burns with an orange glow that enables it to
   hide perfectly among flames.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: base-set
 number: '37'
@@ -1570,7 +1606,8 @@ height: 2'11
 dex entry: >-
   An aggressive Pokémon that is quick to attack. The horn on its
   head secretes a powerful venom.
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: base-set
 number: '38'
@@ -1612,7 +1649,8 @@ height: 3'4
 dex entry: >-
   Capable of living in or out of water. When out of water, it
   sweats to keep its body slimy.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: base-set
 number: '39'
@@ -1656,7 +1694,8 @@ height: 2'7
 dex entry: >-
   A Pokémon that consists entirely of programming code. Capable
   of moving freely in cyberspace.
-illustrator: Tomoaki Imakuni
+illustrators:
+- Tomoaki Imakuni
 ---
 set: base-set
 number: '40'
@@ -1700,7 +1739,8 @@ height: 2'4
 dex entry: >-
   It uses its whiskers to maintain its balance. It seems to slow
   down if they are cut off.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: base-set
 number: '41'
@@ -1733,7 +1773,8 @@ height: 3'7
 dex entry: >-
   The protruding horn on its head is very hard. This horn is used
   for bashing through thick ice.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: base-set
 number: '42'
@@ -1774,7 +1815,8 @@ height: 3'3
 dex entry: >-
   Often hides in water to stalk unweary prey. When swimming quickly,
   it moves its ears to maintain balance.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: base-set
 number: '43'
@@ -1808,7 +1850,8 @@ height: 2'11
 dex entry: >-
   Using its ability to read minds, it will identify impending
   danger and teleport to safety.
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: base-set
 number: '44'
@@ -1844,7 +1887,8 @@ height: 2'4
 dex entry: >-
   A strange seed was planted on its back at birth. Thus, a plant
   sprouted and now grows with this Pokémon.
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: base-set
 number: '45'
@@ -1879,7 +1923,8 @@ height: 1'10
 dex entry: >-
   Its short feet are tipped with suction pads that enable it to
   tirelessly climb slopes and walls.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: base-set
 number: '46'
@@ -1919,7 +1964,8 @@ height: 2'0
 dex entry: >-
   Obviously prefers hot places. If it gets caught in the rain,
   steam is said to spout from the tip of its tail.
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: base-set
 number: '47'
@@ -1958,7 +2004,8 @@ height: 0'8
 dex entry: >-
   Lives about three feet underground, where it feeds on plant
   roots. It sometimes appears above ground.
-illustrator: Keiji Kinebuchi
+illustrators:
+- Keiji Kinebuchi
 ---
 set: base-set
 number: '48'
@@ -1996,7 +2043,8 @@ height: 4'7
 dex entry: >-
   A bird that makes up for its poor flying with its fast foot
   speed. Leaves giant footprints.
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: base-set
 number: '49'
@@ -2035,7 +2083,8 @@ height: 3'3
 dex entry: >-
   Puts enemies to sleep, then eats their dreams. Ocasionally gets
   sick from eating bad dreams.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: base-set
 number: '50'
@@ -2075,7 +2124,8 @@ height: 4'3
 dex entry: >-
   Almost invisible, this gaseous Pokémon cloaks the target and
   puts it to sleep without notice.
-illustrator: Keiji Kinebuchi
+illustrators:
+- Keiji Kinebuchi
 ---
 set: base-set
 number: '51'
@@ -2111,7 +2161,8 @@ height: 2'0
 dex entry: >-
   Because it stores several kinds of toxic gases in its body,
   it is prone to exploding without warning.
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: base-set
 number: '52'
@@ -2144,7 +2195,8 @@ height: 2'7
 dex entry: >-
   Loves to build its muscles. It trains in all styles of martial
   arts to become even stronger.
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: base-set
 number: '53'
@@ -2187,7 +2239,8 @@ height: 1'0
 dex entry: >-
   Uses anti-gravity to stay suspended. Appears without warning
   and uses attacks like Thunder Wave.
-illustrator: Keiji Kinebuchi
+illustrators:
+- Keiji Kinebuchi
 ---
 set: base-set
 number: '54'
@@ -2230,7 +2283,8 @@ height: 2'4
 dex entry: >-
   It is vunerable to attack because its shell is soft, exposing
   its weak and tender body.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: base-set
 number: '55'
@@ -2265,7 +2319,8 @@ height: 1'4
 dex entry: >-
   Stiffens its ears to sense danger. The larger, more powerful
   of its horns secretes venom.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: base-set
 number: '56'
@@ -2305,7 +2360,8 @@ height: 28'10
 dex entry: >-
   As it grows, the stone portions of its body harden to become
   similar to a diamond, though colored black.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: base-set
 number: '57'
@@ -2345,7 +2401,8 @@ height: 1'3
 dex entry: >-
   A common sight in forests and woods. It flaps its wings at ground
   level to kick up blinding sand.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: base-set
 number: '58'
@@ -2386,7 +2443,8 @@ height: 1'4
 dex entry: >-
   When several of these Pokémon gather, their electricity can
   cause lightning storms.
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: base-set
 number: '59'
@@ -2422,7 +2480,8 @@ height: 2'0
 dex entry: >-
   Its newly grown legs prevent it from running. It appears to
   prefer swimming over trying to stand.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: base-set
 number: '60'
@@ -2459,7 +2518,8 @@ height: 3'3
 dex entry: >-
   Its hooves are 10 times harder than diamonds. It can trample
   anything flat in moments.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: base-set
 number: '61'
@@ -2494,7 +2554,8 @@ height: 1'0
 dex entry: >-
   Bites anything when it attacks. Small and very quick, it is
   a common sight in many places.
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: base-set
 number: '62'
@@ -2534,7 +2595,8 @@ height: 2'0
 dex entry: >-
   Burrows deep underground in arid locations far from water. It
   only emerges to hunt for food.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: base-set
 number: '63'
@@ -2576,7 +2638,8 @@ height: 1'8
 dex entry: >-
   After birth, its back swells and hardens into a shell. It powerfully
   sprays foam from its mouth.
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: base-set
 number: '64'
@@ -2618,7 +2681,8 @@ height: 3'7
 dex entry: >-
   Its central core glows with the seven colors of the rainbow.
   Some people value this core as a gem.
-illustrator: Keiji Kinebuchi
+illustrators:
+- Keiji Kinebuchi
 ---
 set: base-set
 number: '65'
@@ -2651,7 +2715,8 @@ height: 2'7
 dex entry: >-
   An enigmatic Pokémon that can effortlessly regenerate any appendage
   it loses in battle.
-illustrator: Keiji Kinebuchi
+illustrators:
+- Keiji Kinebuchi
 ---
 set: base-set
 number: '66'
@@ -2692,7 +2757,8 @@ height: 3'3
 dex entry: >-
   Its whole body is swathed with wide vines that are similar to
   seaweed. These vines shake as it walks.
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: base-set
 number: '67'
@@ -2725,7 +2791,8 @@ height: 1'8
 dex entry: >-
   Usually found in power plants. Easily mistaken for a Poké Ball,
   it has zapped many people.
-illustrator: Keiji Kinebuchi
+illustrators:
+- Keiji Kinebuchi
 ---
 set: base-set
 number: '68'
@@ -2760,7 +2827,8 @@ height: 2'0
 dex entry: >-
   At the time of birth, it has just one tail. Its tail splits
   from the tip as it grows older.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: base-set
 number: '69'
@@ -2795,7 +2863,8 @@ height: 1'0
 dex entry: >-
   Often found in forests, eating leaves. It has a sharp, venomous
   stinger on its head.
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: base-set
 number: '70'
@@ -2821,7 +2890,8 @@ mechanics:
     Doll is Knocked Out, it doesn't count as a Knocked Out Pokémon.  At
     any time during your turn before your attack, you may discard
     Clefairy Doll.
-illustrator: Keiji Kinebuchi
+illustrators:
+- Keiji Kinebuchi
 ---
 set: base-set
 number: '71'
@@ -2838,7 +2908,8 @@ mechanics:
     Discard 2 other cards from your hand in order to search your
     deck for any card and put it into your hand. Shuffle your
     deck afterward.
-illustrator: Keiji Kinebuchi
+illustrators:
+- Keiji Kinebuchi
 ---
 set: base-set
 number: '72'
@@ -2857,7 +2928,8 @@ mechanics:
     to that Pokémon. That Pokémon is no longer Asleep, Confused,
     Paralyzed, Poisoned, or anything else that might be the result
     of an attack (just as if you had evolved it).
-illustrator: Keiji Kinebuchi
+illustrators:
+- Keiji Kinebuchi
 ---
 set: base-set
 number: '73'
@@ -2873,7 +2945,8 @@ mechanics:
   text: >-
     Your opponent shuffles his or her hand into his or her deck,
     then draws 7 cards.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: base-set
 number: '74'
@@ -2889,7 +2962,8 @@ mechanics:
   text: >-
     Discard 2 other cards from your hand in order to put a Trainer
     card from your discard pile into your hand.
-illustrator: Keiji Kinebuchi
+illustrators:
+- Keiji Kinebuchi
 ---
 set: base-set
 number: '75'
@@ -2905,7 +2979,8 @@ mechanics:
   text: >-
     You and your opponent show each other your hands, then shuffle
     all the trainer cards from you hands into your decks.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: base-set
 number: '76'
@@ -2922,7 +2997,8 @@ mechanics:
     Put a Stage 2 Evolution card from your hand on the matching
     Basic Pokémon. You can only play this card when you would
     be allowed to evolve that Pokémon anyway.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: base-set
 number: '77'
@@ -2939,7 +3015,8 @@ mechanics:
     Trade 1 of the Basic Pokémon or Evolution cards in your hand
     for 1 of the Basic Pokémon or Evolution cards from your deck.
     Show both cards to your opponent. Shuffle your deck afterward.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: base-set
 number: '78'
@@ -2956,7 +3033,8 @@ mechanics:
     Choose 1 of your own Pokémon in play and return its Basic
     Pokémon card to your hand. (Discard all cards attached to
     that card.)
-illustrator: Keiji Kinebuchi
+illustrators:
+- Keiji Kinebuchi
 ---
 set: base-set
 number: '79'
@@ -2973,7 +3051,8 @@ mechanics:
     Discard 1 Energy card attached to 1 of your own Pokémon in
     order to choose 1 of your opponent's Pokémon and up to 2 Energy
     cards attached to it. Discard those energy cards.
-illustrator: Keiji Kinebuchi
+illustrators:
+- Keiji Kinebuchi
 ---
 set: base-set
 number: '80'
@@ -2990,7 +3069,8 @@ mechanics:
     Attach Defender to 1 of your Pokémon. At the end of your opponent's
     next turn, discard Defender. Damage done to that Pokémon by
     attacks is reduced by 20 (after applying Weakness and Resistance.)
-illustrator: Keiji Kinebuchi
+illustrators:
+- Keiji Kinebuchi
 ---
 set: base-set
 number: '81'
@@ -3006,7 +3086,8 @@ mechanics:
   text: >-
     Trade 1 of other cards in your hand for up to 2 basic Energy
     cards from your discard pile.
-illustrator: Keiji Kinebuchi
+illustrators:
+- Keiji Kinebuchi
 ---
 set: base-set
 number: '82'
@@ -3022,7 +3103,8 @@ mechanics:
   text: >-
     Your Active Pokémon is no longer Asleep, Confused, Paralyzed,
     or Poisoned.
-illustrator: Keiji Kinebuchi
+illustrators:
+- Keiji Kinebuchi
 ---
 set: base-set
 number: '83'
@@ -3038,7 +3120,8 @@ mechanics:
   text: >-
     Shuffle 2 of the other cards from your hand into your deck
     in order to draw a card.
-illustrator: Keiji Kinebuchi
+illustrators:
+- Keiji Kinebuchi
 ---
 set: base-set
 number: '84'
@@ -3057,7 +3140,8 @@ mechanics:
     turn, discard PlusPower. If this Pokémon's attack does damage
     to the defending Pokémon (after applying Weakness and Resistance),
     the attack does 10 more damage to the defender.
-illustrator: Keiji Kinebuchi
+illustrators:
+- Keiji Kinebuchi
 ---
 set: base-set
 number: '85'
@@ -3074,7 +3158,8 @@ mechanics:
     Remove all damage counters from all of your own Pokémon with
     damage counters on them, then discard all Energy cards attached
     to those Pokémon.
-illustrator: Keiji Kinebuchi
+illustrators:
+- Keiji Kinebuchi
 ---
 set: base-set
 number: '86'
@@ -3091,7 +3176,8 @@ mechanics:
     Choose 1 Basic Pokémon card from your opponent's discard pile
     and put it on his or her Bench. (You can't play Pokémon Flute
     if your opponent's Bench is full.)
-illustrator: Keiji Kinebuchi
+illustrators:
+- Keiji Kinebuchi
 ---
 set: base-set
 number: '87'
@@ -3107,7 +3193,8 @@ mechanics:
   text: >-
     Look at up to 5 cards from the top of your deck and rearrange
     them as you like.
-illustrator: Keiji Kinebuchi
+illustrators:
+- Keiji Kinebuchi
 ---
 set: base-set
 number: '88'
@@ -3122,7 +3209,8 @@ mechanics:
 - type: effect
   text: >-
     Discard your hand, then draw 7 cards.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: base-set
 number: '89'
@@ -3140,7 +3228,8 @@ mechanics:
     Bench. Put damage counters on that Pokémon equal to half its
     (rounded down to the nearest 10). (You can't play Revive if
     your Bench is full.)
-illustrator: Keiji Kinebuchi
+illustrators:
+- Keiji Kinebuchi
 ---
 set: base-set
 number: '90'
@@ -3156,7 +3245,8 @@ mechanics:
   text: >-
     Discard 1 Energy card attached to 1 of your own Pokémon in
     order to remove up to 4 damage counters from that Pokémon.
-illustrator: Keiji Kinebuchi
+illustrators:
+- Keiji Kinebuchi
 ---
 set: base-set
 number: '91'
@@ -3171,7 +3261,8 @@ mechanics:
 - type: effect
   text: >-
     Draw 2 cards.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: base-set
 number: '92'
@@ -3187,7 +3278,8 @@ mechanics:
   text: >-
     Choose 1 Energy card attached to 1 of your opponent's Pokémon
     and discard it.
-illustrator: Keiji Kinebuchi
+illustrators:
+- Keiji Kinebuchi
 ---
 set: base-set
 number: '93'
@@ -3203,7 +3295,8 @@ mechanics:
   text: >-
     Choose 1 of your opponent's Benched Pokémon and switch it
     with his/her Active Pokémon.
-illustrator: Keiji Kinebuchi
+illustrators:
+- Keiji Kinebuchi
 ---
 set: base-set
 number: '94'
@@ -3219,7 +3312,8 @@ mechanics:
 - type: effect
   text: >-
     Remove up to 2 damage counters from 1 of your Pokémon.
-illustrator: Keiji Kinebuchi
+illustrators:
+- Keiji Kinebuchi
 ---
 set: base-set
 number: '95'
@@ -3235,7 +3329,8 @@ mechanics:
 - type: effect
   text: >-
     Switch 1 of your own Benched Pokémon with your Active Pokémon.
-illustrator: Keiji Kinebuchi
+illustrators:
+- Keiji Kinebuchi
 ---
 set: base-set
 number: '96'
@@ -3253,7 +3348,8 @@ mechanics:
   text: >-
     Provides 2 colorless energy. Doesn't count as a basic energy
     card.
-illustrator: Keiji Kinebuchi
+illustrators:
+- Keiji Kinebuchi
 ---
 set: base-set
 number: '97'
@@ -3270,7 +3366,8 @@ mechanics:
 - type: effect
   text: >-
     Provides 1 Fighting Energy.
-illustrator: Keiji Kinebuchi
+illustrators:
+- Keiji Kinebuchi
 ---
 set: base-set
 number: '98'
@@ -3287,7 +3384,8 @@ mechanics:
 - type: effect
   text: >-
     Provides 1 Fire Energy.
-illustrator: Keiji Kinebuchi
+illustrators:
+- Keiji Kinebuchi
 ---
 set: base-set
 number: '99'
@@ -3304,7 +3402,8 @@ mechanics:
 - type: effect
   text: >-
     Provides 1 Grass Energy.
-illustrator: Keiji Kinebuchi
+illustrators:
+- Keiji Kinebuchi
 ---
 set: base-set
 number: '100'
@@ -3321,7 +3420,8 @@ mechanics:
 - type: effect
   text: >-
     Provides 1 Lightning Energy.
-illustrator: Keiji Kinebuchi
+illustrators:
+- Keiji Kinebuchi
 ---
 set: base-set
 number: '101'
@@ -3338,7 +3438,8 @@ mechanics:
 - type: effect
   text: >-
     Provides 1 Psychic Energy.
-illustrator: Keiji Kinebuchi
+illustrators:
+- Keiji Kinebuchi
 ---
 set: base-set
 number: '102'
@@ -3355,4 +3456,5 @@ mechanics:
 - type: effect
   text: >-
     Provides 1 Water Energy.
-illustrator: Keiji Kinebuchi
+illustrators:
+- Keiji Kinebuchi

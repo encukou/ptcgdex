@@ -46,7 +46,8 @@ dex number: 181
 species: Light
 weight: 135.6
 height: 4'7
-illustrator: Atsuko Nishida
+illustrators:
+- Atsuko Nishida
 ---
 set: platinum
 number: '2'
@@ -97,7 +98,8 @@ dex number: 9
 species: Shellfish
 weight: 188.5
 height: 5'3
-illustrator: Kagemaru Himeno
+illustrators:
+- Kagemaru Himeno
 ---
 set: platinum
 number: '3'
@@ -143,7 +145,8 @@ dex number: 257
 species: Blaze
 weight: 114.6
 height: 6'3
-illustrator: Hojime Kusajima
+illustrators:
+- Hojime Kusajima
 ---
 set: platinum
 number: '4'
@@ -189,7 +192,8 @@ dex number: 301
 species: Prim
 weight: 71.9
 height: 3'7
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: platinum
 number: '5'
@@ -235,7 +239,8 @@ height: 17'9
 dex entry: >-
   It has the power to control time. It appears in Sinnoh-region
   myths as an ancient diety.
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: platinum
 number: '6'
@@ -279,7 +284,8 @@ height: 17'9
 dex entry: >-
   It has the power to control time. It appears in Sinnoh-region
   myths as an ancient diety.
-illustrator: Kouki Saitou
+illustrators:
+- Kouki Saitou
 ---
 set: platinum
 number: '7'
@@ -326,7 +332,8 @@ damage modifiers:
   operation: '-'
   type: Psychic
 retreat: 2
-illustrator: Yusuke Ishikawa
+illustrators:
+- Yusuke Ishikawa
 ---
 set: platinum
 number: '8'
@@ -373,7 +380,8 @@ dex number: 282
 species: Embrace
 weight: 106.7
 height: 5'3
-illustrator: Kouki Saitou
+illustrators:
+- Kouki Saitou
 ---
 set: platinum
 number: '9'
@@ -417,7 +425,8 @@ dex number: 487
 species: Renegade
 weight: 1653.5
 height: 14'9
-illustrator: Kouki Saitou
+illustrators:
+- Kouki Saitou
 ---
 set: platinum
 number: '10'
@@ -464,7 +473,8 @@ dex number: 487
 species: Renegade
 weight: 1433.0
 height: 22'8
-illustrator: Hojime Kusajima
+illustrators:
+- Hojime Kusajima
 ---
 set: platinum
 number: '11'
@@ -512,7 +522,8 @@ dex number: 310
 species: Discharge
 weight: 88.6
 height: 4'11
-illustrator: Kouki Saitou
+illustrators:
+- Kouki Saitou
 ---
 set: platinum
 number: '12'
@@ -550,7 +561,8 @@ damage modifiers:
   operation: ×
   type: Lightning
 retreat: 2
-illustrator: Yusuke Ishikawa
+illustrators:
+- Yusuke Ishikawa
 ---
 set: platinum
 number: '13'
@@ -598,7 +610,8 @@ dex number: 409
 species: Head Butt
 weight: 226.0
 height: 5'3
-illustrator: Masakazu Fukuda
+illustrators:
+- Masakazu Fukuda
 ---
 set: platinum
 number: '14'
@@ -645,7 +658,8 @@ height: 0'8
 dex entry: >-
   It lives in flower patches and avoids detection by curling up
   to look like a flowering plant.
-illustrator: Kagemaru Himeno
+illustrators:
+- Kagemaru Himeno
 ---
 set: platinum
 number: '15'
@@ -688,7 +702,8 @@ height: 1'4
 dex entry: >-
   The flowers all over its body burst into bloom if it is lovingly
   hugged and senses gratitude.
-illustrator: Atsuko Nishida
+illustrators:
+- Atsuko Nishida
 ---
 set: platinum
 number: '16'
@@ -731,7 +746,8 @@ height: 6'7
 dex entry: >-
   The world's laziest Pokémon. When it is lounging, it is actually
   saving energy for striking back.
-illustrator: Masakazu Fukuda
+illustrators:
+- Masakazu Fukuda
 ---
 set: platinum
 number: '17'
@@ -771,7 +787,8 @@ damage modifiers:
 - amount: 20
   operation: '-'
   type: Psychic
-illustrator: Makoto Imai
+illustrators:
+- Makoto Imai
 ---
 set: platinum
 number: '18'
@@ -820,7 +837,8 @@ dex number: 334
 species: Humming
 weight: 45.4
 height: 3'7
-illustrator: Naoyo Kimura
+illustrators:
+- Naoyo Kimura
 ---
 set: platinum
 number: '19'
@@ -873,7 +891,8 @@ dex number: 354
 species: Marionette
 weight: 27.6
 height: 3'7
-illustrator: Tomokazu Komiya
+illustrators:
+- Tomokazu Komiya
 ---
 set: platinum
 number: '20'
@@ -921,7 +940,8 @@ dex number: 411
 species: Shield
 weight: 329.6
 height: 4'3
-illustrator: Kagemaru Himeno
+illustrators:
+- Kagemaru Himeno
 ---
 set: platinum
 number: '21'
@@ -971,7 +991,8 @@ height: 3'3
 dex entry: >-
   Despite its looks, it is quite aggressive. It jabs with its
   long, thin mouth if disturbed while collecting pollen.
-illustrator: Suwama Chiaki
+illustrators:
+- Suwama Chiaki
 ---
 set: platinum
 number: '22'
@@ -1018,7 +1039,8 @@ dex number: 242
 species: Happiness
 weight: 103.2
 height: 4'11
-illustrator: Atsuko Nishida
+illustrators:
+- Atsuko Nishida
 ---
 set: platinum
 number: '23'
@@ -1063,7 +1085,8 @@ height: 17'9
 dex entry: >-
   A legendary Pokémon of Sinnoh, it is said that time flows when
   DIALGA's heart beats.
-illustrator: Kent Kanetsuna
+illustrators:
+- Kent Kanetsuna
 ---
 set: platinum
 number: '24'
@@ -1112,7 +1135,8 @@ dex number: 51
 species: Mole
 weight: 73.4
 height: 2'4
-illustrator: Sumiyoshi Kizuki
+illustrators:
+- Sumiyoshi Kizuki
 ---
 set: platinum
 number: '25'
@@ -1159,7 +1183,8 @@ dex number: 269
 species: Poison Moth
 weight: 69.7
 height: 3'11
-illustrator: Yukiko Baba
+illustrators:
+- Yukiko Baba
 ---
 set: platinum
 number: '26'
@@ -1204,7 +1229,8 @@ height: 5'7
 dex entry: >-
   If anyone were to hurt its pride, it would slash them with wings
   that can cleave through an ice floe.
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: platinum
 number: '27'
@@ -1250,7 +1276,8 @@ height: 14'9
 dex entry: >-
   A Pokémon that is said to live in a world on the reverse side
   of ours. It appears in an ancient cemetery.
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: platinum
 number: '28'
@@ -1293,7 +1320,8 @@ height: 22'8
 dex entry: >-
   It was banished for its violence. It silently gazed upon the
   old world from the Distortion World.
-illustrator: Yusuke Ishikawa
+illustrators:
+- Yusuke Ishikawa
 ---
 set: platinum
 number: '29'
@@ -1339,7 +1367,8 @@ height: 5'7
 dex entry: >-
   It is seen swimming dynamically and elegantly using its well-developed
   limbs and flippers.
-illustrator: Kouki Saitou
+illustrators:
+- Kouki Saitou
 ---
 set: platinum
 number: '30'
@@ -1378,7 +1407,8 @@ damage modifiers:
   operation: ×
   type: Lightning
 retreat: 3
-illustrator: Kent Kanetsuna
+illustrators:
+- Kent Kanetsuna
 ---
 set: platinum
 number: '31'
@@ -1422,7 +1452,8 @@ height: 3'11
 dex entry: >-
   It uses unique fighting moves with fire on its hands and feet.
   It will take on any opponent.
-illustrator: Kouki Saitou
+illustrators:
+- Kouki Saitou
 ---
 set: platinum
 number: '32'
@@ -1467,7 +1498,8 @@ height: 3'3
 dex entry: >-
   There is a village that hosts a contest based on the amazingly
   variable cries of this Pokémon.
-illustrator: Atsuko Nishida
+illustrators:
+- Atsuko Nishida
 ---
 set: platinum
 number: '33'
@@ -1512,7 +1544,8 @@ height: 5'7
 dex entry: >-
   The long tongue is always soggy with slobber. The saliva contains
   a solvent that causes numbness.
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: platinum
 number: '34'
@@ -1561,7 +1594,8 @@ dex number: 272
 species: Carefree
 weight: 121.3
 height: 4'11
-illustrator: Kagemaru Himeno
+illustrators:
+- Kagemaru Himeno
 ---
 set: platinum
 number: '35'
@@ -1604,7 +1638,8 @@ height: 2'0
 dex entry: >-
   It lives in warm seas. It is said that a couple finding this
   Pokémon will be blessed with eternal love.
-illustrator: Kagemaru Himeno
+illustrators:
+- Kagemaru Himeno
 ---
 set: platinum
 number: '36'
@@ -1648,7 +1683,8 @@ height: 3'7
 dex entry: >-
   Its nine tails are said to be inbued with a mystic power. It
   can live for a thousand years.
-illustrator: Suwama Chiaki
+illustrators:
+- Suwama Chiaki
 ---
 set: platinum
 number: '37'
@@ -1695,7 +1731,8 @@ height: 13'9
 dex entry: >-
   A legendary Pokémon of Sinnoh. It is said that space becomes
   more stable with PALKIA's every breath.
-illustrator: Kent Kanetsuna
+illustrators:
+- Kent Kanetsuna
 ---
 set: platinum
 number: '38'
@@ -1745,7 +1782,8 @@ height: 0'8
 dex entry: >-
   It lives in flower patches and avoids detection by curling up
   to look like a flowering plant.
-illustrator: Kouki Saitou
+illustrators:
+- Kouki Saitou
 ---
 set: platinum
 number: '39'
@@ -1793,7 +1831,8 @@ height: 7'3
 dex entry: >-
   Some Pokémon are born on a TORTERRAS's back and spend their
   entire life there.
-illustrator: Kagemaru Himeno
+illustrators:
+- Kagemaru Himeno
 ---
 set: platinum
 number: '40'
@@ -1834,7 +1873,8 @@ damage modifiers:
   operation: ×
   type: Psychic
 retreat: 2
-illustrator: Ryota Saito
+illustrators:
+- Ryota Saito
 ---
 set: platinum
 number: '41'
@@ -1883,7 +1923,8 @@ damage modifiers:
   operation: '-'
   type: Fire
 retreat: 3
-illustrator: Makoto Imai
+illustrators:
+- Makoto Imai
 ---
 set: platinum
 number: '42'
@@ -1928,7 +1969,8 @@ height: 4'3
 dex entry: >-
   It becomes active at night, seeking prey that is exhausted from
   the day's desert heat.
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: platinum
 number: '43'
@@ -1977,7 +2019,8 @@ dex number: 455
 species: Bug Catcher
 weight: 59.5
 height: 4'7
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: platinum
 number: '44'
@@ -2020,7 +2063,8 @@ height: 2'4
 dex entry: >-
   It never forgets any attack it endured while in the cocoon.
   After evolution, it seeks payback.
-illustrator: Yukiko Baba
+illustrators:
+- Yukiko Baba
 ---
 set: platinum
 number: '45'
@@ -2061,7 +2105,8 @@ height: 2'11
 dex entry: >-
   Its kicking mastery lets it loose 10 kicks per second. It emits
   sharp cries to intimidate foes.
-illustrator: Masakazu Fukuda
+illustrators:
+- Masakazu Fukuda
 ---
 set: platinum
 number: '46'
@@ -2104,7 +2149,8 @@ height: 2'11
 dex entry: >-
   A lifelong jungle dweller from 100 million years ago, it would
   snap obstructing trees with head butts.
-illustrator: Kouki Saitou
+illustrators:
+- Kouki Saitou
 ---
 set: platinum
 number: '47'
@@ -2140,7 +2186,8 @@ damage modifiers:
 - amount: 20
   operation: '-'
   type: Fighting
-illustrator: Makoto Imai
+illustrators:
+- Makoto Imai
 ---
 set: platinum
 number: '48'
@@ -2187,7 +2234,8 @@ height: 2'7
 dex entry: >-
   If its coat becomes fully charged with electricity, its tail
   lights up. It fires hair that zaps on impact.
-illustrator: Sumiyoshi Kizuki
+illustrators:
+- Sumiyoshi Kizuki
 ---
 set: platinum
 number: '49'
@@ -2230,7 +2278,8 @@ height: 3'7
 dex entry: >-
   It knows where pure water wells up. It carries fellow Pokémon
   there on its back.
-illustrator: Kagemaru Himeno
+illustrators:
+- Kagemaru Himeno
 ---
 set: platinum
 number: '50'
@@ -2272,7 +2321,8 @@ damage modifiers:
   operation: '-'
   type: Psychic
 retreat: 1
-illustrator: Kent Kanetsuna
+illustrators:
+- Kent Kanetsuna
 ---
 set: platinum
 number: '51'
@@ -2312,7 +2362,8 @@ height: 2'7
 dex entry: >-
   If its Trainer becomes happy, it overflows with energy, dancing
   joyously while spinning about.
-illustrator: Naoyo Kimura
+illustrators:
+- Naoyo Kimura
 ---
 set: platinum
 number: '52'
@@ -2354,7 +2405,8 @@ height: 3'11
 dex entry: >-
   It has a mischievous spirit. If it spots an angler, it will
   tug on the fishing line to interfere.
-illustrator: Midori Harada
+illustrators:
+- Midori Harada
 ---
 set: platinum
 number: '53'
@@ -2397,7 +2449,8 @@ height: 3'11
 dex entry: >-
   A well-trained one can sense auras to identify and take in the
   feelings of creatures over half a mile away.
-illustrator: Kouki Saitou
+illustrators:
+- Kouki Saitou
 ---
 set: platinum
 number: '54'
@@ -2445,7 +2498,8 @@ dex number: 262
 species: Bite
 weight: 81.6
 height: 3'3
-illustrator: Kouki Saitou
+illustrators:
+- Kouki Saitou
 ---
 set: platinum
 number: '55'
@@ -2491,7 +2545,8 @@ height: 2'11
 dex entry: >-
   Its cry sounds like an incantation. It is said the cry may rarely
   be imbued with happiness-giving power.
-illustrator: Kagemaru Himeno
+illustrators:
+- Kagemaru Himeno
 ---
 set: platinum
 number: '56'
@@ -2532,7 +2587,8 @@ height: 2'11
 dex entry: >-
   It skillfully controls the intensity of the fire on its tail
   to keep its foes at an ideal distance.
-illustrator: Kouki Saitou
+illustrators:
+- Kouki Saitou
 ---
 set: platinum
 number: '57'
@@ -2578,7 +2634,8 @@ dex number: 89
 species: Sludge
 weight: 66.1
 height: 3'11
-illustrator: Hajime Kusajima
+illustrators:
+- Hajime Kusajima
 ---
 set: platinum
 number: '58'
@@ -2626,7 +2683,8 @@ height: 2'11
 dex entry: >-
   It loves to lurk inside holes in rocks. It sometimes sprays
   ink on prey by sticking out only its mouth
-illustrator: Midori Harada
+illustrators:
+- Midori Harada
 ---
 set: platinum
 number: '59'
@@ -2666,7 +2724,8 @@ height: 2'7
 dex entry: >-
   Because every PRINPLUP considers itself to be the most important,
   they can never form a group.
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: platinum
 number: '60'
@@ -2710,7 +2769,8 @@ height: 4'7
 dex entry: >-
   It freely controls three small units called Mini-Noses using
   magnetic force.
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: platinum
 number: '61'
@@ -2754,7 +2814,8 @@ dex number: 336
 species: Fang Snake
 weight: 115.7
 height: 8'10
-illustrator: Sumiyoshi Kizuki
+illustrators:
+- Sumiyoshi Kizuki
 ---
 set: platinum
 number: '62'
@@ -2802,7 +2863,8 @@ height: 1'8
 dex entry: >-
   It is outstandingly armored. As a result, it can eat grass and
   berries without having to fight.
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: platinum
 number: '63'
@@ -2845,7 +2907,8 @@ height: 2'0
 dex entry: >-
   It wraps silk around the branches of a tree. It drinks rainwater
   on its silk while awaiting evolution.
-illustrator: Kyoko Umemoto
+illustrators:
+- Kyoko Umemoto
 ---
 set: platinum
 number: '64'
@@ -2888,7 +2951,8 @@ height: 4'7
 dex entry: >-
   Its heart beats at a tenfold tempo, so it cannot sit still for
   even a moment.
-illustrator: Kouki Saitou
+illustrators:
+- Kouki Saitou
 ---
 set: platinum
 number: '65'
@@ -2933,7 +2997,8 @@ height: 3'3
 dex entry: >-
   It is said to live 10,000 years. Its furry tail is popular as
   a symbol of longevity.
-illustrator: Midori Harada
+illustrators:
+- Midori Harada
 ---
 set: platinum
 number: '66'
@@ -2978,7 +3043,8 @@ dex number: 335
 species: Cat Ferret
 weight: 88.8
 height: 4'3
-illustrator: Hajime Kusajima
+illustrators:
+- Hajime Kusajima
 ---
 set: platinum
 number: '67'
@@ -3026,7 +3092,8 @@ height: 1'4
 dex entry: >-
   By storing water in its body, this desert dweller can survive
   for 30 days without water.
-illustrator: Sumiyoshi Kizuki
+illustrators:
+- Sumiyoshi Kizuki
 ---
 set: platinum
 number: '68'
@@ -3069,7 +3136,8 @@ height: 4'7
 dex entry: >-
   It binds itself to trees in marshes. It attacks prey with its
   sweet-smelling drool and gulps them down.
-illustrator: Kagemaru Himeno
+illustrators:
+- Kagemaru Himeno
 ---
 set: platinum
 number: '69'
@@ -3111,7 +3179,8 @@ height: 3'7
 dex entry: >-
   A kindly Pokémon that lays highly nutritious eggs and shares
   them with injured Pokémon or people.
-illustrator: Kouki Saitou
+illustrators:
+- Kouki Saitou
 ---
 set: platinum
 number: '70'
@@ -3148,7 +3217,8 @@ height: 1'8
 dex entry: >-
   It is very agile. Before going to sleep, it extinguishes the
   flame on its tail to prevent fires.
-illustrator: Kouki Saitou
+illustrators:
+- Kouki Saitou
 ---
 set: platinum
 number: '71'
@@ -3192,7 +3262,8 @@ height: 1'0
 dex entry: >-
   The trio is together from birth. It constantly gathers honey
   from flowers to please VESPIQUEN.
-illustrator: Kagemaru Himeno
+illustrators:
+- Kagemaru Himeno
 ---
 set: platinum
 number: '72'
@@ -3238,7 +3309,8 @@ height: 0'8
 dex entry: >-
   A Pokémon that lives underground. Because of its dark habitat,
   it is repelled by bright sunlight.
-illustrator: Midori Harada
+illustrators:
+- Midori Harada
 ---
 set: platinum
 number: '73'
@@ -3280,7 +3352,8 @@ height: 4'11
 dex entry: >-
   It digs into the ground with its tail and makes a mazelike nest.
   It can fly just a little.
-illustrator: Kouki Saitou
+illustrators:
+- Kouki Saitou
 ---
 set: platinum
 number: '74'
@@ -3323,7 +3396,8 @@ height: 2'0
 dex entry: >-
   Using electricity stored in its fur, it stimulates its muscles
   to heighten its reaction speed.
-illustrator: Miki Tanaka
+illustrators:
+- Miki Tanaka
 ---
 set: platinum
 number: '75'
@@ -3363,7 +3437,8 @@ height: 2'11
 dex entry: >-
   It was born when sludge in a dirty stream was exposed to the
   moon's X-rays. It appears among filth.
-illustrator: Yukiko Baba
+illustrators:
+- Yukiko Baba
 ---
 set: platinum
 number: '76'
@@ -3405,7 +3480,8 @@ height: 2'0
 dex entry: >-
   It likes to carry around a small rock. It may wander around
   others' feet and cause them to stumble.
-illustrator: Kagemaru Himeno
+illustrators:
+- Kagemaru Himeno
 ---
 set: platinum
 number: '77'
@@ -3449,7 +3525,8 @@ damage modifiers:
   operation: '-'
   type: Fighting
 retreat: 1
-illustrator: Yusuke Ishikawa
+illustrators:
+- Yusuke Ishikawa
 ---
 set: platinum
 number: '78'
@@ -3486,7 +3563,8 @@ height: 1'0
 dex entry: >-
   Its legs are short. Whenever it stumbles, its stiff antennae
   clack with a xylphone-like sound.
-illustrator: Kyoko Umemoto
+illustrators:
+- Kyoko Umemoto
 ---
 set: platinum
 number: '79'
@@ -3527,7 +3605,8 @@ height: 8'2
 dex entry: >-
   It loves crossing the sea with people and Pokémon on its back.
   It understands human speech.
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: platinum
 number: '80'
@@ -3570,7 +3649,8 @@ height: 3'11
 dex entry: >-
   When it extends its over-six-foot-long tongue, its tail quivers.
   There is a possibility they are connected.
-illustrator: Yuka Morii
+illustrators:
+- Yuka Morii
 ---
 set: platinum
 number: '81'
@@ -3613,7 +3693,8 @@ height: 1'8
 dex entry: >-
   It looks like an aquatic plant and serves as a ferry to Pokémon
   that can't swim.
-illustrator: Masakazu Fukuda
+illustrators:
+- Masakazu Fukuda
 ---
 set: platinum
 number: '82'
@@ -3658,7 +3739,8 @@ height: 2'0
 dex entry: >-
   Its fluffy coat swells to double when static electricity builds
   up. Touching it can be shocking.
-illustrator: Yuka Morii
+illustrators:
+- Yuka Morii
 ---
 set: platinum
 number: '83'
@@ -3700,7 +3782,8 @@ height: 2'4
 dex entry: >-
   A Pokémon that startles people in the middle of the night. It
   gathers fear as its energy.
-illustrator: Kagemaru Himeno
+illustrators:
+- Kagemaru Himeno
 ---
 set: platinum
 number: '84'
@@ -3739,7 +3822,8 @@ height: 3'3
 dex entry: >-
   When endangered, it may protect itself by raising its magnetism
   and drawing iron objects to its body.
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: platinum
 number: '85'
@@ -3779,7 +3863,8 @@ height: 1'4
 dex entry: >-
   A poor walker, it often falls down. However, its strong pride
   makes it puff up its chest without a care.
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: platinum
 number: '86'
@@ -3823,7 +3908,8 @@ height: 1'8
 dex entry: >-
   A Pokémon with a persistent nature, it chases its chosen prey
   until the prey becomes exhausted.
-illustrator: Tomakazu Komiya
+illustrators:
+- Tomakazu Komiya
 ---
 set: platinum
 number: '87'
@@ -3866,7 +3952,8 @@ height: 2'7
 dex entry: >-
   Overwhelmed by enigmatic abilities, it suffers a constant headache.
   It sometimes uses mysterious powers.
-illustrator: Tomakazu Komiya
+illustrators:
+- Tomakazu Komiya
 ---
 set: platinum
 number: '88'
@@ -3906,7 +3993,8 @@ damage modifiers:
   operation: ×
   type: Fighting
 retreat: 3
-illustrator: Ryota Saito
+illustrators:
+- Ryota Saito
 ---
 set: platinum
 number: '89'
@@ -3947,7 +4035,8 @@ height: 1'4
 dex entry: >-
   If its horns capture the warm feelings of people or Pokémon,
   it's body warms up slightly.
-illustrator: Miki Tanaka
+illustrators:
+- Miki Tanaka
 ---
 set: platinum
 number: '90'
@@ -3987,7 +4076,8 @@ height: 2'0
 dex entry: >-
   It forcefully squirts water. The water jet never misses prey
   even if the REMORAID is deep in the sea.
-illustrator: Miki Tanaka
+illustrators:
+- Miki Tanaka
 ---
 set: platinum
 number: '91'
@@ -4027,7 +4117,8 @@ height: 2'4
 dex entry: >-
   It has the peculiar power of being able to see emotions such
   as joy and rage in the form of waves.
-illustrator: Kouki Saitou
+illustrators:
+- Kouki Saitou
 ---
 set: platinum
 number: '92'
@@ -4071,7 +4162,8 @@ height: 2'0
 dex entry: >-
   It loves vengeful emotions and hangs in rows under the eaves
   of houses where vengeful people live.
-illustrator: Kyoko Umemoto
+illustrators:
+- Kyoko Umemoto
 ---
 set: platinum
 number: '93'
@@ -4111,7 +4203,8 @@ height: 2'0
 dex entry: >-
   It can't stop itself from chasing moving things, and it runs
   in a circle, chasing its own tail.
-illustrator: Masakazu Fukuda
+illustrators:
+- Masakazu Fukuda
 ---
 set: platinum
 number: '94'
@@ -4152,7 +4245,8 @@ damage modifiers:
   operation: ×
   type: Fighting
 retreat: 2
-illustrator: Makoto Imai
+illustrators:
+- Makoto Imai
 ---
 set: platinum
 number: '95'
@@ -4193,7 +4287,8 @@ height: 2'7
 dex entry: >-
   It spends nearly all its time in a day sprawled out. Just seeing
   it makes one drowsy.
-illustrator: Atsuko Nishida
+illustrators:
+- Atsuko Nishida
 ---
 set: platinum
 number: '96'
@@ -4230,7 +4325,8 @@ height: 1'8
 dex entry: >-
   It shelters itself in its shell, then strikes back with spouts
   of water at every opportunity.
-illustrator: Masakazu Fukuda
+illustrators:
+- Masakazu Fukuda
 ---
 set: platinum
 number: '97'
@@ -4272,7 +4368,8 @@ height: 1'4
 dex entry: >-
   It can't relax if it or its surroundings are not clean. It wipes
   off dirt with its wings.
-illustrator: Kagemaru Himeno
+illustrators:
+- Kagemaru Himeno
 ---
 set: platinum
 number: '98'
@@ -4313,7 +4410,8 @@ height: 4'7
 dex entry: >-
   Once it takes aim at its foe, it makes a headlong charge. It
   is famous for its violent nature.
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: platinum
 number: '99'
@@ -4354,7 +4452,8 @@ height: 1'4
 dex entry: >-
   A fire burns inside, so it feels very warm to hug. It launches
   fireballs of 1,800 degrees F.
-illustrator: Naoyo Kimura
+illustrators:
+- Naoyo Kimura
 ---
 set: platinum
 number: '100'
@@ -4396,7 +4495,8 @@ height: 1'8
 dex entry: >-
   It burns coal inside its shell for energy. It blows out black
   soot if it is endangered.
-illustrator: Kouki Saitou
+illustrators:
+- Kouki Saitou
 ---
 set: platinum
 number: '101'
@@ -4438,7 +4538,8 @@ height: 1'4
 dex entry: >-
   The shell on its back is made of soil. On a very healthy TURTWIG,
   the shell should feel moist.
-illustrator: Kagemaru Himeno
+illustrators:
+- Kagemaru Himeno
 ---
 set: platinum
 number: '102'
@@ -4479,7 +4580,8 @@ height: 2'0
 dex entry: >-
   It controls balls of fire. As it grows, its six tails split
   from their tips to make more tails.
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: platinum
 number: '103'
@@ -4518,7 +4620,8 @@ height: 1'0
 dex entry: >-
   Often targeted by bird Pokémon, it desperately resists by releasing
   poison from its tail spikes.
-illustrator: Yuka Morii
+illustrators:
+- Yuka Morii
 ---
 set: platinum
 number: '104'
@@ -4541,7 +4644,8 @@ mechanics:
   text: >-
     Each player may evolve a Pokémon that he or she just played
     or evolved during that turn.
-illustrator: Kent Kanetsuna
+illustrators:
+- Kent Kanetsuna
 ---
 set: platinum
 number: '105'
@@ -4566,7 +4670,8 @@ mechanics:
     and a Trainer card that has Team Galactic's Invention in its
     name, show it to your opponent, and put them into your hand.  Shuffle
     your deck afterward.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: platinum
 number: '106'
@@ -4590,7 +4695,8 @@ mechanics:
     Whenever any player plays any Pokémon from his or her hand
     to evolve his or her Pokémon, put 2 damage counters on that
     Pokémon.
-illustrator: Ryota Saito
+illustrators:
+- Ryota Saito
 ---
 set: platinum
 number: '107'
@@ -4608,7 +4714,8 @@ mechanics:
     that levels up from 1 of your Pokémon, and put it onto that
     Pokémon.  (This counts as leveling up that Pokémon.)  Shuffle
     your deck afterward.
-illustrator: Ryo Ueda
+illustrators:
+- Ryo Ueda
 ---
 set: platinum
 number: '108'
@@ -4625,7 +4732,8 @@ mechanics:
     Flip a coin.  If heads, choose 1 of your Pokémon, and remove
     all Special Conditions and 6 damage counters from that Pokémon
     (all if there are less than 6).
-illustrator: Ryo Ueda
+illustrators:
+- Ryo Ueda
 ---
 set: platinum
 number: '109'
@@ -4649,7 +4757,8 @@ mechanics:
     Look at your opponent's hand, then choose you or your opponent.  That
     player shuffles his or her hand into his or her deck and draws
     up to 5 cards.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: platinum
 number: '110'
@@ -4673,7 +4782,8 @@ mechanics:
     The Pokémon this card is attached to can use any attack from
     its Basic Pokémon or its Stage 1 Evolution card.  (You still
     have to pay for that attack's Energy cost.)
-illustrator: Shizurow
+illustrators:
+- Shizurow
 ---
 set: platinum
 number: '111'
@@ -4697,7 +4807,8 @@ mechanics:
     Whenever any player puts a Basic Pokémon (excluding G or P
     Pokémon) from his or her hand onto his or her Bench, put 2
     damage counters on that Pokémon.
-illustrator: Ryo Ueda
+illustrators:
+- Ryo Ueda
 ---
 set: platinum
 number: '112'
@@ -4718,7 +4829,8 @@ mechanics:
     If the Pokémon PlusPower is attached to attacks, the attack
     does 10 more damage to the Active Pokémon (before applying
     Weakness and Resistance).
-illustrator: Ryo Ueda
+illustrators:
+- Ryo Ueda
 ---
 set: platinum
 number: '113'
@@ -4735,7 +4847,8 @@ mechanics:
     Flip a coin.  If heads, search your deck for a Pokémon, show
     it to your opponent, and put it into your hand.  Shuffle your
     deck afterward.
-illustrator: Ryo Ueda
+illustrators:
+- Ryo Ueda
 ---
 set: platinum
 number: '114'
@@ -4752,7 +4865,8 @@ mechanics:
     Look at the top 2 cards of your deck, choose 1 of them, and
     put it into your hand.  Put the other card on the bottom of
     your deck.
-illustrator: Ryo Ueda
+illustrators:
+- Ryo Ueda
 ---
 set: platinum
 number: '115'
@@ -4768,7 +4882,8 @@ mechanics:
   text: >-
     Search your discard pile for a Pokémon, show it to your opponent,
     and put it into your hand.
-illustrator: Ryo Ueda
+illustrators:
+- Ryo Ueda
 ---
 set: platinum
 number: '116'
@@ -4795,7 +4910,8 @@ mechanics:
     As long as Team Galactic's Invention G-101 Energy Gain is
     attached to a Pokémon, the attack cost of that Pokémon's attacks
     is C less.
-illustrator: Makoto Imai
+illustrators:
+- Makoto Imai
 ---
 set: platinum
 number: '117'
@@ -4816,7 +4932,8 @@ mechanics:
     of that Poke-Power.  (This counts as that Pokémon using its
     Poke-Power.)  If your have 2 or less Pokémon SP in play, your
     can't play this card.
-illustrator: Yusuke Ishikawa
+illustrators:
+- Yusuke Ishikawa
 ---
 set: platinum
 number: '118'
@@ -4834,7 +4951,8 @@ mechanics:
   text: >-
     Return 1 of your Pokémon SP and all cards attached to it to
     your hand.
-illustrator: Makoto Imai
+illustrators:
+- Makoto Imai
 ---
 set: platinum
 number: '119'
@@ -4867,7 +4985,8 @@ mechanics:
     Whenever Armor Fossil would be damaged by your opponent's
     attack, flip a coin until you get tails.  For each heads,
     reduce that damage by 10.
-illustrator: Ryo Ueda
+illustrators:
+- Ryo Ueda
 ---
 set: platinum
 number: '120'
@@ -4901,7 +5020,8 @@ mechanics:
     Out by damage from an opponent's attack, flip a coin until
     you get tails.  For each heads, put 1 damage counter on the
     Attacking Pokémon.
-illustrator: Ryo Ueda
+illustrators:
+- Ryo Ueda
 ---
 set: platinum
 number: '121'
@@ -4922,7 +5042,8 @@ mechanics:
     only 1 Energy at a time.  (Has no effect other than providing
     Energy.)  When you attach this card from your hand to 1 of
     your Pokémon, put 1 damage counter on that Pokémon.
-illustrator: Takumi Akabane
+illustrators:
+- Takumi Akabane
 ---
 set: platinum
 number: '122'
@@ -4965,7 +5086,8 @@ damage modifiers:
   operation: '-'
   type: Psychic
 retreat: 2
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: platinum
 number: '123'
@@ -5006,7 +5128,8 @@ damage modifiers:
   operation: ×
   type: Psychic
 retreat: 3
-illustrator: Ryo Ueda
+illustrators:
+- Ryo Ueda
 ---
 set: platinum
 number: '124'
@@ -5050,7 +5173,8 @@ damage modifiers:
   operation: '-'
   type: Colorless
 retreat: 3
-illustrator: Shizurow
+illustrators:
+- Shizurow
 ---
 set: platinum
 number: '125'
@@ -5093,7 +5217,8 @@ damage modifiers:
   operation: ×
   type: Lightning
 retreat: 2
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: platinum
 number: '126'
@@ -5135,7 +5260,8 @@ damage modifiers:
   operation: '-'
   type: Water
 retreat: 1
-illustrator: Shizurow
+illustrators:
+- Shizurow
 ---
 set: platinum
 number: '127'
@@ -5176,7 +5302,8 @@ damage modifiers:
 - amount: 20
   operation: '-'
   type: Fighting
-illustrator: Shizurow
+illustrators:
+- Shizurow
 ---
 set: platinum
 number: '128'
@@ -5211,7 +5338,8 @@ damage modifiers:
   operation: ×
   type: Fighting
 retreat: 2
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: platinum
 number: '129'
@@ -5241,7 +5369,8 @@ damage modifiers:
   operation: ×
   type: Psychic
 retreat: 2
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: platinum
 number: '130'
@@ -5275,7 +5404,8 @@ damage modifiers:
 - amount: 30
   operation: '-'
   type: Fighting
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: platinum
 number: SH4
@@ -5319,7 +5449,8 @@ dex number: 270
 species: Water Weed
 weight: 5.7
 height: 1'8
-illustrator: Masakazu Fukuda
+illustrators:
+- Masakazu Fukuda
 ---
 set: platinum
 number: SH5
@@ -5368,7 +5499,8 @@ dex number: 333
 species: Cotton Bird
 weight: 2.6
 height: 1'4
-illustrator: Kagemaru Himeno
+illustrators:
+- Kagemaru Himeno
 ---
 set: platinum
 number: SH6
@@ -5415,4 +5547,5 @@ dex number: 37
 species: Fox
 weight: 21.8
 height: 2'0
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita

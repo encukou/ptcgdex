@@ -40,7 +40,8 @@ damage modifiers:
   operation: '-'
   type: Grass
 retreat: 4
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: ex-power-keepers
 number: '2'
@@ -86,7 +87,8 @@ damage modifiers:
   operation: '-'
   type: Grass
 retreat: 1
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: ex-power-keepers
 number: '3'
@@ -124,7 +126,8 @@ damage modifiers:
   operation: ×
   type: Grass
 retreat: 3
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: ex-power-keepers
 number: '4'
@@ -166,7 +169,8 @@ damage modifiers:
   operation: '-'
   type: Fighting
 retreat: 1
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: ex-power-keepers
 number: '5'
@@ -205,7 +209,8 @@ damage modifiers:
   operation: ×
   type: Water
 retreat: 2
-illustrator: Masakazu Fukuda
+illustrators:
+- Masakazu Fukuda
 ---
 set: ex-power-keepers
 number: '6'
@@ -238,7 +243,8 @@ damage modifiers:
   operation: ×
   type: Water
 retreat: 2
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: ex-power-keepers
 number: '7'
@@ -276,7 +282,8 @@ damage modifiers:
   operation: ×
   type: Fire
 retreat: 2
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: ex-power-keepers
 number: '8'
@@ -314,7 +321,8 @@ damage modifiers:
   operation: ×
   type: Fighting
 retreat: 1
-illustrator: Masakazu Fukuda
+illustrators:
+- Masakazu Fukuda
 ---
 set: ex-power-keepers
 number: '9'
@@ -354,7 +362,8 @@ damage modifiers:
   operation: ×
   type: Psychic
 retreat: 2
-illustrator: Midori Harada
+illustrators:
+- Midori Harada
 ---
 set: ex-power-keepers
 number: '10'
@@ -396,7 +405,8 @@ damage modifiers:
   operation: ×
   type: Grass
 retreat: 2
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: ex-power-keepers
 number: '11'
@@ -439,7 +449,8 @@ damage modifiers:
   operation: ×
   type: Psychic
 retreat: 2
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: ex-power-keepers
 number: '12'
@@ -475,7 +486,8 @@ damage modifiers:
   operation: ×
   type: Fighting
 retreat: 1
-illustrator: Hajime Kusajima
+illustrators:
+- Hajime Kusajima
 ---
 set: ex-power-keepers
 number: '13'
@@ -511,7 +523,8 @@ damage modifiers:
   operation: ×
   type: Fighting
 retreat: 3
-illustrator: Midori Harada
+illustrators:
+- Midori Harada
 ---
 set: ex-power-keepers
 number: '14'
@@ -551,7 +564,8 @@ damage modifiers:
   operation: '-'
   type: Fighting
 retreat: 2
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: ex-power-keepers
 number: '15'
@@ -590,7 +604,8 @@ damage modifiers:
   operation: ×
   type: Fighting
 retreat: 2
-illustrator: Midori Harada
+illustrators:
+- Midori Harada
 ---
 set: ex-power-keepers
 number: '16'
@@ -634,7 +649,8 @@ damage modifiers:
   operation: '-'
   type: Metal
 retreat: 1
-illustrator: Masakazu Fukuda
+illustrators:
+- Masakazu Fukuda
 ---
 set: ex-power-keepers
 number: '17'
@@ -673,7 +689,8 @@ damage modifiers:
   operation: '-'
   type: Grass
 retreat: 1
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: ex-power-keepers
 number: '18'
@@ -712,7 +729,8 @@ damage modifiers:
 - amount: 30
   operation: '-'
   type: Psychic
-illustrator: Midori Harada
+illustrators:
+- Midori Harada
 ---
 set: ex-power-keepers
 number: '19'
@@ -752,7 +770,8 @@ damage modifiers:
   operation: ×
   type: Water
 retreat: 1
-illustrator: Tomoaki Imakuni
+illustrators:
+- Tomoaki Imakuni
 ---
 set: ex-power-keepers
 number: '20'
@@ -791,7 +810,8 @@ damage modifiers:
   operation: ×
   type: Lightning
 retreat: 2
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: ex-power-keepers
 number: '21'
@@ -826,7 +846,8 @@ damage modifiers:
   operation: ×
   type: Fighting
 retreat: 1
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: ex-power-keepers
 number: '22'
@@ -866,7 +887,8 @@ damage modifiers:
   operation: '-'
   type: Colorless
 retreat: 1
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: ex-power-keepers
 number: '23'
@@ -898,7 +920,8 @@ damage modifiers:
   operation: ×
   type: Psychic
 retreat: 1
-illustrator: Midori Harada
+illustrators:
+- Midori Harada
 ---
 set: ex-power-keepers
 number: '24'
@@ -933,7 +956,8 @@ damage modifiers:
   operation: ×
   type: Psychic
 retreat: 2
-illustrator: Masakazu Fukuda
+illustrators:
+- Masakazu Fukuda
 ---
 set: ex-power-keepers
 number: '25'
@@ -972,7 +996,8 @@ damage modifiers:
   operation: ×
   type: Fighting
 retreat: 1
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: ex-power-keepers
 number: '26'
@@ -1009,7 +1034,8 @@ damage modifiers:
   operation: ×
   type: Grass
 retreat: 1
-illustrator: Midori Harada
+illustrators:
+- Midori Harada
 ---
 set: ex-power-keepers
 number: '27'
@@ -1049,7 +1075,8 @@ damage modifiers:
   operation: '-'
   type: Psychic
 retreat: 1
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: ex-power-keepers
 number: '28'
@@ -1082,7 +1109,8 @@ damage modifiers:
   operation: ×
   type: Water
 retreat: 1
-illustrator: Midori Harada
+illustrators:
+- Midori Harada
 ---
 set: ex-power-keepers
 number: '29'
@@ -1118,7 +1146,8 @@ damage modifiers:
   operation: ×
   type: Water
 retreat: 1
-illustrator: Atsuko Nishida
+illustrators:
+- Atsuko Nishida
 ---
 set: ex-power-keepers
 number: '30'
@@ -1159,7 +1188,8 @@ damage modifiers:
   operation: ×
   type: Metal
 retreat: 1
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: ex-power-keepers
 number: '31'
@@ -1193,7 +1223,8 @@ damage modifiers:
   operation: ×
   type: Psychic
 retreat: 1
-illustrator: Sachiko Adachi
+illustrators:
+- Sachiko Adachi
 ---
 set: ex-power-keepers
 number: '32'
@@ -1233,7 +1264,8 @@ damage modifiers:
   operation: '-'
   type: Grass
 retreat: 2
-illustrator: Sachiko Adachi
+illustrators:
+- Sachiko Adachi
 ---
 set: ex-power-keepers
 number: '33'
@@ -1267,7 +1299,8 @@ damage modifiers:
   operation: ×
   type: Psychic
 retreat: 1
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: ex-power-keepers
 number: '34'
@@ -1306,7 +1339,8 @@ damage modifiers:
   operation: ×
   type: Psychic
 retreat: 1
-illustrator: Tomoaki Imakuni
+illustrators:
+- Tomoaki Imakuni
 ---
 set: ex-power-keepers
 number: '35'
@@ -1342,7 +1376,8 @@ damage modifiers:
   operation: '-'
   type: Grass
 retreat: 2
-illustrator: Tomokazu Komiya
+illustrators:
+- Tomokazu Komiya
 ---
 set: ex-power-keepers
 number: '36'
@@ -1378,7 +1413,8 @@ damage modifiers:
   operation: '-'
   type: Psychic
 retreat: 1
-illustrator: Hajime Kusajima
+illustrators:
+- Hajime Kusajima
 ---
 set: ex-power-keepers
 number: '37'
@@ -1407,7 +1443,8 @@ damage modifiers:
   operation: ×
   type: Lightning
 retreat: 1
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: ex-power-keepers
 number: '38'
@@ -1444,7 +1481,8 @@ damage modifiers:
 - amount: 30
   operation: '-'
   type: Psychic
-illustrator: Midori Harada
+illustrators:
+- Midori Harada
 ---
 set: ex-power-keepers
 number: '39'
@@ -1484,7 +1522,8 @@ damage modifiers:
   operation: '-'
   type: Fire
 retreat: 2
-illustrator: Midori Harada
+illustrators:
+- Midori Harada
 ---
 set: ex-power-keepers
 number: '40'
@@ -1524,7 +1563,8 @@ damage modifiers:
   operation: '-'
   type: Lightning
 retreat: 1
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: ex-power-keepers
 number: '41'
@@ -1560,7 +1600,8 @@ damage modifiers:
   operation: ×
   type: Fighting
 retreat: 1
-illustrator: Hajime Kusajima
+illustrators:
+- Hajime Kusajima
 ---
 set: ex-power-keepers
 number: '42'
@@ -1595,7 +1636,8 @@ damage modifiers:
   operation: '-'
   type: Grass
 retreat: 2
-illustrator: Tomokazu Komiya
+illustrators:
+- Tomokazu Komiya
 ---
 set: ex-power-keepers
 number: '43'
@@ -1629,7 +1671,8 @@ damage modifiers:
   operation: '-'
   type: Fire
 retreat: 1
-illustrator: Midori Harada
+illustrators:
+- Midori Harada
 ---
 set: ex-power-keepers
 number: '44'
@@ -1661,7 +1704,8 @@ damage modifiers:
   operation: ×
   type: Psychic
 retreat: 1
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: ex-power-keepers
 number: '45'
@@ -1694,7 +1738,8 @@ damage modifiers:
   operation: '-'
   type: Grass
 retreat: 2
-illustrator: Midori Harada
+illustrators:
+- Midori Harada
 ---
 set: ex-power-keepers
 number: '46'
@@ -1724,7 +1769,8 @@ damage modifiers:
   operation: ×
   type: Fire
 retreat: 1
-illustrator: Hajime Kusajima
+illustrators:
+- Hajime Kusajima
 ---
 set: ex-power-keepers
 number: '47'
@@ -1759,7 +1805,8 @@ damage modifiers:
   operation: '-'
   type: Psychic
 retreat: 1
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: ex-power-keepers
 number: '48'
@@ -1789,7 +1836,8 @@ damage modifiers:
   operation: ×
   type: Water
 retreat: 1
-illustrator: Sachiko Adachi
+illustrators:
+- Sachiko Adachi
 ---
 set: ex-power-keepers
 number: '49'
@@ -1826,7 +1874,8 @@ damage modifiers:
   operation: ×
   type: Fighting
 retreat: 1
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: ex-power-keepers
 number: '50'
@@ -1857,7 +1906,8 @@ damage modifiers:
   operation: '-'
   type: Fighting
 retreat: 1
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: ex-power-keepers
 number: '51'
@@ -1893,7 +1943,8 @@ damage modifiers:
   operation: ×
   type: Grass
 retreat: 2
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: ex-power-keepers
 number: '52'
@@ -1931,7 +1982,8 @@ damage modifiers:
   operation: ×
   type: Fire
 retreat: 2
-illustrator: Hajime Kusajima
+illustrators:
+- Hajime Kusajima
 ---
 set: ex-power-keepers
 number: '53'
@@ -1965,7 +2017,8 @@ damage modifiers:
   operation: ×
   type: Psychic
 retreat: 1
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: ex-power-keepers
 number: '54'
@@ -2001,7 +2054,8 @@ damage modifiers:
   operation: '-'
   type: Metal
 retreat: 1
-illustrator: Hajime Kusajima
+illustrators:
+- Hajime Kusajima
 ---
 set: ex-power-keepers
 number: '55'
@@ -2036,7 +2090,8 @@ damage modifiers:
   operation: ×
   type: Psychic
 retreat: 1
-illustrator: Midori Harada
+illustrators:
+- Midori Harada
 ---
 set: ex-power-keepers
 number: '56'
@@ -2070,7 +2125,8 @@ damage modifiers:
   operation: ×
   type: Lightning
 retreat: 1
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: ex-power-keepers
 number: '57'
@@ -2105,7 +2161,8 @@ damage modifiers:
   operation: ×
   type: Fighting
 retreat: 1
-illustrator: Kagemaru Himeno
+illustrators:
+- Kagemaru Himeno
 ---
 set: ex-power-keepers
 number: '58'
@@ -2136,7 +2193,8 @@ damage modifiers:
   operation: '-'
   type: Psychic
 retreat: 1
-illustrator: Midori Harada
+illustrators:
+- Midori Harada
 ---
 set: ex-power-keepers
 number: '59'
@@ -2168,7 +2226,8 @@ damage modifiers:
   operation: ×
   type: Psychic
 retreat: 1
-illustrator: Midori Harada
+illustrators:
+- Midori Harada
 ---
 set: ex-power-keepers
 number: '60'
@@ -2202,7 +2261,8 @@ damage modifiers:
   operation: ×
   type: Fire
 retreat: 1
-illustrator: Midori Harada
+illustrators:
+- Midori Harada
 ---
 set: ex-power-keepers
 number: '61'
@@ -2234,7 +2294,8 @@ damage modifiers:
   operation: '-'
   type: Fighting
 retreat: 1
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: ex-power-keepers
 number: '62'
@@ -2266,7 +2327,8 @@ damage modifiers:
   operation: ×
   type: Fighting
 retreat: 1
-illustrator: Tomokazu Komiya
+illustrators:
+- Tomokazu Komiya
 ---
 set: ex-power-keepers
 number: '63'
@@ -2298,7 +2360,8 @@ damage modifiers:
   operation: ×
   type: Fighting
 retreat: 1
-illustrator: Tomokazu Komiya
+illustrators:
+- Tomokazu Komiya
 ---
 set: ex-power-keepers
 number: '64'
@@ -2334,7 +2397,8 @@ damage modifiers:
   operation: ×
   type: Metal
 retreat: 1
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: ex-power-keepers
 number: '65'
@@ -2366,7 +2430,8 @@ damage modifiers:
   operation: ×
   type: Lightning
 retreat: 1
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: ex-power-keepers
 number: '66'
@@ -2397,7 +2462,8 @@ damage modifiers:
   operation: '-'
   type: Fighting
 retreat: 1
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: ex-power-keepers
 number: '67'
@@ -2425,7 +2491,8 @@ damage modifiers:
   operation: ×
   type: Water
 retreat: 1
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: ex-power-keepers
 number: '68'
@@ -2453,7 +2520,8 @@ damage modifiers:
   operation: ×
   type: Grass
 retreat: 1
-illustrator: Sachiko Adachi
+illustrators:
+- Sachiko Adachi
 ---
 set: ex-power-keepers
 number: '69'
@@ -2486,7 +2554,8 @@ damage modifiers:
   operation: ×
   type: Water
 retreat: 1
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: ex-power-keepers
 number: '70'
@@ -2520,7 +2589,8 @@ damage modifiers:
   operation: ×
   type: Psychic
 retreat: 1
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: ex-power-keepers
 number: '71'
@@ -2547,7 +2617,8 @@ mechanics:
   text: >-
     Each player's C Evolved Pokémon, D Evolved Pokémon, and M
     Evolved Pokémon can't use any Poke-Powers or Poke-Bodies.
-illustrator: Midori Harada
+illustrators:
+- Midori Harada
 ---
 set: ex-power-keepers
 number: '72'
@@ -2575,7 +2646,8 @@ mechanics:
     Any damage done to C Active Pokémon (both yours and your opponent's)
     by an opponent's attack is reduced by 10 (after applying Weakness
     and Resistance).
-illustrator: Ryo Ueda
+illustrators:
+- Ryo Ueda
 ---
 set: ex-power-keepers
 number: '73'
@@ -2597,7 +2669,8 @@ mechanics:
     show 1 basic Energy card to your opponent and put it into
     your hand, or show 3 basic Energy cards to your opponent and
     shuffle them into your deck.
-illustrator: Zu-Ka
+illustrators:
+- Zu-Ka
 ---
 set: ex-power-keepers
 number: '74'
@@ -2617,7 +2690,8 @@ mechanics:
   text: >-
     Flip a coin. If heads, choose 1 Energy card attached to 1
     of your opponent's Pokémon and discard it.
-illustrator: Kieji Kinebuchi
+illustrators:
+- Kieji Kinebuchi
 ---
 set: ex-power-keepers
 number: '75'
@@ -2637,7 +2711,8 @@ mechanics:
   text: >-
     Move a basic Energy card attached to 1 of your Pokémon to
     another of your Pokémon.
-illustrator: Ken Ikuji
+illustrators:
+- Ken Ikuji
 ---
 set: ex-power-keepers
 number: '76'
@@ -2663,7 +2738,8 @@ mechanics:
 - type: effect
   text: >-
     Each player's W Pokémon (excluding Pokémon-ex) has no Weakness.
-illustrator: Ryo Ueda
+illustrators:
+- Ryo Ueda
 ---
 set: ex-power-keepers
 number: '77'
@@ -2683,7 +2759,8 @@ mechanics:
   text: >-
     Search your deck for a Basic Pokémon (excluding Pokémon-ex)
     and put it onto your Bench. Shuffle your deck afterward.
-illustrator: Nakaoka
+illustrators:
+- Nakaoka
 ---
 set: ex-power-keepers
 number: '78'
@@ -2705,7 +2782,8 @@ mechanics:
     or Evolution card from those cards, show it to your opponent,
     and put it into your hand. Put the other 6 cards back on top
     of your deck. Shuffle your deck afterward.
-illustrator: Keiji Kinebuchi
+illustrators:
+- Keiji Kinebuchi
 ---
 set: ex-power-keepers
 number: '79'
@@ -2731,7 +2809,8 @@ mechanics:
 - type: effect
   text: >-
     Each player pays 2 less to retreat his or her P Pokémon.
-illustrator: Ryo Ueda
+illustrators:
+- Ryo Ueda
 ---
 set: ex-power-keepers
 number: '80'
@@ -2757,7 +2836,8 @@ mechanics:
 - type: effect
   text: >-
     Draw cards from your deck until you have 6 cards in your hand.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: ex-power-keepers
 number: '81'
@@ -2785,7 +2865,8 @@ mechanics:
     Search your deck for up to 3 cards in any combination of Supporter
     cards and Stadium cards, show them to your opponent, and put
     them into your hand. Shuffle your deck afterward.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: ex-power-keepers
 number: '82'
@@ -2807,7 +2888,8 @@ mechanics:
 - type: effect
   text: >-
     Each player's D Pokémon can't be Asleep, Confused, or Paralyzed.
-illustrator: Ryo Ueda
+illustrators:
+- Ryo Ueda
 ---
 set: ex-power-keepers
 number: '83'
@@ -2831,7 +2913,8 @@ mechanics:
     Draw a number of cards up to the number of your opponent's
     Pokémon in play. If you have 7 or more cards (including this
     one) in your hand, you can't play this card.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: ex-power-keepers
 number: '84'
@@ -2867,7 +2950,8 @@ mechanics:
     If Claw Fossil is your Active Pokémon and is damaged by an
     opponent's attack (even if Claw Fossil is Knocked Out), put
     1 damage counter on the Attacking Pokémon.
-illustrator: Ryo Ueda
+illustrators:
+- Ryo Ueda
 ---
 set: ex-power-keepers
 number: '85'
@@ -2896,7 +2980,8 @@ mechanics:
     Knocked Out Pokémon. (Discard it anyway.) At any time during
     your turn before your attack, you may discard Mysterious Fossil
     from play.
-illustrator: Ryo Ueda
+illustrators:
+- Ryo Ueda
 ---
 set: ex-power-keepers
 number: '86'
@@ -2931,7 +3016,8 @@ mechanics:
   text: >-
     At any time between turns, remove 1 damage counter from Root
     Fossil.
-illustrator: Ryo Ueda
+illustrators:
+- Ryo Ueda
 ---
 set: ex-power-keepers
 number: '87'
@@ -2952,7 +3038,8 @@ mechanics:
     Weakness and Resistance). Ignore this effect unless the Attacking
     Pokémon is D or has Dark in its name. Darkness Energy provides
     D Energy. (Doesn't count as a basic Energy card.)
-illustrator: Milky Isobe
+illustrators:
+- Milky Isobe
 ---
 set: ex-power-keepers
 number: '88'
@@ -2973,7 +3060,8 @@ mechanics:
     Resistance). Ignore this effect if the Pokémon that Metal
     Energy is attached to isn't M. Metal Energy provides M Energy.
     (Doesn't count as a basic Energy card.)
-illustrator: Milky Isobe
+illustrators:
+- Milky Isobe
 ---
 set: ex-power-keepers
 number: '89'
@@ -2994,7 +3082,8 @@ mechanics:
     at a time. (Has no effect other than providing Energy.) Multi
     Energy provides C Energy when attached to a Pokémon that already
     has Special Energy cards attached to it.
-illustrator: Takumi Akabane
+illustrators:
+- Takumi Akabane
 ---
 set: ex-power-keepers
 number: '90'
@@ -3014,7 +3103,8 @@ mechanics:
     from your hand to your Active Pokémon, switch 1 of the Defending
     Pokémon with 1 of your opponent's Benched Pokémon. Your opponent
     chooses the Benched Pokémon to switch.
-illustrator: Shin-Ichi Yoshikawa
+illustrators:
+- Shin-Ichi Yoshikawa
 ---
 set: ex-power-keepers
 number: '91'
@@ -3033,7 +3123,8 @@ mechanics:
     Warp Energy provides C Energy. When you attach this card from
     your hand to your Active Pokémon, switch that Pokémon with
     1 of your Benched Pokémon.
-illustrator: Shin-Ichi Yoshikawa
+illustrators:
+- Shin-Ichi Yoshikawa
 ---
 set: ex-power-keepers
 number: '92'
@@ -3074,7 +3165,8 @@ damage modifiers:
   operation: '-'
   type: Psychic
 retreat: 1
-illustrator: Ryo Ueda
+illustrators:
+- Ryo Ueda
 ---
 set: ex-power-keepers
 number: '93'
@@ -3118,7 +3210,8 @@ damage modifiers:
   operation: ×
   type: Psychic
 retreat: 2
-illustrator: Ryo Ueda
+illustrators:
+- Ryo Ueda
 ---
 set: ex-power-keepers
 number: '94'
@@ -3161,7 +3254,8 @@ damage modifiers:
 - amount: 30
   operation: '-'
   type: Lightning
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: ex-power-keepers
 number: '95'
@@ -3208,7 +3302,8 @@ damage modifiers:
   operation: '-'
   type: Grass
 retreat: 4
-illustrator: Ryo Ueda
+illustrators:
+- Ryo Ueda
 ---
 set: ex-power-keepers
 number: '96'
@@ -3252,7 +3347,8 @@ damage modifiers:
   operation: '-'
   type: Fire
 retreat: 2
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: ex-power-keepers
 number: '97'
@@ -3301,7 +3397,8 @@ damage modifiers:
   operation: '-'
   type: Psychic
 retreat: 1
-illustrator: Ryo Ueda
+illustrators:
+- Ryo Ueda
 ---
 set: ex-power-keepers
 number: '98'
@@ -3345,7 +3442,8 @@ damage modifiers:
   operation: '-'
   type: Grass
 retreat: 1
-illustrator: Ryo Ueda
+illustrators:
+- Ryo Ueda
 ---
 set: ex-power-keepers
 number: '99'
@@ -3384,7 +3482,8 @@ damage modifiers:
   operation: ×
   type: Lightning
 retreat: 3
-illustrator: Ryo Ueda
+illustrators:
+- Ryo Ueda
 ---
 set: ex-power-keepers
 number: '100'
@@ -3420,7 +3519,8 @@ damage modifiers:
   operation: ×
   type: Water
 retreat: 1
-illustrator: Masakazu Fukuda
+illustrators:
+- Masakazu Fukuda
 ---
 set: ex-power-keepers
 number: '101'
@@ -3460,7 +3560,8 @@ damage modifiers:
   operation: '-'
   type: Metal
 retreat: 1
-illustrator: Masakazu Fukuda
+illustrators:
+- Masakazu Fukuda
 ---
 set: ex-power-keepers
 number: '102'
@@ -3498,7 +3599,8 @@ damage modifiers:
   operation: ×
   type: Lightning
 retreat: 1
-illustrator: Masakazu Fukuda
+illustrators:
+- Masakazu Fukuda
 ---
 set: ex-power-keepers
 number: '103'
@@ -3519,7 +3621,8 @@ mechanics:
 - type: effect
   text: >-
     Provides 1 Grass Energy.
-illustrator: Keiji Kinebuchi
+illustrators:
+- Keiji Kinebuchi
 ---
 set: ex-power-keepers
 number: '104'
@@ -3540,7 +3643,8 @@ mechanics:
 - type: effect
   text: >-
     Provides 1 Fire Energy.
-illustrator: Keiji Kinebuchi
+illustrators:
+- Keiji Kinebuchi
 ---
 set: ex-power-keepers
 number: '105'
@@ -3557,7 +3661,8 @@ mechanics:
 - type: effect
   text: >-
     Provides 1 Water Energy.
-illustrator: Keiji Kinebuchi
+illustrators:
+- Keiji Kinebuchi
 ---
 set: ex-power-keepers
 number: '106'
@@ -3574,7 +3679,8 @@ mechanics:
 - type: effect
   text: >-
     Provides 1 Lightning Energy.
-illustrator: Keiji Kinebuchi
+illustrators:
+- Keiji Kinebuchi
 ---
 set: ex-power-keepers
 number: '107'
@@ -3591,7 +3697,8 @@ mechanics:
 - type: effect
   text: >-
     Provides 1 Psychic Energy.
-illustrator: Keiji Kinebuchi
+illustrators:
+- Keiji Kinebuchi
 ---
 set: ex-power-keepers
 number: '108'
@@ -3608,4 +3715,5 @@ mechanics:
 - type: effect
   text: >-
     Provides 1 Fighting Energy.
-illustrator: Keiji Kinebuchi
+illustrators:
+- Keiji Kinebuchi

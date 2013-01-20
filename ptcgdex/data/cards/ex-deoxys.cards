@@ -37,7 +37,8 @@ damage modifiers:
   operation: '-'
   type: Fighting
 retreat: 1
-illustrator: Kyoko Umemoto
+illustrators:
+- Kyoko Umemoto
 ---
 set: ex-deoxys
 number: '2'
@@ -79,7 +80,8 @@ damage modifiers:
   operation: ×
   type: Fire
 retreat: 1
-illustrator: Kagemaru Himeno
+illustrators:
+- Kagemaru Himeno
 ---
 set: ex-deoxys
 number: '3'
@@ -116,7 +118,8 @@ damage modifiers:
   operation: ×
   type: Psychic
 retreat: 1
-illustrator: Hajime Kusajima
+illustrators:
+- Hajime Kusajima
 ---
 set: ex-deoxys
 number: '4'
@@ -156,7 +159,8 @@ damage modifiers:
   operation: ×
   type: Water
 retreat: 2
-illustrator: Tomokazu Komiya
+illustrators:
+- Tomokazu Komiya
 ---
 set: ex-deoxys
 number: '5'
@@ -199,7 +203,8 @@ damage modifiers:
   operation: ×
   type: Water
 retreat: 1
-illustrator: Hajime Kusajima
+illustrators:
+- Hajime Kusajima
 ---
 set: ex-deoxys
 number: '6'
@@ -249,7 +254,8 @@ damage modifiers:
   operation: '-'
   type: Psychic
 retreat: 1
-illustrator: Tomoko Wakai
+illustrators:
+- Tomoko Wakai
 ---
 set: ex-deoxys
 number: '7'
@@ -293,7 +299,8 @@ damage modifiers:
   operation: '-'
   type: Fighting
 retreat: 1
-illustrator: Tomoko Wakai
+illustrators:
+- Tomoko Wakai
 ---
 set: ex-deoxys
 number: '8'
@@ -340,7 +347,8 @@ damage modifiers:
   operation: ×
   type: Lightning
 retreat: 2
-illustrator: Hisao Nakamura
+illustrators:
+- Hisao Nakamura
 ---
 set: ex-deoxys
 number: '9'
@@ -385,7 +393,8 @@ damage modifiers:
   operation: '-'
   type: Grass
 retreat: 1
-illustrator: Sumiyoshi Kizuki
+illustrators:
+- Sumiyoshi Kizuki
 ---
 set: ex-deoxys
 number: '10'
@@ -432,7 +441,8 @@ damage modifiers:
   operation: ×
   type: Lightning
 retreat: 2
-illustrator: Atsuko Nishida
+illustrators:
+- Atsuko Nishida
 ---
 set: ex-deoxys
 number: '11'
@@ -475,7 +485,8 @@ damage modifiers:
   operation: ×
   type: Psychic
 retreat: 2
-illustrator: Hisao Nakamura
+illustrators:
+- Hisao Nakamura
 ---
 set: ex-deoxys
 number: '12'
@@ -518,7 +529,8 @@ damage modifiers:
 - amount: 30
   operation: '-'
   type: Psychic
-illustrator: Naoyo Kimura
+illustrators:
+- Naoyo Kimura
 ---
 set: ex-deoxys
 number: '13'
@@ -555,7 +567,8 @@ damage modifiers:
 - amount: 2
   operation: ×
   type: Lightning
-illustrator: Katsura Tabata
+illustrators:
+- Katsura Tabata
 ---
 set: ex-deoxys
 number: '14'
@@ -584,7 +597,8 @@ mechanics:
   text: >-
     Put 2 damage counters on the Defending Pokémon. If the Defending
     Pokémon is Pokémon-ex, put 4 damage counters instead.
-illustrator: Yukiko Baba
+illustrators:
+- Yukiko Baba
 ---
 set: ex-deoxys
 number: '15'
@@ -626,7 +640,8 @@ damage modifiers:
   operation: ×
   type: Fighting
 retreat: 3
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: ex-deoxys
 number: '16'
@@ -665,7 +680,8 @@ damage modifiers:
   operation: ×
   type: Psychic
 retreat: 1
-illustrator: Hironobu Yoshida
+illustrators:
+- Hironobu Yoshida
 ---
 set: ex-deoxys
 number: '17'
@@ -703,7 +719,8 @@ damage modifiers:
   operation: ×
   type: Psychic
 retreat: 1
-illustrator: Hironobu Yoshida
+illustrators:
+- Hironobu Yoshida
 ---
 set: ex-deoxys
 number: '18'
@@ -741,7 +758,8 @@ damage modifiers:
   operation: ×
   type: Psychic
 retreat: 1
-illustrator: Hironobu Yoshida
+illustrators:
+- Hironobu Yoshida
 ---
 set: ex-deoxys
 number: '19'
@@ -778,7 +796,8 @@ damage modifiers:
   operation: ×
   type: Lightning
 retreat: 2
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: ex-deoxys
 number: '20'
@@ -818,7 +837,8 @@ damage modifiers:
   operation: ×
   type: Water
 retreat: 3
-illustrator: Midori Harada
+illustrators:
+- Midori Harada
 ---
 set: ex-deoxys
 number: '21'
@@ -858,7 +878,8 @@ damage modifiers:
   operation: '-'
   type: Fighting
 retreat: 1
-illustrator: Tomokazu Komiya
+illustrators:
+- Tomokazu Komiya
 ---
 set: ex-deoxys
 number: '22'
@@ -893,7 +914,8 @@ damage modifiers:
   operation: ×
   type: Colorless
 retreat: 1
-illustrator: Hiromichi Sugiyama
+illustrators:
+- Hiromichi Sugiyama
 ---
 set: ex-deoxys
 number: '23'
@@ -931,7 +953,8 @@ damage modifiers:
   operation: '-'
   type: Colorless
 retreat: 1
-illustrator: Aya Kusube
+illustrators:
+- Aya Kusube
 ---
 set: ex-deoxys
 number: '24'
@@ -967,7 +990,8 @@ damage modifiers:
 - amount: 2
   operation: ×
   type: Lightning
-illustrator: Atsuko Nishida
+illustrators:
+- Atsuko Nishida
 ---
 set: ex-deoxys
 number: '25'
@@ -1005,7 +1029,8 @@ damage modifiers:
   operation: ×
   type: Fire
 retreat: 1
-illustrator: Kouki Saitou
+illustrators:
+- Kouki Saitou
 ---
 set: ex-deoxys
 number: '26'
@@ -1047,7 +1072,8 @@ damage modifiers:
   operation: '-'
   type: Fighting
 retreat: 1
-illustrator: Kouki Saitou
+illustrators:
+- Kouki Saitou
 ---
 set: ex-deoxys
 number: '27'
@@ -1087,7 +1113,8 @@ damage modifiers:
   operation: ×
   type: Fire
 retreat: 1
-illustrator: Miki Tanaka
+illustrators:
+- Miki Tanaka
 ---
 set: ex-deoxys
 number: '28'
@@ -1125,7 +1152,8 @@ damage modifiers:
   operation: ×
   type: Grass
 retreat: 2
-illustrator: Miki Tanaka
+illustrators:
+- Miki Tanaka
 ---
 set: ex-deoxys
 number: '29'
@@ -1168,7 +1196,8 @@ damage modifiers:
 - amount: 30
   operation: '-'
   type: Fighting
-illustrator: Yuka Morii
+illustrators:
+- Yuka Morii
 ---
 set: ex-deoxys
 number: '30'
@@ -1203,7 +1232,8 @@ damage modifiers:
   operation: ×
   type: Grass
 retreat: 1
-illustrator: Yuka Morii
+illustrators:
+- Yuka Morii
 ---
 set: ex-deoxys
 number: '31'
@@ -1235,7 +1265,8 @@ damage modifiers:
 - amount: 2
   operation: ×
   type: Psychic
-illustrator: Sachiko Adachi
+illustrators:
+- Sachiko Adachi
 ---
 set: ex-deoxys
 number: '32'
@@ -1275,7 +1306,8 @@ damage modifiers:
   operation: ×
   type: Psychic
 retreat: 1
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: ex-deoxys
 number: '33'
@@ -1310,7 +1342,8 @@ damage modifiers:
   operation: ×
   type: Lightning
 retreat: 1
-illustrator: Atsuko Nishida
+illustrators:
+- Atsuko Nishida
 ---
 set: ex-deoxys
 number: '34'
@@ -1344,7 +1377,8 @@ damage modifiers:
   operation: ×
   type: Lightning
 retreat: 1
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: ex-deoxys
 number: '35'
@@ -1374,7 +1408,8 @@ damage modifiers:
   operation: ×
   type: Lightning
 retreat: 1
-illustrator: Atsuko Nishida
+illustrators:
+- Atsuko Nishida
 ---
 set: ex-deoxys
 number: '36'
@@ -1413,7 +1448,8 @@ damage modifiers:
   operation: ×
   type: Water
 retreat: 1
-illustrator: Kyoko Umemoto
+illustrators:
+- Kyoko Umemoto
 ---
 set: ex-deoxys
 number: '37'
@@ -1447,7 +1483,8 @@ damage modifiers:
   operation: ×
   type: Water
 retreat: 2
-illustrator: Aya Kusube
+illustrators:
+- Aya Kusube
 ---
 set: ex-deoxys
 number: '38'
@@ -1488,7 +1525,8 @@ damage modifiers:
   operation: '-'
   type: Metal
 retreat: 1
-illustrator: Hajime Kusajima
+illustrators:
+- Hajime Kusajima
 ---
 set: ex-deoxys
 number: '39'
@@ -1526,7 +1564,8 @@ damage modifiers:
 - amount: 30
   operation: '-'
   type: Fighting
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: ex-deoxys
 number: '40'
@@ -1563,7 +1602,8 @@ damage modifiers:
   operation: ×
   type: Psychic
 retreat: 2
-illustrator: Hisao Nakamura
+illustrators:
+- Hisao Nakamura
 ---
 set: ex-deoxys
 number: '41'
@@ -1596,7 +1636,8 @@ damage modifiers:
   operation: ×
   type: Fighting
 retreat: 1
-illustrator: Hajime Kusajima
+illustrators:
+- Hajime Kusajima
 ---
 set: ex-deoxys
 number: '42'
@@ -1631,7 +1672,8 @@ damage modifiers:
   operation: ×
   type: Water
 retreat: 1
-illustrator: Sumiyoshi Kizuki
+illustrators:
+- Sumiyoshi Kizuki
 ---
 set: ex-deoxys
 number: '43'
@@ -1666,7 +1708,8 @@ damage modifiers:
   operation: ×
   type: Fire
 retreat: 1
-illustrator: Kouki Saitou
+illustrators:
+- Kouki Saitou
 ---
 set: ex-deoxys
 number: '44'
@@ -1700,7 +1743,8 @@ damage modifiers:
   operation: ×
   type: Fighting
 retreat: 1
-illustrator: Hajime Kusajima
+illustrators:
+- Hajime Kusajima
 ---
 set: ex-deoxys
 number: '45'
@@ -1740,7 +1784,8 @@ damage modifiers:
   operation: '-'
   type: Fire
 retreat: 2
-illustrator: Aya Kusube
+illustrators:
+- Aya Kusube
 ---
 set: ex-deoxys
 number: '46'
@@ -1774,7 +1819,8 @@ damage modifiers:
   operation: ×
   type: Fire
 retreat: 2
-illustrator: Kagemaru Himeno
+illustrators:
+- Kagemaru Himeno
 ---
 set: ex-deoxys
 number: '47'
@@ -1813,7 +1859,8 @@ damage modifiers:
   operation: ×
   type: Grass
 retreat: 2
-illustrator: Kyoko Umemoto
+illustrators:
+- Kyoko Umemoto
 ---
 set: ex-deoxys
 number: '48'
@@ -1857,7 +1904,8 @@ damage modifiers:
   operation: ×
   type: Lightning
 retreat: 1
-illustrator: Yukiko Baba
+illustrators:
+- Yukiko Baba
 ---
 set: ex-deoxys
 number: '49'
@@ -1896,7 +1944,8 @@ damage modifiers:
 - amount: 30
   operation: '-'
   type: Fighting
-illustrator: Midori Harada
+illustrators:
+- Midori Harada
 ---
 set: ex-deoxys
 number: '50'
@@ -1929,7 +1978,8 @@ damage modifiers:
   operation: ×
   type: Fighting
 retreat: 2
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: ex-deoxys
 number: '51'
@@ -1967,7 +2017,8 @@ damage modifiers:
   operation: ×
   type: Psychic
 retreat: 1
-illustrator: Hisao Nakamura
+illustrators:
+- Hisao Nakamura
 ---
 set: ex-deoxys
 number: '52'
@@ -2007,7 +2058,8 @@ damage modifiers:
   operation: '-'
   type: Fire
 retreat: 1
-illustrator: Takao Unno
+illustrators:
+- Takao Unno
 ---
 set: ex-deoxys
 number: '53'
@@ -2041,7 +2093,8 @@ damage modifiers:
   operation: ×
   type: Water
 retreat: 1
-illustrator: Kenkichi Toyama
+illustrators:
+- Kenkichi Toyama
 ---
 set: ex-deoxys
 number: '54'
@@ -2073,7 +2126,8 @@ damage modifiers:
   operation: ×
   type: Grass
 retreat: 1
-illustrator: Miki Tanaka
+illustrators:
+- Miki Tanaka
 ---
 set: ex-deoxys
 number: '55'
@@ -2102,7 +2156,8 @@ damage modifiers:
   operation: ×
   type: Psychic
 retreat: 1
-illustrator: Hisao Nakamura
+illustrators:
+- Hisao Nakamura
 ---
 set: ex-deoxys
 number: '56'
@@ -2138,7 +2193,8 @@ damage modifiers:
   operation: '-'
   type: Psychic
 retreat: 1
-illustrator: Tomokazu Komiya
+illustrators:
+- Tomokazu Komiya
 ---
 set: ex-deoxys
 number: '57'
@@ -2172,7 +2228,8 @@ damage modifiers:
   operation: ×
   type: Lightning
 retreat: 1
-illustrator: Takao Unno
+illustrators:
+- Takao Unno
 ---
 set: ex-deoxys
 number: '58'
@@ -2206,7 +2263,8 @@ damage modifiers:
   operation: '-'
   type: Fighting
 retreat: 1
-illustrator: Tomoko Wakai
+illustrators:
+- Tomoko Wakai
 ---
 set: ex-deoxys
 number: '59'
@@ -2241,7 +2299,8 @@ damage modifiers:
   operation: '-'
   type: Metal
 retreat: 1
-illustrator: Naoyo Kimura
+illustrators:
+- Naoyo Kimura
 ---
 set: ex-deoxys
 number: '60'
@@ -2276,7 +2335,8 @@ damage modifiers:
   operation: ×
   type: Fighting
 retreat: 1
-illustrator: Hiroki Fuchino
+illustrators:
+- Hiroki Fuchino
 ---
 set: ex-deoxys
 number: '61'
@@ -2307,7 +2367,8 @@ damage modifiers:
   operation: ×
   type: Lightning
 retreat: 1
-illustrator: Atsuko Nishida
+illustrators:
+- Atsuko Nishida
 ---
 set: ex-deoxys
 number: '62'
@@ -2334,7 +2395,8 @@ damage modifiers:
   operation: ×
   type: Psychic
 retreat: 1
-illustrator: Hisao Nakamura
+illustrators:
+- Hisao Nakamura
 ---
 set: ex-deoxys
 number: '63'
@@ -2367,7 +2429,8 @@ damage modifiers:
   operation: ×
   type: Lightning
 retreat: 1
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: ex-deoxys
 number: '64'
@@ -2401,7 +2464,8 @@ damage modifiers:
   operation: ×
   type: Lightning
 retreat: 1
-illustrator: Hisao Nakamura
+illustrators:
+- Hisao Nakamura
 ---
 set: ex-deoxys
 number: '65'
@@ -2437,7 +2501,8 @@ damage modifiers:
   operation: ×
   type: Psychic
 retreat: 1
-illustrator: Asuka Iwashita
+illustrators:
+- Asuka Iwashita
 ---
 set: ex-deoxys
 number: '66'
@@ -2471,7 +2536,8 @@ damage modifiers:
   operation: ×
   type: Psychic
 retreat: 1
-illustrator: Yuka Morii
+illustrators:
+- Yuka Morii
 ---
 set: ex-deoxys
 number: '67'
@@ -2504,7 +2570,8 @@ damage modifiers:
   operation: ×
   type: Fire
 retreat: 1
-illustrator: Yukiko Baba
+illustrators:
+- Yukiko Baba
 ---
 set: ex-deoxys
 number: '68'
@@ -2536,7 +2603,8 @@ damage modifiers:
   operation: ×
   type: Water
 retreat: 1
-illustrator: Tomokazu Komiya
+illustrators:
+- Tomokazu Komiya
 ---
 set: ex-deoxys
 number: '69'
@@ -2569,7 +2637,8 @@ damage modifiers:
   operation: ×
   type: Grass
 retreat: 1
-illustrator: Yuka Morii
+illustrators:
+- Yuka Morii
 ---
 set: ex-deoxys
 number: '70'
@@ -2605,7 +2674,8 @@ damage modifiers:
   operation: '-'
   type: Psychic
 retreat: 1
-illustrator: Aimi Tomita
+illustrators:
+- Aimi Tomita
 ---
 set: ex-deoxys
 number: '71'
@@ -2639,7 +2709,8 @@ damage modifiers:
   operation: ×
   type: Fire
 retreat: 1
-illustrator: Kouki Saitou
+illustrators:
+- Kouki Saitou
 ---
 set: ex-deoxys
 number: '72'
@@ -2676,7 +2747,8 @@ damage modifiers:
   operation: '-'
   type: Water
 retreat: 1
-illustrator: Kanako Eo
+illustrators:
+- Kanako Eo
 ---
 set: ex-deoxys
 number: '73'
@@ -2709,7 +2781,8 @@ damage modifiers:
   operation: ×
   type: Fighting
 retreat: 1
-illustrator: Takao Unno
+illustrators:
+- Takao Unno
 ---
 set: ex-deoxys
 number: '74'
@@ -2740,7 +2813,8 @@ damage modifiers:
   operation: ×
   type: Water
 retreat: 2
-illustrator: Aya Kusube
+illustrators:
+- Aya Kusube
 ---
 set: ex-deoxys
 number: '75'
@@ -2773,7 +2847,8 @@ damage modifiers:
   operation: ×
   type: Water
 retreat: 2
-illustrator: Midori Harada
+illustrators:
+- Midori Harada
 ---
 set: ex-deoxys
 number: '76'
@@ -2804,7 +2879,8 @@ damage modifiers:
   operation: ×
   type: Psychic
 retreat: 1
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: ex-deoxys
 number: '77'
@@ -2834,7 +2910,8 @@ damage modifiers:
   operation: ×
   type: Lightning
 retreat: 1
-illustrator: Yukiko Baba
+illustrators:
+- Yukiko Baba
 ---
 set: ex-deoxys
 number: '78'
@@ -2863,7 +2940,8 @@ damage modifiers:
   operation: ×
   type: Fire
 retreat: 1
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: ex-deoxys
 number: '79'
@@ -2899,7 +2977,8 @@ damage modifiers:
   operation: '-'
   type: Fighting
 retreat: 1
-illustrator: Kyoko Umemoto
+illustrators:
+- Kyoko Umemoto
 ---
 set: ex-deoxys
 number: '80'
@@ -2932,7 +3011,8 @@ damage modifiers:
   operation: '-'
   type: Fighting
 retreat: 1
-illustrator: Midori Harada
+illustrators:
+- Midori Harada
 ---
 set: ex-deoxys
 number: '81'
@@ -2964,7 +3044,8 @@ damage modifiers:
   operation: '-'
   type: Fighting
 retreat: 1
-illustrator: Tomokazu Komiya
+illustrators:
+- Tomokazu Komiya
 ---
 set: ex-deoxys
 number: '82'
@@ -2999,7 +3080,8 @@ damage modifiers:
   operation: ×
   type: Fire
 retreat: 1
-illustrator: Kagemaru Himeno
+illustrators:
+- Kagemaru Himeno
 ---
 set: ex-deoxys
 number: '83'
@@ -3029,7 +3111,8 @@ damage modifiers:
   operation: ×
   type: Psychic
 retreat: 1
-illustrator: Sachiko Adachi
+illustrators:
+- Sachiko Adachi
 ---
 set: ex-deoxys
 number: '84'
@@ -3055,7 +3138,8 @@ mechanics:
     Out, discard this card. As long as Balloon Berry is attached
     to a Pokémon, that Pokémon's Retreat Cost is 0. When this
     Pokémon retreats, discard Balloon Berry.
-illustrator: Keiji Kinebuchi
+illustrators:
+- Keiji Kinebuchi
 ---
 set: ex-deoxys
 number: '85'
@@ -3079,7 +3163,8 @@ mechanics:
     As long as this card is attached to a Pokémon, that Pokémon's
     type is Colorless. If that Pokémon attacks, discard this card
     at the end of the turn.
-illustrator: Jungo Suzuki
+illustrators:
+- Jungo Suzuki
 ---
 set: ex-deoxys
 number: '86'
@@ -3096,7 +3181,8 @@ mechanics:
     Flip a coin. If heads, search your discard pile for 2 Energy
     cards (1 if there is only 1), show them to your opponent,
     and shuffle them into your deck.
-illustrator: Keiji Kinebuchi
+illustrators:
+- Keiji Kinebuchi
 ---
 set: ex-deoxys
 number: '87'
@@ -3120,7 +3206,8 @@ mechanics:
     Search your deck for up to 3 different types of basic Energy
     cards, show them to your opponent, and put them into your
     hand. Shuffle your deck afterward.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: ex-deoxys
 number: '88'
@@ -3138,7 +3225,8 @@ mechanics:
     or Evolution card from those cards, show it your opponent,
     and put it into your hand. Put the other 6 cards back on top
     of your deck. Shuffle your deck afterward.
-illustrator: Keiji Kinebuchi
+illustrators:
+- Keiji Kinebuchi
 ---
 set: ex-deoxys
 number: '89'
@@ -3161,7 +3249,8 @@ mechanics:
     Each player's Active Evolved Pokémon (excluding Pokémon-ex)
     can use any attack from its Basic Pokémon or its Stage 1 Evolution
     card. (You still have to pay for that attack's Energy cost.)
-illustrator: Ryo Ueda
+illustrators:
+- Ryo Ueda
 ---
 set: ex-deoxys
 number: '90'
@@ -3184,7 +3273,8 @@ mechanics:
   text: >-
     Flip a coin. If heads, draw the bottom 3 cards of your deck.
     If tails, draw the top 2 cards of your deck.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: ex-deoxys
 number: '91'
@@ -3207,7 +3297,8 @@ mechanics:
     Ignore Poke-Bodies for all Basic Pokémon in play (both yours
     and your opponent's) (excluding Pokémon-ex and Pokémon that
     has an owner in its name).
-illustrator: Ryo Ueda
+illustrators:
+- Ryo Ueda
 ---
 set: ex-deoxys
 number: '92'
@@ -3233,7 +3324,8 @@ mechanics:
     does 10 more damage (before applying Weakness and Resistance).
     Discard Strength Charm at the end of the turn in which this
     Pokémon attacks.
-illustrator: Keiji Kinebuchi
+illustrators:
+- Keiji Kinebuchi
 ---
 set: ex-deoxys
 number: '93'
@@ -3254,7 +3346,8 @@ mechanics:
     Energy provides 3 Colorless Energy. The Pokémon Boost Energy
     is attached to can't retreat. If the Pokémon Boost Energy
     is attached to isn't an Evolved Pokémon, discard Boost Energy.
-illustrator: Shin-ichi Yoshikawa
+illustrators:
+- Shin-ichi Yoshikawa
 ---
 set: ex-deoxys
 number: '94'
@@ -3275,7 +3368,8 @@ mechanics:
     counter and all Special Conditions from that Pokémon. If Heal
     Energy is attached to Pokémon-ex, Heal Energy has no effect
     other than providing Energy.
-illustrator: Takumi Akabane
+illustrators:
+- Takumi Akabane
 ---
 set: ex-deoxys
 number: '95'
@@ -3298,7 +3392,8 @@ mechanics:
     but provides only 3 in any combination at a time. If the Pokémon
     Scramble Energy is attached to isn't an Evolved Pokémon (or
     evolves into Pokémon-ex), discard Scramble Energy.
-illustrator: Takumi Akabane
+illustrators:
+- Takumi Akabane
 ---
 set: ex-deoxys
 number: '96'
@@ -3347,7 +3442,8 @@ damage modifiers:
 - amount: 30
   operation: '-'
   type: Fighting
-illustrator: Ryo Ueda
+illustrators:
+- Ryo Ueda
 ---
 set: ex-deoxys
 number: '97'
@@ -3388,7 +3484,8 @@ damage modifiers:
   operation: ×
   type: Psychic
 retreat: 1
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: ex-deoxys
 number: '98'
@@ -3430,7 +3527,8 @@ damage modifiers:
   operation: ×
   type: Psychic
 retreat: 2
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: ex-deoxys
 number: '99'
@@ -3472,7 +3570,8 @@ damage modifiers:
   operation: ×
   type: Psychic
 retreat: 2
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: ex-deoxys
 number: '100'
@@ -3517,7 +3616,8 @@ damage modifiers:
   operation: ×
   type: Psychic
 retreat: 2
-illustrator: Ryo Ueda
+illustrators:
+- Ryo Ueda
 ---
 set: ex-deoxys
 number: '101'
@@ -3560,7 +3660,8 @@ damage modifiers:
   operation: '-'
   type: Metal
 retreat: 1
-illustrator: Hikaru Koike
+illustrators:
+- Hikaru Koike
 ---
 set: ex-deoxys
 number: '102'
@@ -3607,7 +3708,8 @@ damage modifiers:
   operation: '-'
   type: Water
 retreat: 2
-illustrator: Shin-ichi Yoshikawa
+illustrators:
+- Shin-ichi Yoshikawa
 ---
 set: ex-deoxys
 number: '103'
@@ -3660,7 +3762,8 @@ damage modifiers:
   operation: '-'
   type: Fire
 retreat: 2
-illustrator: Hikaru Koike
+illustrators:
+- Hikaru Koike
 ---
 set: ex-deoxys
 number: '104'
@@ -3708,7 +3811,8 @@ damage modifiers:
 - amount: 30
   operation: '-'
   type: Psychic
-illustrator: Hikaru Koike
+illustrators:
+- Hikaru Koike
 ---
 set: ex-deoxys
 number: '105'
@@ -3753,7 +3857,8 @@ damage modifiers:
   operation: '-'
   type: Psychic
 retreat: 1
-illustrator: Masakazu Fukuda
+illustrators:
+- Masakazu Fukuda
 ---
 set: ex-deoxys
 number: '106'
@@ -3802,7 +3907,8 @@ damage modifiers:
   operation: '-'
   type: Fighting
 retreat: 1
-illustrator: Masakazu Fukuda
+illustrators:
+- Masakazu Fukuda
 ---
 set: ex-deoxys
 number: '107'
@@ -3850,7 +3956,8 @@ damage modifiers:
   operation: '-'
   type: Water
 retreat: 2
-illustrator: Masakazu Fukuda
+illustrators:
+- Masakazu Fukuda
 ---
 set: ex-deoxys
 number: '108'
@@ -3894,4 +4001,5 @@ damage modifiers:
   operation: ×
   type: Fighting
 retreat: 2
-illustrator: Ryo Ueda
+illustrators:
+- Ryo Ueda

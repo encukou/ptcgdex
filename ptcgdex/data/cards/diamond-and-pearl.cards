@@ -44,7 +44,8 @@ height: 17'9
 dex entry: >-
   It has the power to control time. It appears in Sinnoh-region
   myths as an ancient deity.
-illustrator: Nakaoka
+illustrators:
+- Nakaoka
 ---
 set: diamond-and-pearl
 number: '2'
@@ -92,7 +93,8 @@ height: 7'3
 dex entry: >-
   The antenna on it's head captures radio waves from the world
   of spirits that command it to take people there.
-illustrator: Takabon
+illustrators:
+- Takabon
 ---
 set: diamond-and-pearl
 number: '3'
@@ -139,7 +141,8 @@ height: 5'11
 dex entry: >-
   It pushes the tips of it's two tails against the foe, then lets
   loose with over 20,000 volts of power.
-illustrator: Nakaoka
+illustrators:
+- Nakaoka
 ---
 set: diamond-and-pearl
 number: '4'
@@ -184,7 +187,8 @@ height: 5'7
 dex entry: >-
   The three horns that extend from it's beak attest to it's power.
   The leader has the biggest horns.
-illustrator: Nakaoka
+illustrators:
+- Nakaoka
 ---
 set: diamond-and-pearl
 number: '5'
@@ -226,7 +230,8 @@ height: 3'11
 dex entry: >-
   It uses a special kind of martial arts involving all limbs.
   It's fire never goes out.
-illustrator: Nakaoka
+illustrators:
+- Nakaoka
 ---
 set: diamond-and-pearl
 number: '6'
@@ -269,7 +274,8 @@ height: 3'11
 dex entry: >-
   It has the ability to sense the auras of all things. It understands
   human speech.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: diamond-and-pearl
 number: '7'
@@ -318,7 +324,8 @@ height: 4'7
 dex entry: >-
   It has eyes that can see through anything. It spots and captures
   prey hiding behind objects.
-illustrator: Mikiko Takeda
+illustrators:
+- Mikiko Takeda
 ---
 set: diamond-and-pearl
 number: '8'
@@ -363,7 +370,8 @@ height: 3'11
 dex entry: >-
   It evolved from exposure to a special magnetic field. Three
   units generate magnetism.
-illustrator: Nakaoka
+illustrators:
+- Nakaoka
 ---
 set: diamond-and-pearl
 number: '9'
@@ -404,7 +412,8 @@ height: 1'0
 dex entry: >-
   Born on a cold seafloor,  it will swim great distances to return
   to it's birthplace.
-illustrator: Nakaoka
+illustrators:
+- Nakaoka
 ---
 set: diamond-and-pearl
 number: '10'
@@ -450,7 +459,8 @@ height: 2'11
 dex entry: >-
   It's cries sound like incatations. Those hearing it are tormented
   by headaches and hallucinations.
-illustrator: Mikiko Takeda
+illustrators:
+- Mikiko Takeda
 ---
 set: diamond-and-pearl
 number: '11'
@@ -496,7 +506,8 @@ height: 13'9
 dex entry: >-
   It has the ability to distort space. It is described as a deity
   in Sinnoh-region mythology.
-illustrator: Nakaoka
+illustrators:
+- Nakaoka
 ---
 set: diamond-and-pearl
 number: '12'
@@ -542,7 +553,8 @@ height: 7'10
 dex entry: >-
   It puts rocks in holes in it's palms, and uses it's muscles
   to shoot them. GEODUDE are shot at rare times.
-illustrator: Nakaoka
+illustrators:
+- Nakaoka
 ---
 set: diamond-and-pearl
 number: '13'
@@ -586,7 +598,8 @@ height: 2'11
 dex entry: >-
   It attacks prey with a sweet aroma, then downs it with thorny
   whips hidden in it's arms.
-illustrator: Nakaoka
+illustrators:
+- Nakaoka
 ---
 set: diamond-and-pearl
 number: '14'
@@ -634,7 +647,8 @@ height: 4'3
 dex entry: >-
   By flapping it's leafy fan, it can whip up gusts of 100 ft/second
   that can level houses.
-illustrator: Masakazu Fukuda
+illustrators:
+- Masakazu Fukuda
 ---
 set: diamond-and-pearl
 number: '15'
@@ -683,7 +697,8 @@ height: 3'3
 dex entry: >-
   It's sprays a vile-smelling fluid from the tip of it's tail
   to attack. It's range is over 160 feet.
-illustrator: Hiroaki Ito
+illustrators:
+- Hiroaki Ito
 ---
 set: diamond-and-pearl
 number: '16'
@@ -729,7 +744,8 @@ height: 3'11
 dex entry: >-
   It has a savage nature. It will courageously challenge foes
   that are much larger.
-illustrator: Masahiko Ishii
+illustrators:
+- Masahiko Ishii
 ---
 set: diamond-and-pearl
 number: '17'
@@ -771,7 +787,8 @@ height: 7'3
 dex entry: >-
   Small Pokémon occasionally gather on it's unmoving back to begin
   building their nests.
-illustrator: Masahiko Ishii
+illustrators:
+- Masahiko Ishii
 ---
 set: diamond-and-pearl
 number: '18'
@@ -816,7 +833,8 @@ height: 2'7
 dex entry: >-
   It lives in rivers and lakes. In water, it's coloring and pattern
   trick the vision of foes.
-illustrator: Naoyo Kimura
+illustrators:
+- Naoyo Kimura
 ---
 set: diamond-and-pearl
 number: '19'
@@ -863,7 +881,8 @@ height: 3'3
 dex entry: >-
   It has an aggressive nature. It stabs prey with it's long, narrow
   mouth to drain the prey's fluids.
-illustrator: Atsuko Nishida
+illustrators:
+- Atsuko Nishida
 ---
 set: diamond-and-pearl
 number: '20'
@@ -905,7 +924,8 @@ height: 3'3
 dex entry: >-
   It makes it's nest by damming streams with bark and mud. It
   is known as an industrious worker.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: diamond-and-pearl
 number: '21'
@@ -953,7 +973,8 @@ height: 4'7
 dex entry: >-
   It attracts prey with it's sweet smelling saliva, then chomps
   down. It takes a whole day to eat prey.
-illustrator: Kouki Saitou
+illustrators:
+- Kouki Saitou
 ---
 set: diamond-and-pearl
 number: '22'
@@ -998,7 +1019,8 @@ height: 4'3
 dex entry: >-
   Rarely seen by people, it is said to be drawn by the full moon
   to play at deserted lakes.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: diamond-and-pearl
 number: '23'
@@ -1041,7 +1063,8 @@ height: 4'3
 dex entry: >-
   It has the power in it's clawed arms to make scrap of a car.
   The tips of it's claws release poison.
-illustrator: Kouki Saitou
+illustrators:
+- Kouki Saitou
 ---
 set: diamond-and-pearl
 number: '24'
@@ -1088,7 +1111,8 @@ height: 3'11
 dex entry: >-
   It's drowsy in daytime, but flies off in the evening in big
   groups. No one knows where they go.
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: diamond-and-pearl
 number: '25'
@@ -1131,7 +1155,8 @@ height: 3'11
 dex entry: >-
   A nocturnal Pokémon. Drawn by streetlights, they messily eat
   the leaves of trees lining boulevards.
-illustrator: Kouki Saitou
+illustrators:
+- Kouki Saitou
 ---
 set: diamond-and-pearl
 number: '26'
@@ -1176,7 +1201,8 @@ height: 3'7
 dex entry: >-
   It floats using it's well-developed floatation sac. It assists
   in the rescues of drowning people.
-illustrator: Masahiko Ishii
+illustrators:
+- Masahiko Ishii
 ---
 set: diamond-and-pearl
 number: '27'
@@ -1221,7 +1247,8 @@ height: 4'11
 dex entry: >-
   It hides in shadows. It is said that if GENGAR is hiding, it
   cools the area by nearly 10 degrees F.
-illustrator: Kagemaru Himeno
+illustrators:
+- Kagemaru Himeno
 ---
 set: diamond-and-pearl
 number: '28'
@@ -1264,7 +1291,8 @@ height: 4'11
 dex entry: >-
   It gathers in forests to search for tree sap, it's favorite
   food. It's strong enough to hurl foes.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: diamond-and-pearl
 number: '29'
@@ -1312,7 +1340,8 @@ height: 6'7
 dex entry: >-
   It blasts internally stored sand from ports on it's body to
   create a towering twister for attack.
-illustrator: Kouki Saitou
+illustrators:
+- Kouki Saitou
 ---
 set: diamond-and-pearl
 number: '30'
@@ -1356,7 +1385,8 @@ height: 3'11
 dex entry: >-
   An extremely cautious Pokémon. It cloaks it's body with it's
   fluffy ear fur when it senses danger.
-illustrator: Kagemaru Himeno
+illustrators:
+- Kagemaru Himeno
 ---
 set: diamond-and-pearl
 number: '31'
@@ -1401,7 +1431,8 @@ height: 5'3
 dex entry: >-
   It punches with its four arms at blinding speed. It can launch
   1000 punches in two seconds.
-illustrator: Kagemaru Himeno
+illustrators:
+- Kagemaru Himeno
 ---
 set: diamond-and-pearl
 number: '32'
@@ -1443,7 +1474,8 @@ height: 4'3
 dex entry: >-
   Through yoga training, it honed its sixth sense. Its movements
   are elegant.
-illustrator: Kouki Saitou
+illustrators:
+- Kouki Saitou
 ---
 set: diamond-and-pearl
 number: '33'
@@ -1486,7 +1518,8 @@ height: 2'0
 dex entry: >-
   It wolfs down its weight in food once a day, swallowing food
   whole with almost no chewing.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: diamond-and-pearl
 number: '34'
@@ -1534,7 +1567,8 @@ height: 5'3
 dex entry: >-
   Its eyes are special. They can pick out objects as long as there
   is the tiniest amount of light.
-illustrator: Atsuko Nishida
+illustrators:
+- Atsuko Nishida
 ---
 set: diamond-and-pearl
 number: '35'
@@ -1578,7 +1612,8 @@ height: 1'4
 dex entry: >-
   It makes fur balls that crackle with static electricity. It
   stores them with berries in tree holes.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: diamond-and-pearl
 number: '36'
@@ -1620,7 +1655,8 @@ height: 3'3
 dex entry: >-
   It is a brazen brute that barges its way into another Pokémon's
   nest and claims them as its own.
-illustrator: Masakazu Fukuda
+illustrators:
+- Masakazu Fukuda
 ---
 set: diamond-and-pearl
 number: '37'
@@ -1662,7 +1698,8 @@ height: 6'11
 dex entry: >-
   Its stomach can digest any kind of food, even if it happens
   to be rotten or mouldy.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: diamond-and-pearl
 number: '38'
@@ -1708,7 +1745,8 @@ height: 30'2
 dex entry: >-
   Tempered underground at high pressure and heat, its body is
   harder than any metal.
-illustrator: Kouki Saitou
+illustrators:
+- Kouki Saitou
 ---
 set: diamond-and-pearl
 number: '39'
@@ -1754,7 +1792,8 @@ height: 3'11
 dex entry: >-
   Its abdomen is a honeycomb for grubs. It raises its grubs on
   honey collected by Combee.
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: diamond-and-pearl
 number: '40'
@@ -1800,7 +1839,8 @@ height: 3'7
 dex entry: >-
   It lives in cold regions, forming groups of four or five that
   hunt prey with impressive coordination.
-illustrator: Naoyo Kimura
+illustrators:
+- Naoyo Kimura
 ---
 set: diamond-and-pearl
 number: '41'
@@ -1835,7 +1875,8 @@ height: 4'3
 dex entry: >-
   It desperately tries to keep its black tail hidden. It is said
   to be proof that the tail hides a secret.
-illustrator: Kouki Saitou
+illustrators:
+- Kouki Saitou
 ---
 set: diamond-and-pearl
 number: '42'
@@ -1877,7 +1918,8 @@ height: 2'0
 dex entry: >-
   It grows strong by pushing up against others en masse. It loves
   eating sweet fruit.
-illustrator: Masakazu Fukuda
+illustrators:
+- Masakazu Fukuda
 ---
 set: diamond-and-pearl
 number: '43'
@@ -1918,7 +1960,8 @@ height: 0'8
 dex entry: >-
   Over the winter, it closes its bud and endures the cold. In
   spring, the bud opens and releases pollen.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: diamond-and-pearl
 number: '44'
@@ -1962,7 +2005,8 @@ height: 2'4
 dex entry: >-
   It is hot inside the cocoon. All the cells in its body create
   the energy for it to evolve.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: diamond-and-pearl
 number: '45'
@@ -2008,7 +2052,8 @@ height: 1'8
 dex entry: >-
   It blooms during periods of strong sunlight. It tries to make
   up for everything it endured as a bud.
-illustrator: Atsuko Nishida
+illustrators:
+- Atsuko Nishida
 ---
 set: diamond-and-pearl
 number: '46'
@@ -2053,7 +2098,8 @@ height: 1'4
 dex entry: >-
   A Pokémon formed by the spirits of people and Pokémon. It loves
   damp, humid seasons.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: diamond-and-pearl
 number: '47'
@@ -2101,7 +2147,8 @@ height: 5'3
 dex entry: >-
   Its body is hollow. It is said that those who look into its
   body are sucked into the void.
-illustrator: Kouki Saitou
+illustrators:
+- Kouki Saitou
 ---
 set: diamond-and-pearl
 number: '48'
@@ -2145,7 +2192,8 @@ height: 2'0
 dex entry: >-
   It generates electricity by whirling its arms. However, it cannot
   store the energy it makes.
-illustrator: Kagemaru Himeno
+illustrators:
+- Kagemaru Himeno
 ---
 set: diamond-and-pearl
 number: '49'
@@ -2188,7 +2236,8 @@ height: 3'7
 dex entry: >-
   It lives along water in forests. During the daytime, it leaves
   the forest to sunbathe its treed shell.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: diamond-and-pearl
 number: '50'
@@ -2231,7 +2280,8 @@ height: 5'3
 dex entry: >-
   It can slip through any obstacle. It lurks inside walls to keep
   an eye on its foes.
-illustrator: Naoyo Kimura
+illustrators:
+- Naoyo Kimura
 ---
 set: diamond-and-pearl
 number: '51'
@@ -2276,7 +2326,8 @@ height: 2'7
 dex entry: >-
   It lives in arid places. Instead of perspiration, it expels
   grainy sand from its body.
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: diamond-and-pearl
 number: '52'
@@ -2321,7 +2372,8 @@ height: 2'11
 dex entry: >-
   Its claws loose electricity with enough amperage to cause fainting.
   They live in small groups.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: diamond-and-pearl
 number: '53'
@@ -2361,7 +2413,8 @@ height: 4'11
 dex entry: >-
   MACHOKE'S boundless power is very dangerous, so it wears a belt
   that surpresses its energy.
-illustrator: Kouki Saitou
+illustrators:
+- Kouki Saitou
 ---
 set: diamond-and-pearl
 number: '54'
@@ -2409,7 +2462,8 @@ height: 3'3
 dex entry: >-
   It is actually three MAGNEMITE linked by magnetism. A group
   can set off a magnetic storm.
-illustrator: Kouki Saitou
+illustrators:
+- Kouki Saitou
 ---
 set: diamond-and-pearl
 number: '55'
@@ -2453,7 +2507,8 @@ height: 3'3
 dex entry: >-
   A friendly Pokémon that captures the subtle flows of seawater
   using its two antennae
-illustrator: Midori Harada
+illustrators:
+- Midori Harada
 ---
 set: diamond-and-pearl
 number: '56'
@@ -2496,7 +2551,8 @@ height: 2'11
 dex entry: >-
   To intimidate attackers, it stretches the fire on its tail to
   make it appear bigger.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: diamond-and-pearl
 number: '57'
@@ -2541,7 +2597,8 @@ height: 3'3
 dex entry: >-
   The sound of its grass flute makes its listeners uneasy. It
   lives deep in forests.
-illustrator: Kagemaru Himeno
+illustrators:
+- Kagemaru Himeno
 ---
 set: diamond-and-pearl
 number: '58'
@@ -2584,7 +2641,8 @@ height: 2'7
 dex entry: >-
   It lives alone, away from others. Apparently, every one of them
   believes itself to be the most important.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: diamond-and-pearl
 number: '59'
@@ -2629,7 +2687,8 @@ height: 5'7
 dex entry: >-
   It gallops at nearly 150 mph. With its mane blazing ferociously,
   it races as if it were an arrow.
-illustrator: Naoyo Kimura
+illustrators:
+- Naoyo Kimura
 ---
 set: diamond-and-pearl
 number: '60'
@@ -2677,7 +2736,8 @@ height: 6'3
 dex entry: >-
   Its brain developed after it stood up on its hind legs. Its
   drill horn bores holes through solid rock.
-illustrator: Naoyo Kimura
+illustrators:
+- Naoyo Kimura
 ---
 set: diamond-and-pearl
 number: '61'
@@ -2712,7 +2772,8 @@ height: 2'4
 dex entry: >-
   The aura that emanates from its body intensifies to alerts others
   if it is afraid or sad.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: diamond-and-pearl
 number: '62'
@@ -2752,7 +2813,8 @@ height: 4'3
 dex entry: >-
   It makes its nest by hollowing out boulders in streams using
   its horn. It defends its eggs with its life.
-illustrator: Atsuko Nishida
+illustrators:
+- Atsuko Nishida
 ---
 set: diamond-and-pearl
 number: '63'
@@ -2796,7 +2858,8 @@ height: 2'0
 dex entry: >-
   It anchors itself by wrapping twigs with the silk from its body.
   It motionlessly awaits evolution.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: diamond-and-pearl
 number: '64'
@@ -2842,7 +2905,8 @@ height: 2'0
 dex entry: >-
   It flies around forests and fields in search of bug Pokémon.
   It stays within a huge flock.
-illustrator: Masakazu Fukuda
+illustrators:
+- Masakazu Fukuda
 ---
 set: diamond-and-pearl
 number: '65'
@@ -2881,7 +2945,8 @@ height: 1'8
 dex entry: >-
   Shaped like ancient writing, it is a huge mystery whether language
   or UNOWN came first.
-illustrator: Nakaoka
+illustrators:
+- Nakaoka
 ---
 set: diamond-and-pearl
 number: '66'
@@ -2921,7 +2986,8 @@ height: 1'8
 dex entry: >-
   Shaped like ancient writing, it is a huge mystery whether language
   or UNOWN came first.
-illustrator: Nakaoka
+illustrators:
+- Nakaoka
 ---
 set: diamond-and-pearl
 number: '67'
@@ -2961,7 +3027,8 @@ height: 1'8
 dex entry: >-
   Shaped like ancient writing, it is a huge mystery whether language
   or UNOWN came first.
-illustrator: Nakaoka
+illustrators:
+- Nakaoka
 ---
 set: diamond-and-pearl
 number: '68'
@@ -3000,7 +3067,8 @@ height: 1'8
 dex entry: >-
   Shaped like ancient writing, it is a huge mystery whether language
   or UNOWN came first.
-illustrator: Nakaoka
+illustrators:
+- Nakaoka
 ---
 set: diamond-and-pearl
 number: '69'
@@ -3040,7 +3108,8 @@ height: 0'8
 dex entry: >-
   A Pokémon that lives near water. It moves quickly on land by
   bouncing on its big tail.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: diamond-and-pearl
 number: '70'
@@ -3081,7 +3150,8 @@ height: 1'8
 dex entry: >-
   With nerves of steel, nothing can perturb it. It is more agile
   and active than it appears.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: diamond-and-pearl
 number: '71'
@@ -3124,7 +3194,8 @@ height: 1'8
 dex entry: >-
   It looks as if it is always crying. It is actually adjusting
   its body's fluid levels by eliminating excess.
-illustrator: Midori Harada
+illustrators:
+- Midori Harada
 ---
 set: diamond-and-pearl
 number: '72'
@@ -3160,7 +3231,8 @@ height: 2'4
 dex entry: >-
   It has a floatation sac that is like an inflatable collar. It
   floats on water with its head out.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: diamond-and-pearl
 number: '73'
@@ -3200,7 +3272,8 @@ height: 1'4
 dex entry: >-
   It slams foes by sharply uncoiling its rolled ears. It stings
   enough to make a grown-up cry in pain.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: diamond-and-pearl
 number: '74'
@@ -3243,7 +3316,8 @@ height: 1'8
 dex entry: >-
   It can learn and speak human words. If they gather, they all
   learn the same saying.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: diamond-and-pearl
 number: '75'
@@ -3288,7 +3362,8 @@ height: 1'4
 dex entry: >-
   The small ball holds the nutrients needed for evolution. Apparently,
   it is very sweet and tasty.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: diamond-and-pearl
 number: '76'
@@ -3327,7 +3402,8 @@ height: 1'8
 dex entry: >-
   It agilely scales sheer cliffs to live atop craggy mountains.
   Its fire is put out when it sleeps.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: diamond-and-pearl
 number: '77'
@@ -3368,7 +3444,8 @@ height: 2'0
 dex entry: >-
   Thought to live with others in quiet mountains, it is popular
   for its adorable nature.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: diamond-and-pearl
 number: '78'
@@ -3408,7 +3485,8 @@ height: 1'0
 dex entry: >-
   Its silhouette is like a star. It is believe to arrive riding
   on shooting stars.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: diamond-and-pearl
 number: '79'
@@ -3450,7 +3528,8 @@ height: 1'0
 dex entry: >-
   A Pokémon formed by three others. It busily carries sweet floral
   honey to VESPIQUEN.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: diamond-and-pearl
 number: '80'
@@ -3496,7 +3575,8 @@ height: 2'7
 dex entry: >-
   It doggedly pursues its prey wherever it goes. However, the
   chase is abandoned at sunrise.
-illustrator: Atsuko Nishida
+illustrators:
+- Atsuko Nishida
 ---
 set: diamond-and-pearl
 number: '81'
@@ -3544,7 +3624,8 @@ height: 3'7
 dex entry: >-
   Half of all blackouts occur when this Pokémon appears at power
   stations and eats electricity.
-illustrator: Kagemaru Himeno
+illustrators:
+- Kagemaru Himeno
 ---
 set: diamond-and-pearl
 number: '82'
@@ -3582,7 +3663,8 @@ height: 4'3
 dex entry: >-
   This Pokémon's body is 95% made up of gases, which are blown
   away by strong gusts of wind.
-illustrator: Kouki Saitou
+illustrators:
+- Kouki Saitou
 ---
 set: diamond-and-pearl
 number: '83'
@@ -3624,7 +3706,8 @@ height: 1'8
 dex entry: >-
   It claws if displeased and purrs when affectionate. Its fickleness
   is very popular among some.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: diamond-and-pearl
 number: '84'
@@ -3663,7 +3746,8 @@ height: 2'0
 dex entry: >-
   It swims elegantly by flittering its tail as if it was a dress.
   It has the look of a queen.
-illustrator: Atsuko Nishida
+illustrators:
+- Atsuko Nishida
 ---
 set: diamond-and-pearl
 number: '85'
@@ -3706,7 +3790,8 @@ height: 2'4
 dex entry: >-
   It always stands on one foot. Even when attacked, it does not
   brace itself using both feet.
-illustrator: Midori Harada
+illustrators:
+- Midori Harada
 ---
 set: diamond-and-pearl
 number: '86'
@@ -3739,7 +3824,8 @@ height: 2'7
 dex entry: >-
   It hefts a GRAVELER repeatedly to strengthen its entire body.
   It uses every type of martial arts.
-illustrator: Atsuko Nishida
+illustrators:
+- Atsuko Nishida
 ---
 set: diamond-and-pearl
 number: '87'
@@ -3783,7 +3869,8 @@ height: 1'0
 dex entry: >-
   The units at its sides generate electromagnetic waves that keep
   it airborne. It feeds on electricity.
-illustrator: Kouki Saitou
+illustrators:
+- Kouki Saitou
 ---
 set: diamond-and-pearl
 number: '88'
@@ -3825,7 +3912,8 @@ height: 1'4
 dex entry: >-
   Using its tail as a float, it dives underwater. It likes eating
   plants that grow on river bottoms.
-illustrator: Atsuko Nishida
+illustrators:
+- Atsuko Nishida
 ---
 set: diamond-and-pearl
 number: '89'
@@ -3867,7 +3955,8 @@ height: 2'0
 dex entry: >-
   It eats just one berry a day. By enduring hunger, its spirit
   is tempered and made sharper.
-illustrator: Masakazu Fukuda
+illustrators:
+- Masakazu Fukuda
 ---
 set: diamond-and-pearl
 number: '90'
@@ -3908,7 +3997,8 @@ height: 2'0
 dex entry: >-
   It habitually mimics foes. Once mimicked, the foe cannots take
   its eyes off of this Pokémon.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: diamond-and-pearl
 number: '91'
@@ -3953,7 +4043,8 @@ height: 2'4
 dex entry: >-
   It loves to sneak up on people late at night, then startle them
   with its shrieklike cry.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: diamond-and-pearl
 number: '92'
@@ -3994,7 +4085,8 @@ height: 28'10
 dex entry: >-
   When it travels underground, it causes rumbling and tremors.
   It can move at 50 mph.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: diamond-and-pearl
 number: '93'
@@ -4034,7 +4126,8 @@ height: 1'4
 dex entry: >-
   Because it is very proud, it hates accepting food from people.
   Its thick down guards it from the cold.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: diamond-and-pearl
 number: '94'
@@ -4071,7 +4164,8 @@ height: 3'3
 dex entry: >-
   About an hour after birth, its firery mane and tail grow out,
   giving it an impressive appearance.
-illustrator: Kagemaru Himeno
+illustrators:
+- Kagemaru Himeno
 ---
 set: diamond-and-pearl
 number: '95'
@@ -4113,7 +4207,8 @@ height: 3'3
 dex entry: >-
   Its body is clad in a thick hide, and its tackles top buildings.
   Unfortunately, it is not smart.
-illustrator: Kagemaru Himeno
+illustrators:
+- Kagemaru Himeno
 ---
 set: diamond-and-pearl
 number: '96'
@@ -4155,7 +4250,8 @@ height: 1'0
 dex entry: >-
   ROSELIA raised on clean drinking water are known to grow vividly
   colored flowers.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: diamond-and-pearl
 number: '97'
@@ -4198,7 +4294,8 @@ height: 1'8
 dex entry: >-
   When it dangles from a tree branch, it looks just like an acorn.
   It enjoys scaring other Pokémon.
-illustrator: Masakazu Fukuda
+illustrators:
+- Masakazu Fukuda
 ---
 set: diamond-and-pearl
 number: '98'
@@ -4237,7 +4334,8 @@ height: 1'8
 dex entry: >-
   All of its fur dazzles if danger is sensed. It flees while the
   foe is momentarily blinded.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: diamond-and-pearl
 number: '99'
@@ -4271,7 +4369,8 @@ height: 2'7
 dex entry: >-
   It grips its prey with its tail claws and injects poison. It
   tenaciously hangs on until the poison takes.
-illustrator: Kouki Saitou
+illustrators:
+- Kouki Saitou
 ---
 set: diamond-and-pearl
 number: '100'
@@ -4318,7 +4417,8 @@ height: 2'11
 dex entry: >-
   It feeds on eggs stolen from nests. Its sharply hooked claws
   rip vulnerable spots on prey.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: diamond-and-pearl
 number: '101'
@@ -4361,7 +4461,8 @@ height: 1'0
 dex entry: >-
   They flock in huge numbers. Although small, they flap their
   wings with great power.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: diamond-and-pearl
 number: '102'
@@ -4403,7 +4504,8 @@ height: 1'4
 dex entry: >-
   It protects itself by spraying a noxious fluid from its rear.
   The stench lingers for 24 hours.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: diamond-and-pearl
 number: '103'
@@ -4443,7 +4545,8 @@ height: 1'4
 dex entry: >-
   Made from soil, its shell hardens as it drinks water. It lives
   along lakes.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: diamond-and-pearl
 number: '104'
@@ -4485,7 +4588,8 @@ height: 1'0
 dex entry: >-
   It loves to eat leaves. If attacked by a STARLY, it will defend
   itself with its spiked rear.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: diamond-and-pearl
 number: '105'
@@ -4500,7 +4604,8 @@ mechanics:
 - type: effect
   text: >-
     Remove all Special Conditions from each of your Active Pokémon.
-illustrator: Ryo Ueda
+illustrators:
+- Ryo Ueda
 ---
 set: diamond-and-pearl
 number: '106'
@@ -4518,7 +4623,8 @@ mechanics:
     your discard pile into your hand. If you don't have that many
     basic Energy cards in your discard pile, put all of them into
     your hand.
-illustrator: Hideyuki Nakajima
+illustrators:
+- Hideyuki Nakajima
 ---
 set: diamond-and-pearl
 number: '107'
@@ -4534,7 +4640,8 @@ mechanics:
   text: >-
     Move a basic Energy card attached to 1 of your Pokémon to
     another of your Pokémon.
-illustrator: Ryo Ueda
+illustrators:
+- Ryo Ueda
 ---
 set: diamond-and-pearl
 number: '108'
@@ -4551,7 +4658,8 @@ mechanics:
     Choose 1 of your Pokémon. Flip 2 coins. If both are heads,
     remove all damage counters from that Pokémon. If both are
     tails, discard all Energy cards attached to that Pokémon.
-illustrator: Ryo Ueda
+illustrators:
+- Ryo Ueda
 ---
 set: diamond-and-pearl
 number: '109'
@@ -4569,7 +4677,8 @@ mechanics:
     the end of your turn. If the Pokémon PlusPower is attached
     to attacks, the attack does 10 more damage to the Active Pokémon
     (before applying Weakness and Resistance).
-illustrator: Ryo Ueda
+illustrators:
+- Ryo Ueda
 ---
 set: diamond-and-pearl
 number: '110'
@@ -4586,7 +4695,8 @@ mechanics:
     Flip a coin. If heads, search your deck for a Pokémon, show
     it to your opponent, and put it into your hand. Shuffle your
     deck afterward.
-illustrator: Shin-ichi Yoshikawa
+illustrators:
+- Shin-ichi Yoshikawa
 ---
 set: diamond-and-pearl
 number: '111'
@@ -4603,7 +4713,8 @@ mechanics:
     Look at the top 2 cards of your deck, choose 1 of them, and
     put it into your hand. Put the other card on the bottom of
     your deck.
-illustrator: Shin-ichi Yoshikawa
+illustrators:
+- Shin-ichi Yoshikawa
 ---
 set: diamond-and-pearl
 number: '112'
@@ -4627,7 +4738,8 @@ mechanics:
     Choose 1 card in your hand and shuffle the rest of your cards
     into your deck. Then, draw 4 cards (If this is the only card
     in your hand, you can't play this card.)
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: diamond-and-pearl
 number: '113'
@@ -4651,7 +4763,8 @@ mechanics:
     Reveal the top 5 cards of your deck. Your opponent chooses
     3 of those cards. Put those cards into your hand and put other
     2 cards on top of your deck. Shuffle your deck afterward.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: diamond-and-pearl
 number: '114'
@@ -4675,7 +4788,8 @@ mechanics:
     Once during each player's turn, the play may flip a coin until
     he or she gets tails. For each heads, that player draws a
     card.
-illustrator: Ryo Ueda
+illustrators:
+- Ryo Ueda
 ---
 set: diamond-and-pearl
 number: '115'
@@ -4691,7 +4805,8 @@ mechanics:
   text: >-
     Flip a coin. If heads, return 1 of your Pokémon and all cards
     attached to it to your hand.
-illustrator: Shizurow
+illustrators:
+- Shizurow
 ---
 set: diamond-and-pearl
 number: '116'
@@ -4713,7 +4828,8 @@ mechanics:
     Your opponent switches 1 of his or her Defending Pokémon with
     1 of his or her Benched Pokémon, if any. You switch 1 of your
     Active Pokémon with 1 of your Benched Pokémon, if any.
-illustrator: Keiji Kinebuchi
+illustrators:
+- Keiji Kinebuchi
 ---
 set: diamond-and-pearl
 number: '117'
@@ -4734,7 +4850,8 @@ mechanics:
   text: >-
     Search your deck for a basic Energy card, show it to your
     opponent, and put it into your hand. Shuffle your deck afterward.
-illustrator: Kai Ishikawa
+illustrators:
+- Kai Ishikawa
 ---
 set: diamond-and-pearl
 number: '118'
@@ -4755,7 +4872,8 @@ mechanics:
   text: >-
     Remove 2 damage counters from 1 of your Pokémon (remove 1
     damage counter if that Pokémon has only 1).
-illustrator: Shin-ichi Yoshikawa
+illustrators:
+- Shin-ichi Yoshikawa
 ---
 set: diamond-and-pearl
 number: '119'
@@ -4770,7 +4888,8 @@ mechanics:
 - type: effect
   text: >-
     Switch 1 of your Active Pokémon with 1 of your Benched Pokémon.
-illustrator: Ryo Ueda
+illustrators:
+- Ryo Ueda
 ---
 set: diamond-and-pearl
 number: '120'
@@ -4812,7 +4931,8 @@ damage modifiers:
   operation: +
   type: Lightning
 retreat: 2
-illustrator: Shizurow
+illustrators:
+- Shizurow
 ---
 set: diamond-and-pearl
 number: '121'
@@ -4852,7 +4972,8 @@ damage modifiers:
 - amount: 30
   operation: +
   type: Water
-illustrator: Shizurow
+illustrators:
+- Shizurow
 ---
 set: diamond-and-pearl
 number: '122'
@@ -4893,7 +5014,8 @@ damage modifiers:
   operation: +
   type: Fire
 retreat: 4
-illustrator: Shizurow
+illustrators:
+- Shizurow
 ---
 set: diamond-and-pearl
 number: '123'
@@ -4910,7 +5032,8 @@ mechanics:
 - type: effect
   text: >-
     Provides 1 Grass Energy.
-illustrator: Keiji Kinebuchi
+illustrators:
+- Keiji Kinebuchi
 ---
 set: diamond-and-pearl
 number: '124'
@@ -4927,7 +5050,8 @@ mechanics:
 - type: effect
   text: >-
     Provides 1 Fire Energy.
-illustrator: Keiji Kinebuchi
+illustrators:
+- Keiji Kinebuchi
 ---
 set: diamond-and-pearl
 number: '125'
@@ -4944,7 +5068,8 @@ mechanics:
 - type: effect
   text: >-
     Provides 1 Water Energy.
-illustrator: Keiji Kinebuchi
+illustrators:
+- Keiji Kinebuchi
 ---
 set: diamond-and-pearl
 number: '126'
@@ -4961,7 +5086,8 @@ mechanics:
 - type: effect
   text: >-
     Provides 1 Lightning Energy.
-illustrator: Keiji Kinebuchi
+illustrators:
+- Keiji Kinebuchi
 ---
 set: diamond-and-pearl
 number: '127'
@@ -4978,7 +5104,8 @@ mechanics:
 - type: effect
   text: >-
     Provides 1 Psychic Energy.
-illustrator: Keiji Kinebuchi
+illustrators:
+- Keiji Kinebuchi
 ---
 set: diamond-and-pearl
 number: '128'
@@ -4995,7 +5122,8 @@ mechanics:
 - type: effect
   text: >-
     Provides 1 Fighting Energy.
-illustrator: Keiji Kinebuchi
+illustrators:
+- Keiji Kinebuchi
 ---
 set: diamond-and-pearl
 number: '129'
@@ -5012,7 +5140,8 @@ mechanics:
 - type: effect
   text: >-
     Provides 1 Darkness Energy.
-illustrator: Keiji Kinebuchi
+illustrators:
+- Keiji Kinebuchi
 ---
 set: diamond-and-pearl
 number: '130'
@@ -5029,4 +5158,5 @@ mechanics:
 - type: effect
   text: >-
     Provides 1 Metal Energy.
-illustrator: Keiji Kinebuchi
+illustrators:
+- Keiji Kinebuchi

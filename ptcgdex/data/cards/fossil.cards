@@ -36,7 +36,8 @@ dex number: 142
 species: Fossil
 weight: 130
 height: 5'11
-illustrator: Kagemaru Himeno
+illustrators:
+- Kagemaru Himeno
 ---
 set: fossil
 number: '2'
@@ -77,7 +78,8 @@ dex number: 144
 species: Freeze
 weight: 122
 height: 5'7
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: fossil
 number: '3'
@@ -115,7 +117,8 @@ dex number: 132
 species: Transform
 weight: 9
 height: 1'0
-illustrator: Keiji Kinebuchi
+illustrators:
+- Keiji Kinebuchi
 ---
 set: fossil
 number: '4'
@@ -154,7 +157,8 @@ dex number: 149
 species: Dragon
 weight: 463
 height: 7'3
-illustrator: Kagemaru Himeno
+illustrators:
+- Kagemaru Himeno
 ---
 set: fossil
 number: '5'
@@ -196,7 +200,8 @@ dex number: 94
 species: Shadow
 weight: 89
 height: 4'11
-illustrator: Keiji Kinebuchi
+illustrators:
+- Keiji Kinebuchi
 ---
 set: fossil
 number: '6'
@@ -235,7 +240,8 @@ dex number: 93
 species: Gas
 weight: 0.2
 height: 5'3
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: fossil
 number: '7'
@@ -272,7 +278,8 @@ dex number: 106
 species: Kicking
 weight: 110
 height: 4'11
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: fossil
 number: '8'
@@ -313,7 +320,8 @@ dex number: 97
 species: Hypnosis
 weight: 167
 height: 5'3
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: fossil
 number: '9'
@@ -354,7 +362,8 @@ dex number: 141
 species: Shellfish
 weight: 89
 height: 4'3
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: fossil
 number: '10'
@@ -394,7 +403,8 @@ dex number: 131
 species: Transport
 weight: 485
 height: 8'2
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: fossil
 number: '11'
@@ -437,7 +447,8 @@ dex number: 82
 species: Magnet
 weight: 132
 height: 3'3
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: fossil
 number: '12'
@@ -476,7 +487,8 @@ dex number: 146
 species: Flame
 weight: 132
 height: 6'7
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: fossil
 number: '13'
@@ -514,7 +526,8 @@ dex number: 89
 species: Sludge
 weight: 66
 height: 3'11
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: fossil
 number: '14'
@@ -550,7 +563,8 @@ dex number: 26
 species: Mouse
 weight: 66
 height: 2'7
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: fossil
 number: '15'
@@ -585,7 +599,8 @@ dex number: 145
 species: Electric
 weight: 116
 height: 5'3
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: fossil
 number: '16'
@@ -625,7 +640,8 @@ dex number: 142
 species: Fossil
 weight: 130
 height: 5'11
-illustrator: Kagemaru Himeno
+illustrators:
+- Kagemaru Himeno
 ---
 set: fossil
 number: '17'
@@ -667,7 +683,8 @@ dex number: 144
 species: Freeze
 weight: 122
 height: 5'7
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: fossil
 number: '18'
@@ -706,7 +723,8 @@ dex number: 132
 species: Transform
 weight: 9
 height: 1'0
-illustrator: Keiji Kinebuchi
+illustrators:
+- Keiji Kinebuchi
 ---
 set: fossil
 number: '19'
@@ -746,7 +764,8 @@ dex number: 149
 species: Dragon
 weight: 463
 height: 7'3
-illustrator: Kagemaru Himeno
+illustrators:
+- Kagemaru Himeno
 ---
 set: fossil
 number: '20'
@@ -789,7 +808,8 @@ dex number: 94
 species: Shadow
 weight: 89
 height: 4'11
-illustrator: Keiji Kinebuchi
+illustrators:
+- Keiji Kinebuchi
 ---
 set: fossil
 number: '21'
@@ -829,7 +849,8 @@ dex number: 93
 species: Gas
 weight: 0.2
 height: 5'3
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: fossil
 number: '22'
@@ -867,7 +888,8 @@ dex number: 106
 species: Kicking
 weight: 110
 height: 4'11
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: fossil
 number: '23'
@@ -909,7 +931,8 @@ dex number: 97
 species: Hypnosis
 weight: 167
 height: 5'3
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: fossil
 number: '24'
@@ -951,7 +974,8 @@ dex number: 141
 species: Shellfish
 weight: 89
 height: 4'3
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: fossil
 number: '25'
@@ -992,7 +1016,8 @@ dex number: 131
 species: Transport
 weight: 485
 height: 8'2
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: fossil
 number: '26'
@@ -1036,7 +1061,8 @@ dex number: 82
 species: Magnet
 weight: 132
 height: 3'3
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: fossil
 number: '27'
@@ -1076,7 +1102,8 @@ dex number: 146
 species: Flame
 weight: 132
 height: 6'7
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: fossil
 number: '28'
@@ -1115,7 +1142,8 @@ dex number: 89
 species: Sludge
 weight: 66
 height: 3'11
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: fossil
 number: '29'
@@ -1152,7 +1180,8 @@ dex number: 26
 species: Mouse
 weight: 66
 height: 2'7
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: fossil
 number: '30'
@@ -1188,7 +1217,8 @@ dex number: 145
 species: Electric
 weight: 116
 height: 5'3
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: fossil
 number: '31'
@@ -1230,7 +1260,8 @@ dex number: 24
 species: Cobra
 weight: 143
 height: 11'6
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: fossil
 number: '32'
@@ -1271,7 +1302,8 @@ dex number: 91
 species: Bivalve
 weight: 292
 height: 4'11
-illustrator: Kagemaru Himeno
+illustrators:
+- Kagemaru Himeno
 ---
 set: fossil
 number: '33'
@@ -1308,7 +1340,8 @@ dex number: 92
 species: Gas
 weight: 0.2
 height: 4'3
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: fossil
 number: '34'
@@ -1350,7 +1383,8 @@ dex number: 42
 species: Bat
 weight: 121
 height: 5'3
-illustrator: Kagemaru Himeno
+illustrators:
+- Kagemaru Himeno
 ---
 set: fossil
 number: '35'
@@ -1390,7 +1424,8 @@ dex number: 55
 species: Duck
 weight: 169
 height: 5'7
-illustrator: Kagemaru Himeno
+illustrators:
+- Kagemaru Himeno
 ---
 set: fossil
 number: '36'
@@ -1429,7 +1464,8 @@ dex number: 76
 species: Megaton
 weight: 662
 height: 4'7
-illustrator: Kagemaru Himeno
+illustrators:
+- Kagemaru Himeno
 ---
 set: fossil
 number: '37'
@@ -1467,7 +1503,8 @@ dex number: 75
 species: Rock
 weight: 232
 height: 3'3
-illustrator: Kagemaru Himeno
+illustrators:
+- Kagemaru Himeno
 ---
 set: fossil
 number: '38'
@@ -1504,7 +1541,8 @@ dex number: 99
 species: Pincer
 weight: 132
 height: 4'3
-illustrator: Kagemaru Himeno
+illustrators:
+- Kagemaru Himeno
 ---
 set: fossil
 number: '39'
@@ -1544,7 +1582,8 @@ dex number: 126
 species: Spitfire
 weight: 98
 height: 4'3
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: fossil
 number: '40'
@@ -1586,7 +1625,8 @@ dex number: 139
 species: Spiral
 weight: 77
 height: 3'3
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: fossil
 number: '41'
@@ -1627,7 +1667,8 @@ dex number: 28
 species: Mouse
 weight: 65
 height: 3'3
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: fossil
 number: '42'
@@ -1669,7 +1710,8 @@ dex number: 117
 species: Dragon
 weight: 55
 height: 3'1
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: fossil
 number: '43'
@@ -1709,7 +1751,8 @@ dex number: 80
 species: Hermitcrab
 weight: 173
 height: 5'3
-illustrator: Kagemaru Himeno
+illustrators:
+- Kagemaru Himeno
 ---
 set: fossil
 number: '44'
@@ -1746,7 +1789,8 @@ dex number: 73
 species: Jellyfish
 weight: 121
 height: 5'3
-illustrator: Kagemaru Himeno
+illustrators:
+- Kagemaru Himeno
 ---
 set: fossil
 number: '45'
@@ -1787,7 +1831,8 @@ dex number: 110
 species: Poison Gas
 weight: 21
 height: 3'11
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: fossil
 number: '46'
@@ -1824,7 +1869,8 @@ dex number: 23
 species: Snake
 weight: 15
 height: 6'7
-illustrator: Kagemaru Himeno
+illustrators:
+- Kagemaru Himeno
 ---
 set: fossil
 number: '47'
@@ -1857,7 +1903,8 @@ dex number: 74
 species: Rock
 weight: 44
 height: 1'4
-illustrator: Kagemaru Himeno
+illustrators:
+- Kagemaru Himeno
 ---
 set: fossil
 number: '48'
@@ -1895,7 +1942,8 @@ dex number: 88
 species: Sludge
 weight: 66
 height: 2'11
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: fossil
 number: '49'
@@ -1928,7 +1976,8 @@ dex number: 116
 species: Dragon
 weight: 18
 height: 1'4
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: fossil
 number: '50'
@@ -1967,7 +2016,8 @@ dex number: 140
 species: Shellfish
 weight: 25
 height: 1'8
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: fossil
 number: '51'
@@ -2004,7 +2054,8 @@ dex number: 98
 species: River Crab
 weight: 14
 height: 1'4
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: fossil
 number: '52'
@@ -2044,7 +2095,8 @@ dex number: 138
 species: Spiral
 weight: 17
 height: 1'4
-illustrator: Kagemaru Himeno
+illustrators:
+- Kagemaru Himeno
 ---
 set: fossil
 number: '53'
@@ -2083,7 +2135,8 @@ dex number: 54
 species: Duck
 weight: 43
 height: 2'7
-illustrator: Kagemaru Himeno
+illustrators:
+- Kagemaru Himeno
 ---
 set: fossil
 number: '54'
@@ -2121,7 +2174,8 @@ dex number: 90
 species: Bivalve
 weight: 9
 height: 1'0
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: fossil
 number: '55'
@@ -2161,7 +2215,8 @@ dex number: 79
 species: Dopey
 weight: 79
 height: 3'11
-illustrator: Miki Tanaka
+illustrators:
+- Miki Tanaka
 ---
 set: fossil
 number: '56'
@@ -2197,7 +2252,8 @@ dex number: 72
 species: Jellyfish
 weight: 100
 height: 2'11
-illustrator: Kagemaru Himeno
+illustrators:
+- Kagemaru Himeno
 ---
 set: fossil
 number: '57'
@@ -2239,7 +2295,8 @@ dex number: 41
 species: Bat
 weight: 17
 height: 2'7
-illustrator: Kagemaru Himeno
+illustrators:
+- Kagemaru Himeno
 ---
 set: fossil
 number: '58'
@@ -2255,7 +2312,8 @@ mechanics:
   text: >-
     Choose a Pokémon on your Bench. Shuffle it and any cards attached
     to it into your deck.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: fossil
 number: '59'
@@ -2272,7 +2330,8 @@ mechanics:
   text: >-
     Search your deck for a basic Energy card and put it into your
     hand. Shuffle your deck afterward.
-illustrator: Keiji Kinebuchi
+illustrators:
+- Keiji Kinebuchi
 ---
 set: fossil
 number: '60'
@@ -2288,7 +2347,8 @@ mechanics:
   text: >-
     Shuffle your hand into your deck. Flip a coin. If heads, draw
     8 cards. If tails, draw 1 card.
-illustrator: Keiji Kinebuchi
+illustrators:
+- Keiji Kinebuchi
 ---
 set: fossil
 number: '61'
@@ -2304,7 +2364,8 @@ mechanics:
   text: >-
     Flip a coin. If heads, put a card in your discard pile on
     top of your deck.
-illustrator: Keiji Kinebuchi
+illustrators:
+- Keiji Kinebuchi
 ---
 set: fossil
 number: '62'
@@ -2330,4 +2391,5 @@ mechanics:
     Out Pokémon. (Discard it anyway.) At any time during your
     turn before your attack, you may discard Mysterious Fossil
     from play.
-illustrator: Keiji Kinebuchi
+illustrators:
+- Keiji Kinebuchi

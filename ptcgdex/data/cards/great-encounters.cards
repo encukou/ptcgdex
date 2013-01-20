@@ -41,7 +41,8 @@ height: 6'3
 dex entry: >-
   Flames sprout from it's wrists, enveloping it's knuckles. It's
   punches scorch it's foes.
-illustrator: Kagemaru Himeno
+illustrators:
+- Kagemaru Himeno
 ---
 set: great-encounters
 number: '2'
@@ -85,7 +86,8 @@ height: 4'11
 dex entry: >-
   Shiny particles are released from it's wings like a veil. It
   is said to represent the crescent moon.
-illustrator: Ryo Ueda
+illustrators:
+- Ryo Ueda
 ---
 set: great-encounters
 number: '3'
@@ -130,7 +132,8 @@ height: 4'11
 dex entry: >-
   It can lull people to sleep and make them dream. It is active
   during nights of the new moon.
-illustrator: Masakazu Fukuda
+illustrators:
+- Masakazu Fukuda
 ---
 set: great-encounters
 number: '4'
@@ -177,7 +180,8 @@ height: 4'11
 dex entry: >-
   It can lull people to sleep and make them dream. It is active
   during nights of the new moon.
-illustrator: Ryo Ueda
+illustrators:
+- Ryo Ueda
 ---
 set: great-encounters
 number: '5'
@@ -224,7 +228,8 @@ height: 1'4
 dex entry: >-
   It makes fur balls that crackle with static electricity. It
   stores them with berries in tree holes.
-illustrator: Hironobu Yoshida
+illustrators:
+- Hironobu Yoshida
 ---
 set: great-encounters
 number: '6'
@@ -269,7 +274,8 @@ height: 2'11
 dex entry: >-
   Additional software was installed to make it a better Pokémon.
   It began acting oddly, however.
-illustrator: Kent Kanetsuna
+illustrators:
+- Kent Kanetsuna
 ---
 set: great-encounters
 number: '7'
@@ -316,7 +322,8 @@ height: 1'0
 dex entry: >-
   It's body is composed of plasma. It is known to infiltrate electronic
   devices and wreak havoc.
-illustrator: Daisuke Ito
+illustrators:
+- Daisuke Ito
 ---
 set: great-encounters
 number: '8'
@@ -362,7 +369,8 @@ height: 5'7
 dex entry: >-
   The leaves that grow on it's arms can slice down thick trees.
   It is without peer in jungle combat.
-illustrator: Masakazu Fukuda
+illustrators:
+- Masakazu Fukuda
 ---
 set: great-encounters
 number: '9'
@@ -405,7 +413,8 @@ height: 4'11
 dex entry: >-
   It can swim while towing a large ship. It bashes down foes with
   a swing of it's thick arms.
-illustrator: Midori Harada
+illustrators:
+- Midori Harada
 ---
 set: great-encounters
 number: '10'
@@ -453,7 +462,8 @@ height: 6'7
 dex entry: >-
   It ensnares prey by extending arms made of vines. Losing arms
   to predators does not trouble it.
-illustrator: Kent Kanetsuna
+illustrators:
+- Kent Kanetsuna
 ---
 set: great-encounters
 number: '11'
@@ -502,7 +512,8 @@ height: 4'11
 dex entry: >-
   It will never appear where there is strife. It's sightings have
   become rare recently.
-illustrator: Kent Kanetsuna
+illustrators:
+- Kent Kanetsuna
 ---
 set: great-encounters
 number: '12'
@@ -555,7 +566,8 @@ height: 3'7
 dex entry: >-
   It looks like a fluffy cloud when it is in flight. It hums with
   it's soprano voice.
-illustrator: Kagemaru Himeno
+illustrators:
+- Kagemaru Himeno
 ---
 set: great-encounters
 number: '13'
@@ -602,7 +614,8 @@ height: 3'3
 dex entry: >-
   It's best attack involves flying around at high speed, striking
   with poison needles, then flying off.
-illustrator: Kouki Saitou
+illustrators:
+- Kouki Saitou
 ---
 set: great-encounters
 number: '14'
@@ -646,7 +659,8 @@ height: 3'7
 dex entry: >-
   It loves the honey of flowers and can locate flower patches
   that have even tiny amounts of pollen.
-illustrator: Sumiyoshi Kizuki
+illustrators:
+- Sumiyoshi Kizuki
 ---
 set: great-encounters
 number: '15'
@@ -688,7 +702,8 @@ height: 4'11
 dex entry: >-
   An ancient clay figurine that came to life as a Pokémon from
   exposure to a mysterious ray of light.
-illustrator: Midori Harada
+illustrators:
+- Midori Harada
 ---
 set: great-encounters
 number: '16'
@@ -737,7 +752,8 @@ height: 17'9
 dex entry: >-
   It has the power to control time. It appears in Sinnoh-region
   myths as an ancient deity.
-illustrator: Daisuke Ito
+illustrators:
+- Daisuke Ito
 ---
 set: great-encounters
 number: '17'
@@ -783,7 +799,8 @@ height: 4'11
 dex entry: >-
   It's howls can be heard over six miles away. It emits all sorts
   of noises from the ports on it's body.
-illustrator: Daisuke Ito
+illustrators:
+- Daisuke Ito
 ---
 set: great-encounters
 number: '18'
@@ -832,7 +849,8 @@ height: 4'7
 dex entry: >-
   Long ago, people imagined it's eerie howls to be the call of
   the grim reaper.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: great-encounters
 number: '19'
@@ -874,7 +892,8 @@ height: 5'3
 dex entry: >-
   Seeing it's swinging pendulum can induce sleep in three seconds,
   even in someone who just woke up.
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: great-encounters
 number: '20'
@@ -915,7 +934,8 @@ height: 4'3
 dex entry: >-
   The largest pincer has 10,000-horsepower strength. However,
   it is so heavy, it is difficult to aim.
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: great-encounters
 number: '21'
@@ -955,7 +975,8 @@ height: 8'2
 dex entry: >-
   It loves crossing the sea with people and Pokémon on it's back.
   It understands human speech.
-illustrator: Atsuko Nishida
+illustrators:
+- Atsuko Nishida
 ---
 set: great-encounters
 number: '22'
@@ -999,7 +1020,8 @@ height: 4'7
 dex entry: >-
   It's body is covered with a down that can refract light in such
   a way that it becomes invisible.
-illustrator: Daisuke Ito
+illustrators:
+- Daisuke Ito
 ---
 set: great-encounters
 number: '23'
@@ -1044,7 +1066,8 @@ height: 6'7
 dex entry: >-
   A highly intelligent Pokémon. By holding back it's wings in
   flight, it can overtake jet planes.
-illustrator: Daisuke Ito
+illustrators:
+- Daisuke Ito
 ---
 set: great-encounters
 number: '24'
@@ -1092,7 +1115,8 @@ height: 2'0
 dex entry: >-
   Attached to it's head are a huge set of jaws formed by horns.
   It can chew through iron beams.
-illustrator: Midori Harada
+illustrators:
+- Midori Harada
 ---
 set: great-encounters
 number: '25'
@@ -1134,7 +1158,8 @@ height: 20'4
 dex entry: >-
   When people bicker, it is said to arise from the depths of lakes
   to becalm violent hearts.
-illustrator: Suwama Chiaki
+illustrators:
+- Suwama Chiaki
 ---
 set: great-encounters
 number: '26'
@@ -1182,7 +1207,8 @@ height: 13'9
 dex entry: >-
   It has the ability to distort space. It is described as a deity
   in Sinnoh-region mythology.
-illustrator: Daisuke Ito
+illustrators:
+- Daisuke Ito
 ---
 set: great-encounters
 number: '27'
@@ -1225,7 +1251,8 @@ height: 3'3
 dex entry: >-
   It grows angry if you see it's eyes and gets angrier if you
   run. If you beat it, it gets even madder.
-illustrator: Kagemaru Himeno
+illustrators:
+- Kagemaru Himeno
 ---
 set: great-encounters
 number: '28'
@@ -1270,7 +1297,8 @@ height: 6'7
 dex entry: >-
   Being bitten by SHELLDER gave it intelligence comparable to
   that of award-winning scientists.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: great-encounters
 number: '29'
@@ -1312,7 +1340,8 @@ height: 1'8
 dex entry: >-
   Shaped like ancient writing, it is a huge mystery whether language
   or UNOWN came first.
-illustrator: Daisuke Ito
+illustrators:
+- Daisuke Ito
 ---
 set: great-encounters
 number: '30'
@@ -1353,7 +1382,8 @@ height: 47'7
 dex entry: >-
   The biggest of all Pokémon. It can dive to a depth of almost
   10,000 feet on only one breath.
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: great-encounters
 number: '31'
@@ -1395,7 +1425,8 @@ height: 3'11
 dex entry: >-
   It grows by feeding on on gases released by garbage. Though
   very rare, triplets have been found.
-illustrator: Kouki Saitou
+illustrators:
+- Kouki Saitou
 ---
 set: great-encounters
 number: '32'
@@ -1439,7 +1470,8 @@ height: 3'3
 dex entry: >-
   It's fine fur feels sublime to the touch. It can expand it's
   body by inhaling air.
-illustrator: Kagemaru Himeno
+illustrators:
+- Kagemaru Himeno
 ---
 set: great-encounters
 number: '33'
@@ -1483,7 +1515,8 @@ height: 11'6
 dex entry: >-
   The pattern on it's belly is for intimidation. It constricts
   foes while they are frozen in fear.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: great-encounters
 number: '34'
@@ -1530,7 +1563,8 @@ height: 4'3
 dex entry: >-
   It becomes active at night, seeking prey that is exhausted from
   the day's desert heat.
-illustrator: Midori Harada
+illustrators:
+- Midori Harada
 ---
 set: great-encounters
 number: '35'
@@ -1575,7 +1609,8 @@ height: 2'11
 dex entry: >-
   It's kicking mastery lets it loose 10 kicks per second. It emits
   sharp cries to intimidate foes.
-illustrator: Naoyo Kimura
+illustrators:
+- Naoyo Kimura
 ---
 set: great-encounters
 number: '36'
@@ -1614,7 +1649,8 @@ height: 2'11
 dex entry: >-
   It carries food rolled up in it's tail. It has the habit of
   sharing food with people lost in mountians.
-illustrator: Masakazu Fukuda
+illustrators:
+- Masakazu Fukuda
 ---
 set: great-encounters
 number: '37'
@@ -1660,7 +1696,8 @@ height: 3'7
 dex entry: >-
   It floats using it's well-developed floatation sac. It assists
   in the rescues of drowning people.
-illustrator: Kouki Saitou
+illustrators:
+- Kouki Saitou
 ---
 set: great-encounters
 number: '38'
@@ -1704,7 +1741,8 @@ height: 5'11
 dex entry: >-
   It lives at the bottom of the sea. in the springtime, it's pink
   body turns more vivid for some reason.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: great-encounters
 number: '39'
@@ -1749,7 +1787,8 @@ height: 4'7
 dex entry: >-
   It is timid in spite of it's looks. If it becomes enraged, however,
   it will strike with it's huge fangs.
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: great-encounters
 number: '40'
@@ -1795,7 +1834,8 @@ height: 2'11
 dex entry: >-
   It lives in dense jungles. While closing in on it's prey, it
   leaps from branch to branch.
-illustrator: Kagemaru Himeno
+illustrators:
+- Kagemaru Himeno
 ---
 set: great-encounters
 number: '41'
@@ -1839,7 +1879,8 @@ height: 7'7
 dex entry: >-
   It loves to match power with big-bodied Pokémon. It can knock
   a truck flying with it's arm thrusts.
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: great-encounters
 number: '42'
@@ -1883,7 +1924,8 @@ height: 5'7
 dex entry: >-
   It lives deep in the sea. With a tail shaped like a small fish,
   it attracts unsuspecting prey.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: great-encounters
 number: '43'
@@ -1927,7 +1969,8 @@ height: 1'8
 dex entry: >-
   It charges prey at speeds over 60 mph. However, because it can
   only run straight, it often fails.
-illustrator: Kouki Saitou
+illustrators:
+- Kouki Saitou
 ---
 set: great-encounters
 number: '44'
@@ -1971,7 +2014,8 @@ height: 3'3
 dex entry: >-
   The shock waves from it's cries can tip over trucks. It stamps
   it's feet to power up.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: great-encounters
 number: '45'
@@ -2012,7 +2056,8 @@ height: 2'7
 dex entry: >-
   It's body temperature is roughly 18,000 degrees F. Flames spout
   from gaps in it's hardened shell.
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: great-encounters
 number: '46'
@@ -2054,7 +2099,8 @@ height: 2'4
 dex entry: >-
   It's sturdy legs give it sure footing, even in mud. It burrows
   into dirt to sleep.
-illustrator: Sumiyoshi Kizuki
+illustrators:
+- Sumiyoshi Kizuki
 ---
 set: great-encounters
 number: '47'
@@ -2097,7 +2143,8 @@ height: 2'4
 dex entry: >-
   A steel-hard shell protects it's tender body. It quietly endures
   hardships while awaiting evolution.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: great-encounters
 number: '48'
@@ -2145,7 +2192,8 @@ height: 3'11
 dex entry: >-
   It dips it's large bill into the sea, then scoops up numerous
   prey along with water.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: great-encounters
 number: '49'
@@ -2186,7 +2234,8 @@ height: 2'0
 dex entry: >-
   With planetary development software installed, it became capable
   of working in space.
-illustrator: Kent Kanetsuna
+illustrators:
+- Kent Kanetsuna
 ---
 set: great-encounters
 number: '50'
@@ -2230,7 +2279,8 @@ height: 3'3
 dex entry: >-
   It is a brazen brute that barges it's way into another Pokémon's
   nest and claims it as it's own.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: great-encounters
 number: '51'
@@ -2272,7 +2322,8 @@ height: 3'3
 dex entry: >-
   A rare Pokémon discovered during a deep-sea exploration. It
   has not changed in over 100 million years.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: great-encounters
 number: '52'
@@ -2315,7 +2366,8 @@ height: 8'10
 dex entry: >-
   For many generations, it has feuded with ZANGOOSE. It whets
   it's bladed tail on rocks for battle.
-illustrator: Masakazu Fukuda
+illustrators:
+- Masakazu Fukuda
 ---
 set: great-encounters
 number: '53'
@@ -2361,7 +2413,8 @@ height: 5'7
 dex entry: >-
   Despite being clad entirely in iron-hard armor, it flies at
   speeds over 180 mph.
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: great-encounters
 number: '54'
@@ -2402,7 +2455,8 @@ height: 5'3
 dex entry: >-
   Though usually dim witted, it seems to become inspired if the
   SHELLDER on it's tail bites down.
-illustrator: Atsuko Nishida
+illustrators:
+- Atsuko Nishida
 ---
 set: great-encounters
 number: '55'
@@ -2445,7 +2499,8 @@ height: 2'0
 dex entry: >-
   It is said to appear in front of kindly people to scatter a
   glowing down called "joy dust."
-illustrator: Kagemaru Himeno
+illustrators:
+- Kagemaru Himeno
 ---
 set: great-encounters
 number: '56'
@@ -2489,7 +2544,8 @@ height: 1'8
 dex entry: >-
   Shaped like ancient writing, it is a huge mystery whether language
   or UNOWN came first.
-illustrator: Daisuke Ito
+illustrators:
+- Daisuke Ito
 ---
 set: great-encounters
 number: '57'
@@ -2535,7 +2591,8 @@ height: 1'8
 dex entry: >-
   Shaped like ancient writing, it is a huge mystery whether language
   or UNOWN came first.
-illustrator: Daisuke Ito
+illustrators:
+- Daisuke Ito
 ---
 set: great-encounters
 number: '58'
@@ -2576,7 +2633,8 @@ height: 6'7
 dex entry: >-
   On sunny days, it lands on beaches to bounce like a ball and
   play. It spouts water from it's nose.
-illustrator: Satoshi Ohta
+illustrators:
+- Satoshi Ohta
 ---
 set: great-encounters
 number: '59'
@@ -2616,7 +2674,8 @@ height: 4'3
 dex entry: >-
   It has feuded with SEVIPER for many generations. It's sharp
   claws are it's biggest weapons.
-illustrator: Masakazu Fukuda
+illustrators:
+- Masakazu Fukuda
 ---
 set: great-encounters
 number: '60'
@@ -2659,7 +2718,8 @@ height: 1'8
 dex entry: >-
   It moves by spinning on it's foot. It is a rare Pokémon that
   was discovered in ancient ruins.
-illustrator: Sumiyoshi Kizuki
+illustrators:
+- Sumiyoshi Kizuki
 ---
 set: great-encounters
 number: '61'
@@ -2696,7 +2756,8 @@ height: 2'4
 dex entry: >-
   It has a flotation sac that is like an inflatable collar. It
   floats on water with it's head out.
-illustrator: Masakazu Fukuda
+illustrators:
+- Masakazu Fukuda
 ---
 set: great-encounters
 number: '62'
@@ -2741,7 +2802,8 @@ height: 1'4
 dex entry: >-
   By storing water in it's body, this desert dweller can survive
   for 30 days without water.
-illustrator: Saya Tsuruta
+illustrators:
+- Saya Tsuruta
 ---
 set: great-encounters
 number: '63'
@@ -2783,7 +2845,8 @@ height: 1'0
 dex entry: >-
   It releases a stench from it's red antenna to repel enemies.
   It grows by molting repeatedly.
-illustrator: Midori Harada
+illustrators:
+- Midori Harada
 ---
 set: great-encounters
 number: '64'
@@ -2823,7 +2886,8 @@ height: 1'4
 dex entry: >-
   It makes a single pearl during it's lifetime. The pearl is said
   to amplify psychic power.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: great-encounters
 number: '65'
@@ -2861,7 +2925,8 @@ height: 3'3
 dex entry: >-
   It can tell what people are dreaming by sniffing with it's big
   nose. It loves fun dreams.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: great-encounters
 number: '66'
@@ -2901,7 +2966,8 @@ height: 6'7
 dex entry: >-
   It sneaks through grass without making a sound and strikes unsuspecting
   prey from behind.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: great-encounters
 number: '67'
@@ -2940,7 +3006,8 @@ height: 2'0
 dex entry: >-
   It is famous for it's shabby appearance. While populous, they
   tend to cluster in set locations.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: great-encounters
 number: '68'
@@ -2979,7 +3046,8 @@ height: 1'8
 dex entry: >-
   It claws if displeased and purrs when affectionate. It's fickleness
   is very popular among some.
-illustrator: Kagemaru Himeno
+illustrators:
+- Kagemaru Himeno
 ---
 set: great-encounters
 number: '69'
@@ -3018,7 +3086,8 @@ height: 2'0
 dex entry: >-
   It conveys it's feelings using different cries. It works in
   a pack to cleverly take down prey.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: great-encounters
 number: '70'
@@ -3059,7 +3128,8 @@ height: 1'0
 dex entry: >-
   It has a soft and bouncy body. Once it starts bouncing, it becomes
   impossible to stop.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: great-encounters
 number: '71'
@@ -3102,7 +3172,8 @@ height: 2'0
 dex entry: >-
   With it's sweet aroma, it guides VOLBEAT to draw signs with
   light in the night sky.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: great-encounters
 number: '72'
@@ -3143,7 +3214,8 @@ height: 1'8
 dex entry: >-
   When it wavers it's big, round eyes, it begins singing a lullaby
   that makes everyone drowsy.
-illustrator: Kenkichi Toyama
+illustrators:
+- Kenkichi Toyama
 ---
 set: great-encounters
 number: '73'
@@ -3185,7 +3257,8 @@ height: 2'0
 dex entry: >-
   While awaiting evolution, it hides from predators under leaves
   and in nooks of branches.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: great-encounters
 number: '74'
@@ -3226,7 +3299,8 @@ height: 2'0
 dex entry: >-
   Lighter-than-air gases in it's body keep it aloft. The gases
   not only smell, they are also explosive.
-illustrator: Lee HyunJung
+illustrators:
+- Lee HyunJung
 ---
 set: great-encounters
 number: '75'
@@ -3263,7 +3337,8 @@ height: 1'4
 dex entry: >-
   It lives in burrows dug on sandy beaches. It's pincers fully
   grow back if they are broken in battle.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: great-encounters
 number: '76'
@@ -3305,7 +3380,8 @@ height: 3'3
 dex entry: >-
   Because it turns active on nights of the full moon, it is said
   to have some link to the lunar phases.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: great-encounters
 number: '77'
@@ -3348,7 +3424,8 @@ height: 2'0
 dex entry: >-
   It lives in warm seas. It is said that a couple finding this
   Pokémon will be blessed with eternal love.
-illustrator: Atsuko Nishida
+illustrators:
+- Atsuko Nishida
 ---
 set: great-encounters
 number: '78'
@@ -3388,7 +3465,8 @@ height: 3'3
 dex entry: >-
   It toughens it's body by slamming into thick trees. Many snapped
   trees can be found near it's nest.
-illustrator: Atsuko Nishida
+illustrators:
+- Atsuko Nishida
 ---
 set: great-encounters
 number: '79'
@@ -3428,7 +3506,8 @@ height: 1'8
 dex entry: >-
   It lives in treetop colonies. If one becomes enraged, the whole
   colony rampages for no reason.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: great-encounters
 number: '80'
@@ -3468,7 +3547,8 @@ height: 1'4
 dex entry: >-
   To alert it, the fin on it's head senses the flow of water.
   It has the strength to heft boulders.
-illustrator: Emi Yoshida
+illustrators:
+- Emi Yoshida
 ---
 set: great-encounters
 number: '81'
@@ -3507,7 +3587,8 @@ height: 2'7
 dex entry: >-
   The world's first artificially created Pokémon. It can travel
   through electronic space.
-illustrator: Kent Kanetsuna
+illustrators:
+- Kent Kanetsuna
 ---
 set: great-encounters
 number: '82'
@@ -3548,7 +3629,8 @@ height: 3'11
 dex entry: >-
   Although slow, it is skilled at fishing with it's tail. It does
   not feel pain if it's tail is bitten.
-illustrator: Saya Tsuruta
+illustrators:
+- Saya Tsuruta
 ---
 set: great-encounters
 number: '83'
@@ -3587,7 +3669,8 @@ height: 2'4
 dex entry: >-
   It's body is made of magma. If it doesn't keep moving, it's
   body will cool and harden.
-illustrator: Masakazu Fukuda
+illustrators:
+- Masakazu Fukuda
 ---
 set: great-encounters
 number: '84'
@@ -3626,7 +3709,8 @@ height: 2'0
 dex entry: >-
   Small Pokémon flee from it's scary face. It is, however, considered
   by women to be cute.
-illustrator: Atsuko Nishida
+illustrators:
+- Atsuko Nishida
 ---
 set: great-encounters
 number: '85'
@@ -3667,7 +3751,8 @@ height: 3'11
 dex entry: >-
   A new Pokémon species, rumored to be from the sun. It gives
   off light while spinning.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: great-encounters
 number: '86'
@@ -3712,7 +3797,8 @@ height: 1'4
 dex entry: >-
   It's wings are like cotton tufts. If it perches on someone's
   head, It looks like a cotton hat.
-illustrator: Kanako Eo
+illustrators:
+- Kanako Eo
 ---
 set: great-encounters
 number: '87'
@@ -3755,7 +3841,8 @@ height: 3'3
 dex entry: >-
   It is shrouded by blue vines. No one has seen the face hidden
   behind this growth of vines.
-illustrator: Sumiyoshi Kizuki
+illustrators:
+- Sumiyoshi Kizuki
 ---
 set: great-encounters
 number: '88'
@@ -3796,7 +3883,8 @@ height: 1'0
 dex entry: >-
   It's shell is said to be stuffed with happiness that it shares
   with kindhearted people.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: great-encounters
 number: '89'
@@ -3834,7 +3922,8 @@ height: 1'4
 dex entry: >-
   A fire burns inside, so it feels very warm to hug. It launches
   fireballs of 1,800 degrees F.
-illustrator: Hiroki Fuchino
+illustrators:
+- Hiroki Fuchino
 ---
 set: great-encounters
 number: '90'
@@ -3880,7 +3969,8 @@ height: 1'8
 dex entry: >-
   The soles of it's feet are covered by countless tiny spikes,
   enabling it to walk on walls and ceilings.
-illustrator: Kouki Saitou
+illustrators:
+- Kouki Saitou
 ---
 set: great-encounters
 number: '91'
@@ -3922,7 +4012,8 @@ height: 1'8
 dex entry: >-
   Shaped like ancient writing, it is a huge mystery whether language
   or UNOWN came first.
-illustrator: Daisuke Ito
+illustrators:
+- Daisuke Ito
 ---
 set: great-encounters
 number: '92'
@@ -3965,7 +4056,8 @@ height: 2'4
 dex entry: >-
   It communicates with others by lighting up it's rear at night.
   It loves ILLUMISE's sweet aroma.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: great-encounters
 number: '93'
@@ -4005,7 +4097,8 @@ height: 1'0
 dex entry: >-
   It eats it's weight in leaves every day. It fends off attackers
   with the needle on it's head.
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: great-encounters
 number: '94'
@@ -4045,7 +4138,8 @@ height: 2'0
 dex entry: >-
   Usually it's cries are like quiet murmurs. If frightened, it
   shrieks at the same volume as a jet plane.
-illustrator: Takao Unno
+illustrators:
+- Takao Unno
 ---
 set: great-encounters
 number: '95'
@@ -4085,7 +4179,8 @@ height: 2'0
 dex entry: >-
   It makes it's nest on steep sea cliffs. Riding updrafts, it
   soars to great heights.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: great-encounters
 number: '96'
@@ -4127,7 +4222,8 @@ height: 1'4
 dex entry: >-
   It walks in zigzag fashion. It is good at finding items in the
   grass and even in the ground.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: great-encounters
 number: '97'
@@ -4150,7 +4246,8 @@ mechanics:
   text: >-
     If the Pokémon Amulet Coin is attached to is your Active Pokémon
     at the end of your turn, draw a card.
-illustrator: Daisuke Ito
+illustrators:
+- Daisuke Ito
 ---
 set: great-encounters
 number: '98'
@@ -4173,7 +4270,8 @@ mechanics:
   text: >-
     Discard up to 2 cards from your hand. If you discard 1 card,
     draw 3 cards. If you discard 2 cards, draw 4 cards.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: great-encounters
 number: '99'
@@ -4197,7 +4295,8 @@ mechanics:
     If the Pokémon Leftovers is attached to is your active Pokémon
     at the end of your turn, remove 1 damage counter from that
     Pokémon.
-illustrator: Daisuke Ito
+illustrators:
+- Daisuke Ito
 ---
 set: great-encounters
 number: '100'
@@ -4220,7 +4319,8 @@ mechanics:
   text: >-
     The Retreat Cost for each P and D Pokémon (both yours and
     your opponent's) is 0.
-illustrator: Ryo Ueda
+illustrators:
+- Ryo Ueda
 ---
 set: great-encounters
 number: '101'
@@ -4237,7 +4337,8 @@ mechanics:
     Search your deck or your discard pile for a Pokémon Lv.X,
     show it to your opponent, and put it into your hand. If you
     search your deck, shuffle your deck afterward.
-illustrator: Ryo Ueda
+illustrators:
+- Ryo Ueda
 ---
 set: great-encounters
 number: '102'
@@ -4255,7 +4356,8 @@ mechanics:
     1 or Stage 2 card that evolves from that Pokémon in your hand,
     put that card on the Basic Pokémon. (This counts as evolving
     that Pokémon.)
-illustrator: Ryo Ueda
+illustrators:
+- Ryo Ueda
 ---
 set: great-encounters
 number: '103'
@@ -4294,7 +4396,8 @@ damage modifiers:
   operation: ×
   type: Psychic
 retreat: 1
-illustrator: Shizurow
+illustrators:
+- Shizurow
 ---
 set: great-encounters
 number: '104'
@@ -4339,7 +4442,8 @@ damage modifiers:
   operation: '-'
   type: Psychic
 retreat: 1
-illustrator: Shizurow
+illustrators:
+- Shizurow
 ---
 set: great-encounters
 number: '105'
@@ -4382,7 +4486,8 @@ damage modifiers:
   operation: '-'
   type: Psychic
 retreat: 2
-illustrator: Ryo Ueda
+illustrators:
+- Ryo Ueda
 ---
 set: great-encounters
 number: '106'
@@ -4423,4 +4528,5 @@ damage modifiers:
   operation: ×
   type: Lightning
 retreat: 3
-illustrator: Ryo Ueda
+illustrators:
+- Ryo Ueda

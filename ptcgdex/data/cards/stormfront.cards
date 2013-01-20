@@ -49,7 +49,8 @@ dex number: 477
 species: Gripper
 weight: 235.0
 height: 7'3
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: stormfront
 number: '2'
@@ -98,7 +99,8 @@ dex number: 395
 species: Emperor
 weight: 186.3
 height: 5'7
-illustrator: Kouki Saitou
+illustrators:
+- Kouki Saitou
 ---
 set: stormfront
 number: '3'
@@ -148,7 +150,8 @@ dex number: 392
 species: Flame
 weight: 121.3
 height: 3'11
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: stormfront
 number: '4'
@@ -198,7 +201,8 @@ dex number: 457
 species: Neon
 weight: 52.9
 height: 3'11
-illustrator: Kent Kanetsuna
+illustrators:
+- Kent Kanetsuna
 ---
 set: stormfront
 number: '5'
@@ -249,7 +253,8 @@ dex number: 462
 species: Magnet Area
 weight: 396.8
 height: 3'11
-illustrator: Masakazu Fukuda
+illustrators:
+- Masakazu Fukuda
 ---
 set: stormfront
 number: '6'
@@ -298,7 +303,8 @@ height: 3'11
 dex entry: >-
   It evolved from exposure to a special magnetic field.  Three
   units generate magnetism.
-illustrator: Tomoaki Imakuni
+illustrators:
+- Tomoaki Imakuni
 ---
 set: stormfront
 number: '7'
@@ -345,7 +351,8 @@ dex number: 429
 species: Magical
 weight: 9.7
 height: 2'11
-illustrator: Midori Harada
+illustrators:
+- Midori Harada
 ---
 set: stormfront
 number: '8'
@@ -394,7 +401,8 @@ dex number: 26
 species: Mouse
 weight: 66.1
 height: 2'7
-illustrator: Kagemaru Himeno
+illustrators:
+- Kagemaru Himeno
 ---
 set: stormfront
 number: '9'
@@ -436,7 +444,8 @@ dex number: 486
 species: Colossal
 weight: 925.9
 height: 12'2
-illustrator: Masakazu Fukuda
+illustrators:
+- Masakazu Fukuda
 ---
 set: stormfront
 number: '10'
@@ -485,7 +494,8 @@ dex number: 254
 species: Forest
 weight: 115.1
 height: 5'7
-illustrator: Suwama Chiaki
+illustrators:
+- Suwama Chiaki
 ---
 set: stormfront
 number: '11'
@@ -540,7 +550,8 @@ dex number: 389
 species: Continent
 weight: 683.4
 height: 7'3
-illustrator: Masakazu Fukuda
+illustrators:
+- Masakazu Fukuda
 ---
 set: stormfront
 number: '12'
@@ -588,7 +599,8 @@ dex number: 460
 species: Frost Tree
 weight: 298.7
 height: 7'3
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: stormfront
 number: '13'
@@ -642,7 +654,8 @@ dex number: 437
 species: Bronze Bell
 weight: 412.3
 height: 4'3
-illustrator: Kyoko Umemoto
+illustrators:
+- Kyoko Umemoto
 ---
 set: stormfront
 number: '14'
@@ -688,7 +701,8 @@ dex number: 421
 species: Blossom
 weight: 20.5
 height: 1'8
-illustrator: Suwama Chiaki
+illustrators:
+- Suwama Chiaki
 ---
 set: stormfront
 number: '15'
@@ -738,7 +752,8 @@ dex number: 452
 species: Ogre Scorp
 weight: 135.6
 height: 4'3
-illustrator: Kent Kanetsuna
+illustrators:
+- Kent Kanetsuna
 ---
 set: stormfront
 number: '16'
@@ -787,7 +802,8 @@ dex number: 426
 species: Blimp
 weight: 33.1
 height: 3'11
-illustrator: Hajime Kusajima
+illustrators:
+- Hajime Kusajima
 ---
 set: stormfront
 number: '17'
@@ -830,7 +846,8 @@ dex number: 477
 species: Gripper
 weight: 235.0
 height: 7'3
-illustrator: Tomoaki Imakuni
+illustrators:
+- Tomoaki Imakuni
 ---
 set: stormfront
 number: '18'
@@ -880,7 +897,8 @@ dex number: 94
 species: Shadow
 weight: 89.3
 height: 4'11
-illustrator: Hajime Kusajima
+illustrators:
+- Hajime Kusajima
 ---
 set: stormfront
 number: '19'
@@ -931,7 +949,8 @@ dex number: 130
 species: Atrocious
 weight: 518.1
 height: 21'4
-illustrator: Midori Harada
+illustrators:
+- Midori Harada
 ---
 set: stormfront
 number: '20'
@@ -979,7 +998,8 @@ dex number: 68
 species: Superpower
 weight: 286.6
 height: 5'3
-illustrator: Masakazu Fukuda
+illustrators:
+- Masakazu Fukuda
 ---
 set: stormfront
 number: '21'
@@ -1026,7 +1046,8 @@ dex number: 473
 species: Twin Tusk
 weight: 641.5
 height: 8'2
-illustrator: Kent Kanetsuna
+illustrators:
+- Kent Kanetsuna
 ---
 set: stormfront
 number: '22'
@@ -1069,7 +1090,8 @@ dex number: 78
 species: Fire Horse
 weight: 209.4
 height: 5'7
-illustrator: Suwama Chiaki
+illustrators:
+- Suwama Chiaki
 ---
 set: stormfront
 number: '23'
@@ -1117,7 +1139,8 @@ dex number: 407
 species: Bouquet
 weight: 32.0
 height: 2'11
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: stormfront
 number: '24'
@@ -1167,7 +1190,8 @@ dex number: 373
 species: Dragon
 weight: 226.2
 height: 4'11
-illustrator: Kagemaru Himeno
+illustrators:
+- Kagemaru Himeno
 ---
 set: stormfront
 number: '25'
@@ -1220,7 +1244,8 @@ dex number: 212
 species: Pincer
 weight: 260.1
 height: 5'11
-illustrator: Midori Harada
+illustrators:
+- Midori Harada
 ---
 set: stormfront
 number: '26'
@@ -1276,7 +1301,8 @@ dex number: 435
 species: Skunk
 weight: 83.8
 height: 3'3
-illustrator: Kouki Saitou
+illustrators:
+- Kouki Saitou
 ---
 set: stormfront
 number: '27'
@@ -1330,7 +1356,8 @@ dex number: 398
 species: Predator
 weight: 54.9
 height: 3'11
-illustrator: Kouki Saitou
+illustrators:
+- Kouki Saitou
 ---
 set: stormfront
 number: '28'
@@ -1382,7 +1409,8 @@ height: 30'2
 dex entry: >-
   Tempered underground under high pressure and heat, its body
   is harder than any metal.
-illustrator: Naoyo Kimura
+illustrators:
+- Naoyo Kimura
 ---
 set: stormfront
 number: '29'
@@ -1436,7 +1464,8 @@ dex number: 465
 species: Vine
 weight: 283.5
 height: 6'7
-illustrator: Kouki Saitou
+illustrators:
+- Kouki Saitou
 ---
 set: stormfront
 number: '30'
@@ -1488,7 +1517,8 @@ dex number: 248
 species: Armor
 weight: 445.3
 height: 6'7
-illustrator: Kagemaru Himeno
+illustrators:
+- Kagemaru Himeno
 ---
 set: stormfront
 number: '31'
@@ -1539,7 +1569,8 @@ dex number: 416
 species: Beehive
 weight: 84.9
 height: 3'11
-illustrator: Kent Kanetsuna
+illustrators:
+- Kent Kanetsuna
 ---
 set: stormfront
 number: '32'
@@ -1582,7 +1613,8 @@ dex number: 400
 species: Beaver
 weight: 69.4
 height: 3'3
-illustrator: Kouki Saitou
+illustrators:
+- Kouki Saitou
 ---
 set: stormfront
 number: '33'
@@ -1625,7 +1657,8 @@ dex number: 406
 species: Bud
 weight: 2.6
 height: 0'8
-illustrator: Yuka Morii
+illustrators:
+- Yuka Morii
 ---
 set: stormfront
 number: '34'
@@ -1672,7 +1705,8 @@ height: 5'3
 dex entry: >-
   Its body is hollow. It is said that those who look into its
   body are sucked into the void.
-illustrator: Yukiko Baba
+illustrators:
+- Yukiko Baba
 ---
 set: stormfront
 number: '35'
@@ -1719,7 +1753,8 @@ height: 5'3
 dex entry: >-
   Its body is hollow. It is said that those who look into its
   body are sucked into the void.
-illustrator: Sumiyoshi Kizuki
+illustrators:
+- Sumiyoshi Kizuki
 ---
 set: stormfront
 number: '36'
@@ -1769,7 +1804,8 @@ dex number: 101
 species: Ball
 weight: 146.8
 height: 3'11
-illustrator: Kent Kanetsuna
+illustrators:
+- Kent Kanetsuna
 ---
 set: stormfront
 number: '37'
@@ -1817,7 +1853,8 @@ height: 3'11
 dex entry: >-
   It is known to drift on winds if it is bloated to bursting with
   stored electricity.
-illustrator: Sumiyoshi Kizuki
+illustrators:
+- Sumiyoshi Kizuki
 ---
 set: stormfront
 number: '38'
@@ -1865,7 +1902,8 @@ height: 2'7
 dex entry: >-
   It can't live without the stalk it holds. That's why it defends
   the stalk from attackers with its life.
-illustrator: Sumiyoshi Kizuki
+illustrators:
+- Sumiyoshi Kizuki
 ---
 set: stormfront
 number: '39'
@@ -1911,7 +1949,8 @@ height: 2'11
 dex entry: >-
   It lives in dense jungles.  While closing in on its prey, it
   leaps from branch to branch.
-illustrator: Naoyo Kimura
+illustrators:
+- Naoyo Kimura
 ---
 set: stormfront
 number: '40'
@@ -1957,7 +1996,8 @@ height: 5'3
 dex entry: >-
   It can slip through any obstacle.  It lurks inside walls to
   keep an eye on its foes.
-illustrator: Yukiko Baba
+illustrators:
+- Yukiko Baba
 ---
 set: stormfront
 number: '41'
@@ -2001,7 +2041,8 @@ height: 4'11
 dex entry: >-
   MACHOKE's boundless power is very dangerous, so it wears a belt
   that suppresses its energy.
-illustrator: Sachiko Adachi
+illustrators:
+- Sachiko Adachi
 ---
 set: stormfront
 number: '42'
@@ -2049,7 +2090,8 @@ height: 3'3
 dex entry: >-
   It is actually three MAGNEMITE linked by magnetism.  A group
   can set off a magnetic storm.
-illustrator: Hajime Kusajima
+illustrators:
+- Hajime Kusajima
 ---
 set: stormfront
 number: '43'
@@ -2095,7 +2137,8 @@ height: 3'3
 dex entry: >-
   It is actually three MAGNEMITE linked by magnetism.  A group
   can set off a magnetic storm.
-illustrator: Kent Kanetsuna
+illustrators:
+- Kent Kanetsuna
 ---
 set: stormfront
 number: '44'
@@ -2139,7 +2182,8 @@ dex number: 241
 species: Milk Cow
 weight: 166.4
 height: 3'11
-illustrator: Kouki Saitou
+illustrators:
+- Kouki Saitou
 ---
 set: stormfront
 number: '45'
@@ -2183,7 +2227,8 @@ height: 1'0
 dex entry: >-
   The electric pouches on its cheeks are still small.  They cannot
   store much electricity yet.
-illustrator: Atsuko Nishida
+illustrators:
+- Atsuko Nishida
 ---
 set: stormfront
 number: '46'
@@ -2230,7 +2275,8 @@ height: 3'7
 dex entry: >-
   Its shaggy coat makes it unable to see.  It checks surroundings
   with its sensitive nose instead.
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: stormfront
 number: '47'
@@ -2277,7 +2323,8 @@ height: 3'11
 dex entry: >-
   Its body is as hard as bedrock.  By venting pressurized gas,
   it can launch itself like a rocket.
-illustrator: Hajime Kusajima
+illustrators:
+- Hajime Kusajima
 ---
 set: stormfront
 number: '48'
@@ -2323,7 +2370,8 @@ dex number: 302
 species: Darkness
 weight: 24.3
 height: 1'8
-illustrator: Kyoko Umemoto
+illustrators:
+- Kyoko Umemoto
 ---
 set: stormfront
 number: '49'
@@ -2366,7 +2414,8 @@ height: 4'11
 dex entry: >-
   It is nearly impossible to parry its attacking scythes.  Its
   movements are like a ninja's.
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: stormfront
 number: '50'
@@ -2409,7 +2458,8 @@ height: 3'7
 dex entry: >-
   Within its rugged shell, its cells have begun changing.  The
   shell peels off the instant it evolves.
-illustrator: Tomokazu Komiya
+illustrators:
+- Tomokazu Komiya
 ---
 set: stormfront
 number: '51'
@@ -2455,7 +2505,8 @@ height: 5'7
 dex entry: >-
   Despite being clad entirely in iron-hard armor, it flies at
   speeds over 180 mph.
-illustrator: Kagemaru Himeno
+illustrators:
+- Kagemaru Himeno
 ---
 set: stormfront
 number: '52'
@@ -2498,7 +2549,8 @@ height: 2'0
 dex entry: >-
   It flies around forests and fields in search of bug Pokémon.  It
   stays within a huge flock.
-illustrator: Midori Harada
+illustrators:
+- Midori Harada
 ---
 set: stormfront
 number: '53'
@@ -2540,7 +2592,8 @@ height: 2'0
 dex entry: >-
   Dreaming of one day flying, it practices by leaping off cliffs
   every day.
-illustrator: Aya Kusube
+illustrators:
+- Aya Kusube
 ---
 set: stormfront
 number: '54'
@@ -2580,7 +2633,8 @@ height: 1'8
 dex entry: >-
   With nerves of steel, nothing can perturb it.  It is more agile
   and active than it appears.
-illustrator: Yuka Morii
+illustrators:
+- Yuka Morii
 ---
 set: stormfront
 number: '55'
@@ -2625,7 +2679,8 @@ height: 1'8
 dex entry: >-
   Implements shaped like it were discovered in ancient tombs.  It
   is unknown if they are related.
-illustrator: Miki Tanaka
+illustrators:
+- Miki Tanaka
 ---
 set: stormfront
 number: '56'
@@ -2669,7 +2724,8 @@ height: 1'4
 dex entry: >-
   The small ball holds the nutrients needed for evolution.  Apparently,
   it is very sweet and tasty.
-illustrator: Tomokazu Komiya
+illustrators:
+- Tomokazu Komiya
 ---
 set: stormfront
 number: '57'
@@ -2700,7 +2756,8 @@ damage modifiers:
   operation: '-'
   type: Fighting
 retreat: 1
-illustrator: Miki Tanaka
+illustrators:
+- Miki Tanaka
 ---
 set: stormfront
 number: '58'
@@ -2744,7 +2801,8 @@ height: 1'4
 dex entry: >-
   A Pokémon formed by the spirits of people and Pokémon.  It loves
   damp, humid seasons.
-illustrator: Atsuko Nishida
+illustrators:
+- Atsuko Nishida
 ---
 set: stormfront
 number: '59'
@@ -2787,7 +2845,8 @@ height: 2'7
 dex entry: >-
   It doggedly pursues its prey wherever it goes.  However, the
   chase is abandoned at sunrise.
-illustrator: Kouki Saitou
+illustrators:
+- Kouki Saitou
 ---
 set: stormfront
 number: '60'
@@ -2829,7 +2888,8 @@ height: 2'7
 dex entry: >-
   It doggedly pursues its prey wherever it goes.  However, the
   chase is abandoned at sunrise.
-illustrator: Sachiko Adachi
+illustrators:
+- Sachiko Adachi
 ---
 set: stormfront
 number: '61'
@@ -2872,7 +2932,8 @@ height: 1'4
 dex entry: >-
   After long exposure to sunlight, the patterns on its tail fins
   shine vividly when darkness arrives.
-illustrator: Kagemaru Himeno
+illustrators:
+- Kagemaru Himeno
 ---
 set: stormfront
 number: '62'
@@ -2916,7 +2977,8 @@ height: 4'3
 dex entry: >-
   This Pokémon's body is 95% made up of gases, which are blown
   away by strong gusts of wind.
-illustrator: Aya Kusube
+illustrators:
+- Aya Kusube
 ---
 set: stormfront
 number: '63'
@@ -2959,7 +3021,8 @@ height: 2'0
 dex entry: >-
   A Pokémon that eats soil.  Once it has eaten a large mountain,
   it goes to sleep so that it can grow.
-illustrator: Yuka Morii
+illustrators:
+- Yuka Morii
 ---
 set: stormfront
 number: '64'
@@ -2999,7 +3062,8 @@ height: 2'7
 dex entry: >-
   It hefts GRAVELER repeatedly to strengthen its entire body.  It
   uses every type of martial arts.
-illustrator: Midori Harada
+illustrators:
+- Midori Harada
 ---
 set: stormfront
 number: '65'
@@ -3037,7 +3101,8 @@ height: 2'11
 dex entry: >-
   It is said to be the world's weakest Pokémon.  No one knows
   why it has managed to survive.
-illustrator: Tomokazu Komiya
+illustrators:
+- Tomokazu Komiya
 ---
 set: stormfront
 number: '66'
@@ -3069,7 +3134,8 @@ damage modifiers:
   operation: '-'
   type: Psychic
 retreat: 1
-illustrator: Aya Kusube
+illustrators:
+- Aya Kusube
 ---
 set: stormfront
 number: '67'
@@ -3112,7 +3178,8 @@ height: 1'0
 dex entry: >-
   The units at its sides generate electromagnetic waves that keep
   it airborne.  It feeds on electricity.
-illustrator: Kent Kanetsuna
+illustrators:
+- Kent Kanetsuna
 ---
 set: stormfront
 number: '68'
@@ -3156,7 +3223,8 @@ height: 2'4
 dex entry: >-
   It loves to sneak up on people late at night, then startle people
   with its shrieklike cry.
-illustrator: Atsuko Nishida
+illustrators:
+- Atsuko Nishida
 ---
 set: stormfront
 number: '69'
@@ -3198,7 +3266,8 @@ height: 28'10
 dex entry: >-
   When it travels underground, it causes rumbling and tremors.  It
   can move at 50 mph.
-illustrator: Kyoko Umemoto
+illustrators:
+- Kyoko Umemoto
 ---
 set: stormfront
 number: '70'
@@ -3242,7 +3311,8 @@ height: 1'4
 dex entry: >-
   It lives in forests with others.  It stores electricity in the
   pouches on its cheeks.
-illustrator: Hajime Kusajima
+illustrators:
+- Hajime Kusajima
 ---
 set: stormfront
 number: '71'
@@ -3283,7 +3353,8 @@ height: 3'3
 dex entry: >-
   About an hour after birth, its fiery mane and tail grow out,
   giving it an impressive appearance.
-illustrator: Atsuko Nishida
+illustrators:
+- Atsuko Nishida
 ---
 set: stormfront
 number: '72'
@@ -3324,7 +3395,8 @@ height: 1'0
 dex entry: >-
   ROSELIA raised on clean drinking water are known to grow vividly
   colored flowers.
-illustrator: Sumiyoshi Kizuki
+illustrators:
+- Sumiyoshi Kizuki
 ---
 set: stormfront
 number: '73'
@@ -3367,7 +3439,8 @@ height: 2'7
 dex entry: >-
   It grips its prey with its tail claws and injects poison.  It
   tenaciously hangs on until the poison takes.
-illustrator: Sachiko Adachi
+illustrators:
+- Sachiko Adachi
 ---
 set: stormfront
 number: '74'
@@ -3409,7 +3482,8 @@ height: 3'3
 dex entry: >-
   It lives on snowy mountains.  Having had little contact with
   humans, it is boldly inquisitive.
-illustrator: Kagemaru Himeno
+illustrators:
+- Kagemaru Himeno
 ---
 set: stormfront
 number: '75'
@@ -3455,7 +3529,8 @@ height: 1'0
 dex entry: >-
   They flock in great numbers.  Though small, they flap their
   wings with great power.
-illustrator: Atsuko Nishida
+illustrators:
+- Atsuko Nishida
 ---
 set: stormfront
 number: '76'
@@ -3500,7 +3575,8 @@ height: 1'4
 dex entry: >-
   It protects itself by spraying a noxious fluid from its rear.  The
   stench lingers for 24 hours.
-illustrator: Tomokazu Komiya
+illustrators:
+- Tomokazu Komiya
 ---
 set: stormfront
 number: '77'
@@ -3544,7 +3620,8 @@ height: 1'4
 dex entry: >-
   It loves eating mushrooms that grow under dead grass.  It also
   finds hot springs while foraging.
-illustrator: Yukiko Baba
+illustrators:
+- Yukiko Baba
 ---
 set: stormfront
 number: '78'
@@ -3591,7 +3668,8 @@ height: 3'3
 dex entry: >-
   It is shrouded by blue vines.  No one has seen the face hidden
   behind this growth of vines.
-illustrator: Yukiko Baba
+illustrators:
+- Yukiko Baba
 ---
 set: stormfront
 number: '79'
@@ -3634,7 +3712,8 @@ height: 1'8
 dex entry: >-
   The soles of its feet are covered by countless tiny spikes,
   enabling it to walk on walls and ceilings.
-illustrator: Naoyo Kimura
+illustrators:
+- Naoyo Kimura
 ---
 set: stormfront
 number: '80'
@@ -3680,7 +3759,8 @@ height: 1'8
 dex entry: >-
   It looks just like a Poké Ball.  It is dangerous because it
   may electrocute or explode on touch.
-illustrator: Kent Kanetsuna
+illustrators:
+- Kent Kanetsuna
 ---
 set: stormfront
 number: '81'
@@ -3724,7 +3804,8 @@ height: 1'8
 dex entry: >-
   It looks just like a Poké Ball.  It is dangerous because it
   may electrocute or explode on touch.
-illustrator: Miki Tanaka
+illustrators:
+- Miki Tanaka
 ---
 set: stormfront
 number: '82'
@@ -3749,7 +3830,8 @@ mechanics:
     heads, that player searches his or her discard pile for a
     L or M Energy card, shows it to the opponent, and puts it
     into his or her hand.
-illustrator: Ryo Ueda
+illustrators:
+- Ryo Ueda
 ---
 set: stormfront
 number: '83'
@@ -3774,7 +3856,8 @@ mechanics:
     an Energy card attached to that Pokémon to another of your
     Pokémon that has Energy Link attached to it.  You may use
     this effect as often as you like.
-illustrator: Ryo Ueda
+illustrators:
+- Ryo Ueda
 ---
 set: stormfront
 number: '84'
@@ -3790,7 +3873,8 @@ mechanics:
   text: >-
     Move a basic Energy card attached to 1 of your Pokémon to
     another of your Pokémon.
-illustrator: Ryo Ueda
+illustrators:
+- Ryo Ueda
 ---
 set: stormfront
 number: '85'
@@ -3806,7 +3890,8 @@ mechanics:
   text: >-
     Search your deck for a Basic Pokémon and put it onto your
     Bench.  Shuffle your deck afterward.
-illustrator: Kent Kanetsuna
+illustrators:
+- Kent Kanetsuna
 ---
 set: stormfront
 number: '86'
@@ -3824,7 +3909,8 @@ mechanics:
     it to your opponent, and put it into your hand.  Shuffle your
     deck afterward.  If any Luxury Ball is in your discard pile,
     you can't play this card.
-illustrator: Ryo Ueda
+illustrators:
+- Ryo Ueda
 ---
 set: stormfront
 number: '87'
@@ -3851,7 +3937,8 @@ mechanics:
     the other card.  (If all Trainer, Supporter, and Stadium cards
     in your discard pile have the same name, choose 1 of them.  Show
     that card to your opponent and put it into your hand.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: stormfront
 number: '88'
@@ -3870,7 +3957,8 @@ mechanics:
     on 1 of your opponent's Pokémon.  If you play 2 Poke Blower
     +, choose 1 of your opponent's Benched Pokémon and switch
     it with 1 of your opponent's Active Pokémon.
-illustrator: Ryo Ueda
+illustrators:
+- Ryo Ueda
 ---
 set: stormfront
 number: '89'
@@ -3888,7 +3976,8 @@ mechanics:
     1 Poke Drawer +, draw a card.  If you play 2 Poke Drawer +,
     search your deck for up to 2 cards, and put them into your
     hand.  Shuffle your deck afterward.
-illustrator: Ryo Ueda
+illustrators:
+- Ryo Ueda
 ---
 set: stormfront
 number: '90'
@@ -3907,7 +3996,8 @@ mechanics:
     from 1 of your Active Pokémon.  If you play 2 Poke Healer
     +, remove 8 damage counters and all Special Conditions from
     1 of your Active Pokémon.
-illustrator: Ryo Ueda
+illustrators:
+- Ryo Ueda
 ---
 set: stormfront
 number: '91'
@@ -3924,7 +4014,8 @@ mechanics:
     Search your deck or discard pile for a Pokémon LV.X, show
     it to your opponent, and put it into your hand.  If you search
     your deck, shuffle your deck afterward.
-illustrator: Ryo Ueda
+illustrators:
+- Ryo Ueda
 ---
 set: stormfront
 number: '92'
@@ -3940,7 +4031,8 @@ mechanics:
   text: >-
     Remove 2 damage counters from 1 of your Pokémon (remove 1
     damage counter if that Pokémon has only 1).
-illustrator: Shin-ichi Yoshikawa
+illustrators:
+- Shin-ichi Yoshikawa
 ---
 set: stormfront
 number: '93'
@@ -3955,7 +4047,8 @@ mechanics:
 - type: effect
   text: >-
     Switch 1 of your Active Pokémon with 1 of your Benched Pokémon.
-illustrator: Ryo Ueda
+illustrators:
+- Ryo Ueda
 ---
 set: stormfront
 number: '94'
@@ -3981,7 +4074,8 @@ mechanics:
     from your hand to your Active Pokémon, switch 1 of the Defending
     Pokémon with 1 of your opponent's Benched Pokémon.  your opponent
     chooses the Benched Pokémon to switch.
-illustrator: Takumi Akabane
+illustrators:
+- Takumi Akabane
 ---
 set: stormfront
 number: '95'
@@ -4005,7 +4099,8 @@ mechanics:
     Warp Energy provides C Energy.  When you attach this card
     from your hand to your Active Pokémon, switch that Pokémon
     with 1 of your Benched Pokémon.
-illustrator: Takumi Akabane
+illustrators:
+- Takumi Akabane
 ---
 set: stormfront
 number: '96'
@@ -4048,7 +4143,8 @@ damage modifiers:
   operation: '-'
   type: Colorless
 retreat: 3
-illustrator: Shizurow
+illustrators:
+- Shizurow
 ---
 set: stormfront
 number: '97'
@@ -4089,7 +4185,8 @@ damage modifiers:
   operation: ×
   type: Water
 retreat: 4
-illustrator: Shizurow
+illustrators:
+- Shizurow
 ---
 set: stormfront
 number: '98'
@@ -4130,7 +4227,8 @@ damage modifiers:
   operation: +
   type: Psychic
 retreat: 3
-illustrator: Ryo Ueda
+illustrators:
+- Ryo Ueda
 ---
 set: stormfront
 number: '99'
@@ -4171,7 +4269,8 @@ damage modifiers:
 - amount: 20
   operation: '-'
   type: Metal
-illustrator: Ryo Ueda
+illustrators:
+- Ryo Ueda
 ---
 set: stormfront
 number: '100'
@@ -4213,7 +4312,8 @@ damage modifiers:
   operation: ×
   type: Fighting
 retreat: 4
-illustrator: Shizurow
+illustrators:
+- Shizurow
 ---
 set: stormfront
 number: '101'
@@ -4252,7 +4352,8 @@ height: 2'0
 dex entry: >-
   From the time it is born, a flame burns at the tip of its tail.  Its
   life would end if the flame were to go out.
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: stormfront
 number: '102'
@@ -4292,7 +4393,8 @@ height: 3'7
 dex entry: >-
   It lashes about with its tail to knock down its foe.  It then
   tears up the fallen opponent with sharp claws.
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: stormfront
 number: '103'
@@ -4336,7 +4438,8 @@ height: 5'7
 dex entry: >-
   Its wings can carry this POKéMON close to an altitude of 4,600
   feet.  It blows out fire at very high temperatures.
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: stormfront
 number: '104'
@@ -4385,7 +4488,8 @@ dex number: 425
 species: Balloon
 weight: 2.6
 height: 1'4
-illustrator: Atsuko Nishida
+illustrators:
+- Atsuko Nishida
 ---
 set: stormfront
 number: '105'
@@ -4432,7 +4536,8 @@ dex number: 355
 species: Requiem
 weight: 33.1
 height: 2'7
-illustrator: Kouki Saitou
+illustrators:
+- Kouki Saitou
 ---
 set: stormfront
 number: '106'
@@ -4481,4 +4586,5 @@ dex number: 100
 species: Ball
 weight: 22.9
 height: 1'8
-illustrator: Kent Kanetsuna
+illustrators:
+- Kent Kanetsuna

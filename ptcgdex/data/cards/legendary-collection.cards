@@ -41,7 +41,8 @@ height: 4'11
 dex entry: >-
   Its brain can outperform a supercomputer. Its intelligence quotient
   is said to be 5000.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: legendary-collection
 number: '2'
@@ -86,7 +87,8 @@ height: 5'7
 dex entry: >-
   A legendary bird Pokémon said to appear to doomed people who
   are lost in icy mountains.
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: legendary-collection
 number: '3'
@@ -135,7 +137,8 @@ height: 5'7
 dex entry: >-
   Spits fire that is hot enough to melt boulders. Known to unintentionally
   cause forest fires.
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: legendary-collection
 number: '4'
@@ -183,7 +186,8 @@ weight: 189
 height: 5'3
 dex entry: >-
   An aggressive Pokémon that tackles anything it sees.
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: legendary-collection
 number: '5'
@@ -228,7 +232,8 @@ height: 7'3
 dex entry: >-
   Sometimes called "The God of Drestruction." Its wings are able
   to support it in spite of its massive weight.
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: legendary-collection
 number: '6'
@@ -276,7 +281,8 @@ height: 3'3
 dex entry: >-
   Popular with women because of its beautiful fur. The leader
   of the Rockets keeps on as a pet.
-illustrator: Shin-ichi Yoshida
+illustrators:
+- Shin-ichi Yoshida
 ---
 set: legendary-collection
 number: '7'
@@ -317,7 +323,8 @@ height: 2'7
 dex entry: >-
   Stores up electricity in its body, then suddenly releases it
   to surprise and shock everyone.
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: legendary-collection
 number: '8'
@@ -362,7 +369,8 @@ height: 5'3
 dex entry: >-
   It loves nothing better than to be left alone, and so sometimes
   manipulated by unscrupulous people.
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: legendary-collection
 number: '9'
@@ -406,7 +414,8 @@ height: 3'3
 dex entry: >-
   A Pokémon capable of controlling water, so it is able to create
   giant whirlpools.
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: legendary-collection
 number: '10'
@@ -451,7 +460,8 @@ height: 2'11
 dex entry: >-
   When storing thermal energy in its body, its temperature could
   soar to over 1600 degrees.
-illustrator: Kagemaru Himeno
+illustrators:
+- Kagemaru Himeno
 ---
 set: legendary-collection
 number: '11'
@@ -497,7 +507,8 @@ height: 4'11
 dex entry: >-
   Under a full moon, this Pokémon likes to mimic the shadows of
   people and laugh at their fright.
-illustrator: Keiji Kinebuchi
+illustrators:
+- Keiji Kinebuchi
 ---
 set: legendary-collection
 number: '12'
@@ -541,7 +552,8 @@ height: 21'4
 dex entry: >-
   Rarely seen in the wild. Huge and vicious, it is capable of
   destroying entire cities in a rage.
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: legendary-collection
 number: '13'
@@ -582,7 +594,8 @@ height: 4'11
 dex entry: >-
   Rarely seen in the wild. Huge and vicious, it is capable of
   destroying entire cities in a rage.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: legendary-collection
 number: '14'
@@ -627,7 +640,8 @@ height: 2'7
 dex entry: >-
   It accumulates negative ions from the atmosphere to blast out
   10,000-volt lightning bolts.
-illustrator: Kagemaru Himeno
+illustrators:
+- Kagemaru Himeno
 ---
 set: legendary-collection
 number: '15'
@@ -670,7 +684,8 @@ height: 5'3
 dex entry: >-
   Using its amazing muscles, it throws powerful punches that can
   knock its victim clear over the horizon.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: legendary-collection
 number: '16'
@@ -712,7 +727,8 @@ height: 3'11
 dex entry: >-
   Thickly covered with a filthy, vile sludge. It is so toxic,
   even its footprints contain poison.
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: legendary-collection
 number: '17'
@@ -756,7 +772,8 @@ height: 3'7
 dex entry: >-
   Very smart and very vengeful. Grabbing one of its many tails
   could result in a 1,000-year curse.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: legendary-collection
 number: '18'
@@ -798,7 +815,8 @@ height: 6'7
 dex entry: >-
   This plant blooms when it is absorbing solar energy. It stays
   on the move to seek sunlight.
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: legendary-collection
 number: '19'
@@ -841,7 +859,8 @@ height: 5'3
 dex entry: >-
   A legendary bird Pokémon said to appear from clouds while wielding
   enormous lightning bolts.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: legendary-collection
 number: '20'
@@ -886,7 +905,8 @@ height: 3'3
 dex entry: >-
   Flies at high speed and attacks using the large, venomous stingers
   on its forelegs and tail.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: legendary-collection
 number: '21'
@@ -935,7 +955,8 @@ height: 3'7
 dex entry: >-
   In battle, it flaps its wings at high speed to release highly
   toxic dust into the air.
-illustrator: Kagemaru Himeno
+illustrators:
+- Kagemaru Himeno
 ---
 set: legendary-collection
 number: '22'
@@ -978,7 +999,8 @@ height: 3'11
 dex entry: >-
   It stores electrical energy under very high pressure. It often
   explodes with little or no provocation.
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: legendary-collection
 number: '23'
@@ -1022,7 +1044,8 @@ height: 6'7
 dex entry: >-
   Legend has it that on rare occasions, one of its heads will
   drop off and continue on as an Exeggcute.
-illustrator: Kagemaru Himeno
+illustrators:
+- Kagemaru Himeno
 ---
 set: legendary-collection
 number: '24'
@@ -1065,7 +1088,8 @@ height: 4'7
 dex entry: >-
   Its boulder-like body is extremely hard. It can easily withstand
   dynamite blasts without damage.
-illustrator: Kagemaru Himeno
+illustrators:
+- Kagemaru Himeno
 ---
 set: legendary-collection
 number: '25'
@@ -1110,7 +1134,8 @@ height: 5'3
 dex entry: >-
   When it locks eyes with an enemy, it will use a mix of psi moves
   such as Hypnosis and Confusion.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: legendary-collection
 number: '26'
@@ -1154,7 +1179,8 @@ height: 4'7
 dex entry: >-
   Merely by meditating, the Pokémon launches a powerful psychic
   energy attack.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: legendary-collection
 number: '27'
@@ -1199,7 +1225,8 @@ height: 4'3
 dex entry: >-
   Its sleek shape is perfect for swimming. It slashes prey with
   its claws and drains the body fluids.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: legendary-collection
 number: '28'
@@ -1246,7 +1273,8 @@ height: 3'3
 dex entry: >-
   Formed by several Magnemites linked together. They frequently
   appear when sunspots flare up.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: legendary-collection
 number: '29'
@@ -1291,7 +1319,8 @@ height: 6'7
 dex entry: >-
   A scientist created this Pokémon after years of horrific gene-splicing
   and DNA engineering experiments.
-illustrator: Christopher Rush
+illustrators:
+- Christopher Rush
 ---
 set: legendary-collection
 number: '30'
@@ -1334,7 +1363,8 @@ height: 6'7
 dex entry: >-
   Known as the legendary bird of fire. Every flap of its wings
   creates a dazzling flash of flames.
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: legendary-collection
 number: '31'
@@ -1381,7 +1411,8 @@ height: 4'7
 dex entry: >-
   Uses its powerful tail in battle to smash, constrict, then break
   its prey's bones.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: legendary-collection
 number: '32'
@@ -1423,7 +1454,8 @@ height: 4'3
 dex entry: >-
   Its hard scales provide strong protection. It uses its hefty
   bulk to execute powerful moves.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: legendary-collection
 number: '33'
@@ -1468,7 +1500,8 @@ height: 4'11
 dex entry: >-
   When hunting, it skims the surface of water at high speed to
   pick off unwary prey such as Magikarp.
-illustrator: Kagemaru Himeno
+illustrators:
+- Kagemaru Himeno
 ---
 set: legendary-collection
 number: '34'
@@ -1516,7 +1549,8 @@ height: 3'7
 dex entry: >-
   Very protective of its sprawling territory, this Pokémon will
   fiercely peck at any intruder.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: legendary-collection
 number: '35'
@@ -1564,7 +1598,8 @@ height: 6'3
 dex entry: >-
   Protected by an armor-like hide, it is capable of living in
   molten lava of 3600 degrees.
-illustrator: Kagemaru Himeno
+illustrators:
+- Kagemaru Himeno
 ---
 set: legendary-collection
 number: '36'
@@ -1608,7 +1643,8 @@ height: 6'3
 dex entry: >-
   A Pokémon that has been long admired for its beauty. It runs
   gracefully, as if on wings.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: legendary-collection
 number: '37'
@@ -1651,7 +1687,8 @@ height: 3'7
 dex entry: >-
   When it swings its burning tail, it raises the temperature to
   unbearably high levels.
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: legendary-collection
 number: '38'
@@ -1699,7 +1736,8 @@ height: 13'1
 dex entry: >-
   As fitting for a legendary Pokémon, it has many strange powers,
   including the ability to make rain or snow fall.
-illustrator: Kagemaru Himeno
+illustrators:
+- Kagemaru Himeno
 ---
 set: legendary-collection
 number: '39'
@@ -1746,7 +1784,8 @@ height: 3'3
 dex entry: >-
   A Pokémon with a negative attitude, it hides in its shell whenever
   it is in a bad mood--which is often.
-illustrator: Kagemaru Himeno
+illustrators:
+- Kagemaru Himeno
 ---
 set: legendary-collection
 number: '40'
@@ -1787,7 +1826,8 @@ height: 5'7
 dex entry: >-
   Stores thermal energy in its body. Swims at a steady 8 knots
   even in intensely cold waters.
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: legendary-collection
 number: '41'
@@ -1832,7 +1872,8 @@ height: 5'11
 dex entry: >-
   Uses its three brains to execute complex plans. While two heads
   sleep, one head stays awake.
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: legendary-collection
 number: '42'
@@ -1876,7 +1917,8 @@ height: 3'11
 dex entry: >-
   With its huge and magnificent wings, it can keep aloft without
   ever having to land for rest.
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: legendary-collection
 number: '43'
@@ -1920,7 +1962,8 @@ height: 5'7
 dex entry: >-
   Often seen swimming elegantly by lake shores. It is often mistaken
   for the Japanese monster, Kappa.
-illustrator: Kagemaru Himeno
+illustrators:
+- Kagemaru Himeno
 ---
 set: legendary-collection
 number: '44'
@@ -1962,7 +2005,8 @@ height: 3'3
 dex entry: >-
   Rolls down slopes to move. It rolls over any obstacle without
   slowing or changing its direction.
-illustrator: Kagemaru Himeno
+illustrators:
+- Kagemaru Himeno
 ---
 set: legendary-collection
 number: '45'
@@ -1996,7 +2040,8 @@ height: 2'4
 dex entry: >-
   Very protective of its territory. It will bark and bite to repel
   intruders from its space.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: legendary-collection
 number: '46'
@@ -2039,7 +2084,8 @@ height: 5'3
 dex entry: >-
   Because of its ability to slip through block walls, it is said
   to be from another dimension.
-illustrator: Keiji Kinebuchi
+illustrators:
+- Keiji Kinebuchi
 ---
 set: legendary-collection
 number: '47'
@@ -2080,7 +2126,8 @@ height: 3'3
 dex entry: >-
   When the bulb on its back grows large, the Pokémon seems to
   lose the ability to stand on its hind legs.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: legendary-collection
 number: '48'
@@ -2121,7 +2168,8 @@ height: 4'3
 dex entry: >-
   It emits special alpha waves from its body that induce headaches
   even to those just nearby.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: legendary-collection
 number: '49'
@@ -2166,7 +2214,8 @@ height: 4'3
 dex entry: >-
   A Pokémon that was resurrected from a fossil found in what was
   once the ocean floor eons ago.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: legendary-collection
 number: '50'
@@ -2210,7 +2259,8 @@ height: 2'0
 dex entry: >-
   Almost incapable of moving, this Pokémon can only harden its
   shell to protect itself from predators.
-illustrator: Keiji Kinebuchi
+illustrators:
+- Keiji Kinebuchi
 ---
 set: legendary-collection
 number: '51'
@@ -2254,7 +2304,8 @@ height: 4'11
 dex entry: >-
   Its muscular body is so powerful that it must wear a power-save
   belt to help regulate its motions.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: legendary-collection
 number: '52'
@@ -2294,7 +2345,8 @@ height: 2'11
 dex entry: >-
   In the distant past, it was stronger than its horribly weak
   descendants that exist today.
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: legendary-collection
 number: '53'
@@ -2333,7 +2385,8 @@ height: 1'4
 dex entry: >-
   Adores circular objects. Wanders the streets on a nightly basis
   to look for dropped loose change.
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: legendary-collection
 number: '54'
@@ -2377,7 +2430,8 @@ height: 2'4
 dex entry: >-
   It is vunerable to attack because its shell is soft, exposing
   its weak and tender body.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: legendary-collection
 number: '55'
@@ -2420,7 +2474,8 @@ height: 2'7
 dex entry: >-
   The female's horn develops slowly. Prefers physical attacks
   such as clawing and biting.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: legendary-collection
 number: '56'
@@ -2461,7 +2516,8 @@ height: 2'11
 dex entry: >-
   An aggressive Pokémon that is quick to attack. The horn on its
   head secretes a powerful venom.
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: legendary-collection
 number: '57'
@@ -2505,7 +2561,8 @@ height: 1'4
 dex entry: >-
   Although long extinct, in rare cases, it can be genetically
   resurrected from fossils.
-illustrator: Kagemaru Himeno
+illustrators:
+- Kagemaru Himeno
 ---
 set: legendary-collection
 number: '58'
@@ -2551,7 +2608,8 @@ height: 3'3
 dex entry: >-
   A prehistoric Pokémon that died out when its heavy shell made
   it impossible for it to catch prey.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: legendary-collection
 number: '59'
@@ -2596,7 +2654,8 @@ height: 3'3
 dex entry: >-
   Always furious and tenacious to boot. It will not abandon chasing
   its quarry until its quarry is caught.
-illustrator: Kagemaru Himeno
+illustrators:
+- Kagemaru Himeno
 ---
 set: legendary-collection
 number: '60'
@@ -2640,7 +2699,8 @@ height: 5'7
 dex entry: >-
   Very competitive, this Pokémon will chase anything that moves
   fast in the hopes of racing it.
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: legendary-collection
 number: '61'
@@ -2685,7 +2745,8 @@ height: 2'4
 dex entry: >-
   It uses its whiskers to maintain its balance. It seems to slow
   down if they are cut off.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: legendary-collection
 number: '62'
@@ -2730,7 +2791,8 @@ height: 3'3
 dex entry: >-
   Curls up into a spiny ball when threatened. It can roll while
   curled up to attack or escape.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: legendary-collection
 number: '63'
@@ -2776,7 +2838,8 @@ height: 3'1
 dex entry: >-
   Capable of swimming backward by rapidly flapping its wing-like
   pectoral fins and stout tail.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: legendary-collection
 number: '64'
@@ -2821,7 +2884,8 @@ height: 6'11
 dex entry: >-
   Very lazy. Just eats and sleeps. As its rotund bulk builds,
   it becomes steadily more slothful.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: legendary-collection
 number: '65'
@@ -2868,7 +2932,8 @@ height: 4'7
 dex entry: >-
   When it targets an enemy, it charges furiously while whipping
   its body with its long tails.
-illustrator: Kagemaru Himeno
+illustrators:
+- Kagemaru Himeno
 ---
 set: legendary-collection
 number: '66'
@@ -2909,7 +2974,8 @@ height: 5'3
 dex entry: >-
   The tentacles are normally kept short. On hunts, they are extended
   to ensnare and immobilize prey.
-illustrator: Kagemaru Himeno
+illustrators:
+- Kagemaru Himeno
 ---
 set: legendary-collection
 number: '67'
@@ -2944,7 +3010,8 @@ height: 2'11
 dex entry: >-
   Using its ability to read minds, it will identify impending
   danger and teleport to safety.
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: legendary-collection
 number: '68'
@@ -2981,7 +3048,8 @@ height: 2'4
 dex entry: >-
   A strange seed was planted on its back at birth. Thus, a plant
   sprouted and now grows with this Pokémon.
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: legendary-collection
 number: '69'
@@ -3017,7 +3085,8 @@ height: 1'10
 dex entry: >-
   Its short feet are tipped with suction pads that enable it to
   tirelessly climb slopes and walls.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: legendary-collection
 number: '70'
@@ -3058,7 +3127,8 @@ height: 2'0
 dex entry: >-
   Obviously prefers hot places. If it gets caught in the rain,
   steam is said to spout from the tip of its tail.
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: legendary-collection
 number: '71'
@@ -3097,7 +3167,8 @@ height: 4'7
 dex entry: >-
   A bird that makes up for its poor flying with its fast foot
   speed. Leaves giant footprints.
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: legendary-collection
 number: '72'
@@ -3131,7 +3202,8 @@ height: 5'11
 dex entry: >-
   Long considered a mythical Pokémon until recently, when a small
   colony was found living underwater.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: legendary-collection
 number: '73'
@@ -3171,7 +3243,8 @@ height: 3'3
 dex entry: >-
   Puts enemies to sleep, then eats their dreams. Ocasionally gets
   sick from eating bad dreams.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: legendary-collection
 number: '74'
@@ -3218,7 +3291,8 @@ height: 1'0
 dex entry: >-
   Its genetic code is irregular. It may mutate if it is exposed
   to radiation from elemental stones.
-illustrator: Kagemaru Himeno
+illustrators:
+- Kagemaru Himeno
 ---
 set: legendary-collection
 number: '75'
@@ -3260,7 +3334,8 @@ height: 1'4
 dex entry: >-
   Often mistaken for eggs. When disturbed, they quickly gather
   and attack in swarms.
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: legendary-collection
 number: '76'
@@ -3301,7 +3376,8 @@ height: 4'3
 dex entry: >-
   A mysterious Pokémon. Some say it is a lifeform from another
   dimension, while others believe it is formed from smog.
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: legendary-collection
 number: '77'
@@ -3338,7 +3414,8 @@ height: 1'4
 dex entry: >-
   Found in fields and mountains. Mistaking them for boulders,
   people often step or trip on them.
-illustrator: Kagemaru Himeno
+illustrators:
+- Kagemaru Himeno
 ---
 set: legendary-collection
 number: '78'
@@ -3380,7 +3457,8 @@ height: 2'11
 dex entry: >-
   Appears in filthy areas. Thrives by sucking up polluted sludge
   that is pumped out of factories.
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: legendary-collection
 number: '79'
@@ -3417,7 +3495,8 @@ weight: 43
 height: 2'7
 dex entry: >-
   It is said that not even pro wrestlers can taken down a Machop.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: legendary-collection
 number: '80'
@@ -3461,7 +3540,8 @@ height: 1'0
 dex entry: >-
   Uses anti-gravity to stay suspended. Appears without warning
   and uses attacks like Thunder Wave.
-illustrator: Keiji Kinebuchi
+illustrators:
+- Keiji Kinebuchi
 ---
 set: legendary-collection
 number: '81'
@@ -3502,7 +3582,8 @@ height: 1'8
 dex entry: >-
   Normally friendly, it quickly becomes angry if it doesn't get
   what it wants.
-illustrator: Sumiyoshi Kizuki
+illustrators:
+- Sumiyoshi Kizuki
 ---
 set: legendary-collection
 number: '82'
@@ -3546,7 +3627,8 @@ height: 1'4
 dex entry: >-
   Although small, its venomous barbs make this Pokémon dangerous.
   The female has smaller horns.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: legendary-collection
 number: '83'
@@ -3582,7 +3664,8 @@ height: 1'4
 dex entry: >-
   Stiffens its ears to sense danger. The larger, more powerful
   of its horns secretes venom.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: legendary-collection
 number: '84'
@@ -3623,7 +3706,8 @@ height: 28'10
 dex entry: >-
   As it grows, the stone portions of its body harden to become
   similar to a diamond, though colored black.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: legendary-collection
 number: '85'
@@ -3664,7 +3748,8 @@ height: 1'3
 dex entry: >-
   A common sight in forests and woods. It flaps its wings at ground
   level to kick up blinding sand.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: legendary-collection
 number: '86'
@@ -3702,7 +3787,8 @@ height: 1'4
 dex entry: >-
   When several of these Pokémon gather, their electricity can
   build and cause lightning storms.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: legendary-collection
 number: '87'
@@ -3740,7 +3826,8 @@ height: 3'3
 dex entry: >-
   Its hooves are 10 times harder than diamonds. It can trample
   anything flat in moments.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: legendary-collection
 number: '88'
@@ -3783,7 +3870,8 @@ height: 2'7
 dex entry: >-
   It is often seen holding its head in its paws, as if it were
   suffering from a headache.
-illustrator: Kagemaru Himeno
+illustrators:
+- Kagemaru Himeno
 ---
 set: legendary-collection
 number: '89'
@@ -3819,7 +3907,8 @@ height: 1'0
 dex entry: >-
   Bites anything when it attacks. Small and very quick, it is
   a common sight in many places.
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: legendary-collection
 number: '90'
@@ -3863,7 +3952,8 @@ height: 3'3
 dex entry: >-
   Its massive bones are 1,000 times harder than human bones. It
   can easily knock a trailer flying.
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: legendary-collection
 number: '91'
@@ -3904,7 +3994,8 @@ height: 2'0
 dex entry: >-
   Burrows deep underground in arid locations far from water. It
   only emerges to hunt for food.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: legendary-collection
 number: '92'
@@ -3938,7 +4029,8 @@ height: 3'7
 dex entry: >-
   The protruding horn on its head is very hard. This horn is used
   for bashing through thick ice.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: legendary-collection
 number: '93'
@@ -3982,7 +4074,8 @@ height: 3'11
 dex entry: >-
   Incredibly slow and dopey. It takes 5 seconds for it to feel
   pain when under attack.
-illustrator: Miki Tanaka
+illustrators:
+- Miki Tanaka
 ---
 set: legendary-collection
 number: '94'
@@ -4024,7 +4117,8 @@ height: 1'0
 dex entry: >-
   Eats bugs in grassy areas. It has to flap its short wings at
   high speed to stay airborne.
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: legendary-collection
 number: '95'
@@ -4067,7 +4161,8 @@ height: 1'8
 dex entry: >-
   After birth, its back swells and hardens into a shell. It powerfully
   sprays foam from its mouth.
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: legendary-collection
 number: '96'
@@ -4107,7 +4202,8 @@ height: 2'11
 dex entry: >-
   Drifts in shallow seas. Anglers who hook them by accident are
   often punished by its stinging acid.
-illustrator: Kagemaru Himeno
+illustrators:
+- Kagemaru Himeno
 ---
 set: legendary-collection
 number: '97'
@@ -4141,7 +4237,8 @@ height: 1'8
 dex entry: >-
   Usually found in power plants. Easily mistaken for a Poké Ball,
   it has zapped many people.
-illustrator: Keiji Kinebuchi
+illustrators:
+- Keiji Kinebuchi
 ---
 set: legendary-collection
 number: '98'
@@ -4177,7 +4274,8 @@ height: 2'0
 dex entry: >-
   At the time of birth, it has just one tail. Its tail splits
   from the tip as it grows older.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: legendary-collection
 number: '99'
@@ -4213,7 +4311,8 @@ height: 1'0
 dex entry: >-
   Often found in forests, eating leaves. It has a sharp, venomous
   stinger on its head.
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: legendary-collection
 number: '100'
@@ -4233,7 +4332,8 @@ mechanics:
     it to is no longer Asleep, Confused, Paralyzed, or Poisoned.
     Full Heal Energy Provides 1 Colorless energy. (Doesn't count
     as a basic Energy card.)
-illustrator: Keiji Kinebuchi
+illustrators:
+- Keiji Kinebuchi
 ---
 set: legendary-collection
 number: '101'
@@ -4253,7 +4353,8 @@ mechanics:
     from the Pokémon you attach it to, if it has any. Potion Energy
     provides 1 Colorless energy. (Doesn't count as a basic Energy
     card.)
-illustrator: Keiji Kinebuchi
+illustrators:
+- Keiji Kinebuchi
 ---
 set: legendary-collection
 number: '102'
@@ -4270,7 +4371,8 @@ mechanics:
     Put a Stage 2 Evolution card from your hand on the matching
     Basic Pokémon. You can only play this card when you would
     be allowed to evolve that Pokémon anyway.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: legendary-collection
 number: '103'
@@ -4287,7 +4389,8 @@ mechanics:
     Trade 1 of the Basic Pokémon or Evolution cards in your hand
     for 1 of the Basic Pokémon or Evolution cards from your deck.
     Show both cards to your opponent. Shuffle your deck afterward.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: legendary-collection
 number: '104'
@@ -4304,7 +4407,8 @@ mechanics:
     Choose 1 of your own Pokémon in play and return its Basic
     Pokémon card to your hand. (Discard all cards attached to
     that card.)
-illustrator: Keiji Kinebuchi
+illustrators:
+- Keiji Kinebuchi
 ---
 set: legendary-collection
 number: '105'
@@ -4321,7 +4425,8 @@ mechanics:
     Search your deck for an Evolution card with Dark in its name.
     Show it to your opponent and put it into your hand. Shuffle
     your deck afterward.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: legendary-collection
 number: '106'
@@ -4340,7 +4445,8 @@ mechanics:
     2 cards. If your opponent accepts, each of you searches your
     decks for any number of Basic Pokémon cards and puts them
     face down onto your
-illustrator: Kagemaru Himeno
+illustrators:
+- Kagemaru Himeno
 ---
 set: legendary-collection
 number: '107'
@@ -4356,7 +4462,8 @@ mechanics:
   text: >-
     Trade 1 of other cards in your hand for up to 2 basic Energy
     cards from your discard pile.
-illustrator: Keiji Kinebuchi
+illustrators:
+- Keiji Kinebuchi
 ---
 set: legendary-collection
 number: '108'
@@ -4371,7 +4478,8 @@ mechanics:
 - type: effect
   text: >-
     Draw 2 cards.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: legendary-collection
 number: '109'
@@ -4393,7 +4501,8 @@ mechanics:
     a Trainer card). Mysterious Fossil has no attacks, can't retreat,
     and can't be Asleep, Confused, Paralyzed, or Poisoned. If
     Mysterious F
-illustrator: Keiji Kinebuchi
+illustrators:
+- Keiji Kinebuchi
 ---
 set: legendary-collection
 number: '110'
@@ -4409,7 +4518,8 @@ mechanics:
 - type: effect
   text: >-
     Remove up to 2 damage counters from 1 of your Pokémon.
-illustrator: Keiji Kinebuchi
+illustrators:
+- Keiji Kinebuchi
 ---
 set: legendary-collection
 number: S1
@@ -4458,7 +4568,8 @@ height: 5'7
 dex entry: >-
   Spits fire that is hot enough to melt boulders. Known to unintentionally
   cause forest fires.
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: legendary-collection
 number: S2
@@ -4507,7 +4618,8 @@ weight: 189
 height: 5'3
 dex entry: >-
   An aggressive Pokémon that tackles anything it sees.
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: legendary-collection
 number: S3
@@ -4549,7 +4661,8 @@ height: 2'7
 dex entry: >-
   Stores up electricity in its body, then suddenly releases it
   to surprise and shock everyone.
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: legendary-collection
 number: S4
@@ -4595,4 +4708,5 @@ height: 6'7
 dex entry: >-
   A scientist created this Pokémon after years of horrific gene-splicing
   and DNA engineering experiments.
-illustrator: Christopher Rush
+illustrators:
+- Christopher Rush

@@ -47,7 +47,8 @@ height: 6'11
 dex entry: >-
   While seeking iron for food, it digs tunnels by breaking through
   bedrock with it's steel horns.
-illustrator: Kouki Saitou
+illustrators:
+- Kouki Saitou
 ---
 set: mysterious-treasures
 number: '2'
@@ -93,7 +94,8 @@ height: 4'11
 dex entry: >-
   It's superb memory lets it recall everything it has experienced
   from birth. It's IQ exceeds 5,000.
-illustrator: Kouki Saitou
+illustrators:
+- Kouki Saitou
 ---
 set: mysterious-treasures
 number: '3'
@@ -139,7 +141,8 @@ height: 3'11
 dex entry: >-
   To eat, it deftly shucks nuts with it's two tails. It rarely
   uses it's arms now.
-illustrator: Kouki Saitou
+illustrators:
+- Kouki Saitou
 ---
 set: mysterious-treasures
 number: '4'
@@ -182,7 +185,8 @@ height: 1'0
 dex entry: >-
   Known as "The Being of Willpower." It sleeps at the bottom of
   a lake to keep the world in balance.
-illustrator: Ryo Ueda
+illustrators:
+- Ryo Ueda
 ---
 set: mysterious-treasures
 number: '5'
@@ -229,7 +233,8 @@ height: 4'11
 dex entry: >-
   This kindhearted Pokémon nurses sick Pokémon to health. It senses
   feelings of sadness.
-illustrator: Kagemaru Himeno
+illustrators:
+- Kagemaru Himeno
 ---
 set: mysterious-treasures
 number: '6'
@@ -275,7 +280,8 @@ height: 4'3
 dex entry: >-
   One caused a news sensation when it was dug up at a construction
   site after a 2,000 year sleep.
-illustrator: Daisuke Ito
+illustrators:
+- Daisuke Ito
 ---
 set: mysterious-treasures
 number: '7'
@@ -317,7 +323,8 @@ height: 2'0
 dex entry: >-
   It has the power to travel across time, but it is said to appear
   only in peaceful times.
-illustrator: Kagemaru Himeno
+illustrators:
+- Kagemaru Himeno
 ---
 set: mysterious-treasures
 number: '8'
@@ -363,7 +370,8 @@ height: 7'7
 dex entry: >-
   It usually moves slowly, but it goes at blinding speed when
   it attacks and bites prey.
-illustrator: Kazuyuki Kano
+illustrators:
+- Kazuyuki Kano
 ---
 set: mysterious-treasures
 number: '9'
@@ -404,7 +412,8 @@ height: 6'3
 dex entry: >-
   When it folds up it's body and extends it's wings, it looks
   like a jet plane. It flies at sonic speed.
-illustrator: Kazuyuki Kano
+illustrators:
+- Kazuyuki Kano
 ---
 set: mysterious-treasures
 number: '10'
@@ -451,7 +460,8 @@ height: 2'11
 dex entry: >-
   Becoming active at night, it is known to swarm with numerous
   MURKROW in tow.
-illustrator: Kazuyuki Kano
+illustrators:
+- Kazuyuki Kano
 ---
 set: mysterious-treasures
 number: '11'
@@ -497,7 +507,8 @@ height: 3'11
 dex entry: >-
   It lives on the deep-sea floor. It attracts prey by flashing
   the patterns on it's four tail fins.
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: mysterious-treasures
 number: '12'
@@ -543,7 +554,8 @@ height: 5'3
 dex entry: >-
   It blasts fireballs of over 3,600 degrees F from the ends of
   it's arms. It lives in volcanic craters.
-illustrator: Hiroaki Ito
+illustrators:
+- Hiroaki Ito
 ---
 set: mysterious-treasures
 number: '13'
@@ -592,7 +604,8 @@ height: 5'11
 dex entry: >-
   It's breath has the fantastic ability to revive dead plants
   and flowers.
-illustrator: Daisuke Ito
+illustrators:
+- Daisuke Ito
 ---
 set: mysterious-treasures
 number: '14'
@@ -633,7 +646,8 @@ height: 1'0
 dex entry: >-
   Known as "The Being of Emotion." It taught humans the nobility
   of sorrow, pain, and joy.
-illustrator: Ryo Ueda
+illustrators:
+- Ryo Ueda
 ---
 set: mysterious-treasures
 number: '15'
@@ -680,7 +694,8 @@ height: 2'7
 dex entry: >-
   It turns aggressive if it has too much electricity in it's body.
   It discharges power through it's tail.
-illustrator: Daisuke Ito
+illustrators:
+- Daisuke Ito
 ---
 set: mysterious-treasures
 number: '16'
@@ -723,7 +738,8 @@ height: 5'7
 dex entry: >-
   It attacks using blasts of fire. It creates heat shimmers with
   intense fire to hide itself.
-illustrator: Kazuyuki Kano
+illustrators:
+- Kazuyuki Kano
 ---
 set: mysterious-treasures
 number: '17'
@@ -772,7 +788,8 @@ height: 6'7
 dex entry: >-
   If it rampages, it knocks down mountians and buries rivers.
   Maps must be redrawn afterward.
-illustrator: Masakazu Fukuda
+illustrators:
+- Masakazu Fukuda
 ---
 set: mysterious-treasures
 number: '18'
@@ -816,7 +833,8 @@ height: 1'0
 dex entry: >-
   Known as "The Being of Knowledge." It is said that it can wipe
   out the memory of those who see it's eyes.
-illustrator: Ryo Ueda
+illustrators:
+- Ryo Ueda
 ---
 set: mysterious-treasures
 number: '19'
@@ -859,7 +877,8 @@ height: 7'3
 dex entry: >-
   It whips up blizzards in mountians that are always buried in
   snow. It is the abominable snowman.
-illustrator: Kazuyuki Kano
+illustrators:
+- Kazuyuki Kano
 ---
 set: mysterious-treasures
 number: '20'
@@ -901,7 +920,8 @@ height: 3'7
 dex entry: >-
   It attaches silk to it's prey and sets it free. Later, it tracks
   the silk to it's prey and it's friends.
-illustrator: Midori Harada
+illustrators:
+- Midori Harada
 ---
 set: mysterious-treasures
 number: '21'
@@ -948,7 +968,8 @@ height: 4'3
 dex entry: >-
   Any frontal attack is repulsed. It is a docile Pokémon that
   feeds on grass and berries.
-illustrator: Kazuyuki Kano
+illustrators:
+- Kazuyuki Kano
 ---
 set: mysterious-treasures
 number: '22'
@@ -990,7 +1011,8 @@ height: 2'0
 dex entry: >-
   To knock foes flying, it makes the air shudder with it's cries.
   It converses using seven cries.
-illustrator: Daisuke Ito
+illustrators:
+- Daisuke Ito
 ---
 set: mysterious-treasures
 number: '23'
@@ -1037,7 +1059,8 @@ height: 5'11
 dex entry: >-
   Having four wings enables it to fly faster and more quietly.
   It turns active when the night comes.
-illustrator: Masakazu Fukuda
+illustrators:
+- Masakazu Fukuda
 ---
 set: mysterious-treasures
 number: '24'
@@ -1082,7 +1105,8 @@ height: 6'7
 dex entry: >-
   It is called "The Walking Jungle." If a head grows too big,
   it falls off and becomes an EXEGGCUTE.
-illustrator: Masakazu Fukuda
+illustrators:
+- Masakazu Fukuda
 ---
 set: mysterious-treasures
 number: '25'
@@ -1126,7 +1150,8 @@ height: 4'11
 dex entry: >-
   To protect itself, it clads it's body in an armor of ice, made
   by freezing moisture in the air.
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: mysterious-treasures
 number: '26'
@@ -1175,7 +1200,8 @@ height: 21'4
 dex entry: >-
   Once it appears, it's rage never settles until it has razed
   the fields and mountians around it.
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: mysterious-treasures
 number: '27'
@@ -1218,7 +1244,8 @@ height: 3'3
 dex entry: >-
   It crosses it's knifelike arms in front of it's chest when it
   cries. It can compose melodies ad lib.
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: mysterious-treasures
 number: '28'
@@ -1265,7 +1292,8 @@ height: 4'11
 dex entry: >-
   It discharges electricity from it's mane. It creates a thundercloud
   overhead to drop lightning bolts.
-illustrator: Atsuko Nishida
+illustrators:
+- Atsuko Nishida
 ---
 set: mysterious-treasures
 number: '29'
@@ -1308,7 +1336,8 @@ height: 6'11
 dex entry: >-
   When the waves are calm, one may encounter a swarm of MANTINE
   swimming as if they are in flight.
-illustrator: Masakazu Fukuda
+illustrators:
+- Masakazu Fukuda
 ---
 set: mysterious-treasures
 number: '30'
@@ -1355,7 +1384,8 @@ height: 4'3
 dex entry: >-
   It is a pantomime expert that can create invisible but solid
   walls using miming gestures.
-illustrator: Kagemaru Himeno
+illustrators:
+- Kagemaru Himeno
 ---
 set: mysterious-treasures
 number: '31'
@@ -1401,7 +1431,8 @@ height: 4'3
 dex entry: >-
   It's entire body is armored with hard scales. It will protect
   the young in it's burrow with it's life.
-illustrator: Kagemaru Himeno
+illustrators:
+- Kagemaru Himeno
 ---
 set: mysterious-treasures
 number: '32'
@@ -1445,7 +1476,8 @@ height: 3'7
 dex entry: >-
   It's nine tails are said to be imbued with a mystic power. It
   can live for a thousand years.
-illustrator: Kouki Saitou
+illustrators:
+- Kouki Saitou
 ---
 set: mysterious-treasures
 number: '33'
@@ -1490,7 +1522,8 @@ height: 5'3
 dex entry: >-
   It's powerful head butt has enough power to shatter even the
   most durable things upon impact.
-illustrator: Kazuyuki Kano
+illustrators:
+- Kazuyuki Kano
 ---
 set: mysterious-treasures
 number: '34'
@@ -1532,7 +1565,8 @@ height: 6'7
 dex entry: >-
   The world's laziest Pokémon. When it is lounging, it is actually
   saving energy for striking back.
-illustrator: Kouki Saitou
+illustrators:
+- Kouki Saitou
 ---
 set: mysterious-treasures
 number: '35'
@@ -1577,7 +1611,8 @@ height: 3'11
 dex entry: >-
   Despite appearing to be a tree, it's body is closer to rocks
   and stones. It is very weak to water.
-illustrator: Atsuko Nishida
+illustrators:
+- Atsuko Nishida
 ---
 set: mysterious-treasures
 number: '36'
@@ -1619,7 +1654,8 @@ height: 4'3
 dex entry: >-
   It's knuckle claws secrete a toxin so vile that even a scratch
   could prove fatal.
-illustrator: Daisuke Ito
+illustrators:
+- Daisuke Ito
 ---
 set: mysterious-treasures
 number: '37'
@@ -1665,7 +1701,8 @@ height: 1'8
 dex entry: >-
   Shaped like ancient writing, it is a huge mystery whether language
   or UNOWN came first.
-illustrator: Daisuke Ito
+illustrators:
+- Daisuke Ito
 ---
 set: mysterious-treasures
 number: '38'
@@ -1712,7 +1749,8 @@ height: 5'11
 dex entry: >-
   In it's territory, it leaves scratches on trees that bear delicious
   berries or fruits.
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: mysterious-treasures
 number: '39'
@@ -1756,7 +1794,8 @@ height: 4'7
 dex entry: >-
   It shatters ice with it's big tusks. It's thick blubber repels
   not only  the cold, but also enemy attacks.
-illustrator: Midori Harada
+illustrators:
+- Midori Harada
 ---
 set: mysterious-treasures
 number: '40'
@@ -1803,7 +1842,8 @@ height: 2'11
 dex entry: >-
   It is very territorial. It repels foes by setting off tremors
   that extend over a thee-mile radius.
-illustrator: Daisuke Ito
+illustrators:
+- Daisuke Ito
 ---
 set: mysterious-treasures
 number: '41'
@@ -1849,7 +1889,8 @@ height: 3'11
 dex entry: >-
   The buds that ring it's neck give off a spicy aroma that perks
   people up.
-illustrator: Midori Harada
+illustrators:
+- Midori Harada
 ---
 set: mysterious-treasures
 number: '42'
@@ -1890,7 +1931,8 @@ height: 0'8
 dex entry: >-
   It emits cries by agitating an orb at the back of it's throat.
   It moves with flouncing hops.
-illustrator: Emi Yoshida
+illustrators:
+- Emi Yoshida
 ---
 set: mysterious-treasures
 number: '43'
@@ -1931,7 +1973,8 @@ height: 2'11
 dex entry: >-
   It lived in jungles around 100 million years ago. It's skull
   is as hard as iron.
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: mysterious-treasures
 number: '44'
@@ -1976,7 +2019,8 @@ height: 3'7
 dex entry: >-
   Once it bites down, it won't let go until it loses it's fangs.
   New fangs quickly grow into place.
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: mysterious-treasures
 number: '45'
@@ -2017,7 +2061,8 @@ height: 5'7
 dex entry: >-
   In snow, the pure white coating covering it's body obscures
   it from predators.
-illustrator: Masakazu Fukuda
+illustrators:
+- Masakazu Fukuda
 ---
 set: mysterious-treasures
 number: '46'
@@ -2063,7 +2108,8 @@ height: 5'11
 dex entry: >-
   When DODUO evolves into this odd breed, one of it's heads splits
   into two. It runs at nearly 40 mph.
-illustrator: Masakazu Fukuda
+illustrators:
+- Masakazu Fukuda
 ---
 set: mysterious-treasures
 number: '47'
@@ -2103,7 +2149,8 @@ height: 4'11
 dex entry: >-
   It digs into the ground with it's tail and makes a mazelike
   nest. It can fly just a little.
-illustrator: Midori Harada
+illustrators:
+- Midori Harada
 ---
 set: mysterious-treasures
 number: '48'
@@ -2146,7 +2193,8 @@ height: 4'7
 dex entry: >-
   There is a long held belief that medicine made from it's scales
   will heal even incurable illnesses.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: mysterious-treasures
 number: '49'
@@ -2187,7 +2235,8 @@ height: 4'11
 dex entry: >-
   It's tail also has a small brain. It bites to repel any foe
   trying to sneak up on it from behind.
-illustrator: Midori Harada
+illustrators:
+- Midori Harada
 ---
 set: mysterious-treasures
 number: '50'
@@ -2225,7 +2274,8 @@ height: 5'3
 dex entry: >-
   It loves the blood of humans and Pokémon. It flies around at
   night in search of neck veins.
-illustrator: Kazuyuki Kano
+illustrators:
+- Kazuyuki Kano
 ---
 set: mysterious-treasures
 number: '51'
@@ -2272,7 +2322,8 @@ height: 3'3
 dex entry: >-
   GRAVELER make their homes on sheer cliff faces by gouging out
   numerous horizontal holes.
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: mysterious-treasures
 number: '52'
@@ -2312,7 +2363,8 @@ height: 2'0
 dex entry: >-
   It loves round white things. It carries an egg-shaped rock in
   imitation of CHANSEY.
-illustrator: Yuka Morii
+illustrators:
+- Yuka Morii
 ---
 set: mysterious-treasures
 number: '53'
@@ -2355,7 +2407,8 @@ height: 2'11
 dex entry: >-
   For food, it digs up iron ore. It smashes it's steely body against
   others to fight over territory.
-illustrator: Midori Harada
+illustrators:
+- Midori Harada
 ---
 set: mysterious-treasures
 number: '54'
@@ -2394,7 +2447,8 @@ height: 4'3
 dex entry: >-
   Born in the spout of a volcano, it's body is covered by flames
   that shimmer like the sun.
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: mysterious-treasures
 number: '55'
@@ -2442,7 +2496,8 @@ height: 2'7
 dex entry: >-
   It's antennae have eye patterns on them. It's four wings enable
   it to hover and fly in any direction.
-illustrator: Midori Harada
+illustrators:
+- Midori Harada
 ---
 set: mysterious-treasures
 number: '56'
@@ -2482,7 +2537,8 @@ height: 2'7
 dex entry: >-
   When it senses danger, it raises all the barbs on it's body.  These
   barbs grow slower than NIDORINO's.
-illustrator: Atsuko Nishida
+illustrators:
+- Atsuko Nishida
 ---
 set: mysterious-treasures
 number: '57'
@@ -2527,7 +2583,8 @@ height: 2'11
 dex entry: >-
   It lives in the gaps of boulders and in holes on the seafloor.
   It's suction cups grip prey tightly.
-illustrator: Kagemaru Himeno
+illustrators:
+- Kagemaru Himeno
 ---
 set: mysterious-treasures
 number: '58'
@@ -2571,7 +2628,8 @@ height: 3'2
 dex entry: >-
   A mushroom grown larger than the host's body controls PARASECT.
   It scatters poisonous spores.
-illustrator: Masakazu Fukuda
+illustrators:
+- Masakazu Fukuda
 ---
 set: mysterious-treasures
 number: '59'
@@ -2617,7 +2675,8 @@ height: 3'11
 dex entry: >-
   It's body is as hard as bedrock. By venting pressurized gas,
   it can launch itself like a rocket.
-illustrator: Midori Harada
+illustrators:
+- Midori Harada
 ---
 set: mysterious-treasures
 number: '60'
@@ -2653,7 +2712,8 @@ height: 2'11
 dex entry: >-
   It intimidates foes with the heat of it's flames. The fire burns
   more strongly when it readies to fight.
-illustrator: Atsuko Nishida
+illustrators:
+- Atsuko Nishida
 ---
 set: mysterious-treasures
 number: '61'
@@ -2700,7 +2760,8 @@ height: 3'3
 dex entry: >-
   It curls up, then rolls into foes with it's back. It's sharp
   spines inflict severe damage.
-illustrator: Atsuko Nishida
+illustrators:
+- Atsuko Nishida
 ---
 set: mysterious-treasures
 number: '62'
@@ -2737,7 +2798,8 @@ height: 3'7
 dex entry: >-
   It habitually spins things on it's nose. By doing so, it learns
   textures and odors.
-illustrator: Kouki Saitou
+illustrators:
+- Kouki Saitou
 ---
 set: mysterious-treasures
 number: '63'
@@ -2784,7 +2846,8 @@ height: 1'8
 dex entry: >-
   A Pokémon that lived in jungles around 100 million years ago.
   It's facial hide is extremely hard.
-illustrator: Kouki Saitou
+illustrators:
+- Kouki Saitou
 ---
 set: mysterious-treasures
 number: '64'
@@ -2829,7 +2892,8 @@ height: 6'7
 dex entry: >-
   Because it continually ate only it's favorite fruit, the fruit
   started growing around it's neck.
-illustrator: Kazuyuki Kano
+illustrators:
+- Kazuyuki Kano
 ---
 set: mysterious-treasures
 number: '65'
@@ -2874,7 +2938,8 @@ height: 1'8
 dex entry: >-
   Shaped like ancient writing, it is a huge mystery whether language
   or UNOWN came first.
-illustrator: Daisuke Ito
+illustrators:
+- Daisuke Ito
 ---
 set: mysterious-treasures
 number: '66'
@@ -2918,7 +2983,8 @@ height: 1'8
 dex entry: >-
   Shaped like ancient writing, it is a huge mystery whether language
   or UNOWN came first.
-illustrator: Kazuyuki Kano
+illustrators:
+- Kazuyuki Kano
 ---
 set: mysterious-treasures
 number: '67'
@@ -2963,7 +3029,8 @@ height: 1'8
 dex entry: >-
   Shaped like ancient writing, it is a huge mystery whether language
   or UNOWN came first.
-illustrator: Kazuyuki Kano
+illustrators:
+- Kazuyuki Kano
 ---
 set: mysterious-treasures
 number: '68'
@@ -3007,7 +3074,8 @@ height: 4'7
 dex entry: >-
   It's heart beats at a tenfold tempo, so it cannot sit still
   for even a moment.
-illustrator: Masakazu Fukuda
+illustrators:
+- Masakazu Fukuda
 ---
 set: mysterious-treasures
 number: '69'
@@ -3054,7 +3122,8 @@ height: 2'11
 dex entry: >-
   It sleeps for 18 hours a day. Even when awake, it teleports
   itself while remaining seated.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: mysterious-treasures
 number: '70'
@@ -3095,7 +3164,8 @@ height: 2'7
 dex entry: >-
   It uses it's tail to pluck fruits that are out of reach. It's
   tail is more adept than it's real hands.
-illustrator: Kagemaru Himeno
+illustrators:
+- Kagemaru Himeno
 ---
 set: mysterious-treasures
 number: '71'
@@ -3138,7 +3208,8 @@ height: 1'4
 dex entry: >-
   It usually lives deep in mountians. However, hunger may drive
   it to eat railroad tracks and cars.
-illustrator: Yuka Morii
+illustrators:
+- Yuka Morii
 ---
 set: mysterious-treasures
 number: '72'
@@ -3177,7 +3248,8 @@ height: 1'4
 dex entry: >-
   It coats it's entire body with a slimy fluid so it can squirm
   and slip away if grabbed.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: mysterious-treasures
 number: '73'
@@ -3203,7 +3275,8 @@ damage modifiers:
   operation: +
   type: Fighting
 retreat: 2
-illustrator: Yusuke Ohmura
+illustrators:
+- Yusuke Ohmura
 ---
 set: mysterious-treasures
 number: '74'
@@ -3241,7 +3314,8 @@ height: 1'8
 dex entry: >-
   Implements shaped like it were discovered in ancient tombs.
   It is unknown if they are related.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: mysterious-treasures
 number: '75'
@@ -3270,7 +3344,8 @@ damage modifiers:
   operation: +
   type: Lightning
 retreat: 1
-illustrator: Kenkichi Toyama
+illustrators:
+- Kenkichi Toyama
 ---
 set: mysterious-treasures
 number: '76'
@@ -3311,7 +3386,8 @@ height: 3'7
 dex entry: >-
   It is said to deliver happiness. Being compassionate, it shares
   it's eggs with injured people.
-illustrator: Atsuko Nishida
+illustrators:
+- Atsuko Nishida
 ---
 set: mysterious-treasures
 number: '77'
@@ -3355,7 +3431,8 @@ height: 2'11
 dex entry: >-
   It uses the leaf on it's head to determine the temperature and
   humidity. It loves to sunbathe.
-illustrator: Kagemaru Himeno
+illustrators:
+- Kagemaru Himeno
 ---
 set: mysterious-treasures
 number: '78'
@@ -3396,7 +3473,8 @@ height: 2'4
 dex entry: >-
   It's cheeks hold poison sacs. It tries to catch foes off guard
   to jab them with toxic fingers.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: mysterious-treasures
 number: '79'
@@ -3433,7 +3511,8 @@ height: 1'8
 dex entry: >-
   It has a timid nature. If it is startled, the flames on it's
   back burn more vigorously.
-illustrator: Masakazu Fukuda
+illustrators:
+- Masakazu Fukuda
 ---
 set: mysterious-treasures
 number: '80'
@@ -3478,7 +3557,8 @@ height: 4'7
 dex entry: >-
   The brains in it's two heads appear to communicate emotions
   to each other with a telepathic power.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: mysterious-treasures
 number: '81'
@@ -3518,7 +3598,8 @@ height: 2'0
 dex entry: >-
   Using electricity stored in it's fur, it stimulates it's muscles
   to highten it's reaction speed.
-illustrator: Kouki Saitou
+illustrators:
+- Kouki Saitou
 ---
 set: mysterious-treasures
 number: '82'
@@ -3555,7 +3636,8 @@ height: 1'4
 dex entry: >-
   It's six eggs converse using telepathy. They can quickly gather
   if they become separated.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: mysterious-treasures
 number: '83'
@@ -3595,7 +3677,8 @@ height: 1'4
 dex entry: >-
   After long exposure to sunlight, the patterns on it's tail fins
   shine vividly when darkness arrives.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: mysterious-treasures
 number: '84'
@@ -3634,7 +3717,8 @@ height: 1'4
 dex entry: >-
   Many live on mountian trails and remain half buried while keeping
   an eye on climbers.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: mysterious-treasures
 number: '85'
@@ -3670,7 +3754,8 @@ height: 2'4
 dex entry: >-
   It nests in small, horizontal holes in cave walls. It pounces
   to catch prey that stray too close.
-illustrator: Hiroki Fuchino
+illustrators:
+- Hiroki Fuchino
 ---
 set: mysterious-treasures
 number: '86'
@@ -3709,7 +3794,8 @@ height: 1'0
 dex entry: >-
   It shakes it's head back to front, causing it's antennae to
   hit each other and sound like a xylophone.
-illustrator: Atsuko Nishida
+illustrators:
+- Atsuko Nishida
 ---
 set: mysterious-treasures
 number: '87'
@@ -3753,7 +3839,8 @@ height: 2'0
 dex entry: >-
   A Pokémon that eats soil. Once It has eaten a large mountian,
   it goes to sleep so it can grow.
-illustrator: Masakazu Fukuda
+illustrators:
+- Masakazu Fukuda
 ---
 set: mysterious-treasures
 number: '88'
@@ -3793,7 +3880,8 @@ height: 2'4
 dex entry: >-
   It's body temperature is around 1,000 degrees F. It is healthy
   if it is breathing yellow flames.
-illustrator: Midori Harada
+illustrators:
+- Midori Harada
 ---
 set: mysterious-treasures
 number: '89'
@@ -3835,7 +3923,8 @@ height: 2'11
 dex entry: >-
   It is said to be the world's weakest Pokémon. No one knows why
   it has managed to survive.
-illustrator: Yusuke Ohmura
+illustrators:
+- Yusuke Ohmura
 ---
 set: mysterious-treasures
 number: '90'
@@ -3879,7 +3968,8 @@ height: 1'8
 dex entry: >-
   It is believed that seeing this Pokémon at night will bring
   about ominous occurrences.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: mysterious-treasures
 number: '91'
@@ -3920,7 +4010,8 @@ height: 1'4
 dex entry: >-
   While it does not prefer to fight, even one drop of the poison
   it secretes from barbs can be fatal.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: mysterious-treasures
 number: '92'
@@ -3959,7 +4050,8 @@ height: 1'0
 dex entry: >-
   Mushrooms named tochukaso grow on it's back. The grow along
   with the host PARAS.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: mysterious-treasures
 number: '93'
@@ -4003,7 +4095,8 @@ height: 1'0
 dex entry: >-
   The electric pouches on it's cheeks are still small. They cannot
   store much electricity yet.
-illustrator: Yuka Morii
+illustrators:
+- Yuka Morii
 ---
 set: mysterious-treasures
 number: '94'
@@ -4054,7 +4147,8 @@ height: 1'4
 dex entry: >-
   It lives in forests with others. It stores electricity in the
   pouches on it's cheeks.
-illustrator: Sumiyoshi Kizuki
+illustrators:
+- Sumiyoshi Kizuki
 ---
 set: mysterious-treasures
 number: '95'
@@ -4096,7 +4190,8 @@ height: 2'0
 dex entry: >-
   It squirts water forcefully from it's mouth to shoot down flying
   prey.
-illustrator: Sumiyoshi Kizuki
+illustrators:
+- Sumiyoshi Kizuki
 ---
 set: mysterious-treasures
 number: '96'
@@ -4139,7 +4234,8 @@ height: 2'0
 dex entry: >-
   To protect itself from attackers, it curls up into a ball. It
   lives in arid regions with minimal rainfall.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: mysterious-treasures
 number: '97'
@@ -4174,7 +4270,8 @@ height: 3'7
 dex entry: >-
   A Pokémon that lives on icebergs. It swims the sea using the
   point on it's head to break up ice.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: mysterious-treasures
 number: '98'
@@ -4206,7 +4303,8 @@ damage modifiers:
   operation: '-'
   type: Metal
 retreat: 1
-illustrator: Lee HyunJung
+illustrators:
+- Lee HyunJung
 ---
 set: mysterious-treasures
 number: '99'
@@ -4240,7 +4338,8 @@ height: 2'7
 dex entry: >-
   It spends nearly all it's time in a day sprawled out. Just seeing
   it makes one drowsy.
-illustrator: Yuka Morii
+illustrators:
+- Yuka Morii
 ---
 set: mysterious-treasures
 number: '100'
@@ -4280,7 +4379,8 @@ height: 2'4
 dex entry: >-
   In the snow country, certain folklore says a house will prosper
   if a SNORUNT lives there.
-illustrator: Kagemaru Himeno
+illustrators:
+- Kagemaru Himeno
 ---
 set: mysterious-treasures
 number: '101'
@@ -4320,7 +4420,8 @@ height: 3'3
 dex entry: >-
   It lives on snowy mountians. Having had little contact with
   humans, it is boldly inquisitive.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: mysterious-treasures
 number: '102'
@@ -4359,7 +4460,8 @@ height: 2'7
 dex entry: >-
   It rolls across ice floes to reach shore because it's body is
   poorly shaped for swimming.
-illustrator: Sumiyoshi Kizuki
+illustrators:
+- Sumiyoshi Kizuki
 ---
 set: mysterious-treasures
 number: '103'
@@ -4401,7 +4503,8 @@ height: 1'8
 dex entry: >-
   It sets a trap by spinning a web with thin but strong silk.
   It waits motionlessly for prey to arrive.
-illustrator: Kagemaru Himeno
+illustrators:
+- Kagemaru Himeno
 ---
 set: mysterious-treasures
 number: '104'
@@ -4436,7 +4539,8 @@ height: 1'8
 dex entry: >-
   It appears as if it is skating on water. It draws prey with
   a sweet scent from the tip of it's head.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: mysterious-treasures
 number: '105'
@@ -4478,7 +4582,8 @@ height: 2'0
 dex entry: >-
   It lets honey soak into it's paws so it can lick them all the
   time. Every set of paws taste unique.
-illustrator: Yuka Morii
+illustrators:
+- Yuka Morii
 ---
 set: mysterious-treasures
 number: '106'
@@ -4518,7 +4623,8 @@ height: 2'0
 dex entry: >-
   It has the habit of biting anything with it's developed jaws.
   Even it's trainer needs to be careful.
-illustrator: Kouki Saitou
+illustrators:
+- Kouki Saitou
 ---
 set: mysterious-treasures
 number: '107'
@@ -4554,7 +4660,8 @@ height: 2'0
 dex entry: >-
   It controls balls of fire. As it grows, it's six tails split
   from their tips to make more tails.
-illustrator: Kagemaru Himeno
+illustrators:
+- Kagemaru Himeno
 ---
 set: mysterious-treasures
 number: '108'
@@ -4595,7 +4702,8 @@ height: 2'7
 dex entry: >-
   Even though it has no eyes, it can sense obstacles using ultrasonic
   waves it emits from it's mouth.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: mysterious-treasures
 number: '109'
@@ -4620,7 +4728,8 @@ mechanics:
     your deck for a Pokémon, show it to your opponent, and put
     it into your hand.  Shuffle your deck afterward.  (If this
     is the only card in your hand, you can't play this card.)
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: mysterious-treasures
 number: '110'
@@ -4638,7 +4747,8 @@ mechanics:
     1 Pokémon you find there, show it to your opponent, and put
     it into your hand.  Put the remaining cards back on top of
     your deck.  Shuffle your deck afterward.
-illustrator: Ryo Ueda
+illustrators:
+- Ryo Ueda
 ---
 set: mysterious-treasures
 number: '111'
@@ -4664,7 +4774,8 @@ mechanics:
     card that evolves from a Fossil.  Show it to your opponent
     and put it into your hand.  If you searched your deck, shuffle
     your deck afterward.
-illustrator: Kanako Eo
+illustrators:
+- Kanako Eo
 ---
 set: mysterious-treasures
 number: '112'
@@ -4687,7 +4798,8 @@ mechanics:
   text: >-
     Apply Weakness for each Pokémon (both yours and you opponent's)
     as x2 instead.
-illustrator: Ryo Ueda
+illustrators:
+- Ryo Ueda
 ---
 set: mysterious-treasures
 number: '113'
@@ -4704,7 +4816,8 @@ mechanics:
     Search your discard pile for up to 3 in any combination of
     Pokémon and basic Energy cards.  Show them to your opponent
     and shuffle them into your deck.
-illustrator: Ryo Ueda
+illustrators:
+- Ryo Ueda
 ---
 set: mysterious-treasures
 number: '114'
@@ -4723,7 +4836,8 @@ mechanics:
     the other revealed cards back into your deck.  (If you don't
     reveal a Pokémon, shuffle all the revealed cards back into
     your deck.)
-illustrator: Ryo Ueda
+illustrators:
+- Ryo Ueda
 ---
 set: mysterious-treasures
 number: '115'
@@ -4748,7 +4862,8 @@ mechanics:
     and you and your opponent play "Rock-Paper-Scissors."  The
     player who wins draws up to 6 cards.  The player who loses
     draws up to 3 cards.  (You draw your cards first.)
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: mysterious-treasures
 number: '116'
@@ -4783,7 +4898,8 @@ mechanics:
     Whenever Armor Fossil would be damaged by your opponent's
     attack, flip a coin until you get tails.  For each heads,
     reduce that damage by 10.
-illustrator: Ryo Ueda
+illustrators:
+- Ryo Ueda
 ---
 set: mysterious-treasures
 number: '117'
@@ -4824,7 +4940,8 @@ mechanics:
     Out by damage from an opponent's attack, flip a coin until
     you get tails.  For each heads, put 1 damage counter on the
     Attacking Pokémon.
-illustrator: Ryo Ueda
+illustrators:
+- Ryo Ueda
 ---
 set: mysterious-treasures
 number: '118'
@@ -4850,7 +4967,8 @@ mechanics:
     1 Energy at a time.  (Has no effect other than providing Energy.)  Multi
     Energy provides [C] Energy when attached to a Pokémon that
     already has Special Energy cards attached to it.
-illustrator: Takumi Akabane
+illustrators:
+- Takumi Akabane
 ---
 set: mysterious-treasures
 number: '119'
@@ -4876,7 +4994,8 @@ mechanics:
     Weakness and Resistance). Ignore this effect unless the Attacking
     Pokémon is D or has Dark in its name. Darkness Energy provides
     D Energy. (Doesn't count as a basic Energy card.)
-illustrator: Takumi Akabane
+illustrators:
+- Takumi Akabane
 ---
 set: mysterious-treasures
 number: '120'
@@ -4897,7 +5016,8 @@ mechanics:
     Resistance). Ignore this effect if the Pokémon that Metal
     Energy is attached to isn't M. Metal Energy provides M Energy.
     (Doesn't count as a basic Energy card.)
-illustrator: Takumi Akabane
+illustrators:
+- Takumi Akabane
 ---
 set: mysterious-treasures
 number: '121'
@@ -4939,7 +5059,8 @@ damage modifiers:
   operation: '-'
   type: Metal
 retreat: 3
-illustrator: Shizurow
+illustrators:
+- Shizurow
 ---
 set: mysterious-treasures
 number: '122'
@@ -4980,7 +5101,8 @@ damage modifiers:
   operation: ×
   type: Psychic
 retreat: 1
-illustrator: Ryo Ueda
+illustrators:
+- Ryo Ueda
 ---
 set: mysterious-treasures
 number: '123'
@@ -5021,7 +5143,8 @@ damage modifiers:
   operation: ×
   type: Water
 retreat: 3
-illustrator: Shizurow
+illustrators:
+- Shizurow
 ---
 set: mysterious-treasures
 number: '124'
@@ -5038,4 +5161,5 @@ mechanics:
     Flip 3 coins. For each heads, search your discard pile for
     a Pokémon, show it to your opponent, and put it into your
     hand.
-illustrator: Shizurow
+illustrators:
+- Shizurow

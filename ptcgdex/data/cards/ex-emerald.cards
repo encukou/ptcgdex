@@ -43,7 +43,8 @@ damage modifiers:
   operation: ×
   type: Water
 retreat: 2
-illustrator: Midori Harada
+illustrators:
+- Midori Harada
 ---
 set: ex-emerald
 number: '2'
@@ -86,7 +87,8 @@ damage modifiers:
   operation: ×
   type: Psychic
 retreat: 1
-illustrator: Hironobu Yoshida
+illustrators:
+- Hironobu Yoshida
 ---
 set: ex-emerald
 number: '3'
@@ -135,7 +137,8 @@ damage modifiers:
   operation: ×
   type: Fighting
 retreat: 2
-illustrator: Hajime Kusajima
+illustrators:
+- Hajime Kusajima
 ---
 set: ex-emerald
 number: '4'
@@ -179,7 +182,8 @@ damage modifiers:
   operation: ×
   type: Psychic
 retreat: 2
-illustrator: Kagemaru Himeno
+illustrators:
+- Kagemaru Himeno
 ---
 set: ex-emerald
 number: '5'
@@ -211,7 +215,8 @@ damage modifiers:
   operation: ×
   type: Water
 retreat: 1
-illustrator: Kouki Saitou
+illustrators:
+- Kouki Saitou
 ---
 set: ex-emerald
 number: '6'
@@ -243,7 +248,8 @@ damage modifiers:
   operation: ×
   type: Lightning
 retreat: 2
-illustrator: Masakazu Fukuda
+illustrators:
+- Masakazu Fukuda
 ---
 set: ex-emerald
 number: '7'
@@ -284,7 +290,8 @@ damage modifiers:
   operation: '-'
   type: Metal
 retreat: 1
-illustrator: Masakazu Fukuda
+illustrators:
+- Masakazu Fukuda
 ---
 set: ex-emerald
 number: '8'
@@ -317,7 +324,8 @@ damage modifiers:
   operation: ×
   type: Lightning
 retreat: 2
-illustrator: Kagemaru Himeno
+illustrators:
+- Kagemaru Himeno
 ---
 set: ex-emerald
 number: '9'
@@ -350,7 +358,8 @@ damage modifiers:
   operation: ×
   type: Colorless
 retreat: 2
-illustrator: Kouki Saitou
+illustrators:
+- Kouki Saitou
 ---
 set: ex-emerald
 number: '10'
@@ -394,7 +403,8 @@ damage modifiers:
   operation: '-'
   type: Water
 retreat: 2
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: ex-emerald
 number: '11'
@@ -436,7 +446,8 @@ damage modifiers:
   operation: ×
   type: Grass
 retreat: 2
-illustrator: Atsuko Nishida
+illustrators:
+- Atsuko Nishida
 ---
 set: ex-emerald
 number: '12'
@@ -470,7 +481,8 @@ damage modifiers:
   operation: ×
   type: Psychic
 retreat: 1
-illustrator: Kagemaru Himeno
+illustrators:
+- Kagemaru Himeno
 ---
 set: ex-emerald
 number: '13'
@@ -506,7 +518,8 @@ damage modifiers:
   operation: ×
   type: Metal
 retreat: 1
-illustrator: Atsuko Nishida
+illustrators:
+- Atsuko Nishida
 ---
 set: ex-emerald
 number: '14'
@@ -540,7 +553,8 @@ damage modifiers:
   operation: ×
   type: Water
 retreat: 2
-illustrator: Kouki Saitou
+illustrators:
+- Kouki Saitou
 ---
 set: ex-emerald
 number: '15'
@@ -576,7 +590,8 @@ damage modifiers:
   operation: ×
   type: Lightning
 retreat: 2
-illustrator: Kouki Saitou
+illustrators:
+- Kouki Saitou
 ---
 set: ex-emerald
 number: '16'
@@ -612,7 +627,8 @@ damage modifiers:
   operation: '-'
   type: Metal
 retreat: 1
-illustrator: Kagemaru Himeno
+illustrators:
+- Kagemaru Himeno
 ---
 set: ex-emerald
 number: '17'
@@ -645,7 +661,8 @@ damage modifiers:
   operation: ×
   type: Water
 retreat: 1
-illustrator: Kouki Saitou
+illustrators:
+- Kouki Saitou
 ---
 set: ex-emerald
 number: '18'
@@ -677,7 +694,8 @@ damage modifiers:
   operation: ×
   type: Lightning
 retreat: 1
-illustrator: Atsuko Nishida
+illustrators:
+- Atsuko Nishida
 ---
 set: ex-emerald
 number: '19'
@@ -710,7 +728,8 @@ damage modifiers:
   operation: ×
   type: Water
 retreat: 2
-illustrator: Kouki Saitou
+illustrators:
+- Kouki Saitou
 ---
 set: ex-emerald
 number: '20'
@@ -743,7 +762,8 @@ damage modifiers:
   operation: ×
   type: Psychic
 retreat: 1
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: ex-emerald
 number: '21'
@@ -779,7 +799,8 @@ damage modifiers:
   operation: ×
   type: Fighting
 retreat: 1
-illustrator: Midori Harada
+illustrators:
+- Midori Harada
 ---
 set: ex-emerald
 number: '22'
@@ -815,7 +836,8 @@ damage modifiers:
   operation: ×
   type: Psychic
 retreat: 1
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: ex-emerald
 number: '23'
@@ -851,7 +873,8 @@ damage modifiers:
   operation: ×
   type: Water
 retreat: 2
-illustrator: Masakazu Fukuda
+illustrators:
+- Masakazu Fukuda
 ---
 set: ex-emerald
 number: '24'
@@ -886,7 +909,8 @@ damage modifiers:
   operation: ×
   type: Grass
 retreat: 2
-illustrator: Yuka Morii
+illustrators:
+- Yuka Morii
 ---
 set: ex-emerald
 number: '25'
@@ -923,7 +947,8 @@ damage modifiers:
   operation: ×
   type: Water
 retreat: 1
-illustrator: Midori Harada
+illustrators:
+- Midori Harada
 ---
 set: ex-emerald
 number: '26'
@@ -960,7 +985,8 @@ damage modifiers:
   operation: '-'
   type: Fighting
 retreat: 1
-illustrator: Hajime Kusajima
+illustrators:
+- Hajime Kusajima
 ---
 set: ex-emerald
 number: '27'
@@ -993,7 +1019,8 @@ damage modifiers:
   operation: ×
   type: Fighting
 retreat: 1
-illustrator: Masakazu Fukuda
+illustrators:
+- Masakazu Fukuda
 ---
 set: ex-emerald
 number: '28'
@@ -1029,7 +1056,8 @@ damage modifiers:
   operation: '-'
   type: Water
 retreat: 1
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: ex-emerald
 number: '29'
@@ -1065,7 +1093,8 @@ damage modifiers:
   operation: ×
   type: Psychic
 retreat: 2
-illustrator: Kagemaru Himeno
+illustrators:
+- Kagemaru Himeno
 ---
 set: ex-emerald
 number: '30'
@@ -1099,7 +1128,8 @@ damage modifiers:
   operation: ×
   type: Psychic
 retreat: 1
-illustrator: Atsuko Nishida
+illustrators:
+- Atsuko Nishida
 ---
 set: ex-emerald
 number: '31'
@@ -1135,7 +1165,8 @@ damage modifiers:
   operation: ×
   type: Psychic
 retreat: 1
-illustrator: Kouki Saitou
+illustrators:
+- Kouki Saitou
 ---
 set: ex-emerald
 number: '32'
@@ -1166,7 +1197,8 @@ damage modifiers:
   operation: ×
   type: Fire
 retreat: 1
-illustrator: Kouki Saitou
+illustrators:
+- Kouki Saitou
 ---
 set: ex-emerald
 number: '33'
@@ -1199,7 +1231,8 @@ damage modifiers:
   operation: ×
   type: Psychic
 retreat: 1
-illustrator: Kagemaru Himeno
+illustrators:
+- Kagemaru Himeno
 ---
 set: ex-emerald
 number: '34'
@@ -1231,7 +1264,8 @@ damage modifiers:
 - amount: 2
   operation: ×
   type: Fighting
-illustrator: Yuka Morii
+illustrators:
+- Yuka Morii
 ---
 set: ex-emerald
 number: '35'
@@ -1266,7 +1300,8 @@ damage modifiers:
   operation: ×
   type: Fighting
 retreat: 2
-illustrator: Hajime Kusajima
+illustrators:
+- Hajime Kusajima
 ---
 set: ex-emerald
 number: '36'
@@ -1299,7 +1334,8 @@ damage modifiers:
   operation: ×
   type: Grass
 retreat: 1
-illustrator: Atsuko Nishida
+illustrators:
+- Atsuko Nishida
 ---
 set: ex-emerald
 number: '37'
@@ -1336,7 +1372,8 @@ damage modifiers:
   operation: '-'
   type: Metal
 retreat: 1
-illustrator: Naoyo Kimura
+illustrators:
+- Naoyo Kimura
 ---
 set: ex-emerald
 number: '38'
@@ -1371,7 +1408,8 @@ damage modifiers:
   operation: ×
   type: Water
 retreat: 1
-illustrator: Midori Harada
+illustrators:
+- Midori Harada
 ---
 set: ex-emerald
 number: '39'
@@ -1407,7 +1445,8 @@ damage modifiers:
   operation: '-'
   type: Metal
 retreat: 1
-illustrator: Naoyo Kimura
+illustrators:
+- Naoyo Kimura
 ---
 set: ex-emerald
 number: '40'
@@ -1442,7 +1481,8 @@ damage modifiers:
   operation: ×
   type: Psychic
 retreat: 2
-illustrator: Atsuko Nishida
+illustrators:
+- Atsuko Nishida
 ---
 set: ex-emerald
 number: '41'
@@ -1478,7 +1518,8 @@ damage modifiers:
 - amount: 30
   operation: '-'
   type: Fighting
-illustrator: Naoyo Kimura
+illustrators:
+- Naoyo Kimura
 ---
 set: ex-emerald
 number: '42'
@@ -1511,7 +1552,8 @@ damage modifiers:
   operation: ×
   type: Fire
 retreat: 1
-illustrator: Kouki Saitou
+illustrators:
+- Kouki Saitou
 ---
 set: ex-emerald
 number: '43'
@@ -1541,7 +1583,8 @@ damage modifiers:
   operation: ×
   type: Grass
 retreat: 1
-illustrator: Yuka Morii
+illustrators:
+- Yuka Morii
 ---
 set: ex-emerald
 number: '44'
@@ -1570,7 +1613,8 @@ damage modifiers:
   operation: ×
   type: Fighting
 retreat: 1
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: ex-emerald
 number: '45'
@@ -1600,7 +1644,8 @@ damage modifiers:
   operation: '-'
   type: Fighting
 retreat: 1
-illustrator: Hajime Kusajima
+illustrators:
+- Hajime Kusajima
 ---
 set: ex-emerald
 number: '46'
@@ -1629,7 +1674,8 @@ damage modifiers:
   operation: '-'
   type: Fighting
 retreat: 1
-illustrator: Kagemaru Himeno
+illustrators:
+- Kagemaru Himeno
 ---
 set: ex-emerald
 number: '47'
@@ -1661,7 +1707,8 @@ damage modifiers:
   operation: '-'
   type: Metal
 retreat: 1
-illustrator: Kagemaru Himeno
+illustrators:
+- Kagemaru Himeno
 ---
 set: ex-emerald
 number: '48'
@@ -1694,7 +1741,8 @@ damage modifiers:
   operation: '-'
   type: Metal
 retreat: 1
-illustrator: Masakazu Fukuda
+illustrators:
+- Masakazu Fukuda
 ---
 set: ex-emerald
 number: '49'
@@ -1727,7 +1775,8 @@ damage modifiers:
   operation: ×
   type: Lightning
 retreat: 1
-illustrator: Atsuko Nishida
+illustrators:
+- Atsuko Nishida
 ---
 set: ex-emerald
 number: '50'
@@ -1756,7 +1805,8 @@ damage modifiers:
   operation: ×
   type: Lightning
 retreat: 1
-illustrator: Kagemaru Himeno
+illustrators:
+- Kagemaru Himeno
 ---
 set: ex-emerald
 number: '51'
@@ -1786,7 +1836,8 @@ damage modifiers:
   operation: ×
   type: Psychic
 retreat: 1
-illustrator: Atsuko Nishida
+illustrators:
+- Atsuko Nishida
 ---
 set: ex-emerald
 number: '52'
@@ -1815,7 +1866,8 @@ damage modifiers:
   operation: ×
   type: Grass
 retreat: 1
-illustrator: Nakaoka
+illustrators:
+- Nakaoka
 ---
 set: ex-emerald
 number: '53'
@@ -1850,7 +1902,8 @@ damage modifiers:
   operation: ×
   type: Lightning
 retreat: 1
-illustrator: Hajime Kusajima
+illustrators:
+- Hajime Kusajima
 ---
 set: ex-emerald
 number: '54'
@@ -1879,7 +1932,8 @@ damage modifiers:
   operation: ×
   type: Psychic
 retreat: 1
-illustrator: Kouki Saitou
+illustrators:
+- Kouki Saitou
 ---
 set: ex-emerald
 number: '55'
@@ -1911,7 +1965,8 @@ damage modifiers:
   operation: ×
   type: Psychic
 retreat: 1
-illustrator: Kouki Saitou
+illustrators:
+- Kouki Saitou
 ---
 set: ex-emerald
 number: '56'
@@ -1940,7 +1995,8 @@ damage modifiers:
   operation: ×
   type: Grass
 retreat: 1
-illustrator: Atsuko Nishida
+illustrators:
+- Atsuko Nishida
 ---
 set: ex-emerald
 number: '57'
@@ -1973,7 +2029,8 @@ damage modifiers:
   operation: ×
   type: Water
 retreat: 1
-illustrator: Midori Harada
+illustrators:
+- Midori Harada
 ---
 set: ex-emerald
 number: '58'
@@ -2003,7 +2060,8 @@ damage modifiers:
   operation: ×
   type: Water
 retreat: 2
-illustrator: Masakazu Fukuda
+illustrators:
+- Masakazu Fukuda
 ---
 set: ex-emerald
 number: '59'
@@ -2036,7 +2094,8 @@ damage modifiers:
   operation: ×
   type: Fighting
 retreat: 1
-illustrator: Nakaoka
+illustrators:
+- Nakaoka
 ---
 set: ex-emerald
 number: '60'
@@ -2068,7 +2127,8 @@ damage modifiers:
   operation: ×
   type: Fighting
 retreat: 1
-illustrator: Masakazu Fukuda
+illustrators:
+- Masakazu Fukuda
 ---
 set: ex-emerald
 number: '61'
@@ -2096,7 +2156,8 @@ damage modifiers:
   operation: ×
   type: Psychic
 retreat: 1
-illustrator: Kagemaru Himeno
+illustrators:
+- Kagemaru Himeno
 ---
 set: ex-emerald
 number: '62'
@@ -2126,7 +2187,8 @@ damage modifiers:
   operation: ×
   type: Water
 retreat: 1
-illustrator: Kouki Saitou
+illustrators:
+- Kouki Saitou
 ---
 set: ex-emerald
 number: '63'
@@ -2159,7 +2221,8 @@ damage modifiers:
   operation: '-'
   type: Water
 retreat: 1
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: ex-emerald
 number: '64'
@@ -2185,7 +2248,8 @@ damage modifiers:
   operation: ×
   type: Metal
 retreat: 1
-illustrator: Atsuko Nishida
+illustrators:
+- Atsuko Nishida
 ---
 set: ex-emerald
 number: '65'
@@ -2214,7 +2278,8 @@ damage modifiers:
   operation: ×
   type: Psychic
 retreat: 1
-illustrator: Kagemaru Himeno
+illustrators:
+- Kagemaru Himeno
 ---
 set: ex-emerald
 number: '66'
@@ -2242,7 +2307,8 @@ damage modifiers:
   operation: ×
   type: Psychic
 retreat: 1
-illustrator: Atsuko Nishida
+illustrators:
+- Atsuko Nishida
 ---
 set: ex-emerald
 number: '67'
@@ -2278,7 +2344,8 @@ damage modifiers:
   operation: '-'
   type: Fighting
 retreat: 1
-illustrator: Hajime Kusajima
+illustrators:
+- Hajime Kusajima
 ---
 set: ex-emerald
 number: '68'
@@ -2309,7 +2376,8 @@ damage modifiers:
   operation: '-'
   type: Fighting
 retreat: 1
-illustrator: Naoyo Kimura
+illustrators:
+- Naoyo Kimura
 ---
 set: ex-emerald
 number: '69'
@@ -2336,7 +2404,8 @@ damage modifiers:
   operation: ×
   type: Water
 retreat: 1
-illustrator: Midori Harada
+illustrators:
+- Midori Harada
 ---
 set: ex-emerald
 number: '70'
@@ -2367,7 +2436,8 @@ damage modifiers:
   operation: '-'
   type: Water
 retreat: 1
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: ex-emerald
 number: '71'
@@ -2397,7 +2467,8 @@ damage modifiers:
   operation: ×
   type: Fighting
 retreat: 1
-illustrator: Masakazu Fukuda
+illustrators:
+- Masakazu Fukuda
 ---
 set: ex-emerald
 number: '72'
@@ -2430,7 +2501,8 @@ damage modifiers:
   operation: ×
   type: Water
 retreat: 1
-illustrator: Midori Harada
+illustrators:
+- Midori Harada
 ---
 set: ex-emerald
 number: '73'
@@ -2460,7 +2532,8 @@ damage modifiers:
   operation: ×
   type: Fighting
 retreat: 1
-illustrator: Hajime Kusajima
+illustrators:
+- Hajime Kusajima
 ---
 set: ex-emerald
 number: '74'
@@ -2492,7 +2565,8 @@ damage modifiers:
   operation: ×
   type: Fighting
 retreat: 1
-illustrator: Yuka Morii
+illustrators:
+- Yuka Morii
 ---
 set: ex-emerald
 number: '75'
@@ -2514,7 +2588,8 @@ mechanics:
   text: >-
     Each player's C Evolved Pokémon, D Evolved Pokémon, and M
     Evolved Pokémon can't use an Poke-Powers or Poke-Bodies.
-illustrator: Ryo Ueda
+illustrators:
+- Ryo Ueda
 ---
 set: ex-emerald
 number: '76'
@@ -2529,7 +2604,8 @@ mechanics:
 - type: effect
   text: >-
     Remove all Special Conditions from each of your Active Pokémon.
-illustrator: Ryo Ueda
+illustrators:
+- Ryo Ueda
 ---
 set: ex-emerald
 number: '77'
@@ -2553,7 +2629,8 @@ mechanics:
     Search your deck for up to 3 different types of Basic Pokémon
     cards (excluding Baby Pokémon), show them to your opponent
     and put them into your hand. Shuffle your deck afterward.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: ex-emerald
 number: '78'
@@ -2577,7 +2654,8 @@ mechanics:
     At any time between turns, if the Pokémon this card is attached
     to is affected by any Special Conditions, remove all of them.
     Then discard Lum Berry.
-illustrator: Kazuo Yazawa
+illustrators:
+- Kazuo Yazawa
 ---
 set: ex-emerald
 number: '79'
@@ -2603,7 +2681,8 @@ mechanics:
     deck afterward. Or, search your discard pile for up to 2 basic
     Energy cards, show them to your opponent, and put them into
     your hand.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: ex-emerald
 number: '80'
@@ -2627,7 +2706,8 @@ mechanics:
     At any time between turns, if the Pokémon this card is attached
     to has at least 2 damage counters on it, remove 2 damage counters
     from it. Then discard Oran Berry.
-illustrator: Kazuo Yazawa
+illustrators:
+- Kazuo Yazawa
 ---
 set: ex-emerald
 number: '81'
@@ -2645,7 +2725,8 @@ mechanics:
     Evolution, or Energy Card. Show it to your opponent and put
     it into your hand. Put the 2 other cards back on top of your
     deck in any order.
-illustrator: Katsura Tabata
+illustrators:
+- Katsura Tabata
 ---
 set: ex-emerald
 number: '82'
@@ -2667,7 +2748,8 @@ mechanics:
 - type: effect
   text: >-
     Draw cards from your deck until you have 6 cards in your hand.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: ex-emerald
 number: '83'
@@ -2685,7 +2767,8 @@ mechanics:
     1 or Stage 2 card that evolves from that Pokémon in your hand,
     put that card on the Basic Pokémon. (This counts as evolving
     that Pokémon.)
-illustrator: Ryo Ueda
+illustrators:
+- Ryo Ueda
 ---
 set: ex-emerald
 number: '84'
@@ -2709,7 +2792,8 @@ mechanics:
     Search your deck for up to 3 cards in any combination of Supporter
     cards and Stadium cards, show them to your opponent, and put
     them into your hand. Shuffle your deck afterward.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: ex-emerald
 number: '85'
@@ -2734,7 +2818,8 @@ mechanics:
     Pokémon (choose 1 if there are 2) and put it on your Active
     Pokémon. (This counts as evolving that Pokémon.) Shuffle your
     deck afterward.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: ex-emerald
 number: '86'
@@ -2754,7 +2839,8 @@ mechanics:
     attack does 10 more damage to the Active Pokémon (before applying
     Weakness and Resistance). Ignore this effect unless the Attacking
     Pokémon is D or has Dark in its name. Darkness Energy provides
-illustrator: Milky Isobe
+illustrators:
+- Milky Isobe
 ---
 set: ex-emerald
 number: '87'
@@ -2779,7 +2865,8 @@ mechanics:
     and Resistance). When the Pokémon Double Rainbow Energy is
     attached to is no longer an Evolved Pokémon, discard Double
     Rainbow Energy.
-illustrator: Takumi Akabane
+illustrators:
+- Takumi Akabane
 ---
 set: ex-emerald
 number: '88'
@@ -2800,7 +2887,8 @@ mechanics:
     Resistance.) Ignore this effect if the Pokémon that Metal
     Energy is attached to isn't M. Metal Energy provides M Energy.
     (Doesn't count
-illustrator: Milky Isobe
+illustrators:
+- Milky Isobe
 ---
 set: ex-emerald
 number: '89'
@@ -2821,7 +2909,8 @@ mechanics:
     at a time. (Has no effect other than providing Energy.) Multi
     Energy provides C Energy when attached to a Pokémon that already
     has Special Energy cards attached to it.
-illustrator: Takumi Akabane
+illustrators:
+- Takumi Akabane
 ---
 set: ex-emerald
 number: '90'
@@ -2859,7 +2948,8 @@ mechanics:
     This attack's damage isn't affected by Resistance, Poke-Powers,
     Poke-Bodies, or any other effects on the Defending Pokémon.
 retreat: 1
-illustrator: Ryo Ueda
+illustrators:
+- Ryo Ueda
 ---
 set: ex-emerald
 number: '91'
@@ -2903,7 +2993,8 @@ damage modifiers:
   operation: ×
   type: Fire
 retreat: 1
-illustrator: Hikaru Koike
+illustrators:
+- Hikaru Koike
 ---
 set: ex-emerald
 number: '92'
@@ -2946,7 +3037,8 @@ damage modifiers:
   operation: ×
   type: Water
 retreat: 2
-illustrator: Ryo Ueda
+illustrators:
+- Ryo Ueda
 ---
 set: ex-emerald
 number: '93'
@@ -2987,7 +3079,8 @@ damage modifiers:
   operation: ×
   type: Psychic
 retreat: 1
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: ex-emerald
 number: '94'
@@ -3029,7 +3122,8 @@ damage modifiers:
   operation: '-'
   type: Colorless
 retreat: 2
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: ex-emerald
 number: '95'
@@ -3073,7 +3167,8 @@ damage modifiers:
   operation: ×
   type: Psychic
 retreat: 1
-illustrator: Hikaru Koike
+illustrators:
+- Hikaru Koike
 ---
 set: ex-emerald
 number: '96'
@@ -3118,7 +3213,8 @@ damage modifiers:
   operation: ×
   type: Lightning
 retreat: 2
-illustrator: Ryo Ueda
+illustrators:
+- Ryo Ueda
 ---
 set: ex-emerald
 number: '97'
@@ -3161,7 +3257,8 @@ damage modifiers:
 - amount: 2
   operation: ×
   type: Fighting
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: ex-emerald
 number: '98'
@@ -3198,7 +3295,8 @@ damage modifiers:
   operation: ×
   type: Metal
 retreat: 3
-illustrator: Hikaru Koike
+illustrators:
+- Hikaru Koike
 ---
 set: ex-emerald
 number: '99'
@@ -3236,7 +3334,8 @@ damage modifiers:
   operation: ×
   type: Water
 retreat: 3
-illustrator: Hikaru Koike
+illustrators:
+- Hikaru Koike
 ---
 set: ex-emerald
 number: '100'
@@ -3273,7 +3372,8 @@ damage modifiers:
   operation: ×
   type: Fire
 retreat: 2
-illustrator: Hikaru Koike
+illustrators:
+- Hikaru Koike
 ---
 set: ex-emerald
 number: '101'
@@ -3290,7 +3390,8 @@ mechanics:
 - type: effect
   text: >-
     Provides 1 Grass Energy.
-illustrator: Keiji Kinebuchi
+illustrators:
+- Keiji Kinebuchi
 ---
 set: ex-emerald
 number: '102'
@@ -3307,7 +3408,8 @@ mechanics:
 - type: effect
   text: >-
     Provides 1 Fire Energy.
-illustrator: Keiji Kinebuchi
+illustrators:
+- Keiji Kinebuchi
 ---
 set: ex-emerald
 number: '103'
@@ -3324,7 +3426,8 @@ mechanics:
 - type: effect
   text: >-
     Provides 1 Water Energy.
-illustrator: Keiji Kinebuchi
+illustrators:
+- Keiji Kinebuchi
 ---
 set: ex-emerald
 number: '104'
@@ -3341,7 +3444,8 @@ mechanics:
 - type: effect
   text: >-
     Provides 1 Lightning Energy.
-illustrator: Keiji Kinebuchi
+illustrators:
+- Keiji Kinebuchi
 ---
 set: ex-emerald
 number: '105'
@@ -3358,7 +3462,8 @@ mechanics:
 - type: effect
   text: >-
     Provides 1 Psychic Energy.
-illustrator: Keiji Kinebuchi
+illustrators:
+- Keiji Kinebuchi
 ---
 set: ex-emerald
 number: '106'
@@ -3375,7 +3480,8 @@ mechanics:
 - type: effect
   text: >-
     Provides 1 Fighting Energy.
-illustrator: Keiji Kinebuchi
+illustrators:
+- Keiji Kinebuchi
 ---
 set: ex-emerald
 number: '107'
@@ -3405,4 +3511,5 @@ damage modifiers:
   operation: '-'
   type: Fighting
 retreat: 1
-illustrator: Masakazu Fukuda
+illustrators:
+- Masakazu Fukuda

@@ -37,7 +37,8 @@ damage modifiers:
   operation: '-'
   type: Psychic
 retreat: 1
-illustrator: Naoyo Kimura
+illustrators:
+- Naoyo Kimura
 ---
 set: ex-dragon
 number: '2'
@@ -79,7 +80,8 @@ damage modifiers:
   operation: '-'
   type: Grass
 retreat: 1
-illustrator: Atsuko Nishida
+illustrators:
+- Atsuko Nishida
 ---
 set: ex-dragon
 number: '3'
@@ -112,7 +114,8 @@ damage modifiers:
   operation: ×
   type: Lightning
 retreat: 2
-illustrator: Hisao Nakamura
+illustrators:
+- Hisao Nakamura
 ---
 set: ex-dragon
 number: '4'
@@ -154,7 +157,8 @@ damage modifiers:
   operation: '-'
   type: Lightning
 retreat: 2
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: ex-dragon
 number: '5'
@@ -192,7 +196,8 @@ damage modifiers:
   operation: ×
   type: Water
 retreat: 4
-illustrator: Hisao Nakamura
+illustrators:
+- Hisao Nakamura
 ---
 set: ex-dragon
 number: '6'
@@ -229,7 +234,8 @@ damage modifiers:
   operation: ×
   type: Psychic
 retreat: 1
-illustrator: Midori Harada
+illustrators:
+- Midori Harada
 ---
 set: ex-dragon
 number: '7'
@@ -277,7 +283,8 @@ damage modifiers:
   operation: '-'
   type: Metal
 retreat: 1
-illustrator: Atsuko Nishida
+illustrators:
+- Atsuko Nishida
 ---
 set: ex-dragon
 number: '8'
@@ -325,7 +332,8 @@ damage modifiers:
   operation: '-'
   type: Metal
 retreat: 1
-illustrator: Atsuko Nishida
+illustrators:
+- Atsuko Nishida
 ---
 set: ex-dragon
 number: '9'
@@ -363,7 +371,8 @@ damage modifiers:
   operation: ×
   type: Fire
 retreat: 1
-illustrator: Atsuko Nishida
+illustrators:
+- Atsuko Nishida
 ---
 set: ex-dragon
 number: '10'
@@ -411,7 +420,8 @@ damage modifiers:
   operation: '-'
   type: Fire
 retreat: 2
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: ex-dragon
 number: '11'
@@ -441,7 +451,8 @@ mechanics:
     Put 1 damage counter, plus 1 more damage counter for each
     damage counter on Shedinja, on the Defending Pokémon.
 retreat: 1
-illustrator: Kagemaru Himeno
+illustrators:
+- Kagemaru Himeno
 ---
 set: ex-dragon
 number: '12'
@@ -475,7 +486,8 @@ damage modifiers:
   operation: ×
   type: Water
 retreat: 3
-illustrator: Kagemaru Himeno
+illustrators:
+- Kagemaru Himeno
 ---
 set: ex-dragon
 number: '13'
@@ -511,7 +523,8 @@ damage modifiers:
   operation: ×
   type: Lightning
 retreat: 1
-illustrator: Kagemaru Himeno
+illustrators:
+- Kagemaru Himeno
 ---
 set: ex-dragon
 number: '14'
@@ -552,7 +565,8 @@ damage modifiers:
   operation: '-'
   type: Grass
 retreat: 2
-illustrator: Aya Kusube
+illustrators:
+- Aya Kusube
 ---
 set: ex-dragon
 number: '15'
@@ -584,7 +598,8 @@ mechanics:
     Flip a coin. If tails, discard an Energy card attached to
     Flygon.
 retreat: 2
-illustrator: Hajime Kusajima
+illustrators:
+- Hajime Kusajima
 ---
 set: ex-dragon
 number: '16'
@@ -621,7 +636,8 @@ damage modifiers:
   operation: ×
   type: Psychic
 retreat: 1
-illustrator: Midori Harada
+illustrators:
+- Midori Harada
 ---
 set: ex-dragon
 number: '17'
@@ -664,7 +680,8 @@ damage modifiers:
   operation: '-'
   type: Metal
 retreat: 1
-illustrator: Midori Harada
+illustrators:
+- Midori Harada
 ---
 set: ex-dragon
 number: '18'
@@ -701,7 +718,8 @@ damage modifiers:
 - amount: 2
   operation: ×
   type: Fire
-illustrator: Hajime Kusajima
+illustrators:
+- Hajime Kusajima
 ---
 set: ex-dragon
 number: '19'
@@ -733,7 +751,8 @@ mechanics:
     You may discard an Energy card attached to Salamence. If you
     do, this attack does 40 damage plus 20 more damage.
 retreat: 2
-illustrator: Kouki Saitou
+illustrators:
+- Kouki Saitou
 ---
 set: ex-dragon
 number: '20'
@@ -773,7 +792,8 @@ damage modifiers:
   operation: '-'
   type: Fire
 retreat: 2
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: ex-dragon
 number: '21'
@@ -816,7 +836,8 @@ damage modifiers:
   operation: '-'
   type: Grass
 retreat: 1
-illustrator: Hisao Nakamura
+illustrators:
+- Hisao Nakamura
 ---
 set: ex-dragon
 number: '22'
@@ -859,7 +880,8 @@ damage modifiers:
   operation: '-'
   type: Lightning
 retreat: 1
-illustrator: Kagemaru Himeno
+illustrators:
+- Kagemaru Himeno
 ---
 set: ex-dragon
 number: '23'
@@ -896,7 +918,8 @@ damage modifiers:
   operation: '-'
   type: Fire
 retreat: 1
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: ex-dragon
 number: '24'
@@ -929,7 +952,8 @@ damage modifiers:
   operation: ×
   type: Water
 retreat: 2
-illustrator: Naoyo Kimura
+illustrators:
+- Naoyo Kimura
 ---
 set: ex-dragon
 number: '25'
@@ -963,7 +987,8 @@ damage modifiers:
   operation: ×
   type: Water
 retreat: 1
-illustrator: Atsuko Nishida
+illustrators:
+- Atsuko Nishida
 ---
 set: ex-dragon
 number: '26'
@@ -1001,7 +1026,8 @@ damage modifiers:
   operation: '-'
   type: Grass
 retreat: 1
-illustrator: Aya Kusube
+illustrators:
+- Aya Kusube
 ---
 set: ex-dragon
 number: '27'
@@ -1037,7 +1063,8 @@ damage modifiers:
   operation: '-'
   type: Metal
 retreat: 1
-illustrator: Miki Tanaka
+illustrators:
+- Miki Tanaka
 ---
 set: ex-dragon
 number: '28'
@@ -1076,7 +1103,8 @@ damage modifiers:
   operation: '-'
   type: Grass
 retreat: 2
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: ex-dragon
 number: '29'
@@ -1111,7 +1139,8 @@ damage modifiers:
   operation: ×
   type: Water
 retreat: 3
-illustrator: Hisao Nakamura
+illustrators:
+- Hisao Nakamura
 ---
 set: ex-dragon
 number: '30'
@@ -1146,7 +1175,8 @@ damage modifiers:
   operation: ×
   type: Water
 retreat: 3
-illustrator: Midori Harada
+illustrators:
+- Midori Harada
 ---
 set: ex-dragon
 number: '31'
@@ -1180,7 +1210,8 @@ damage modifiers:
   operation: '-'
   type: Water
 retreat: 1
-illustrator: Atsuko Nishida
+illustrators:
+- Atsuko Nishida
 ---
 set: ex-dragon
 number: '32'
@@ -1216,7 +1247,8 @@ damage modifiers:
   operation: ×
   type: Lightning
 retreat: 2
-illustrator: Kouki Saitou
+illustrators:
+- Kouki Saitou
 ---
 set: ex-dragon
 number: '33'
@@ -1253,7 +1285,8 @@ damage modifiers:
   operation: ×
   type: Lightning
 retreat: 1
-illustrator: Hajime Kusajima
+illustrators:
+- Hajime Kusajima
 ---
 set: ex-dragon
 number: '34'
@@ -1293,7 +1326,8 @@ damage modifiers:
   operation: '-'
   type: Psychic
 retreat: 1
-illustrator: Atsuko Nishida
+illustrators:
+- Atsuko Nishida
 ---
 set: ex-dragon
 number: '35'
@@ -1327,7 +1361,8 @@ damage modifiers:
   operation: ×
   type: Fighting
 retreat: 1
-illustrator: Kyoko Umemoto
+illustrators:
+- Kyoko Umemoto
 ---
 set: ex-dragon
 number: '36'
@@ -1357,7 +1392,8 @@ damage modifiers:
   operation: ×
   type: Lightning
 retreat: 1
-illustrator: Atsuko Nishida
+illustrators:
+- Atsuko Nishida
 ---
 set: ex-dragon
 number: '37'
@@ -1390,7 +1426,8 @@ damage modifiers:
   operation: ×
   type: Psychic
 retreat: 1
-illustrator: Kouki Saitou
+illustrators:
+- Kouki Saitou
 ---
 set: ex-dragon
 number: '38'
@@ -1424,7 +1461,8 @@ damage modifiers:
 - amount: 2
   operation: ×
   type: Fire
-illustrator: Toshinao Aoki
+illustrators:
+- Toshinao Aoki
 ---
 set: ex-dragon
 number: '39'
@@ -1462,7 +1500,8 @@ damage modifiers:
   operation: ×
   type: Lightning
 retreat: 1
-illustrator: Hajime Kusajima
+illustrators:
+- Hajime Kusajima
 ---
 set: ex-dragon
 number: '40'
@@ -1496,7 +1535,8 @@ damage modifiers:
   operation: ×
   type: Lightning
 retreat: 1
-illustrator: Midori Harada
+illustrators:
+- Midori Harada
 ---
 set: ex-dragon
 number: '41'
@@ -1525,7 +1565,8 @@ mechanics:
   damage: '20'
   type: attack
 retreat: 2
-illustrator: Yuka Morii
+illustrators:
+- Yuka Morii
 ---
 set: ex-dragon
 number: '42'
@@ -1556,7 +1597,8 @@ mechanics:
   damage: '40'
   type: attack
 retreat: 2
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: ex-dragon
 number: '43'
@@ -1591,7 +1633,8 @@ damage modifiers:
   operation: '-'
   type: Fighting
 retreat: 1
-illustrator: Aya Kusube
+illustrators:
+- Aya Kusube
 ---
 set: ex-dragon
 number: '44'
@@ -1619,7 +1662,8 @@ damage modifiers:
   operation: ×
   type: Metal
 retreat: 1
-illustrator: Sumiyoshi Kizuki
+illustrators:
+- Sumiyoshi Kizuki
 ---
 set: ex-dragon
 number: '45'
@@ -1658,7 +1702,8 @@ damage modifiers:
 - amount: 30
   operation: '-'
   type: Fighting
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: ex-dragon
 number: '46'
@@ -1686,7 +1731,8 @@ mechanics:
   damage: '20'
   type: attack
 retreat: 1
-illustrator: Hajime Kusajima
+illustrators:
+- Hajime Kusajima
 ---
 set: ex-dragon
 number: '47'
@@ -1716,7 +1762,8 @@ mechanics:
     Flip 2 coins. This attack does 40 damage times the number
     of heads.
 retreat: 1
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: ex-dragon
 number: '48'
@@ -1756,7 +1803,8 @@ damage modifiers:
   operation: ×
   type: Grass
 retreat: 2
-illustrator: Tomokazu Komiya
+illustrators:
+- Tomokazu Komiya
 ---
 set: ex-dragon
 number: '49'
@@ -1782,7 +1830,8 @@ mechanics:
   damage: '20'
   type: attack
 retreat: 1
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: ex-dragon
 number: '50'
@@ -1812,7 +1861,8 @@ mechanics:
   text: >-
     The Defending Pokémon is now Asleep.
 retreat: 1
-illustrator: Kouki Saitou
+illustrators:
+- Kouki Saitou
 ---
 set: ex-dragon
 number: '51'
@@ -1842,7 +1892,8 @@ damage modifiers:
   operation: ×
   type: Grass
 retreat: 1
-illustrator: Tomokazu Komiya
+illustrators:
+- Tomokazu Komiya
 ---
 set: ex-dragon
 number: '52'
@@ -1875,7 +1926,8 @@ damage modifiers:
   operation: ×
   type: Lightning
 retreat: 1
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: ex-dragon
 number: '53'
@@ -1905,7 +1957,8 @@ damage modifiers:
   operation: ×
   type: Lightning
 retreat: 1
-illustrator: Kagemaru Himeno
+illustrators:
+- Kagemaru Himeno
 ---
 set: ex-dragon
 number: '54'
@@ -1937,7 +1990,8 @@ damage modifiers:
   operation: ×
   type: Lightning
 retreat: 1
-illustrator: Hisao Nakamura
+illustrators:
+- Hisao Nakamura
 ---
 set: ex-dragon
 number: '55'
@@ -1970,7 +2024,8 @@ damage modifiers:
   operation: ×
   type: Water
 retreat: 1
-illustrator: Hisao Nakamura
+illustrators:
+- Hisao Nakamura
 ---
 set: ex-dragon
 number: '56'
@@ -2003,7 +2058,8 @@ damage modifiers:
   operation: ×
   type: Water
 retreat: 1
-illustrator: Midori Harada
+illustrators:
+- Midori Harada
 ---
 set: ex-dragon
 number: '57'
@@ -2039,7 +2095,8 @@ damage modifiers:
   operation: ×
   type: Psychic
 retreat: 1
-illustrator: Yuka Morii
+illustrators:
+- Yuka Morii
 ---
 set: ex-dragon
 number: '58'
@@ -2074,7 +2131,8 @@ damage modifiers:
   operation: ×
   type: Lightning
 retreat: 1
-illustrator: Midori Harada
+illustrators:
+- Midori Harada
 ---
 set: ex-dragon
 number: '59'
@@ -2113,7 +2171,8 @@ damage modifiers:
   operation: '-'
   type: Psychic
 retreat: 1
-illustrator: Hajime Kusajima
+illustrators:
+- Hajime Kusajima
 ---
 set: ex-dragon
 number: '60'
@@ -2149,7 +2208,8 @@ damage modifiers:
   operation: ×
   type: Lightning
 retreat: 1
-illustrator: Kouki Saitou
+illustrators:
+- Kouki Saitou
 ---
 set: ex-dragon
 number: '61'
@@ -2186,7 +2246,8 @@ damage modifiers:
   operation: '-'
   type: Metal
 retreat: 1
-illustrator: Tomokazu Komiya
+illustrators:
+- Tomokazu Komiya
 ---
 set: ex-dragon
 number: '62'
@@ -2222,7 +2283,8 @@ damage modifiers:
   operation: '-'
   type: Metal
 retreat: 1
-illustrator: Midori Harada
+illustrators:
+- Midori Harada
 ---
 set: ex-dragon
 number: '63'
@@ -2250,7 +2312,8 @@ damage modifiers:
   operation: ×
   type: Fighting
 retreat: 1
-illustrator: Kyoko Umemoto
+illustrators:
+- Kyoko Umemoto
 ---
 set: ex-dragon
 number: '64'
@@ -2280,7 +2343,8 @@ damage modifiers:
   operation: '-'
   type: Metal
 retreat: 1
-illustrator: Miki Tanaka
+illustrators:
+- Miki Tanaka
 ---
 set: ex-dragon
 number: '65'
@@ -2310,7 +2374,8 @@ damage modifiers:
   operation: ×
   type: Lightning
 retreat: 1
-illustrator: Hironobu Yoshida
+illustrators:
+- Hironobu Yoshida
 ---
 set: ex-dragon
 number: '66'
@@ -2338,7 +2403,8 @@ damage modifiers:
   operation: ×
   type: Fire
 retreat: 1
-illustrator: Toshinao Aoki
+illustrators:
+- Toshinao Aoki
 ---
 set: ex-dragon
 number: '67'
@@ -2371,7 +2437,8 @@ damage modifiers:
   operation: ×
   type: Fire
 retreat: 1
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: ex-dragon
 number: '68'
@@ -2402,7 +2469,8 @@ damage modifiers:
   operation: ×
   type: Fire
 retreat: 1
-illustrator: Hajime Kusajima
+illustrators:
+- Hajime Kusajima
 ---
 set: ex-dragon
 number: '69'
@@ -2435,7 +2503,8 @@ damage modifiers:
   operation: ×
   type: Water
 retreat: 1
-illustrator: Yuka Morii
+illustrators:
+- Yuka Morii
 ---
 set: ex-dragon
 number: '70'
@@ -2468,7 +2537,8 @@ damage modifiers:
   operation: ×
   type: Water
 retreat: 2
-illustrator: Naoyo Kimura
+illustrators:
+- Naoyo Kimura
 ---
 set: ex-dragon
 number: '71'
@@ -2499,7 +2569,8 @@ damage modifiers:
   operation: ×
   type: Fire
 retreat: 1
-illustrator: Hajime Kusajima
+illustrators:
+- Hajime Kusajima
 ---
 set: ex-dragon
 number: '72'
@@ -2532,7 +2603,8 @@ damage modifiers:
   operation: ×
   type: Water
 retreat: 2
-illustrator: Kyoko Umemoto
+illustrators:
+- Kyoko Umemoto
 ---
 set: ex-dragon
 number: '73'
@@ -2561,7 +2633,8 @@ damage modifiers:
   operation: ×
   type: Psychic
 retreat: 1
-illustrator: Miki Tanaka
+illustrators:
+- Miki Tanaka
 ---
 set: ex-dragon
 number: '74'
@@ -2593,7 +2666,8 @@ damage modifiers:
   operation: ×
   type: Psychic
 retreat: 1
-illustrator: Midori Harada
+illustrators:
+- Midori Harada
 ---
 set: ex-dragon
 number: '75'
@@ -2630,7 +2704,8 @@ damage modifiers:
   operation: '-'
   type: Fighting
 retreat: 1
-illustrator: Atsuko Nishida
+illustrators:
+- Atsuko Nishida
 ---
 set: ex-dragon
 number: '76'
@@ -2661,7 +2736,8 @@ damage modifiers:
   operation: '-'
   type: Fighting
 retreat: 1
-illustrator: Kyoko Umemoto
+illustrators:
+- Kyoko Umemoto
 ---
 set: ex-dragon
 number: '77'
@@ -2690,7 +2766,8 @@ damage modifiers:
   operation: ×
   type: Water
 retreat: 1
-illustrator: Hironobu Yoshida
+illustrators:
+- Hironobu Yoshida
 ---
 set: ex-dragon
 number: '78'
@@ -2716,7 +2793,8 @@ damage modifiers:
   operation: ×
   type: Grass
 retreat: 1
-illustrator: Yuka Morii
+illustrators:
+- Yuka Morii
 ---
 set: ex-dragon
 number: '79'
@@ -2750,7 +2828,8 @@ damage modifiers:
   operation: ×
   type: Grass
 retreat: 1
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: ex-dragon
 number: '80'
@@ -2782,7 +2861,8 @@ damage modifiers:
   operation: '-'
   type: Water
 retreat: 1
-illustrator: Hajime Kusajima
+illustrators:
+- Hajime Kusajima
 ---
 set: ex-dragon
 number: '81'
@@ -2816,7 +2896,8 @@ damage modifiers:
   operation: ×
   type: Fire
 retreat: 1
-illustrator: Midori Harada
+illustrators:
+- Midori Harada
 ---
 set: ex-dragon
 number: '82'
@@ -2842,7 +2923,8 @@ mechanics:
     Out, discard this card. When the Pokémon Balloon Berry is
     attached to retreats, discard Balloon Berry instead of discarding
     Energy cards.
-illustrator: Keiji Kinebuchi
+illustrators:
+- Keiji Kinebuchi
 ---
 set: ex-dragon
 number: '83'
@@ -2870,7 +2952,8 @@ mechanics:
     20 (after applying Weakness and Resistance). At the end of
     your opponent's turn after you played Buffer Piece, discard
     Buffer Piece.
-illustrator: Katsura Tabata
+illustrators:
+- Katsura Tabata
 ---
 set: ex-dragon
 number: '84'
@@ -2888,7 +2971,8 @@ mechanics:
     show 1 basic Energy card to your opponent and put it into
     your hand, or show 3 basic Energy cards to your opponent and
     shuffle them into your deck.
-illustrator: Zu-Ka
+illustrators:
+- Zu-Ka
 ---
 set: ex-dragon
 number: '85'
@@ -2909,7 +2993,8 @@ mechanics:
 - type: effect
   text: >-
     Each player pays 1 less to retreat his of her R and W Pokémon.
-illustrator: Ken Ikuji
+illustrators:
+- Ken Ikuji
 ---
 set: ex-dragon
 number: '86'
@@ -2931,7 +3016,8 @@ mechanics:
   text: >-
     Each G and L Pokémon in play (both yours and your opponent's)
     gets +10 HP.
-illustrator: Shin-ichi Yoshikawa
+illustrators:
+- Shin-ichi Yoshikawa
 ---
 set: ex-dragon
 number: '87'
@@ -2954,7 +3040,8 @@ mechanics:
   text: >-
     Choose 1 of your Pokémon in play (excluding Pokémon-ex). Return
     that Pokémon and all cards attached to it to your hand.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: ex-dragon
 number: '88'
@@ -2976,7 +3063,8 @@ mechanics:
 - type: effect
   text: >-
     Draw 3 cards. Then discard any 1 card from your hand.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: ex-dragon
 number: '89'
@@ -3020,7 +3108,8 @@ damage modifiers:
   operation: '-'
   type: Metal
 retreat: 3
-illustrator: Ryo Ueda
+illustrators:
+- Ryo Ueda
 ---
 set: ex-dragon
 number: '90'
@@ -3064,7 +3153,8 @@ damage modifiers:
   operation: '-'
   type: Grass
 retreat: 2
-illustrator: Ryo Ueda
+illustrators:
+- Ryo Ueda
 ---
 set: ex-dragon
 number: '91'
@@ -3106,7 +3196,8 @@ damage modifiers:
   operation: ×
   type: Water
 retreat: 5
-illustrator: Hikaru Koike
+illustrators:
+- Hikaru Koike
 ---
 set: ex-dragon
 number: '92'
@@ -3149,7 +3240,8 @@ damage modifiers:
   operation: ×
   type: Lightning
 retreat: 3
-illustrator: Hikaru Koike
+illustrators:
+- Hikaru Koike
 ---
 set: ex-dragon
 number: '93'
@@ -3191,7 +3283,8 @@ damage modifiers:
   operation: '-'
   type: Psychic
 retreat: 2
-illustrator: Ryo Ueda
+illustrators:
+- Ryo Ueda
 ---
 set: ex-dragon
 number: '94'
@@ -3234,7 +3327,8 @@ damage modifiers:
   operation: '-'
   type: Grass
 retreat: 2
-illustrator: Ryo Ueda
+illustrators:
+- Ryo Ueda
 ---
 set: ex-dragon
 number: '95'
@@ -3275,7 +3369,8 @@ damage modifiers:
   operation: ×
   type: Water
 retreat: 3
-illustrator: Hikaru Koike
+illustrators:
+- Hikaru Koike
 ---
 set: ex-dragon
 number: '96'
@@ -3319,7 +3414,8 @@ damage modifiers:
   operation: ×
   type: Psychic
 retreat: 2
-illustrator: Hikaru Koike
+illustrators:
+- Hikaru Koike
 ---
 set: ex-dragon
 number: '97'
@@ -3364,7 +3460,8 @@ damage modifiers:
   operation: '-'
   type: Water
 retreat: 2
-illustrator: Hikaru Koike
+illustrators:
+- Hikaru Koike
 ---
 set: ex-dragon
 number: '98'
@@ -3397,7 +3494,8 @@ damage modifiers:
   operation: ×
   type: Water
 retreat: 1
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: ex-dragon
 number: '99'
@@ -3435,7 +3533,8 @@ damage modifiers:
   operation: ×
   type: Water
 retreat: 1
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: ex-dragon
 number: '100'
@@ -3474,4 +3573,5 @@ damage modifiers:
   operation: ×
   type: Water
 retreat: 2
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita

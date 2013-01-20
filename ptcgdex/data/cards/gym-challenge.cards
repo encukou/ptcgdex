@@ -39,7 +39,8 @@ dex number: 59
 species: Legendary
 weight: 342
 height: 6'3
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: gym-challenge
 number: '2'
@@ -89,7 +90,8 @@ dex number: 6
 species: Flame
 weight: 200
 height: 5'7
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: gym-challenge
 number: '3'
@@ -135,7 +137,8 @@ dex number: 38
 species: Fox
 weight: 44
 height: 3'7
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: gym-challenge
 number: '4'
@@ -179,7 +182,8 @@ dex number: 3
 species: Seed
 weight: 221
 height: 6'7
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: gym-challenge
 number: '5'
@@ -226,7 +230,8 @@ dex number: 130
 species: Atrocious
 weight: 518
 height: 21'4
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: gym-challenge
 number: '6'
@@ -270,7 +275,8 @@ dex number: 68
 species: Superpower
 weight: 287
 height: 5'3
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: gym-challenge
 number: '7'
@@ -313,7 +319,8 @@ dex number: 34
 species: Drill
 weight: 137
 height: 4'7
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: gym-challenge
 number: '8'
@@ -358,7 +365,8 @@ dex number: 53
 species: Classy Cat
 weight: 71
 height: 3'3
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: gym-challenge
 number: '9'
@@ -405,7 +413,8 @@ dex number: 15
 species: Poison Bee
 weight: 65
 height: 3'3
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: gym-challenge
 number: '10'
@@ -447,7 +456,8 @@ dex number: 132
 species: Transform
 weight: 9
 height: 1'0
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: gym-challenge
 number: '11'
@@ -492,7 +502,8 @@ dex number: 26
 species: Mouse
 weight: 66
 height: 2'7
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: gym-challenge
 number: '12'
@@ -535,7 +546,8 @@ dex number: 55
 species: Duck
 weight: 169
 height: 5'7
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: gym-challenge
 number: '13'
@@ -578,7 +590,8 @@ dex number: 130
 species: Atrocious
 weight: 518
 height: 21'4
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: gym-challenge
 number: '14'
@@ -624,7 +637,8 @@ dex number: 150
 species: Genetic
 weight: 269
 height: 6'7
-illustrator: Shin-ichi Yoshida
+illustrators:
+- Shin-ichi Yoshida
 ---
 set: gym-challenge
 number: '15'
@@ -666,7 +680,8 @@ dex number: 145
 species: Electric
 weight: 116
 height: 5'3
-illustrator: Shin-ichi Yoshida
+illustrators:
+- Shin-ichi Yoshida
 ---
 set: gym-challenge
 number: '16'
@@ -709,7 +724,8 @@ dex number: 65
 species: Psi
 weight: 106
 height: 4'11
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: gym-challenge
 number: '17'
@@ -727,7 +743,8 @@ mechanics:
     you may instead attach 2 R Energy cards to 1 of your Pokémon
     with Blaine in its name. (Playing additional copies of this
     card this turn has no effect.)
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: gym-challenge
 number: '18'
@@ -746,7 +763,8 @@ mechanics:
     if you just played or evolved it this turn or if this is your
     first turn. This effect also applies to the Pokémon it evolves
     into.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: gym-challenge
 number: '19'
@@ -762,7 +780,8 @@ mechanics:
   text: >-
     If an attack from a Pokémon with Koga in its name does damage
     to a Defending Pokémon this turn, that Pokémon is then Poisoned.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: gym-challenge
 number: '20'
@@ -779,7 +798,8 @@ mechanics:
     Take all Energy cards attached to 1 of your Pokémon with Sabrina
     in its name and attach them to another 1 of your Pokémon with
     Sabrina in its name.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: gym-challenge
 number: '21'
@@ -822,7 +842,8 @@ dex number: 38
 species: Fox
 weight: 44
 height: 3'7
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: gym-challenge
 number: '22'
@@ -867,7 +888,8 @@ dex number: 51
 species: Mole
 weight: 73
 height: 2'4
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: gym-challenge
 number: '23'
@@ -908,7 +930,8 @@ dex number: 31
 species: Drill
 weight: 132
 height: 4'3
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: gym-challenge
 number: '24'
@@ -952,7 +975,8 @@ dex number: 127
 species: Stagbeetle
 weight: 121
 height: 4'11
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: gym-challenge
 number: '25'
@@ -993,7 +1017,8 @@ dex number: 24
 species: Cobra
 weight: 143
 height: 11'6
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: gym-challenge
 number: '26'
@@ -1035,7 +1060,8 @@ dex number: 89
 species: Sludge
 weight: 66
 height: 3'11
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: gym-challenge
 number: '27'
@@ -1082,7 +1108,8 @@ dex number: 17
 species: Bird
 weight: 66
 height: 3'7
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: gym-challenge
 number: '28'
@@ -1126,7 +1153,8 @@ dex number: 135
 species: Lightning
 weight: 54
 height: 2'7
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: gym-challenge
 number: '29'
@@ -1169,7 +1197,8 @@ dex number: 94
 species: Shadow
 weight: 89
 height: 4'11
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: gym-challenge
 number: '30'
@@ -1212,7 +1241,8 @@ dex number: 55
 species: Duck
 weight: 169
 height: 5'7
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: gym-challenge
 number: '31'
@@ -1256,7 +1286,8 @@ dex number: 5
 species: Flame
 weight: 42
 height: 3'7
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: gym-challenge
 number: '32'
@@ -1294,7 +1325,8 @@ dex number: 85
 species: Triplebird
 weight: 188
 height: 5'11
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: gym-challenge
 number: '33'
@@ -1336,7 +1368,8 @@ dex number: 78
 species: Fire Horse
 weight: 209
 height: 5'7
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: gym-challenge
 number: '34'
@@ -1378,7 +1411,8 @@ dex number: 75
 species: Rock
 weight: 232
 height: 3'3
-illustrator: Atsuko Nishida
+illustrators:
+- Atsuko Nishida
 ---
 set: gym-challenge
 number: '35'
@@ -1420,7 +1454,8 @@ dex number: 57
 species: Pig Monkey
 weight: 71
 height: 3'3
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: gym-challenge
 number: '36'
@@ -1465,7 +1500,8 @@ dex number: 28
 species: Mouse
 weight: 65
 height: 3'3
-illustrator: Atsuko Nishida
+illustrators:
+- Atsuko Nishida
 ---
 set: gym-challenge
 number: '37'
@@ -1506,7 +1542,8 @@ dex number: 37
 species: Fox
 weight: 22
 height: 2'0
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: gym-challenge
 number: '38'
@@ -1548,7 +1585,8 @@ dex number: 69
 species: Flower
 weight: 9
 height: 2'4
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: gym-challenge
 number: '39'
@@ -1589,7 +1627,8 @@ dex number: 1
 species: Seed
 weight: 15
 height: 2'4
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: gym-challenge
 number: '40'
@@ -1632,7 +1671,8 @@ dex number: 35
 species: Fairy
 weight: 17
 height: 2'0
-illustrator: Atsuko Nishida
+illustrators:
+- Atsuko Nishida
 ---
 set: gym-challenge
 number: '41'
@@ -1677,7 +1717,8 @@ dex number: 2
 species: Seed
 weight: 29
 height: 3'3
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: gym-challenge
 number: '42'
@@ -1721,7 +1762,8 @@ dex number: 67
 species: Superpower
 weight: 155
 height: 4'11
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: gym-challenge
 number: '43'
@@ -1766,7 +1808,8 @@ dex number: 52
 species: Scratch Cat
 weight: 9
 height: 1'4
-illustrator: Atsuko Nishida
+illustrators:
+- Atsuko Nishida
 ---
 set: gym-challenge
 number: '44'
@@ -1808,7 +1851,8 @@ dex number: 30
 species: Poison Pin
 weight: 44
 height: 2'7
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: gym-challenge
 number: '45'
@@ -1845,7 +1889,8 @@ dex number: 33
 species: Poison Pin
 weight: 43
 height: 2'11
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: gym-challenge
 number: '46'
@@ -1887,7 +1932,8 @@ dex number: 42
 species: Bat
 weight: 121
 height: 5'3
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: gym-challenge
 number: '47'
@@ -1932,7 +1978,8 @@ dex number: 14
 species: Cocoon
 weight: 22
 height: 2'0
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: gym-challenge
 number: '48'
@@ -1975,7 +2022,8 @@ dex number: 109
 species: Poison Gas
 weight: 2
 height: 2'0
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: gym-challenge
 number: '49'
@@ -2018,7 +2066,8 @@ dex number: 16
 species: Tiny Bird
 weight: 4
 height: 1'0
-illustrator: Atsuko Nishida
+illustrators:
+- Atsuko Nishida
 ---
 set: gym-challenge
 number: '50'
@@ -2063,7 +2112,8 @@ dex number: 110
 species: Poison Gas
 weight: 21
 height: 3'11
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: gym-challenge
 number: '51'
@@ -2104,7 +2154,8 @@ dex number: 133
 species: Evolution
 weight: 14
 height: 1'0
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: gym-challenge
 number: '52'
@@ -2147,7 +2198,8 @@ dex number: 101
 species: Ball
 weight: 147
 height: 3'11
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: gym-challenge
 number: '53'
@@ -2191,7 +2243,8 @@ dex number: 20
 species: Rat
 weight: 41
 height: 2'4
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: gym-challenge
 number: '54'
@@ -2233,7 +2286,8 @@ dex number: 87
 species: Sea Lion
 weight: 265
 height: 5'7
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: gym-challenge
 number: '55'
@@ -2274,7 +2328,8 @@ dex number: 93
 species: Gas
 weight: 0.2
 height: 5'3
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: gym-challenge
 number: '56'
@@ -2319,7 +2374,8 @@ dex number: 97
 species: Hypnosis
 weight: 167
 height: 5'3
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: gym-challenge
 number: '57'
@@ -2360,7 +2416,8 @@ dex number: 124
 species: Human Shape
 weight: 90
 height: 4'7
-illustrator: Atsuko Nishida
+illustrators:
+- Atsuko Nishida
 ---
 set: gym-challenge
 number: '58'
@@ -2399,7 +2456,8 @@ dex number: 64
 species: Psi
 weight: 125
 height: 4'3
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: gym-challenge
 number: '59'
@@ -2434,7 +2492,8 @@ dex number: 122
 species: Barrier
 weight: 120
 height: 4'3
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: gym-challenge
 number: '60'
@@ -2470,7 +2529,8 @@ dex number: 4
 species: Lizard
 weight: 19
 height: 2'0
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: gym-challenge
 number: '61'
@@ -2513,7 +2573,8 @@ dex number: 84
 species: Twin Bird
 weight: 86
 height: 4'7
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: gym-challenge
 number: '62'
@@ -2553,7 +2614,8 @@ dex number: 58
 species: Puppy
 weight: 42
 height: 2'4
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: gym-challenge
 number: '63'
@@ -2593,7 +2655,8 @@ dex number: 56
 species: Pig Monkey
 weight: 62
 height: 1'8
-illustrator: Atsuko Nishida
+illustrators:
+- Atsuko Nishida
 ---
 set: gym-challenge
 number: '64'
@@ -2628,7 +2691,8 @@ dex number: 77
 species: Fire Horse
 weight: 66
 height: 3'3
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: gym-challenge
 number: '65'
@@ -2673,7 +2737,8 @@ dex number: 111
 species: Spikes
 weight: 254
 height: 3'3
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: gym-challenge
 number: '66'
@@ -2711,7 +2776,8 @@ dex number: 37
 species: Fox
 weight: 22
 height: 2'0
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: gym-challenge
 number: '67'
@@ -2755,7 +2821,8 @@ dex number: 50
 species: Mole
 weight: 2
 height: 0'8
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: gym-challenge
 number: '68'
@@ -2790,7 +2857,8 @@ dex number: 74
 species: Rock
 weight: 44
 height: 1'4
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: gym-challenge
 number: '69'
@@ -2835,7 +2903,8 @@ dex number: 39
 species: Balloon
 weight: 12
 height: 1'8
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: gym-challenge
 number: '70'
@@ -2870,7 +2939,8 @@ dex number: 43
 species: Weed
 weight: 12
 height: 1'8
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: gym-challenge
 number: '71'
@@ -2910,7 +2980,8 @@ dex number: 46
 species: Mushroom
 weight: 12
 height: 1'0
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: gym-challenge
 number: '72'
@@ -2949,7 +3020,8 @@ dex number: 66
 species: Superpower
 weight: 43
 height: 2'7
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: gym-challenge
 number: '73'
@@ -2993,7 +3065,8 @@ dex number: 129
 species: Fish
 weight: 22
 height: 2'11
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: gym-challenge
 number: '74'
@@ -3033,7 +3106,8 @@ dex number: 52
 species: Scratch Cat
 weight: 9
 height: 1'4
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: gym-challenge
 number: '75'
@@ -3073,7 +3147,8 @@ dex number: 29
 species: Poison Pin
 weight: 15
 height: 1'4
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: gym-challenge
 number: '76'
@@ -3115,7 +3190,8 @@ dex number: 32
 species: Poison Pin
 weight: 15
 height: 1'4
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: gym-challenge
 number: '77'
@@ -3150,7 +3226,8 @@ dex number: 23
 species: Snake
 weight: 15
 height: 6'7
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: gym-challenge
 number: '78'
@@ -3190,7 +3267,8 @@ dex number: 88
 species: Sludge
 weight: 66
 height: 2'11
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: gym-challenge
 number: '79'
@@ -3226,7 +3304,8 @@ dex number: 109
 species: Poison Gas
 weight: 2
 height: 2'0
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: gym-challenge
 number: '80'
@@ -3269,7 +3348,8 @@ dex number: 16
 species: Tiny Bird
 weight: 4
 height: 1'0
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: gym-challenge
 number: '81'
@@ -3308,7 +3388,8 @@ dex number: 114
 species: Vine
 weight: 77
 height: 3'3
-illustrator: Atsuko Nishida
+illustrators:
+- Atsuko Nishida
 ---
 set: gym-challenge
 number: '82'
@@ -3347,7 +3428,8 @@ dex number: 13
 species: Hairy Bug
 weight: 7
 height: 1'0
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: gym-challenge
 number: '83'
@@ -3388,7 +3470,8 @@ dex number: 41
 species: Bat
 weight: 17
 height: 2'7
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: gym-challenge
 number: '84'
@@ -3422,7 +3505,8 @@ dex number: 25
 species: Mouse
 weight: 13
 height: 1'4
-illustrator: Atsuko Nishida
+illustrators:
+- Atsuko Nishida
 ---
 set: gym-challenge
 number: '85'
@@ -3465,7 +3549,8 @@ dex number: 19
 species: Rat
 weight: 8
 height: 1'0
-illustrator: Atsuko Nishida
+illustrators:
+- Atsuko Nishida
 ---
 set: gym-challenge
 number: '86'
@@ -3500,7 +3585,8 @@ dex number: 100
 species: Ball
 weight: 23
 height: 1'8
-illustrator: Atsuko Nishida
+illustrators:
+- Atsuko Nishida
 ---
 set: gym-challenge
 number: '87'
@@ -3536,7 +3622,8 @@ dex number: 116
 species: Dragon
 weight: 18
 height: 1'4
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: gym-challenge
 number: '88'
@@ -3575,7 +3662,8 @@ dex number: 129
 species: Fish
 weight: 22
 height: 2'11
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: gym-challenge
 number: '89'
@@ -3616,7 +3704,8 @@ dex number: 60
 species: Tadpole
 weight: 27
 height: 2'0
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: gym-challenge
 number: '90'
@@ -3654,7 +3743,8 @@ dex number: 54
 species: Duck
 weight: 43
 height: 2'7
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: gym-challenge
 number: '91'
@@ -3697,7 +3787,8 @@ dex number: 86
 species: Sea Lion
 weight: 198
 height: 3'7
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: gym-challenge
 number: '92'
@@ -3733,7 +3824,8 @@ dex number: 120
 species: Starshape
 weight: 76
 height: 2'7
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: gym-challenge
 number: '93'
@@ -3771,7 +3863,8 @@ dex number: 63
 species: Psi
 weight: 43
 height: 2'11
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: gym-challenge
 number: '94'
@@ -3811,7 +3904,8 @@ dex number: 63
 species: Psi
 weight: 43
 height: 2'11
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: gym-challenge
 number: '95'
@@ -3853,7 +3947,8 @@ dex number: 96
 species: Hypnosis
 weight: 71
 height: 3'3
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: gym-challenge
 number: '96'
@@ -3894,7 +3989,8 @@ dex number: 92
 species: Gas
 weight: 0.2
 height: 4'3
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: gym-challenge
 number: '97'
@@ -3932,7 +4028,8 @@ dex number: 92
 species: Gas
 weight: 0.2
 height: 4'3
-illustrator: Atsuko Nishida
+illustrators:
+- Atsuko Nishida
 ---
 set: gym-challenge
 number: '98'
@@ -3975,7 +4072,8 @@ dex number: 137
 species: Virtual
 weight: 80
 height: 2'7
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: gym-challenge
 number: '99'
@@ -4015,7 +4113,8 @@ dex number: 54
 species: Duck
 weight: 43
 height: 2'7
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: gym-challenge
 number: '100'
@@ -4033,7 +4132,8 @@ mechanics:
     you may instead attach 2 R Energy cards to 1 of your Pokémon
     with Blaine in its name. (Playing additional copies of this
     card this turn has no effect.)
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: gym-challenge
 number: '101'
@@ -4052,7 +4152,8 @@ mechanics:
     removed by your opponent's attacks or Trainer cards. (This
     doesn't stop the rest of the attack or Trainer card from working
     normally.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: gym-challenge
 number: '102'
@@ -4079,7 +4180,8 @@ mechanics:
     use that card instead, if he or she does everything required
     in order to play that card (like discarding cards). Either
     way, the card goes to its owner's discard pile.
-illustrator: Keiji Kinebuchi
+illustrators:
+- Keiji Kinebuchi
 ---
 set: gym-challenge
 number: '103'
@@ -4096,7 +4198,8 @@ mechanics:
     Remove 2 damage counters from each Pokémon (yours and your
     opponent's) with any damage counters on it. If a Pokémon has
     just 1 damage counter, remove it.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: gym-challenge
 number: '104'
@@ -4115,7 +4218,8 @@ mechanics:
     if you just played or evolved it this turn or if this is your
     first turn. This effect also applies to the Pokémon it evolves
     into.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: gym-challenge
 number: '105'
@@ -4131,7 +4235,8 @@ mechanics:
   text: >-
     Remove all damage counters from 1 of your Pokémon with Giovanni
     in its name. Then discard your hand.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: gym-challenge
 number: '106'
@@ -4147,7 +4252,8 @@ mechanics:
   text: >-
     If an attack from a Pokémon with Koga in its name does damage
     to a Defending Pokémon this turn, that Pokémon is then Poisoned.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: gym-challenge
 number: '107'
@@ -4171,7 +4277,8 @@ mechanics:
     by an attack. At any time during your turn, you may flip the
     card over. When you flip that card over, if it isn't a Basic
     Pokémon, discard it and all cards attached to it.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: gym-challenge
 number: '108'
@@ -4190,7 +4297,8 @@ mechanics:
     If your opponent accepts and if you have any other cards in
     your hand, switch those cards. If your opponent declines,
     return the Prize card face down and draw a card.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: gym-challenge
 number: '109'
@@ -4212,7 +4320,8 @@ mechanics:
   text: >-
     Each Pokémon's Resistance is reduced by 20. (If a Pokémon's
     Resistance is -30, it becomes -10.)
-illustrator: Keiji Kinebuchi
+illustrators:
+- Keiji Kinebuchi
 ---
 set: gym-challenge
 number: '110'
@@ -4229,7 +4338,8 @@ mechanics:
     Take all Energy cards attached to 1 of your Pokémon with Sabrina
     in its name and attach them to another 1 of your Pokémon with
     Sabrina in its name.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: gym-challenge
 number: '111'
@@ -4249,7 +4359,8 @@ mechanics:
     If your opponent guessed right, he or she draws 2 cards. If
     your opponent guessed wrong, you draw 2 cards. Either way,
     return the card to your hand.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: gym-challenge
 number: '112'
@@ -4269,7 +4380,8 @@ mechanics:
     card. Flip the card over. If your opponent guessed right,
     he or she draws 3 cards. If your opponent guessed wrong, you
     draw 3 cards. Either way, return the card to your hand.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: gym-challenge
 number: '113'
@@ -4291,7 +4403,8 @@ mechanics:
   text: >-
     Ignore Weakness when a W Pokémon does damage to a Pokémon
     with Blaine in its name.
-illustrator: Keiji Kinebuchi
+illustrators:
+- Keiji Kinebuchi
 ---
 set: gym-challenge
 number: '114'
@@ -4315,7 +4428,8 @@ mechanics:
     may flip a coin. If heads, that player may shuffle 1 of his
     or her Pokémon in play with Koga in its name and any cards
     attached to it into his or her deck.
-illustrator: Keiji Kinebuchi
+illustrators:
+- Keiji Kinebuchi
 ---
 set: gym-challenge
 number: '115'
@@ -4334,7 +4448,8 @@ mechanics:
     card. When your opponent attacks, you may switch this Pokémon
     with 1 of your Benched Pokémon (before damage or other effects
     of attacks).
-illustrator: Sumiyoshi Kizuki
+illustrators:
+- Sumiyoshi Kizuki
 ---
 set: gym-challenge
 number: '116'
@@ -4352,7 +4467,8 @@ mechanics:
     a Basic Pokémon or Evolution card from those cards, show it
     your opponent, then put it into your hand. Shuffle the rest
     into your deck.
-illustrator: Keiji Kinebuchi
+illustrators:
+- Keiji Kinebuchi
 ---
 set: gym-challenge
 number: '117'
@@ -4369,7 +4485,8 @@ mechanics:
     Discard 2 Energy cards from your hand in order to put 1 Basic
     Pokémon from your discard pile onto your Bench. (You can't
     play Max Revive if your Bench is full.)
-illustrator: Hikaru Koike
+illustrators:
+- Hikaru Koike
 ---
 set: gym-challenge
 number: '118'
@@ -4387,7 +4504,8 @@ mechanics:
     your deck for up to 2 W Energy cards. Show those cards to
     your opponent, then put them into your hand. Shuffle your
     deck afterward.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: gym-challenge
 number: '119'
@@ -4410,7 +4528,8 @@ mechanics:
     Whenever a player puts a Basic Pokémon onto his or her Bench
     from his or her hand, he or she flips a coin. If tails, put
     2 damage counters on that Pokémon.
-illustrator: Keiji Kinebuchi
+illustrators:
+- Keiji Kinebuchi
 ---
 set: gym-challenge
 number: '120'
@@ -4427,7 +4546,8 @@ mechanics:
     Flip a coin. If heads, search your deck for any card and put
     it into your hand. Shuffle your deck afterward. If tails,
     you can't play Trainer cards until the end of your next turn.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: gym-challenge
 number: '121'
@@ -4447,7 +4567,8 @@ mechanics:
     if you do everything required in order to play that card (like
     discarding cards). The card stays in your opponent's discard
     pile.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: gym-challenge
 number: '122'
@@ -4471,7 +4592,8 @@ mechanics:
     attacking), that player may return 1 basic Energy card attached
     to 1 of his or her Pokémon with Sabrina in its name to his
     or her hand.
-illustrator: Keiji Kinebuchi
+illustrators:
+- Keiji Kinebuchi
 ---
 set: gym-challenge
 number: '123'
@@ -4494,7 +4616,8 @@ mechanics:
     Whenever a Pokémon with Giovanni in its name evolves, its
     owner removes 2 damage counters from that Pokémon (or 1 if
     it only has 1).
-illustrator: Keiji Kinebuchi
+illustrators:
+- Keiji Kinebuchi
 ---
 set: gym-challenge
 number: '124'
@@ -4510,7 +4633,8 @@ mechanics:
   text: >-
     Show the top 3 cards of your deck to all players. Put any
     R Energy cards there into your hand and discard the rest.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: gym-challenge
 number: '125'
@@ -4527,7 +4651,8 @@ mechanics:
     Until the end of your opponent's next turn, prevent all damage
     from attacks done to your Benched Pokémon. (Any other effects
     of attacks still happen.)
-illustrator: Keiji Kinebuchi
+illustrators:
+- Keiji Kinebuchi
 ---
 set: gym-challenge
 number: '126'
@@ -4546,7 +4671,8 @@ mechanics:
     1 of them and switches it with his or her Active Pokémon,
     then, if you have any Benched Pokémon, you switch 1 of them
     with your Active Pokémon.
-illustrator: Keiji Kinebuchi
+illustrators:
+- Keiji Kinebuchi
 ---
 set: gym-challenge
 number: '127'
@@ -4563,7 +4689,8 @@ mechanics:
 - type: effect
   text: >-
     Provides 1 Fighting Energy.
-illustrator: Keiji Kinebuchi
+illustrators:
+- Keiji Kinebuchi
 ---
 set: gym-challenge
 number: '128'
@@ -4580,7 +4707,8 @@ mechanics:
 - type: effect
   text: >-
     Provides 1 Fire Energy.
-illustrator: Keiji Kinebuchi
+illustrators:
+- Keiji Kinebuchi
 ---
 set: gym-challenge
 number: '129'
@@ -4597,7 +4725,8 @@ mechanics:
 - type: effect
   text: >-
     Provides 1 Grass Energy.
-illustrator: Keiji Kinebuchi
+illustrators:
+- Keiji Kinebuchi
 ---
 set: gym-challenge
 number: '130'
@@ -4614,7 +4743,8 @@ mechanics:
 - type: effect
   text: >-
     Provides 1 Lightning Energy.
-illustrator: Keiji Kinebuchi
+illustrators:
+- Keiji Kinebuchi
 ---
 set: gym-challenge
 number: '131'
@@ -4631,7 +4761,8 @@ mechanics:
 - type: effect
   text: >-
     Provides 1 Psychic Energy.
-illustrator: Keiji Kinebuchi
+illustrators:
+- Keiji Kinebuchi
 ---
 set: gym-challenge
 number: '132'
@@ -4648,4 +4779,5 @@ mechanics:
 - type: effect
   text: >-
     Provides 1 Water Energy.
-illustrator: Keiji Kinebuchi
+illustrators:
+- Keiji Kinebuchi

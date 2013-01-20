@@ -35,7 +35,8 @@ damage modifiers:
   operation: ×
   type: Fighting
 retreat: 2
-illustrator: Kagemaru Himeno
+illustrators:
+- Kagemaru Himeno
 ---
 set: ex-dragon-frontiers
 number: '2'
@@ -78,7 +79,8 @@ damage modifiers:
   operation: ×
   type: Lightning
 retreat: 2
-illustrator: Kouki Saitou
+illustrators:
+- Kouki Saitou
 ---
 set: ex-dragon-frontiers
 number: '3'
@@ -120,7 +122,8 @@ damage modifiers:
   operation: ×
   type: Fire
 retreat: 1
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: ex-dragon-frontiers
 number: '4'
@@ -168,7 +171,8 @@ damage modifiers:
   operation: '-'
   type: Water
 retreat: 2
-illustrator: Sumiyoshi Kizuki
+illustrators:
+- Sumiyoshi Kizuki
 ---
 set: ex-dragon-frontiers
 number: '5'
@@ -206,7 +210,8 @@ damage modifiers:
   operation: ×
   type: Lightning
 retreat: 2
-illustrator: Midori Harada
+illustrators:
+- Midori Harada
 ---
 set: ex-dragon-frontiers
 number: '6'
@@ -247,7 +252,8 @@ damage modifiers:
   operation: ×
   type: Psychic
 retreat: 3
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: ex-dragon-frontiers
 number: '7'
@@ -288,7 +294,8 @@ damage modifiers:
   operation: ×
   type: Psychic
 retreat: 2
-illustrator: Kouki Saitou
+illustrators:
+- Kouki Saitou
 ---
 set: ex-dragon-frontiers
 number: '8'
@@ -327,7 +334,8 @@ damage modifiers:
 - amount: 2
   operation: ×
   type: Water
-illustrator: Hajime Kusajima
+illustrators:
+- Hajime Kusajima
 ---
 set: ex-dragon-frontiers
 number: '9'
@@ -368,7 +376,8 @@ damage modifiers:
   operation: ×
   type: Fire
 retreat: 1
-illustrator: Yukiko Baba
+illustrators:
+- Yukiko Baba
 ---
 set: ex-dragon-frontiers
 number: '10'
@@ -404,7 +413,8 @@ damage modifiers:
   operation: ×
   type: Fighting
 retreat: 3
-illustrator: Masakazu Fukuda
+illustrators:
+- Masakazu Fukuda
 ---
 set: ex-dragon-frontiers
 number: '11'
@@ -443,7 +453,8 @@ damage modifiers:
 - amount: 30
   operation: '-'
   type: Fighting
-illustrator: Kouki Saitou
+illustrators:
+- Kouki Saitou
 ---
 set: ex-dragon-frontiers
 number: '12'
@@ -483,7 +494,8 @@ damage modifiers:
   operation: ×
   type: Water
 retreat: 1
-illustrator: Hisao Nakamura
+illustrators:
+- Hisao Nakamura
 ---
 set: ex-dragon-frontiers
 number: '13'
@@ -520,7 +532,8 @@ damage modifiers:
   operation: ×
   type: Psychic
 retreat: 1
-illustrator: Hisao Nakamura
+illustrators:
+- Hisao Nakamura
 ---
 set: ex-dragon-frontiers
 number: '14'
@@ -558,7 +571,8 @@ damage modifiers:
   operation: ×
   type: Lightning
 retreat: 1
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: ex-dragon-frontiers
 number: '15'
@@ -602,7 +616,8 @@ damage modifiers:
   operation: ×
   type: Lightning
 retreat: 2
-illustrator: Atsuko Nishida
+illustrators:
+- Atsuko Nishida
 ---
 set: ex-dragon-frontiers
 number: '16'
@@ -640,7 +655,8 @@ damage modifiers:
   operation: ×
   type: Water
 retreat: 1
-illustrator: Kagemaru Himeno
+illustrators:
+- Kagemaru Himeno
 ---
 set: ex-dragon-frontiers
 number: '17'
@@ -673,7 +689,8 @@ damage modifiers:
   operation: ×
   type: Psychic
 retreat: 1
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: ex-dragon-frontiers
 number: '18'
@@ -709,7 +726,8 @@ damage modifiers:
 - amount: 2
   operation: ×
   type: Fire
-illustrator: Hajime Kusajima
+illustrators:
+- Hajime Kusajima
 ---
 set: ex-dragon-frontiers
 number: '19'
@@ -745,7 +763,8 @@ damage modifiers:
   operation: ×
   type: Fighting
 retreat: 1
-illustrator: Masakazu Fukuda
+illustrators:
+- Masakazu Fukuda
 ---
 set: ex-dragon-frontiers
 number: '20'
@@ -783,7 +802,8 @@ damage modifiers:
   operation: ×
   type: Lightning
 retreat: 1
-illustrator: Sumiyoshi Kizuki
+illustrators:
+- Sumiyoshi Kizuki
 ---
 set: ex-dragon-frontiers
 number: '21'
@@ -822,7 +842,8 @@ damage modifiers:
   operation: ×
   type: Grass
 retreat: 1
-illustrator: Sachiko Adachi
+illustrators:
+- Sachiko Adachi
 ---
 set: ex-dragon-frontiers
 number: '22'
@@ -859,7 +880,8 @@ damage modifiers:
   operation: ×
   type: Lightning
 retreat: 1
-illustrator: Sachiko Adachi
+illustrators:
+- Sachiko Adachi
 ---
 set: ex-dragon-frontiers
 number: '23'
@@ -895,7 +917,8 @@ damage modifiers:
   operation: ×
   type: Fire
 retreat: 1
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: ex-dragon-frontiers
 number: '24'
@@ -938,7 +961,8 @@ damage modifiers:
   operation: '-'
   type: Lightning
 retreat: 1
-illustrator: Tomokazu Komiya
+illustrators:
+- Tomokazu Komiya
 ---
 set: ex-dragon-frontiers
 number: '25'
@@ -974,7 +998,8 @@ damage modifiers:
   operation: ×
   type: Psychic
 retreat: 1
-illustrator: Kouki Saitou
+illustrators:
+- Kouki Saitou
 ---
 set: ex-dragon-frontiers
 number: '26'
@@ -1008,7 +1033,8 @@ damage modifiers:
   operation: '-'
   type: Water
 retreat: 1
-illustrator: Kagemaru Himeno
+illustrators:
+- Kagemaru Himeno
 ---
 set: ex-dragon-frontiers
 number: '27'
@@ -1043,7 +1069,8 @@ damage modifiers:
   operation: ×
   type: Lightning
 retreat: 1
-illustrator: Yuka Morii
+illustrators:
+- Yuka Morii
 ---
 set: ex-dragon-frontiers
 number: '28'
@@ -1073,7 +1100,8 @@ mechanics:
   damage: '40'
   type: attack
 retreat: 2
-illustrator: Kouki Saitou
+illustrators:
+- Kouki Saitou
 ---
 set: ex-dragon-frontiers
 number: '29'
@@ -1112,7 +1140,8 @@ damage modifiers:
   operation: ×
   type: Fighting
 retreat: 1
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: ex-dragon-frontiers
 number: '30'
@@ -1143,7 +1172,8 @@ damage modifiers:
   operation: ×
   type: Fighting
 retreat: 1
-illustrator: Yuka Morii
+illustrators:
+- Yuka Morii
 ---
 set: ex-dragon-frontiers
 number: '31'
@@ -1177,7 +1207,8 @@ damage modifiers:
   operation: ×
   type: Lightning
 retreat: 1
-illustrator: Tomokazu Komiya
+illustrators:
+- Tomokazu Komiya
 ---
 set: ex-dragon-frontiers
 number: '32'
@@ -1215,7 +1246,8 @@ damage modifiers:
   operation: ×
   type: Psychic
 retreat: 1
-illustrator: Hajime Kusajima
+illustrators:
+- Hajime Kusajima
 ---
 set: ex-dragon-frontiers
 number: '33'
@@ -1250,7 +1282,8 @@ damage modifiers:
   operation: ×
   type: Psychic
 retreat: 1
-illustrator: Kyoko Umemoto
+illustrators:
+- Kyoko Umemoto
 ---
 set: ex-dragon-frontiers
 number: '34'
@@ -1285,7 +1318,8 @@ damage modifiers:
   operation: ×
   type: Psychic
 retreat: 1
-illustrator: Sumiyoshi Kizuki
+illustrators:
+- Sumiyoshi Kizuki
 ---
 set: ex-dragon-frontiers
 number: '35'
@@ -1321,7 +1355,8 @@ damage modifiers:
   operation: ×
   type: Psychic
 retreat: 1
-illustrator: Atsuko Nishida
+illustrators:
+- Atsuko Nishida
 ---
 set: ex-dragon-frontiers
 number: '36'
@@ -1357,7 +1392,8 @@ damage modifiers:
   operation: ×
   type: Water
 retreat: 1
-illustrator: Midori Harada
+illustrators:
+- Midori Harada
 ---
 set: ex-dragon-frontiers
 number: '37'
@@ -1393,7 +1429,8 @@ damage modifiers:
   operation: ×
   type: Lightning
 retreat: 1
-illustrator: Hisao Nakamura
+illustrators:
+- Hisao Nakamura
 ---
 set: ex-dragon-frontiers
 number: '38'
@@ -1424,7 +1461,8 @@ mechanics:
   text: >-
     Shelgon does 10 damage to itself.
 retreat: 2
-illustrator: Kyoko Umemoto
+illustrators:
+- Kyoko Umemoto
 ---
 set: ex-dragon-frontiers
 number: '39'
@@ -1461,7 +1499,8 @@ damage modifiers:
   operation: ×
   type: Fighting
 retreat: 1
-illustrator: Kagemaru Himeno
+illustrators:
+- Kagemaru Himeno
 ---
 set: ex-dragon-frontiers
 number: '40'
@@ -1499,7 +1538,8 @@ damage modifiers:
 - amount: 30
   operation: '-'
   type: Fighting
-illustrator: Sumiyoshi Kizuki
+illustrators:
+- Sumiyoshi Kizuki
 ---
 set: ex-dragon-frontiers
 number: '41'
@@ -1530,7 +1570,8 @@ damage modifiers:
   operation: ×
   type: Fighting
 retreat: 1
-illustrator: Miki Tanaka
+illustrators:
+- Miki Tanaka
 ---
 set: ex-dragon-frontiers
 number: '42'
@@ -1562,7 +1603,8 @@ mechanics:
     If the Defending Pokémon is Pokémon-ex, that Pokémon is now
     Confused.
 retreat: 1
-illustrator: Midori Harada
+illustrators:
+- Midori Harada
 ---
 set: ex-dragon-frontiers
 number: '43'
@@ -1589,7 +1631,8 @@ mechanics:
     During your opponent's next turn, any damage done to Bagon
     by attacks is reduced by 10 (after applying Weakness and Resistance).
 retreat: 1
-illustrator: Hajime Kusajima
+illustrators:
+- Hajime Kusajima
 ---
 set: ex-dragon-frontiers
 number: '44'
@@ -1625,7 +1668,8 @@ damage modifiers:
   operation: '-'
   type: Water
 retreat: 1
-illustrator: Yuka Morii
+illustrators:
+- Yuka Morii
 ---
 set: ex-dragon-frontiers
 number: '45'
@@ -1656,7 +1700,8 @@ damage modifiers:
   operation: ×
   type: Water
 retreat: 1
-illustrator: Atsuko Nishida
+illustrators:
+- Atsuko Nishida
 ---
 set: ex-dragon-frontiers
 number: '46'
@@ -1680,7 +1725,8 @@ mechanics:
   damage: '10'
   type: attack
 retreat: 1
-illustrator: Tomokazu Komiya
+illustrators:
+- Tomokazu Komiya
 ---
 set: ex-dragon-frontiers
 number: '47'
@@ -1712,7 +1758,8 @@ damage modifiers:
   operation: ×
   type: Psychic
 retreat: 1
-illustrator: Yuka Morii
+illustrators:
+- Yuka Morii
 ---
 set: ex-dragon-frontiers
 number: '48'
@@ -1749,7 +1796,8 @@ damage modifiers:
   operation: ×
   type: Fighting
 retreat: 1
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: ex-dragon-frontiers
 number: '49'
@@ -1779,7 +1827,8 @@ damage modifiers:
   operation: ×
   type: Lightning
 retreat: 1
-illustrator: Yukiko Baba
+illustrators:
+- Yukiko Baba
 ---
 set: ex-dragon-frontiers
 number: '50'
@@ -1809,7 +1858,8 @@ damage modifiers:
   operation: ×
   type: Lightning
 retreat: 1
-illustrator: Hisao Nakamura
+illustrators:
+- Hisao Nakamura
 ---
 set: ex-dragon-frontiers
 number: '51'
@@ -1840,7 +1890,8 @@ damage modifiers:
   operation: ×
   type: Water
 retreat: 1
-illustrator: Yukiko Baba
+illustrators:
+- Yukiko Baba
 ---
 set: ex-dragon-frontiers
 number: '52'
@@ -1873,7 +1924,8 @@ damage modifiers:
   operation: ×
   type: Water
 retreat: 1
-illustrator: Kouki Saitou
+illustrators:
+- Kouki Saitou
 ---
 set: ex-dragon-frontiers
 number: '53'
@@ -1906,7 +1958,8 @@ damage modifiers:
   operation: ×
   type: Fire
 retreat: 1
-illustrator: Kyoko Umemoto
+illustrators:
+- Kyoko Umemoto
 ---
 set: ex-dragon-frontiers
 number: '54'
@@ -1934,7 +1987,8 @@ damage modifiers:
   operation: ×
   type: Fighting
 retreat: 1
-illustrator: Sachiko Adachi
+illustrators:
+- Sachiko Adachi
 ---
 set: ex-dragon-frontiers
 number: '55'
@@ -1962,7 +2016,8 @@ damage modifiers:
   operation: ×
   type: Psychic
 retreat: 1
-illustrator: Yukiko Baba
+illustrators:
+- Yukiko Baba
 ---
 set: ex-dragon-frontiers
 number: '56'
@@ -1996,7 +2051,8 @@ damage modifiers:
   operation: ×
   type: Psychic
 retreat: 1
-illustrator: Hajime Kusajima
+illustrators:
+- Hajime Kusajima
 ---
 set: ex-dragon-frontiers
 number: '57'
@@ -2029,7 +2085,8 @@ damage modifiers:
   operation: ×
   type: Psychic
 retreat: 1
-illustrator: Midori Harada
+illustrators:
+- Midori Harada
 ---
 set: ex-dragon-frontiers
 number: '58'
@@ -2057,7 +2114,8 @@ damage modifiers:
   operation: ×
   type: Water
 retreat: 1
-illustrator: Yukiko Baba
+illustrators:
+- Yukiko Baba
 ---
 set: ex-dragon-frontiers
 number: '59'
@@ -2089,7 +2147,8 @@ damage modifiers:
   operation: ×
   type: Water
 retreat: 1
-illustrator: Kouki Saitou
+illustrators:
+- Kouki Saitou
 ---
 set: ex-dragon-frontiers
 number: '60'
@@ -2124,7 +2183,8 @@ damage modifiers:
   operation: ×
   type: Psychic
 retreat: 1
-illustrator: Hajime Kusajima
+illustrators:
+- Hajime Kusajima
 ---
 set: ex-dragon-frontiers
 number: '61'
@@ -2157,7 +2217,8 @@ damage modifiers:
   operation: ×
   type: Psychic
 retreat: 1
-illustrator: Kyoko Umemoto
+illustrators:
+- Kyoko Umemoto
 ---
 set: ex-dragon-frontiers
 number: '62'
@@ -2189,7 +2250,8 @@ damage modifiers:
   operation: ×
   type: Lightning
 retreat: 1
-illustrator: Hajime Kusajima
+illustrators:
+- Hajime Kusajima
 ---
 set: ex-dragon-frontiers
 number: '63'
@@ -2219,7 +2281,8 @@ damage modifiers:
   operation: ×
   type: Lightning
 retreat: 1
-illustrator: Hisao Nakamura
+illustrators:
+- Hisao Nakamura
 ---
 set: ex-dragon-frontiers
 number: '64'
@@ -2256,7 +2319,8 @@ damage modifiers:
   operation: ×
   type: Psychic
 retreat: 1
-illustrator: Miki Tanaka
+illustrators:
+- Miki Tanaka
 ---
 set: ex-dragon-frontiers
 number: '65'
@@ -2290,7 +2354,8 @@ damage modifiers:
   operation: '-'
   type: Fighting
 retreat: 1
-illustrator: Miki Tanaka
+illustrators:
+- Miki Tanaka
 ---
 set: ex-dragon-frontiers
 number: '66'
@@ -2324,7 +2389,8 @@ damage modifiers:
   operation: '-'
   type: Fighting
 retreat: 1
-illustrator: Miki Tanaka
+illustrators:
+- Miki Tanaka
 ---
 set: ex-dragon-frontiers
 number: '67'
@@ -2359,7 +2425,8 @@ damage modifiers:
   operation: ×
   type: Lightning
 retreat: 1
-illustrator: Hisao Nakamura
+illustrators:
+- Hisao Nakamura
 ---
 set: ex-dragon-frontiers
 number: '68'
@@ -2391,7 +2458,8 @@ damage modifiers:
   operation: ×
   type: Grass
 retreat: 1
-illustrator: Midori Harada
+illustrators:
+- Midori Harada
 ---
 set: ex-dragon-frontiers
 number: '69'
@@ -2423,7 +2491,8 @@ damage modifiers:
   operation: ×
   type: Grass
 retreat: 1
-illustrator: Yukiko Baba
+illustrators:
+- Yukiko Baba
 ---
 set: ex-dragon-frontiers
 number: '70'
@@ -2456,7 +2525,8 @@ damage modifiers:
   operation: ×
   type: Water
 retreat: 1
-illustrator: Sachiko Adachi
+illustrators:
+- Sachiko Adachi
 ---
 set: ex-dragon-frontiers
 number: '71'
@@ -2490,7 +2560,8 @@ damage modifiers:
   operation: ×
   type: Grass
 retreat: 1
-illustrator: Tomokazu Komiya
+illustrators:
+- Tomokazu Komiya
 ---
 set: ex-dragon-frontiers
 number: '72'
@@ -2518,7 +2589,8 @@ mechanics:
     20 (after applying Weakness and Resistance). At the end of
     your opponent's turn after you played Buffer Piece, discard
     Buffer Piece.
-illustrator: Katsura Tabata
+illustrators:
+- Katsura Tabata
 ---
 set: ex-dragon-frontiers
 number: '73'
@@ -2541,7 +2613,8 @@ mechanics:
   text: >-
     Shuffle your hand into your deck. Then, count the number of
     cards in your opponent's hand and draw that many cards.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: ex-dragon-frontiers
 number: '74'
@@ -2565,7 +2638,8 @@ mechanics:
     Each Pokémon in play that has Delta Species on its card (both
     yours and your opponent's) has no Weakness and can't use any
     Poke-Powers.
-illustrator: Shizurow
+illustrators:
+- Shizurow
 ---
 set: ex-dragon-frontiers
 number: '75'
@@ -2591,7 +2665,8 @@ mechanics:
     for up to 3 Basic Pokémon that each has 100 HP or less, show
     them to your opponent, and put them into your hand. Shuffle
     your deck afterward.
-illustrator: Kouki Saitou
+illustrators:
+- Kouki Saitou
 ---
 set: ex-dragon-frontiers
 number: '76'
@@ -2614,7 +2689,8 @@ mechanics:
   text: >-
     Choose up to 2 of your Prize cards and put them face up. (These
     cards remain face up for the rest of the game.) Draw 2 cards.
-illustrator: Kouki Saitou
+illustrators:
+- Kouki Saitou
 ---
 set: ex-dragon-frontiers
 number: '77'
@@ -2640,7 +2716,8 @@ mechanics:
     deck afterward. Or, search your discard pile for up to 2 basic
     Energy cards, show them to your opponent, and put them into
     your hand.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: ex-dragon-frontiers
 number: '78'
@@ -2658,7 +2735,8 @@ mechanics:
     or Evolution card from your discard pile into your hand. If
     both are tails, put a Trainer card from your discard pile
     into your hand.
-illustrator: Shizurow
+illustrators:
+- Shizurow
 ---
 set: ex-dragon-frontiers
 number: '79'
@@ -2681,7 +2759,8 @@ mechanics:
   text: >-
     Search your deck for an Evolution card, show it to your opponent,
     and put it into your hand. Shuffle your deck afterward.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: ex-dragon-frontiers
 number: '80'
@@ -2703,7 +2782,8 @@ mechanics:
 - type: effect
   text: >-
     Shuffle you hand into your deck, then draw 5 cards.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: ex-dragon-frontiers
 number: '81'
@@ -2729,7 +2809,8 @@ mechanics:
     does 10 more damage (before applying Weakness and Resistance).
     Discard Strength Charm at the end of the turn in which this
     Pokémon attacks.
-illustrator: Shizurow
+illustrators:
+- Shizurow
 ---
 set: ex-dragon-frontiers
 number: '82'
@@ -2751,7 +2832,8 @@ mechanics:
 - type: effect
   text: >-
     Draw 3 cards. Then discard any 1 card from your hand.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: ex-dragon-frontiers
 number: '83'
@@ -2766,7 +2848,8 @@ mechanics:
 - type: effect
   text: >-
     Switch 1 of your Active Pokémon with 1 of your Benched Pokémon.
-illustrator: Hiromichi Sugiyama
+illustrators:
+- Hiromichi Sugiyama
 ---
 set: ex-dragon-frontiers
 number: '84'
@@ -2789,7 +2872,8 @@ mechanics:
     to it, damage done by that Pokémon's attack isn't affected
     by Resistance. Ignore these effects if Holon Energy FF is
     attached to Pokémon-ex.
-illustrator: Takumi Akabane
+illustrators:
+- Takumi Akabane
 ---
 set: ex-dragon-frontiers
 number: '85'
@@ -2812,7 +2896,8 @@ mechanics:
     a basic L Energy card attached to it, damage done by your
     opponent's Pokémon-ex is reduced by 10. Ignore these effects
     if Holon Energy GL is attached to Pokémon-ex.
-illustrator: Takumi Akabane
+illustrators:
+- Takumi Akabane
 ---
 set: ex-dragon-frontiers
 number: '86'
@@ -2835,7 +2920,8 @@ mechanics:
     Energy WP is attached to also has a basic P Energy card attached
     to it, that Pokémon's Retreat Cost is 0. Ignore these effects
     if Holon Energy WP is attached to Pokémon-ex.
-illustrator: Takumi Akabane
+illustrators:
+- Takumi Akabane
 ---
 set: ex-dragon-frontiers
 number: '87'
@@ -2856,7 +2942,8 @@ mechanics:
     Energy provides CCC Energy. The Pokémon Boost Energy is attached
     to can't retreat. If the Pokémon Boost Energy is attached
     to isn't an Evolved Pokémon, discard Boost Energy.
-illustrator: Shin-Ichi Yoshikawa
+illustrators:
+- Shin-Ichi Yoshikawa
 ---
 set: ex-dragon-frontiers
 number: '88'
@@ -2877,7 +2964,8 @@ mechanics:
     Rainbow Energy provides every type of Energy but provides
     only 1 Energy at a time. (Has no effect other than providing
     Energy.)
-illustrator: Takumi Akabane
+illustrators:
+- Takumi Akabane
 ---
 set: ex-dragon-frontiers
 number: '89'
@@ -2900,7 +2988,8 @@ mechanics:
     but provides only 3 in any combination at a time. If the Pokémon
     Scramble Energy is attached to isn't an Evolved Pokémon (or
     evolves into Pokémon-ex), discard Scramble Energy.
-illustrator: Takumi Akabane
+illustrators:
+- Takumi Akabane
 ---
 set: ex-dragon-frontiers
 number: '90'
@@ -2945,7 +3034,8 @@ damage modifiers:
   operation: '-'
   type: Grass
 retreat: 1
-illustrator: Shizurow
+illustrators:
+- Shizurow
 ---
 set: ex-dragon-frontiers
 number: '91'
@@ -2982,7 +3072,8 @@ mechanics:
     not necessary to Knock Out the Defending Pokémon on your opponent's
     Benched Pokémon in any way you like.
 retreat: 2
-illustrator: Ryo Ueda
+illustrators:
+- Ryo Ueda
 ---
 set: ex-dragon-frontiers
 number: '92'
@@ -3019,7 +3110,8 @@ mechanics:
     that has any damage counters on it. (Don't apply Weakness
     and Resistance for Benched Pokémon.)
 retreat: 2
-illustrator: Nakaoka
+illustrators:
+- Nakaoka
 ---
 set: ex-dragon-frontiers
 number: '93'
@@ -3061,7 +3153,8 @@ damage modifiers:
   operation: ×
   type: Psychic
 retreat: 2
-illustrator: Masahiko Ishii
+illustrators:
+- Masahiko Ishii
 ---
 set: ex-dragon-frontiers
 number: '94'
@@ -3105,7 +3198,8 @@ damage modifiers:
   operation: ×
   type: Lightning
 retreat: 1
-illustrator: Masahiko Ishii
+illustrators:
+- Masahiko Ishii
 ---
 set: ex-dragon-frontiers
 number: '95'
@@ -3145,7 +3239,8 @@ damage modifiers:
   operation: ×
   type: Psychic
 retreat: 2
-illustrator: Shizurow
+illustrators:
+- Shizurow
 ---
 set: ex-dragon-frontiers
 number: '96'
@@ -3187,7 +3282,8 @@ damage modifiers:
   operation: ×
   type: Psychic
 retreat: 2
-illustrator: Ryo Ueda
+illustrators:
+- Ryo Ueda
 ---
 set: ex-dragon-frontiers
 number: '97'
@@ -3226,7 +3322,8 @@ mechanics:
   damage: '70'
   type: attack
 retreat: 2
-illustrator: Ryo Ueda
+illustrators:
+- Ryo Ueda
 ---
 set: ex-dragon-frontiers
 number: '98'
@@ -3276,7 +3373,8 @@ damage modifiers:
   operation: '-'
   type: Fire
 retreat: 2
-illustrator: Ryo Ueda
+illustrators:
+- Ryo Ueda
 ---
 set: ex-dragon-frontiers
 number: '99'
@@ -3320,7 +3418,8 @@ damage modifiers:
   operation: ×
   type: Grass
 retreat: 3
-illustrator: Yusuke Shimada
+illustrators:
+- Yusuke Shimada
 ---
 set: ex-dragon-frontiers
 number: '100'
@@ -3360,7 +3459,8 @@ damage modifiers:
   operation: ×
   type: Water
 retreat: 3
-illustrator: Masakazu Fukuda
+illustrators:
+- Masakazu Fukuda
 ---
 set: ex-dragon-frontiers
 number: '101'
@@ -3402,4 +3502,5 @@ damage modifiers:
   operation: ×
   type: Psychic
 retreat: 1
-illustrator: Masakazu Fukuda
+illustrators:
+- Masakazu Fukuda

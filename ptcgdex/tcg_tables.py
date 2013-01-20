@@ -72,9 +72,6 @@ class Print(TableBase):
         info=dict(description="The card number in the set (may not be actually numeric)"))
     order = Column(Integer, nullable=False,
         info=dict(description="Sort order inside the set"))
-    illustrator_id = Column(Integer, ForeignKey('tcg_illustrators.id'),
-        nullable=False, index=True,
-        info=dict(description="ID of the illustrator"))
     pokemon_flavor_id = Column(Integer, ForeignKey('tcg_pokemon_flavors.id'),
         nullable=True,
         info=dict(description="ID of Pokémon flavor info, if any"))
@@ -89,6 +86,10 @@ class Print(TableBase):
     rarity_id = Column(Integer, ForeignKey('tcg_rarities.id'),
         nullable=False, index=True,
         info=dict(description="The ID of the rarity"))
+
+    @property
+    def illustrators(self):
+        return [pi.illustrator for pi in self.print_illustrators]
 
 class TCGType(TableBase):
     __tablename__ = 'tcg_types'
@@ -323,6 +324,18 @@ class Illustrator(TableBase):
         info=dict(description="Name of the illustrator"))
 
 
+class PrintIllustrator(TableBase):
+    __tablename__ = 'tcg_print_illustrators'
+    print_id = Column(Integer, ForeignKey('tcg_prints.id'),
+        primary_key=True, nullable=False,
+        info=dict(description="The ID of the print"))
+    illustrator_id = Column(Integer, ForeignKey('tcg_illustrators.id'),
+        primary_key=True, nullable=False, index=True,
+        info=dict(description="The ID of the illustrator"))
+    order = Column(Integer, primary_key=True, nullable=False,
+        info=dict(description=u"Order of appearance on card."))
+
+
 class Scan(TableBase):
     __tablename__ = 'tcg_scans'
     __singlename__ = 'tcg_scan'
@@ -384,8 +397,6 @@ Card.family = relationship(CardFamily, backref='cards')
 Print.card = relationship(Card, backref='prints')
 Print.set = relationship(Set, backref=backref(
     'prints', order_by=(Print.order.asc(), Print.set_number.asc())))
-Print.illustrator = relationship(Illustrator, backref=backref(
-    'prints', order_by=(Print.set_id, Print.order, Print.set_number)))
 Print.pokemon_flavor = relationship(PokemonFlavor, backref='prints')
 Print.rarity = relationship(Rarity, backref='prints')
 
@@ -414,6 +425,10 @@ CardMechanic.card = relationship(Card, backref=backref(
 CardMechanic.mechanic = relationship(Mechanic, backref='card_mechanics')
 
 PokemonFlavor.species = relationship(dex_tables.PokemonSpecies)
+
+PrintIllustrator.print_ = relationship(Print, backref='print_illustrators')
+PrintIllustrator.illustrator = relationship(Illustrator, backref=backref(
+    'print_illustrators', order_by=(PrintIllustrator.order)))
 
 Scan.print_ = relationship(Print, backref=backref(
     'scans', order_by=Scan.order.asc()))

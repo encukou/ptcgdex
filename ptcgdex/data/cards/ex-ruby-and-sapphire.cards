@@ -41,7 +41,8 @@ damage modifiers:
   operation: '-'
   type: Grass
 retreat: 4
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: ex-ruby-and-sapphire
 number: '2'
@@ -81,7 +82,8 @@ damage modifiers:
 - amount: 2
   operation: ×
   type: Fire
-illustrator: Hajime Kusajima
+illustrators:
+- Hajime Kusajima
 ---
 set: ex-ruby-and-sapphire
 number: '3'
@@ -119,7 +121,8 @@ damage modifiers:
   operation: ×
   type: Water
 retreat: 2
-illustrator: Kouki Saitou
+illustrators:
+- Kouki Saitou
 ---
 set: ex-ruby-and-sapphire
 number: '4'
@@ -157,7 +160,8 @@ damage modifiers:
   operation: ×
   type: Water
 retreat: 3
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: ex-ruby-and-sapphire
 number: '5'
@@ -194,7 +198,8 @@ damage modifiers:
   operation: ×
   type: Fighting
 retreat: 1
-illustrator: Atsuko Nishida
+illustrators:
+- Atsuko Nishida
 ---
 set: ex-ruby-and-sapphire
 number: '6'
@@ -231,7 +236,8 @@ damage modifiers:
 - amount: 2
   operation: ×
   type: Psychic
-illustrator: Midori Harada
+illustrators:
+- Midori Harada
 ---
 set: ex-ruby-and-sapphire
 number: '7'
@@ -269,7 +275,8 @@ damage modifiers:
   operation: ×
   type: Psychic
 retreat: 2
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: ex-ruby-and-sapphire
 number: '8'
@@ -304,7 +311,8 @@ damage modifiers:
   operation: ×
   type: Psychic
 retreat: 2
-illustrator: Naoyo Kimura
+illustrators:
+- Naoyo Kimura
 ---
 set: ex-ruby-and-sapphire
 number: '9'
@@ -343,7 +351,8 @@ damage modifiers:
   operation: '-'
   type: Metal
 retreat: 1
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: ex-ruby-and-sapphire
 number: '10'
@@ -382,7 +391,8 @@ damage modifiers:
   operation: '-'
   type: Psychic
 retreat: 1
-illustrator: Atsuko Nishida
+illustrators:
+- Atsuko Nishida
 ---
 set: ex-ruby-and-sapphire
 number: '11'
@@ -423,7 +433,8 @@ damage modifiers:
   operation: '-'
   type: Water
 retreat: 3
-illustrator: Midori Harada
+illustrators:
+- Midori Harada
 ---
 set: ex-ruby-and-sapphire
 number: '12'
@@ -458,7 +469,8 @@ damage modifiers:
   operation: ×
   type: Fighting
 retreat: 3
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: ex-ruby-and-sapphire
 number: '13'
@@ -493,7 +505,8 @@ damage modifiers:
   operation: ×
   type: Lightning
 retreat: 3
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: ex-ruby-and-sapphire
 number: '14'
@@ -526,7 +539,8 @@ damage modifiers:
   operation: ×
   type: Lightning
 retreat: 4
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: ex-ruby-and-sapphire
 number: '15'
@@ -562,7 +576,8 @@ damage modifiers:
   operation: ×
   type: Water
 retreat: 2
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: ex-ruby-and-sapphire
 number: '16'
@@ -596,7 +611,8 @@ damage modifiers:
   operation: ×
   type: Fire
 retreat: 1
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: ex-ruby-and-sapphire
 number: '17'
@@ -633,7 +649,8 @@ damage modifiers:
   operation: ×
   type: Grass
 retreat: 1
-illustrator: Kagemaru Himeno
+illustrators:
+- Kagemaru Himeno
 ---
 set: ex-ruby-and-sapphire
 number: '18'
@@ -670,7 +687,8 @@ damage modifiers:
   operation: ×
   type: Water
 retreat: 1
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: ex-ruby-and-sapphire
 number: '19'
@@ -715,7 +733,8 @@ damage modifiers:
   operation: '-'
   type: Fighting
 retreat: 1
-illustrator: Kouki Saitou
+illustrators:
+- Kouki Saitou
 ---
 set: ex-ruby-and-sapphire
 number: '20'
@@ -755,7 +774,8 @@ damage modifiers:
   operation: '-'
   type: Water
 retreat: 3
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: ex-ruby-and-sapphire
 number: '21'
@@ -792,7 +812,8 @@ damage modifiers:
 - amount: 2
   operation: ×
   type: Lightning
-illustrator: Hajime Kusajima
+illustrators:
+- Hajime Kusajima
 ---
 set: ex-ruby-and-sapphire
 number: '22'
@@ -828,7 +849,8 @@ damage modifiers:
   operation: ×
   type: Lightning
 retreat: 1
-illustrator: Hajime Kusajima
+illustrators:
+- Hajime Kusajima
 ---
 set: ex-ruby-and-sapphire
 number: '23'
@@ -868,7 +890,8 @@ damage modifiers:
   operation: ×
   type: Lightning
 retreat: 2
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: ex-ruby-and-sapphire
 number: '24'
@@ -904,7 +927,8 @@ damage modifiers:
   operation: ×
   type: Psychic
 retreat: 2
-illustrator: Atsuko Nishida
+illustrators:
+- Atsuko Nishida
 ---
 set: ex-ruby-and-sapphire
 number: '25'
@@ -937,7 +961,8 @@ damage modifiers:
   operation: ×
   type: Fire
 retreat: 1
-illustrator: Midori Harada
+illustrators:
+- Midori Harada
 ---
 set: ex-ruby-and-sapphire
 number: '26'
@@ -971,7 +996,8 @@ damage modifiers:
   operation: ×
   type: Fire
 retreat: 2
-illustrator: Midori Harada
+illustrators:
+- Midori Harada
 ---
 set: ex-ruby-and-sapphire
 number: '27'
@@ -1005,7 +1031,8 @@ damage modifiers:
   operation: ×
   type: Water
 retreat: 1
-illustrator: Kouki Saitou
+illustrators:
+- Kouki Saitou
 ---
 set: ex-ruby-and-sapphire
 number: '28'
@@ -1039,7 +1066,8 @@ damage modifiers:
   operation: ×
   type: Water
 retreat: 1
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: ex-ruby-and-sapphire
 number: '29'
@@ -1076,7 +1104,8 @@ damage modifiers:
   operation: ×
   type: Fighting
 retreat: 1
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: ex-ruby-and-sapphire
 number: '30'
@@ -1112,7 +1141,8 @@ damage modifiers:
   operation: '-'
   type: Metal
 retreat: 1
-illustrator: Hajime Kusajima
+illustrators:
+- Hajime Kusajima
 ---
 set: ex-ruby-and-sapphire
 number: '31'
@@ -1151,7 +1181,8 @@ damage modifiers:
   operation: '-'
   type: Water
 retreat: 1
-illustrator: Midori Harada
+illustrators:
+- Midori Harada
 ---
 set: ex-ruby-and-sapphire
 number: '32'
@@ -1186,7 +1217,8 @@ damage modifiers:
   operation: '-'
   type: Water
 retreat: 1
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: ex-ruby-and-sapphire
 number: '33'
@@ -1222,7 +1254,8 @@ damage modifiers:
   operation: ×
   type: Psychic
 retreat: 1
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: ex-ruby-and-sapphire
 number: '34'
@@ -1256,7 +1289,8 @@ damage modifiers:
   operation: ×
   type: Psychic
 retreat: 1
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: ex-ruby-and-sapphire
 number: '35'
@@ -1290,7 +1324,8 @@ damage modifiers:
   operation: ×
   type: Psychic
 retreat: 1
-illustrator: Atsuko Nishida
+illustrators:
+- Atsuko Nishida
 ---
 set: ex-ruby-and-sapphire
 number: '36'
@@ -1324,7 +1359,8 @@ damage modifiers:
   operation: '-'
   type: Grass
 retreat: 2
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: ex-ruby-and-sapphire
 number: '37'
@@ -1365,7 +1401,8 @@ damage modifiers:
   operation: '-'
   type: Grass
 retreat: 2
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: ex-ruby-and-sapphire
 number: '38'
@@ -1401,7 +1438,8 @@ damage modifiers:
   operation: ×
   type: Fighting
 retreat: 1
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: ex-ruby-and-sapphire
 number: '39'
@@ -1441,7 +1479,8 @@ damage modifiers:
   operation: '-'
   type: Metal
 retreat: 1
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: ex-ruby-and-sapphire
 number: '40'
@@ -1474,7 +1513,8 @@ damage modifiers:
   operation: ×
   type: Lightning
 retreat: 1
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: ex-ruby-and-sapphire
 number: '41'
@@ -1508,7 +1548,8 @@ damage modifiers:
   operation: ×
   type: Lightning
 retreat: 1
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: ex-ruby-and-sapphire
 number: '42'
@@ -1545,7 +1586,8 @@ damage modifiers:
   operation: '-'
   type: Psychic
 retreat: 1
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: ex-ruby-and-sapphire
 number: '43'
@@ -1581,7 +1623,8 @@ damage modifiers:
   operation: ×
   type: Fire
 retreat: 2
-illustrator: Hajime Kusajima
+illustrators:
+- Hajime Kusajima
 ---
 set: ex-ruby-and-sapphire
 number: '44'
@@ -1615,7 +1658,8 @@ damage modifiers:
   operation: ×
   type: Fighting
 retreat: 1
-illustrator: Midori Harada
+illustrators:
+- Midori Harada
 ---
 set: ex-ruby-and-sapphire
 number: '45'
@@ -1649,7 +1693,8 @@ damage modifiers:
   operation: ×
   type: Fighting
 retreat: 1
-illustrator: Kagemaru Himeno
+illustrators:
+- Kagemaru Himeno
 ---
 set: ex-ruby-and-sapphire
 number: '46'
@@ -1686,7 +1731,8 @@ damage modifiers:
 - amount: 30
   operation: '-'
   type: Fighting
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: ex-ruby-and-sapphire
 number: '47'
@@ -1723,7 +1769,8 @@ damage modifiers:
   operation: ×
   type: Fighting
 retreat: 1
-illustrator: Kagemaru Himeno
+illustrators:
+- Kagemaru Himeno
 ---
 set: ex-ruby-and-sapphire
 number: '48'
@@ -1759,7 +1806,8 @@ damage modifiers:
   operation: ×
   type: Lightning
 retreat: 3
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: ex-ruby-and-sapphire
 number: '49'
@@ -1794,7 +1842,8 @@ damage modifiers:
   operation: '-'
   type: Grass
 retreat: 1
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: ex-ruby-and-sapphire
 number: '50'
@@ -1823,7 +1872,8 @@ damage modifiers:
   operation: '-'
   type: Grass
 retreat: 2
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: ex-ruby-and-sapphire
 number: '51'
@@ -1858,7 +1908,8 @@ damage modifiers:
   operation: ×
   type: Lightning
 retreat: 1
-illustrator: Hajime Kusajima
+illustrators:
+- Hajime Kusajima
 ---
 set: ex-ruby-and-sapphire
 number: '52'
@@ -1887,7 +1938,8 @@ damage modifiers:
   operation: '-'
   type: Metal
 retreat: 1
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: ex-ruby-and-sapphire
 number: '53'
@@ -1921,7 +1973,8 @@ damage modifiers:
   operation: '-'
   type: Metal
 retreat: 1
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: ex-ruby-and-sapphire
 number: '54'
@@ -1953,7 +2006,8 @@ damage modifiers:
   operation: ×
   type: Psychic
 retreat: 1
-illustrator: Atsuko Nishida
+illustrators:
+- Atsuko Nishida
 ---
 set: ex-ruby-and-sapphire
 number: '55'
@@ -1981,7 +2035,8 @@ damage modifiers:
   operation: ×
   type: Lightning
 retreat: 1
-illustrator: Hajime Kusajima
+illustrators:
+- Hajime Kusajima
 ---
 set: ex-ruby-and-sapphire
 number: '56'
@@ -2011,7 +2066,8 @@ damage modifiers:
   operation: ×
   type: Psychic
 retreat: 1
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: ex-ruby-and-sapphire
 number: '57'
@@ -2043,7 +2099,8 @@ damage modifiers:
   operation: ×
   type: Psychic
 retreat: 1
-illustrator: Kagemaru Himeno
+illustrators:
+- Kagemaru Himeno
 ---
 set: ex-ruby-and-sapphire
 number: '58'
@@ -2071,7 +2128,8 @@ damage modifiers:
   operation: ×
   type: Psychic
 retreat: 1
-illustrator: Naoyo Kimura
+illustrators:
+- Naoyo Kimura
 ---
 set: ex-ruby-and-sapphire
 number: '59'
@@ -2099,7 +2157,8 @@ damage modifiers:
   operation: ×
   type: Lightning
 retreat: 1
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: ex-ruby-and-sapphire
 number: '60'
@@ -2132,7 +2191,8 @@ damage modifiers:
   operation: ×
   type: Lightning
 retreat: 1
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: ex-ruby-and-sapphire
 number: '61'
@@ -2163,7 +2223,8 @@ damage modifiers:
   operation: ×
   type: Water
 retreat: 1
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: ex-ruby-and-sapphire
 number: '62'
@@ -2195,7 +2256,8 @@ damage modifiers:
   operation: ×
   type: Grass
 retreat: 1
-illustrator: Kagemaru Himeno
+illustrators:
+- Kagemaru Himeno
 ---
 set: ex-ruby-and-sapphire
 number: '63'
@@ -2224,7 +2286,8 @@ damage modifiers:
   operation: '-'
   type: Psychic
 retreat: 1
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: ex-ruby-and-sapphire
 number: '64'
@@ -2259,7 +2322,8 @@ damage modifiers:
   operation: '-'
   type: Psychic
 retreat: 1
-illustrator: Atsuko Nishida
+illustrators:
+- Atsuko Nishida
 ---
 set: ex-ruby-and-sapphire
 number: '65'
@@ -2291,7 +2355,8 @@ damage modifiers:
   operation: '-'
   type: Psychic
 retreat: 1
-illustrator: Naoyo Kimura
+illustrators:
+- Naoyo Kimura
 ---
 set: ex-ruby-and-sapphire
 number: '66'
@@ -2319,7 +2384,8 @@ damage modifiers:
   operation: ×
   type: Psychic
 retreat: 1
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: ex-ruby-and-sapphire
 number: '67'
@@ -2351,7 +2417,8 @@ damage modifiers:
   operation: ×
   type: Psychic
 retreat: 1
-illustrator: Atsuko Nishida
+illustrators:
+- Atsuko Nishida
 ---
 set: ex-ruby-and-sapphire
 number: '68'
@@ -2385,7 +2452,8 @@ damage modifiers:
   operation: ×
   type: Psychic
 retreat: 1
-illustrator: Kagemaru Himeno
+illustrators:
+- Kagemaru Himeno
 ---
 set: ex-ruby-and-sapphire
 number: '69'
@@ -2413,7 +2481,8 @@ damage modifiers:
   operation: ×
   type: Fire
 retreat: 1
-illustrator: Atsuko Nishida
+illustrators:
+- Atsuko Nishida
 ---
 set: ex-ruby-and-sapphire
 number: '70'
@@ -2444,7 +2513,8 @@ damage modifiers:
   operation: ×
   type: Fighting
 retreat: 1
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: ex-ruby-and-sapphire
 number: '71'
@@ -2476,7 +2546,8 @@ damage modifiers:
   operation: ×
   type: Fighting
 retreat: 1
-illustrator: Atsuko Nishida
+illustrators:
+- Atsuko Nishida
 ---
 set: ex-ruby-and-sapphire
 number: '72'
@@ -2509,7 +2580,8 @@ damage modifiers:
   operation: '-'
   type: Fighting
 retreat: 1
-illustrator: Kagemaru Himeno
+illustrators:
+- Kagemaru Himeno
 ---
 set: ex-ruby-and-sapphire
 number: '73'
@@ -2542,7 +2614,8 @@ damage modifiers:
   operation: ×
   type: Water
 retreat: 1
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: ex-ruby-and-sapphire
 number: '74'
@@ -2569,7 +2642,8 @@ damage modifiers:
   operation: ×
   type: Water
 retreat: 1
-illustrator: Kouki Saitou
+illustrators:
+- Kouki Saitou
 ---
 set: ex-ruby-and-sapphire
 number: '75'
@@ -2599,7 +2673,8 @@ damage modifiers:
   operation: '-'
   type: Water
 retreat: 1
-illustrator: Midori Harada
+illustrators:
+- Midori Harada
 ---
 set: ex-ruby-and-sapphire
 number: '76'
@@ -2632,7 +2707,8 @@ damage modifiers:
   operation: '-'
   type: Water
 retreat: 1
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: ex-ruby-and-sapphire
 number: '77'
@@ -2663,7 +2739,8 @@ damage modifiers:
   operation: '-'
   type: Fighting
 retreat: 1
-illustrator: Kouki Saitou
+illustrators:
+- Kouki Saitou
 ---
 set: ex-ruby-and-sapphire
 number: '78'
@@ -2697,7 +2774,8 @@ damage modifiers:
   operation: ×
   type: Fire
 retreat: 1
-illustrator: Hajime Kusajima
+illustrators:
+- Hajime Kusajima
 ---
 set: ex-ruby-and-sapphire
 number: '79'
@@ -2726,7 +2804,8 @@ damage modifiers:
   operation: ×
   type: Fighting
 retreat: 1
-illustrator: Atsuko Nishida
+illustrators:
+- Atsuko Nishida
 ---
 set: ex-ruby-and-sapphire
 number: '80'
@@ -2742,7 +2821,8 @@ mechanics:
   text: >-
     Flip a coin. If heads, chose 1 Energy card attached to 1 of
     your opponent's Pokémon and discard it.
-illustrator: Keiji Kinebuchi
+illustrators:
+- Keiji Kinebuchi
 ---
 set: ex-ruby-and-sapphire
 number: '81'
@@ -2760,7 +2840,8 @@ mechanics:
     your discard pile into your hand. If you don't have that many
     basic Energy cards in your discard pile, put all of them into
     your hand.
-illustrator: Hideyuki Nakajima
+illustrators:
+- Hideyuki Nakajima
 ---
 set: ex-ruby-and-sapphire
 number: '82'
@@ -2776,7 +2857,8 @@ mechanics:
   text: >-
     Move a basic Energy card from 1 of your Pokémon to another
     of your Pokémon.
-illustrator: Ken Ikuji
+illustrators:
+- Ken Ikuji
 ---
 set: ex-ruby-and-sapphire
 number: '83'
@@ -2800,7 +2882,8 @@ mechanics:
     Search your deck for up to 3 different types of basic Energy
     cards, show them to your opponent, and put them into your
     hand. Shuffle your deck afterward.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: ex-ruby-and-sapphire
 number: '84'
@@ -2824,7 +2907,8 @@ mechanics:
     At any time between turns, if the Pokémon this card is attached
     to is affected by any Special Conditions, remove all of them.
     Then discard Lum Berry.
-illustrator: Kazuo Yazawa
+illustrators:
+- Kazuo Yazawa
 ---
 set: ex-ruby-and-sapphire
 number: '85'
@@ -2848,7 +2932,8 @@ mechanics:
     At any time between turns, if the Pokémon this card is attached
     to has at least 2 damage counters on it, remove 2 damage counters
     from it. The discard Oran Berry.
-illustrator: Kazuo Yazawa
+illustrators:
+- Kazuo Yazawa
 ---
 set: ex-ruby-and-sapphire
 number: '86'
@@ -2865,7 +2950,8 @@ mechanics:
     Flip a coin. If heads, search your deck for a Basic Pokémon
     or Evolution card, show it to your opponent and put it into
     your hand. Shuffle your deck afterward.
-illustrator: K. Hoshiba
+illustrators:
+- K. Hoshiba
 ---
 set: ex-ruby-and-sapphire
 number: '87'
@@ -2881,7 +2967,8 @@ mechanics:
   text: >-
     Choose 1 of your opponent's Benched Pokémon. Flip a coin.
     If heads, switch that Pokémon with the Defending Pokémon.
-illustrator: Hiromichi Sugiyama
+illustrators:
+- Hiromichi Sugiyama
 ---
 set: ex-ruby-and-sapphire
 number: '88'
@@ -2899,7 +2986,8 @@ mechanics:
     Evolution, or Energy Card. Show it to your opponent and put
     it into your hand. Put the 2 other cards back on top of your
     deck in any order.
-illustrator: Katsura Tabata
+illustrators:
+- Katsura Tabata
 ---
 set: ex-ruby-and-sapphire
 number: '89'
@@ -2921,7 +3009,8 @@ mechanics:
 - type: effect
   text: >-
     Draw cards from your deck until you have 6 cards in your hand.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: ex-ruby-and-sapphire
 number: '90'
@@ -2937,7 +3026,8 @@ mechanics:
   text: >-
     Search your deck for a basic Energy card, show it to your
     opponent, and put it into your hand. Shuffle your deck afterward.
-illustrator: Kai Ishikawa
+illustrators:
+- Kai Ishikawa
 ---
 set: ex-ruby-and-sapphire
 number: '91'
@@ -2953,7 +3043,8 @@ mechanics:
   text: >-
     Remove 2 damage counters from 1 of your Pokémon (remove 1
     damage counter if that Pokémon has only 1).
-illustrator: Keiji Kinebuchi
+illustrators:
+- Keiji Kinebuchi
 ---
 set: ex-ruby-and-sapphire
 number: '92'
@@ -2968,7 +3059,8 @@ mechanics:
 - type: effect
   text: >-
     Switch your Active Pokémon with 1 of your Benched Pokémon.
-illustrator: Hiromichi Sugiyama
+illustrators:
+- Hiromichi Sugiyama
 ---
 set: ex-ruby-and-sapphire
 number: '93'
@@ -2989,7 +3081,8 @@ mechanics:
     Weakness and Resistance). Ignore this effect unless the Attacking
     Pokémon is D or has Dark in its name. Darkness Energy provides
     D energy. (Doesn't count as a basic Energy card.)
-illustrator: Milky Isobe
+illustrators:
+- Milky Isobe
 ---
 set: ex-ruby-and-sapphire
 number: '94'
@@ -3010,7 +3103,8 @@ mechanics:
     Resistance.) Ignore this effect if the Pokémon that Metal
     Energy is attached to isn't M. Metal Energy provides M Energy.
     (Doesn't count as a basic Energy card.)
-illustrator: Milky Isobe
+illustrators:
+- Milky Isobe
 ---
 set: ex-ruby-and-sapphire
 number: '95'
@@ -3031,7 +3125,8 @@ mechanics:
     only 1 energy at a time. (Doesn't count as a basic Energy
     card when not in play.) When you attach this card from your
     hand to 1 of your Pokémon, put 1 damage counter on that Pokémon.
-illustrator: Takumi Akabane
+illustrators:
+- Takumi Akabane
 ---
 set: ex-ruby-and-sapphire
 number: '96'
@@ -3071,7 +3166,8 @@ damage modifiers:
   operation: ×
   type: Fighting
 retreat: 3
-illustrator: Ryo Ueda
+illustrators:
+- Ryo Ueda
 ---
 set: ex-ruby-and-sapphire
 number: '97'
@@ -3115,7 +3211,8 @@ damage modifiers:
   operation: '-'
   type: Metal
 retreat: 2
-illustrator: Hikaru Koike
+illustrators:
+- Hikaru Koike
 ---
 set: ex-ruby-and-sapphire
 number: '98'
@@ -3156,7 +3253,8 @@ damage modifiers:
   operation: ×
   type: Psychic
 retreat: 2
-illustrator: Hiromichi Sugiyama
+illustrators:
+- Hiromichi Sugiyama
 ---
 set: ex-ruby-and-sapphire
 number: '99'
@@ -3198,7 +3296,8 @@ damage modifiers:
   operation: ×
   type: Lightning
 retreat: 3
-illustrator: Hikaru Koike
+illustrators:
+- Hikaru Koike
 ---
 set: ex-ruby-and-sapphire
 number: '100'
@@ -3240,7 +3339,8 @@ damage modifiers:
   operation: ×
   type: Water
 retreat: 2
-illustrator: Hikaru Koike
+illustrators:
+- Hikaru Koike
 ---
 set: ex-ruby-and-sapphire
 number: '101'
@@ -3278,7 +3378,8 @@ damage modifiers:
   operation: ×
   type: Psychic
 retreat: 3
-illustrator: Katsura Tabata
+illustrators:
+- Katsura Tabata
 ---
 set: ex-ruby-and-sapphire
 number: '102'
@@ -3320,7 +3421,8 @@ damage modifiers:
   operation: '-'
   type: Fighting
 retreat: 1
-illustrator: Ryo Ueda
+illustrators:
+- Ryo Ueda
 ---
 set: ex-ruby-and-sapphire
 number: '103'
@@ -3361,7 +3463,8 @@ damage modifiers:
   operation: '-'
   type: Psychic
 retreat: 1
-illustrator: Ryo Ueda
+illustrators:
+- Ryo Ueda
 ---
 set: ex-ruby-and-sapphire
 number: '104'
@@ -3378,7 +3481,8 @@ mechanics:
 - type: effect
   text: >-
     Provides 1 Grass Energy.
-illustrator: Keiji Kinebuchi
+illustrators:
+- Keiji Kinebuchi
 ---
 set: ex-ruby-and-sapphire
 number: '105'
@@ -3395,7 +3499,8 @@ mechanics:
 - type: effect
   text: >-
     Provides 1 Fighting Energy.
-illustrator: Keiji Kinebuchi
+illustrators:
+- Keiji Kinebuchi
 ---
 set: ex-ruby-and-sapphire
 number: '106'
@@ -3412,7 +3517,8 @@ mechanics:
 - type: effect
   text: >-
     Provides 1 Water Energy.
-illustrator: Keiji Kinebuchi
+illustrators:
+- Keiji Kinebuchi
 ---
 set: ex-ruby-and-sapphire
 number: '107'
@@ -3429,7 +3535,8 @@ mechanics:
 - type: effect
   text: >-
     Provides 1 Psychic Energy.
-illustrator: Keiji Kinebuchi
+illustrators:
+- Keiji Kinebuchi
 ---
 set: ex-ruby-and-sapphire
 number: '108'
@@ -3446,7 +3553,8 @@ mechanics:
 - type: effect
   text: >-
     Provides 1 Fire Energy.
-illustrator: Keiji Kinebuchi
+illustrators:
+- Keiji Kinebuchi
 ---
 set: ex-ruby-and-sapphire
 number: '109'
@@ -3463,4 +3571,5 @@ mechanics:
 - type: effect
   text: >-
     Provides 1 Lightning Energy.
-illustrator: Keiji Kinebuchi
+illustrators:
+- Keiji Kinebuchi

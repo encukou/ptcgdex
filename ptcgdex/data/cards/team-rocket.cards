@@ -44,7 +44,8 @@ height: 4'11
 dex entry: >-
   Almost as if being controlled by something else, it never changes
   its expression, even in the middle of battle.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: team-rocket
 number: '2'
@@ -94,7 +95,8 @@ height: 11'6
 dex entry: >-
   Freezes its prey with its stare. If you encounter one, remember
   not to look into its eyes.
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: team-rocket
 number: '3'
@@ -141,7 +143,8 @@ weight: 189
 height: 5'3
 dex entry: >-
   An aggressive Pokémon that tackles anything it sees.
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: team-rocket
 number: '4'
@@ -189,7 +192,8 @@ height: 5'7
 dex entry: >-
   Seemingly possessed, it spews fire like a volcano, trying to
   burn all that it sees.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: team-rocket
 number: '5'
@@ -233,7 +237,8 @@ height: 7'3
 dex entry: >-
   Sometimes called "The God of Drestruction." Its wings are able
   to support it in spite of its massive weight.
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: team-rocket
 number: '6'
@@ -283,7 +288,8 @@ height: 2'4
 dex entry: >-
   Digs large sinkholes in the ground and tries to trap its enemies
   in them.
-illustrator: Kagemaru Himeno
+illustrators:
+- Kagemaru Himeno
 ---
 set: team-rocket
 number: '7'
@@ -331,7 +337,8 @@ height: 5'3
 dex entry: >-
   Sneaks up silently on its prey and attacks it from behind, sometimes
   killing it in one bite.
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: team-rocket
 number: '8'
@@ -380,7 +387,8 @@ height: 21'4
 dex entry: >-
   Normally only found in the deep ocean, it has recently been
   seen in shallow waters as well.
-illustrator: Kagemaru Himeno
+illustrators:
+- Kagemaru Himeno
 ---
 set: team-rocket
 number: '9'
@@ -426,7 +434,8 @@ height: 5'3
 dex entry: >-
   Carries a pendulum with it always. Sometimes appears near less-travelled
   roads and schools at dusk.
-illustrator: Kagemaru Himeno
+illustrators:
+- Kagemaru Himeno
 ---
 set: team-rocket
 number: '10'
@@ -469,7 +478,8 @@ height: 5'3
 dex entry: >-
   It is almost impossible to defend against a Machamp's four powerful
   arms.
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: team-rocket
 number: '11'
@@ -517,7 +527,8 @@ height: 3'3
 dex entry: >-
   The number of incidents of hackers using Magnetons to damage
   computer systems is steadily increasing.
-illustrator: Miki Tanaka
+illustrators:
+- Miki Tanaka
 ---
 set: team-rocket
 number: '12'
@@ -561,7 +572,8 @@ height: 5'3
 dex entry: >-
   It loves nothing better than to be left alone, and so sometimes
   manipulated by unscrupulous people.
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: team-rocket
 number: '13'
@@ -606,7 +618,8 @@ height: 3'11
 dex entry: >-
   Perhaps because of their strong-smelling pollen, other Pokémon
   do not approach areas where Vileplumes live.
-illustrator: Kagemaru Himeno
+illustrators:
+- Kagemaru Himeno
 ---
 set: team-rocket
 number: '14'
@@ -655,7 +668,8 @@ height: 3'11
 dex entry: >-
   Researchers have observed these Pokémon reproducing in industrial
   waste sites.
-illustrator: Shin-ichi Yoshida
+illustrators:
+- Shin-ichi Yoshida
 ---
 set: team-rocket
 number: '15'
@@ -671,7 +685,8 @@ mechanics:
   text: >-
     Each player plays with his or her Prize cards face up for
     the rest of the game.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: team-rocket
 number: '16'
@@ -688,7 +703,8 @@ mechanics:
     Look at your opponent's hand. If he or she has any Trainer
     cards, choose 1 of them. Your opponent shuffles that card
     into his or her deck.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: team-rocket
 number: '17'
@@ -711,7 +727,8 @@ mechanics:
     card when not in play.) When you attach this card from your
     hand to 1 of your Pokémon, it does 10 damage to that Pokémon.
     (Don't apply Weakness and Resistance.)
-illustrator: Takumi Akabane
+illustrators:
+- Takumi Akabane
 ---
 set: team-rocket
 number: '18'
@@ -759,7 +776,8 @@ height: 4'11
 dex entry: >-
   Almost as if being controlled by something else, it never changes
   its expression, even in the middle of battle.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: team-rocket
 number: '19'
@@ -810,7 +828,8 @@ height: 11'6
 dex entry: >-
   Freezes its prey with its stare. If you encounter one, remember
   not to look into its eyes.
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: team-rocket
 number: '20'
@@ -858,7 +877,8 @@ weight: 189
 height: 5'3
 dex entry: >-
   An aggressive Pokémon that tackles anything it sees.
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: team-rocket
 number: '21'
@@ -907,7 +927,8 @@ height: 5'7
 dex entry: >-
   Seemingly possessed, it spews fire like a volcano, trying to
   burn all that it sees.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: team-rocket
 number: '22'
@@ -952,7 +973,8 @@ height: 7'3
 dex entry: >-
   Sometimes called "The God of Drestruction." Its wings are able
   to support it in spite of its massive weight.
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: team-rocket
 number: '23'
@@ -1003,7 +1025,8 @@ height: 2'4
 dex entry: >-
   Digs large sinkholes in the ground and tries to trap its enemies
   in them.
-illustrator: Kagemaru Himeno
+illustrators:
+- Kagemaru Himeno
 ---
 set: team-rocket
 number: '24'
@@ -1052,7 +1075,8 @@ height: 5'3
 dex entry: >-
   Sneaks up silently on its prey and attacks it from behind, sometimes
   killing it in one bite.
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: team-rocket
 number: '25'
@@ -1102,7 +1126,8 @@ height: 21'4
 dex entry: >-
   Normally only found in the deep ocean, it has recently been
   seen in shallow waters as well.
-illustrator: Kagemaru Himeno
+illustrators:
+- Kagemaru Himeno
 ---
 set: team-rocket
 number: '26'
@@ -1149,7 +1174,8 @@ height: 5'3
 dex entry: >-
   Carries a pendulum with it always. Sometimes appears near less-travelled
   roads and schools at dusk.
-illustrator: Kagemaru Himeno
+illustrators:
+- Kagemaru Himeno
 ---
 set: team-rocket
 number: '27'
@@ -1193,7 +1219,8 @@ height: 5'3
 dex entry: >-
   It is almost impossible to defend against a Machamp's four powerful
   arms.
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: team-rocket
 number: '28'
@@ -1242,7 +1269,8 @@ height: 3'3
 dex entry: >-
   The number of incidents of hackers using Magnetons to damage
   computer systems is steadily increasing.
-illustrator: Miki Tanaka
+illustrators:
+- Miki Tanaka
 ---
 set: team-rocket
 number: '29'
@@ -1287,7 +1315,8 @@ height: 5'3
 dex entry: >-
   It loves nothing better than to be left alone, and so sometimes
   manipulated by unscrupulous people.
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: team-rocket
 number: '30'
@@ -1333,7 +1362,8 @@ height: 3'11
 dex entry: >-
   Perhaps because of their strong-smelling pollen, other Pokémon
   do not approach areas where Vileplumes live.
-illustrator: Kagemaru Himeno
+illustrators:
+- Kagemaru Himeno
 ---
 set: team-rocket
 number: '31'
@@ -1383,7 +1413,8 @@ height: 3'11
 dex entry: >-
   Researchers have observed these Pokémon reproducing in industrial
   waste sites.
-illustrator: Shin-ichi Yoshida
+illustrators:
+- Shin-ichi Yoshida
 ---
 set: team-rocket
 number: '32'
@@ -1427,7 +1458,8 @@ weight: 42
 height: 3'7
 dex entry: >-
   Its tail is incredibly strong, able to lift up to 5 adult men.
-illustrator: Kagemaru Himeno
+illustrators:
+- Kagemaru Himeno
 ---
 set: team-rocket
 number: '33'
@@ -1474,7 +1506,8 @@ height: 13'1
 dex entry: >-
   As fitting for a legendary Pokémon, it has many strange powers,
   including the ability to make rain or snow fall.
-illustrator: Kagemaru Himeno
+illustrators:
+- Kagemaru Himeno
 ---
 set: team-rocket
 number: '34'
@@ -1519,7 +1552,8 @@ height: 3'11
 dex entry: >-
   Some researchers hypothesize that Electrode may actually be
   a form of energy instead of having an actual body.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: team-rocket
 number: '35'
@@ -1567,7 +1601,8 @@ height: 2'11
 dex entry: >-
   A Pokémon with a hot temper that can't be controlled once angered.
   Capable of breathing flames hotter than 3000o.
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: team-rocket
 number: '36'
@@ -1612,7 +1647,8 @@ height: 2'7
 dex entry: >-
   Its pollen has such a strong smell that it even confuses itself
   at times.
-illustrator: Kagemaru Himeno
+illustrators:
+- Kagemaru Himeno
 ---
 set: team-rocket
 number: '37'
@@ -1654,7 +1690,8 @@ height: 5'7
 dex entry: >-
   When Psyducks evolve, their headaches disappear and they find
   themselves in possession of formidable mental powers.
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: team-rocket
 number: '38'
@@ -1701,7 +1738,8 @@ height: 2'7
 dex entry: >-
   A dangerous Pokémon when angered. It likes to playfully shock
   people with the electricity stored within its body.
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: team-rocket
 number: '39'
@@ -1747,7 +1785,8 @@ height: 4'3
 dex entry: >-
   Some people say that Kadabras are responsible for many of the
   mysterious events reported in the news.
-illustrator: Kagemaru Himeno
+illustrators:
+- Kagemaru Himeno
 ---
 set: team-rocket
 number: '40'
@@ -1796,7 +1835,8 @@ height: 4'11
 dex entry: >-
   While normally peaceful and friendly, the number of incidents
   involving cruel Machokes is rising.
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: team-rocket
 number: '41'
@@ -1840,7 +1880,8 @@ height: 3'11
 dex entry: >-
   Muk appears suddenly, spreading sludge everywhere. Whenever
   one appears in a city, panic ensues.
-illustrator: Kagemaru Himeno
+illustrators:
+- Kagemaru Himeno
 ---
 set: team-rocket
 number: '42'
@@ -1887,7 +1928,8 @@ height: 3'3
 dex entry: >-
   Popular with women because of its beautiful fur. The leader
   of the Rockets keeps on as a pet.
-illustrator: Shin-ichi Yoshida
+illustrators:
+- Shin-ichi Yoshida
 ---
 set: team-rocket
 number: '43'
@@ -1930,7 +1972,8 @@ height: 3'3
 dex entry: >-
   Although Primeapes have always been mean, lately they seem to
   be becoming even more vicious and frenzied.
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: team-rocket
 number: '44'
@@ -1975,7 +2018,8 @@ height: 5'7
 dex entry: >-
   A wild, uncontrollable Pokémon. When running, it looks like
   a comet streaking through the sky.
-illustrator: Kagemaru Himeno
+illustrators:
+- Kagemaru Himeno
 ---
 set: team-rocket
 number: '45'
@@ -2018,7 +2062,8 @@ height: 3'3
 dex entry: >-
   A Pokémon capable of controlling water, so it is able to create
   giant whirlpools.
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: team-rocket
 number: '46'
@@ -2064,7 +2109,8 @@ height: 3'3
 dex entry: >-
   A Pokémon with a negative attitude, it hides in its shell whenever
   it is in a bad mood--which is often.
-illustrator: Kagemaru Himeno
+illustrators:
+- Kagemaru Himeno
 ---
 set: team-rocket
 number: '47'
@@ -2104,7 +2150,8 @@ height: 2'11
 dex entry: >-
   Recent research has revealed the presence of dragon DNA in this
   species of Pokémon.
-illustrator: Kagemaru Himeno
+illustrators:
+- Kagemaru Himeno
 ---
 set: team-rocket
 number: '48'
@@ -2148,7 +2195,8 @@ height: 2'7
 dex entry: >-
   More and more people play the slots every day, trying to win
   a Porygon.
-illustrator: Keiji Kinebuchi
+illustrators:
+- Keiji Kinebuchi
 ---
 set: team-rocket
 number: '49'
@@ -2189,7 +2237,8 @@ height: 2'11
 dex entry: >-
   It teleports itself away from danger, making it difficult to
   capture.
-illustrator: Sumiyoshi Kizuki
+illustrators:
+- Sumiyoshi Kizuki
 ---
 set: team-rocket
 number: '50'
@@ -2229,7 +2278,8 @@ height: 2'0
 dex entry: >-
   Many people find it cute and try to hold it, only to be burned
   by its tail.
-illustrator: Kagemaru Himeno
+illustrators:
+- Kagemaru Himeno
 ---
 set: team-rocket
 number: '51'
@@ -2274,7 +2324,8 @@ height: 2'4
 dex entry: >-
   A Raticate's front teeth are incredibly powerful; it can destroy
   a two-story house with them in 5 minutes.
-illustrator: Shin-ichi Yoshida
+illustrators:
+- Shin-ichi Yoshida
 ---
 set: team-rocket
 number: '52'
@@ -2317,7 +2368,8 @@ height: 0'8
 dex entry: >-
   It follows Onixes in their tunnels, looking for scraps of food
   they have left behind.
-illustrator: Sumiyoshi Kizuki
+illustrators:
+- Sumiyoshi Kizuki
 ---
 set: team-rocket
 number: '53'
@@ -2352,7 +2404,8 @@ height: 5'11
 dex entry: >-
   The capture of the first Dratini inspired the search for other
   legendary Pokémon.
-illustrator: Kagemaru Himeno
+illustrators:
+- Kagemaru Himeno
 ---
 set: team-rocket
 number: '54'
@@ -2394,7 +2447,8 @@ height: 3'3
 dex entry: >-
   Not popular with the girls due to its attitude. Can often be
   heard muttering to itself in a low voice.
-illustrator: Kagemaru Himeno
+illustrators:
+- Kagemaru Himeno
 ---
 set: team-rocket
 number: '55'
@@ -2438,7 +2492,8 @@ height: 1'0
 dex entry: >-
   A rare and unique Pokémon about which little is known, as few
   have been captured.
-illustrator: Atsuko Nishida
+illustrators:
+- Atsuko Nishida
 ---
 set: team-rocket
 number: '56'
@@ -2477,7 +2532,8 @@ height: 6'7
 dex entry: >-
   A canivore that swallows its prey whole. Pidgeys and Spearows
   are its favourite food.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: team-rocket
 number: '57'
@@ -2519,7 +2575,8 @@ height: 2'11
 dex entry: >-
   It has recently been found that Grimers are formed in waste-processing
   plants, and can move into town via the sewers.
-illustrator: Kagemaru Himeno
+illustrators:
+- Kagemaru Himeno
 ---
 set: team-rocket
 number: '58'
@@ -2558,7 +2615,8 @@ height: 2'0
 dex entry: >-
   First discovered in a weapons factory, it can now be found almost
   anywhere.
-illustrator: Sumiyoshi Kizuki
+illustrators:
+- Sumiyoshi Kizuki
 ---
 set: team-rocket
 number: '59'
@@ -2594,7 +2652,8 @@ weight: 43
 height: 2'7
 dex entry: >-
   It is said that not even pro wrestlers can taken down a Machop.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: team-rocket
 number: '60'
@@ -2634,7 +2693,8 @@ height: 1'0
 dex entry: >-
   It is said that if enough Magnemites and Magnetons gather in
   one place, they can create a powerful magnetic barrier.
-illustrator: Miki Tanaka
+illustrators:
+- Miki Tanaka
 ---
 set: team-rocket
 number: '61'
@@ -2674,7 +2734,8 @@ height: 1'8
 dex entry: >-
   Normally friendly, it quickly becomes angry if it doesn't get
   what it wants.
-illustrator: Sumiyoshi Kizuki
+illustrators:
+- Sumiyoshi Kizuki
 ---
 set: team-rocket
 number: '62'
@@ -2714,7 +2775,8 @@ height: 1'4
 dex entry: >-
   A popular Pokémon that earns money for its owner using its "Pay
   Day" ability.
-illustrator: Atsuko Nishida
+illustrators:
+- Atsuko Nishida
 ---
 set: team-rocket
 number: '63'
@@ -2752,7 +2814,8 @@ weight: 12
 height: 1'8
 dex entry: >-
   It wanders around at night sowing its seeds to create more Oddishes.
-illustrator: Kagemaru Himeno
+illustrators:
+- Kagemaru Himeno
 ---
 set: team-rocket
 number: '64'
@@ -2788,7 +2851,8 @@ height: 3'3
 dex entry: >-
   A gentle grass-eater, it will allow riders on its back. However,
   anyone attempting to do so must be careful not to get burned.
-illustrator: Atsuko Nishida
+illustrators:
+- Atsuko Nishida
 ---
 set: team-rocket
 number: '65'
@@ -2830,7 +2894,8 @@ height: 2'7
 dex entry: >-
   It is often seen holding its head in its paws, as if it were
   suffering from a headache.
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: team-rocket
 number: '66'
@@ -2873,7 +2938,8 @@ weight: 8
 height: 1'0
 dex entry: >-
   Loves to eat walnuts, chestnuts, cheese and milk.
-illustrator: Atsuko Nishida
+illustrators:
+- Atsuko Nishida
 ---
 set: team-rocket
 number: '67'
@@ -2912,7 +2978,8 @@ height: 3'11
 dex entry: >-
   Although it knows how to fish, no other intelligence behaviour
   have been detected in it.
-illustrator: Sumiyoshi Kizuki
+illustrators:
+- Sumiyoshi Kizuki
 ---
 set: team-rocket
 number: '68'
@@ -2945,7 +3012,8 @@ height: 1'8
 dex entry: >-
   Cute Pokémon that charms people with its innocent eyes. Loves
   swimming all day long.
-illustrator: Atsuko Nishida
+illustrators:
+- Atsuko Nishida
 ---
 set: team-rocket
 number: '69'
@@ -2978,7 +3046,8 @@ height: 1'8
 dex entry: >-
   Usually only seen in power plants, it is sometimes seen in towns,
   apparently using the power lines to travel.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: team-rocket
 number: '70'
@@ -3017,7 +3086,8 @@ height: 2'7
 dex entry: >-
   Lives in dark caves. Can occasionally be seen at night, when
   it flies in search of food.
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: team-rocket
 number: '71'
@@ -3035,7 +3105,8 @@ mechanics:
   text: >-
     Each player plays with his or her Prize cards face up for
     the rest of the game.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: team-rocket
 number: '72'
@@ -3054,7 +3125,8 @@ mechanics:
     Look at your opponent's hand. If he or she has any Trainer
     cards, choose 1 of them. Your opponent shuffles that card
     into his or her deck.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: team-rocket
 number: '73'
@@ -3071,7 +3143,8 @@ mechanics:
     Search your deck for an Evolution card with Dark in its name.
     Show it to your opponent and put it into your hand. Shuffle
     your deck afterward.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: team-rocket
 number: '74'
@@ -3092,7 +3165,8 @@ mechanics:
     face down onto your Benches. (A player can't do this if his
     or her Bench is full.) When you both have finished, shuffle
     your decks and turn those cards face up.
-illustrator: Kagemaru Himeno
+illustrators:
+- Kagemaru Himeno
 ---
 set: team-rocket
 number: '75'
@@ -3112,7 +3186,8 @@ mechanics:
     If heads, your opponent flips a coin. If tails, your opponent
     does 10 damage to his or her Active Pokémon. If heads, you
     flip a coin. Keep doing this until a player gets tails.
-illustrator: Sumiyoshi Kizuki
+illustrators:
+- Sumiyoshi Kizuki
 ---
 set: team-rocket
 number: '76'
@@ -3129,7 +3204,8 @@ mechanics:
     Discard a card from your hand in order to play this card.
     Your opponent shuffles his or her hand into his or her deck,
     then draws 4 cards.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: team-rocket
 number: '77'
@@ -3148,7 +3224,8 @@ mechanics:
     Choose up to 3 Basic Pokémon cards, Evolution cards, and/or
     basic Energy cards from your discard pile. Show them to your
     opponent and shuffle them into your deck.
-illustrator: Sumiyoshi Kizuki
+illustrators:
+- Sumiyoshi Kizuki
 ---
 set: team-rocket
 number: '78'
@@ -3164,7 +3241,8 @@ mechanics:
   text: >-
     All Pokémon Powers stop working until the end of your opponent's
     next turn.
-illustrator: Sumiyoshi Kizuki
+illustrators:
+- Sumiyoshi Kizuki
 ---
 set: team-rocket
 number: '79'
@@ -3181,7 +3259,8 @@ mechanics:
 - type: effect
   text: >-
     Flip a coin. If heads, the Defending Pokémon is now Asleep.
-illustrator: Sumiyoshi Kizuki
+illustrators:
+- Sumiyoshi Kizuki
 ---
 set: team-rocket
 number: '80'
@@ -3205,7 +3284,8 @@ mechanics:
     card when not in play.) When you attach this card from your
     hand to 1 of your Pokémon, it does 10 damage to that Pokémon.
     (Don't apply Weakness and Resistance.)
-illustrator: Takumi Akabane
+illustrators:
+- Takumi Akabane
 ---
 set: team-rocket
 number: '81'
@@ -3225,7 +3305,8 @@ mechanics:
     it to is no longer Asleep, Confused, Paralyzed, or Poisoned.
     Full Heal Energy Provides 1 Colorless energy. (Doesn't count
     as a basic Energy card.)
-illustrator: Keiji Kinebuchi
+illustrators:
+- Keiji Kinebuchi
 ---
 set: team-rocket
 number: '82'
@@ -3245,7 +3326,8 @@ mechanics:
     from the Pokémon you attach it to, if it has any. Potion Energy
     provides 1 Colorless energy. (Doesn't count as a basic Energy
     card.)
-illustrator: Keiji Kinebuchi
+illustrators:
+- Keiji Kinebuchi
 ---
 set: team-rocket
 number: '83'
@@ -3285,4 +3367,5 @@ height: 2'7
 dex entry: >-
   Stores up electricity in its body, then suddenly releases it
   to surprise and shock everyone.
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita

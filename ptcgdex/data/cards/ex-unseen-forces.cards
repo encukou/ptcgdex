@@ -37,7 +37,8 @@ damage modifiers:
   operation: '-'
   type: Metal
 retreat: 2
-illustrator: Kyoko Umemoto
+illustrators:
+- Kyoko Umemoto
 ---
 set: ex-unseen-forces
 number: '2'
@@ -76,7 +77,8 @@ damage modifiers:
   operation: ×
   type: Psychic
 retreat: 1
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: ex-unseen-forces
 number: '3'
@@ -117,7 +119,8 @@ damage modifiers:
   operation: '-'
   type: Water
 retreat: 1
-illustrator: Kouki Saitou
+illustrators:
+- Kouki Saitou
 ---
 set: ex-unseen-forces
 number: '4'
@@ -161,7 +164,8 @@ damage modifiers:
   operation: ×
   type: Lightning
 retreat: 2
-illustrator: Masakazu Fukuda
+illustrators:
+- Masakazu Fukuda
 ---
 set: ex-unseen-forces
 number: '5'
@@ -203,7 +207,8 @@ damage modifiers:
   operation: ×
   type: Water
 retreat: 1
-illustrator: Naoyo Kimura
+illustrators:
+- Naoyo Kimura
 ---
 set: ex-unseen-forces
 number: '6'
@@ -249,7 +254,8 @@ damage modifiers:
   operation: '-'
   type: Grass
 retreat: 1
-illustrator: Aya Kusube
+illustrators:
+- Aya Kusube
 ---
 set: ex-unseen-forces
 number: '7'
@@ -294,7 +300,8 @@ damage modifiers:
   operation: ×
   type: Water
 retreat: 1
-illustrator: Midori Harada
+illustrators:
+- Midori Harada
 ---
 set: ex-unseen-forces
 number: '8'
@@ -338,7 +345,8 @@ damage modifiers:
 - amount: 30
   operation: '-'
   type: Metal
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: ex-unseen-forces
 number: '9'
@@ -382,7 +390,8 @@ damage modifiers:
   operation: '-'
   type: Water
 retreat: 3
-illustrator: Atsuko Nishida
+illustrators:
+- Atsuko Nishida
 ---
 set: ex-unseen-forces
 number: '10'
@@ -425,7 +434,8 @@ damage modifiers:
   operation: ×
   type: Lightning
 retreat: 1
-illustrator: Naoyo Kimura
+illustrators:
+- Naoyo Kimura
 ---
 set: ex-unseen-forces
 number: '11'
@@ -472,7 +482,8 @@ damage modifiers:
   operation: ×
   type: Psychic
 retreat: 2
-illustrator: Hajime Kusajima
+illustrators:
+- Hajime Kusajima
 ---
 set: ex-unseen-forces
 number: '12'
@@ -520,7 +531,8 @@ damage modifiers:
   operation: ×
   type: Fighting
 retreat: 1
-illustrator: Kagemaru Himeno
+illustrators:
+- Kagemaru Himeno
 ---
 set: ex-unseen-forces
 number: '13'
@@ -563,7 +575,8 @@ damage modifiers:
   operation: ×
   type: Grass
 retreat: 2
-illustrator: Midori Harada
+illustrators:
+- Midori Harada
 ---
 set: ex-unseen-forces
 number: '14'
@@ -605,7 +618,8 @@ damage modifiers:
   operation: ×
   type: Grass
 retreat: 1
-illustrator: Midori Harada
+illustrators:
+- Midori Harada
 ---
 set: ex-unseen-forces
 number: '15'
@@ -647,7 +661,8 @@ damage modifiers:
   operation: ×
   type: Water
 retreat: 1
-illustrator: Tomokazu Komiya
+illustrators:
+- Tomokazu Komiya
 ---
 set: ex-unseen-forces
 number: '16'
@@ -689,7 +704,8 @@ damage modifiers:
   operation: '-'
   type: Water
 retreat: 1
-illustrator: Sumiyoshi Kizuki
+illustrators:
+- Sumiyoshi Kizuki
 ---
 set: ex-unseen-forces
 number: '17'
@@ -735,7 +751,8 @@ damage modifiers:
   operation: ×
   type: Water
 retreat: 1
-illustrator: Hajime Kusajima
+illustrators:
+- Hajime Kusajima
 ---
 set: ex-unseen-forces
 number: '18'
@@ -783,7 +800,8 @@ damage modifiers:
   operation: ×
   type: Fighting
 retreat: 2
-illustrator: Atsuko Nishida
+illustrators:
+- Atsuko Nishida
 ---
 set: ex-unseen-forces
 number: '19'
@@ -825,7 +843,8 @@ damage modifiers:
   operation: ×
   type: Lightning
 retreat: 1
-illustrator: Atsuko Nishida
+illustrators:
+- Atsuko Nishida
 ---
 set: ex-unseen-forces
 number: '20'
@@ -862,7 +881,8 @@ damage modifiers:
   operation: ×
   type: Fighting
 retreat: 2
-illustrator: Yukiko Baba
+illustrators:
+- Yukiko Baba
 ---
 set: ex-unseen-forces
 number: '21'
@@ -899,7 +919,8 @@ damage modifiers:
   operation: ×
   type: Fighting
 retreat: 1
-illustrator: Yuka Morii
+illustrators:
+- Yuka Morii
 ---
 set: ex-unseen-forces
 number: '22'
@@ -942,7 +963,8 @@ damage modifiers:
   operation: ×
   type: Fighting
 retreat: 1
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: ex-unseen-forces
 number: '23'
@@ -977,7 +999,8 @@ damage modifiers:
   operation: ×
   type: Fighting
 retreat: 1
-illustrator: Yuka Morii
+illustrators:
+- Yuka Morii
 ---
 set: ex-unseen-forces
 number: '24'
@@ -1019,7 +1042,8 @@ damage modifiers:
   operation: ×
   type: Psychic
 retreat: 1
-illustrator: Hisao Nakamura
+illustrators:
+- Hisao Nakamura
 ---
 set: ex-unseen-forces
 number: '25'
@@ -1058,7 +1082,8 @@ damage modifiers:
   operation: ×
   type: Psychic
 retreat: 1
-illustrator: Hisao Nakamura
+illustrators:
+- Hisao Nakamura
 ---
 set: ex-unseen-forces
 number: '26'
@@ -1097,7 +1122,8 @@ damage modifiers:
   operation: ×
   type: Psychic
 retreat: 1
-illustrator: Hisao Nakamura
+illustrators:
+- Hisao Nakamura
 ---
 set: ex-unseen-forces
 number: '27'
@@ -1130,7 +1156,8 @@ damage modifiers:
   operation: ×
   type: Water
 retreat: 2
-illustrator: Kouki Saitou
+illustrators:
+- Kouki Saitou
 ---
 set: ex-unseen-forces
 number: '28'
@@ -1170,7 +1197,8 @@ damage modifiers:
   operation: ×
   type: Metal
 retreat: 1
-illustrator: Yukiko Baba
+illustrators:
+- Yukiko Baba
 ---
 set: ex-unseen-forces
 number: '29'
@@ -1199,7 +1227,8 @@ damage modifiers:
   operation: ×
   type: Psychic
 retreat: 2
-illustrator: Kouki Saitou
+illustrators:
+- Kouki Saitou
 ---
 set: ex-unseen-forces
 number: '30'
@@ -1238,7 +1267,8 @@ damage modifiers:
   operation: '-'
   type: Fighting
 retreat: 1
-illustrator: Kouki Saitou
+illustrators:
+- Kouki Saitou
 ---
 set: ex-unseen-forces
 number: '31'
@@ -1271,7 +1301,8 @@ damage modifiers:
   operation: ×
   type: Metal
 retreat: 1
-illustrator: Yuka Morii
+illustrators:
+- Yuka Morii
 ---
 set: ex-unseen-forces
 number: '32'
@@ -1307,7 +1338,8 @@ damage modifiers:
   operation: ×
   type: Fighting
 retreat: 1
-illustrator: Atsuko Nishida
+illustrators:
+- Atsuko Nishida
 ---
 set: ex-unseen-forces
 number: '33'
@@ -1343,7 +1375,8 @@ damage modifiers:
   operation: ×
   type: Psychic
 retreat: 1
-illustrator: Yuka Morii
+illustrators:
+- Yuka Morii
 ---
 set: ex-unseen-forces
 number: '34'
@@ -1379,7 +1412,8 @@ damage modifiers:
   operation: ×
   type: Fighting
 retreat: 1
-illustrator: Sachiko Adachi
+illustrators:
+- Sachiko Adachi
 ---
 set: ex-unseen-forces
 number: '35'
@@ -1415,7 +1449,8 @@ damage modifiers:
   operation: '-'
   type: Water
 retreat: 1
-illustrator: Atsuko Nishida
+illustrators:
+- Atsuko Nishida
 ---
 set: ex-unseen-forces
 number: '36'
@@ -1451,7 +1486,8 @@ damage modifiers:
   operation: ×
   type: Fighting
 retreat: 1
-illustrator: Midori Harada
+illustrators:
+- Midori Harada
 ---
 set: ex-unseen-forces
 number: '37'
@@ -1487,7 +1523,8 @@ damage modifiers:
   operation: ×
   type: Grass
 retreat: 1
-illustrator: Kagemaru Himeno
+illustrators:
+- Kagemaru Himeno
 ---
 set: ex-unseen-forces
 number: '38'
@@ -1520,7 +1557,8 @@ damage modifiers:
   operation: ×
   type: Lightning
 retreat: 2
-illustrator: Masakazu Fukuda
+illustrators:
+- Masakazu Fukuda
 ---
 set: ex-unseen-forces
 number: '39'
@@ -1563,7 +1601,8 @@ damage modifiers:
   operation: ×
   type: Fighting
 retreat: 2
-illustrator: Midori Harada
+illustrators:
+- Midori Harada
 ---
 set: ex-unseen-forces
 number: '40'
@@ -1599,7 +1638,8 @@ damage modifiers:
   operation: ×
   type: Fighting
 retreat: 1
-illustrator: Hajime Kusajima
+illustrators:
+- Hajime Kusajima
 ---
 set: ex-unseen-forces
 number: '41'
@@ -1642,7 +1682,8 @@ damage modifiers:
   operation: ×
   type: Water
 retreat: 2
-illustrator: Tomokazu Komiya
+illustrators:
+- Tomokazu Komiya
 ---
 set: ex-unseen-forces
 number: '42'
@@ -1681,7 +1722,8 @@ damage modifiers:
   operation: ×
   type: Fighting
 retreat: 1
-illustrator: Tomokazu Komiya
+illustrators:
+- Tomokazu Komiya
 ---
 set: ex-unseen-forces
 number: '43'
@@ -1720,7 +1762,8 @@ damage modifiers:
   operation: '-'
   type: Fighting
 retreat: 1
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: ex-unseen-forces
 number: '44'
@@ -1759,7 +1802,8 @@ damage modifiers:
   operation: ×
   type: Grass
 retreat: 2
-illustrator: Kagemaru Himeno
+illustrators:
+- Kagemaru Himeno
 ---
 set: ex-unseen-forces
 number: '45'
@@ -1794,7 +1838,8 @@ damage modifiers:
   operation: ×
   type: Water
 retreat: 1
-illustrator: Hajime Kusajima
+illustrators:
+- Hajime Kusajima
 ---
 set: ex-unseen-forces
 number: '46'
@@ -1830,7 +1875,8 @@ damage modifiers:
   operation: ×
   type: Fire
 retreat: 1
-illustrator: Hajime Kusajima
+illustrators:
+- Hajime Kusajima
 ---
 set: ex-unseen-forces
 number: '47'
@@ -1863,7 +1909,8 @@ damage modifiers:
   operation: ×
   type: Fire
 retreat: 1
-illustrator: Miki Tanaka
+illustrators:
+- Miki Tanaka
 ---
 set: ex-unseen-forces
 number: '48'
@@ -1900,7 +1947,8 @@ damage modifiers:
   operation: ×
   type: Fighting
 retreat: 1
-illustrator: Sumiyoshi Kizuki
+illustrators:
+- Sumiyoshi Kizuki
 ---
 set: ex-unseen-forces
 number: '49'
@@ -1936,7 +1984,8 @@ damage modifiers:
   operation: ×
   type: Psychic
 retreat: 1
-illustrator: Masakazu Fukuda
+illustrators:
+- Masakazu Fukuda
 ---
 set: ex-unseen-forces
 number: '50'
@@ -1971,7 +2020,8 @@ damage modifiers:
   operation: ×
   type: Fire
 retreat: 1
-illustrator: Kagemaru Himeno
+illustrators:
+- Kagemaru Himeno
 ---
 set: ex-unseen-forces
 number: '51'
@@ -2004,7 +2054,8 @@ damage modifiers:
   operation: '-'
   type: Water
 retreat: 1
-illustrator: Atsuko Nishida
+illustrators:
+- Atsuko Nishida
 ---
 set: ex-unseen-forces
 number: '52'
@@ -2035,7 +2086,8 @@ damage modifiers:
   operation: ×
   type: Fighting
 retreat: 1
-illustrator: Hajime Kusajima
+illustrators:
+- Hajime Kusajima
 ---
 set: ex-unseen-forces
 number: '53'
@@ -2067,7 +2119,8 @@ damage modifiers:
   operation: ×
   type: Fighting
 retreat: 1
-illustrator: Midori Harada
+illustrators:
+- Midori Harada
 ---
 set: ex-unseen-forces
 number: '54'
@@ -2101,7 +2154,8 @@ damage modifiers:
   operation: ×
   type: Water
 retreat: 1
-illustrator: Hajime Kusajima
+illustrators:
+- Hajime Kusajima
 ---
 set: ex-unseen-forces
 number: '55'
@@ -2137,7 +2191,8 @@ damage modifiers:
   operation: ×
   type: Fighting
 retreat: 1
-illustrator: Miki Tanaka
+illustrators:
+- Miki Tanaka
 ---
 set: ex-unseen-forces
 number: '56'
@@ -2175,7 +2230,8 @@ damage modifiers:
   operation: '-'
   type: Metal
 retreat: 1
-illustrator: Kyoko Umemoto
+illustrators:
+- Kyoko Umemoto
 ---
 set: ex-unseen-forces
 number: '57'
@@ -2208,7 +2264,8 @@ damage modifiers:
   operation: ×
   type: Lightning
 retreat: 1
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: ex-unseen-forces
 number: '58'
@@ -2237,7 +2294,8 @@ damage modifiers:
   operation: ×
   type: Psychic
 retreat: 1
-illustrator: Kouki Saitou
+illustrators:
+- Kouki Saitou
 ---
 set: ex-unseen-forces
 number: '59'
@@ -2271,7 +2329,8 @@ damage modifiers:
   operation: '-'
   type: Fighting
 retreat: 1
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: ex-unseen-forces
 number: '60'
@@ -2298,7 +2357,8 @@ damage modifiers:
   operation: ×
   type: Water
 retreat: 1
-illustrator: Kagemaru Himeno
+illustrators:
+- Kagemaru Himeno
 ---
 set: ex-unseen-forces
 number: '61'
@@ -2330,7 +2390,8 @@ damage modifiers:
   operation: ×
   type: Grass
 retreat: 1
-illustrator: Aya Kusube
+illustrators:
+- Aya Kusube
 ---
 set: ex-unseen-forces
 number: '62'
@@ -2359,7 +2420,8 @@ damage modifiers:
   operation: '-'
   type: Metal
 retreat: 1
-illustrator: Kyoko Umemoto
+illustrators:
+- Kyoko Umemoto
 ---
 set: ex-unseen-forces
 number: '63'
@@ -2388,7 +2450,8 @@ damage modifiers:
   operation: ×
   type: Psychic
 retreat: 1
-illustrator: Masakazu Fukuda
+illustrators:
+- Masakazu Fukuda
 ---
 set: ex-unseen-forces
 number: '64'
@@ -2416,7 +2479,8 @@ damage modifiers:
   operation: ×
   type: Psychic
 retreat: 1
-illustrator: Kouki Saitou
+illustrators:
+- Kouki Saitou
 ---
 set: ex-unseen-forces
 number: '65'
@@ -2448,7 +2512,8 @@ damage modifiers:
   operation: ×
   type: Water
 retreat: 3
-illustrator: Yukiko Baba
+illustrators:
+- Yukiko Baba
 ---
 set: ex-unseen-forces
 number: '66'
@@ -2478,7 +2543,8 @@ damage modifiers:
   operation: ×
   type: Fire
 retreat: 1
-illustrator: Aya Kusube
+illustrators:
+- Aya Kusube
 ---
 set: ex-unseen-forces
 number: '67'
@@ -2509,7 +2575,8 @@ damage modifiers:
   operation: ×
   type: Lightning
 retreat: 1
-illustrator: Kagemaru Himeno
+illustrators:
+- Kagemaru Himeno
 ---
 set: ex-unseen-forces
 number: '68'
@@ -2540,7 +2607,8 @@ damage modifiers:
   operation: ×
   type: Lightning
 retreat: 1
-illustrator: Miki Tanaka
+illustrators:
+- Miki Tanaka
 ---
 set: ex-unseen-forces
 number: '69'
@@ -2569,7 +2637,8 @@ damage modifiers:
   operation: ×
   type: Fighting
 retreat: 1
-illustrator: Kagemaru Himeno
+illustrators:
+- Kagemaru Himeno
 ---
 set: ex-unseen-forces
 number: '70'
@@ -2599,7 +2668,8 @@ damage modifiers:
 - amount: 2
   operation: ×
   type: Grass
-illustrator: Aya Kusube
+illustrators:
+- Aya Kusube
 ---
 set: ex-unseen-forces
 number: '71'
@@ -2631,7 +2701,8 @@ damage modifiers:
   operation: ×
   type: Lightning
 retreat: 1
-illustrator: Sachiko Adachi
+illustrators:
+- Sachiko Adachi
 ---
 set: ex-unseen-forces
 number: '72'
@@ -2667,7 +2738,8 @@ damage modifiers:
   operation: ×
   type: Psychic
 retreat: 1
-illustrator: Midori Harada
+illustrators:
+- Midori Harada
 ---
 set: ex-unseen-forces
 number: '73'
@@ -2698,7 +2770,8 @@ damage modifiers:
   operation: ×
   type: Water
 retreat: 1
-illustrator: Tomokazu Komiya
+illustrators:
+- Tomokazu Komiya
 ---
 set: ex-unseen-forces
 number: '74'
@@ -2726,7 +2799,8 @@ damage modifiers:
   operation: ×
   type: Fighting
 retreat: 1
-illustrator: Midori Harada
+illustrators:
+- Midori Harada
 ---
 set: ex-unseen-forces
 number: '75'
@@ -2758,7 +2832,8 @@ damage modifiers:
   operation: ×
   type: Psychic
 retreat: 1
-illustrator: Sachiko Adachi
+illustrators:
+- Sachiko Adachi
 ---
 set: ex-unseen-forces
 number: '76'
@@ -2793,7 +2868,8 @@ damage modifiers:
   operation: '-'
   type: Water
 retreat: 1
-illustrator: Sumiyoshi Kizuki
+illustrators:
+- Sumiyoshi Kizuki
 ---
 set: ex-unseen-forces
 number: '77'
@@ -2825,7 +2901,8 @@ damage modifiers:
   operation: ×
   type: Fighting
 retreat: 1
-illustrator: Naoyo Kimura
+illustrators:
+- Naoyo Kimura
 ---
 set: ex-unseen-forces
 number: '78'
@@ -2854,7 +2931,8 @@ damage modifiers:
   operation: ×
   type: Lightning
 retreat: 1
-illustrator: Masakazu Fukuda
+illustrators:
+- Masakazu Fukuda
 ---
 set: ex-unseen-forces
 number: '79'
@@ -2884,7 +2962,8 @@ damage modifiers:
   operation: ×
   type: Grass
 retreat: 1
-illustrator: Kagemaru Himeno
+illustrators:
+- Kagemaru Himeno
 ---
 set: ex-unseen-forces
 number: '80'
@@ -2909,7 +2988,8 @@ mechanics:
     If the Pokémon that Curse Powder is attached to is Knocked
     Out by damage from an opponent's attack, put 3 damage counters
     on the Attacking Pokémon.
-illustrator: Ryo Ueda
+illustrators:
+- Ryo Ueda
 ---
 set: ex-unseen-forces
 number: '81'
@@ -2927,7 +3007,8 @@ mechanics:
     show 1 basic Energy card to your opponent and put it into
     your hand, or show 3 basic Energy cards to your opponent and
     shuffle them into your deck.
-illustrator: Zu-Ka
+illustrators:
+- Zu-Ka
 ---
 set: ex-unseen-forces
 number: '82'
@@ -2943,7 +3024,8 @@ mechanics:
   text: >-
     Flip a coin. If heads, choose 1 Energy card attached to 1
     of your opponent's Pokémon and discard it.
-illustrator: Kieji Kinebuchi
+illustrators:
+- Kieji Kinebuchi
 ---
 set: ex-unseen-forces
 number: '83'
@@ -2968,7 +3050,8 @@ mechanics:
   text: >-
     As long as Energy Root is attached to a Pokémon, that Pokémon
     gets +20 HP and can't use any Poke-Powers or Poke-Bodies.
-illustrator: Ryo Ueda
+illustrators:
+- Ryo Ueda
 ---
 set: ex-unseen-forces
 number: '84'
@@ -2984,7 +3067,8 @@ mechanics:
   text: >-
     Move a basic Energy card attached to 1 of your Pokémon to
     another of your Pokémon.
-illustrator: Ken Ikuji
+illustrators:
+- Ken Ikuji
 ---
 set: ex-unseen-forces
 number: '85'
@@ -3009,7 +3093,8 @@ mechanics:
   text: >-
     As long as Fluffy Berry is attached to a Pokémon, that Pokémon's
     Retreat Cost is 0.
-illustrator: Ryo Ueda
+illustrators:
+- Ryo Ueda
 ---
 set: ex-unseen-forces
 number: '86'
@@ -3032,7 +3117,8 @@ mechanics:
   text: >-
     Draw a card. If you don't have any Stage 2 Evolved Pokémon
     in play, draw 2 more cards.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: ex-unseen-forces
 number: '87'
@@ -3057,7 +3143,8 @@ mechanics:
     Flip a coin. If heads, search your deck for a Basic Pokémon
     or Evolution card, show it to your opponent, and put it into
     your hand. Shuffle your deck afterward.
-illustrator: Shin-ichi Yoshikawa
+illustrators:
+- Shin-ichi Yoshikawa
 ---
 set: ex-unseen-forces
 number: '88'
@@ -3082,7 +3169,8 @@ mechanics:
     Flip a coin. If heads, choose 1 of your opponent's Benched
     Pokémon and switch it with 1 of the Defending Pokémon. Your
     opponent chooses the Defending Pokémon to switch.
-illustrator: Hiromichi Sugiyama
+illustrators:
+- Hiromichi Sugiyama
 ---
 set: ex-unseen-forces
 number: '89'
@@ -3105,7 +3193,8 @@ mechanics:
   text: >-
     Search your deck for an Evolution card, show it to your opponent,
     and put it into your hand. Shuffle your deck afterward.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: ex-unseen-forces
 number: '90'
@@ -3129,7 +3218,8 @@ mechanics:
   text: >-
     As long as Protective Orb is attached to a Pokémon, that Pokémon
     has no Weakness.
-illustrator: Ryo Ueda
+illustrators:
+- Ryo Ueda
 ---
 set: ex-unseen-forces
 number: '91'
@@ -3155,7 +3245,8 @@ mechanics:
     At any time between turns, if the Pokémon this card is attached
     to has at least 3 damage counters on it, remove 3 damage counters
     from it. Then, discard Sitrus Berry.
-illustrator: Ryo Ueda
+illustrators:
+- Ryo Ueda
 ---
 set: ex-unseen-forces
 number: '92'
@@ -3180,7 +3271,8 @@ mechanics:
     If you have ore Prize cards left than your opponent, the Pokémon
     that Solid Rage is attached to does 20 more damage to the
     Active Pokémon (before applying Weakness and Resistance).
-illustrator: Ryo Ueda
+illustrators:
+- Ryo Ueda
 ---
 set: ex-unseen-forces
 number: '93'
@@ -3197,7 +3289,8 @@ mechanics:
     Your opponent switches 1 of his or her Defending Pokémon with
     1 of his or her Benched Pokémon, if any. You switch 1 of your
     Active Pokémon with 1 of your Benched Pokémon, if any.
-illustrator: Keiji Kinebuchi
+illustrators:
+- Keiji Kinebuchi
 ---
 set: ex-unseen-forces
 number: '94'
@@ -3213,7 +3306,8 @@ mechanics:
   text: >-
     Search your deck for a basic Energy card, show it to your
     opponent, and put it into your hand. Shuffle your deck afterward.
-illustrator: Kai Ishikawa
+illustrators:
+- Kai Ishikawa
 ---
 set: ex-unseen-forces
 number: '95'
@@ -3229,7 +3323,8 @@ mechanics:
   text: >-
     Remove 2 damage counters from 1 of your Pokémon (remove 1
     damage counter if that Pokémon has only 1).
-illustrator: Shin-ichi Yoshikawa
+illustrators:
+- Shin-ichi Yoshikawa
 ---
 set: ex-unseen-forces
 number: '96'
@@ -3250,7 +3345,8 @@ mechanics:
     Weakness and Resistance). Ignore this effect unless the Attacking
     Pokémon is D or has Dark in its name. Darkness Energy provides
     D energy. (Doesn't count as a basic Energy card.)
-illustrator: Milky Isobe
+illustrators:
+- Milky Isobe
 ---
 set: ex-unseen-forces
 number: '97'
@@ -3271,7 +3367,8 @@ mechanics:
     Resistance). Ignore this effect if the Pokémon that Metal
     Energy is attached to isn't M. Metal Energy provides M Energy.
     (Doesn't count as a basic Energy card.)
-illustrator: Milky Isobe
+illustrators:
+- Milky Isobe
 ---
 set: ex-unseen-forces
 number: '98'
@@ -3292,7 +3389,8 @@ mechanics:
     Energy provides CCC Energy. The Pokémon Boost Energy is attached
     to can't retreat. If the Pokémon Boost Energy is attached
     to isn't an Evolved Pokémon, discard Boost Energy.
-illustrator: Shin-Ichi Yoshikawa
+illustrators:
+- Shin-Ichi Yoshikawa
 ---
 set: ex-unseen-forces
 number: '99'
@@ -3312,7 +3410,8 @@ mechanics:
     from your hand to your Active Pokémon, switch 1 of the Defending
     Pokémon with 1 of your opponent's Benched Pokémon. Your opponent
     chooses the Benched Pokémon to switch.
-illustrator: Shin-Ichi Yoshikawa
+illustrators:
+- Shin-Ichi Yoshikawa
 ---
 set: ex-unseen-forces
 number: '100'
@@ -3331,7 +3430,8 @@ mechanics:
     Warp Energy provides C Energy. When you attach this card from
     your hand to your Active Pokémon, switch that Pokémon with
     1 of your Benched Pokémon.
-illustrator: Shin-Ichi Yoshikawa
+illustrators:
+- Shin-Ichi Yoshikawa
 ---
 set: ex-unseen-forces
 number: '101'
@@ -3373,7 +3473,8 @@ damage modifiers:
   operation: ×
   type: Fighting
 retreat: 1
-illustrator: Ryo Ueda
+illustrators:
+- Ryo Ueda
 ---
 set: ex-unseen-forces
 number: '102'
@@ -3418,7 +3519,8 @@ damage modifiers:
 - amount: 2
   operation: ×
   type: Psychic
-illustrator: Ryo Ueda
+illustrators:
+- Ryo Ueda
 ---
 set: ex-unseen-forces
 number: '103'
@@ -3463,7 +3565,8 @@ damage modifiers:
   operation: ×
   type: Lightning
 retreat: 3
-illustrator: Hikaru Koike
+illustrators:
+- Hikaru Koike
 ---
 set: ex-unseen-forces
 number: '104'
@@ -3500,7 +3603,8 @@ damage modifiers:
   operation: ×
   type: Water
 retreat: 2
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: ex-unseen-forces
 number: '105'
@@ -3541,7 +3645,8 @@ damage modifiers:
   operation: '-'
   type: Fighting
 retreat: 1
-illustrator: Hikaru Koike
+illustrators:
+- Hikaru Koike
 ---
 set: ex-unseen-forces
 number: '106'
@@ -3590,7 +3695,8 @@ damage modifiers:
   operation: '-'
   type: Water
 retreat: 2
-illustrator: Ryo Ueda
+illustrators:
+- Ryo Ueda
 ---
 set: ex-unseen-forces
 number: '107'
@@ -3638,7 +3744,8 @@ damage modifiers:
   operation: ×
   type: Grass
 retreat: 3
-illustrator: Ryo Ueda
+illustrators:
+- Ryo Ueda
 ---
 set: ex-unseen-forces
 number: '108'
@@ -3687,7 +3794,8 @@ damage modifiers:
   operation: '-'
   type: Grass
 retreat: 1
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: ex-unseen-forces
 number: '109'
@@ -3739,7 +3847,8 @@ damage modifiers:
   operation: '-'
   type: Lightning
 retreat: 5
-illustrator: Ryo Ueda
+illustrators:
+- Ryo Ueda
 ---
 set: ex-unseen-forces
 number: '110'
@@ -3782,7 +3891,8 @@ damage modifiers:
   operation: ×
   type: Fighting
 retreat: 1
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: ex-unseen-forces
 number: '111'
@@ -3838,7 +3948,8 @@ damage modifiers:
   operation: '-'
   type: Psychic
 retreat: 2
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: ex-unseen-forces
 number: '112'
@@ -3884,7 +3995,8 @@ damage modifiers:
   operation: '-'
   type: Psychic
 retreat: 1
-illustrator: Ryo Ueda
+illustrators:
+- Ryo Ueda
 ---
 set: ex-unseen-forces
 number: '113'
@@ -3921,7 +4033,8 @@ damage modifiers:
   operation: ×
   type: Water
 retreat: 1
-illustrator: Masakazu Fukuda
+illustrators:
+- Masakazu Fukuda
 ---
 set: ex-unseen-forces
 number: '114'
@@ -3959,7 +4072,8 @@ damage modifiers:
   operation: ×
   type: Fighting
 retreat: 1
-illustrator: Masakazu Fukuda
+illustrators:
+- Masakazu Fukuda
 ---
 set: ex-unseen-forces
 number: '115'
@@ -3996,7 +4110,8 @@ damage modifiers:
   operation: ×
   type: Lightning
 retreat: 1
-illustrator: Masakazu Fukuda
+illustrators:
+- Masakazu Fukuda
 ---
 set: ex-unseen-forces
 number: '116'
@@ -4036,7 +4151,8 @@ damage modifiers:
   operation: ×
   type: Fighting
 retreat: 1
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: ex-unseen-forces
 number: '117'
@@ -4076,7 +4192,8 @@ damage modifiers:
   operation: ×
   type: Fire
 retreat: 1
-illustrator: Ryo Ueda
+illustrators:
+- Ryo Ueda
 ---
 set: ex-unseen-forces
 number: '118'
@@ -4113,7 +4230,8 @@ damage modifiers:
   operation: ×
   type: Psychic
 retreat: 1
-illustrator: Shin-ichi Yoshikawa
+illustrators:
+- Shin-ichi Yoshikawa
 ---
 set: ex-unseen-forces
 number: '119'
@@ -4150,7 +4268,8 @@ damage modifiers:
   operation: ×
   type: Psychic
 retreat: 1
-illustrator: Shin-ichi Yoshikawa
+illustrators:
+- Shin-ichi Yoshikawa
 ---
 set: ex-unseen-forces
 number: '120'
@@ -4188,7 +4307,8 @@ damage modifiers:
   operation: ×
   type: Psychic
 retreat: 1
-illustrator: Shin-ichi Yoshikawa
+illustrators:
+- Shin-ichi Yoshikawa
 ---
 set: ex-unseen-forces
 number: '121'
@@ -4226,7 +4346,8 @@ damage modifiers:
   operation: ×
   type: Psychic
 retreat: 1
-illustrator: Shin-ichi Yoshikawa
+illustrators:
+- Shin-ichi Yoshikawa
 ---
 set: ex-unseen-forces
 number: '122'
@@ -4265,7 +4386,8 @@ damage modifiers:
   operation: ×
   type: Psychic
 retreat: 1
-illustrator: Shin-ichi Yoshikawa
+illustrators:
+- Shin-ichi Yoshikawa
 ---
 set: ex-unseen-forces
 number: '123'
@@ -4305,7 +4427,8 @@ damage modifiers:
   operation: ×
   type: Psychic
 retreat: 1
-illustrator: Shin-ichi Yoshikawa
+illustrators:
+- Shin-ichi Yoshikawa
 ---
 set: ex-unseen-forces
 number: '124'
@@ -4342,7 +4465,8 @@ damage modifiers:
   operation: ×
   type: Psychic
 retreat: 1
-illustrator: Shin-ichi Yoshikawa
+illustrators:
+- Shin-ichi Yoshikawa
 ---
 set: ex-unseen-forces
 number: '125'
@@ -4380,7 +4504,8 @@ damage modifiers:
   operation: ×
   type: Psychic
 retreat: 1
-illustrator: Shin-ichi Yoshikawa
+illustrators:
+- Shin-ichi Yoshikawa
 ---
 set: ex-unseen-forces
 number: '126'
@@ -4418,7 +4543,8 @@ damage modifiers:
   operation: ×
   type: Psychic
 retreat: 1
-illustrator: Nakaoka
+illustrators:
+- Nakaoka
 ---
 set: ex-unseen-forces
 number: '127'
@@ -4456,7 +4582,8 @@ damage modifiers:
   operation: ×
   type: Psychic
 retreat: 1
-illustrator: Nakaoka
+illustrators:
+- Nakaoka
 ---
 set: ex-unseen-forces
 number: '128'
@@ -4493,7 +4620,8 @@ damage modifiers:
   operation: ×
   type: Psychic
 retreat: 1
-illustrator: Nakaoka
+illustrators:
+- Nakaoka
 ---
 set: ex-unseen-forces
 number: '129'
@@ -4530,7 +4658,8 @@ damage modifiers:
   operation: ×
   type: Psychic
 retreat: 1
-illustrator: Nakaoka
+illustrators:
+- Nakaoka
 ---
 set: ex-unseen-forces
 number: '130'
@@ -4569,7 +4698,8 @@ damage modifiers:
   operation: ×
   type: Psychic
 retreat: 1
-illustrator: Nakaoka
+illustrators:
+- Nakaoka
 ---
 set: ex-unseen-forces
 number: '131'
@@ -4606,7 +4736,8 @@ damage modifiers:
   operation: ×
   type: Psychic
 retreat: 1
-illustrator: Nakaoka
+illustrators:
+- Nakaoka
 ---
 set: ex-unseen-forces
 number: '132'
@@ -4643,7 +4774,8 @@ damage modifiers:
   operation: ×
   type: Psychic
 retreat: 1
-illustrator: Nakaoka
+illustrators:
+- Nakaoka
 ---
 set: ex-unseen-forces
 number: '133'
@@ -4680,7 +4812,8 @@ damage modifiers:
   operation: ×
   type: Psychic
 retreat: 1
-illustrator: Nakaoka
+illustrators:
+- Nakaoka
 ---
 set: ex-unseen-forces
 number: '134'
@@ -4718,7 +4851,8 @@ damage modifiers:
   operation: ×
   type: Psychic
 retreat: 1
-illustrator: Nakaoka
+illustrators:
+- Nakaoka
 ---
 set: ex-unseen-forces
 number: '135'
@@ -4757,7 +4891,8 @@ damage modifiers:
   operation: ×
   type: Psychic
 retreat: 1
-illustrator: Nakaoka
+illustrators:
+- Nakaoka
 ---
 set: ex-unseen-forces
 number: '136'
@@ -4800,7 +4935,8 @@ damage modifiers:
   operation: ×
   type: Psychic
 retreat: 1
-illustrator: Nakaoka
+illustrators:
+- Nakaoka
 ---
 set: ex-unseen-forces
 number: '137'
@@ -4843,7 +4979,8 @@ damage modifiers:
   operation: ×
   type: Psychic
 retreat: 1
-illustrator: Kyoko Koizumi
+illustrators:
+- Kyoko Koizumi
 ---
 set: ex-unseen-forces
 number: '138'
@@ -4881,7 +5018,8 @@ damage modifiers:
   operation: ×
   type: Psychic
 retreat: 1
-illustrator: Kyoko Koizumi
+illustrators:
+- Kyoko Koizumi
 ---
 set: ex-unseen-forces
 number: '139'
@@ -4920,7 +5058,8 @@ damage modifiers:
   operation: ×
   type: Psychic
 retreat: 1
-illustrator: Kyoko Koizumi
+illustrators:
+- Kyoko Koizumi
 ---
 set: ex-unseen-forces
 number: '140'
@@ -4958,7 +5097,8 @@ damage modifiers:
   operation: ×
   type: Psychic
 retreat: 1
-illustrator: Kyoko Koizumi
+illustrators:
+- Kyoko Koizumi
 ---
 set: ex-unseen-forces
 number: '141'
@@ -4996,7 +5136,8 @@ damage modifiers:
   operation: ×
   type: Psychic
 retreat: 1
-illustrator: Kyoko Koizumi
+illustrators:
+- Kyoko Koizumi
 ---
 set: ex-unseen-forces
 number: '142'
@@ -5033,7 +5174,8 @@ damage modifiers:
   operation: ×
   type: Psychic
 retreat: 1
-illustrator: Kyoko Koizumi
+illustrators:
+- Kyoko Koizumi
 ---
 set: ex-unseen-forces
 number: '143'
@@ -5071,7 +5213,8 @@ damage modifiers:
   operation: ×
   type: Psychic
 retreat: 1
-illustrator: Kyoko Koizumi
+illustrators:
+- Kyoko Koizumi
 ---
 set: ex-unseen-forces
 number: '144'
@@ -5110,7 +5253,8 @@ damage modifiers:
   operation: ×
   type: Psychic
 retreat: 1
-illustrator: Kyoko Koizumi
+illustrators:
+- Kyoko Koizumi
 ---
 set: ex-unseen-forces
 number: '145'
@@ -5148,4 +5292,5 @@ damage modifiers:
   operation: ×
   type: Psychic
 retreat: 1
-illustrator: Kyoko Koizumi
+illustrators:
+- Kyoko Koizumi

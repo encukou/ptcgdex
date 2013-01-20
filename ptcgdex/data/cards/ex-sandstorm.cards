@@ -29,7 +29,8 @@ damage modifiers:
   operation: ×
   type: Grass
 retreat: 3
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: ex-sandstorm
 number: '2'
@@ -67,7 +68,8 @@ damage modifiers:
   operation: ×
   type: Fighting
 retreat: 1
-illustrator: Atsuko Nishida
+illustrators:
+- Atsuko Nishida
 ---
 set: ex-sandstorm
 number: '3'
@@ -109,7 +111,8 @@ damage modifiers:
   operation: ×
   type: Fire
 retreat: 2
-illustrator: Midori Harada
+illustrators:
+- Midori Harada
 ---
 set: ex-sandstorm
 number: '4'
@@ -147,7 +150,8 @@ damage modifiers:
   operation: '-'
   type: Fighting
 retreat: 1
-illustrator: Midori Harada
+illustrators:
+- Midori Harada
 ---
 set: ex-sandstorm
 number: '5'
@@ -182,7 +186,8 @@ damage modifiers:
   operation: ×
   type: Water
 retreat: 2
-illustrator: Midori Harada
+illustrators:
+- Midori Harada
 ---
 set: ex-sandstorm
 number: '6'
@@ -222,7 +227,8 @@ damage modifiers:
   operation: '-'
   type: Metal
 retreat: 1
-illustrator: Atsuko Nishida
+illustrators:
+- Atsuko Nishida
 ---
 set: ex-sandstorm
 number: '7'
@@ -257,7 +263,8 @@ damage modifiers:
   operation: ×
   type: Lightning
 retreat: 2
-illustrator: Tomokazu Komiya
+illustrators:
+- Tomokazu Komiya
 ---
 set: ex-sandstorm
 number: '8'
@@ -295,7 +302,8 @@ damage modifiers:
   operation: ×
   type: Psychic
 retreat: 1
-illustrator: Hajime Kusajima
+illustrators:
+- Hajime Kusajima
 ---
 set: ex-sandstorm
 number: '9'
@@ -332,7 +340,8 @@ damage modifiers:
   operation: ×
   type: Fire
 retreat: 1
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: ex-sandstorm
 number: '10'
@@ -368,7 +377,8 @@ damage modifiers:
   operation: ×
   type: Fighting
 retreat: 1
-illustrator: Hajime Kusajima
+illustrators:
+- Hajime Kusajima
 ---
 set: ex-sandstorm
 number: '11'
@@ -404,7 +414,8 @@ damage modifiers:
   operation: ×
   type: Psychic
 retreat: 2
-illustrator: Hajime Kusajima
+illustrators:
+- Hajime Kusajima
 ---
 set: ex-sandstorm
 number: '12'
@@ -441,7 +452,8 @@ damage modifiers:
   operation: ×
   type: Fire
 retreat: 2
-illustrator: Atsuko Nishida
+illustrators:
+- Atsuko Nishida
 ---
 set: ex-sandstorm
 number: '13'
@@ -479,7 +491,8 @@ damage modifiers:
   operation: ×
   type: Grass
 retreat: 1
-illustrator: Hajime Kusajima
+illustrators:
+- Hajime Kusajima
 ---
 set: ex-sandstorm
 number: '14'
@@ -519,7 +532,8 @@ damage modifiers:
   operation: ×
   type: Fighting
 retreat: 1
-illustrator: Kagemaru Himeno
+illustrators:
+- Kagemaru Himeno
 ---
 set: ex-sandstorm
 number: '15'
@@ -555,7 +569,8 @@ damage modifiers:
   operation: ×
   type: Water
 retreat: 1
-illustrator: Hajime Kusajima
+illustrators:
+- Hajime Kusajima
 ---
 set: ex-sandstorm
 number: '16'
@@ -591,7 +606,8 @@ damage modifiers:
   operation: ×
   type: Psychic
 retreat: 1
-illustrator: Midori Harada
+illustrators:
+- Midori Harada
 ---
 set: ex-sandstorm
 number: '17'
@@ -628,7 +644,8 @@ damage modifiers:
   operation: ×
   type: Lightning
 retreat: 1
-illustrator: Hajime Kusajima
+illustrators:
+- Hajime Kusajima
 ---
 set: ex-sandstorm
 number: '18'
@@ -662,7 +679,8 @@ damage modifiers:
   operation: ×
   type: Fighting
 retreat: 1
-illustrator: Kagemaru Himeno
+illustrators:
+- Kagemaru Himeno
 ---
 set: ex-sandstorm
 number: '19'
@@ -700,7 +718,8 @@ damage modifiers:
   operation: ×
   type: Lightning
 retreat: 2
-illustrator: Kouki Saitou
+illustrators:
+- Kouki Saitou
 ---
 set: ex-sandstorm
 number: '20'
@@ -735,7 +754,8 @@ damage modifiers:
   operation: ×
   type: Fighting
 retreat: 1
-illustrator: Naoyo Kimura
+illustrators:
+- Naoyo Kimura
 ---
 set: ex-sandstorm
 number: '21'
@@ -771,7 +791,8 @@ damage modifiers:
 - amount: 2
   operation: ×
   type: Grass
-illustrator: Kouki Saitou
+illustrators:
+- Kouki Saitou
 ---
 set: ex-sandstorm
 number: '22'
@@ -807,7 +828,8 @@ damage modifiers:
   operation: ×
   type: Fire
 retreat: 2
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: ex-sandstorm
 number: '23'
@@ -847,7 +869,8 @@ damage modifiers:
   operation: '-'
   type: Grass
 retreat: 4
-illustrator: Midori Harada
+illustrators:
+- Midori Harada
 ---
 set: ex-sandstorm
 number: '24'
@@ -883,7 +906,8 @@ damage modifiers:
   operation: '-'
   type: Psychic
 retreat: 1
-illustrator: Kagemaru Himeno
+illustrators:
+- Kagemaru Himeno
 ---
 set: ex-sandstorm
 number: '25'
@@ -916,7 +940,8 @@ damage modifiers:
   operation: ×
   type: Lightning
 retreat: 1
-illustrator: Hajime Kusajima
+illustrators:
+- Hajime Kusajima
 ---
 set: ex-sandstorm
 number: '26'
@@ -950,7 +975,8 @@ damage modifiers:
   operation: ×
   type: Psychic
 retreat: 2
-illustrator: Atsuko Nishida
+illustrators:
+- Atsuko Nishida
 ---
 set: ex-sandstorm
 number: '27'
@@ -983,7 +1009,8 @@ damage modifiers:
   operation: ×
   type: Grass
 retreat: 1
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: ex-sandstorm
 number: '28'
@@ -1017,7 +1044,8 @@ damage modifiers:
   operation: ×
   type: Grass
 retreat: 2
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: ex-sandstorm
 number: '29'
@@ -1053,7 +1081,8 @@ damage modifiers:
   operation: ×
   type: Psychic
 retreat: 1
-illustrator: Midori Harada
+illustrators:
+- Midori Harada
 ---
 set: ex-sandstorm
 number: '30'
@@ -1089,7 +1118,8 @@ damage modifiers:
   operation: ×
   type: Lightning
 retreat: 1
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: ex-sandstorm
 number: '31'
@@ -1123,7 +1153,8 @@ damage modifiers:
   operation: ×
   type: Fighting
 retreat: 1
-illustrator: Kagemaru Himeno
+illustrators:
+- Kagemaru Himeno
 ---
 set: ex-sandstorm
 number: '32'
@@ -1153,7 +1184,8 @@ damage modifiers:
   operation: ×
   type: Grass
 retreat: 1
-illustrator: Midori Harada
+illustrators:
+- Midori Harada
 ---
 set: ex-sandstorm
 number: '33'
@@ -1187,7 +1219,8 @@ damage modifiers:
   operation: ×
   type: Fire
 retreat: 1
-illustrator: Atsuko Nishida
+illustrators:
+- Atsuko Nishida
 ---
 set: ex-sandstorm
 number: '34'
@@ -1221,7 +1254,8 @@ damage modifiers:
   operation: ×
   type: Fighting
 retreat: 1
-illustrator: Midori Harada
+illustrators:
+- Midori Harada
 ---
 set: ex-sandstorm
 number: '35'
@@ -1260,7 +1294,8 @@ damage modifiers:
   operation: '-'
   type: Metal
 retreat: 1
-illustrator: Kouki Saitou
+illustrators:
+- Kouki Saitou
 ---
 set: ex-sandstorm
 number: '36'
@@ -1294,7 +1329,8 @@ damage modifiers:
   operation: ×
   type: Fighting
 retreat: 1
-illustrator: Kouki Saitou
+illustrators:
+- Kouki Saitou
 ---
 set: ex-sandstorm
 number: '37'
@@ -1332,7 +1368,8 @@ damage modifiers:
 - amount: 30
   operation: '-'
   type: Fighting
-illustrator: Aya Kusube
+illustrators:
+- Aya Kusube
 ---
 set: ex-sandstorm
 number: '38'
@@ -1374,7 +1411,8 @@ damage modifiers:
   operation: ×
   type: Fire
 retreat: 1
-illustrator: Kyoko Umemoto
+illustrators:
+- Kyoko Umemoto
 ---
 set: ex-sandstorm
 number: '39'
@@ -1414,7 +1452,8 @@ damage modifiers:
   operation: ×
   type: Grass
 retreat: 2
-illustrator: Atsuko Nishida
+illustrators:
+- Atsuko Nishida
 ---
 set: ex-sandstorm
 number: '40'
@@ -1451,7 +1490,8 @@ damage modifiers:
   operation: ×
   type: Psychic
 retreat: 1
-illustrator: Hajime Kusajima
+illustrators:
+- Hajime Kusajima
 ---
 set: ex-sandstorm
 number: '41'
@@ -1487,7 +1527,8 @@ damage modifiers:
   operation: '-'
   type: Grass
 retreat: 2
-illustrator: Atsuko Nishida
+illustrators:
+- Atsuko Nishida
 ---
 set: ex-sandstorm
 number: '42'
@@ -1526,7 +1567,8 @@ damage modifiers:
   operation: ×
   type: Fire
 retreat: 2
-illustrator: Midori Harada
+illustrators:
+- Midori Harada
 ---
 set: ex-sandstorm
 number: '43'
@@ -1559,7 +1601,8 @@ damage modifiers:
   operation: ×
   type: Fire
 retreat: 2
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: ex-sandstorm
 number: '44'
@@ -1593,7 +1636,8 @@ damage modifiers:
 - amount: 2
   operation: ×
   type: Fighting
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: ex-sandstorm
 number: '45'
@@ -1627,7 +1671,8 @@ damage modifiers:
   operation: ×
   type: Lightning
 retreat: 1
-illustrator: Tomokazu Komiya
+illustrators:
+- Tomokazu Komiya
 ---
 set: ex-sandstorm
 number: '46'
@@ -1665,7 +1710,8 @@ damage modifiers:
   operation: ×
   type: Lightning
 retreat: 1
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: ex-sandstorm
 number: '47'
@@ -1704,7 +1750,8 @@ damage modifiers:
   operation: '-'
   type: Psychic
 retreat: 1
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: ex-sandstorm
 number: '48'
@@ -1738,7 +1785,8 @@ damage modifiers:
   operation: ×
   type: Fire
 retreat: 1
-illustrator: Atsuko Nishida
+illustrators:
+- Atsuko Nishida
 ---
 set: ex-sandstorm
 number: '49'
@@ -1773,7 +1821,8 @@ damage modifiers:
   operation: ×
   type: Fire
 retreat: 1
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: ex-sandstorm
 number: '50'
@@ -1806,7 +1855,8 @@ damage modifiers:
 - amount: 30
   operation: '-'
   type: Fighting
-illustrator: Kagemaru Himeno
+illustrators:
+- Kagemaru Himeno
 ---
 set: ex-sandstorm
 number: '51'
@@ -1840,7 +1890,8 @@ damage modifiers:
   operation: ×
   type: Water
 retreat: 2
-illustrator: Naoyo Kimura
+illustrators:
+- Naoyo Kimura
 ---
 set: ex-sandstorm
 number: '52'
@@ -1873,7 +1924,8 @@ damage modifiers:
   operation: ×
   type: Fighting
 retreat: 1
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: ex-sandstorm
 number: '53'
@@ -1913,7 +1965,8 @@ damage modifiers:
   operation: ×
   type: Fire
 retreat: 1
-illustrator: Kyoko Umemoto
+illustrators:
+- Kyoko Umemoto
 ---
 set: ex-sandstorm
 number: '54'
@@ -1948,7 +2001,8 @@ damage modifiers:
   operation: ×
   type: Psychic
 retreat: 1
-illustrator: Kagemaru Himeno
+illustrators:
+- Kagemaru Himeno
 ---
 set: ex-sandstorm
 number: '55'
@@ -1984,7 +2038,8 @@ damage modifiers:
 - amount: 30
   operation: '-'
   type: Fighting
-illustrator: Midori Harada
+illustrators:
+- Midori Harada
 ---
 set: ex-sandstorm
 number: '56'
@@ -2020,7 +2075,8 @@ damage modifiers:
   operation: '-'
   type: Grass
 retreat: 1
-illustrator: Atsuko Nishida
+illustrators:
+- Atsuko Nishida
 ---
 set: ex-sandstorm
 number: '57'
@@ -2056,7 +2112,8 @@ damage modifiers:
   operation: ×
   type: Fire
 retreat: 1
-illustrator: Atsuko Nishida
+illustrators:
+- Atsuko Nishida
 ---
 set: ex-sandstorm
 number: '58'
@@ -2088,7 +2145,8 @@ damage modifiers:
   operation: ×
   type: Fire
 retreat: 1
-illustrator: Midori Harada
+illustrators:
+- Midori Harada
 ---
 set: ex-sandstorm
 number: '59'
@@ -2123,7 +2181,8 @@ damage modifiers:
   operation: ×
   type: Water
 retreat: 1
-illustrator: Naoyo Kimura
+illustrators:
+- Naoyo Kimura
 ---
 set: ex-sandstorm
 number: '60'
@@ -2162,7 +2221,8 @@ damage modifiers:
   operation: ×
   type: Fighting
 retreat: 1
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: ex-sandstorm
 number: '61'
@@ -2203,7 +2263,8 @@ damage modifiers:
   operation: '-'
   type: Fighting
 retreat: 1
-illustrator: Midori Harada
+illustrators:
+- Midori Harada
 ---
 set: ex-sandstorm
 number: '62'
@@ -2244,7 +2305,8 @@ damage modifiers:
   operation: '-'
   type: Fighting
 retreat: 1
-illustrator: Aya Kusube
+illustrators:
+- Aya Kusube
 ---
 set: ex-sandstorm
 number: '63'
@@ -2284,7 +2346,8 @@ damage modifiers:
   operation: ×
   type: Fighting
 retreat: 1
-illustrator: Kouki Saitou
+illustrators:
+- Kouki Saitou
 ---
 set: ex-sandstorm
 number: '64'
@@ -2316,7 +2379,8 @@ damage modifiers:
   operation: ×
   type: Psychic
 retreat: 1
-illustrator: Midori Harada
+illustrators:
+- Midori Harada
 ---
 set: ex-sandstorm
 number: '65'
@@ -2348,7 +2412,8 @@ damage modifiers:
   operation: ×
   type: Water
 retreat: 1
-illustrator: Hajime Kusajima
+illustrators:
+- Hajime Kusajima
 ---
 set: ex-sandstorm
 number: '66'
@@ -2379,7 +2444,8 @@ damage modifiers:
   operation: ×
   type: Lightning
 retreat: 1
-illustrator: Tomokazu Komiya
+illustrators:
+- Tomokazu Komiya
 ---
 set: ex-sandstorm
 number: '67'
@@ -2409,7 +2475,8 @@ damage modifiers:
   operation: ×
   type: Lightning
 retreat: 1
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: ex-sandstorm
 number: '68'
@@ -2439,7 +2506,8 @@ damage modifiers:
   operation: ×
   type: Lightning
 retreat: 1
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: ex-sandstorm
 number: '69'
@@ -2470,7 +2538,8 @@ damage modifiers:
   operation: ×
   type: Psychic
 retreat: 1
-illustrator: Kouki Saitou
+illustrators:
+- Kouki Saitou
 ---
 set: ex-sandstorm
 number: '70'
@@ -2507,7 +2576,8 @@ damage modifiers:
   operation: ×
   type: Lightning
 retreat: 1
-illustrator: Kouki Saitou
+illustrators:
+- Kouki Saitou
 ---
 set: ex-sandstorm
 number: '71'
@@ -2542,7 +2612,8 @@ damage modifiers:
   operation: ×
   type: Water
 retreat: 3
-illustrator: Midori Harada
+illustrators:
+- Midori Harada
 ---
 set: ex-sandstorm
 number: '72'
@@ -2572,7 +2643,8 @@ damage modifiers:
   operation: ×
   type: Fighting
 retreat: 1
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: ex-sandstorm
 number: '73'
@@ -2599,7 +2671,8 @@ damage modifiers:
   operation: ×
   type: Lightning
 retreat: 1
-illustrator: Kouki Saitou
+illustrators:
+- Kouki Saitou
 ---
 set: ex-sandstorm
 number: '74'
@@ -2633,7 +2706,8 @@ damage modifiers:
   operation: ×
   type: Psychic
 retreat: 1
-illustrator: Hajime Kusajima
+illustrators:
+- Hajime Kusajima
 ---
 set: ex-sandstorm
 number: '75'
@@ -2661,7 +2735,8 @@ damage modifiers:
   operation: ×
   type: Grass
 retreat: 1
-illustrator: Kouki Saitou
+illustrators:
+- Kouki Saitou
 ---
 set: ex-sandstorm
 number: '76'
@@ -2689,7 +2764,8 @@ damage modifiers:
   operation: ×
   type: Fire
 retreat: 1
-illustrator: Atsuko Nishida
+illustrators:
+- Atsuko Nishida
 ---
 set: ex-sandstorm
 number: '77'
@@ -2715,7 +2791,8 @@ damage modifiers:
   operation: ×
   type: Fire
 retreat: 1
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: ex-sandstorm
 number: '78'
@@ -2751,7 +2828,8 @@ damage modifiers:
   operation: '-'
   type: Water
 retreat: 1
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: ex-sandstorm
 number: '79'
@@ -2785,7 +2863,8 @@ damage modifiers:
   operation: ×
   type: Fighting
 retreat: 1
-illustrator: Kagemaru Himeno
+illustrators:
+- Kagemaru Himeno
 ---
 set: ex-sandstorm
 number: '80'
@@ -2813,7 +2892,8 @@ damage modifiers:
   operation: ×
   type: Fighting
 retreat: 1
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: ex-sandstorm
 number: '81'
@@ -2848,7 +2928,8 @@ damage modifiers:
   operation: '-'
   type: Fighting
 retreat: 1
-illustrator: Aya Kusube
+illustrators:
+- Aya Kusube
 ---
 set: ex-sandstorm
 number: '82'
@@ -2880,7 +2961,8 @@ damage modifiers:
   operation: ×
   type: Grass
 retreat: 1
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: ex-sandstorm
 number: '83'
@@ -2912,7 +2994,8 @@ damage modifiers:
   operation: ×
   type: Lightning
 retreat: 3
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: ex-sandstorm
 number: '84'
@@ -2942,7 +3025,8 @@ damage modifiers:
   operation: '-'
   type: Fighting
 retreat: 1
-illustrator: Kagemaru Himeno
+illustrators:
+- Kagemaru Himeno
 ---
 set: ex-sandstorm
 number: '85'
@@ -2973,7 +3057,8 @@ damage modifiers:
   operation: ×
   type: Fighting
 retreat: 1
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: ex-sandstorm
 number: '86'
@@ -2988,7 +3073,8 @@ mechanics:
 - type: effect
   text: >-
     Remove all Special Conditions from each of your Active Pokémon.
-illustrator: Ryo Ueda
+illustrators:
+- Ryo Ueda
 ---
 set: ex-sandstorm
 number: '87'
@@ -3012,7 +3098,8 @@ mechanics:
     Search your deck for up to 3 different types of Basic Pokémon
     cards (excluding Baby Pokémon), show them to your opponent
     and put them into your hand. Shuffle your deck afterward.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: ex-sandstorm
 number: '88'
@@ -3030,7 +3117,8 @@ mechanics:
     1 or Stage 2 card that evolves from that Pokémon in your hand,
     put that card on the Basic Pokémon. (This counts as evolving
     that Pokémon.)
-illustrator: Ryo Ueda
+illustrators:
+- Ryo Ueda
 ---
 set: ex-sandstorm
 number: '89'
@@ -3055,7 +3143,8 @@ mechanics:
     Pokémon (choose 1 if there are 2) and put it on your Active
     Pokémon. (This counts as evolving that Pokémon.) Shuffle your
     deck afterward.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: ex-sandstorm
 number: '90'
@@ -3091,7 +3180,8 @@ mechanics:
     If Claw Fossil is your Active Pokémon and is damaged by an
     opponent's attack (even if Claw Fossil is Knocked Out), put
     1 damage counter on the Attacking Pokémon.
-illustrator: Ryo Ueda
+illustrators:
+- Ryo Ueda
 ---
 set: ex-sandstorm
 number: '91'
@@ -3120,7 +3210,8 @@ mechanics:
     Knocked Out Pokémon. (Discard it anyway.) At any time during
     your turn before your attack, you may discard Mysterious Fossil
     from play.
-illustrator: Keiji Kinebuchi
+illustrators:
+- Keiji Kinebuchi
 ---
 set: ex-sandstorm
 number: '92'
@@ -3155,7 +3246,8 @@ mechanics:
   text: >-
     At any time between turns, remove 1 damage counter from Root
     Fossil.
-illustrator: Ryo Ueda
+illustrators:
+- Ryo Ueda
 ---
 set: ex-sandstorm
 number: '93'
@@ -3176,7 +3268,8 @@ mechanics:
     at a time. (Has no effect other than providing Energy.) Multi
     Energy provides C Energy when attached to a Pokémon that already
     has Special Energy cards attached to it.
-illustrator: Takumi Akabane
+illustrators:
+- Takumi Akabane
 ---
 set: ex-sandstorm
 number: '94'
@@ -3219,7 +3312,8 @@ damage modifiers:
   operation: '-'
   type: Fighting
 retreat: 1
-illustrator: Hikaru Koike
+illustrators:
+- Hikaru Koike
 ---
 set: ex-sandstorm
 number: '95'
@@ -3262,7 +3356,8 @@ damage modifiers:
   operation: '-'
   type: Grass
 retreat: 4
-illustrator: Hikaru Koike
+illustrators:
+- Hikaru Koike
 ---
 set: ex-sandstorm
 number: '96'
@@ -3301,7 +3396,8 @@ damage modifiers:
   operation: ×
   type: Psychic
 retreat: 2
-illustrator: Hikaru Koike
+illustrators:
+- Hikaru Koike
 ---
 set: ex-sandstorm
 number: '97'
@@ -3342,7 +3438,8 @@ damage modifiers:
   operation: ×
   type: Lightning
 retreat: 2
-illustrator: Ryo Ueda
+illustrators:
+- Ryo Ueda
 ---
 set: ex-sandstorm
 number: '98'
@@ -3377,7 +3474,8 @@ damage modifiers:
   operation: ×
   type: Fighting
 retreat: 1
-illustrator: Ryo Ueda
+illustrators:
+- Ryo Ueda
 ---
 set: ex-sandstorm
 number: '99'
@@ -3418,7 +3516,8 @@ damage modifiers:
   operation: ×
   type: Water
 retreat: 2
-illustrator: Hikaru Koike
+illustrators:
+- Hikaru Koike
 ---
 set: ex-sandstorm
 number: '100'
@@ -3458,4 +3557,5 @@ damage modifiers:
   operation: ×
   type: Lightning
 retreat: 5
-illustrator: Ryo Ueda
+illustrators:
+- Ryo Ueda

@@ -342,13 +342,20 @@ def import_print(session, card_info, do_commit=True):
             return previous
         for scan in previous.scans:
             session.delete(scan)
+        for pi in previous.print_illustrators:
+            session.delete(pi)
         session.delete(previous)
 
     card = import_card(session,
         {k: v for k, v in card_info.items() if k in CARD_EXPORT_KEYS})
 
     # Print bits
-    illustrator = get_illustrator(session, en, card_info.get('illustrator'))
+    illustrator_names = card_info.get('illustrators', ())
+    if 'illustrator' in card_info:
+        illustrators.append(card_info.get('illustrator'))
+    illustrators = [get_illustrator(session, en, name)
+        for name in illustrator_names]
+
     rarity = util.get(session, tcg_tables.Rarity,
                         card_info.get('rarity'))
 
@@ -367,7 +374,6 @@ def import_print(session, card_info, do_commit=True):
     card_print.set_number = card_info.get('number')
     card_print.order = card_info.get('order')
     card_print.rarity = rarity
-    card_print.illustrator = illustrator
     card_print.holographic = card_info.get('holographic')
 
     scan = tcg_tables.Scan()
@@ -377,6 +383,13 @@ def import_print(session, card_info, do_commit=True):
     session.add(scan)
 
     session.add(card_print)
+
+    for i, illustrator in enumerate(illustrators):
+        link = tcg_tables.PrintIllustrator()
+        link.print_ = card_print
+        link.illustrator = illustrator
+        link.order = i
+        session.add(link)
 
     if dex_number or any(x in card_info for x in (
             'height', 'weight', 'dex entry', 'species')):
@@ -474,7 +487,7 @@ PRINT_EXPORT_KEYS = [
     'types', 'hp', 'stage', 'evolves from', 'evolves to', 'legal',
     'filename', 'pokemon', 'subclasses', 'mechanics', 'damage modifiers',
     'retreat', 'dex number', 'species', 'weight', 'height', 'dex entry',
-    'illustrator',
+    'illustrators',
 ]
 
 def export_print(print_):
@@ -487,7 +500,7 @@ def export_print(print_):
         'order': print_.order,
         'rarity': print_.rarity.identifier,
         'holographic': print_.holographic,
-        'illustrator': print_.illustrator.name
+        'illustrators': [il.name for il in print_.illustrators]
     })
     [print_info['filename']] = [s.filename for s in print_.scans]
     if flavor and flavor.species:

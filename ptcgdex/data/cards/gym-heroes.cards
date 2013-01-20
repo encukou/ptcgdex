@@ -32,7 +32,8 @@ dex number: 146
 species: Flame
 weight: 132
 height: 6'7
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: gym-heroes
 number: '2'
@@ -78,7 +79,8 @@ dex number: 112
 species: Drill
 weight: 265
 height: 6'3
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: gym-heroes
 number: '3'
@@ -120,7 +122,8 @@ dex number: 36
 species: Fairy
 weight: 88
 height: 4'3
-illustrator: Atsuko Nishida
+illustrators:
+- Atsuko Nishida
 ---
 set: gym-heroes
 number: '4'
@@ -165,7 +168,8 @@ dex number: 148
 species: Dragon
 weight: 36
 height: 13'1
-illustrator: Atsuko Nishida
+illustrators:
+- Atsuko Nishida
 ---
 set: gym-heroes
 number: '5'
@@ -213,7 +217,8 @@ dex number: 45
 species: Flower
 weight: 41
 height: 3'11
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: gym-heroes
 number: '6'
@@ -256,7 +261,8 @@ dex number: 125
 species: Electric
 weight: 66
 height: 3'7
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: gym-heroes
 number: '7'
@@ -301,7 +307,8 @@ dex number: 22
 species: Beak
 weight: 84
 height: 3'11
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: gym-heroes
 number: '8'
@@ -345,7 +352,8 @@ dex number: 82
 species: Magnet
 weight: 132
 height: 3'3
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: gym-heroes
 number: '9'
@@ -386,7 +394,8 @@ dex number: 117
 species: Dragon
 weight: 55
 height: 3'1
-illustrator: Atsuko Nishida
+illustrators:
+- Atsuko Nishida
 ---
 set: gym-heroes
 number: '10'
@@ -429,7 +438,8 @@ dex number: 73
 species: Jellyfish
 weight: 121
 height: 5'3
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: gym-heroes
 number: '11'
@@ -471,7 +481,8 @@ dex number: 107
 species: Punching
 weight: 111
 height: 4'7
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: gym-heroes
 number: '12'
@@ -515,7 +526,8 @@ dex number: 146
 species: Flame
 weight: 132
 height: 6'7
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: gym-heroes
 number: '13'
@@ -559,7 +571,8 @@ dex number: 123
 species: Mantis
 weight: 123
 height: 4'11
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: gym-heroes
 number: '14'
@@ -603,7 +616,8 @@ dex number: 94
 species: Shadow
 weight: 89
 height: 4'11
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: gym-heroes
 number: '15'
@@ -619,7 +633,8 @@ mechanics:
   text: >-
     Remove 1 damage counter from each of your Pokémon that has
     any damage counters on it.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: gym-heroes
 number: '16'
@@ -635,7 +650,8 @@ mechanics:
   text: >-
     You may draw up to 3 cards, then your opponent may draw up
     to 3 cards.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: gym-heroes
 number: '17'
@@ -654,7 +670,8 @@ mechanics:
     into play as your Active Pokémon. Put your old Active Pokémon
     onto your Bench. (You can't play this card if your Bench is
     full.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: gym-heroes
 number: '18'
@@ -673,7 +690,8 @@ mechanics:
     Pokémon (after applying Weakness and Resistance), and if the
     attacking Pokémon has Misty in its name, the attack does 20
     more damage to the Defending Pokémon.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: gym-heroes
 number: '19'
@@ -690,7 +708,8 @@ mechanics:
     Flip a coin. If heads, choose up to 3 cards at random from
     your opponent's hand (don't look at them). Your opponent shuffles
     those cards into his or her deck.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: gym-heroes
 number: '20'
@@ -731,7 +750,8 @@ dex number: 76
 species: Megaton
 weight: 662
 height: 4'7
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: gym-heroes
 number: '21'
@@ -773,7 +793,8 @@ dex number: 95
 species: Rock Snake
 weight: 463
 height: 28'10
-illustrator: Benimaru Itoh
+illustrators:
+- Benimaru Itoh
 ---
 set: gym-heroes
 number: '22'
@@ -818,7 +839,8 @@ dex number: 111
 species: Spikes
 weight: 254
 height: 3'3
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: gym-heroes
 number: '23'
@@ -865,7 +887,8 @@ dex number: 28
 species: Mouse
 weight: 65
 height: 3'3
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: gym-heroes
 number: '24'
@@ -905,7 +928,8 @@ dex number: 41
 species: Bat
 weight: 17
 height: 2'7
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: gym-heroes
 number: '25'
@@ -950,7 +974,8 @@ dex number: 35
 species: Fairy
 weight: 17
 height: 2'0
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: gym-heroes
 number: '26'
@@ -991,7 +1016,8 @@ dex number: 71
 species: Flycatcher
 weight: 34
 height: 5'7
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: gym-heroes
 number: '27'
@@ -1033,7 +1059,8 @@ dex number: 125
 species: Electric
 weight: 66
 height: 3'7
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: gym-heroes
 number: '28'
@@ -1073,7 +1100,8 @@ dex number: 26
 species: Mouse
 weight: 66
 height: 2'7
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: gym-heroes
 number: '29'
@@ -1116,7 +1144,8 @@ dex number: 91
 species: Bivalve
 weight: 292
 height: 4'11
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: gym-heroes
 number: '30'
@@ -1149,7 +1178,8 @@ dex number: 118
 species: Goldfish
 weight: 33
 height: 2'0
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: gym-heroes
 number: '31'
@@ -1185,7 +1215,8 @@ dex number: 62
 species: Tadpole
 weight: 119
 height: 4'3
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: gym-heroes
 number: '32'
@@ -1225,7 +1256,8 @@ dex number: 72
 species: Jellyfish
 weight: 100
 height: 2'11
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: gym-heroes
 number: '33'
@@ -1268,7 +1300,8 @@ dex number: 143
 species: Sleeping
 weight: 1014
 height: 6'11
-illustrator: Shin-ichi Yoshida
+illustrators:
+- Shin-ichi Yoshida
 ---
 set: gym-heroes
 number: '34'
@@ -1314,7 +1347,8 @@ dex number: 49
 species: Poisonmoth
 weight: 28
 height: 4'11
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: gym-heroes
 number: '35'
@@ -1356,7 +1390,8 @@ dex number: 58
 species: Puppy
 weight: 42
 height: 2'4
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: gym-heroes
 number: '36'
@@ -1400,7 +1435,8 @@ dex number: 115
 species: Parent
 weight: 176
 height: 7'3
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: gym-heroes
 number: '37'
@@ -1444,7 +1480,8 @@ dex number: 126
 species: Spitfire
 weight: 98
 height: 4'3
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: gym-heroes
 number: '38'
@@ -1484,7 +1521,8 @@ dex number: 74
 species: Rock
 weight: 44
 height: 1'4
-illustrator: Atsuko Nishida
+illustrators:
+- Atsuko Nishida
 ---
 set: gym-heroes
 number: '39'
@@ -1526,7 +1564,8 @@ dex number: 42
 species: Bat
 weight: 121
 height: 5'3
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: gym-heroes
 number: '40'
@@ -1562,7 +1601,8 @@ dex number: 75
 species: Rock
 weight: 232
 height: 3'3
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: gym-heroes
 number: '41'
@@ -1604,7 +1644,8 @@ dex number: 108
 species: Licking
 weight: 144
 height: 3'11
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: gym-heroes
 number: '42'
@@ -1647,7 +1688,8 @@ dex number: 147
 species: Dragon
 weight: 7
 height: 5'11
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: gym-heroes
 number: '43'
@@ -1689,7 +1731,8 @@ dex number: 102
 species: Egg
 weight: 6
 height: 1'4
-illustrator: Atsuko Nishida
+illustrators:
+- Atsuko Nishida
 ---
 set: gym-heroes
 number: '44'
@@ -1730,7 +1773,8 @@ dex number: 103
 species: Coconut
 weight: 265
 height: 6'7
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: gym-heroes
 number: '45'
@@ -1773,7 +1817,8 @@ dex number: 44
 species: Weed
 weight: 19
 height: 2'7
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: gym-heroes
 number: '46'
@@ -1816,7 +1861,8 @@ dex number: 44
 species: Weed
 weight: 19
 height: 2'7
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: gym-heroes
 number: '47'
@@ -1856,7 +1902,8 @@ dex number: 43
 species: Weed
 weight: 12
 height: 1'8
-illustrator: Atsuko Nishida
+illustrators:
+- Atsuko Nishida
 ---
 set: gym-heroes
 number: '48'
@@ -1897,7 +1944,8 @@ dex number: 70
 species: Flycatcher
 weight: 14
 height: 3'3
-illustrator: Atsuko Nishida
+illustrators:
+- Atsuko Nishida
 ---
 set: gym-heroes
 number: '49'
@@ -1935,7 +1983,8 @@ dex number: 70
 species: Flycatcher
 weight: 14
 height: 3'3
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: gym-heroes
 number: '50'
@@ -1977,7 +2026,8 @@ dex number: 81
 species: Magnet
 weight: 13
 height: 1'0
-illustrator: Atsuko Nishida
+illustrators:
+- Atsuko Nishida
 ---
 set: gym-heroes
 number: '51'
@@ -2016,7 +2066,8 @@ dex number: 20
 species: Rat
 weight: 41
 height: 2'4
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: gym-heroes
 number: '52'
@@ -2050,7 +2101,8 @@ dex number: 21
 species: Tiny Bird
 weight: 4
 height: 1'0
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: gym-heroes
 number: '53'
@@ -2095,7 +2147,8 @@ dex number: 61
 species: Tadpole
 weight: 44
 height: 3'4
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: gym-heroes
 number: '54'
@@ -2135,7 +2188,8 @@ dex number: 54
 species: Duck
 weight: 43
 height: 2'7
-illustrator: Atsuko Nishida
+illustrators:
+- Atsuko Nishida
 ---
 set: gym-heroes
 number: '55'
@@ -2177,7 +2231,8 @@ dex number: 119
 species: Goldfish
 weight: 86
 height: 4'3
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: gym-heroes
 number: '56'
@@ -2220,7 +2275,8 @@ dex number: 121
 species: Mysterious
 weight: 176
 height: 3'7
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: gym-heroes
 number: '57'
@@ -2255,7 +2311,8 @@ dex number: 72
 species: Jellyfish
 weight: 100
 height: 2'11
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: gym-heroes
 number: '58'
@@ -2291,7 +2348,8 @@ dex number: 93
 species: Gas
 weight: 0.2
 height: 5'3
-illustrator: Atsuko Nishida
+illustrators:
+- Atsuko Nishida
 ---
 set: gym-heroes
 number: '59'
@@ -2331,7 +2389,8 @@ dex number: 124
 species: Human Shape
 weight: 90
 height: 4'7
-illustrator: Atsuko Nishida
+illustrators:
+- Atsuko Nishida
 ---
 set: gym-heroes
 number: '60'
@@ -2374,7 +2433,8 @@ dex number: 80
 species: Hermitcrab
 weight: 173
 height: 5'3
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: gym-heroes
 number: '61'
@@ -2414,7 +2474,8 @@ dex number: 4
 species: Lizard
 weight: 19
 height: 2'0
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: gym-heroes
 number: '62'
@@ -2449,7 +2510,8 @@ dex number: 58
 species: Puppy
 weight: 42
 height: 2'4
-illustrator: Atsuko Nishida
+illustrators:
+- Atsuko Nishida
 ---
 set: gym-heroes
 number: '63'
@@ -2484,7 +2546,8 @@ dex number: 77
 species: Fire Horse
 weight: 66
 height: 3'3
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: gym-heroes
 number: '64'
@@ -2530,7 +2593,8 @@ dex number: 128
 species: Wild Bull
 weight: 195
 height: 4'7
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: gym-heroes
 number: '65'
@@ -2570,7 +2634,8 @@ dex number: 37
 species: Fox
 weight: 22
 height: 2'0
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: gym-heroes
 number: '66'
@@ -2613,7 +2678,8 @@ dex number: 74
 species: Rock
 weight: 44
 height: 1'4
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: gym-heroes
 number: '67'
@@ -2650,7 +2716,8 @@ dex number: 56
 species: Pig Monkey
 weight: 62
 height: 1'8
-illustrator: Atsuko Nishida
+illustrators:
+- Atsuko Nishida
 ---
 set: gym-heroes
 number: '68'
@@ -2689,7 +2756,8 @@ dex number: 56
 species: Pig Monkey
 weight: 62
 height: 1'8
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: gym-heroes
 number: '69'
@@ -2726,7 +2794,8 @@ dex number: 95
 species: Rock Snake
 weight: 463
 height: 28'10
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: gym-heroes
 number: '70'
@@ -2764,7 +2833,8 @@ dex number: 111
 species: Spikes
 weight: 254
 height: 3'3
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: gym-heroes
 number: '71'
@@ -2806,7 +2876,8 @@ dex number: 27
 species: Mouse
 weight: 26
 height: 2'0
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: gym-heroes
 number: '72'
@@ -2844,7 +2915,8 @@ dex number: 27
 species: Mouse
 weight: 26
 height: 2'0
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: gym-heroes
 number: '73'
@@ -2883,7 +2955,8 @@ dex number: 37
 species: Fox
 weight: 22
 height: 2'0
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: gym-heroes
 number: '74'
@@ -2923,7 +2996,8 @@ dex number: 41
 species: Bat
 weight: 17
 height: 2'7
-illustrator: Atsuko Nishida
+illustrators:
+- Atsuko Nishida
 ---
 set: gym-heroes
 number: '75'
@@ -2961,7 +3035,8 @@ dex number: 69
 species: Flower
 weight: 9
 height: 2'4
-illustrator: Atsuko Nishida
+illustrators:
+- Atsuko Nishida
 ---
 set: gym-heroes
 number: '76'
@@ -2995,7 +3070,8 @@ dex number: 69
 species: Flower
 weight: 9
 height: 2'4
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: gym-heroes
 number: '77'
@@ -3038,7 +3114,8 @@ dex number: 102
 species: Egg
 weight: 6
 height: 1'4
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: gym-heroes
 number: '78'
@@ -3080,7 +3157,8 @@ dex number: 43
 species: Weed
 weight: 12
 height: 1'8
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: gym-heroes
 number: '79'
@@ -3119,7 +3197,8 @@ dex number: 114
 species: Vine
 weight: 77
 height: 3'3
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: gym-heroes
 number: '80'
@@ -3157,7 +3236,8 @@ dex number: 81
 species: Magnet
 weight: 13
 height: 1'0
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: gym-heroes
 number: '81'
@@ -3197,7 +3277,8 @@ dex number: 25
 species: Mouse
 weight: 13
 height: 1'4
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: gym-heroes
 number: '82'
@@ -3238,7 +3319,8 @@ dex number: 19
 species: Rat
 weight: 8
 height: 1'0
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: gym-heroes
 number: '83'
@@ -3282,7 +3364,8 @@ dex number: 21
 species: Tiny Bird
 weight: 4
 height: 1'0
-illustrator: Atsuko Nishida
+illustrators:
+- Atsuko Nishida
 ---
 set: gym-heroes
 number: '84'
@@ -3324,7 +3407,8 @@ dex number: 100
 species: Ball
 weight: 23
 height: 1'8
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: gym-heroes
 number: '85'
@@ -3364,7 +3448,8 @@ dex number: 118
 species: Goldfish
 weight: 33
 height: 2'0
-illustrator: Atsuko Nishida
+illustrators:
+- Atsuko Nishida
 ---
 set: gym-heroes
 number: '86'
@@ -3403,7 +3488,8 @@ dex number: 116
 species: Dragon
 weight: 18
 height: 1'4
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: gym-heroes
 number: '87'
@@ -3444,7 +3530,8 @@ dex number: 60
 species: Tadpole
 weight: 27
 height: 2'0
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: gym-heroes
 number: '88'
@@ -3476,7 +3563,8 @@ dex number: 86
 species: Sea Lion
 weight: 198
 height: 3'7
-illustrator: Atsuko Nishida
+illustrators:
+- Atsuko Nishida
 ---
 set: gym-heroes
 number: '89'
@@ -3515,7 +3603,8 @@ dex number: 90
 species: Bivalve
 weight: 9
 height: 1'0
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: gym-heroes
 number: '90'
@@ -3550,7 +3639,8 @@ dex number: 120
 species: Starshape
 weight: 76
 height: 2'7
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: gym-heroes
 number: '91'
@@ -3584,7 +3674,8 @@ dex number: 63
 species: Psi
 weight: 43
 height: 2'11
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: gym-heroes
 number: '92'
@@ -3622,7 +3713,8 @@ dex number: 96
 species: Hypnosis
 weight: 71
 height: 3'3
-illustrator: Atsuko Nishida
+illustrators:
+- Atsuko Nishida
 ---
 set: gym-heroes
 number: '93'
@@ -3657,7 +3749,8 @@ dex number: 92
 species: Gas
 weight: 0.2
 height: 4'3
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: gym-heroes
 number: '94'
@@ -3697,7 +3790,8 @@ dex number: 122
 species: Barrier
 weight: 120
 height: 4'3
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: gym-heroes
 number: '95'
@@ -3731,7 +3825,8 @@ dex number: 79
 species: Dopey
 weight: 79
 height: 3'11
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: gym-heroes
 number: '96'
@@ -3772,7 +3867,8 @@ dex number: 48
 species: Insect
 weight: 66
 height: 3'3
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: gym-heroes
 number: '97'
@@ -3793,7 +3889,8 @@ mechanics:
     If your opponent guessed right, he or she draws 2 cards. If
     your opponent guessed wrong, you draw 2 cards. Either way,
     return the card to your hand.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: gym-heroes
 number: '98'
@@ -3809,7 +3906,8 @@ mechanics:
   text: >-
     Remove 1 damage counter from each of your Pokémon that has
     any damage counters on it.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: gym-heroes
 number: '99'
@@ -3828,7 +3926,8 @@ mechanics:
     your turn. If that Pokémon attacks and does damage to the
     Defending Pokémon, you may reduce that damage by any amount
     (rounded to the nearest 10).
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: gym-heroes
 number: '100'
@@ -3844,7 +3943,8 @@ mechanics:
   text: >-
     You may draw up to 3 cards, then your opponent may draw up
     to 3 cards.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: gym-heroes
 number: '101'
@@ -3863,7 +3963,8 @@ mechanics:
     into play as your Active Pokémon. Put your old Active Pokémon
     onto your Bench. (You can't play this card if your Bench is
     full.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: gym-heroes
 number: '102'
@@ -3882,7 +3983,8 @@ mechanics:
     Pokémon (after applying Weakness and Resistance), and if the
     attacking Pokémon has Misty in its name, the attack does 20
     more damage to the Defending Pokémon.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: gym-heroes
 number: '103'
@@ -3904,7 +4006,8 @@ mechanics:
   text: >-
     A player must discard 2 cards from his or her hand in order
     to play an Energy Removal or Super Energy Removal card.
-illustrator: Keiji Kinebuchi
+illustrators:
+- Keiji Kinebuchi
 ---
 set: gym-heroes
 number: '104'
@@ -3925,7 +4028,8 @@ mechanics:
 - type: effect
   text: >-
     Each player pays 1 more to retreat his or her Active Pokémon.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: gym-heroes
 number: '105'
@@ -3942,7 +4046,8 @@ mechanics:
     You can't play this card if you have any cards in your hand
     other than Blaine's Last Resort. Show your hand to your opponent,
     then draw 5 cards.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: gym-heroes
 number: '106'
@@ -3959,7 +4064,8 @@ mechanics:
     Search your deck for a Basic Pokémon or Evolution card with
     Brock in its name. Show that card to your opponent, then put
     it into your hand. Shuffle your deck afterward.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: gym-heroes
 number: '107'
@@ -3983,7 +4089,8 @@ mechanics:
     an Energy card attached to 1 of his or her Pokémon with Erika
     in its name. If that player does so, that Pokémon is no longer
     Asleep, Confused, Paralyzed or Poisoned.
-illustrator: Keiji Kinebuchi
+illustrators:
+- Keiji Kinebuchi
 ---
 set: gym-heroes
 number: '108'
@@ -4005,7 +4112,8 @@ mechanics:
   text: >-
     Each player pays 1 less to retreat his or her Pokémon if it
     has Misty in its name.
-illustrator: Keiji Kinebuchi
+illustrators:
+- Keiji Kinebuchi
 ---
 set: gym-heroes
 number: '109'
@@ -4023,7 +4131,8 @@ mechanics:
     Pokémon and/or Evolution cards with Erika in their names from
     your deck. Show those cards to your opponent, then put them
     into your hand. Shuffle your deck afterward.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: gym-heroes
 number: '110'
@@ -4040,7 +4149,8 @@ mechanics:
     Look at your opponent's hand. If he or she has any Basic Pokémon
     cards there, you may put any number of them onto your opponent's
     Bench (as long as there's room).
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: gym-heroes
 number: '111'
@@ -4058,7 +4168,8 @@ mechanics:
     cards in your hand. Show your hand to your opponent, then
     search your deck for a Basic Pokémon card, show it to your
     opponent, and put it into your hand. Shuffle your deck afterward.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: gym-heroes
 number: '112'
@@ -4075,7 +4186,8 @@ mechanics:
     Your opponent chooses 1 of the following: everyone chooses
     1 of his or her own Prizes and puts it into his or her hand,
     or you draw a card.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: gym-heroes
 number: '113'
@@ -4093,7 +4205,8 @@ mechanics:
     opponent's Benched Pokémon and return it and all cards attached
     to it to his or her hand. If 1 or both of them are tails,
     your turn ends immediately (you can't attack this turn).
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: gym-heroes
 number: '114'
@@ -4109,7 +4222,8 @@ mechanics:
   text: >-
     Look at the top 7 cards of your deck. Choose 2 of those cards
     and put them into your hand. Discard the rest.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: gym-heroes
 number: '115'
@@ -4131,7 +4245,8 @@ mechanics:
   text: >-
     Don't apply Resistance to any attacks made by Pokémon with
     Brock in their names.
-illustrator: Keiji Kinebuchi
+illustrators:
+- Keiji Kinebuchi
 ---
 set: gym-heroes
 number: '116'
@@ -4148,7 +4263,8 @@ mechanics:
     For your attack this turn, your Active Pokémon can use any
     attack from its Basic Pokémon card or any Evolution card attached
     to it. (You still have to pay for that attack's Energy cost.)
-illustrator: Sumiyoshi Kizuki
+illustrators:
+- Sumiyoshi Kizuki
 ---
 set: gym-heroes
 number: '117'
@@ -4167,7 +4283,8 @@ mechanics:
     If that Pokémon uses an attack that involves flipping coins,
     Sabrina's ESP lets you re-flip those coins once. If you do,
     re-flip all the coins.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: gym-heroes
 number: '118'
@@ -4184,7 +4301,8 @@ mechanics:
     Look at your opponent's hand. Then, you may discard as many
     other cards as you want from your hand and draw that many
     cards.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: gym-heroes
 number: '119'
@@ -4203,7 +4321,8 @@ mechanics:
     At the end of your opponent's next turn, your opponent puts
     those cards back into his or her hand. If tails, your turn
     ends
-illustrator: Sumiyoshi Kizuki
+illustrators:
+- Sumiyoshi Kizuki
 ---
 set: gym-heroes
 number: '120'
@@ -4230,7 +4349,8 @@ mechanics:
     damage to the Defending Pokémon. If tails, the attacking Pokémon
     does 10 damage to itself in addition to whatever its attack
     usually does.
-illustrator: Keiji Kinebuchi
+illustrators:
+- Keiji Kinebuchi
 ---
 set: gym-heroes
 number: '121'
@@ -4246,7 +4366,8 @@ mechanics:
   text: >-
     Discard any number of other cards from your hand, then flip
     a coin. If heads, draw twice that many cards.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: gym-heroes
 number: '122'
@@ -4262,7 +4383,8 @@ mechanics:
   text: >-
     For each of your Pokémon, you may return any number of Energy
     cards attached to it to your hand.
-illustrator: Keiji Kinebuchi
+illustrators:
+- Keiji Kinebuchi
 ---
 set: gym-heroes
 number: '123'
@@ -4280,7 +4402,8 @@ mechanics:
     The winner shuffles his or her hand into his or her deck and
     draws a new hand of 5 cards. (If you don't know how to play
     Rock-Paper-Scissors, flip a coin to decide who's the winner.)
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: gym-heroes
 number: '124'
@@ -4306,7 +4429,8 @@ mechanics:
     and all cards attached to it to his or her hand. (If both
     players have to return a Pokémon, your opponent returns a
     Pokémon first.)
-illustrator: Keiji Kinebuchi
+illustrators:
+- Keiji Kinebuchi
 ---
 set: gym-heroes
 number: '125'
@@ -4322,7 +4446,8 @@ mechanics:
   text: >-
     Each player shuffles his or her hand into his or her deck
     and draws a new hand of the same number of cards.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: gym-heroes
 number: '126'
@@ -4339,7 +4464,8 @@ mechanics:
     Count the number of cards in your discard pile and shuffle
     them into your deck. Then discard that many cards from the
     top of your deck.
-illustrator: Keiji Kinebuchi
+illustrators:
+- Keiji Kinebuchi
 ---
 set: gym-heroes
 number: '127'
@@ -4356,7 +4482,8 @@ mechanics:
 - type: effect
   text: >-
     Provides 1 Fighting Energy.
-illustrator: Keiji Kinebuchi
+illustrators:
+- Keiji Kinebuchi
 ---
 set: gym-heroes
 number: '128'
@@ -4373,7 +4500,8 @@ mechanics:
 - type: effect
   text: >-
     Provides 1 Fire Energy.
-illustrator: Keiji Kinebuchi
+illustrators:
+- Keiji Kinebuchi
 ---
 set: gym-heroes
 number: '129'
@@ -4390,7 +4518,8 @@ mechanics:
 - type: effect
   text: >-
     Provides 1 Grass Energy.
-illustrator: Keiji Kinebuchi
+illustrators:
+- Keiji Kinebuchi
 ---
 set: gym-heroes
 number: '130'
@@ -4407,7 +4536,8 @@ mechanics:
 - type: effect
   text: >-
     Provides 1 Lightning Energy.
-illustrator: Keiji Kinebuchi
+illustrators:
+- Keiji Kinebuchi
 ---
 set: gym-heroes
 number: '131'
@@ -4424,7 +4554,8 @@ mechanics:
 - type: effect
   text: >-
     Provides 1 Psychic Energy.
-illustrator: Keiji Kinebuchi
+illustrators:
+- Keiji Kinebuchi
 ---
 set: gym-heroes
 number: '132'
@@ -4441,4 +4572,5 @@ mechanics:
 - type: effect
   text: >-
     Provides 1 Water Energy.
-illustrator: Keiji Kinebuchi
+illustrators:
+- Keiji Kinebuchi

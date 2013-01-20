@@ -37,7 +37,8 @@ damage modifiers:
   operation: ×
   type: Lightning
 retreat: 1
-illustrator: Sumiyoshi Kizuki
+illustrators:
+- Sumiyoshi Kizuki
 ---
 set: ex-team-rocket-returns
 number: '2'
@@ -84,7 +85,8 @@ damage modifiers:
   operation: ×
   type: Fighting
 retreat: 2
-illustrator: Emi Miwa
+illustrators:
+- Emi Miwa
 ---
 set: ex-team-rocket-returns
 number: '3'
@@ -138,7 +140,8 @@ damage modifiers:
   operation: '-'
   type: Fighting
 retreat: 1
-illustrator: Kyoko Umemoto
+illustrators:
+- Kyoko Umemoto
 ---
 set: ex-team-rocket-returns
 number: '4'
@@ -183,7 +186,8 @@ damage modifiers:
   operation: ×
   type: Fighting
 retreat: 1
-illustrator: Kouki Saitou
+illustrators:
+- Kouki Saitou
 ---
 set: ex-team-rocket-returns
 number: '5'
@@ -231,7 +235,8 @@ damage modifiers:
   operation: '-'
   type: Psychic
 retreat: 1
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: ex-team-rocket-returns
 number: '6'
@@ -276,7 +281,8 @@ damage modifiers:
   operation: ×
   type: Psychic
 retreat: 1
-illustrator: Kouki Saitou
+illustrators:
+- Kouki Saitou
 ---
 set: ex-team-rocket-returns
 number: '7'
@@ -320,7 +326,8 @@ damage modifiers:
   operation: ×
   type: Grass
 retreat: 1
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: ex-team-rocket-returns
 number: '8'
@@ -364,7 +371,8 @@ damage modifiers:
   operation: ×
   type: Lightning
 retreat: 1
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: ex-team-rocket-returns
 number: '9'
@@ -410,7 +418,8 @@ damage modifiers:
   operation: ×
   type: Grass
 retreat: 1
-illustrator: Kouki Saitou
+illustrators:
+- Kouki Saitou
 ---
 set: ex-team-rocket-returns
 number: '10'
@@ -454,7 +463,8 @@ damage modifiers:
   operation: '-'
   type: Grass
 retreat: 4
-illustrator: Kyoko Umemoto
+illustrators:
+- Kyoko Umemoto
 ---
 set: ex-team-rocket-returns
 number: '11'
@@ -496,7 +506,8 @@ damage modifiers:
 - amount: 30
   operation: '-'
   type: Water
-illustrator: Kyoko Umemoto
+illustrators:
+- Kyoko Umemoto
 ---
 set: ex-team-rocket-returns
 number: '12'
@@ -541,7 +552,8 @@ damage modifiers:
   operation: ×
   type: Lightning
 retreat: 2
-illustrator: Kagemaru Himeno
+illustrators:
+- Kagemaru Himeno
 ---
 set: ex-team-rocket-returns
 number: '13'
@@ -582,7 +594,8 @@ damage modifiers:
   operation: ×
   type: Grass
 retreat: 2
-illustrator: Tomokazu Komiya
+illustrators:
+- Tomokazu Komiya
 ---
 set: ex-team-rocket-returns
 number: '14'
@@ -626,7 +639,8 @@ damage modifiers:
   operation: '-'
   type: Fighting
 retreat: 1
-illustrator: Sumiyoshi Kizuki
+illustrators:
+- Sumiyoshi Kizuki
 ---
 set: ex-team-rocket-returns
 number: '15'
@@ -673,7 +687,8 @@ damage modifiers:
   operation: '-'
   type: Grass
 retreat: 2
-illustrator: Nakaoka
+illustrators:
+- Nakaoka
 ---
 set: ex-team-rocket-returns
 number: '16'
@@ -718,7 +733,8 @@ damage modifiers:
   operation: ×
   type: Psychic
 retreat: 1
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: ex-team-rocket-returns
 number: '17'
@@ -757,7 +773,8 @@ damage modifiers:
 - amount: 2
   operation: ×
   type: Fighting
-illustrator: Kouki Saitou
+illustrators:
+- Kouki Saitou
 ---
 set: ex-team-rocket-returns
 number: '18'
@@ -796,7 +813,8 @@ damage modifiers:
 - amount: 2
   operation: ×
   type: Grass
-illustrator: Masakazu Fukuda
+illustrators:
+- Masakazu Fukuda
 ---
 set: ex-team-rocket-returns
 number: '19'
@@ -844,7 +862,8 @@ damage modifiers:
   operation: '-'
   type: Psychic
 retreat: 2
-illustrator: Nakaoka
+illustrators:
+- Nakaoka
 ---
 set: ex-team-rocket-returns
 number: '20'
@@ -884,7 +903,8 @@ damage modifiers:
   operation: ×
   type: Grass
 retreat: 3
-illustrator: Kyoko Koizumi
+illustrators:
+- Kyoko Koizumi
 ---
 set: ex-team-rocket-returns
 number: '21'
@@ -923,7 +943,8 @@ damage modifiers:
   operation: ×
   type: Metal
 retreat: 1
-illustrator: Yuka Morii
+illustrators:
+- Yuka Morii
 ---
 set: ex-team-rocket-returns
 number: '22'
@@ -960,7 +981,8 @@ damage modifiers:
   operation: ×
   type: Fighting
 retreat: 1
-illustrator: Yuka Morii
+illustrators:
+- Yuka Morii
 ---
 set: ex-team-rocket-returns
 number: '23'
@@ -998,7 +1020,8 @@ damage modifiers:
   operation: ×
   type: Fire
 retreat: 1
-illustrator: Kagemaru Himeno
+illustrators:
+- Kagemaru Himeno
 ---
 set: ex-team-rocket-returns
 number: '24'
@@ -1032,7 +1055,8 @@ damage modifiers:
   operation: ×
   type: Water
 retreat: 1
-illustrator: Yukiko Baba
+illustrators:
+- Yukiko Baba
 ---
 set: ex-team-rocket-returns
 number: '25'
@@ -1071,7 +1095,8 @@ damage modifiers:
   operation: '-'
   type: Fighting
 retreat: 1
-illustrator: Aya Kusube
+illustrators:
+- Aya Kusube
 ---
 set: ex-team-rocket-returns
 number: '26'
@@ -1107,7 +1132,8 @@ damage modifiers:
   operation: ×
   type: Grass
 retreat: 2
-illustrator: Miki Tanaka
+illustrators:
+- Miki Tanaka
 ---
 set: ex-team-rocket-returns
 number: '27'
@@ -1143,7 +1169,8 @@ damage modifiers:
   operation: ×
   type: Lightning
 retreat: 1
-illustrator: Aya Kusube
+illustrators:
+- Aya Kusube
 ---
 set: ex-team-rocket-returns
 number: '28'
@@ -1183,7 +1210,8 @@ damage modifiers:
   operation: '-'
   type: Fighting
 retreat: 1
-illustrator: Tomokazu Komiya
+illustrators:
+- Tomokazu Komiya
 ---
 set: ex-team-rocket-returns
 number: '29'
@@ -1225,7 +1253,8 @@ damage modifiers:
   operation: ×
   type: Psychic
 retreat: 1
-illustrator: Nakaoka
+illustrators:
+- Nakaoka
 ---
 set: ex-team-rocket-returns
 number: '30'
@@ -1264,7 +1293,8 @@ damage modifiers:
   operation: ×
   type: Fire
 retreat: 1
-illustrator: Kyoko Umemoto
+illustrators:
+- Kyoko Umemoto
 ---
 set: ex-team-rocket-returns
 number: '31'
@@ -1307,7 +1337,8 @@ damage modifiers:
   operation: '-'
   type: Grass
 retreat: 1
-illustrator: Emi Miwa
+illustrators:
+- Emi Miwa
 ---
 set: ex-team-rocket-returns
 number: '32'
@@ -1350,7 +1381,8 @@ damage modifiers:
   operation: '-'
   type: Grass
 retreat: 1
-illustrator: Tomoaki Imakuni
+illustrators:
+- Tomoaki Imakuni
 ---
 set: ex-team-rocket-returns
 number: '33'
@@ -1388,7 +1420,8 @@ damage modifiers:
   operation: ×
   type: Fighting
 retreat: 1
-illustrator: Masakazu Fukuda
+illustrators:
+- Masakazu Fukuda
 ---
 set: ex-team-rocket-returns
 number: '34'
@@ -1420,7 +1453,8 @@ damage modifiers:
 - amount: 2
   operation: ×
   type: Psychic
-illustrator: Masakazu Fukuda
+illustrators:
+- Masakazu Fukuda
 ---
 set: ex-team-rocket-returns
 number: '35'
@@ -1461,7 +1495,8 @@ damage modifiers:
   operation: ×
   type: Lightning
 retreat: 1
-illustrator: Nakaoka
+illustrators:
+- Nakaoka
 ---
 set: ex-team-rocket-returns
 number: '36'
@@ -1506,7 +1541,8 @@ damage modifiers:
   operation: '-'
   type: Fighting
 retreat: 2
-illustrator: Nakaoka
+illustrators:
+- Nakaoka
 ---
 set: ex-team-rocket-returns
 number: '37'
@@ -1547,7 +1583,8 @@ damage modifiers:
   operation: ×
   type: Water
 retreat: 1
-illustrator: Nakaoka
+illustrators:
+- Nakaoka
 ---
 set: ex-team-rocket-returns
 number: '38'
@@ -1587,7 +1624,8 @@ damage modifiers:
   operation: ×
   type: Water
 retreat: 2
-illustrator: Nakaoka
+illustrators:
+- Nakaoka
 ---
 set: ex-team-rocket-returns
 number: '39'
@@ -1627,7 +1665,8 @@ damage modifiers:
   operation: ×
   type: Fighting
 retreat: 1
-illustrator: Emi Miwa
+illustrators:
+- Emi Miwa
 ---
 set: ex-team-rocket-returns
 number: '40'
@@ -1662,7 +1701,8 @@ damage modifiers:
   operation: ×
   type: Grass
 retreat: 1
-illustrator: Tomoaki Imakuni
+illustrators:
+- Tomoaki Imakuni
 ---
 set: ex-team-rocket-returns
 number: '41'
@@ -1700,7 +1740,8 @@ damage modifiers:
   operation: ×
   type: Grass
 retreat: 2
-illustrator: Emi Miwa
+illustrators:
+- Emi Miwa
 ---
 set: ex-team-rocket-returns
 number: '42'
@@ -1742,7 +1783,8 @@ damage modifiers:
   operation: ×
   type: Psychic
 retreat: 2
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: ex-team-rocket-returns
 number: '43'
@@ -1778,7 +1820,8 @@ damage modifiers:
   operation: ×
   type: Psychic
 retreat: 1
-illustrator: Tomokazu Komiya
+illustrators:
+- Tomokazu Komiya
 ---
 set: ex-team-rocket-returns
 number: '44'
@@ -1810,7 +1853,8 @@ damage modifiers:
   operation: ×
   type: Water
 retreat: 1
-illustrator: Yukiko Baba
+illustrators:
+- Yukiko Baba
 ---
 set: ex-team-rocket-returns
 number: '45'
@@ -1845,7 +1889,8 @@ damage modifiers:
   operation: ×
   type: Lightning
 retreat: 1
-illustrator: Miki Tanaka
+illustrators:
+- Miki Tanaka
 ---
 set: ex-team-rocket-returns
 number: '46'
@@ -1886,7 +1931,8 @@ damage modifiers:
   operation: ×
   type: Fighting
 retreat: 1
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: ex-team-rocket-returns
 number: '47'
@@ -1928,7 +1974,8 @@ damage modifiers:
   operation: ×
   type: Psychic
 retreat: 1
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: ex-team-rocket-returns
 number: '48'
@@ -1965,7 +2012,8 @@ damage modifiers:
   operation: ×
   type: Lightning
 retreat: 1
-illustrator: Kagemaru Himeno
+illustrators:
+- Kagemaru Himeno
 ---
 set: ex-team-rocket-returns
 number: '49'
@@ -2003,7 +2051,8 @@ damage modifiers:
 - amount: 30
   operation: '-'
   type: Water
-illustrator: Kyoko Umemoto
+illustrators:
+- Kyoko Umemoto
 ---
 set: ex-team-rocket-returns
 number: '50'
@@ -2038,7 +2087,8 @@ damage modifiers:
   operation: ×
   type: Fighting
 retreat: 1
-illustrator: Sumiyoshi Kizuki
+illustrators:
+- Sumiyoshi Kizuki
 ---
 set: ex-team-rocket-returns
 number: '51'
@@ -2076,7 +2126,8 @@ damage modifiers:
   operation: ×
   type: Grass
 retreat: 1
-illustrator: Kouki Saitou
+illustrators:
+- Kouki Saitou
 ---
 set: ex-team-rocket-returns
 number: '52'
@@ -2098,7 +2149,8 @@ mechanics:
   damage: '10'
   type: attack
 retreat: 1
-illustrator: Sachiko Adachi
+illustrators:
+- Sachiko Adachi
 ---
 set: ex-team-rocket-returns
 number: '53'
@@ -2138,7 +2190,8 @@ damage modifiers:
   operation: '-'
   type: Grass
 retreat: 1
-illustrator: Atsuko Nishida
+illustrators:
+- Atsuko Nishida
 ---
 set: ex-team-rocket-returns
 number: '54'
@@ -2170,7 +2223,8 @@ damage modifiers:
   operation: ×
   type: Psychic
 retreat: 1
-illustrator: Midori Harada
+illustrators:
+- Midori Harada
 ---
 set: ex-team-rocket-returns
 number: '55'
@@ -2197,7 +2251,8 @@ damage modifiers:
   operation: ×
   type: Psychic
 retreat: 1
-illustrator: Atsuko Nishida
+illustrators:
+- Atsuko Nishida
 ---
 set: ex-team-rocket-returns
 number: '56'
@@ -2232,7 +2287,8 @@ damage modifiers:
   operation: ×
   type: Psychic
 retreat: 1
-illustrator: Aya Kusube
+illustrators:
+- Aya Kusube
 ---
 set: ex-team-rocket-returns
 number: '57'
@@ -2269,7 +2325,8 @@ damage modifiers:
   operation: '-'
   type: Water
 retreat: 1
-illustrator: Kyoko Umemoto
+illustrators:
+- Kyoko Umemoto
 ---
 set: ex-team-rocket-returns
 number: '58'
@@ -2305,7 +2362,8 @@ damage modifiers:
   operation: ×
   type: Lightning
 retreat: 1
-illustrator: Kagemaru Himeno
+illustrators:
+- Kagemaru Himeno
 ---
 set: ex-team-rocket-returns
 number: '59'
@@ -2339,7 +2397,8 @@ damage modifiers:
   operation: ×
   type: Water
 retreat: 1
-illustrator: Naoyo Kimura
+illustrators:
+- Naoyo Kimura
 ---
 set: ex-team-rocket-returns
 number: '60'
@@ -2373,7 +2432,8 @@ damage modifiers:
   operation: ×
   type: Water
 retreat: 1
-illustrator: Tomokazu Komiya
+illustrators:
+- Tomokazu Komiya
 ---
 set: ex-team-rocket-returns
 number: '61'
@@ -2405,7 +2465,8 @@ damage modifiers:
   operation: ×
   type: Psychic
 retreat: 1
-illustrator: Midori Harada
+illustrators:
+- Midori Harada
 ---
 set: ex-team-rocket-returns
 number: '62'
@@ -2434,7 +2495,8 @@ damage modifiers:
   operation: ×
   type: Grass
 retreat: 1
-illustrator: Atsuko Nishida
+illustrators:
+- Atsuko Nishida
 ---
 set: ex-team-rocket-returns
 number: '63'
@@ -2466,7 +2528,8 @@ damage modifiers:
   operation: ×
   type: Grass
 retreat: 1
-illustrator: Midori Harada
+illustrators:
+- Midori Harada
 ---
 set: ex-team-rocket-returns
 number: '64'
@@ -2498,7 +2561,8 @@ damage modifiers:
   operation: ×
   type: Fire
 retreat: 1
-illustrator: Kagemaru Himeno
+illustrators:
+- Kagemaru Himeno
 ---
 set: ex-team-rocket-returns
 number: '65'
@@ -2526,7 +2590,8 @@ damage modifiers:
   operation: ×
   type: Lightning
 retreat: 1
-illustrator: Yukiko Baba
+illustrators:
+- Yukiko Baba
 ---
 set: ex-team-rocket-returns
 number: '66'
@@ -2554,7 +2619,8 @@ damage modifiers:
   operation: ×
   type: Fighting
 retreat: 1
-illustrator: Sachiko Adachi
+illustrators:
+- Sachiko Adachi
 ---
 set: ex-team-rocket-returns
 number: '67'
@@ -2589,7 +2655,8 @@ damage modifiers:
   operation: ×
   type: Fighting
 retreat: 1
-illustrator: Naoyo Kimura
+illustrators:
+- Naoyo Kimura
 ---
 set: ex-team-rocket-returns
 number: '68'
@@ -2618,7 +2685,8 @@ damage modifiers:
   operation: ×
   type: Lightning
 retreat: 1
-illustrator: Sumiyoshi Kizuki
+illustrators:
+- Sumiyoshi Kizuki
 ---
 set: ex-team-rocket-returns
 number: '69'
@@ -2653,7 +2721,8 @@ damage modifiers:
   operation: ×
   type: Water
 retreat: 3
-illustrator: Atsuko Nishida
+illustrators:
+- Atsuko Nishida
 ---
 set: ex-team-rocket-returns
 number: '70'
@@ -2686,7 +2755,8 @@ damage modifiers:
   operation: ×
   type: Lightning
 retreat: 1
-illustrator: Miki Tanaka
+illustrators:
+- Miki Tanaka
 ---
 set: ex-team-rocket-returns
 number: '71'
@@ -2720,7 +2790,8 @@ damage modifiers:
   operation: ×
   type: Fighting
 retreat: 1
-illustrator: Aya Kusube
+illustrators:
+- Aya Kusube
 ---
 set: ex-team-rocket-returns
 number: '72'
@@ -2754,7 +2825,8 @@ damage modifiers:
   operation: ×
   type: Fighting
 retreat: 1
-illustrator: Naoyo Kimura
+illustrators:
+- Naoyo Kimura
 ---
 set: ex-team-rocket-returns
 number: '73'
@@ -2786,7 +2858,8 @@ damage modifiers:
   operation: ×
   type: Lightning
 retreat: 1
-illustrator: Midori Harada
+illustrators:
+- Midori Harada
 ---
 set: ex-team-rocket-returns
 number: '74'
@@ -2820,7 +2893,8 @@ damage modifiers:
   operation: ×
   type: Grass
 retreat: 1
-illustrator: Atsuko Nishida
+illustrators:
+- Atsuko Nishida
 ---
 set: ex-team-rocket-returns
 number: '75'
@@ -2856,7 +2930,8 @@ damage modifiers:
   operation: ×
   type: Fighting
 retreat: 1
-illustrator: Yuka Morii
+illustrators:
+- Yuka Morii
 ---
 set: ex-team-rocket-returns
 number: '76'
@@ -2888,7 +2963,8 @@ damage modifiers:
   operation: ×
   type: Psychic
 retreat: 1
-illustrator: Atsuko Nishida
+illustrators:
+- Atsuko Nishida
 ---
 set: ex-team-rocket-returns
 number: '77'
@@ -2921,7 +2997,8 @@ damage modifiers:
   operation: ×
   type: Water
 retreat: 2
-illustrator: Kouki Saitou
+illustrators:
+- Kouki Saitou
 ---
 set: ex-team-rocket-returns
 number: '78'
@@ -2955,7 +3032,8 @@ damage modifiers:
   operation: ×
   type: Fire
 retreat: 1
-illustrator: Yuka Morii
+illustrators:
+- Yuka Morii
 ---
 set: ex-team-rocket-returns
 number: '79'
@@ -2987,7 +3065,8 @@ damage modifiers:
   operation: ×
   type: Grass
 retreat: 1
-illustrator: Tomokazu Komiya
+illustrators:
+- Tomokazu Komiya
 ---
 set: ex-team-rocket-returns
 number: '80'
@@ -3021,7 +3100,8 @@ damage modifiers:
   operation: ×
   type: Fighting
 retreat: 1
-illustrator: Sachiko Adachi
+illustrators:
+- Sachiko Adachi
 ---
 set: ex-team-rocket-returns
 number: '81'
@@ -3052,7 +3132,8 @@ damage modifiers:
   operation: ×
   type: Grass
 retreat: 1
-illustrator: Kouki Saitou
+illustrators:
+- Kouki Saitou
 ---
 set: ex-team-rocket-returns
 number: '82'
@@ -3086,7 +3167,8 @@ damage modifiers:
   operation: ×
   type: Psychic
 retreat: 1
-illustrator: Miki Tanaka
+illustrators:
+- Miki Tanaka
 ---
 set: ex-team-rocket-returns
 number: '83'
@@ -3109,7 +3191,8 @@ mechanics:
   text: >-
     Shuffle your hand into your deck. Then, count the number of
     cards in your opponent's hand and draw that many cards.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: ex-team-rocket-returns
 number: '84'
@@ -3130,7 +3213,8 @@ mechanics:
     opponent and put it into your hand, or show a combination
     of 3 Basic Pokémon or Evolution cards to your opponent and
     shuffle them into your deck.
-illustrator: Katsura Tabata
+illustrators:
+- Katsura Tabata
 ---
 set: ex-team-rocket-returns
 number: '85'
@@ -3154,7 +3238,8 @@ mechanics:
     of your opponent's Pokémon. Or, switch 1 of your opponent's
     Benched Pokémon with 1 of the Defending Pokémon. Your opponent
     chooses the Defending Pokémon to switch.
-illustrator: Katsura Tabata
+illustrators:
+- Katsura Tabata
 ---
 set: ex-team-rocket-returns
 number: '86'
@@ -3178,7 +3263,8 @@ mechanics:
     Each player shuffles his or her hand into his or her deck.
     Then, each player counts his or her Prize cards left and draws
     up to that many cards. (You draw your cards first.)
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: ex-team-rocket-returns
 number: '87'
@@ -3200,7 +3286,8 @@ mechanics:
   text: >-
     Each Pokémon in play with Dark or Rocket's in its name (both
     yours and your opponent's) gets +20 HP.
-illustrator: Ryo Ueda
+illustrators:
+- Ryo Ueda
 ---
 set: ex-team-rocket-returns
 number: '88'
@@ -3224,7 +3311,8 @@ mechanics:
     Discard a card from your hand. Then, draw 3 cards. If you
     discarded a Pokémon that has Dark or Rocket's in its name,
     draw 4 cards instead.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: ex-team-rocket-returns
 number: '89'
@@ -3241,7 +3329,8 @@ mechanics:
     Search your deck for a Pokémon with Dark in its name, show
     it to your opponent, and put it into your hand. Shuffle your
     deck afterward.
-illustrator: Ryo Ueda
+illustrators:
+- Ryo Ueda
 ---
 set: ex-team-rocket-returns
 number: '90'
@@ -3269,7 +3358,8 @@ mechanics:
     effects on that Pokémon. (Each Pokémon with Dark or Rocket's
     in its name (both yours and your opponent's) can use attacks
     on this card instead of its own.)
-illustrator: Ryo Ueda
+illustrators:
+- Ryo Ueda
 ---
 set: ex-team-rocket-returns
 number: '91'
@@ -3291,7 +3381,8 @@ mechanics:
     in play, search your deck for an Evolution card that evolves
     from that Pokémon and put it onto that Pokémon (this counts
     as evolving that Pokémon). Shuffle your deck afterward.
-illustrator: Katsura Tabata
+illustrators:
+- Katsura Tabata
 ---
 set: ex-team-rocket-returns
 number: '92'
@@ -3313,7 +3404,8 @@ mechanics:
     Special Conditions, and effects on it are now on the new Pokémon.)
     Place the first Basic Pokémon in the discard pile. Shuffle
     your deck afterward.
-illustrator: Katsura Tabata
+illustrators:
+- Katsura Tabata
 ---
 set: ex-team-rocket-returns
 number: '93'
@@ -3331,7 +3423,8 @@ mechanics:
   text: >-
     Flip a coin. If heads, put 1 damage counter on 1 of your opponent's
     Pokémon. If tails, put 1 damage counter on 1 of your Pokémon.
-illustrator: Katsura Tabata
+illustrators:
+- Katsura Tabata
 ---
 set: ex-team-rocket-returns
 number: '94'
@@ -3352,7 +3445,8 @@ mechanics:
     only 1 Energy at a time. (Doesn't count as a basic Energy
     card when not in play and has no effect other than providing
     Energy.)
-illustrator: Takumi Akabane
+illustrators:
+- Takumi Akabane
 ---
 set: ex-team-rocket-returns
 number: '95'
@@ -3374,7 +3468,8 @@ mechanics:
     R Energy is attached to attacks, the attack does 10 more damage
     to the Active Pokémon (before applying Weakness and Resistance).
     When your turn ends, discard R Energy.
-illustrator: Takumi Akabane
+illustrators:
+- Takumi Akabane
 ---
 set: ex-team-rocket-returns
 number: '96'
@@ -3416,7 +3511,8 @@ damage modifiers:
   operation: ×
   type: Metal
 retreat: 1
-illustrator: Ryo Ueda
+illustrators:
+- Ryo Ueda
 ---
 set: ex-team-rocket-returns
 number: '97'
@@ -3461,7 +3557,8 @@ damage modifiers:
   operation: ×
   type: Water
 retreat: 1
-illustrator: Ryo Ueda
+illustrators:
+- Ryo Ueda
 ---
 set: ex-team-rocket-returns
 number: '98'
@@ -3503,7 +3600,8 @@ damage modifiers:
   operation: ×
   type: Psychic
 retreat: 1
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: ex-team-rocket-returns
 number: '99'
@@ -3546,7 +3644,8 @@ damage modifiers:
   operation: ×
   type: Psychic
 retreat: 2
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: ex-team-rocket-returns
 number: '100'
@@ -3587,7 +3686,8 @@ damage modifiers:
   operation: ×
   type: Water
 retreat: 2
-illustrator: Ryo Ueda
+illustrators:
+- Ryo Ueda
 ---
 set: ex-team-rocket-returns
 number: '101'
@@ -3630,7 +3730,8 @@ damage modifiers:
   operation: '-'
   type: Grass
 retreat: 1
-illustrator: Hikaru Koike
+illustrators:
+- Hikaru Koike
 ---
 set: ex-team-rocket-returns
 number: '102'
@@ -3676,7 +3777,8 @@ damage modifiers:
   operation: '-'
   type: Fighting
 retreat: 1
-illustrator: Hikaru Koike
+illustrators:
+- Hikaru Koike
 ---
 set: ex-team-rocket-returns
 number: '103'
@@ -3720,7 +3822,8 @@ damage modifiers:
   operation: '-'
   type: Psychic
 retreat: 1
-illustrator: Ryo Ueda
+illustrators:
+- Ryo Ueda
 ---
 set: ex-team-rocket-returns
 number: '104'
@@ -3763,7 +3866,8 @@ damage modifiers:
   operation: ×
   type: Fighting
 retreat: 3
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: ex-team-rocket-returns
 number: '105'
@@ -3806,7 +3910,8 @@ damage modifiers:
   operation: ×
   type: Lightning
 retreat: 1
-illustrator: Ryo Ueda
+illustrators:
+- Ryo Ueda
 ---
 set: ex-team-rocket-returns
 number: '106'
@@ -3850,7 +3955,8 @@ damage modifiers:
   operation: ×
   type: Lightning
 retreat: 1
-illustrator: Ryo Ueda
+illustrators:
+- Ryo Ueda
 ---
 set: ex-team-rocket-returns
 number: '107'
@@ -3888,7 +3994,8 @@ damage modifiers:
   operation: ×
   type: Lightning
 retreat: 1
-illustrator: Masakazu Fukuda
+illustrators:
+- Masakazu Fukuda
 ---
 set: ex-team-rocket-returns
 number: '108'
@@ -3927,7 +4034,8 @@ damage modifiers:
   operation: ×
   type: Water
 retreat: 1
-illustrator: Masakazu Fukuda
+illustrators:
+- Masakazu Fukuda
 ---
 set: ex-team-rocket-returns
 number: '109'
@@ -3966,7 +4074,8 @@ damage modifiers:
   operation: '-'
   type: Water
 retreat: 1
-illustrator: Masakazu Fukuda
+illustrators:
+- Masakazu Fukuda
 ---
 set: ex-team-rocket-returns
 number: '110'
@@ -4004,7 +4113,8 @@ damage modifiers:
   operation: ×
   type: Water
 retreat: 1
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: ex-team-rocket-returns
 number: '111'
@@ -4031,4 +4141,5 @@ mechanics:
   text: >-
     Each player plays with his or her Prize cards face up for
     the rest of the game.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori

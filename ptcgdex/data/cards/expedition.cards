@@ -41,7 +41,8 @@ retreat: 2
 species: Psi
 weight: 106
 height: 4'11
-illustrator: Hajime Kusajima
+illustrators:
+- Hajime Kusajima
 ---
 set: expedition
 number: '2'
@@ -81,7 +82,8 @@ retreat: 2
 species: Light
 weight: 136
 height: 4'7
-illustrator: Atsuko Nishida
+illustrators:
+- Atsuko Nishida
 ---
 set: expedition
 number: '3'
@@ -119,7 +121,8 @@ retreat: 1
 species: Cobra
 weight: 143
 height: 11'6
-illustrator: Kyoko Umemoto
+illustrators:
+- Kyoko Umemoto
 ---
 set: expedition
 number: '4'
@@ -162,7 +165,8 @@ retreat: 2
 species: Shellfish
 weight: 189
 height: 5'3
-illustrator: Kimiya Masago
+illustrators:
+- Kimiya Masago
 ---
 set: expedition
 number: '5'
@@ -199,7 +203,8 @@ damage modifiers:
 species: Butterfly
 weight: 71
 height: 3'7
-illustrator: Sumiyoshi Kizuki
+illustrators:
+- Sumiyoshi Kizuki
 ---
 set: expedition
 number: '6'
@@ -240,7 +245,8 @@ retreat: 3
 species: Flame
 weight: 200
 height: 5'7
-illustrator: Hiromichi Sugiyama
+illustrators:
+- Hiromichi Sugiyama
 ---
 set: expedition
 number: '7'
@@ -280,7 +286,8 @@ retreat: 1
 species: Fairy
 weight: 88
 height: 4'3
-illustrator: Kagemaru Himeno
+illustrators:
+- Kagemaru Himeno
 ---
 set: expedition
 number: '8'
@@ -319,7 +326,8 @@ retreat: 2
 species: Bivalve
 weight: 292
 height: 4'11
-illustrator: Kyoko Umemoto
+illustrators:
+- Kyoko Umemoto
 ---
 set: expedition
 number: '9'
@@ -354,7 +362,8 @@ retreat: 2
 species: Dragon
 weight: 463
 height: 7'3
-illustrator: Kagemaru Himeno
+illustrators:
+- Kagemaru Himeno
 ---
 set: expedition
 number: '10'
@@ -394,7 +403,8 @@ retreat: 1
 species: Mole
 weight: 73
 height: 2'4
-illustrator: Masako Yamashita
+illustrators:
+- Masako Yamashita
 ---
 set: expedition
 number: '11'
@@ -432,7 +442,8 @@ damage modifiers:
 species: Beak
 weight: 84
 height: 3'11
-illustrator: Kyoko Umemoto
+illustrators:
+- Kyoko Umemoto
 ---
 set: expedition
 number: '12'
@@ -474,7 +485,8 @@ retreat: 3
 species: Big Jaw
 weight: 196
 height: 7'7
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: expedition
 number: '13'
@@ -517,7 +529,8 @@ retreat: 1
 species: Shadow
 weight: 89
 height: 4'11
-illustrator: Yukiko Baba
+illustrators:
+- Yukiko Baba
 ---
 set: expedition
 number: '14'
@@ -554,7 +567,8 @@ retreat: 4
 species: Megaton
 weight: 662
 height: 4'7
-illustrator: Aya Kusube
+illustrators:
+- Aya Kusube
 ---
 set: expedition
 number: '15'
@@ -592,7 +606,8 @@ retreat: 2
 species: Pincer
 weight: 132
 height: 4'3
-illustrator: Shin-ichi Yoshida
+illustrators:
+- Shin-ichi Yoshida
 ---
 set: expedition
 number: '16'
@@ -633,7 +648,8 @@ retreat: 2
 species: Superpower
 weight: 287
 height: 5'3
-illustrator: Shin-ichi Yoshida
+illustrators:
+- Shin-ichi Yoshida
 ---
 set: expedition
 number: '17'
@@ -661,7 +677,8 @@ retreat: 1
 species: Live Coal
 weight: 47
 height: 2'4
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: expedition
 number: '18'
@@ -703,7 +720,8 @@ retreat: 2
 species: Herb
 weight: 222
 height: 5'11
-illustrator: Hajime Kusajima
+illustrators:
+- Hajime Kusajima
 ---
 set: expedition
 number: '19'
@@ -735,7 +753,8 @@ retreat: 1
 species: New Species
 weight: 9
 height: 1'4
-illustrator: Hajime Kusajima
+illustrators:
+- Hajime Kusajima
 ---
 set: expedition
 number: '20'
@@ -772,7 +791,8 @@ retreat: 2
 species: Genetic
 weight: 269
 height: 6'7
-illustrator: Kimiya Masago
+illustrators:
+- Kimiya Masago
 ---
 set: expedition
 number: '21'
@@ -812,7 +832,8 @@ retreat: 1
 species: Fox
 weight: 44
 height: 3'7
-illustrator: Atsuko Nishida
+illustrators:
+- Atsuko Nishida
 ---
 set: expedition
 number: '22'
@@ -840,7 +861,8 @@ retreat: 1
 species: Tiny Mouse
 weight: 4
 height: 1'0
-illustrator: Atsuko Nishida
+illustrators:
+- Atsuko Nishida
 ---
 set: expedition
 number: '23'
@@ -882,7 +904,8 @@ damage modifiers:
 species: Bird
 weight: 87
 height: 4'11
-illustrator: Tomokazu Komiya
+illustrators:
+- Tomokazu Komiya
 ---
 set: expedition
 number: '24'
@@ -924,7 +947,8 @@ retreat: 2
 species: Tadpole
 weight: 119
 height: 4'3
-illustrator: Yuka Morii
+illustrators:
+- Yuka Morii
 ---
 set: expedition
 number: '25'
@@ -964,7 +988,8 @@ retreat: 1
 species: Mouse
 weight: 66
 height: 2'7
-illustrator: Atsuko Nishida
+illustrators:
+- Atsuko Nishida
 ---
 set: expedition
 number: '26'
@@ -1001,7 +1026,8 @@ damage modifiers:
 species: Fire Horse
 weight: 207
 height: 5'7
-illustrator: Kagemaru Himeno
+illustrators:
+- Kagemaru Himeno
 ---
 set: expedition
 number: '27'
@@ -1042,7 +1068,8 @@ retreat: 2
 species: Armor Bird
 weight: 111
 height: 5'7
-illustrator: Kimiya Masago
+illustrators:
+- Kimiya Masago
 ---
 set: expedition
 number: '28'
@@ -1084,7 +1111,8 @@ retreat: 2
 species: Volcano
 weight: 175
 height: 5'7
-illustrator: K. Hoshiba
+illustrators:
+- K. Hoshiba
 ---
 set: expedition
 number: '29'
@@ -1127,7 +1155,8 @@ retreat: 4
 species: Armor
 weight: 445
 height: 6'7
-illustrator: Kimiya Masago
+illustrators:
+- Kimiya Masago
 ---
 set: expedition
 number: '30'
@@ -1167,7 +1196,8 @@ retreat: 2
 species: Seed
 weight: 221
 height: 6'7
-illustrator: Shin-ichi Yoshida
+illustrators:
+- Shin-ichi Yoshida
 ---
 set: expedition
 number: '31'
@@ -1207,7 +1237,8 @@ retreat: 2
 species: Flower
 weight: 41
 height: 3'11
-illustrator: Miki Tanaka
+illustrators:
+- Miki Tanaka
 ---
 set: expedition
 number: '32'
@@ -1245,7 +1276,8 @@ retreat: 2
 species: Poison Gas
 weight: 21
 height: 3'11
-illustrator: Hajime Kusajima
+illustrators:
+- Hajime Kusajima
 ---
 set: expedition
 number: '33'
@@ -1287,7 +1319,8 @@ damage modifiers:
   operation: ×
   type: Psychic
 retreat: 2
-illustrator: Hajime Kusajima
+illustrators:
+- Hajime Kusajima
 ---
 set: expedition
 number: '34'
@@ -1325,7 +1358,8 @@ damage modifiers:
   operation: ×
   type: Fighting
 retreat: 2
-illustrator: Atsuko Nishida
+illustrators:
+- Atsuko Nishida
 ---
 set: expedition
 number: '35'
@@ -1361,7 +1395,8 @@ damage modifiers:
   operation: ×
   type: Psychic
 retreat: 1
-illustrator: Kyoko Umemoto
+illustrators:
+- Kyoko Umemoto
 ---
 set: expedition
 number: '36'
@@ -1397,7 +1432,8 @@ damage modifiers:
   operation: ×
   type: Lightning
 retreat: 2
-illustrator: Hiromichi Sugiyama
+illustrators:
+- Hiromichi Sugiyama
 ---
 set: expedition
 number: '37'
@@ -1438,7 +1474,8 @@ damage modifiers:
   operation: ×
   type: Lightning
 retreat: 2
-illustrator: Kimiya Masago
+illustrators:
+- Kimiya Masago
 ---
 set: expedition
 number: '38'
@@ -1473,7 +1510,8 @@ damage modifiers:
 - amount: 2
   operation: ×
   type: Fire
-illustrator: Sumiyoshi Kizuki
+illustrators:
+- Sumiyoshi Kizuki
 ---
 set: expedition
 number: '39'
@@ -1508,7 +1546,8 @@ damage modifiers:
   operation: ×
   type: Water
 retreat: 2
-illustrator: Atsuko Nishida
+illustrators:
+- Atsuko Nishida
 ---
 set: expedition
 number: '40'
@@ -1547,7 +1586,8 @@ damage modifiers:
   operation: ×
   type: Water
 retreat: 3
-illustrator: Hiromichi Sugiyama
+illustrators:
+- Hiromichi Sugiyama
 ---
 set: expedition
 number: '41'
@@ -1585,7 +1625,8 @@ damage modifiers:
   operation: ×
   type: Fighting
 retreat: 1
-illustrator: Kagemaru Himeno
+illustrators:
+- Kagemaru Himeno
 ---
 set: expedition
 number: '42'
@@ -1622,7 +1663,8 @@ damage modifiers:
   operation: ×
   type: Metal
 retreat: 2
-illustrator: Kyoko Umemoto
+illustrators:
+- Kyoko Umemoto
 ---
 set: expedition
 number: '43'
@@ -1655,7 +1697,8 @@ mechanics:
     Flip 2 coins. This attack does 40 damage times the number
     of heads.
 retreat: 2
-illustrator: Kagemaru Himeno
+illustrators:
+- Kagemaru Himeno
 ---
 set: expedition
 number: '44'
@@ -1693,7 +1736,8 @@ damage modifiers:
   operation: '-'
   type: Lightning
 retreat: 1
-illustrator: Masako Yamashita
+illustrators:
+- Masako Yamashita
 ---
 set: expedition
 number: '45'
@@ -1729,7 +1773,8 @@ damage modifiers:
 - amount: 2
   operation: ×
   type: Lightning
-illustrator: Kyoko Umemoto
+illustrators:
+- Kyoko Umemoto
 ---
 set: expedition
 number: '46'
@@ -1763,7 +1808,8 @@ damage modifiers:
   operation: ×
   type: Lightning
 retreat: 2
-illustrator: Hiromichi Sugiyama
+illustrators:
+- Hiromichi Sugiyama
 ---
 set: expedition
 number: '47'
@@ -1803,7 +1849,8 @@ damage modifiers:
   operation: ×
   type: Lightning
 retreat: 3
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: expedition
 number: '48'
@@ -1844,7 +1891,8 @@ damage modifiers:
   operation: '-'
   type: Fighting
 retreat: 1
-illustrator: Yukiko Baba
+illustrators:
+- Yukiko Baba
 ---
 set: expedition
 number: '49'
@@ -1879,7 +1927,8 @@ damage modifiers:
   operation: ×
   type: Water
 retreat: 4
-illustrator: Aya Kusube
+illustrators:
+- Aya Kusube
 ---
 set: expedition
 number: '50'
@@ -1915,7 +1964,8 @@ damage modifiers:
   operation: ×
   type: Lightning
 retreat: 2
-illustrator: Shin-ichi Yoshida
+illustrators:
+- Shin-ichi Yoshida
 ---
 set: expedition
 number: '51'
@@ -1954,7 +2004,8 @@ damage modifiers:
   operation: ×
   type: Psychic
 retreat: 2
-illustrator: Shin-ichi Yoshida
+illustrators:
+- Shin-ichi Yoshida
 ---
 set: expedition
 number: '52'
@@ -1980,7 +2031,8 @@ mechanics:
     Flip a coin. If heads, put a basic Energy cards from your
     discard pile into your hand.
 retreat: 1
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: expedition
 number: '53'
@@ -2016,7 +2068,8 @@ damage modifiers:
   operation: '-'
   type: Water
 retreat: 3
-illustrator: Kagemaru Himeno
+illustrators:
+- Kagemaru Himeno
 ---
 set: expedition
 number: '54'
@@ -2056,7 +2109,8 @@ damage modifiers:
   operation: '-'
   type: Water
 retreat: 2
-illustrator: Hajime Kusajima
+illustrators:
+- Hajime Kusajima
 ---
 set: expedition
 number: '55'
@@ -2086,7 +2140,8 @@ damage modifiers:
   operation: ×
   type: Psychic
 retreat: 1
-illustrator: Hajime Kusajima
+illustrators:
+- Hajime Kusajima
 ---
 set: expedition
 number: '56'
@@ -2121,7 +2176,8 @@ damage modifiers:
   operation: ×
   type: Psychic
 retreat: 2
-illustrator: Kimiya Masago
+illustrators:
+- Kimiya Masago
 ---
 set: expedition
 number: '57'
@@ -2159,7 +2215,8 @@ damage modifiers:
   operation: ×
   type: Water
 retreat: 1
-illustrator: Atsuko Nishida
+illustrators:
+- Atsuko Nishida
 ---
 set: expedition
 number: '58'
@@ -2185,7 +2242,8 @@ mechanics:
     Take an Energy card attached to one of your Pokémon and attach
     it to another of your Pokémon.
 retreat: 1
-illustrator: Atsuko Nishida
+illustrators:
+- Atsuko Nishida
 ---
 set: expedition
 number: '59'
@@ -2225,7 +2283,8 @@ damage modifiers:
 - amount: 30
   operation: '-'
   type: Fighting
-illustrator: Tomokazu Komiya
+illustrators:
+- Tomokazu Komiya
 ---
 set: expedition
 number: '60'
@@ -2265,7 +2324,8 @@ damage modifiers:
   operation: ×
   type: Lightning
 retreat: 2
-illustrator: Yuka Morii
+illustrators:
+- Yuka Morii
 ---
 set: expedition
 number: '61'
@@ -2303,7 +2363,8 @@ damage modifiers:
   operation: ×
   type: Fighting
 retreat: 1
-illustrator: Atsuko Nishida
+illustrators:
+- Atsuko Nishida
 ---
 set: expedition
 number: '62'
@@ -2338,7 +2399,8 @@ damage modifiers:
 - amount: 2
   operation: ×
   type: Water
-illustrator: Kagemaru Himeno
+illustrators:
+- Kagemaru Himeno
 ---
 set: expedition
 number: '63'
@@ -2377,7 +2439,8 @@ damage modifiers:
   operation: '-'
   type: Grass
 retreat: 2
-illustrator: Kimiya Masago
+illustrators:
+- Kimiya Masago
 ---
 set: expedition
 number: '64'
@@ -2415,7 +2478,8 @@ damage modifiers:
   operation: ×
   type: Water
 retreat: 2
-illustrator: Hiroaki Ito
+illustrators:
+- Hiroaki Ito
 ---
 set: expedition
 number: '65'
@@ -2455,7 +2519,8 @@ damage modifiers:
   operation: ×
   type: Water
 retreat: 2
-illustrator: K. Hoshiba
+illustrators:
+- K. Hoshiba
 ---
 set: expedition
 number: '66'
@@ -2496,7 +2561,8 @@ damage modifiers:
   operation: '-'
   type: Psychic
 retreat: 4
-illustrator: Kimiya Masago
+illustrators:
+- Kimiya Masago
 ---
 set: expedition
 number: '67'
@@ -2534,7 +2600,8 @@ damage modifiers:
   operation: ×
   type: Fire
 retreat: 2
-illustrator: Atsuko Nishida
+illustrators:
+- Atsuko Nishida
 ---
 set: expedition
 number: '68'
@@ -2572,7 +2639,8 @@ damage modifiers:
   operation: ×
   type: Fire
 retreat: 2
-illustrator: Shin-ichi Yoshida
+illustrators:
+- Shin-ichi Yoshida
 ---
 set: expedition
 number: '69'
@@ -2610,7 +2678,8 @@ damage modifiers:
   operation: ×
   type: Psychic
 retreat: 2
-illustrator: Miki Tanaka
+illustrators:
+- Miki Tanaka
 ---
 set: expedition
 number: '70'
@@ -2646,7 +2715,8 @@ damage modifiers:
   operation: ×
   type: Psychic
 retreat: 2
-illustrator: Hajime Kusajima
+illustrators:
+- Hajime Kusajima
 ---
 set: expedition
 number: '71'
@@ -2681,7 +2751,8 @@ damage modifiers:
   operation: '-'
   type: Water
 retreat: 1
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: expedition
 number: '72'
@@ -2717,7 +2788,8 @@ damage modifiers:
   operation: ×
   type: Fighting
 retreat: 2
-illustrator: Sumiyoshi Kizuki
+illustrators:
+- Sumiyoshi Kizuki
 ---
 set: expedition
 number: '73'
@@ -2753,7 +2825,8 @@ damage modifiers:
   operation: ×
   type: Water
 retreat: 1
-illustrator: Tomokazu Komiya
+illustrators:
+- Tomokazu Komiya
 ---
 set: expedition
 number: '74'
@@ -2786,7 +2859,8 @@ damage modifiers:
   operation: ×
   type: Lightning
 retreat: 1
-illustrator: Kagemaru Himeno
+illustrators:
+- Kagemaru Himeno
 ---
 set: expedition
 number: '75'
@@ -2812,7 +2886,8 @@ mechanics:
     Flip a coin until you get tails. This attack does 20 damage
     times the number of heads.
 retreat: 2
-illustrator: Kagemaru Himeno
+illustrators:
+- Kagemaru Himeno
 ---
 set: expedition
 number: '76'
@@ -2848,7 +2923,8 @@ damage modifiers:
   operation: ×
   type: Fighting
 retreat: 2
-illustrator: Hiroaki Ito
+illustrators:
+- Hiroaki Ito
 ---
 set: expedition
 number: '77'
@@ -2881,7 +2957,8 @@ damage modifiers:
   operation: ×
   type: Fighting
 retreat: 1
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: expedition
 number: '78'
@@ -2915,7 +2992,8 @@ damage modifiers:
   operation: ×
   type: Psychic
 retreat: 1
-illustrator: Yuichi Sawayama
+illustrators:
+- Yuichi Sawayama
 ---
 set: expedition
 number: '79'
@@ -2952,7 +3030,8 @@ damage modifiers:
   operation: ×
   type: Water
 retreat: 3
-illustrator: Aya Kusube
+illustrators:
+- Aya Kusube
 ---
 set: expedition
 number: '80'
@@ -2990,7 +3069,8 @@ damage modifiers:
   operation: '-'
   type: Fighting
 retreat: 1
-illustrator: Yukiko Baba
+illustrators:
+- Yukiko Baba
 ---
 set: expedition
 number: '81'
@@ -3023,7 +3103,8 @@ damage modifiers:
   operation: ×
   type: Psychic
 retreat: 2
-illustrator: Atsuko Nishida
+illustrators:
+- Atsuko Nishida
 ---
 set: expedition
 number: '82'
@@ -3056,7 +3137,8 @@ damage modifiers:
   operation: ×
   type: Fire
 retreat: 1
-illustrator: Miki Tanaka
+illustrators:
+- Miki Tanaka
 ---
 set: expedition
 number: '83'
@@ -3090,7 +3172,8 @@ damage modifiers:
   operation: ×
   type: Metal
 retreat: 1
-illustrator: Sumiyoshi Kizuki
+illustrators:
+- Sumiyoshi Kizuki
 ---
 set: expedition
 number: '84'
@@ -3125,7 +3208,8 @@ damage modifiers:
   operation: ×
   type: Psychic
 retreat: 1
-illustrator: Hajime Kusajima
+illustrators:
+- Hajime Kusajima
 ---
 set: expedition
 number: '85'
@@ -3156,7 +3240,8 @@ damage modifiers:
   operation: ×
   type: Psychic
 retreat: 1
-illustrator: Shin-ichi Yoshida
+illustrators:
+- Shin-ichi Yoshida
 ---
 set: expedition
 number: '86'
@@ -3191,7 +3276,8 @@ damage modifiers:
   operation: ×
   type: Water
 retreat: 1
-illustrator: Miki Tanaka
+illustrators:
+- Miki Tanaka
 ---
 set: expedition
 number: '87'
@@ -3223,7 +3309,8 @@ damage modifiers:
   operation: ×
   type: Fire
 retreat: 2
-illustrator: Yuichi Sawayama
+illustrators:
+- Yuichi Sawayama
 ---
 set: expedition
 number: '88'
@@ -3256,7 +3343,8 @@ damage modifiers:
 - amount: 30
   operation: '-'
   type: Fighting
-illustrator: Tomokazu Komiya
+illustrators:
+- Tomokazu Komiya
 ---
 set: expedition
 number: '89'
@@ -3289,7 +3377,8 @@ damage modifiers:
   operation: ×
   type: Lightning
 retreat: 1
-illustrator: Yuka Morii
+illustrators:
+- Yuka Morii
 ---
 set: expedition
 number: '90'
@@ -3316,7 +3405,8 @@ damage modifiers:
   operation: ×
   type: Water
 retreat: 1
-illustrator: Yukiko Baba
+illustrators:
+- Yukiko Baba
 ---
 set: expedition
 number: '91'
@@ -3349,7 +3439,8 @@ damage modifiers:
   operation: ×
   type: Water
 retreat: 1
-illustrator: Asuka Iwashita
+illustrators:
+- Asuka Iwashita
 ---
 set: expedition
 number: '92'
@@ -3385,7 +3476,8 @@ damage modifiers:
   operation: ×
   type: Lightning
 retreat: 1
-illustrator: Atsuko Nishida
+illustrators:
+- Atsuko Nishida
 ---
 set: expedition
 number: '93'
@@ -3416,7 +3508,8 @@ damage modifiers:
   operation: ×
   type: Psychic
 retreat: 1
-illustrator: Hajime Kusajima
+illustrators:
+- Hajime Kusajima
 ---
 set: expedition
 number: '94'
@@ -3448,7 +3541,8 @@ damage modifiers:
   operation: ×
   type: Fire
 retreat: 1
-illustrator: Sachi Matoba
+illustrators:
+- Sachi Matoba
 ---
 set: expedition
 number: '95'
@@ -3479,7 +3573,8 @@ damage modifiers:
   operation: ×
   type: Fire
 retreat: 1
-illustrator: Tomokazu Komiya
+illustrators:
+- Tomokazu Komiya
 ---
 set: expedition
 number: '96'
@@ -3511,7 +3606,8 @@ damage modifiers:
   operation: ×
   type: Fire
 retreat: 1
-illustrator: Miki Tanaka
+illustrators:
+- Miki Tanaka
 ---
 set: expedition
 number: '97'
@@ -3544,7 +3640,8 @@ damage modifiers:
   operation: ×
   type: Water
 retreat: 1
-illustrator: Masako Yamashita
+illustrators:
+- Masako Yamashita
 ---
 set: expedition
 number: '98'
@@ -3576,7 +3673,8 @@ damage modifiers:
   operation: ×
   type: Water
 retreat: 1
-illustrator: Yuichi Sawayama
+illustrators:
+- Yuichi Sawayama
 ---
 set: expedition
 number: '99'
@@ -3613,7 +3711,8 @@ damage modifiers:
   operation: '-'
   type: Water
 retreat: 1
-illustrator: Miki Tanaka
+illustrators:
+- Miki Tanaka
 ---
 set: expedition
 number: '100'
@@ -3648,7 +3747,8 @@ damage modifiers:
   operation: '-'
   type: Water
 retreat: 1
-illustrator: Motofumi Fujiwara
+illustrators:
+- Motofumi Fujiwara
 ---
 set: expedition
 number: '101'
@@ -3679,7 +3779,8 @@ damage modifiers:
   operation: ×
   type: Fighting
 retreat: 1
-illustrator: Tomokazu Komiya
+illustrators:
+- Tomokazu Komiya
 ---
 set: expedition
 number: '102'
@@ -3712,7 +3813,8 @@ damage modifiers:
   operation: ×
   type: Grass
 retreat: 2
-illustrator: Miki Tanaka
+illustrators:
+- Miki Tanaka
 ---
 set: expedition
 number: '103'
@@ -3747,7 +3849,8 @@ damage modifiers:
   operation: '-'
   type: Lightning
 retreat: 1
-illustrator: Tomokazu Komiya
+illustrators:
+- Tomokazu Komiya
 ---
 set: expedition
 number: '104'
@@ -3781,7 +3884,8 @@ damage modifiers:
   operation: ×
   type: Water
 retreat: 1
-illustrator: Sachi Matoba
+illustrators:
+- Sachi Matoba
 ---
 set: expedition
 number: '105'
@@ -3813,7 +3917,8 @@ damage modifiers:
   operation: ×
   type: Water
 retreat: 1
-illustrator: Kyoko Umemoto
+illustrators:
+- Kyoko Umemoto
 ---
 set: expedition
 number: '106'
@@ -3845,7 +3950,8 @@ damage modifiers:
   operation: '-'
   type: Lightning
 retreat: 1
-illustrator: Masako Yamashita
+illustrators:
+- Masako Yamashita
 ---
 set: expedition
 number: '107'
@@ -3868,7 +3974,8 @@ mechanics:
   type: attack
   text: >-
     Flip a coin. If tails, this attack does nothing.
-illustrator: Kagemaru Himeno
+illustrators:
+- Kagemaru Himeno
 ---
 set: expedition
 number: '108'
@@ -3896,7 +4003,8 @@ damage modifiers:
   operation: ×
   type: Psychic
 retreat: 1
-illustrator: Kyoko Umemoto
+illustrators:
+- Kyoko Umemoto
 ---
 set: expedition
 number: '109'
@@ -3927,7 +4035,8 @@ damage modifiers:
   operation: '-'
   type: Fighting
 retreat: 1
-illustrator: Yukiko Baba
+illustrators:
+- Yukiko Baba
 ---
 set: expedition
 number: '110'
@@ -3955,7 +4064,8 @@ damage modifiers:
   operation: ×
   type: Water
 retreat: 1
-illustrator: Aya Kusube
+illustrators:
+- Aya Kusube
 ---
 set: expedition
 number: '111'
@@ -3981,7 +4091,8 @@ damage modifiers:
   operation: ×
   type: Lightning
 retreat: 1
-illustrator: Masako Yamashita
+illustrators:
+- Masako Yamashita
 ---
 set: expedition
 number: '112'
@@ -4012,7 +4123,8 @@ damage modifiers:
   operation: '-'
   type: Water
 retreat: 1
-illustrator: Toshinao Aoki
+illustrators:
+- Toshinao Aoki
 ---
 set: expedition
 number: '113'
@@ -4041,7 +4153,8 @@ damage modifiers:
   operation: '-'
   type: Psychic
 retreat: 1
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: expedition
 number: '114'
@@ -4072,7 +4185,8 @@ damage modifiers:
   operation: ×
   type: Psychic
 retreat: 1
-illustrator: Hajime Kusajima
+illustrators:
+- Hajime Kusajima
 ---
 set: expedition
 number: '115'
@@ -4098,7 +4212,8 @@ damage modifiers:
   operation: ×
   type: Lightning
 retreat: 2
-illustrator: Shin-ichi Yoshida
+illustrators:
+- Shin-ichi Yoshida
 ---
 set: expedition
 number: '116'
@@ -4128,7 +4243,8 @@ damage modifiers:
   operation: ×
   type: Water
 retreat: 1
-illustrator: Yukiko Baba
+illustrators:
+- Yukiko Baba
 ---
 set: expedition
 number: '117'
@@ -4161,7 +4277,8 @@ damage modifiers:
   operation: ×
   type: Psychic
 retreat: 1
-illustrator: Shin-ichi Yoshida
+illustrators:
+- Shin-ichi Yoshida
 ---
 set: expedition
 number: '118'
@@ -4190,7 +4307,8 @@ damage modifiers:
   operation: ×
   type: Lightning
 retreat: 1
-illustrator: Tomokazu Komiya
+illustrators:
+- Tomokazu Komiya
 ---
 set: expedition
 number: '119'
@@ -4218,7 +4336,8 @@ damage modifiers:
   operation: ×
   type: Fighting
 retreat: 1
-illustrator: Sumiyoshi Kizuki
+illustrators:
+- Sumiyoshi Kizuki
 ---
 set: expedition
 number: '120'
@@ -4250,7 +4369,8 @@ damage modifiers:
   operation: ×
   type: Lightning
 retreat: 1
-illustrator: Satoshi Ohta
+illustrators:
+- Satoshi Ohta
 ---
 set: expedition
 number: '121'
@@ -4285,7 +4405,8 @@ damage modifiers:
   operation: ×
   type: Fighting
 retreat: 1
-illustrator: Hironobu Yoshida
+illustrators:
+- Hironobu Yoshida
 ---
 set: expedition
 number: '122'
@@ -4317,7 +4438,8 @@ damage modifiers:
   operation: ×
   type: Psychic
 retreat: 1
-illustrator: Masako Yamashita
+illustrators:
+- Masako Yamashita
 ---
 set: expedition
 number: '123'
@@ -4353,7 +4475,8 @@ damage modifiers:
   operation: '-'
   type: Fighting
 retreat: 1
-illustrator: Tomokazu Komiya
+illustrators:
+- Tomokazu Komiya
 ---
 set: expedition
 number: '124'
@@ -4384,7 +4507,8 @@ damage modifiers:
   operation: ×
   type: Fighting
 retreat: 1
-illustrator: Atsuko Nishida
+illustrators:
+- Atsuko Nishida
 ---
 set: expedition
 number: '125'
@@ -4414,7 +4538,8 @@ damage modifiers:
   operation: ×
   type: Lightning
 retreat: 1
-illustrator: Yuka Morii
+illustrators:
+- Yuka Morii
 ---
 set: expedition
 number: '126'
@@ -4445,7 +4570,8 @@ damage modifiers:
   operation: ×
   type: Water
 retreat: 1
-illustrator: Kagemaru Himeno
+illustrators:
+- Kagemaru Himeno
 ---
 set: expedition
 number: '127'
@@ -4473,7 +4599,8 @@ damage modifiers:
   operation: ×
   type: Lightning
 retreat: 1
-illustrator: Toshinao Aoki
+illustrators:
+- Toshinao Aoki
 ---
 set: expedition
 number: '128'
@@ -4502,7 +4629,8 @@ damage modifiers:
   operation: ×
   type: Fighting
 retreat: 1
-illustrator: Yuka Morii
+illustrators:
+- Yuka Morii
 ---
 set: expedition
 number: '129'
@@ -4534,7 +4662,8 @@ damage modifiers:
   operation: ×
   type: Lightning
 retreat: 1
-illustrator: Sumiyoshi Kizuki
+illustrators:
+- Sumiyoshi Kizuki
 ---
 set: expedition
 number: '130'
@@ -4565,7 +4694,8 @@ damage modifiers:
   operation: '-'
   type: Fighting
 retreat: 1
-illustrator: Kyoko Umemoto
+illustrators:
+- Kyoko Umemoto
 ---
 set: expedition
 number: '131'
@@ -4598,7 +4728,8 @@ damage modifiers:
   operation: ×
   type: Lightning
 retreat: 1
-illustrator: Yuka Morii
+illustrators:
+- Yuka Morii
 ---
 set: expedition
 number: '132'
@@ -4630,7 +4761,8 @@ damage modifiers:
   operation: ×
   type: Lightning
 retreat: 1
-illustrator: Kyoko Umemoto
+illustrators:
+- Kyoko Umemoto
 ---
 set: expedition
 number: '133'
@@ -4664,7 +4796,8 @@ damage modifiers:
   operation: ×
   type: Fighting
 retreat: 2
-illustrator: Yuichi Sawayama
+illustrators:
+- Yuichi Sawayama
 ---
 set: expedition
 number: '134'
@@ -4697,7 +4830,8 @@ damage modifiers:
   operation: ×
   type: Lightning
 retreat: 1
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: expedition
 number: '135'
@@ -4728,7 +4862,8 @@ damage modifiers:
   operation: ×
   type: Lightning
 retreat: 1
-illustrator: Aimi Tomita
+illustrators:
+- Aimi Tomita
 ---
 set: expedition
 number: '136'
@@ -4759,7 +4894,8 @@ damage modifiers:
   operation: ×
   type: Water
 retreat: 1
-illustrator: Yuka Morii
+illustrators:
+- Yuka Morii
 ---
 set: expedition
 number: '137'
@@ -4782,7 +4918,8 @@ mechanics:
   text: >-
     If you have any cards in your hand, shuffle 1 of them into
     your deck, then draw 3 cards.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: expedition
 number: '138'
@@ -4805,7 +4942,8 @@ mechanics:
   text: >-
     Shuffle your hand into your deck. Then, count the number of
     cards in your opponent's hand and draw that many cards.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: expedition
 number: '139'
@@ -4822,7 +4960,8 @@ mechanics:
     Flip 2 coins. For each heads, search your deck for a Basic
     Pokémon card other than a Baby Pokémon card, show it to your
     opponent, and put it into your hand. Shuffle your deck afterward.
-illustrator: Big Mama Tagawa
+illustrators:
+- Big Mama Tagawa
 ---
 set: expedition
 number: '140'
@@ -4838,7 +4977,8 @@ mechanics:
   text: >-
     Flip a coin. If heads, chose 1 Energy card attached to 1 of
     your opponent's Pokémon and discard it.
-illustrator: Keiji Kinebuchi
+illustrators:
+- Keiji Kinebuchi
 ---
 set: expedition
 number: '141'
@@ -4857,7 +4997,8 @@ mechanics:
     your discard pile into your hand. If you don't have that many
     basic Energy cards in your discard pile, put all of them into
     your hand.
-illustrator: Hideyuki Nakajima
+illustrators:
+- Hideyuki Nakajima
 ---
 set: expedition
 number: '142'
@@ -4879,7 +5020,8 @@ mechanics:
 - type: effect
   text: >-
     Flip a coin until you get tails. For each heads, draw 2 cards.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: expedition
 number: '143'
@@ -4897,7 +5039,8 @@ mechanics:
     a Basic Pokémon or Evolution card from those cards, show it
     to your opponent, and put it into your hand. Shuffle the rest
     into your deck.
-illustrator: Keiji Kinebuchi
+illustrators:
+- Keiji Kinebuchi
 ---
 set: expedition
 number: '144'
@@ -4919,7 +5062,8 @@ mechanics:
 - type: effect
   text: >-
     [1] Paralyzing Gaze - The Defending Pokémon is now Paralyzed.
-illustrator: Big Mama Tagawa
+illustrators:
+- Big Mama Tagawa
 ---
 set: expedition
 number: '145'
@@ -4942,7 +5086,8 @@ mechanics:
   text: >-
     Remove all damage counters from one of your Pokémon. Then
     discard all Energy cards attached to it, if any.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: expedition
 number: '146'
@@ -4958,7 +5103,8 @@ mechanics:
   text: >-
     Choose one of your opponent's Benched Pokémon. Flip a coin.
     If heads, switch that Pokémon with the Defending Pokémon.
-illustrator: Big Mama Tagawa
+illustrators:
+- Big Mama Tagawa
 ---
 set: expedition
 number: '147'
@@ -4974,7 +5120,8 @@ mechanics:
   text: >-
     Flip a coin. If heads, shuffle 2 Energy cards from your discard
     pile into your deck (1 if you have only 1).
-illustrator: Keiji Kinebuchi
+illustrators:
+- Keiji Kinebuchi
 ---
 set: expedition
 number: '148'
@@ -4997,7 +5144,8 @@ mechanics:
   text: >-
     Search your deck for an Evolution card, show it to your opponent,
     and put it into your hand. Shuffle your deck afterward.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: expedition
 number: '149'
@@ -5019,7 +5167,8 @@ mechanics:
 - type: effect
   text: >-
     Shuffle your hand into your deck, then draw 5 cards.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: expedition
 number: '150'
@@ -5044,7 +5193,8 @@ mechanics:
     attached to does damage (after applying Weakness and Resistance),
     the attack does 10 more damage. At the end of the turn in
     which this happens, discard Strength Charm.
-illustrator: Keiji Kinebuchi
+illustrators:
+- Keiji Kinebuchi
 ---
 set: expedition
 number: '151'
@@ -5061,7 +5211,8 @@ mechanics:
   text: >-
     Flip a coin. If heads, return 1 of your Pokémon and all cards
     attached to it to your hand.
-illustrator: Keiji Kinebuchi
+illustrators:
+- Keiji Kinebuchi
 ---
 set: expedition
 number: '152'
@@ -5079,7 +5230,8 @@ mechanics:
     Your opponent switches the Defending Pokémon with 1 of his
     or her Benched Pokémon, if any; then you switch your Active
     Pokémon with 1 of your Benched Pokémon, if any.
-illustrator: Keiji Kinebuchi
+illustrators:
+- Keiji Kinebuchi
 ---
 set: expedition
 number: '153'
@@ -5096,7 +5248,8 @@ mechanics:
   text: >-
     Search your deck for a basic Energy card, show it to your
     opponent, and put it into your hand. Shuffle your deck afterward.
-illustrator: Kai Ishikawa
+illustrators:
+- Kai Ishikawa
 ---
 set: expedition
 number: '154'
@@ -5111,7 +5264,8 @@ mechanics:
 - type: effect
   text: >-
     Remove all Special Conditions from your Active Pokémon.
-illustrator: Keiji Kinebuchi
+illustrators:
+- Keiji Kinebuchi
 ---
 set: expedition
 number: '155'
@@ -5128,7 +5282,8 @@ mechanics:
     Choose 1 of your Pokémon. Flip 2 coins. Remove 2 damage counters
     times the number of heads from that Pokémon. If the Pokémon
     has fewer damage counters than that, remove all of them.
-illustrator: Tomokazu Komiya
+illustrators:
+- Tomokazu Komiya
 ---
 set: expedition
 number: '156'
@@ -5145,7 +5300,8 @@ mechanics:
   text: >-
     Remove 2 damage counters from 1 of your Pokémon (1 if it has
     only 1).
-illustrator: Keiji Kinebuchi
+illustrators:
+- Keiji Kinebuchi
 ---
 set: expedition
 number: '157'
@@ -5161,7 +5317,8 @@ mechanics:
 - type: effect
   text: >-
     Switch your Active Pokémon with 1 of your Benched Pokémon.
-illustrator: Keiji Kinebuchi
+illustrators:
+- Keiji Kinebuchi
 ---
 set: expedition
 number: '158'
@@ -5184,7 +5341,8 @@ mechanics:
     1 damage counter on the Pokémon Darkness Energy is attached
     to, unless it's D or has Dark in its name. Darkness Energy
     provides D Energy. (Doesn't count as a basic Energy card.)
-illustrator: Milky Isobe
+illustrators:
+- Milky Isobe
 ---
 set: expedition
 number: '159'
@@ -5207,7 +5365,8 @@ mechanics:
     it damages a Pokémon by an attack, reduce that damage by 10
     (after applying Weakness and Resistance). Metal Energy provides
     M Energy. (Doesn't count as a basic Energy card.)
-illustrator: Milky Isobe
+illustrators:
+- Milky Isobe
 ---
 set: expedition
 number: '160'
@@ -5224,7 +5383,8 @@ mechanics:
 - type: effect
   text: >-
     Provides 1 Fighting Energy.
-illustrator: Keiji Kinebuchi
+illustrators:
+- Keiji Kinebuchi
 ---
 set: expedition
 number: '161'
@@ -5241,7 +5401,8 @@ mechanics:
 - type: effect
   text: >-
     Provides 1 Fire Energy.
-illustrator: Keiji Kinebuchi
+illustrators:
+- Keiji Kinebuchi
 ---
 set: expedition
 number: '162'
@@ -5258,7 +5419,8 @@ mechanics:
 - type: effect
   text: >-
     Provides 1 Grass Energy.
-illustrator: Keiji Kinebuchi
+illustrators:
+- Keiji Kinebuchi
 ---
 set: expedition
 number: '163'
@@ -5275,7 +5437,8 @@ mechanics:
 - type: effect
   text: >-
     Provides 1 Lightning Energy.
-illustrator: Keiji Kinebuchi
+illustrators:
+- Keiji Kinebuchi
 ---
 set: expedition
 number: '164'
@@ -5292,7 +5455,8 @@ mechanics:
 - type: effect
   text: >-
     Provides 1 Psychic Energy.
-illustrator: Keiji Kinebuchi
+illustrators:
+- Keiji Kinebuchi
 ---
 set: expedition
 number: '165'
@@ -5309,7 +5473,8 @@ mechanics:
 - type: effect
   text: >-
     Provides 1 Water Energy.
-illustrator: Keiji Kinebuchi
+illustrators:
+- Keiji Kinebuchi
 ---
 set: expedition
 number: '1'
@@ -5355,7 +5520,8 @@ retreat: 2
 species: Psi
 weight: 106
 height: 4'11
-illustrator: Hajime Kusajima
+illustrators:
+- Hajime Kusajima
 ---
 set: expedition
 number: '2'
@@ -5399,7 +5565,8 @@ retreat: 3
 species: Big Jaw
 weight: 196
 height: 7'7
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: expedition
 number: '3'
@@ -5444,7 +5611,8 @@ retreat: 4
 species: Armor
 weight: 445
 height: 6'7
-illustrator: Kimiya Masago
+illustrators:
+- Kimiya Masago
 ---
 set: expedition
 number: '4'
@@ -5486,4 +5654,5 @@ retreat: 2
 species: Seed
 weight: 221
 height: 6'7
-illustrator: Shin-ichi Yoshida
+illustrators:
+- Shin-ichi Yoshida

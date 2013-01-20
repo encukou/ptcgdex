@@ -36,7 +36,8 @@ retreat: 2
 species: Light
 weight: 136
 height: 4'7
-illustrator: Shin-ichi Yoshida
+illustrators:
+- Shin-ichi Yoshida
 ---
 set: aquapolis
 number: H2
@@ -76,7 +77,8 @@ retreat: 3
 species: Legendary
 weight: 342
 height: 6'3
-illustrator: Shin-ichi Yoshida
+illustrators:
+- Shin-ichi Yoshida
 ---
 set: aquapolis
 number: H3
@@ -115,7 +117,8 @@ damage modifiers:
 species: Long Leg
 weight: 74
 height: 3'7
-illustrator: Kyoko Umemoto
+illustrators:
+- Kyoko Umemoto
 ---
 set: aquapolis
 number: H4
@@ -153,7 +156,8 @@ retreat: 1
 species: Aquarabbit
 weight: 64
 height: 2'7
-illustrator: Kyoko Umemoto
+illustrators:
+- Kyoko Umemoto
 ---
 set: aquapolis
 number: H5
@@ -197,7 +201,8 @@ retreat: 2
 species: Flower
 weight: 13
 height: 1'4
-illustrator: Shin-ichi Yoshida
+illustrators:
+- Shin-ichi Yoshida
 ---
 set: aquapolis
 number: H6
@@ -237,7 +242,8 @@ retreat: 2
 species: Happiness
 weight: 103
 height: 4'11
-illustrator: Shin-ichi Yoshida
+illustrators:
+- Shin-ichi Yoshida
 ---
 set: aquapolis
 number: H7
@@ -279,7 +285,8 @@ retreat: 1
 species: Ball
 weight: 147
 height: 3'11
-illustrator: Kagemaru Himeno
+illustrators:
+- Kagemaru Himeno
 ---
 set: aquapolis
 number: H8
@@ -318,7 +325,8 @@ retreat: 1
 species: Volcano
 weight: 437
 height: 6'11
-illustrator: Kagemaru Himeno
+illustrators:
+- Kagemaru Himeno
 ---
 set: aquapolis
 number: H9
@@ -358,7 +366,8 @@ damage modifiers:
 species: Sun
 weight: 58
 height: 2'11
-illustrator: Sumiyoshi Kizuki
+illustrators:
+- Sumiyoshi Kizuki
 ---
 set: aquapolis
 number: H10
@@ -399,7 +408,8 @@ retreat: 1
 species: Coconut
 weight: 265
 height: 6'7
-illustrator: Sumiyoshi Kizuki
+illustrators:
+- Sumiyoshi Kizuki
 ---
 set: aquapolis
 number: H11
@@ -443,7 +453,8 @@ retreat: 1
 species: Dark
 weight: 77
 height: 4'7
-illustrator: Naoyo Kimura
+illustrators:
+- Naoyo Kimura
 ---
 set: aquapolis
 number: H12
@@ -485,7 +496,8 @@ retreat: 1
 species: Hypnosis
 weight: 167
 height: 5'3
-illustrator: Naoyo Kimura
+illustrators:
+- Naoyo Kimura
 ---
 set: aquapolis
 number: H13
@@ -527,7 +539,8 @@ damage modifiers:
 species: Cottonweed
 weight: 7
 height: 2'7
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: aquapolis
 number: H14
@@ -568,7 +581,8 @@ retreat: 3
 species: Dragon
 weight: 335
 height: 5'11
-illustrator: Shin-ichi Yoshida
+illustrators:
+- Shin-ichi Yoshida
 ---
 set: aquapolis
 number: H15
@@ -611,7 +625,8 @@ retreat: 1
 species: Light
 weight: 50
 height: 3'11
-illustrator: Shin-ichi Yoshida
+illustrators:
+- Shin-ichi Yoshida
 ---
 set: aquapolis
 number: H16
@@ -658,7 +673,8 @@ retreat: 2
 species: Magnet
 weight: 132
 height: 3'3
-illustrator: Atsuko Nishida
+illustrators:
+- Atsuko Nishida
 ---
 set: aquapolis
 number: H17
@@ -697,7 +713,8 @@ retreat: 1
 species: Sludge
 weight: 66
 height: 3'11
-illustrator: Kyoko Umemoto
+illustrators:
+- Kyoko Umemoto
 ---
 set: aquapolis
 number: H18
@@ -741,7 +758,8 @@ retreat: 3
 species: Drill
 weight: 137
 height: 4'7
-illustrator: Hikaru Koike
+illustrators:
+- Hikaru Koike
 ---
 set: aquapolis
 number: H19
@@ -781,7 +799,8 @@ retreat: 1
 species: Fox
 weight: 44
 height: 3'7
-illustrator: Atsuko Nishida
+illustrators:
+- Atsuko Nishida
 ---
 set: aquapolis
 number: H20
@@ -821,7 +840,8 @@ retreat: 2
 species: Jet
 weight: 63
 height: 2'11
-illustrator: Yukiko Baba
+illustrators:
+- Yukiko Baba
 ---
 set: aquapolis
 number: H21
@@ -867,7 +887,8 @@ retreat: 2
 species: Scissors
 weight: 260
 height: 5'11
-illustrator: Hajime Kusajima
+illustrators:
+- Hajime Kusajima
 ---
 set: aquapolis
 number: H22
@@ -908,7 +929,8 @@ retreat: 1
 species: Royal
 weight: 175
 height: 6'7
-illustrator: Kyoko Umemoto
+illustrators:
+- Kyoko Umemoto
 ---
 set: aquapolis
 number: H23
@@ -954,7 +976,8 @@ retreat: 4
 species: Iron Snake
 weight: 882
 height: 30'2
-illustrator: Yukiko Baba
+illustrators:
+- Yukiko Baba
 ---
 set: aquapolis
 number: H24
@@ -996,7 +1019,8 @@ retreat: 2
 species: Imitation
 weight: 84
 height: 3'11
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: aquapolis
 number: H25
@@ -1039,7 +1063,8 @@ retreat: 1
 species: Aurora
 weight: 412
 height: 6'7
-illustrator: Yuka Morii
+illustrators:
+- Yuka Morii
 ---
 set: aquapolis
 number: H26
@@ -1084,7 +1109,8 @@ damage modifiers:
 species: Jellyfish
 weight: 121
 height: 5'3
-illustrator: Sumiyoshi Kizuki
+illustrators:
+- Sumiyoshi Kizuki
 ---
 set: aquapolis
 number: H27
@@ -1132,7 +1158,8 @@ retreat: 1
 species: Happiness
 weight: 7
 height: 2'0
-illustrator: Atsuko Nishida
+illustrators:
+- Atsuko Nishida
 ---
 set: aquapolis
 number: H28
@@ -1177,7 +1204,8 @@ retreat: 3
 species: Armor
 weight: 445
 height: 6'7
-illustrator: Naoyo Kimura
+illustrators:
+- Naoyo Kimura
 ---
 set: aquapolis
 number: H29
@@ -1224,7 +1252,8 @@ retreat: 1
 species: Moonlight
 weight: 60
 height: 3'3
-illustrator: Hajime Kusajima
+illustrators:
+- Hajime Kusajima
 ---
 set: aquapolis
 number: H30
@@ -1264,7 +1293,8 @@ retreat: 2
 species: Flycatcher
 weight: 34
 height: 5'7
-illustrator: Yuka Morii
+illustrators:
+- Yuka Morii
 ---
 set: aquapolis
 number: H31
@@ -1304,7 +1334,8 @@ retreat: 2
 species: Flower
 weight: 41
 height: 3'11
-illustrator: Hikaru Koike
+illustrators:
+- Hikaru Koike
 ---
 set: aquapolis
 number: H32
@@ -1349,7 +1380,8 @@ retreat: 2
 species: Electric
 weight: 116
 height: 5'3
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: aquapolis
 number: '1'
@@ -1385,7 +1417,8 @@ damage modifiers:
   operation: ×
   type: Fighting
 retreat: 2
-illustrator: Yuka Morii
+illustrators:
+- Yuka Morii
 ---
 set: aquapolis
 number: '2'
@@ -1422,7 +1455,8 @@ damage modifiers:
   operation: ×
   type: Water
 retreat: 3
-illustrator: Hajime Kusajima
+illustrators:
+- Hajime Kusajima
 ---
 set: aquapolis
 number: '3'
@@ -1458,7 +1492,8 @@ damage modifiers:
 - amount: 2
   operation: ×
   type: Fire
-illustrator: Hisao Nakamura
+illustrators:
+- Hisao Nakamura
 ---
 set: aquapolis
 number: '4'
@@ -1493,7 +1528,8 @@ damage modifiers:
   operation: ×
   type: Lightning
 retreat: 1
-illustrator: Naoyo Kimura
+illustrators:
+- Naoyo Kimura
 ---
 set: aquapolis
 number: '5'
@@ -1534,7 +1570,8 @@ damage modifiers:
   operation: '-'
   type: Water
 retreat: 2
-illustrator: Atsuko Nishida
+illustrators:
+- Atsuko Nishida
 ---
 set: aquapolis
 number: '6'
@@ -1571,7 +1608,8 @@ damage modifiers:
   operation: ×
   type: Fighting
 retreat: 2
-illustrator: Kagemaru Himeno
+illustrators:
+- Kagemaru Himeno
 ---
 set: aquapolis
 number: '7'
@@ -1611,7 +1649,8 @@ damage modifiers:
   operation: '-'
   type: Lightning
 retreat: 2
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: aquapolis
 number: '8'
@@ -1650,7 +1689,8 @@ damage modifiers:
   operation: ×
   type: Fighting
 retreat: 1
-illustrator: Kouki Saitou
+illustrators:
+- Kouki Saitou
 ---
 set: aquapolis
 number: '9'
@@ -1677,7 +1717,8 @@ mechanics:
     1 Energy card attached to the Defending Pokémon, if any. Attach
     that Energy card to that Pokémon.
 retreat: 1
-illustrator: Yuka Morii
+illustrators:
+- Yuka Morii
 ---
 set: aquapolis
 number: '10'
@@ -1713,7 +1754,8 @@ damage modifiers:
   operation: ×
   type: Water
 retreat: 1
-illustrator: Hisao Nakamura
+illustrators:
+- Hisao Nakamura
 ---
 set: aquapolis
 number: '11'
@@ -1750,7 +1792,8 @@ damage modifiers:
 - amount: 2
   operation: ×
   type: Psychic
-illustrator: Hikaru Koike
+illustrators:
+- Hikaru Koike
 ---
 set: aquapolis
 number: '12'
@@ -1788,7 +1831,8 @@ damage modifiers:
   operation: ×
   type: Fire
 retreat: 1
-illustrator: Aya Kusube
+illustrators:
+- Aya Kusube
 ---
 set: aquapolis
 number: '13'
@@ -1827,7 +1871,8 @@ damage modifiers:
   operation: ×
   type: Psychic
 retreat: 1
-illustrator: Hajime Kusajima
+illustrators:
+- Hajime Kusajima
 ---
 set: aquapolis
 number: '14'
@@ -1865,7 +1910,8 @@ damage modifiers:
   operation: ×
   type: Water
 retreat: 1
-illustrator: Hajime Kusajima
+illustrators:
+- Hajime Kusajima
 ---
 set: aquapolis
 number: '15'
@@ -1906,7 +1952,8 @@ damage modifiers:
   operation: '-'
   type: Psychic
 retreat: 1
-illustrator: Naoyo Kimura
+illustrators:
+- Naoyo Kimura
 ---
 set: aquapolis
 number: '16'
@@ -1945,7 +1992,8 @@ damage modifiers:
   operation: ×
   type: Psychic
 retreat: 1
-illustrator: Kagemaru Himeno
+illustrators:
+- Kagemaru Himeno
 ---
 set: aquapolis
 number: '17'
@@ -1984,7 +2032,8 @@ damage modifiers:
 - amount: 30
   operation: '-'
   type: Water
-illustrator: Atsuko Nishida
+illustrators:
+- Atsuko Nishida
 ---
 set: aquapolis
 number: '18'
@@ -2019,7 +2068,8 @@ damage modifiers:
   operation: ×
   type: Psychic
 retreat: 2
-illustrator: Kagemaru Himeno
+illustrators:
+- Kagemaru Himeno
 ---
 set: aquapolis
 number: '19'
@@ -2057,7 +2107,8 @@ damage modifiers:
   operation: ×
   type: Lightning
 retreat: 3
-illustrator: Kouki Saitou
+illustrators:
+- Kouki Saitou
 ---
 set: aquapolis
 number: '20'
@@ -2092,7 +2143,8 @@ damage modifiers:
   operation: ×
   type: Grass
 retreat: 1
-illustrator: Hajime Kusajima
+illustrators:
+- Hajime Kusajima
 ---
 set: aquapolis
 number: '21'
@@ -2132,7 +2184,8 @@ damage modifiers:
   operation: ×
   type: Grass
 retreat: 1
-illustrator: Masako Yamashita
+illustrators:
+- Masako Yamashita
 ---
 set: aquapolis
 number: '22'
@@ -2176,7 +2229,8 @@ damage modifiers:
   operation: '-'
   type: Grass
 retreat: 2
-illustrator: Kagemaru Himeno
+illustrators:
+- Kagemaru Himeno
 ---
 set: aquapolis
 number: '23'
@@ -2212,7 +2266,8 @@ damage modifiers:
   operation: ×
   type: Psychic
 retreat: 1
-illustrator: Hikaru Koike
+illustrators:
+- Hikaru Koike
 ---
 set: aquapolis
 number: '24'
@@ -2253,7 +2308,8 @@ damage modifiers:
   operation: '-'
   type: Lightning
 retreat: 3
-illustrator: Naoyo Kimura
+illustrators:
+- Naoyo Kimura
 ---
 set: aquapolis
 number: '25'
@@ -2290,7 +2346,8 @@ damage modifiers:
   operation: ×
   type: Water
 retreat: 1
-illustrator: Tomokazu Komiya
+illustrators:
+- Tomokazu Komiya
 ---
 set: aquapolis
 number: '26'
@@ -2327,7 +2384,8 @@ damage modifiers:
   operation: ×
   type: Lightning
 retreat: 2
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: aquapolis
 number: '27'
@@ -2364,7 +2422,8 @@ damage modifiers:
   operation: ×
   type: Fire
 retreat: 1
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: aquapolis
 number: '28'
@@ -2400,7 +2459,8 @@ damage modifiers:
   operation: ×
   type: Fighting
 retreat: 1
-illustrator: Miki Tanaka
+illustrators:
+- Miki Tanaka
 ---
 set: aquapolis
 number: '29'
@@ -2438,7 +2498,8 @@ damage modifiers:
   operation: ×
   type: Psychic
 retreat: 1
-illustrator: Kyoko Umemoto
+illustrators:
+- Kyoko Umemoto
 ---
 set: aquapolis
 number: '30'
@@ -2475,7 +2536,8 @@ damage modifiers:
   operation: ×
   type: Grass
 retreat: 2
-illustrator: Kouki Saitou
+illustrators:
+- Kouki Saitou
 ---
 set: aquapolis
 number: '31'
@@ -2511,7 +2573,8 @@ damage modifiers:
 - amount: 2
   operation: ×
   type: Water
-illustrator: Hisao Nakamura
+illustrators:
+- Hisao Nakamura
 ---
 set: aquapolis
 number: '32'
@@ -2554,7 +2617,8 @@ damage modifiers:
   operation: ×
   type: Fire
 retreat: 2
-illustrator: Hajime Kusajima
+illustrators:
+- Hajime Kusajima
 ---
 set: aquapolis
 number: '33'
@@ -2590,7 +2654,8 @@ damage modifiers:
   operation: ×
   type: Lightning
 retreat: 2
-illustrator: Aya Kusube
+illustrators:
+- Aya Kusube
 ---
 set: aquapolis
 number: '34'
@@ -2628,7 +2693,8 @@ damage modifiers:
   operation: ×
   type: Psychic
 retreat: 1
-illustrator: Aya Kusube
+illustrators:
+- Aya Kusube
 ---
 set: aquapolis
 number: '35'
@@ -2671,7 +2737,8 @@ damage modifiers:
   operation: '-'
   type: Grass
 retreat: 4
-illustrator: Hajime Kusajima
+illustrators:
+- Hajime Kusajima
 ---
 set: aquapolis
 number: '36'
@@ -2710,7 +2777,8 @@ damage modifiers:
   operation: ×
   type: Water
 retreat: 2
-illustrator: Kagemaru Himeno
+illustrators:
+- Kagemaru Himeno
 ---
 set: aquapolis
 number: '37'
@@ -2746,7 +2814,8 @@ damage modifiers:
   operation: ×
   type: Lightning
 retreat: 1
-illustrator: Atsuko Nishida
+illustrators:
+- Atsuko Nishida
 ---
 set: aquapolis
 number: '38'
@@ -2784,7 +2853,8 @@ damage modifiers:
 - amount: 2
   operation: ×
   type: Lightning
-illustrator: Hajime Kusajima
+illustrators:
+- Hajime Kusajima
 ---
 set: aquapolis
 number: '39'
@@ -2829,7 +2899,8 @@ damage modifiers:
   operation: '-'
   type: Fighting
 retreat: 1
-illustrator: Kagemaru Himeno
+illustrators:
+- Kagemaru Himeno
 ---
 set: aquapolis
 number: '40'
@@ -2871,7 +2942,8 @@ damage modifiers:
   operation: '-'
   type: Psychic
 retreat: 3
-illustrator: Naoyo Kimura
+illustrators:
+- Naoyo Kimura
 ---
 set: aquapolis
 number: '41'
@@ -2915,7 +2987,8 @@ damage modifiers:
   operation: '-'
   type: Psychic
 retreat: 1
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: aquapolis
 number: '42'
@@ -2952,7 +3025,8 @@ damage modifiers:
   operation: ×
   type: Fire
 retreat: 2
-illustrator: Miki Tanaka
+illustrators:
+- Miki Tanaka
 ---
 set: aquapolis
 number: '43'
@@ -2989,7 +3063,8 @@ damage modifiers:
   operation: ×
   type: Psychic
 retreat: 2
-illustrator: Kyoko Umemoto
+illustrators:
+- Kyoko Umemoto
 ---
 set: aquapolis
 number: '44'
@@ -3031,7 +3106,8 @@ damage modifiers:
   operation: '-'
   type: Fighting
 retreat: 2
-illustrator: Hajime Kusajima
+illustrators:
+- Hajime Kusajima
 ---
 set: aquapolis
 number: '45'
@@ -3059,7 +3135,8 @@ damage modifiers:
   operation: ×
   type: Fire
 retreat: 1
-illustrator: Masako Yamashita
+illustrators:
+- Masako Yamashita
 ---
 set: aquapolis
 number: '46'
@@ -3099,7 +3176,8 @@ damage modifiers:
   operation: '-'
   type: Fighting
 retreat: 1
-illustrator: Yukiko Baba
+illustrators:
+- Yukiko Baba
 ---
 set: aquapolis
 number: '47'
@@ -3136,7 +3214,8 @@ damage modifiers:
   operation: ×
   type: Fighting
 retreat: 1
-illustrator: Shin-ichi Yoshida
+illustrators:
+- Shin-ichi Yoshida
 ---
 set: aquapolis
 number: '48'
@@ -3172,7 +3251,8 @@ damage modifiers:
   operation: ×
   type: Fighting
 retreat: 1
-illustrator: Atsuko Nishida
+illustrators:
+- Atsuko Nishida
 ---
 set: aquapolis
 number: '49'
@@ -3207,7 +3287,8 @@ damage modifiers:
   operation: ×
   type: Fire
 retreat: 2
-illustrator: Kyoko Umemoto
+illustrators:
+- Kyoko Umemoto
 ---
 set: aquapolis
 number: 50a
@@ -3241,7 +3322,8 @@ damage modifiers:
   operation: ×
   type: Lightning
 retreat: 1
-illustrator: Sumiyoshi Kizuki
+illustrators:
+- Sumiyoshi Kizuki
 ---
 set: aquapolis
 number: 50b
@@ -3275,7 +3357,8 @@ damage modifiers:
   operation: ×
   type: Lightning
 retreat: 1
-illustrator: Sumiyoshi Kizuki
+illustrators:
+- Sumiyoshi Kizuki
 ---
 set: aquapolis
 number: '51'
@@ -3303,7 +3386,8 @@ damage modifiers:
   operation: ×
   type: Water
 retreat: 1
-illustrator: Kyoko Umemoto
+illustrators:
+- Kyoko Umemoto
 ---
 set: aquapolis
 number: '52'
@@ -3338,7 +3422,8 @@ damage modifiers:
   operation: '-'
   type: Grass
 retreat: 1
-illustrator: Shin-ichi Yoshida
+illustrators:
+- Shin-ichi Yoshida
 ---
 set: aquapolis
 number: '53'
@@ -3370,7 +3455,8 @@ damage modifiers:
   operation: ×
   type: Lightning
 retreat: 1
-illustrator: Yukiko Baba
+illustrators:
+- Yukiko Baba
 ---
 set: aquapolis
 number: '54'
@@ -3410,7 +3496,8 @@ damage modifiers:
   operation: '-'
   type: Lightning
 retreat: 1
-illustrator: Kagemaru Himeno
+illustrators:
+- Kagemaru Himeno
 ---
 set: aquapolis
 number: '55'
@@ -3445,7 +3532,8 @@ damage modifiers:
   operation: ×
   type: Psychic
 retreat: 1
-illustrator: Kagemaru Himeno
+illustrators:
+- Kagemaru Himeno
 ---
 set: aquapolis
 number: '56'
@@ -3475,7 +3563,8 @@ damage modifiers:
   operation: ×
   type: Water
 retreat: 1
-illustrator: Naoyo Kimura
+illustrators:
+- Naoyo Kimura
 ---
 set: aquapolis
 number: '57'
@@ -3511,7 +3600,8 @@ damage modifiers:
   operation: ×
   type: Fire
 retreat: 1
-illustrator: Hisao Nakamura
+illustrators:
+- Hisao Nakamura
 ---
 set: aquapolis
 number: '58'
@@ -3545,7 +3635,8 @@ damage modifiers:
   operation: ×
   type: Lightning
 retreat: 1
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: aquapolis
 number: '59'
@@ -3581,7 +3672,8 @@ damage modifiers:
   operation: ×
   type: Lightning
 retreat: 1
-illustrator: Sumiyoshi Kizuki
+illustrators:
+- Sumiyoshi Kizuki
 ---
 set: aquapolis
 number: '60'
@@ -3619,7 +3711,8 @@ damage modifiers:
   operation: '-'
   type: Water
 retreat: 1
-illustrator: Yuka Morii
+illustrators:
+- Yuka Morii
 ---
 set: aquapolis
 number: '61'
@@ -3646,7 +3739,8 @@ mechanics:
     Pokémon. Flip that many coins. This attack does 10 damage
     for each heads.
 retreat: 1
-illustrator: Kagemaru Himeno
+illustrators:
+- Kagemaru Himeno
 ---
 set: aquapolis
 number: '62'
@@ -3679,7 +3773,8 @@ damage modifiers:
   operation: ×
   type: Fire
 retreat: 1
-illustrator: Masako Yamashita
+illustrators:
+- Masako Yamashita
 ---
 set: aquapolis
 number: '63'
@@ -3706,7 +3801,8 @@ mechanics:
     to it, flip a coin. If heads, choose 1 of them and discard
     it. If tails, this attack does nothing (not even damage).
 retreat: 1
-illustrator: Tomokazu Komiya
+illustrators:
+- Tomokazu Komiya
 ---
 set: aquapolis
 number: '64'
@@ -3738,7 +3834,8 @@ damage modifiers:
   operation: ×
   type: Fighting
 retreat: 1
-illustrator: Yukiko Baba
+illustrators:
+- Yukiko Baba
 ---
 set: aquapolis
 number: '65'
@@ -3773,7 +3870,8 @@ damage modifiers:
   operation: ×
   type: Fire
 retreat: 1
-illustrator: Miki Tanaka
+illustrators:
+- Miki Tanaka
 ---
 set: aquapolis
 number: '66'
@@ -3806,7 +3904,8 @@ damage modifiers:
   operation: ×
   type: Grass
 retreat: 1
-illustrator: Atsuko Nishida
+illustrators:
+- Atsuko Nishida
 ---
 set: aquapolis
 number: '67'
@@ -3843,7 +3942,8 @@ damage modifiers:
   operation: ×
   type: Fighting
 retreat: 1
-illustrator: Kagemaru Himeno
+illustrators:
+- Kagemaru Himeno
 ---
 set: aquapolis
 number: '68'
@@ -3877,7 +3977,8 @@ damage modifiers:
   operation: ×
   type: Psychic
 retreat: 1
-illustrator: Keiko Fukuyama
+illustrators:
+- Keiko Fukuyama
 ---
 set: aquapolis
 number: '69'
@@ -3909,7 +4010,8 @@ damage modifiers:
   operation: ×
   type: Fighting
 retreat: 2
-illustrator: Atsuko Nishida
+illustrators:
+- Atsuko Nishida
 ---
 set: aquapolis
 number: '70'
@@ -3941,7 +4043,8 @@ damage modifiers:
   operation: ×
   type: Grass
 retreat: 1
-illustrator: Yuka Morii
+illustrators:
+- Yuka Morii
 ---
 set: aquapolis
 number: '71'
@@ -3974,7 +4077,8 @@ damage modifiers:
   operation: ×
   type: Fighting
 retreat: 1
-illustrator: Hisao Nakamura
+illustrators:
+- Hisao Nakamura
 ---
 set: aquapolis
 number: '72'
@@ -4009,7 +4113,8 @@ damage modifiers:
   operation: '-'
   type: Lightning
 retreat: 1
-illustrator: Midori Harada
+illustrators:
+- Midori Harada
 ---
 set: aquapolis
 number: '73'
@@ -4044,7 +4149,8 @@ damage modifiers:
   operation: '-'
   type: Fighting
 retreat: 1
-illustrator: Yukiko Baba
+illustrators:
+- Yukiko Baba
 ---
 set: aquapolis
 number: 74a
@@ -4077,7 +4183,8 @@ damage modifiers:
   operation: ×
   type: Psychic
 retreat: 1
-illustrator: Hisao Nakamura
+illustrators:
+- Hisao Nakamura
 ---
 set: aquapolis
 number: 74b
@@ -4110,7 +4217,8 @@ damage modifiers:
   operation: ×
   type: Psychic
 retreat: 1
-illustrator: Hisao Nakamura
+illustrators:
+- Hisao Nakamura
 ---
 set: aquapolis
 number: '75'
@@ -4144,7 +4252,8 @@ damage modifiers:
   operation: ×
   type: Fighting
 retreat: 1
-illustrator: Midori Harada
+illustrators:
+- Midori Harada
 ---
 set: aquapolis
 number: '76'
@@ -4178,7 +4287,8 @@ damage modifiers:
   operation: ×
   type: Fire
 retreat: 1
-illustrator: Yukiko Baba
+illustrators:
+- Yukiko Baba
 ---
 set: aquapolis
 number: '77'
@@ -4214,7 +4324,8 @@ damage modifiers:
   operation: ×
   type: Psychic
 retreat: 1
-illustrator: Sumiyoshi Kizuki
+illustrators:
+- Sumiyoshi Kizuki
 ---
 set: aquapolis
 number: '78'
@@ -4243,7 +4354,8 @@ damage modifiers:
   operation: ×
   type: Lightning
 retreat: 1
-illustrator: Miki Tanaka
+illustrators:
+- Miki Tanaka
 ---
 set: aquapolis
 number: '79'
@@ -4270,7 +4382,8 @@ damage modifiers:
   operation: ×
   type: Psychic
 retreat: 1
-illustrator: Keiji Kinebuchi
+illustrators:
+- Keiji Kinebuchi
 ---
 set: aquapolis
 number: '80'
@@ -4305,7 +4418,8 @@ damage modifiers:
   operation: ×
   type: Water
 retreat: 1
-illustrator: Yukiko Baba
+illustrators:
+- Yukiko Baba
 ---
 set: aquapolis
 number: '81'
@@ -4340,7 +4454,8 @@ damage modifiers:
   operation: ×
   type: Psychic
 retreat: 2
-illustrator: Tomokazu Komiya
+illustrators:
+- Tomokazu Komiya
 ---
 set: aquapolis
 number: '82'
@@ -4377,7 +4492,8 @@ damage modifiers:
   operation: ×
   type: Psychic
 retreat: 1
-illustrator: Tomokazu Komiya
+illustrators:
+- Tomokazu Komiya
 ---
 set: aquapolis
 number: '83'
@@ -4413,7 +4529,8 @@ damage modifiers:
   operation: '-'
   type: Water
 retreat: 1
-illustrator: Yuka Morii
+illustrators:
+- Yuka Morii
 ---
 set: aquapolis
 number: '84'
@@ -4441,7 +4558,8 @@ damage modifiers:
   operation: ×
   type: Lightning
 retreat: 1
-illustrator: Hisao Nakamura
+illustrators:
+- Hisao Nakamura
 ---
 set: aquapolis
 number: '85'
@@ -4470,7 +4588,8 @@ damage modifiers:
   operation: ×
   type: Lightning
 retreat: 1
-illustrator: Atsuko Nishida
+illustrators:
+- Atsuko Nishida
 ---
 set: aquapolis
 number: '86'
@@ -4501,7 +4620,8 @@ damage modifiers:
   operation: ×
   type: Water
 retreat: 1
-illustrator: Midori Harada
+illustrators:
+- Midori Harada
 ---
 set: aquapolis
 number: '87'
@@ -4534,7 +4654,8 @@ damage modifiers:
   operation: '-'
   type: Psychic
 retreat: 1
-illustrator: Atsuko Nishida
+illustrators:
+- Atsuko Nishida
 ---
 set: aquapolis
 number: '88'
@@ -4566,7 +4687,8 @@ damage modifiers:
   operation: ×
   type: Fighting
 retreat: 2
-illustrator: Toshinao Aoki
+illustrators:
+- Toshinao Aoki
 ---
 set: aquapolis
 number: '89'
@@ -4601,7 +4723,8 @@ damage modifiers:
   operation: ×
   type: Water
 retreat: 1
-illustrator: Naoyo Kimura
+illustrators:
+- Naoyo Kimura
 ---
 set: aquapolis
 number: '90'
@@ -4635,7 +4758,8 @@ damage modifiers:
   operation: ×
   type: Fighting
 retreat: 2
-illustrator: Yuka Morii
+illustrators:
+- Yuka Morii
 ---
 set: aquapolis
 number: '91'
@@ -4669,7 +4793,8 @@ damage modifiers:
   operation: ×
   type: Fighting
 retreat: 1
-illustrator: Hajime Kusajima
+illustrators:
+- Hajime Kusajima
 ---
 set: aquapolis
 number: '92'
@@ -4704,7 +4829,8 @@ damage modifiers:
   operation: ×
   type: Psychic
 retreat: 1
-illustrator: Tomokazu Komiya
+illustrators:
+- Tomokazu Komiya
 ---
 set: aquapolis
 number: '93'
@@ -4735,7 +4861,8 @@ damage modifiers:
   operation: ×
   type: Fighting
 retreat: 1
-illustrator: Hizuki Misono
+illustrators:
+- Hizuki Misono
 ---
 set: aquapolis
 number: '94'
@@ -4768,7 +4895,8 @@ damage modifiers:
   operation: ×
   type: Fighting
 retreat: 1
-illustrator: Kouki Saitou
+illustrators:
+- Kouki Saitou
 ---
 set: aquapolis
 number: 95a
@@ -4803,7 +4931,8 @@ damage modifiers:
   operation: ×
   type: Psychic
 retreat: 1
-illustrator: Yukiko Baba
+illustrators:
+- Yukiko Baba
 ---
 set: aquapolis
 number: 95b
@@ -4838,7 +4967,8 @@ damage modifiers:
   operation: ×
   type: Psychic
 retreat: 1
-illustrator: Yukiko Baba
+illustrators:
+- Yukiko Baba
 ---
 set: aquapolis
 number: '96'
@@ -4869,7 +4999,8 @@ damage modifiers:
   operation: ×
   type: Psychic
 retreat: 1
-illustrator: Keiko Fukuyama
+illustrators:
+- Keiko Fukuyama
 ---
 set: aquapolis
 number: '97'
@@ -4900,7 +5031,8 @@ damage modifiers:
   operation: ×
   type: Fire
 retreat: 1
-illustrator: Kyoko Umemoto
+illustrators:
+- Kyoko Umemoto
 ---
 set: aquapolis
 number: '98'
@@ -4929,7 +5061,8 @@ damage modifiers:
   operation: ×
   type: Water
 retreat: 2
-illustrator: Hajime Kusajima
+illustrators:
+- Hajime Kusajima
 ---
 set: aquapolis
 number: '99'
@@ -4963,7 +5096,8 @@ damage modifiers:
   operation: ×
   type: Fire
 retreat: 1
-illustrator: Miki Tanaka
+illustrators:
+- Miki Tanaka
 ---
 set: aquapolis
 number: '100'
@@ -4998,7 +5132,8 @@ damage modifiers:
   operation: '-'
   type: Lightning
 retreat: 1
-illustrator: Naoyo Kimura
+illustrators:
+- Naoyo Kimura
 ---
 set: aquapolis
 number: '101'
@@ -5034,7 +5169,8 @@ damage modifiers:
   operation: ×
   type: Fire
 retreat: 1
-illustrator: Toshinao Aoki
+illustrators:
+- Toshinao Aoki
 ---
 set: aquapolis
 number: '102'
@@ -5066,7 +5202,8 @@ damage modifiers:
   operation: ×
   type: Water
 retreat: 1
-illustrator: Shin-ichi Yoshida
+illustrators:
+- Shin-ichi Yoshida
 ---
 set: aquapolis
 number: 103a
@@ -5098,7 +5235,8 @@ damage modifiers:
   operation: ×
   type: Fighting
 retreat: 1
-illustrator: Masako Yamashita
+illustrators:
+- Masako Yamashita
 ---
 set: aquapolis
 number: 103b
@@ -5130,7 +5268,8 @@ damage modifiers:
   operation: ×
   type: Fighting
 retreat: 1
-illustrator: Masako Yamashita
+illustrators:
+- Masako Yamashita
 ---
 set: aquapolis
 number: '104'
@@ -5160,7 +5299,8 @@ damage modifiers:
   operation: ×
   type: Lightning
 retreat: 1
-illustrator: Keiko Fukuyama
+illustrators:
+- Keiko Fukuyama
 ---
 set: aquapolis
 number: '105'
@@ -5188,7 +5328,8 @@ damage modifiers:
   operation: ×
   type: Lightning
 retreat: 1
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: aquapolis
 number: '106'
@@ -5225,7 +5366,8 @@ damage modifiers:
   operation: '-'
   type: Fighting
 retreat: 1
-illustrator: Midori Harada
+illustrators:
+- Midori Harada
 ---
 set: aquapolis
 number: '107'
@@ -5259,7 +5401,8 @@ damage modifiers:
   operation: ×
   type: Fighting
 retreat: 1
-illustrator: Hizuki Misono
+illustrators:
+- Hizuki Misono
 ---
 set: aquapolis
 number: '108'
@@ -5292,7 +5435,8 @@ damage modifiers:
   operation: ×
   type: Lightning
 retreat: 1
-illustrator: Aya Kusube
+illustrators:
+- Aya Kusube
 ---
 set: aquapolis
 number: '109'
@@ -5328,7 +5472,8 @@ damage modifiers:
   operation: ×
   type: Fighting
 retreat: 1
-illustrator: Miki Tanaka
+illustrators:
+- Miki Tanaka
 ---
 set: aquapolis
 number: '110'
@@ -5366,7 +5511,8 @@ damage modifiers:
   operation: '-'
   type: Psychic
 retreat: 1
-illustrator: Midori Harada
+illustrators:
+- Midori Harada
 ---
 set: aquapolis
 number: '111'
@@ -5394,7 +5540,8 @@ damage modifiers:
   operation: ×
   type: Psychic
 retreat: 1
-illustrator: Miki Tanaka
+illustrators:
+- Miki Tanaka
 ---
 set: aquapolis
 number: '112'
@@ -5433,7 +5580,8 @@ damage modifiers:
   operation: '-'
   type: Water
 retreat: 2
-illustrator: Tomokazu Komiya
+illustrators:
+- Tomokazu Komiya
 ---
 set: aquapolis
 number: '113'
@@ -5466,7 +5614,8 @@ damage modifiers:
   operation: ×
   type: Lightning
 retreat: 1
-illustrator: Hajime Kusajima
+illustrators:
+- Hajime Kusajima
 ---
 set: aquapolis
 number: '114'
@@ -5499,7 +5648,8 @@ damage modifiers:
   operation: ×
   type: Fighting
 retreat: 1
-illustrator: Miki Tanaka
+illustrators:
+- Miki Tanaka
 ---
 set: aquapolis
 number: '115'
@@ -5529,7 +5679,8 @@ damage modifiers:
   operation: ×
   type: Fighting
 retreat: 1
-illustrator: Keiji Kinebuchi
+illustrators:
+- Keiji Kinebuchi
 ---
 set: aquapolis
 number: '116'
@@ -5558,7 +5709,8 @@ damage modifiers:
   operation: ×
   type: Water
 retreat: 1
-illustrator: Keiko Fukuyama
+illustrators:
+- Keiko Fukuyama
 ---
 set: aquapolis
 number: '117'
@@ -5590,7 +5742,8 @@ damage modifiers:
   operation: ×
   type: Lightning
 retreat: 1
-illustrator: Keiko Fukuyama
+illustrators:
+- Keiko Fukuyama
 ---
 set: aquapolis
 number: '118'
@@ -5618,7 +5771,8 @@ mechanics:
     Energy card. Then, he or she puts it on his or her Bench.
     (A player can't do this if his or her Bench is full.) That
     player shuffles his or her deck afterward.
-illustrator: Midori Harada
+illustrators:
+- Midori Harada
 ---
 set: aquapolis
 number: '119'
@@ -5641,7 +5795,8 @@ mechanics:
   text: >-
     [D] Plunder (10) Before doing damage, discard all Trainer
     cards attached to the Defending Pokémon.
-illustrator: Big Mama Tagawa
+illustrators:
+- Big Mama Tagawa
 ---
 set: aquapolis
 number: '120'
@@ -5660,7 +5815,8 @@ mechanics:
     attach it to another 1 of your Pokémon. (If you only have
     1 Pokémon or no basic Energy cards in play, this card does
     nothing).
-illustrator: Mikio Menjo
+illustrators:
+- Mikio Menjo
 ---
 set: aquapolis
 number: '121'
@@ -5684,7 +5840,8 @@ mechanics:
     [F] Wild Rage (10x) Count the number of damage counters on
     this Pokémon. Flip that many coins. This attack does 10 damage
     for each heads.
-illustrator: Big Mama Tagawa
+illustrators:
+- Big Mama Tagawa
 ---
 set: aquapolis
 number: '122'
@@ -5706,7 +5863,8 @@ mechanics:
 - type: effect
   text: >-
     [R] Singe - The Defending Pokémon is now Burned.
-illustrator: Big Mama Tagawa
+illustrators:
+- Big Mama Tagawa
 ---
 set: aquapolis
 number: '123'
@@ -5730,7 +5888,8 @@ mechanics:
     Shuffle your deck. Then, look at the top 7 cards from your
     deck. Choose 1 of those cards, show it to your opponent, and
     put it into your hand. Shuffle the rest into your deck.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: aquapolis
 number: '124'
@@ -5753,7 +5912,8 @@ mechanics:
   text: >-
     [G] Sleep Poison - The Defending Pokémon is now Asleep and
     Poisoned.
-illustrator: Big Mama Tagawa
+illustrators:
+- Big Mama Tagawa
 ---
 set: aquapolis
 number: '125'
@@ -5777,7 +5937,8 @@ mechanics:
     At any time between turns, if the remaining HP of the Pokémon
     Healing Berry is attached to are 20 or less, you may remove
     3 damage counters from it and discard Healing Berry.
-illustrator: Shin-ichi Yoshida
+illustrators:
+- Shin-ichi Yoshida
 ---
 set: aquapolis
 number: '126'
@@ -5801,7 +5962,8 @@ mechanics:
     You may discard 1 basic Energy card from your hand in order
     to draw 3 cards or you may discard 2 basic Energy cards from
     your hand in order to draw 5 cards.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: aquapolis
 number: '127'
@@ -5826,7 +5988,8 @@ mechanics:
     to this Pokémon. Discard those Energy cards and flip that
     many coins. This attack does 40 damage times the number of
     heads.
-illustrator: Big Mama Tagawa
+illustrators:
+- Big Mama Tagawa
 ---
 set: aquapolis
 number: '128'
@@ -5853,7 +6016,8 @@ mechanics:
     to it. It still has to pay for that attack's Energy cost.
     At the end of the turn in which this happens, discard Memory
     Berry.
-illustrator: Shin-ichi Yoshikawa
+illustrators:
+- Shin-ichi Yoshikawa
 ---
 set: aquapolis
 number: '129'
@@ -5878,7 +6042,8 @@ mechanics:
     1 of your opponent's Benched Pokémon and switch it with his
     or her Active Pokémon. Do the damage to the new Defending
     Pokémon.
-illustrator: Big Mama Tagawa
+illustrators:
+- Big Mama Tagawa
 ---
 set: aquapolis
 number: '130'
@@ -5901,7 +6066,8 @@ mechanics:
   text: >-
     Search your deck for up to 2 Basic and/or Baby Pokémon and
     put them on your Bench. Shuffle your deck afterward.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: aquapolis
 number: '131'
@@ -5924,7 +6090,8 @@ mechanics:
     Once during each player's turn (before attacking), when that
     player attaches an Energy card to 1 of his or her Benched
     Pokémon, he or she removes 1 damage counter from it.
-illustrator: Kazuo Yazawa
+illustrators:
+- Kazuo Yazawa
 ---
 set: aquapolis
 number: '132'
@@ -5948,7 +6115,8 @@ mechanics:
     Look at the top 6 cards of your deck. Show all basic Energy
     cards there to your opponent and put them into your hand.
     Shuffle the rest into your deck.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: aquapolis
 number: '133'
@@ -5965,7 +6133,8 @@ mechanics:
     Flip 2 coins. If both are heads, discard all Energy cards
     attached to the Defending Pokémon. If both are tails, discard
     all Energy cards attached to your Active Pokémon.
-illustrator: Keiji Kinebuchi
+illustrators:
+- Keiji Kinebuchi
 ---
 set: aquapolis
 number: '134'
@@ -5990,7 +6159,8 @@ mechanics:
     Time Shard is attached to during his or her turn, you may
     return up to 2 basic Energy cards attached to it to your hand.
     Then, discard Time Shard.
-illustrator: Shin-ichi Yoshikawa
+illustrators:
+- Shin-ichi Yoshikawa
 ---
 set: aquapolis
 number: '135'
@@ -6014,7 +6184,8 @@ mechanics:
     Choose up to 5 Pokémon cards and/or basic Energy cards from
     your discard pile. Show them to your opponent and shuffle
     them into your deck.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: aquapolis
 number: '136'
@@ -6038,7 +6209,8 @@ mechanics:
     Search your deck for up to 2 Technical Machines and/or Pokémon
     Tools, show them to your opponent, and put them into your
     hand. Shuffle your deck afterward.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: aquapolis
 number: '137'
@@ -6062,7 +6234,8 @@ mechanics:
     may flip a coin. If heads, that player chooses 1 of his or
     her Evolved Pokémon and discards the highest stage Evolution
     card from that Pokémon. (This counts as devolving that Pokémon.)
-illustrator: Midori Harada
+illustrators:
+- Midori Harada
 ---
 set: aquapolis
 number: '138'
@@ -6088,7 +6261,8 @@ mechanics:
     chooses another basic Energy card in his or her discard pile,
     shows it to his or her opponent, and puts it into his or her
     hand.
-illustrator: Kai Ishikawa
+illustrators:
+- Kai Ishikawa
 ---
 set: aquapolis
 number: '139'
@@ -6110,7 +6284,8 @@ mechanics:
 - type: effect
   text: >-
     [P] Psy-Confuse - The Defending Pokémon is now Confused.
-illustrator: Big Mama Tagawa
+illustrators:
+- Big Mama Tagawa
 ---
 set: aquapolis
 number: '140'
@@ -6133,7 +6308,8 @@ mechanics:
   text: >-
     [W] Squirt - Choose 1 of your opponent's Pokémon. This attack
     does 20 damage to that Pokémon. Don't apply Weakness and Resistance.
-illustrator: Big Mama Tagawa
+illustrators:
+- Big Mama Tagawa
 ---
 set: aquapolis
 number: '141'
@@ -6150,7 +6326,8 @@ mechanics:
     Attach Weakness Guard to 1 of your Pokémon. At the end of
     your opponent's next turn, discard Weakness Guard. The Pokémon
     Weakness Guard is attached to has no Weakness.
-illustrator: Jungo Suzuki
+illustrators:
+- Jungo Suzuki
 ---
 set: aquapolis
 number: '142'
@@ -6174,7 +6351,8 @@ mechanics:
     damage counter on the Pokémon Darkness Energy is attached
     to, unless it's D or has Dark in its name. Darkness Energy
     provides D Energy. (Doesn't count as a basic Energy card.)
-illustrator: Milky Isobe
+illustrators:
+- Milky Isobe
 ---
 set: aquapolis
 number: '143'
@@ -6197,7 +6375,8 @@ mechanics:
     it damages a Pokémon with an attack, reduce that damage by
     10 (after applying Weakness and Resistance.) Metal Energy
     provides M Energy. (Doesn't count as a basic Energy card.)
-illustrator: Milky Isobe
+illustrators:
+- Milky Isobe
 ---
 set: aquapolis
 number: '144'
@@ -6219,7 +6398,8 @@ mechanics:
     as a basic Energy card when not in play.) When you attach
     this card from your hand to 1 of your Pokémon, it does 10
     damage to that Pokémon. (Don't apply Weakness and Resistance.)
-illustrator: Takumi Akabane
+illustrators:
+- Takumi Akabane
 ---
 set: aquapolis
 number: '145'
@@ -6239,7 +6419,8 @@ mechanics:
     of your turn, discard Boost Energy. The Pokémon Boost Energy
     is attached to can't retreat. Boost Energy provides 3 Energy.
     (Doesn't count as a basic Energy card.)
-illustrator: Shin-ichi Yoshikawa
+illustrators:
+- Shin-ichi Yoshikawa
 ---
 set: aquapolis
 number: '146'
@@ -6261,7 +6442,8 @@ mechanics:
     a time. If there are no basic Energy cards attached to the
     Pokémon Crystal Energy is attached to, Crystal Energy provides
     1 Energy instead. (Doesn't count as a basic Energy card.)
-illustrator: Shin-ichi Yoshikawa
+illustrators:
+- Shin-ichi Yoshikawa
 ---
 set: aquapolis
 number: '147'
@@ -6282,7 +6464,8 @@ mechanics:
     choose 1 of your Benched Pokémon, if any, and switch it with
     your Active Pokémon. Warp Energy provides 1 Energy. (Doesn't
     count as a basic Energy card.)
-illustrator: Keiji Kinebuchi
+illustrators:
+- Keiji Kinebuchi
 ---
 set: aquapolis
 number: '148'
@@ -6330,7 +6513,8 @@ retreat: 3
 species: Dragon
 weight: 335
 height: 5'11
-illustrator: Mikio Menjo
+illustrators:
+- Mikio Menjo
 ---
 set: aquapolis
 number: '149'
@@ -6376,7 +6560,8 @@ retreat: 3
 species: Diving
 weight: 476
 height: 17'1
-illustrator: Naoyo Kimura
+illustrators:
+- Naoyo Kimura
 ---
 set: aquapolis
 number: '150'
@@ -6416,7 +6601,8 @@ retreat: 3
 species: Drill
 weight: 137
 height: 4'7
-illustrator: Hironobu Yoshida
+illustrators:
+- Hironobu Yoshida
 ---
 set: aquapolis
 number: '5'
@@ -6456,7 +6642,8 @@ retreat: 1
 species: Volcano
 weight: 437
 height: 6'11
-illustrator: Atsuko Nishida
+illustrators:
+- Atsuko Nishida
 ---
 set: aquapolis
 number: '6'
@@ -6497,7 +6684,8 @@ damage modifiers:
 species: Sun
 weight: 58
 height: 2'11
-illustrator: Kyoko Umemoto
+illustrators:
+- Kyoko Umemoto
 ---
 set: aquapolis
 number: '7'
@@ -6544,7 +6732,8 @@ retreat: 2
 species: Scissors
 weight: 260
 height: 5'11
-illustrator: Hisao Nakamura
+illustrators:
+- Hisao Nakamura
 ---
 set: aquapolis
 number: '8'
@@ -6588,4 +6777,5 @@ retreat: 1
 species: Aurora
 weight: 412
 height: 6'7
-illustrator: Atsuko Nishida
+illustrators:
+- Atsuko Nishida

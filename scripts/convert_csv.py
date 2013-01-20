@@ -343,7 +343,9 @@ def main(infile, destdir=None):
             result['height'] = "{}'{}".format(feet, inches)
 
         simple_out('dex entry', 'dex', convertor=Text)
-        simple_out('illustrator', 'illus.')
+        illustrator = pop('illus.')
+        if illustrator:
+            result['illustrators'] = [x.strip() for x in illustrator.split(',')]
 
         print(dump(result), end='')
 

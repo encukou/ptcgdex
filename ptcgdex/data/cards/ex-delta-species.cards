@@ -38,7 +38,8 @@ damage modifiers:
 - amount: 2
   operation: ×
   type: Fire
-illustrator: Masakazu Fukuda
+illustrators:
+- Masakazu Fukuda
 ---
 set: ex-delta-species
 number: '2'
@@ -78,7 +79,8 @@ damage modifiers:
 - amount: 2
   operation: ×
   type: Psychic
-illustrator: Ryo Ueda
+illustrators:
+- Ryo Ueda
 ---
 set: ex-delta-species
 number: '3'
@@ -128,7 +130,8 @@ damage modifiers:
   operation: '-'
   type: Grass
 retreat: 2
-illustrator: Ryo Ueda
+illustrators:
+- Ryo Ueda
 ---
 set: ex-delta-species
 number: '4'
@@ -168,7 +171,8 @@ damage modifiers:
   operation: ×
   type: Psychic
 retreat: 1
-illustrator: Ryo Ueda
+illustrators:
+- Ryo Ueda
 ---
 set: ex-delta-species
 number: '5'
@@ -208,7 +212,8 @@ damage modifiers:
   operation: ×
   type: Water
 retreat: 1
-illustrator: Kouki Saitou
+illustrators:
+- Kouki Saitou
 ---
 set: ex-delta-species
 number: '6'
@@ -255,7 +260,8 @@ damage modifiers:
   operation: ×
   type: Psychic
 retreat: 2
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: ex-delta-species
 number: '7'
@@ -300,7 +306,8 @@ damage modifiers:
   operation: '-'
   type: Metal
 retreat: 1
-illustrator: Kouki Saitou
+illustrators:
+- Kouki Saitou
 ---
 set: ex-delta-species
 number: '8'
@@ -349,7 +356,8 @@ damage modifiers:
   operation: '-'
   type: Psychic
 retreat: 1
-illustrator: Ryo Ueda
+illustrators:
+- Ryo Ueda
 ---
 set: ex-delta-species
 number: '9'
@@ -396,7 +404,8 @@ damage modifiers:
   operation: '-'
   type: Grass
 retreat: 2
-illustrator: Ryo Ueda
+illustrators:
+- Ryo Ueda
 ---
 set: ex-delta-species
 number: '10'
@@ -436,7 +445,8 @@ damage modifiers:
   operation: ×
   type: Grass
 retreat: 1
-illustrator: Hajime Kusajima
+illustrators:
+- Hajime Kusajima
 ---
 set: ex-delta-species
 number: '11'
@@ -481,7 +491,8 @@ damage modifiers:
   operation: '-'
   type: Grass
 retreat: 3
-illustrator: Masakazu Fukuda
+illustrators:
+- Masakazu Fukuda
 ---
 set: ex-delta-species
 number: '12'
@@ -520,7 +531,8 @@ damage modifiers:
   operation: ×
   type: Psychic
 retreat: 1
-illustrator: Ryo Ueda
+illustrators:
+- Ryo Ueda
 ---
 set: ex-delta-species
 number: '13'
@@ -568,7 +580,8 @@ damage modifiers:
   operation: '-'
   type: Water
 retreat: 3
-illustrator: Ryo Ueda
+illustrators:
+- Ryo Ueda
 ---
 set: ex-delta-species
 number: '14'
@@ -613,7 +626,8 @@ damage modifiers:
   operation: '-'
   type: Fire
 retreat: 1
-illustrator: Ryo Ueda
+illustrators:
+- Ryo Ueda
 ---
 set: ex-delta-species
 number: '15'
@@ -656,7 +670,8 @@ damage modifiers:
 - amount: 2
   operation: ×
   type: Lightning
-illustrator: Masakazu Fukuda
+illustrators:
+- Masakazu Fukuda
 ---
 set: ex-delta-species
 number: '16'
@@ -697,7 +712,8 @@ damage modifiers:
   operation: ×
   type: Grass
 retreat: 2
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: ex-delta-species
 number: '17'
@@ -741,7 +757,8 @@ damage modifiers:
   operation: '-'
   type: Psychic
 retreat: 1
-illustrator: Ryo Ueda
+illustrators:
+- Ryo Ueda
 ---
 set: ex-delta-species
 number: '18'
@@ -782,7 +799,8 @@ damage modifiers:
   operation: ×
   type: Lightning
 retreat: 1
-illustrator: Kouki Saitou
+illustrators:
+- Kouki Saitou
 ---
 set: ex-delta-species
 number: '19'
@@ -818,7 +836,8 @@ damage modifiers:
   operation: ×
   type: Lightning
 retreat: 2
-illustrator: Atsuko Nishida
+illustrators:
+- Atsuko Nishida
 ---
 set: ex-delta-species
 number: '20'
@@ -854,7 +873,8 @@ damage modifiers:
   operation: ×
   type: Fighting
 retreat: 1
-illustrator: Midori Harada
+illustrators:
+- Midori Harada
 ---
 set: ex-delta-species
 number: '21'
@@ -885,7 +905,8 @@ damage modifiers:
 - amount: 2
   operation: ×
   type: Fighting
-illustrator: Hisao Nakamura
+illustrators:
+- Hisao Nakamura
 ---
 set: ex-delta-species
 number: '22'
@@ -921,7 +942,8 @@ damage modifiers:
   operation: '-'
   type: Grass
 retreat: 1
-illustrator: Katsura Tabata
+illustrators:
+- Katsura Tabata
 ---
 set: ex-delta-species
 number: '23'
@@ -962,7 +984,8 @@ damage modifiers:
   operation: ×
   type: Psychic
 retreat: 1
-illustrator: Midori Harada
+illustrators:
+- Midori Harada
 ---
 set: ex-delta-species
 number: '24'
@@ -1005,7 +1028,8 @@ damage modifiers:
   operation: '-'
   type: Psychic
 retreat: 1
-illustrator: Hajime Kusajima
+illustrators:
+- Hajime Kusajima
 ---
 set: ex-delta-species
 number: '25'
@@ -1042,7 +1066,8 @@ damage modifiers:
   operation: ×
   type: Fighting
 retreat: 1
-illustrator: Hisao Nakamura
+illustrators:
+- Hisao Nakamura
 ---
 set: ex-delta-species
 number: '26'
@@ -1081,7 +1106,8 @@ damage modifiers:
   operation: ×
   type: Lightning
 retreat: 1
-illustrator: Miki Tanaka
+illustrators:
+- Miki Tanaka
 ---
 set: ex-delta-species
 number: '27'
@@ -1123,7 +1149,8 @@ damage modifiers:
   operation: ×
   type: Grass
 retreat: 1
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: ex-delta-species
 number: '28'
@@ -1164,7 +1191,8 @@ damage modifiers:
   operation: ×
   type: Lightning
 retreat: 1
-illustrator: Kagemaru Himeno
+illustrators:
+- Kagemaru Himeno
 ---
 set: ex-delta-species
 number: '29'
@@ -1209,7 +1237,8 @@ damage modifiers:
   operation: ×
   type: Metal
 retreat: 2
-illustrator: Miki Tanaka
+illustrators:
+- Miki Tanaka
 ---
 set: ex-delta-species
 number: '30'
@@ -1250,7 +1279,8 @@ damage modifiers:
   operation: ×
   type: Lightning
 retreat: 1
-illustrator: Midori Harada
+illustrators:
+- Midori Harada
 ---
 set: ex-delta-species
 number: '31'
@@ -1292,7 +1322,8 @@ damage modifiers:
   operation: ×
   type: Water
 retreat: 2
-illustrator: Miki Tanaka
+illustrators:
+- Miki Tanaka
 ---
 set: ex-delta-species
 number: '32'
@@ -1333,7 +1364,8 @@ damage modifiers:
 - amount: 30
   operation: '-'
   type: Fighting
-illustrator: Atsuko Nishida
+illustrators:
+- Atsuko Nishida
 ---
 set: ex-delta-species
 number: '33'
@@ -1376,7 +1408,8 @@ damage modifiers:
   operation: ×
   type: Psychic
 retreat: 2
-illustrator: Yukiko Baba
+illustrators:
+- Yukiko Baba
 ---
 set: ex-delta-species
 number: '34'
@@ -1418,7 +1451,8 @@ damage modifiers:
   operation: ×
   type: Fighting
 retreat: 1
-illustrator: Miki Tanaka
+illustrators:
+- Miki Tanaka
 ---
 set: ex-delta-species
 number: '35'
@@ -1456,7 +1490,8 @@ damage modifiers:
   operation: ×
   type: Fighting
 retreat: 1
-illustrator: Yuka Morii
+illustrators:
+- Yuka Morii
 ---
 set: ex-delta-species
 number: '36'
@@ -1493,7 +1528,8 @@ damage modifiers:
   operation: ×
   type: Fire
 retreat: 1
-illustrator: Yuka Morii
+illustrators:
+- Yuka Morii
 ---
 set: ex-delta-species
 number: '37'
@@ -1531,7 +1567,8 @@ damage modifiers:
   operation: ×
   type: Water
 retreat: 1
-illustrator: Yuka Morii
+illustrators:
+- Yuka Morii
 ---
 set: ex-delta-species
 number: '38'
@@ -1570,7 +1607,8 @@ damage modifiers:
   operation: ×
   type: Psychic
 retreat: 1
-illustrator: Yuka Morii
+illustrators:
+- Yuka Morii
 ---
 set: ex-delta-species
 number: '39'
@@ -1607,7 +1645,8 @@ damage modifiers:
   operation: ×
   type: Fighting
 retreat: 1
-illustrator: Yuka Morii
+illustrators:
+- Yuka Morii
 ---
 set: ex-delta-species
 number: '40'
@@ -1645,7 +1684,8 @@ damage modifiers:
   operation: ×
   type: Lightning
 retreat: 1
-illustrator: Yuka Morii
+illustrators:
+- Yuka Morii
 ---
 set: ex-delta-species
 number: '41'
@@ -1687,7 +1727,8 @@ damage modifiers:
   operation: '-'
   type: Grass
 retreat: 1
-illustrator: Hajime Kusajima
+illustrators:
+- Hajime Kusajima
 ---
 set: ex-delta-species
 number: '42'
@@ -1726,7 +1767,8 @@ damage modifiers:
   operation: '-'
   type: Grass
 retreat: 2
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: ex-delta-species
 number: '43'
@@ -1761,7 +1803,8 @@ damage modifiers:
   operation: ×
   type: Psychic
 retreat: 1
-illustrator: Yukiko Baba
+illustrators:
+- Yukiko Baba
 ---
 set: ex-delta-species
 number: '44'
@@ -1803,7 +1846,8 @@ damage modifiers:
   operation: ×
   type: Psychic
 retreat: 1
-illustrator: Hisao Nakamura
+illustrators:
+- Hisao Nakamura
 ---
 set: ex-delta-species
 number: '45'
@@ -1844,7 +1888,8 @@ damage modifiers:
   operation: ×
   type: Fire
 retreat: 1
-illustrator: Midori Harada
+illustrators:
+- Midori Harada
 ---
 set: ex-delta-species
 number: '46'
@@ -1877,7 +1922,8 @@ damage modifiers:
   operation: ×
   type: Fire
 retreat: 2
-illustrator: Sachiko Adachi
+illustrators:
+- Sachiko Adachi
 ---
 set: ex-delta-species
 number: '47'
@@ -1912,7 +1958,8 @@ damage modifiers:
   operation: ×
   type: Psychic
 retreat: 1
-illustrator: Midori Harada
+illustrators:
+- Midori Harada
 ---
 set: ex-delta-species
 number: '48'
@@ -1948,7 +1995,8 @@ damage modifiers:
   operation: '-'
   type: Metal
 retreat: 1
-illustrator: Kagemaru Himeno
+illustrators:
+- Kagemaru Himeno
 ---
 set: ex-delta-species
 number: '49'
@@ -1987,7 +2035,8 @@ damage modifiers:
   operation: '-'
   type: Grass
 retreat: 2
-illustrator: Hajime Kusajima
+illustrators:
+- Hajime Kusajima
 ---
 set: ex-delta-species
 number: '50'
@@ -2023,7 +2072,8 @@ damage modifiers:
   operation: ×
   type: Fighting
 retreat: 1
-illustrator: Naoyo Kimura
+illustrators:
+- Naoyo Kimura
 ---
 set: ex-delta-species
 number: '51'
@@ -2058,7 +2108,8 @@ damage modifiers:
 - amount: 2
   operation: ×
   type: Grass
-illustrator: Masakazu Fukuda
+illustrators:
+- Masakazu Fukuda
 ---
 set: ex-delta-species
 number: '52'
@@ -2092,7 +2143,8 @@ damage modifiers:
 - amount: 2
   operation: ×
   type: Water
-illustrator: Atsuko Nishida
+illustrators:
+- Atsuko Nishida
 ---
 set: ex-delta-species
 number: '53'
@@ -2133,7 +2185,8 @@ damage modifiers:
   operation: '-'
   type: Fire
 retreat: 2
-illustrator: Masakazu Fukuda
+illustrators:
+- Masakazu Fukuda
 ---
 set: ex-delta-species
 number: '54'
@@ -2173,7 +2226,8 @@ damage modifiers:
   operation: '-'
   type: Fire
 retreat: 2
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: ex-delta-species
 number: '55'
@@ -2217,7 +2271,8 @@ damage modifiers:
   operation: '-'
   type: Grass
 retreat: 1
-illustrator: Hisao Nakamura
+illustrators:
+- Hisao Nakamura
 ---
 set: ex-delta-species
 number: '56'
@@ -2253,7 +2308,8 @@ damage modifiers:
   operation: ×
   type: Fire
 retreat: 1
-illustrator: Midori Harada
+illustrators:
+- Midori Harada
 ---
 set: ex-delta-species
 number: '57'
@@ -2287,7 +2343,8 @@ damage modifiers:
   operation: '-'
   type: Fire
 retreat: 1
-illustrator: Masakazu Fukuda
+illustrators:
+- Masakazu Fukuda
 ---
 set: ex-delta-species
 number: '58'
@@ -2323,7 +2380,8 @@ damage modifiers:
   operation: '-'
   type: Fire
 retreat: 1
-illustrator: Hajime Kusajima
+illustrators:
+- Hajime Kusajima
 ---
 set: ex-delta-species
 number: '59'
@@ -2361,7 +2419,8 @@ damage modifiers:
   operation: '-'
   type: Grass
 retreat: 1
-illustrator: Hajime Kusajima
+illustrators:
+- Hajime Kusajima
 ---
 set: ex-delta-species
 number: '60'
@@ -2394,7 +2453,8 @@ damage modifiers:
   operation: ×
   type: Grass
 retreat: 1
-illustrator: Yukiko Baba
+illustrators:
+- Yukiko Baba
 ---
 set: ex-delta-species
 number: '61'
@@ -2432,7 +2492,8 @@ damage modifiers:
   operation: ×
   type: Water
 retreat: 1
-illustrator: Yuka Morii
+illustrators:
+- Yuka Morii
 ---
 set: ex-delta-species
 number: '62'
@@ -2470,7 +2531,8 @@ damage modifiers:
   operation: ×
   type: Water
 retreat: 1
-illustrator: Yuka Morii
+illustrators:
+- Yuka Morii
 ---
 set: ex-delta-species
 number: '63'
@@ -2507,7 +2569,8 @@ damage modifiers:
   operation: ×
   type: Fighting
 retreat: 1
-illustrator: Yuka Morii
+illustrators:
+- Yuka Morii
 ---
 set: ex-delta-species
 number: '64'
@@ -2545,7 +2608,8 @@ damage modifiers:
   operation: ×
   type: Lightning
 retreat: 1
-illustrator: Yuka Morii
+illustrators:
+- Yuka Morii
 ---
 set: ex-delta-species
 number: '65'
@@ -2585,7 +2649,8 @@ damage modifiers:
   operation: '-'
   type: Grass
 retreat: 1
-illustrator: Hajime Kusajima
+illustrators:
+- Hajime Kusajima
 ---
 set: ex-delta-species
 number: '66'
@@ -2621,7 +2686,8 @@ damage modifiers:
   operation: '-'
   type: Grass
 retreat: 1
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: ex-delta-species
 number: '67'
@@ -2653,7 +2719,8 @@ damage modifiers:
   operation: ×
   type: Psychic
 retreat: 1
-illustrator: Tomokazu Komiya
+illustrators:
+- Tomokazu Komiya
 ---
 set: ex-delta-species
 number: '68'
@@ -2684,7 +2751,8 @@ damage modifiers:
   operation: ×
   type: Fighting
 retreat: 1
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: ex-delta-species
 number: '69'
@@ -2716,7 +2784,8 @@ damage modifiers:
   operation: ×
   type: Fighting
 retreat: 1
-illustrator: Atsuko Nishida
+illustrators:
+- Atsuko Nishida
 ---
 set: ex-delta-species
 number: '70'
@@ -2751,7 +2820,8 @@ damage modifiers:
   operation: '-'
   type: Grass
 retreat: 1
-illustrator: Katsura Tabata
+illustrators:
+- Katsura Tabata
 ---
 set: ex-delta-species
 number: '71'
@@ -2782,7 +2852,8 @@ damage modifiers:
   operation: ×
   type: Fighting
 retreat: 1
-illustrator: Takao Unno
+illustrators:
+- Takao Unno
 ---
 set: ex-delta-species
 number: '72'
@@ -2813,7 +2884,8 @@ damage modifiers:
   operation: ×
   type: Psychic
 retreat: 1
-illustrator: Sachiko Adachi
+illustrators:
+- Sachiko Adachi
 ---
 set: ex-delta-species
 number: '73'
@@ -2848,7 +2920,8 @@ damage modifiers:
   operation: ×
   type: Water
 retreat: 1
-illustrator: Hajime Kusajima
+illustrators:
+- Hajime Kusajima
 ---
 set: ex-delta-species
 number: '74'
@@ -2882,7 +2955,8 @@ damage modifiers:
   operation: '-'
   type: Metal
 retreat: 1
-illustrator: Kagemaru Himeno
+illustrators:
+- Kagemaru Himeno
 ---
 set: ex-delta-species
 number: '75'
@@ -2912,7 +2986,8 @@ damage modifiers:
   operation: ×
   type: Psychic
 retreat: 1
-illustrator: Sachiko Adachi
+illustrators:
+- Sachiko Adachi
 ---
 set: ex-delta-species
 number: '76'
@@ -2945,7 +3020,8 @@ damage modifiers:
   operation: ×
   type: Lightning
 retreat: 1
-illustrator: Midori Harada
+illustrators:
+- Midori Harada
 ---
 set: ex-delta-species
 number: '77'
@@ -2977,7 +3053,8 @@ damage modifiers:
   operation: ×
   type: Fighting
 retreat: 1
-illustrator: Hiroki Fuchino
+illustrators:
+- Hiroki Fuchino
 ---
 set: ex-delta-species
 number: '78'
@@ -3003,7 +3080,8 @@ damage modifiers:
   operation: ×
   type: Water
 retreat: 1
-illustrator: Naoyo Kimura
+illustrators:
+- Naoyo Kimura
 ---
 set: ex-delta-species
 number: '79'
@@ -3041,7 +3119,8 @@ damage modifiers:
   operation: '-'
   type: Psychic
 retreat: 1
-illustrator: Sachiko Adachi
+illustrators:
+- Sachiko Adachi
 ---
 set: ex-delta-species
 number: '80'
@@ -3067,7 +3146,8 @@ damage modifiers:
   operation: ×
   type: Fighting
 retreat: 1
-illustrator: Hisao Nakamura
+illustrators:
+- Hisao Nakamura
 ---
 set: ex-delta-species
 number: '81'
@@ -3101,7 +3181,8 @@ damage modifiers:
   operation: ×
   type: Psychic
 retreat: 1
-illustrator: Kenkichi Toyama
+illustrators:
+- Kenkichi Toyama
 ---
 set: ex-delta-species
 number: '82'
@@ -3134,7 +3215,8 @@ damage modifiers:
   operation: ×
   type: Grass
 retreat: 1
-illustrator: Tomokazu Komiya
+illustrators:
+- Tomokazu Komiya
 ---
 set: ex-delta-species
 number: '83'
@@ -3165,7 +3247,8 @@ damage modifiers:
   operation: ×
   type: Lightning
 retreat: 1
-illustrator: Kagemaru Himeno
+illustrators:
+- Kagemaru Himeno
 ---
 set: ex-delta-species
 number: '84'
@@ -3195,7 +3278,8 @@ damage modifiers:
   operation: ×
   type: Lightning
 retreat: 1
-illustrator: Midori Harada
+illustrators:
+- Midori Harada
 ---
 set: ex-delta-species
 number: '85'
@@ -3229,7 +3313,8 @@ damage modifiers:
   operation: ×
   type: Lightning
 retreat: 1
-illustrator: Hisao Nakamura
+illustrators:
+- Hisao Nakamura
 ---
 set: ex-delta-species
 number: '86'
@@ -3260,7 +3345,8 @@ damage modifiers:
   operation: '-'
   type: Fighting
 retreat: 1
-illustrator: Tomokazu Komiya
+illustrators:
+- Tomokazu Komiya
 ---
 set: ex-delta-species
 number: '87'
@@ -3288,7 +3374,8 @@ damage modifiers:
   operation: ×
   type: Fire
 retreat: 1
-illustrator: Atsuko Nishida
+illustrators:
+- Atsuko Nishida
 ---
 set: ex-delta-species
 number: '88'
@@ -3316,7 +3403,8 @@ damage modifiers:
   operation: ×
   type: Psychic
 retreat: 1
-illustrator: Tomokazu Komiya
+illustrators:
+- Tomokazu Komiya
 ---
 set: ex-delta-species
 number: '89'
@@ -3333,7 +3421,8 @@ mechanics:
     Flip 2 coins. For each heads, search your deck for a Basic
     Pokémon card, show it to your opponent, and put it into your
     hand. Shuffle your deck afterward.
-illustrator: Big Mama Tagawa
+illustrators:
+- Big Mama Tagawa
 ---
 set: ex-delta-species
 number: '90'
@@ -3349,7 +3438,8 @@ mechanics:
   text: >-
     Search your deck for a Basic Pokémon (excluding Pokémon-ex)
     and put it onto your Bench. Shuffle your deck afterward.
-illustrator: Nakaoka
+illustrators:
+- Nakaoka
 ---
 set: ex-delta-species
 number: '91'
@@ -3375,7 +3465,8 @@ mechanics:
     pile for 3 basic Energy cards and any combination of 3 Basic
     Pokémon or Evolution cards, show them to your opponent, and
     put them on top of your deck. Shuffle your deck afterward.
-illustrator: Kouki Saitou
+illustrators:
+- Kouki Saitou
 ---
 set: ex-delta-species
 number: '92'
@@ -3403,7 +3494,8 @@ mechanics:
     Energy cards as you like, show them to your opponent, and
     put them into your hand. Put the other cards back on top of
     your deck. Shuffle your deck afterward.
-illustrator: Kouki Saitou
+illustrators:
+- Kouki Saitou
 ---
 set: ex-delta-species
 number: '93'
@@ -3429,7 +3521,8 @@ mechanics:
     for up to 3 Basic Pokémon that each has 100 HP or less, show
     them to your opponent, and put them into your hand. Shuffle
     your deck afterward.
-illustrator: Kouki Saitou
+illustrators:
+- Kouki Saitou
 ---
 set: ex-delta-species
 number: '94'
@@ -3454,7 +3547,8 @@ mechanics:
     has Delta Species symbol on its card are both their usual
     Energy type and M type but provide only 1 Energy at a time.
     (Has no effect other than providing Energy.)
-illustrator: Ryo Ueda
+illustrators:
+- Ryo Ueda
 ---
 set: ex-delta-species
 number: '95'
@@ -3480,7 +3574,8 @@ mechanics:
     for a M Energy card or a Basic Pokémon (or Evolution card)
     that has Delta Species symbol on its card, show it to your
     opponent, and put it into your hand. Shuffle your deck afterward.
-illustrator: Kanako Eo
+illustrators:
+- Kanako Eo
 ---
 set: ex-delta-species
 number: '96'
@@ -3505,7 +3600,8 @@ mechanics:
     symbol on its card may draw a card once during his or her
     turn. If the player does, he or she discards a card from his
     or her hand.
-illustrator: Ryo Ueda
+illustrators:
+- Ryo Ueda
 ---
 set: ex-delta-species
 number: '97'
@@ -3530,7 +3626,8 @@ mechanics:
     from your hand, you can't play this card. If you have less
     cards in your hand than your opponent, draw cards until you
     have the same number of cards as your opponent.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: ex-delta-species
 number: '98'
@@ -3549,7 +3646,8 @@ mechanics:
     Shuffle your deck afterward. Or, search your discard pile
     for a Supporter card that has Holon in its name, show it to
     your opponent, and put it into your hand.
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: ex-delta-species
 number: '99'
@@ -3567,7 +3665,8 @@ mechanics:
     or Evolution card from those cards, show it to your opponent,
     and put it into your hand. Put the other 6 cards back on top
     of your deck. Shuffle your deck afterward.
-illustrator: Keiji Kinebuchi
+illustrators:
+- Keiji Kinebuchi
 ---
 set: ex-delta-species
 number: '100'
@@ -3583,7 +3682,8 @@ mechanics:
   text: >-
     Flip a coin. If heads, return 1 of your Pokémon and all cards
     attached to it to your hand.
-illustrator: Keiji Kinebuchi
+illustrators:
+- Keiji Kinebuchi
 ---
 set: ex-delta-species
 number: '101'
@@ -3599,7 +3699,8 @@ mechanics:
   text: >-
     Remove 2 damage counters from 1 of your Pokémon (remove 1
     damage counter if that Pokémon has only 1).
-illustrator: Shin-ichi Yoshikawa
+illustrators:
+- Shin-ichi Yoshikawa
 ---
 set: ex-delta-species
 number: '102'
@@ -3614,7 +3715,8 @@ mechanics:
 - type: effect
   text: >-
     Switch 1 of your Active Pokémon with 1 of your Benched Pokémon.
-illustrator: Hiromichi Sugiyama
+illustrators:
+- Hiromichi Sugiyama
 ---
 set: ex-delta-species
 number: '103'
@@ -3635,7 +3737,8 @@ mechanics:
     Weakness and Resistance). Ignore this effect unless the Attacking
     Pokémon is D or has Dark in its name. Darkness Energy provides
     D Energy. (Doesn't count as a basic Energy card.)
-illustrator: Milky Isobe
+illustrators:
+- Milky Isobe
 ---
 set: ex-delta-species
 number: '104'
@@ -3658,7 +3761,8 @@ mechanics:
     to it, damage done by that Pokémon's attack isn't affected
     by Resistance. Ignore these effects if Holon Energy FF is
     attached to Pokémon-ex.
-illustrator: Takumi Akabane
+illustrators:
+- Takumi Akabane
 ---
 set: ex-delta-species
 number: '105'
@@ -3681,7 +3785,8 @@ mechanics:
     a basic L Energy card attached to it, damage done by your
     opponent's Pokémon-ex is reduced by 10. Ignore these effects
     if Holon Energy GL is attached to Pokémon-ex.
-illustrator: Takumi Akabane
+illustrators:
+- Takumi Akabane
 ---
 set: ex-delta-species
 number: '106'
@@ -3704,7 +3809,8 @@ mechanics:
     Energy WP is attached to also has a basic P Energy card attached
     to it, that Pokémon's Retreat Cost is 0. Ignore these effects
     if Holon Energy WP is attached to Pokémon-ex.
-illustrator: Takumi Akabane
+illustrators:
+- Takumi Akabane
 ---
 set: ex-delta-species
 number: '107'
@@ -3725,7 +3831,8 @@ mechanics:
     Resistance). Ignore this effect if the Pokémon that Metal
     Energy is attached to isn't M. Metal Energy provides M Energy.
     (Doesn't count as a basic Energy card.)
-illustrator: Milky Isobe
+illustrators:
+- Milky Isobe
 ---
 set: ex-delta-species
 number: '108'
@@ -3770,7 +3877,8 @@ damage modifiers:
   operation: ×
   type: Water
 retreat: 1
-illustrator: Ryo Ueda
+illustrators:
+- Ryo Ueda
 ---
 set: ex-delta-species
 number: '109'
@@ -3816,7 +3924,8 @@ damage modifiers:
 - amount: 30
   operation: '-'
   type: Metal
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: ex-delta-species
 number: '110'
@@ -3859,7 +3968,8 @@ damage modifiers:
   operation: ×
   type: Lightning
 retreat: 1
-illustrator: Hikaru Koike
+illustrators:
+- Hikaru Koike
 ---
 set: ex-delta-species
 number: '111'
@@ -3897,7 +4007,8 @@ damage modifiers:
   operation: ×
   type: Water
 retreat: 3
-illustrator: Masakazu Fukuda
+illustrators:
+- Masakazu Fukuda
 ---
 set: ex-delta-species
 number: '112'
@@ -3936,7 +4047,8 @@ damage modifiers:
   operation: ×
   type: Lightning
 retreat: 3
-illustrator: Masakazu Fukuda
+illustrators:
+- Masakazu Fukuda
 ---
 set: ex-delta-species
 number: '113'
@@ -3978,7 +4090,8 @@ damage modifiers:
   operation: '-'
   type: Grass
 retreat: 3
-illustrator: Masakazu Fukuda
+illustrators:
+- Masakazu Fukuda
 ---
 set: ex-delta-species
 number: '114'
@@ -4012,4 +4125,5 @@ damage modifiers:
   operation: ×
   type: Lightning
 retreat: 1
-illustrator: Kagemaru Himeno
+illustrators:
+- Kagemaru Himeno

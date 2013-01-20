@@ -45,7 +45,8 @@ height: 4'3
 dex entry: >-
   A timid Fairy Pokémon that is rarely seen. It will run and hide
   the moment it senses people.
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: jungle
 number: '2'
@@ -87,7 +88,8 @@ height: 3'11
 dex entry: >-
   It stores electrical energy under very high pressure. It often
   explodes with little or no provocation.
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: jungle
 number: '3'
@@ -131,7 +133,8 @@ height: 2'11
 dex entry: >-
   When storing thermal energy in its body, its temperature could
   soar to over 1600 degrees.
-illustrator: Kagemaru Himeno
+illustrators:
+- Kagemaru Himeno
 ---
 set: jungle
 number: '4'
@@ -175,7 +178,8 @@ height: 2'7
 dex entry: >-
   It accumulates negative ions from the atmosphere to blast out
   10,000-volt lightning bolts.
-illustrator: Kagemaru Himeno
+illustrators:
+- Kagemaru Himeno
 ---
 set: jungle
 number: '5'
@@ -219,7 +223,8 @@ height: 7'3
 dex entry: >-
   The infant rarely ventures out of its mother's protective pouch
   until it is three years old.
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: jungle
 number: '6'
@@ -263,7 +268,8 @@ height: 4'3
 dex entry: >-
   If interrupted while miming, it will slap around the enemy with
   its broad hands.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: jungle
 number: '7'
@@ -304,7 +310,8 @@ height: 4'3
 dex entry: >-
   Its hard scales provide strong protection. It uses its hefty
   bulk to execute powerful moves.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: jungle
 number: '8'
@@ -348,7 +355,8 @@ height: 4'11
 dex entry: >-
   When hunting, it skims the surface of water at high speed to
   pick off unwary prey such as Magikarp.
-illustrator: Kagemaru Himeno
+illustrators:
+- Kagemaru Himeno
 ---
 set: jungle
 number: '9'
@@ -387,7 +395,8 @@ height: 4'11
 dex entry: >-
   If it fails to crush the victim in its pincers, it will swing
   its victim around and toss it hard.
-illustrator: Kagemaru Himeno
+illustrators:
+- Kagemaru Himeno
 ---
 set: jungle
 number: '10'
@@ -429,7 +438,8 @@ height: 4'11
 dex entry: >-
   With ninja-like agility and speed, it can create the illusion
   that there is more than one of it.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: jungle
 number: '11'
@@ -473,7 +483,8 @@ height: 6'11
 dex entry: >-
   Very lazy. Just eats and sleeps. As its rotund bulk builds,
   it becomes steadily more slothful.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: jungle
 number: '12'
@@ -518,7 +529,8 @@ height: 3'3
 dex entry: >-
   Lives close to water. Its long tail is ridged with a fin that
   is often mistaken for a mermaid's.
-illustrator: Kagemaru Himeno
+illustrators:
+- Kagemaru Himeno
 ---
 set: jungle
 number: '13'
@@ -564,7 +576,8 @@ height: 4'11
 dex entry: >-
   The dust-like scales covering its wings are color coded to indicate
   the kinds of poison it has.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: jungle
 number: '14'
@@ -607,7 +620,8 @@ height: 5'7
 dex entry: >-
   Said to live in huge colonies deep in jungles, although no one
   has ever returned from there.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: jungle
 number: '15'
@@ -651,7 +665,8 @@ height: 3'11
 dex entry: >-
   The larger its petals, the more toxic pollen it contains. Its
   big head is heavy and hard to hold up.
-illustrator: Keiji Kinebuchi
+illustrators:
+- Keiji Kinebuchi
 ---
 set: jungle
 number: '16'
@@ -696,7 +711,8 @@ height: 3'3
 dex entry: >-
   The body is soft and rubbery. When angered, it will suck in
   air and inflate itself to an enormous size.
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: jungle
 number: '17'
@@ -745,7 +761,8 @@ height: 4'3
 dex entry: >-
   A timid Fairy Pokémon that is rarely seen. It will run and hide
   the moment it senses people.
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: jungle
 number: '18'
@@ -788,7 +805,8 @@ height: 3'11
 dex entry: >-
   It stores electrical energy under very high pressure. It often
   explodes with little or no provocation.
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: jungle
 number: '19'
@@ -833,7 +851,8 @@ height: 2'11
 dex entry: >-
   When storing thermal energy in its body, its temperature could
   soar to over 1600 degrees.
-illustrator: Kagemaru Himeno
+illustrators:
+- Kagemaru Himeno
 ---
 set: jungle
 number: '20'
@@ -878,7 +897,8 @@ height: 2'7
 dex entry: >-
   It accumulates negative ions from the atmosphere to blast out
   10,000-volt lightning bolts.
-illustrator: Kagemaru Himeno
+illustrators:
+- Kagemaru Himeno
 ---
 set: jungle
 number: '21'
@@ -923,7 +943,8 @@ height: 7'3
 dex entry: >-
   The infant rarely ventures out of its mother's protective pouch
   until it is three years old.
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: jungle
 number: '22'
@@ -968,7 +989,8 @@ height: 4'3
 dex entry: >-
   If interrupted while miming, it will slap around the enemy with
   its broad hands.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: jungle
 number: '23'
@@ -1010,7 +1032,8 @@ height: 4'3
 dex entry: >-
   Its hard scales provide strong protection. It uses its hefty
   bulk to execute powerful moves.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: jungle
 number: '24'
@@ -1055,7 +1078,8 @@ height: 4'11
 dex entry: >-
   When hunting, it skims the surface of water at high speed to
   pick off unwary prey such as Magikarp.
-illustrator: Kagemaru Himeno
+illustrators:
+- Kagemaru Himeno
 ---
 set: jungle
 number: '25'
@@ -1095,7 +1119,8 @@ height: 4'11
 dex entry: >-
   If it fails to crush the victim in its pincers, it will swing
   its victim around and toss it hard.
-illustrator: Kagemaru Himeno
+illustrators:
+- Kagemaru Himeno
 ---
 set: jungle
 number: '26'
@@ -1138,7 +1163,8 @@ height: 4'11
 dex entry: >-
   With ninja-like agility and speed, it can create the illusion
   that there is more than one of it.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: jungle
 number: '27'
@@ -1183,7 +1209,8 @@ height: 6'11
 dex entry: >-
   Very lazy. Just eats and sleeps. As its rotund bulk builds,
   it becomes steadily more slothful.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: jungle
 number: '28'
@@ -1229,7 +1256,8 @@ height: 3'3
 dex entry: >-
   Lives close to water. Its long tail is ridged with a fin that
   is often mistaken for a mermaid's.
-illustrator: Kagemaru Himeno
+illustrators:
+- Kagemaru Himeno
 ---
 set: jungle
 number: '29'
@@ -1276,7 +1304,8 @@ height: 4'11
 dex entry: >-
   The dust-like scales covering its wings are color coded to indicate
   the kinds of poison it has.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: jungle
 number: '30'
@@ -1320,7 +1349,8 @@ height: 5'7
 dex entry: >-
   Said to live in huge colonies deep in jungles, although no one
   has ever returned from there.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: jungle
 number: '31'
@@ -1365,7 +1395,8 @@ height: 3'11
 dex entry: >-
   The larger its petals, the more toxic pollen it contains. Its
   big head is heavy and hard to hold up.
-illustrator: Keiji Kinebuchi
+illustrators:
+- Keiji Kinebuchi
 ---
 set: jungle
 number: '32'
@@ -1411,7 +1442,8 @@ height: 3'3
 dex entry: >-
   The body is soft and rubbery. When angered, it will suck in
   air and inflate itself to an enormous size.
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: jungle
 number: '33'
@@ -1459,7 +1491,8 @@ height: 3'7
 dex entry: >-
   In battle, it flaps its wings at high speed to release highly
   toxic dust into the air.
-illustrator: Kagemaru Himeno
+illustrators:
+- Kagemaru Himeno
 ---
 set: jungle
 number: '34'
@@ -1503,7 +1536,8 @@ height: 5'11
 dex entry: >-
   Uses its three brains to execute complex plans. While two heads
   sleep, one head stays awake.
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: jungle
 number: '35'
@@ -1546,7 +1580,8 @@ height: 6'7
 dex entry: >-
   Legend has it that on rare occasions, one of its heads will
   drop off and continue on as an Exeggcute.
-illustrator: Kagemaru Himeno
+illustrators:
+- Kagemaru Himeno
 ---
 set: jungle
 number: '36'
@@ -1589,7 +1624,8 @@ height: 3'11
 dex entry: >-
   With its huge and magnificent wings, it can keep aloft without
   ever having to land for rest.
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: jungle
 number: '37'
@@ -1631,7 +1667,8 @@ height: 2'7
 dex entry: >-
   The fluid that oozes from its mouth isn't drool; it is a nectar
   that is used to attract prey.
-illustrator: Keiji Kinebuchi
+illustrators:
+- Keiji Kinebuchi
 ---
 set: jungle
 number: '38'
@@ -1674,7 +1711,8 @@ height: 3'11
 dex entry: >-
   Its tongue can be extended like a chameleon's. It leaves a stinging
   sensation when it licks enemies.
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: jungle
 number: '39'
@@ -1721,7 +1759,8 @@ height: 3'3
 dex entry: >-
   The bone it holds is its key weapon. It throws the bone skillfully
   like a boomerang to K.O. targets.
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: jungle
 number: '40'
@@ -1763,7 +1802,8 @@ height: 2'7
 dex entry: >-
   The female's horn develops slowly. Prefers physical attacks
   such as clawing and biting.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: jungle
 number: '41'
@@ -1802,7 +1842,8 @@ height: 3'3
 dex entry: >-
   A host-parasite pair in which the parasite mushroom has taken
   over the host bug. Prefers damp places.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: jungle
 number: '42'
@@ -1847,7 +1888,8 @@ height: 3'3
 dex entry: >-
   Although its fur has many admirers, it is tough to raise as
   a pet because of its fickle meanness.
-illustrator: Kagemaru Himeno
+illustrators:
+- Kagemaru Himeno
 ---
 set: jungle
 number: '43'
@@ -1891,7 +1933,8 @@ height: 3'3
 dex entry: >-
   Always furious and tenacious to boot. It will not abandon chasing
   its quarry until its quarry is caught.
-illustrator: Kagemaru Himeno
+illustrators:
+- Kagemaru Himeno
 ---
 set: jungle
 number: '44'
@@ -1934,7 +1977,8 @@ height: 5'7
 dex entry: >-
   Very competitive, this Pokémon will chase anything that moves
   fast in the hopes of racing it.
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: jungle
 number: '45'
@@ -1981,7 +2025,8 @@ height: 6'3
 dex entry: >-
   Protected by an armor-like hide, it is capable of living in
   molten lava of 3600 degrees.
-illustrator: Kagemaru Himeno
+illustrators:
+- Kagemaru Himeno
 ---
 set: jungle
 number: '46'
@@ -2019,7 +2064,8 @@ height: 4'3
 dex entry: >-
   In the autumn spawning season, they can be seen swimming powerfully
   up rivers and creeks.
-illustrator: Kagemaru Himeno
+illustrators:
+- Kagemaru Himeno
 ---
 set: jungle
 number: '47'
@@ -2065,7 +2111,8 @@ height: 4'7
 dex entry: >-
   When it targets an enemy, it charges furiously while whipping
   its body with its long tails.
-illustrator: Kagemaru Himeno
+illustrators:
+- Kagemaru Himeno
 ---
 set: jungle
 number: '48'
@@ -2105,7 +2152,8 @@ height: 3'3
 dex entry: >-
   It spits out poisonpowder to immobilize the enemy, and then
   finishes the enemy with a spray of acid.
-illustrator: Kagemaru Himeno
+illustrators:
+- Kagemaru Himeno
 ---
 set: jungle
 number: '49'
@@ -2145,7 +2193,8 @@ height: 2'4
 dex entry: >-
   A carnivorous Pokémon that traps and eats bugs. It uses its
   root feet to soak up needed moisture.
-illustrator: Kagemaru Himeno
+illustrators:
+- Kagemaru Himeno
 ---
 set: jungle
 number: '50'
@@ -2192,7 +2241,8 @@ height: 1'4
 dex entry: >-
   Because it never removes its skull helmet, no one has ever seen
   this Pokémon's real face.
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: jungle
 number: '51'
@@ -2238,7 +2288,8 @@ height: 1'0
 dex entry: >-
   Its genetic code is irregular. It may mutate if it is exposed
   to radiation from elemental stones.
-illustrator: Kagemaru Himeno
+illustrators:
+- Kagemaru Himeno
 ---
 set: jungle
 number: '52'
@@ -2279,7 +2330,8 @@ height: 1'4
 dex entry: >-
   Often mistaken for eggs. When disturbed, they quickly gather
   and attack in swarms.
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: jungle
 number: '53'
@@ -2311,7 +2363,8 @@ height: 2'0
 dex entry: >-
   Its tail fin billows like an elegant ballroom dress, giving
   it the nickname "Water Queen."
-illustrator: Kagemaru Himeno
+illustrators:
+- Kagemaru Himeno
 ---
 set: jungle
 number: '54'
@@ -2352,7 +2405,8 @@ height: 1'8
 dex entry: >-
   When its huge eyes light up, it sings a mysteriously soothing
   melody that lulls its enemies to sleep.
-illustrator: Kagemaru Himeno
+illustrators:
+- Kagemaru Himeno
 ---
 set: jungle
 number: '55'
@@ -2392,7 +2446,8 @@ height: 1'8
 dex entry: >-
   Extremely quick to anger. It could become docile one moment,
   then thrashing away the next.
-illustrator: Kagemaru Himeno
+illustrators:
+- Kagemaru Himeno
 ---
 set: jungle
 number: '56'
@@ -2430,7 +2485,8 @@ height: 1'4
 dex entry: >-
   Adores circular objects. Wanders the streets on a nightly basis
   to look for dropped loose change.
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: jungle
 number: '57'
@@ -2473,7 +2529,8 @@ height: 1'4
 dex entry: >-
   Although small, its venomous barbs make this Pokémon dangerous.
   The female has smaller horns.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: jungle
 number: '58'
@@ -2515,7 +2572,8 @@ height: 1'8
 dex entry: >-
   During the day, it keeps its face buried in the ground. At night,
   it wanders around sowing its seeds.
-illustrator: Keiji Kinebuchi
+illustrators:
+- Keiji Kinebuchi
 ---
 set: jungle
 number: '59'
@@ -2553,7 +2611,8 @@ height: 1'0
 dex entry: >-
   Burrows to suck tree roots. The mushrooms on its back grow by
   drawing nutrients from the bug host.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: jungle
 number: '60'
@@ -2590,7 +2649,8 @@ height: 1'4
 dex entry: >-
   When several of these Pokémon gather, their electricity can
   build and cause lightning storms.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: jungle
 number: '61'
@@ -2633,7 +2693,8 @@ height: 3'3
 dex entry: >-
   Its massive bones are 1,000 times harder than human bones. It
   can easily knock a trailer flying.
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: jungle
 number: '62'
@@ -2674,7 +2735,8 @@ height: 1'0
 dex entry: >-
   Eats bugs in grassy areas. It has to flap its short wings at
   high speed to stay airborne.
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: jungle
 number: '63'
@@ -2717,7 +2779,8 @@ height: 3'3
 dex entry: >-
   Lives in the shadows of tall trees where it eats insects. It
   is attracted by light at night.
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: jungle
 number: '64'
@@ -2735,4 +2798,5 @@ mechanics:
     Flip a coin. If heads, you may search your deck for any Basic
     Pokémon or Evolution card. Show that card to your opponent,
     then put it into your hand. Shuffle your deck afterward.
-illustrator: Keiji Kinebuchi
+illustrators:
+- Keiji Kinebuchi

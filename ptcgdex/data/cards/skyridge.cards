@@ -37,7 +37,8 @@ retreat: 2
 species: Psi
 weight: 106
 height: 4'11
-illustrator: Toshinao Aoki
+illustrators:
+- Toshinao Aoki
 ---
 set: skyridge
 number: '1'
@@ -82,7 +83,8 @@ retreat: 2
 species: Legendary
 weight: 342
 height: 6'3
-illustrator: Kimiya Masago
+illustrators:
+- Kimiya Masago
 ---
 set: skyridge
 number: '2'
@@ -130,7 +132,8 @@ retreat: 2
 species: Freeze
 weight: 122
 height: 5'7
-illustrator: Kimiya Masago
+illustrators:
+- Kimiya Masago
 ---
 set: skyridge
 number: '2'
@@ -170,7 +173,8 @@ damage modifiers:
 species: Poison Bee
 weight: 65
 height: 3'3
-illustrator: Aya Kusube
+illustrators:
+- Aya Kusube
 ---
 set: skyridge
 number: '3'
@@ -212,7 +216,8 @@ damage modifiers:
 species: Bat
 weight: 165
 height: 5'11
-illustrator: Aya Kusube
+illustrators:
+- Aya Kusube
 ---
 set: skyridge
 number: '3'
@@ -255,7 +260,8 @@ retreat: 2
 species: Sea Lion
 weight: 265
 height: 5'7
-illustrator: Hajime Kusajima
+illustrators:
+- Hajime Kusajima
 ---
 set: skyridge
 number: '4'
@@ -299,7 +305,8 @@ retreat: 1
 species: Flame
 weight: 55
 height: 2'11
-illustrator: Hajime Kusajima
+illustrators:
+- Hajime Kusajima
 ---
 set: skyridge
 number: '4'
@@ -345,7 +352,8 @@ retreat: 2
 species: Bagworm
 weight: 277
 height: 3'11
-illustrator: Hikaru Koike
+illustrators:
+- Hikaru Koike
 ---
 set: skyridge
 number: '5'
@@ -389,7 +397,8 @@ retreat: 2
 species: Shadow
 weight: 89
 height: 4'11
-illustrator: Hikaru Koike
+illustrators:
+- Hikaru Koike
 ---
 set: skyridge
 number: '5'
@@ -428,7 +437,8 @@ retreat: 2
 species: Atrocious
 weight: 518
 height: 21'4
-illustrator: Kimiya Masago
+illustrators:
+- Kimiya Masago
 ---
 set: skyridge
 number: '6'
@@ -474,7 +484,8 @@ retreat: 1
 species: Dark
 weight: 77
 height: 4'7
-illustrator: Kimiya Masago
+illustrators:
+- Kimiya Masago
 ---
 set: skyridge
 number: '6'
@@ -517,7 +528,8 @@ damage modifiers:
 species: Lightning
 weight: 54
 height: 2'7
-illustrator: Kouki Saitou
+illustrators:
+- Kouki Saitou
 ---
 set: skyridge
 number: '7'
@@ -556,7 +568,8 @@ retreat: 2
 species: Shellfish
 weight: 89
 height: 4'3
-illustrator: Kouki Saitou
+illustrators:
+- Kouki Saitou
 ---
 set: skyridge
 number: '7'
@@ -597,7 +610,8 @@ damage modifiers:
 species: Five Star
 weight: 78
 height: 4'7
-illustrator: Kyoko Umemoto
+illustrators:
+- Kyoko Umemoto
 ---
 set: skyridge
 number: '8'
@@ -642,7 +656,8 @@ retreat: 2
 species: Superpower
 weight: 287
 height: 5'3
-illustrator: Kyoko Umemoto
+illustrators:
+- Kyoko Umemoto
 ---
 set: skyridge
 number: '8'
@@ -685,7 +700,8 @@ retreat: 3
 species: Lava
 weight: 121
 height: 2'7
-illustrator: Midori Harada
+illustrators:
+- Midori Harada
 ---
 set: skyridge
 number: '9'
@@ -727,7 +743,8 @@ retreat: 3
 species: Lava
 weight: 121
 height: 2'7
-illustrator: Midori Harada
+illustrators:
+- Midori Harada
 ---
 set: skyridge
 number: '9'
@@ -770,7 +787,8 @@ retreat: 1
 species: Magnet
 weight: 132
 height: 3'3
-illustrator: Kyoko Umemoto
+illustrators:
+- Kyoko Umemoto
 ---
 set: skyridge
 number: '10'
@@ -819,7 +837,8 @@ retreat: 2
 species: Magnet
 weight: 133
 height: 3'3
-illustrator: Kyoko Umemoto
+illustrators:
+- Kyoko Umemoto
 ---
 set: skyridge
 number: '10'
@@ -865,7 +884,8 @@ retreat: 2
 species: Flame
 weight: 132
 height: 6'7
-illustrator: Kimiya Masago
+illustrators:
+- Kimiya Masago
 ---
 set: skyridge
 number: '11'
@@ -905,7 +925,8 @@ retreat: 3
 species: Drill
 weight: 132
 height: 4'3
-illustrator: Kimiya Masago
+illustrators:
+- Kimiya Masago
 ---
 set: skyridge
 number: '11'
@@ -946,7 +967,8 @@ retreat: 3
 species: Swine
 weight: 123
 height: 3'7
-illustrator: Kimiya Masago
+illustrators:
+- Kimiya Masago
 ---
 set: skyridge
 number: '12'
@@ -994,7 +1016,8 @@ retreat: 2
 species: Frog
 weight: 75
 height: 3'7
-illustrator: Kimiya Masago
+illustrators:
+- Kimiya Masago
 ---
 set: skyridge
 number: '12'
@@ -1035,7 +1058,8 @@ retreat: 2
 species: Tadpole
 weight: 119
 height: 4'3
-illustrator: Hikaru Koike
+illustrators:
+- Hikaru Koike
 ---
 set: skyridge
 number: '13'
@@ -1074,7 +1098,8 @@ retreat: 1
 species: Mouse
 weight: 66
 height: 2'7
-illustrator: Hikaru Koike
+illustrators:
+- Hikaru Koike
 ---
 set: skyridge
 number: '13'
@@ -1113,7 +1138,8 @@ retreat: 1
 species: Thunder
 weight: 392
 height: 6'3
-illustrator: Kouki Saitou
+illustrators:
+- Kouki Saitou
 ---
 set: skyridge
 number: '14'
@@ -1155,7 +1181,8 @@ retreat: 2
 species: Drill
 weight: 265
 height: 6'3
-illustrator: Kouki Saitou
+illustrators:
+- Kouki Saitou
 ---
 set: skyridge
 number: '14'
@@ -1196,7 +1223,8 @@ retreat: 1
 species: Mysterious
 weight: 176
 height: 3'7
-illustrator: Hikaru Koike
+illustrators:
+- Hikaru Koike
 ---
 set: skyridge
 number: '15'
@@ -1244,7 +1272,8 @@ retreat: 4
 species: Iron Snake
 weight: 882
 height: 30'2
-illustrator: Hikaru Koike
+illustrators:
+- Hikaru Koike
 ---
 set: skyridge
 number: '15'
@@ -1285,7 +1314,8 @@ retreat: 1
 species: Moonlight
 weight: 60
 height: 3'3
-illustrator: Naoyo Kimura
+illustrators:
+- Naoyo Kimura
 ---
 set: skyridge
 number: '16'
@@ -1331,7 +1361,8 @@ retreat: 1
 species: Bubble Jet
 weight: 64
 height: 3'3
-illustrator: Hajime Kusajima
+illustrators:
+- Hajime Kusajima
 ---
 set: skyridge
 number: '16'
@@ -1368,7 +1399,8 @@ retreat: 1
 species: Mystic
 weight: 33
 height: 4'11
-illustrator: Naoyo Kimura
+illustrators:
+- Naoyo Kimura
 ---
 set: skyridge
 number: '17'
@@ -1405,7 +1437,8 @@ damage modifiers:
   operation: ×
   type: Water
 retreat: 2
-illustrator: Hajime Kusajima
+illustrators:
+- Hajime Kusajima
 ---
 set: skyridge
 number: '17'
@@ -1442,7 +1475,8 @@ damage modifiers:
   operation: ×
   type: Psychic
 retreat: 2
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: skyridge
 number: '18'
@@ -1484,7 +1518,8 @@ damage modifiers:
   operation: ×
   type: Water
 retreat: 2
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: skyridge
 number: '18'
@@ -1529,7 +1564,8 @@ damage modifiers:
   operation: '-'
   type: Fighting
 retreat: 2
-illustrator: Hajime Kusajima
+illustrators:
+- Hajime Kusajima
 ---
 set: skyridge
 number: '19'
@@ -1566,7 +1602,8 @@ damage modifiers:
 - amount: 2
   operation: ×
   type: Fire
-illustrator: Hajime Kusajima
+illustrators:
+- Hajime Kusajima
 ---
 set: skyridge
 number: '19'
@@ -1605,7 +1642,8 @@ damage modifiers:
 - amount: 2
   operation: ×
   type: Psychic
-illustrator: Kouki Saitou
+illustrators:
+- Kouki Saitou
 ---
 set: skyridge
 number: '20'
@@ -1645,7 +1683,8 @@ damage modifiers:
   operation: ×
   type: Metal
 retreat: 2
-illustrator: Kouki Saitou
+illustrators:
+- Kouki Saitou
 ---
 set: skyridge
 number: '20'
@@ -1686,7 +1725,8 @@ damage modifiers:
   operation: ×
   type: Water
 retreat: 1
-illustrator: Kouki Saitou
+illustrators:
+- Kouki Saitou
 ---
 set: skyridge
 number: '21'
@@ -1729,7 +1769,8 @@ damage modifiers:
   operation: '-'
   type: Grass
 retreat: 2
-illustrator: Kouki Saitou
+illustrators:
+- Kouki Saitou
 ---
 set: skyridge
 number: '21'
@@ -1770,7 +1811,8 @@ damage modifiers:
   operation: '-'
   type: Fighting
 retreat: 2
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: skyridge
 number: '22'
@@ -1806,7 +1848,8 @@ damage modifiers:
   operation: ×
   type: Lightning
 retreat: 2
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: skyridge
 number: '22'
@@ -1849,7 +1892,8 @@ damage modifiers:
   operation: '-'
   type: Psychic
 retreat: 1
-illustrator: Yuka Morii
+illustrators:
+- Yuka Morii
 ---
 set: skyridge
 number: '23'
@@ -1889,7 +1933,8 @@ damage modifiers:
 - amount: 2
   operation: ×
   type: Fighting
-illustrator: Hajime Kusajima
+illustrators:
+- Hajime Kusajima
 ---
 set: skyridge
 number: '23'
@@ -1925,7 +1970,8 @@ damage modifiers:
   operation: ×
   type: Grass
 retreat: 2
-illustrator: Atsuko Nishida
+illustrators:
+- Atsuko Nishida
 ---
 set: skyridge
 number: '24'
@@ -1963,7 +2009,8 @@ damage modifiers:
 - amount: 2
   operation: ×
   type: Fire
-illustrator: Yuka Morii
+illustrators:
+- Yuka Morii
 ---
 set: skyridge
 number: '24'
@@ -2005,7 +2052,8 @@ damage modifiers:
   operation: ×
   type: Psychic
 retreat: 2
-illustrator: Naoyo Kimura
+illustrators:
+- Naoyo Kimura
 ---
 set: skyridge
 number: '25'
@@ -2045,7 +2093,8 @@ damage modifiers:
   operation: ×
   type: Water
 retreat: 3
-illustrator: Atsuko Nishida
+illustrators:
+- Atsuko Nishida
 ---
 set: skyridge
 number: '25'
@@ -2084,7 +2133,8 @@ damage modifiers:
   operation: ×
   type: Water
 retreat: 3
-illustrator: Yuka Morii
+illustrators:
+- Yuka Morii
 ---
 set: skyridge
 number: '26'
@@ -2124,7 +2174,8 @@ damage modifiers:
   operation: ×
   type: Fighting
 retreat: 1
-illustrator: Naoyo Kimura
+illustrators:
+- Naoyo Kimura
 ---
 set: skyridge
 number: '26'
@@ -2170,7 +2221,8 @@ damage modifiers:
   operation: '-'
   type: Grass
 retreat: 2
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: skyridge
 number: '27'
@@ -2213,7 +2265,8 @@ damage modifiers:
   operation: '-'
   type: Fighting
 retreat: 2
-illustrator: Yuka Morii
+illustrators:
+- Yuka Morii
 ---
 set: skyridge
 number: '27'
@@ -2250,7 +2303,8 @@ damage modifiers:
   operation: ×
   type: Psychic
 retreat: 3
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: skyridge
 number: '28'
@@ -2286,7 +2340,8 @@ damage modifiers:
   operation: ×
   type: Lightning
 retreat: 2
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: skyridge
 number: '28'
@@ -2324,7 +2379,8 @@ damage modifiers:
   operation: ×
   type: Metal
 retreat: 3
-illustrator: Hajime Kusajima
+illustrators:
+- Hajime Kusajima
 ---
 set: skyridge
 number: '29'
@@ -2369,7 +2425,8 @@ damage modifiers:
   operation: ×
   type: Lightning
 retreat: 2
-illustrator: Hikaru Koike
+illustrators:
+- Hikaru Koike
 ---
 set: skyridge
 number: '29'
@@ -2407,7 +2464,8 @@ damage modifiers:
   operation: ×
   type: Psychic
 retreat: 2
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: skyridge
 number: '30'
@@ -2443,7 +2501,8 @@ damage modifiers:
   operation: ×
   type: Fighting
 retreat: 1
-illustrator: Atsuko Nishida
+illustrators:
+- Atsuko Nishida
 ---
 set: skyridge
 number: '30'
@@ -2479,7 +2538,8 @@ damage modifiers:
   operation: ×
   type: Fire
 retreat: 1
-illustrator: CR CG gangs
+illustrators:
+- CR CG gangs
 ---
 set: skyridge
 number: '31'
@@ -2518,7 +2578,8 @@ damage modifiers:
   operation: '-'
   type: Lightning
 retreat: 2
-illustrator: Hikaru Koike
+illustrators:
+- Hikaru Koike
 ---
 set: skyridge
 number: '31'
@@ -2556,7 +2617,8 @@ damage modifiers:
   operation: ×
   type: Psychic
 retreat: 1
-illustrator: Naoyo Kimura
+illustrators:
+- Naoyo Kimura
 ---
 set: skyridge
 number: '32'
@@ -2601,7 +2663,8 @@ damage modifiers:
   operation: '-'
   type: Grass
 retreat: 4
-illustrator: Atsuko Nishida
+illustrators:
+- Atsuko Nishida
 ---
 set: skyridge
 number: '32'
@@ -2639,7 +2702,8 @@ damage modifiers:
   operation: '-'
   type: Psychic
 retreat: 1
-illustrator: Atsuko Nishida
+illustrators:
+- Atsuko Nishida
 ---
 set: skyridge
 number: '33'
@@ -2682,7 +2746,8 @@ damage modifiers:
   operation: ×
   type: Lightning
 retreat: 1
-illustrator: Naoyo Kimura
+illustrators:
+- Naoyo Kimura
 ---
 set: skyridge
 number: '34'
@@ -2720,7 +2785,8 @@ damage modifiers:
   operation: ×
   type: Fire
 retreat: 1
-illustrator: Hizuki Misono
+illustrators:
+- Hizuki Misono
 ---
 set: skyridge
 number: '35'
@@ -2754,7 +2820,8 @@ damage modifiers:
   operation: ×
   type: Psychic
 retreat: 1
-illustrator: Atsuko Nishida
+illustrators:
+- Atsuko Nishida
 ---
 set: skyridge
 number: '36'
@@ -2792,7 +2859,8 @@ damage modifiers:
   operation: ×
   type: Fighting
 retreat: 1
-illustrator: Sumiyoshi Kizuki
+illustrators:
+- Sumiyoshi Kizuki
 ---
 set: skyridge
 number: '37'
@@ -2824,7 +2892,8 @@ damage modifiers:
   operation: ×
   type: Grass
 retreat: 1
-illustrator: Yukiko Baba
+illustrators:
+- Yukiko Baba
 ---
 set: skyridge
 number: '38'
@@ -2857,7 +2926,8 @@ damage modifiers:
   operation: ×
   type: Psychic
 retreat: 1
-illustrator: Hisao Nakamura
+illustrators:
+- Hisao Nakamura
 ---
 set: skyridge
 number: '39'
@@ -2894,7 +2964,8 @@ damage modifiers:
   operation: '-'
   type: Fighting
 retreat: 1
-illustrator: Atsuko Nishida
+illustrators:
+- Atsuko Nishida
 ---
 set: skyridge
 number: '40'
@@ -2934,7 +3005,8 @@ damage modifiers:
 - amount: 30
   operation: '-'
   type: Fighting
-illustrator: Atsuko Nishida
+illustrators:
+- Atsuko Nishida
 ---
 set: skyridge
 number: '41'
@@ -2972,7 +3044,8 @@ damage modifiers:
 - amount: 30
   operation: '-'
   type: Water
-illustrator: Yukiko Baba
+illustrators:
+- Yukiko Baba
 ---
 set: skyridge
 number: '42'
@@ -3008,7 +3081,8 @@ damage modifiers:
 - amount: 2
   operation: ×
   type: Fighting
-illustrator: Atsuko Nishida
+illustrators:
+- Atsuko Nishida
 ---
 set: skyridge
 number: '43'
@@ -3046,7 +3120,8 @@ damage modifiers:
   operation: '-'
   type: Lightning
 retreat: 3
-illustrator: Shin-ichi Yoshida
+illustrators:
+- Shin-ichi Yoshida
 ---
 set: skyridge
 number: '44'
@@ -3084,7 +3159,8 @@ damage modifiers:
   operation: ×
   type: Lightning
 retreat: 1
-illustrator: Kyoko Umemoto
+illustrators:
+- Kyoko Umemoto
 ---
 set: skyridge
 number: '45'
@@ -3119,7 +3195,8 @@ damage modifiers:
   operation: ×
   type: Psychic
 retreat: 2
-illustrator: Kagemaru Himeno
+illustrators:
+- Kagemaru Himeno
 ---
 set: skyridge
 number: '46'
@@ -3150,7 +3227,8 @@ damage modifiers:
   operation: ×
   type: Psychic
 retreat: 1
-illustrator: Keiko Fukuyama
+illustrators:
+- Keiko Fukuyama
 ---
 set: skyridge
 number: '47'
@@ -3176,7 +3254,8 @@ mechanics:
     it into your hand. Then, put a basic Energy card from your
     hand into your deck. Shuffle your deck afterward.
 retreat: 1
-illustrator: Atsuko Nishida
+illustrators:
+- Atsuko Nishida
 ---
 set: skyridge
 number: '48'
@@ -3201,7 +3280,8 @@ mechanics:
     Shuffle a basic Energy card from your discard pile into your
     deck.
 retreat: 1
-illustrator: Miki Tanaka
+illustrators:
+- Miki Tanaka
 ---
 set: skyridge
 number: '49'
@@ -3238,7 +3318,8 @@ damage modifiers:
   operation: ×
   type: Metal
 retreat: 1
-illustrator: Sumiyoshi Kizuki
+illustrators:
+- Sumiyoshi Kizuki
 ---
 set: skyridge
 number: '50'
@@ -3271,7 +3352,8 @@ damage modifiers:
   operation: '-'
   type: Lightning
 retreat: 1
-illustrator: Tomokazu Komiya
+illustrators:
+- Tomokazu Komiya
 ---
 set: skyridge
 number: '51'
@@ -3306,7 +3388,8 @@ damage modifiers:
   operation: ×
   type: Fighting
 retreat: 1
-illustrator: Tomokazu Komiya
+illustrators:
+- Tomokazu Komiya
 ---
 set: skyridge
 number: '52'
@@ -3348,7 +3431,8 @@ damage modifiers:
   operation: '-'
   type: Lightning
 retreat: 1
-illustrator: Tomokazu Komiya
+illustrators:
+- Tomokazu Komiya
 ---
 set: skyridge
 number: '53'
@@ -3381,7 +3465,8 @@ damage modifiers:
   operation: ×
   type: Fighting
 retreat: 1
-illustrator: Yuka Morii
+illustrators:
+- Yuka Morii
 ---
 set: skyridge
 number: '54'
@@ -3413,7 +3498,8 @@ damage modifiers:
   operation: ×
   type: Fighting
 retreat: 1
-illustrator: Sumiyoshi Kizuki
+illustrators:
+- Sumiyoshi Kizuki
 ---
 set: skyridge
 number: '55'
@@ -3451,7 +3537,8 @@ damage modifiers:
   operation: '-'
   type: Fighting
 retreat: 1
-illustrator: Midori Harada
+illustrators:
+- Midori Harada
 ---
 set: skyridge
 number: '56'
@@ -3493,7 +3580,8 @@ damage modifiers:
   operation: ×
   type: Fire
 retreat: 2
-illustrator: Kouki Saitou
+illustrators:
+- Kouki Saitou
 ---
 set: skyridge
 number: '57'
@@ -3523,7 +3611,8 @@ damage modifiers:
   operation: '-'
   type: Fighting
 retreat: 1
-illustrator: Kyoko Umemoto
+illustrators:
+- Kyoko Umemoto
 ---
 set: skyridge
 number: '58'
@@ -3559,7 +3648,8 @@ damage modifiers:
   operation: ×
   type: Psychic
 retreat: 1
-illustrator: Yukiko Baba
+illustrators:
+- Yukiko Baba
 ---
 set: skyridge
 number: '59'
@@ -3592,7 +3682,8 @@ damage modifiers:
   operation: ×
   type: Grass
 retreat: 1
-illustrator: Shin-ichi Yoshida
+illustrators:
+- Shin-ichi Yoshida
 ---
 set: skyridge
 number: '60'
@@ -3628,7 +3719,8 @@ damage modifiers:
   operation: ×
   type: Psychic
 retreat: 1
-illustrator: Tomokazu Komiya
+illustrators:
+- Tomokazu Komiya
 ---
 set: skyridge
 number: '61'
@@ -3663,7 +3755,8 @@ damage modifiers:
   operation: ×
   type: Fighting
 retreat: 1
-illustrator: Tomokazu Komiya
+illustrators:
+- Tomokazu Komiya
 ---
 set: skyridge
 number: '62'
@@ -3696,7 +3789,8 @@ damage modifiers:
   operation: ×
   type: Water
 retreat: 1
-illustrator: Masako Yamashita
+illustrators:
+- Masako Yamashita
 ---
 set: skyridge
 number: '63'
@@ -3735,7 +3829,8 @@ damage modifiers:
   operation: '-'
   type: Fighting
 retreat: 1
-illustrator: Kyoko Umemoto
+illustrators:
+- Kyoko Umemoto
 ---
 set: skyridge
 number: '64'
@@ -3768,7 +3863,8 @@ damage modifiers:
   operation: ×
   type: Fire
 retreat: 1
-illustrator: Kouki Saitou
+illustrators:
+- Kouki Saitou
 ---
 set: skyridge
 number: '65'
@@ -3803,7 +3899,8 @@ damage modifiers:
   operation: '-'
   type: Fighting
 retreat: 1
-illustrator: Hizuki Misono
+illustrators:
+- Hizuki Misono
 ---
 set: skyridge
 number: '66'
@@ -3839,7 +3936,8 @@ damage modifiers:
   operation: ×
   type: Water
 retreat: 1
-illustrator: Hajime Kusajima
+illustrators:
+- Hajime Kusajima
 ---
 set: skyridge
 number: '67'
@@ -3864,7 +3962,8 @@ mechanics:
     Choose 1 of your Pokémon with an Energy card attached to it.
     Remove 1 damage counter from that Pokémon.
 retreat: 1
-illustrator: Keiko Fukuyama
+illustrators:
+- Keiko Fukuyama
 ---
 set: skyridge
 number: '68'
@@ -3897,7 +3996,8 @@ damage modifiers:
   operation: ×
   type: Fighting
 retreat: 1
-illustrator: Atsuko Nishida
+illustrators:
+- Atsuko Nishida
 ---
 set: skyridge
 number: '69'
@@ -3932,7 +4032,8 @@ damage modifiers:
   operation: ×
   type: Psychic
 retreat: 1
-illustrator: Toshinao Aoki
+illustrators:
+- Toshinao Aoki
 ---
 set: skyridge
 number: '70'
@@ -3965,7 +4066,8 @@ damage modifiers:
   operation: ×
   type: Fire
 retreat: 2
-illustrator: Hisao Nakamura
+illustrators:
+- Hisao Nakamura
 ---
 set: skyridge
 number: '71'
@@ -3999,7 +4101,8 @@ damage modifiers:
   operation: ×
   type: Metal
 retreat: 2
-illustrator: Aya Kusube
+illustrators:
+- Aya Kusube
 ---
 set: skyridge
 number: '72'
@@ -4037,7 +4140,8 @@ damage modifiers:
   operation: '-'
   type: Fighting
 retreat: 1
-illustrator: Masako Yamashita
+illustrators:
+- Masako Yamashita
 ---
 set: skyridge
 number: '73'
@@ -4070,7 +4174,8 @@ damage modifiers:
   operation: ×
   type: Fire
 retreat: 1
-illustrator: Yukiko Baba
+illustrators:
+- Yukiko Baba
 ---
 set: skyridge
 number: '74'
@@ -4106,7 +4211,8 @@ damage modifiers:
   operation: ×
   type: Psychic
 retreat: 1
-illustrator: Miki Tanaka
+illustrators:
+- Miki Tanaka
 ---
 set: skyridge
 number: '75'
@@ -4139,7 +4245,8 @@ damage modifiers:
   operation: ×
   type: Lightning
 retreat: 1
-illustrator: Keiko Fukuyama
+illustrators:
+- Keiko Fukuyama
 ---
 set: skyridge
 number: '76'
@@ -4175,7 +4282,8 @@ damage modifiers:
   operation: ×
   type: Fighting
 retreat: 1
-illustrator: Shin-ichi Yoshida
+illustrators:
+- Shin-ichi Yoshida
 ---
 set: skyridge
 number: '77'
@@ -4213,7 +4321,8 @@ damage modifiers:
   operation: '-'
   type: Fighting
 retreat: 2
-illustrator: Sumiyoshi Kizuki
+illustrators:
+- Sumiyoshi Kizuki
 ---
 set: skyridge
 number: '78'
@@ -4243,7 +4352,8 @@ damage modifiers:
   operation: ×
   type: Fighting
 retreat: 1
-illustrator: Keiko Fukuyama
+illustrators:
+- Keiko Fukuyama
 ---
 set: skyridge
 number: '79'
@@ -4281,7 +4391,8 @@ damage modifiers:
   operation: '-'
   type: Psychic
 retreat: 1
-illustrator: Tomokazu Komiya
+illustrators:
+- Tomokazu Komiya
 ---
 set: skyridge
 number: '80'
@@ -4317,7 +4428,8 @@ damage modifiers:
   operation: ×
   type: Psychic
 retreat: 1
-illustrator: Miki Tanaka
+illustrators:
+- Miki Tanaka
 ---
 set: skyridge
 number: '81'
@@ -4350,7 +4462,8 @@ damage modifiers:
   operation: ×
   type: Psychic
 retreat: 1
-illustrator: Masako Yamashita
+illustrators:
+- Masako Yamashita
 ---
 set: skyridge
 number: '82'
@@ -4378,7 +4491,8 @@ damage modifiers:
   operation: ×
   type: Psychic
 retreat: 1
-illustrator: Masako Yamashita
+illustrators:
+- Masako Yamashita
 ---
 set: skyridge
 number: '83'
@@ -4411,7 +4525,8 @@ damage modifiers:
   operation: ×
   type: Psychic
 retreat: 2
-illustrator: Midori Harada
+illustrators:
+- Midori Harada
 ---
 set: skyridge
 number: '84'
@@ -4441,7 +4556,8 @@ damage modifiers:
   operation: ×
   type: Fighting
 retreat: 1
-illustrator: Yuka Morii
+illustrators:
+- Yuka Morii
 ---
 set: skyridge
 number: '85'
@@ -4469,7 +4585,8 @@ damage modifiers:
   operation: ×
   type: Fire
 retreat: 1
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: skyridge
 number: '86'
@@ -4496,7 +4613,8 @@ damage modifiers:
 - amount: 2
   operation: ×
   type: Fire
-illustrator: Midori Harada
+illustrators:
+- Midori Harada
 ---
 set: skyridge
 number: '87'
@@ -4530,7 +4648,8 @@ damage modifiers:
 - amount: 2
   operation: ×
   type: Lightning
-illustrator: Miki Tanaka
+illustrators:
+- Miki Tanaka
 ---
 set: skyridge
 number: '88'
@@ -4566,7 +4685,8 @@ damage modifiers:
   operation: ×
   type: Lightning
 retreat: 1
-illustrator: Hisao Nakamura
+illustrators:
+- Hisao Nakamura
 ---
 set: skyridge
 number: '89'
@@ -4602,7 +4722,8 @@ damage modifiers:
   operation: ×
   type: Fighting
 retreat: 1
-illustrator: Kagemaru Himeno
+illustrators:
+- Kagemaru Himeno
 ---
 set: skyridge
 number: '90'
@@ -4637,7 +4758,8 @@ damage modifiers:
   operation: ×
   type: Fighting
 retreat: 1
-illustrator: Masako Yamashita
+illustrators:
+- Masako Yamashita
 ---
 set: skyridge
 number: '91'
@@ -4673,7 +4795,8 @@ damage modifiers:
   operation: '-'
   type: Lightning
 retreat: 2
-illustrator: Hisao Nakamura
+illustrators:
+- Hisao Nakamura
 ---
 set: skyridge
 number: '92'
@@ -4713,7 +4836,8 @@ damage modifiers:
   operation: '-'
   type: Lightning
 retreat: 1
-illustrator: Naoyo Kimura
+illustrators:
+- Naoyo Kimura
 ---
 set: skyridge
 number: '93'
@@ -4755,7 +4879,8 @@ damage modifiers:
   operation: '-'
   type: Lightning
 retreat: 1
-illustrator: Miki Tanaka
+illustrators:
+- Miki Tanaka
 ---
 set: skyridge
 number: '94'
@@ -4783,7 +4908,8 @@ damage modifiers:
   operation: ×
   type: Lightning
 retreat: 1
-illustrator: Hisao Nakamura
+illustrators:
+- Hisao Nakamura
 ---
 set: skyridge
 number: '95'
@@ -4818,7 +4944,8 @@ damage modifiers:
   operation: ×
   type: Lightning
 retreat: 1
-illustrator: Yukiko Baba
+illustrators:
+- Yukiko Baba
 ---
 set: skyridge
 number: '96'
@@ -4851,7 +4978,8 @@ damage modifiers:
   operation: ×
   type: Fire
 retreat: 2
-illustrator: Sumiyoshi Kizuki
+illustrators:
+- Sumiyoshi Kizuki
 ---
 set: skyridge
 number: '97'
@@ -4890,7 +5018,8 @@ damage modifiers:
   operation: '-'
   type: Grass
 retreat: 2
-illustrator: Katsura Tabata
+illustrators:
+- Katsura Tabata
 ---
 set: skyridge
 number: '98'
@@ -4922,7 +5051,8 @@ damage modifiers:
   operation: ×
   type: Water
 retreat: 2
-illustrator: Naoyo Kimura
+illustrators:
+- Naoyo Kimura
 ---
 set: skyridge
 number: '99'
@@ -4950,7 +5080,8 @@ damage modifiers:
   operation: ×
   type: Water
 retreat: 2
-illustrator: Yukiko Baba
+illustrators:
+- Yukiko Baba
 ---
 set: skyridge
 number: '100'
@@ -4986,7 +5117,8 @@ damage modifiers:
   operation: ×
   type: Fighting
 retreat: 3
-illustrator: Naoyo Kimura
+illustrators:
+- Naoyo Kimura
 ---
 set: skyridge
 number: '101'
@@ -5018,7 +5150,8 @@ damage modifiers:
   operation: ×
   type: Fighting
 retreat: 1
-illustrator: Hisao Nakamura
+illustrators:
+- Hisao Nakamura
 ---
 set: skyridge
 number: '102'
@@ -5056,7 +5189,8 @@ damage modifiers:
   operation: ×
   type: Fighting
 retreat: 1
-illustrator: Aya Kusube
+illustrators:
+- Aya Kusube
 ---
 set: skyridge
 number: '103'
@@ -5092,7 +5226,8 @@ damage modifiers:
   operation: ×
   type: Lightning
 retreat: 1
-illustrator: Kyoko Umemoto
+illustrators:
+- Kyoko Umemoto
 ---
 set: skyridge
 number: '104'
@@ -5124,7 +5259,8 @@ damage modifiers:
   operation: ×
   type: Lightning
 retreat: 1
-illustrator: Keiko Fukuyama
+illustrators:
+- Keiko Fukuyama
 ---
 set: skyridge
 number: '105'
@@ -5163,7 +5299,8 @@ damage modifiers:
   operation: '-'
   type: Water
 retreat: 1
-illustrator: Miki Tanaka
+illustrators:
+- Miki Tanaka
 ---
 set: skyridge
 number: '106'
@@ -5198,7 +5335,8 @@ damage modifiers:
   operation: '-'
   type: Water
 retreat: 1
-illustrator: Toshinao Aoki
+illustrators:
+- Toshinao Aoki
 ---
 set: skyridge
 number: '107'
@@ -5230,7 +5368,8 @@ damage modifiers:
   operation: ×
   type: Metal
 retreat: 1
-illustrator: Yuka Morii
+illustrators:
+- Yuka Morii
 ---
 set: skyridge
 number: '108'
@@ -5267,7 +5406,8 @@ damage modifiers:
   operation: '-'
   type: Lightning
 retreat: 1
-illustrator: Toshinao Aoki
+illustrators:
+- Toshinao Aoki
 ---
 set: skyridge
 number: '109'
@@ -5302,7 +5442,8 @@ damage modifiers:
   operation: ×
   type: Fighting
 retreat: 1
-illustrator: Kagemaru Himeno
+illustrators:
+- Kagemaru Himeno
 ---
 set: skyridge
 number: '110'
@@ -5338,7 +5479,8 @@ damage modifiers:
   operation: ×
   type: Fighting
 retreat: 2
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: skyridge
 number: '111'
@@ -5373,7 +5515,8 @@ damage modifiers:
 - amount: 2
   operation: ×
   type: Fire
-illustrator: Yukiko Baba
+illustrators:
+- Yukiko Baba
 ---
 set: skyridge
 number: '112'
@@ -5406,7 +5549,8 @@ damage modifiers:
   operation: ×
   type: Fire
 retreat: 1
-illustrator: Tomokazu Komiya
+illustrators:
+- Tomokazu Komiya
 ---
 set: skyridge
 number: '113'
@@ -5438,7 +5582,8 @@ damage modifiers:
   operation: ×
   type: Fighting
 retreat: 1
-illustrator: Sumiyoshi Kizuki
+illustrators:
+- Sumiyoshi Kizuki
 ---
 set: skyridge
 number: '114'
@@ -5465,7 +5610,8 @@ damage modifiers:
   operation: ×
   type: Fire
 retreat: 1
-illustrator: Keiko Fukuyama
+illustrators:
+- Keiko Fukuyama
 ---
 set: skyridge
 number: '115'
@@ -5495,7 +5641,8 @@ damage modifiers:
   operation: ×
   type: Fire
 retreat: 1
-illustrator: Sumiyoshi Kizuki
+illustrators:
+- Sumiyoshi Kizuki
 ---
 set: skyridge
 number: '116'
@@ -5532,7 +5679,8 @@ damage modifiers:
   operation: '-'
   type: Fighting
 retreat: 1
-illustrator: Miki Tanaka
+illustrators:
+- Miki Tanaka
 ---
 set: skyridge
 number: '117'
@@ -5568,7 +5716,8 @@ damage modifiers:
   operation: '-'
   type: Fighting
 retreat: 1
-illustrator: Hisao Nakamura
+illustrators:
+- Hisao Nakamura
 ---
 set: skyridge
 number: '118'
@@ -5598,7 +5747,8 @@ damage modifiers:
   operation: ×
   type: Psychic
 retreat: 1
-illustrator: Kyoko Umemoto
+illustrators:
+- Kyoko Umemoto
 ---
 set: skyridge
 number: '119'
@@ -5623,7 +5773,8 @@ mechanics:
     may reveal his or her hand to his or her opponent. If that
     player reveals his or her hand and there is no Supporter card
     there, that player draws a card.
-illustrator: Midori Harada
+illustrators:
+- Midori Harada
 ---
 set: skyridge
 number: '120'
@@ -5647,7 +5798,8 @@ mechanics:
     Search your deck for up to 2 Supporter and/or Stadium cards,
     show them to your opponent, and put them into your hand. Shuffle
     your deck afterward.
-illustrator: Kagemaru Himeno
+illustrators:
+- Kagemaru Himeno
 ---
 set: skyridge
 number: '121'
@@ -5671,7 +5823,8 @@ mechanics:
     Search your deck for up to 2 Trainer cards with Ball in their
     names, show them to your opponent, and put them into your
     hand. Shuffle your deck afterward.
-illustrator: Kagemaru Himeno
+illustrators:
+- Kagemaru Himeno
 ---
 set: skyridge
 number: '122'
@@ -5695,7 +5848,8 @@ mechanics:
     As long as this card is attached to a Pokémon, that Pokémon's
     type (color) is C. If that Pokémon attacks, discard this card
     at the end of the turn.
-illustrator: Jungo Suzuki
+illustrators:
+- Jungo Suzuki
 ---
 set: skyridge
 number: '123'
@@ -5718,7 +5872,8 @@ mechanics:
   text: >-
     Shuffle your hand into your deck and draw up to 4 cards. You
     opponent does the same.
-illustrator: Kagemaru Himeno
+illustrators:
+- Kagemaru Himeno
 ---
 set: skyridge
 number: '124'
@@ -5737,7 +5892,8 @@ mechanics:
     hand. Shuffle the other revealed cards into your deck. (If
     you don't reveal an Evolution card, shuffle all the revealed
     cards back into your deck.)
-illustrator: Katsura Tabata
+illustrators:
+- Katsura Tabata
 ---
 set: skyridge
 number: '125'
@@ -5761,7 +5917,8 @@ mechanics:
     Choose 4 basic Energy cards from your discard pile (if there
     are fewer basic Energy cards than 4, take all of them), show
     them to your opponent, and put them into your hand.
-illustrator: Kagemaru Himeno
+illustrators:
+- Kagemaru Himeno
 ---
 set: skyridge
 number: '126'
@@ -5779,7 +5936,8 @@ mechanics:
     a Baby Pokémon, Basic Pokémon, of Evolution card of the same
     type (color), show it to your opponent, and put it into your
     hand. Shuffle your deck afterward.
-illustrator: Katsura Tabata
+illustrators:
+- Katsura Tabata
 ---
 set: skyridge
 number: '127'
@@ -5797,7 +5955,8 @@ mechanics:
     attached to that Pokémon. If you discarded 1 Energy card,
     remove up to 3 damage counters from that Pokémon. If you discarded
     2 Energy cards, remove up to 5 damage counters from that Pokémon.
-illustrator: Katsura Tabata
+illustrators:
+- Katsura Tabata
 ---
 set: skyridge
 number: '128'
@@ -5814,7 +5973,8 @@ mechanics:
     Flip 3 coins. For each heads, choose an Evolution card from
     your discard pile, show it to your opponent, and put it into
     your hand.
-illustrator: Katsura Tabata
+illustrators:
+- Katsura Tabata
 ---
 set: skyridge
 number: '129'
@@ -5841,7 +6001,8 @@ mechanics:
     F basic Energy cards attached to it, this attack does 30 damage
     plus 10 more damage and removes 3 damage counters from the
     Pokémon that Miracle Sphere alpha is attached to.
-illustrator: Hiromichi Sugiyama
+illustrators:
+- Hiromichi Sugiyama
 ---
 set: skyridge
 number: '130'
@@ -5869,7 +6030,8 @@ mechanics:
     P basic Energy cards attached to it, choose an Energy card
     attached to the Defending Pokémon, if any, and your opponent
     shuffles that card into his or her deck.
-illustrator: Hiromichi Sugiyama
+illustrators:
+- Hiromichi Sugiyama
 ---
 set: skyridge
 number: '131'
@@ -5896,7 +6058,8 @@ mechanics:
     has W and L basic Energy cards attached to it, this attack
     does 30 damage plus 10 more damage and lets you put 1 damage
     counter on each of your opponent's Benched Pokémon.
-illustrator: Hiromichi Sugiyama
+illustrators:
+- Hiromichi Sugiyama
 ---
 set: skyridge
 number: '132'
@@ -5921,7 +6084,8 @@ mechanics:
     retreats that Pokémon (and discards Energy normally). If tails,
     that Pokémon can't Retreat this turn (the player doesn't discard
     any Energy).
-illustrator: Midori Harada
+illustrators:
+- Midori Harada
 ---
 set: skyridge
 number: '133'
@@ -5946,7 +6110,8 @@ mechanics:
     your deck for a Trainer card, show it to your opponent, and
     put it into your hand. If your opponent has only 1 Prize,
     the Defending Pokémon is now Burned, Paralyzed and Poisoned.
-illustrator: Hiromichi Sugiyama
+illustrators:
+- Hiromichi Sugiyama
 ---
 set: skyridge
 number: '134'
@@ -5971,7 +6136,8 @@ mechanics:
     3 cards. If your opponent has only 1 Prize, choose 2 Energy
     cards attached to the Defending Pokémon (1 if it has only
     1). Your opponent shuffles those cards into his or her deck.
-illustrator: Hiromichi Sugiyama
+illustrators:
+- Hiromichi Sugiyama
 ---
 set: skyridge
 number: '135'
@@ -5998,7 +6164,8 @@ mechanics:
     Pokémon. Your opponent puts the top card on that Evolved Pokémon
     on the bottom of his or her deck. (This counts as devolving
     that Pokémon.)
-illustrator: Hiromichi Sugiyama
+illustrators:
+- Hiromichi Sugiyama
 ---
 set: skyridge
 number: '136'
@@ -6026,7 +6193,8 @@ mechanics:
     to your opponent, and put them into your hand. Shuffle your
     deck afterward. If your opponent has exactly 2 Prizes, remove
     all damage counters from 1 of your Pokémon.
-illustrator: Hiromichi Sugiyama
+illustrators:
+- Hiromichi Sugiyama
 ---
 set: skyridge
 number: '137'
@@ -6056,7 +6224,8 @@ mechanics:
     or her hand, shows it to his or her opponent, and puts it
     into his or her deck. That player shuffles his or her deck
     afterward.
-illustrator: Ken Ikuji
+illustrators:
+- Ken Ikuji
 ---
 set: skyridge
 number: '138'
@@ -6081,7 +6250,8 @@ mechanics:
   text: >-
     Choose 2 cards from your deck and shuffle the rest of your
     deck. Put the chosen cards in top of your deck in any order.
-illustrator: Kagemaru Himeno
+illustrators:
+- Kagemaru Himeno
 ---
 set: skyridge
 number: '139'
@@ -6110,7 +6280,8 @@ mechanics:
     and put it on top of that Pokémon. (This counts as evolving
     that Pokémon.) Shuffle your deck afterward. Then, discard
     Star Piece.
-illustrator: Jungo Suzuki
+illustrators:
+- Jungo Suzuki
 ---
 set: skyridge
 number: '140'
@@ -6137,7 +6308,8 @@ mechanics:
     Look at the bottom 4 cards if your deck. Put 2 of those cards
     into your hand, and then return the remaining cards to the
     bottom of your deck in any order.
-illustrator: Kagemaru Himeno
+illustrators:
+- Kagemaru Himeno
 ---
 set: skyridge
 number: '141'
@@ -6163,7 +6335,8 @@ mechanics:
     or Kabuto card from his or her discard pile onto his or her
     Bench. (Cards put on the Bench in this way are considered
     Basic Pokémon.)
-illustrator: Midori Harada
+illustrators:
+- Midori Harada
 ---
 set: skyridge
 number: '142'
@@ -6184,7 +6357,8 @@ mechanics:
     you play this card from your hand and attach it to 1 of your
     Pokémon, return a basic Energy card attached to that Pokémon
     to your hand.
-illustrator: Shin-ichi Yoshikawa
+illustrators:
+- Shin-ichi Yoshikawa
 ---
 set: skyridge
 number: '143'
@@ -6205,7 +6379,8 @@ mechanics:
     your hand and attach it to your Active Pokémon, your opponent
     switches his or her Active Pokémon with 1 of his or her Benched
     Pokémon.
-illustrator: Shin-ichi Yoshikawa
+illustrators:
+- Shin-ichi Yoshikawa
 ---
 set: skyridge
 number: '144'
@@ -6225,7 +6400,8 @@ mechanics:
     your hand and attach it to 1 of your Evolved Pokémon, you
     may remove up to 2 damage counters from that Pokémon and discard
     the top card from it. (This counts as devolving it.)
-illustrator: Shin-ichi Yoshikawa
+illustrators:
+- Shin-ichi Yoshikawa
 ---
 set: skyridge
 number: '145'
@@ -6268,7 +6444,8 @@ retreat: 1
 species: Timetravel
 weight: 11
 height: 2'0
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: skyridge
 number: '146'
@@ -6313,7 +6490,8 @@ retreat: 4
 species: Flame
 weight: 200
 height: 5'7
-illustrator: Kouki Saitou
+illustrators:
+- Kouki Saitou
 ---
 set: skyridge
 number: '147'
@@ -6358,7 +6536,8 @@ damage modifiers:
 species: Bat
 weight: 165
 height: 5'11
-illustrator: Atsuko Nishida
+illustrators:
+- Atsuko Nishida
 ---
 set: skyridge
 number: '148'
@@ -6402,7 +6581,8 @@ retreat: 4
 species: Megaton
 weight: 662
 height: 4'7
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: skyridge
 number: '149'
@@ -6444,7 +6624,8 @@ retreat: 3
 species: Rainbow
 weight: 439
 height: 12'6
-illustrator: Hajime Kusajima
+illustrators:
+- Hajime Kusajima
 ---
 set: skyridge
 number: '150'
@@ -6489,4 +6670,5 @@ retreat: 3
 species: Shellfish
 weight: 89
 height: 4'3
-illustrator: Atsuko Nishida
+illustrators:
+- Atsuko Nishida

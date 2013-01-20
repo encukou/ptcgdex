@@ -36,7 +36,8 @@ damage modifiers:
   operation: ×
   type: Fire
 retreat: 2
-illustrator: K. Utsunomiya
+illustrators:
+- K. Utsunomiya
 ---
 set: ex-team-magma-vs-team-aqua
 number: '2'
@@ -78,7 +79,8 @@ damage modifiers:
   operation: ×
   type: Lightning
 retreat: 1
-illustrator: Nakaoka
+illustrators:
+- Nakaoka
 ---
 set: ex-team-magma-vs-team-aqua
 number: '3'
@@ -123,7 +125,8 @@ damage modifiers:
   operation: ×
   type: Grass
 retreat: 3
-illustrator: K. Hoshiba
+illustrators:
+- K. Hoshiba
 ---
 set: ex-team-magma-vs-team-aqua
 number: '4'
@@ -168,7 +171,8 @@ damage modifiers:
   operation: '-'
   type: Metal
 retreat: 1
-illustrator: K. Utsunomiya
+illustrators:
+- K. Utsunomiya
 ---
 set: ex-team-magma-vs-team-aqua
 number: '5'
@@ -206,7 +210,8 @@ damage modifiers:
 - amount: 2
   operation: ×
   type: Lightning
-illustrator: Katsura Tabata
+illustrators:
+- Katsura Tabata
 ---
 set: ex-team-magma-vs-team-aqua
 number: '6'
@@ -250,7 +255,8 @@ damage modifiers:
   operation: ×
   type: Metal
 retreat: 2
-illustrator: Ken Ikuji
+illustrators:
+- Ken Ikuji
 ---
 set: ex-team-magma-vs-team-aqua
 number: '7'
@@ -294,7 +300,8 @@ damage modifiers:
   operation: ×
   type: Water
 retreat: 2
-illustrator: Hiromichi Sugiyama
+illustrators:
+- Hiromichi Sugiyama
 ---
 set: ex-team-magma-vs-team-aqua
 number: '8'
@@ -334,7 +341,8 @@ damage modifiers:
   operation: ×
   type: Psychic
 retreat: 2
-illustrator: Zu-ka
+illustrators:
+- Zu-ka
 ---
 set: ex-team-magma-vs-team-aqua
 number: '9'
@@ -379,7 +387,8 @@ damage modifiers:
   operation: ×
   type: Grass
 retreat: 3
-illustrator: Kazuo Yazawa
+illustrators:
+- Kazuo Yazawa
 ---
 set: ex-team-magma-vs-team-aqua
 number: '10'
@@ -420,7 +429,8 @@ damage modifiers:
   operation: ×
   type: Water
 retreat: 1
-illustrator: Ken Ikuji
+illustrators:
+- Ken Ikuji
 ---
 set: ex-team-magma-vs-team-aqua
 number: '11'
@@ -459,7 +469,8 @@ damage modifiers:
   operation: ×
   type: Grass
 retreat: 2
-illustrator: T. Honda
+illustrators:
+- T. Honda
 ---
 set: ex-team-magma-vs-team-aqua
 number: '12'
@@ -500,7 +511,8 @@ damage modifiers:
   operation: ×
   type: Water
 retreat: 2
-illustrator: K. Hoshiba
+illustrators:
+- K. Hoshiba
 ---
 set: ex-team-magma-vs-team-aqua
 number: '13'
@@ -539,7 +551,8 @@ damage modifiers:
   operation: ×
   type: Fighting
 retreat: 1
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: ex-team-magma-vs-team-aqua
 number: '14'
@@ -578,7 +591,8 @@ damage modifiers:
   operation: ×
   type: Lightning
 retreat: 1
-illustrator: Nakaoka
+illustrators:
+- Nakaoka
 ---
 set: ex-team-magma-vs-team-aqua
 number: '15'
@@ -617,7 +631,8 @@ damage modifiers:
   operation: '-'
   type: Psychic
 retreat: 1
-illustrator: Shin-ichi Yoshikawa
+illustrators:
+- Shin-ichi Yoshikawa
 ---
 set: ex-team-magma-vs-team-aqua
 number: '16'
@@ -656,7 +671,8 @@ damage modifiers:
   operation: ×
   type: Metal
 retreat: 1
-illustrator: T. Honda
+illustrators:
+- T. Honda
 ---
 set: ex-team-magma-vs-team-aqua
 number: '17'
@@ -694,7 +710,8 @@ damage modifiers:
   operation: ×
   type: Psychic
 retreat: 2
-illustrator: Jungo Suzuki
+illustrators:
+- Jungo Suzuki
 ---
 set: ex-team-magma-vs-team-aqua
 number: '18'
@@ -732,7 +749,8 @@ damage modifiers:
 - amount: 2
   operation: ×
   type: Lightning
-illustrator: Katsura Tabata
+illustrators:
+- Katsura Tabata
 ---
 set: ex-team-magma-vs-team-aqua
 number: '19'
@@ -772,7 +790,8 @@ damage modifiers:
   operation: ×
   type: Water
 retreat: 2
-illustrator: Katsura Tabata
+illustrators:
+- Katsura Tabata
 ---
 set: ex-team-magma-vs-team-aqua
 number: '20'
@@ -807,7 +826,8 @@ damage modifiers:
   operation: ×
   type: Grass
 retreat: 2
-illustrator: Hiromichi Sugiyama
+illustrators:
+- Hiromichi Sugiyama
 ---
 set: ex-team-magma-vs-team-aqua
 number: '21'
@@ -850,7 +870,8 @@ damage modifiers:
   operation: '-'
   type: Psychic
 retreat: 1
-illustrator: Shin-ichi Yoshikawa
+illustrators:
+- Shin-ichi Yoshikawa
 ---
 set: ex-team-magma-vs-team-aqua
 number: '22'
@@ -889,7 +910,8 @@ damage modifiers:
   operation: ×
   type: Grass
 retreat: 2
-illustrator: T. Honda
+illustrators:
+- T. Honda
 ---
 set: ex-team-magma-vs-team-aqua
 number: '23'
@@ -927,7 +949,8 @@ damage modifiers:
   operation: ×
   type: Fighting
 retreat: 1
-illustrator: Zu-ka
+illustrators:
+- Zu-ka
 ---
 set: ex-team-magma-vs-team-aqua
 number: '24'
@@ -963,7 +986,8 @@ damage modifiers:
   operation: ×
   type: Fire
 retreat: 1
-illustrator: K. Utsunomiya
+illustrators:
+- K. Utsunomiya
 ---
 set: ex-team-magma-vs-team-aqua
 number: '25'
@@ -999,7 +1023,8 @@ damage modifiers:
   operation: ×
   type: Lightning
 retreat: 1
-illustrator: Mt. TBT
+illustrators:
+- Mt. TBT
 ---
 set: ex-team-magma-vs-team-aqua
 number: '26'
@@ -1038,7 +1063,8 @@ damage modifiers:
   operation: ×
   type: Lightning
 retreat: 1
-illustrator: Jungo Suzuki
+illustrators:
+- Jungo Suzuki
 ---
 set: ex-team-magma-vs-team-aqua
 number: '27'
@@ -1079,7 +1105,8 @@ damage modifiers:
   operation: '-'
   type: Metal
 retreat: 1
-illustrator: M. Akiyama
+illustrators:
+- M. Akiyama
 ---
 set: ex-team-magma-vs-team-aqua
 number: '28'
@@ -1118,7 +1145,8 @@ damage modifiers:
   operation: '-'
   type: Metal
 retreat: 1
-illustrator: Jungo Suzuki
+illustrators:
+- Jungo Suzuki
 ---
 set: ex-team-magma-vs-team-aqua
 number: '29'
@@ -1160,7 +1188,8 @@ damage modifiers:
   operation: '-'
   type: Metal
 retreat: 1
-illustrator: K. Utsunomiya
+illustrators:
+- K. Utsunomiya
 ---
 set: ex-team-magma-vs-team-aqua
 number: '30'
@@ -1199,7 +1228,8 @@ damage modifiers:
   operation: '-'
   type: Psychic
 retreat: 1
-illustrator: Shin-ichi Yoshikawa
+illustrators:
+- Shin-ichi Yoshikawa
 ---
 set: ex-team-magma-vs-team-aqua
 number: '31'
@@ -1234,7 +1264,8 @@ damage modifiers:
   operation: ×
   type: Metal
 retreat: 2
-illustrator: T. Honda
+illustrators:
+- T. Honda
 ---
 set: ex-team-magma-vs-team-aqua
 number: '32'
@@ -1270,7 +1301,8 @@ damage modifiers:
   operation: ×
   type: Psychic
 retreat: 1
-illustrator: Atsuko Ujiie
+illustrators:
+- Atsuko Ujiie
 ---
 set: ex-team-magma-vs-team-aqua
 number: '33'
@@ -1309,7 +1341,8 @@ damage modifiers:
   operation: ×
   type: Grass
 retreat: 1
-illustrator: Zu-ka
+illustrators:
+- Zu-ka
 ---
 set: ex-team-magma-vs-team-aqua
 number: '34'
@@ -1348,7 +1381,8 @@ damage modifiers:
   operation: ×
   type: Water
 retreat: 1
-illustrator: Ken Ikuji
+illustrators:
+- Ken Ikuji
 ---
 set: ex-team-magma-vs-team-aqua
 number: '35'
@@ -1383,7 +1417,8 @@ damage modifiers:
   operation: ×
   type: Water
 retreat: 1
-illustrator: Atsuko Nishida
+illustrators:
+- Atsuko Nishida
 ---
 set: ex-team-magma-vs-team-aqua
 number: '36'
@@ -1419,7 +1454,8 @@ damage modifiers:
   operation: ×
   type: Grass
 retreat: 1
-illustrator: Hiromichi Sugiyama
+illustrators:
+- Hiromichi Sugiyama
 ---
 set: ex-team-magma-vs-team-aqua
 number: '37'
@@ -1462,7 +1498,8 @@ damage modifiers:
   operation: '-'
   type: Psychic
 retreat: 1
-illustrator: Shin-ichi Yoshikawa
+illustrators:
+- Shin-ichi Yoshikawa
 ---
 set: ex-team-magma-vs-team-aqua
 number: '38'
@@ -1497,7 +1534,8 @@ damage modifiers:
   operation: ×
   type: Grass
 retreat: 1
-illustrator: Mt. TBT
+illustrators:
+- Mt. TBT
 ---
 set: ex-team-magma-vs-team-aqua
 number: '39'
@@ -1528,7 +1566,8 @@ damage modifiers:
   operation: ×
   type: Fire
 retreat: 1
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: ex-team-magma-vs-team-aqua
 number: '40'
@@ -1556,7 +1595,8 @@ damage modifiers:
   operation: ×
   type: Grass
 retreat: 1
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: ex-team-magma-vs-team-aqua
 number: '41'
@@ -1591,7 +1631,8 @@ damage modifiers:
   operation: ×
   type: Fighting
 retreat: 1
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: ex-team-magma-vs-team-aqua
 number: '42'
@@ -1624,7 +1665,8 @@ damage modifiers:
   operation: ×
   type: Fighting
 retreat: 1
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: ex-team-magma-vs-team-aqua
 number: '43'
@@ -1658,7 +1700,8 @@ damage modifiers:
   operation: ×
   type: Fighting
 retreat: 1
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: ex-team-magma-vs-team-aqua
 number: '44'
@@ -1692,7 +1735,8 @@ damage modifiers:
   operation: ×
   type: Lightning
 retreat: 1
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: ex-team-magma-vs-team-aqua
 number: '45'
@@ -1727,7 +1771,8 @@ damage modifiers:
   operation: ×
   type: Psychic
 retreat: 1
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: ex-team-magma-vs-team-aqua
 number: '46'
@@ -1759,7 +1804,8 @@ damage modifiers:
   operation: ×
   type: Lightning
 retreat: 1
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: ex-team-magma-vs-team-aqua
 number: '47'
@@ -1795,7 +1841,8 @@ damage modifiers:
   operation: ×
   type: Lightning
 retreat: 1
-illustrator: Yosuke Da Silva
+illustrators:
+- Yosuke Da Silva
 ---
 set: ex-team-magma-vs-team-aqua
 number: '48'
@@ -1827,7 +1874,8 @@ damage modifiers:
   operation: ×
   type: Lightning
 retreat: 1
-illustrator: Hiromichi Sugiyama
+illustrators:
+- Hiromichi Sugiyama
 ---
 set: ex-team-magma-vs-team-aqua
 number: '49'
@@ -1863,7 +1911,8 @@ damage modifiers:
   operation: '-'
   type: Metal
 retreat: 1
-illustrator: Kazuo Yazawa
+illustrators:
+- Kazuo Yazawa
 ---
 set: ex-team-magma-vs-team-aqua
 number: '50'
@@ -1892,7 +1941,8 @@ damage modifiers:
   operation: ×
   type: Lightning
 retreat: 1
-illustrator: Jungo Suzuki
+illustrators:
+- Jungo Suzuki
 ---
 set: ex-team-magma-vs-team-aqua
 number: '51'
@@ -1927,7 +1977,8 @@ damage modifiers:
   operation: ×
   type: Lightning
 retreat: 1
-illustrator: Jungo Suzuki
+illustrators:
+- Jungo Suzuki
 ---
 set: ex-team-magma-vs-team-aqua
 number: '52'
@@ -1964,7 +2015,8 @@ damage modifiers:
   operation: '-'
   type: Metal
 retreat: 1
-illustrator: M. Akiyama
+illustrators:
+- M. Akiyama
 ---
 set: ex-team-magma-vs-team-aqua
 number: '53'
@@ -2000,7 +2052,8 @@ damage modifiers:
   operation: '-'
   type: Metal
 retreat: 1
-illustrator: M. Akiyama
+illustrators:
+- M. Akiyama
 ---
 set: ex-team-magma-vs-team-aqua
 number: '54'
@@ -2038,7 +2091,8 @@ damage modifiers:
   operation: '-'
   type: Psychic
 retreat: 1
-illustrator: Shin-ichi Yoshikawa
+illustrators:
+- Shin-ichi Yoshikawa
 ---
 set: ex-team-magma-vs-team-aqua
 number: '55'
@@ -2078,7 +2132,8 @@ damage modifiers:
   operation: '-'
   type: Psychic
 retreat: 1
-illustrator: Shin-ichi Yoshikawa
+illustrators:
+- Shin-ichi Yoshikawa
 ---
 set: ex-team-magma-vs-team-aqua
 number: '56'
@@ -2108,7 +2163,8 @@ damage modifiers:
   operation: ×
   type: Metal
 retreat: 1
-illustrator: Nakaoka
+illustrators:
+- Nakaoka
 ---
 set: ex-team-magma-vs-team-aqua
 number: '57'
@@ -2147,7 +2203,8 @@ damage modifiers:
   operation: ×
   type: Metal
 retreat: 1
-illustrator: Nakaoka
+illustrators:
+- Nakaoka
 ---
 set: ex-team-magma-vs-team-aqua
 number: '58'
@@ -2183,7 +2240,8 @@ damage modifiers:
   operation: ×
   type: Grass
 retreat: 1
-illustrator: Katsura Tabata
+illustrators:
+- Katsura Tabata
 ---
 set: ex-team-magma-vs-team-aqua
 number: '59'
@@ -2218,7 +2276,8 @@ damage modifiers:
   operation: ×
   type: Grass
 retreat: 1
-illustrator: Katsura Tabata
+illustrators:
+- Katsura Tabata
 ---
 set: ex-team-magma-vs-team-aqua
 number: '60'
@@ -2257,7 +2316,8 @@ damage modifiers:
   operation: ×
   type: Grass
 retreat: 1
-illustrator: Atsuko Ujiie
+illustrators:
+- Atsuko Ujiie
 ---
 set: ex-team-magma-vs-team-aqua
 number: '61'
@@ -2294,7 +2354,8 @@ damage modifiers:
   operation: ×
   type: Grass
 retreat: 1
-illustrator: Atsuko Ujiie
+illustrators:
+- Atsuko Ujiie
 ---
 set: ex-team-magma-vs-team-aqua
 number: '62'
@@ -2332,7 +2393,8 @@ damage modifiers:
   operation: ×
   type: Water
 retreat: 1
-illustrator: Atsuko Nishida
+illustrators:
+- Atsuko Nishida
 ---
 set: ex-team-magma-vs-team-aqua
 number: '63'
@@ -2371,7 +2433,8 @@ damage modifiers:
   operation: ×
   type: Water
 retreat: 1
-illustrator: Atsuko Nishida
+illustrators:
+- Atsuko Nishida
 ---
 set: ex-team-magma-vs-team-aqua
 number: '64'
@@ -2408,7 +2471,8 @@ damage modifiers:
   operation: ×
   type: Water
 retreat: 1
-illustrator: Katsura Tabata
+illustrators:
+- Katsura Tabata
 ---
 set: ex-team-magma-vs-team-aqua
 number: '65'
@@ -2445,7 +2509,8 @@ damage modifiers:
   operation: '-'
   type: Psychic
 retreat: 1
-illustrator: Shin-ichi Yoshikawa
+illustrators:
+- Shin-ichi Yoshikawa
 ---
 set: ex-team-magma-vs-team-aqua
 number: '66'
@@ -2482,7 +2547,8 @@ damage modifiers:
   operation: '-'
   type: Psychic
 retreat: 1
-illustrator: Shin-ichi Yoshikawa
+illustrators:
+- Shin-ichi Yoshikawa
 ---
 set: ex-team-magma-vs-team-aqua
 number: '67'
@@ -2520,7 +2586,8 @@ damage modifiers:
   operation: ×
   type: Grass
 retreat: 1
-illustrator: Yosuke Da Silva
+illustrators:
+- Yosuke Da Silva
 ---
 set: ex-team-magma-vs-team-aqua
 number: '68'
@@ -2554,7 +2621,8 @@ damage modifiers:
   operation: ×
   type: Grass
 retreat: 2
-illustrator: Yosuke Da Silva
+illustrators:
+- Yosuke Da Silva
 ---
 set: ex-team-magma-vs-team-aqua
 number: '69'
@@ -2578,7 +2646,8 @@ mechanics:
     Discard any 1 Pokémon from your hand. Then draw 3 cards. If
     you discarded a Pokémon with Team Aqua in its name, draw 4
     cards instead.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: ex-team-magma-vs-team-aqua
 number: '70'
@@ -2602,7 +2671,8 @@ mechanics:
     Discard any 1 Pokémon from your hand. Then draw 3 cards. If
     you discarded a Pokémon with Team Magma in its name, draw
     4 cards instead.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: ex-team-magma-vs-team-aqua
 number: '71'
@@ -2627,7 +2697,8 @@ mechanics:
     and put it onto your Bench. Shuffle your deck afterward. Treat
     the new Benched Pokémon as a Basic Pokémon. If it is a Stage
     2 Pokémon, put 2 damage counters on that Pokémon.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: ex-team-magma-vs-team-aqua
 number: '72'
@@ -2644,7 +2715,8 @@ mechanics:
     Flip 2 coins. For each heads, search your deck for a Basic
     Pokémon card, show it to your opponent, and put it into your
     hand. Shuffle your deck afterward.
-illustrator: Big Mama Tagawa
+illustrators:
+- Big Mama Tagawa
 ---
 set: ex-team-magma-vs-team-aqua
 number: '73'
@@ -2669,7 +2741,8 @@ mechanics:
     in its name and put it onto your Bench. Treat the new Benched
     Pokémon as a Basic Pokémon. If it is a Stage 2 Pokémon, put
     2 damage counters on that Pokémon.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: ex-team-magma-vs-team-aqua
 number: '74'
@@ -2695,7 +2768,8 @@ mechanics:
     Weakness and Resistance), the attack does 10 more damage.
     At the end of the turn in which this happens, discard Strength
     Charm.
-illustrator: Keiji Kinebuchi
+illustrators:
+- Keiji Kinebuchi
 ---
 set: ex-team-magma-vs-team-aqua
 number: '75'
@@ -2714,7 +2788,8 @@ mechanics:
     it into your hand. If tails, search your deck for a Basic
     Pokémon that has Team Aqua in its name, show it to your opponent
     and put into your hand. Shuffle your deck afterward.
-illustrator: Ryo Ueda
+illustrators:
+- Ryo Ueda
 ---
 set: ex-team-magma-vs-team-aqua
 number: '76'
@@ -2740,7 +2815,8 @@ mechanics:
     card that evolves from that Pokémon and put it on that Pokémon.
     (This counts as evolving that Pokémon.) Shuffle your deck
     afterward, then discard Team Aqua Belt.
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: ex-team-magma-vs-team-aqua
 number: '77'
@@ -2765,7 +2841,8 @@ mechanics:
     with Team Aqua in its name and basic Energy cards, show them
     to your opponent, and put them into your hand. Shuffle your
     deck afterward.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: ex-team-magma-vs-team-aqua
 number: '78'
@@ -2787,7 +2864,8 @@ mechanics:
   text: >-
     Each Pokémon that does not have Team Aqua in its name pays
     1 more to retreat.
-illustrator: Hiromichi Sugiyama
+illustrators:
+- Hiromichi Sugiyama
 ---
 set: ex-team-magma-vs-team-aqua
 number: '79'
@@ -2811,7 +2889,8 @@ mechanics:
   text: >-
     [1] Miracle (10) Choose 1 Special Condition. The Defending
     Pokémon is now affected by that Special Condition.
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: ex-team-magma-vs-team-aqua
 number: '80'
@@ -2830,7 +2909,8 @@ mechanics:
     put it into your hand. If tails, search your deck for a Basic
     Pokémon that has Team Magma in its name, show it to your opponent
     and put into your hand. Shuffle your deck afterward.
-illustrator: Ryo Ueda
+illustrators:
+- Ryo Ueda
 ---
 set: ex-team-magma-vs-team-aqua
 number: '81'
@@ -2856,7 +2936,8 @@ mechanics:
     a card that evolves from that Pokémon and put it on that Pokémon.
     (This counts as evolving that Pokémon.) Shuffle your deck
     afterward, then discard Team Magma Belt.
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: ex-team-magma-vs-team-aqua
 number: '82'
@@ -2881,7 +2962,8 @@ mechanics:
     with Team Magma in its name and basic Energy cards, show them
     to your opponent, and put them into your hand. Shuffle your
     deck afterward.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: ex-team-magma-vs-team-aqua
 number: '83'
@@ -2904,7 +2986,8 @@ mechanics:
     Whenever any player plays a Basic Pokémon that doesn't have
     Team Magma in its name from his or her hand, that player puts
     1 damage counter on that Pokémon.
-illustrator: Ken Ikuji
+illustrators:
+- Ken Ikuji
 ---
 set: ex-team-magma-vs-team-aqua
 number: '84'
@@ -2929,7 +3012,8 @@ mechanics:
     [1] Crushing Magma (10) Choose an Energy card attached to
     the Defending Pokémon and put that card at the bottom of your
     opponent's deck.
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: ex-team-magma-vs-team-aqua
 number: '85'
@@ -2946,7 +3030,8 @@ mechanics:
     Your opponent switches 1 of his or her Defending Pokémon with
     1 of his or her Benched Pokémon, if any. You switch 1 of your
     Active Pokémon with 1 of your Benched Pokémon, if any.
-illustrator: Keiji Kinebuchi
+illustrators:
+- Keiji Kinebuchi
 ---
 set: ex-team-magma-vs-team-aqua
 number: '86'
@@ -2967,7 +3052,8 @@ mechanics:
     2 Energy at a time. (Doesn't count as a basic Energy card
     when not in play and has no effect other than providing Energy.)
     At the end of your turn, discard Aqua Energy.
-illustrator: Takumi Akabane
+illustrators:
+- Takumi Akabane
 ---
 set: ex-team-magma-vs-team-aqua
 number: '87'
@@ -2988,7 +3074,8 @@ mechanics:
     2 Energy at a time. (Doesn't count as a basic Energy card
     when not in play and has no effect other than providing Energy.)
     At the end of your turn, discard Magma Energy.
-illustrator: Takumi Akabane
+illustrators:
+- Takumi Akabane
 ---
 set: ex-team-magma-vs-team-aqua
 number: '88'
@@ -3014,7 +3101,8 @@ mechanics:
     Resistance). When the Pokémon Double Rainbow Energy is attached
     to is no longer an Evolved Pokémon, discard Double Rainbow
     Energy.
-illustrator: Takumi Akabane
+illustrators:
+- Takumi Akabane
 ---
 set: ex-team-magma-vs-team-aqua
 number: '89'
@@ -3058,7 +3146,8 @@ damage modifiers:
   operation: ×
   type: Water
 retreat: 2
-illustrator: Hikaru Koike
+illustrators:
+- Hikaru Koike
 ---
 set: ex-team-magma-vs-team-aqua
 number: '90'
@@ -3104,7 +3193,8 @@ damage modifiers:
   operation: ×
   type: Water
 retreat: 2
-illustrator: Ryo Ueda
+illustrators:
+- Ryo Ueda
 ---
 set: ex-team-magma-vs-team-aqua
 number: '91'
@@ -3140,7 +3230,8 @@ damage modifiers:
   operation: ×
   type: Water
 retreat: 2
-illustrator: Ryo Ueda
+illustrators:
+- Ryo Ueda
 ---
 set: ex-team-magma-vs-team-aqua
 number: '92'
@@ -3176,7 +3267,8 @@ damage modifiers:
   operation: ×
   type: Fighting
 retreat: 2
-illustrator: Ryo Ueda
+illustrators:
+- Ryo Ueda
 ---
 set: ex-team-magma-vs-team-aqua
 number: '93'
@@ -3227,7 +3319,8 @@ damage modifiers:
   operation: '-'
   type: Water
 retreat: 2
-illustrator: Hikaru Koike
+illustrators:
+- Hikaru Koike
 ---
 set: ex-team-magma-vs-team-aqua
 number: '94'
@@ -3267,7 +3360,8 @@ damage modifiers:
   operation: ×
   type: Lightning
 retreat: 2
-illustrator: Ryo Ueda
+illustrators:
+- Ryo Ueda
 ---
 set: ex-team-magma-vs-team-aqua
 number: '95'
@@ -3309,7 +3403,8 @@ damage modifiers:
   operation: ×
   type: Grass
 retreat: 3
-illustrator: Hikaru Koike
+illustrators:
+- Hikaru Koike
 ---
 set: ex-team-magma-vs-team-aqua
 number: '96'
@@ -3347,7 +3442,8 @@ damage modifiers:
   operation: ×
   type: Fighting
 retreat: 1
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: ex-team-magma-vs-team-aqua
 number: '97'
@@ -3383,4 +3479,5 @@ damage modifiers:
   operation: ×
   type: Psychic
 retreat: 1
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita

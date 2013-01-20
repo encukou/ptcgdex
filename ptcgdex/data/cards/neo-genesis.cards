@@ -36,7 +36,8 @@ height: 4'7
 dex entry: >-
   The tail's tip shines brightly and can be seen from far away.
   It acts as a beacon for lost people.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: neo-genesis
 number: '2'
@@ -79,7 +80,8 @@ height: 2'7
 dex entry: >-
   By keeping still and listening intently, it can tell what is
   in even wild, fast-moving rivers.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: neo-genesis
 number: '3'
@@ -122,7 +124,8 @@ height: 1'4
 dex entry: >-
   Plentiful in the tropics. When it dances, its petals rub together
   and make a pleasant ringing sound.
-illustrator: Atsuko Nishida
+illustrators:
+- Atsuko Nishida
 ---
 set: neo-genesis
 number: '4'
@@ -166,7 +169,8 @@ height: 7'7
 dex entry: >-
   When it bites with its massive and powerful jaws, it shakes
   its head and savagely tears its victim up.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: neo-genesis
 number: '5'
@@ -210,7 +214,8 @@ height: 7'7
 dex entry: >-
   It is hard for it to support its own weight out of water, so
   it gets down on all fours. But it moves fast.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: neo-genesis
 number: '6'
@@ -251,7 +256,8 @@ height: 4'11
 dex entry: >-
   This powerful Pokémon thrusts its prized horn under its enemies'
   bellies, then lifts and throws them.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: neo-genesis
 number: '7'
@@ -297,7 +303,8 @@ height: 2'7
 dex entry: >-
   Once it catches the wind, it deftly controls its cotton-puff
   spores to float, even around the world.
-illustrator: Atsuko Nishida
+illustrators:
+- Atsuko Nishida
 ---
 set: neo-genesis
 number: '8'
@@ -338,7 +345,8 @@ height: 5'11
 dex entry: >-
   It is said that it usually hides in underwater caves. It can
   create whirlpools by yawning.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: neo-genesis
 number: '9'
@@ -377,7 +385,8 @@ height: 17'1
 dex entry: >-
   It is said that it quietly spends its time deep at the bottom
   of the sea, because its powers are too strong.
-illustrator: Hironobu Yoshida
+illustrators:
+- Hironobu Yoshida
 ---
 set: neo-genesis
 number: '10'
@@ -419,7 +428,8 @@ height: 5'11
 dex entry: >-
   Meganium's breath has the power to revive dead grass and plants.
   It can make them healthy again.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: neo-genesis
 number: '11'
@@ -461,7 +471,8 @@ height: 5'11
 dex entry: >-
   The aroma that rises from its petals contains a substance that
   calms aggressive feelings.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: neo-genesis
 number: '12'
@@ -492,7 +503,8 @@ height: 1'0
 dex entry: >-
   Despite its small size, it can zap even adult humans. However,
   if it does so, it also surprises itself.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: neo-genesis
 number: '13'
@@ -538,7 +550,8 @@ height: 5'7
 dex entry: >-
   Its sturdy wings look heavy, but they are actually hollow and
   light, allowing it to fly freely in the sky.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: neo-genesis
 number: '14'
@@ -583,7 +596,8 @@ height: 6'7
 dex entry: >-
   When its head was bitten, toxins entered Slowpoke's head and
   unlocked an extraordinary power.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: neo-genesis
 number: '15'
@@ -627,7 +641,8 @@ height: 30'2
 dex entry: >-
   Its body has been compressed deep under the ground. As a result,
   it is even harder than a diamond.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: neo-genesis
 number: '16'
@@ -676,7 +691,8 @@ height: 2'0
 dex entry: >-
   They say that it will appear before kindhearted, caring people
   and shower them with happiness.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: neo-genesis
 number: '17'
@@ -721,7 +737,8 @@ height: 5'7
 dex entry: >-
   If its rage peaks, it becomes so hot that anything it touches
   will instantly go up in flames.
-illustrator: Shin-ichi Yoshida
+illustrators:
+- Shin-ichi Yoshida
 ---
 set: neo-genesis
 number: '18'
@@ -766,7 +783,8 @@ height: 5'7
 dex entry: >-
   It has a secret, devastating move. It rubs its blazing fur together
   to cause huge explosions.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: neo-genesis
 number: '19'
@@ -789,7 +807,8 @@ mechanics:
     a Pokémon, reduce that damage by 10 (before applying Weakness
     and Resistance). Metal Energy provides M Energy. (Doesn't
     count as a basic Energy card.)
-illustrator: Milky Isobe
+illustrators:
+- Milky Isobe
 ---
 set: neo-genesis
 number: '20'
@@ -819,7 +838,8 @@ height: 1'0
 dex entry: >-
   Because of its unusual, star-like silhouette, people believe
   that it came here on a meteor.
-illustrator: Kagemaru Himeno
+illustrators:
+- Kagemaru Himeno
 ---
 set: neo-genesis
 number: '21'
@@ -868,7 +888,8 @@ height: 3'7
 dex entry: >-
   It has sharp, hard tusks and a rugged hide. Its tackle is strong
   enough to knock down a house.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: neo-genesis
 number: '22'
@@ -901,7 +922,8 @@ height: 2'0
 dex entry: >-
   It rotates its arms to generate electricity, but it tires easily,
   so it charges up only a little bit.
-illustrator: Miki Tanaka
+illustrators:
+- Miki Tanaka
 ---
 set: neo-genesis
 number: '23'
@@ -933,7 +955,8 @@ height: 2'4
 dex entry: >-
   Each and every time it inhales and exhales, hot embers dribble
   out of its mouth and nostrils.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: neo-genesis
 number: '24'
@@ -976,7 +999,8 @@ height: 1'8
 dex entry: >-
   It is said that when chased, it lures the attacker onto dark
   mountain trails where the foe will get lost.
-illustrator: Shin-ichi Yoshida
+illustrators:
+- Shin-ichi Yoshida
 ---
 set: neo-genesis
 number: '25'
@@ -1018,7 +1042,8 @@ height: 2'11
 dex entry: >-
   Its paws conceal sharp claws. If attacked, it suddenly extends
   the claws and startles its enemy.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: neo-genesis
 number: '26'
@@ -1063,7 +1088,8 @@ height: 2'7
 dex entry: >-
   Its tail is so powerful that it can use it to grab a tree branch
   and hold itself up in the air.
-illustrator: Hironobu Yoshida
+illustrators:
+- Hironobu Yoshida
 ---
 set: neo-genesis
 number: '27'
@@ -1109,7 +1135,8 @@ height: 3'7
 dex entry: >-
   It spins string not only from its rear but also from its mouth.
   It is hard to tell which end is which.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: neo-genesis
 number: '28'
@@ -1152,7 +1179,8 @@ height: 3'11
 dex entry: >-
   A spicy aroma emanates from around its neck. The aroma acts
   as a stimulant to restore health.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: neo-genesis
 number: '29'
@@ -1199,7 +1227,8 @@ height: 3'11
 dex entry: >-
   The scent of spices comes from around its neck. Somehow, sniffing
   it makes you want to fight.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: neo-genesis
 number: '30'
@@ -1246,7 +1275,8 @@ height: 2'0
 dex entry: >-
   The moonlight that it stores in the wings on its back apparently
   gives it the ability to float in midair.
-illustrator: Sumiyoshi Kizuki
+illustrators:
+- Sumiyoshi Kizuki
 ---
 set: neo-genesis
 number: '31'
@@ -1293,7 +1323,8 @@ height: 3'7
 dex entry: >-
   If it loses a fang, a new one grows back in its place. There
   are always 48 fangs lining its mouth.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: neo-genesis
 number: '32'
@@ -1333,7 +1364,8 @@ height: 3'7
 dex entry: >-
   It opens its jaws wide when attacking. If it loses any fangs
   while biting, they grow back in.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: neo-genesis
 number: '33'
@@ -1373,7 +1405,8 @@ height: 3'7
 dex entry: >-
   Electricity runs across the surface of its body. In darkness,
   its entire body glows a whitish-blue.
-illustrator: Shin-ichi Yoshida
+illustrators:
+- Shin-ichi Yoshida
 ---
 set: neo-genesis
 number: '34'
@@ -1420,7 +1453,8 @@ height: 2'7
 dex entry: >-
   As a result of storing too much electricity, it develops patches
   where even downy wool won't grow.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: neo-genesis
 number: '35'
@@ -1467,7 +1501,8 @@ height: 5'11
 dex entry: >-
   It makes a nest to suit its long and skinny body. The nest is
   impossible for other Pokémon to enter.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: neo-genesis
 number: '36'
@@ -1516,7 +1551,8 @@ height: 2'7
 dex entry: >-
   What appears to be drool is actually sweet honey. It is very
   sticky and clings stubbornly if touched.
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: neo-genesis
 number: '37'
@@ -1560,7 +1596,8 @@ height: 4'7
 dex entry: >-
   It is actually timid and easily spooked. If attacked, it flails
   about to fend off its attacker.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: neo-genesis
 number: '38'
@@ -1603,7 +1640,8 @@ height: 3'11
 dex entry: >-
   The light it emits is so bright that it can illuminate the sea's
   surface from a depth of over three miles.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: neo-genesis
 number: '39'
@@ -1643,7 +1681,8 @@ height: 4'7
 dex entry: >-
   When the stars flicker in the night sky, Ledian flutters about,
   scattering a glowing powder.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: neo-genesis
 number: '40'
@@ -1680,7 +1719,8 @@ height: 4'3
 dex entry: >-
   It dislikes cold places, so it blows its scorching flames to
   make the environment suitable for itself.
-illustrator: Naoyo Kimura
+illustrators:
+- Naoyo Kimura
 ---
 set: neo-genesis
 number: '41'
@@ -1725,7 +1765,8 @@ height: 3'11
 dex entry: >-
   Its milk is packed with nutrition, making it the ultimate beverage
   for the sick or weary.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: neo-genesis
 number: '42'
@@ -1769,7 +1810,8 @@ height: 5'3
 dex entry: >-
   Its eyes are specially adapted. They concentrate even faint
   light and enable it to see in the dark.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: neo-genesis
 number: '43'
@@ -1812,7 +1854,8 @@ height: 1'8
 dex entry: >-
   It swings its long snout around playfully, but, because it is
   so strong, that can be dangerous.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: neo-genesis
 number: '44'
@@ -1861,7 +1904,8 @@ height: 3'7
 dex entry: >-
   Because the long hair all over its body obscures its sight,
   it just keeps charging repeatedly.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: neo-genesis
 number: '45'
@@ -1905,7 +1949,8 @@ height: 4'7
 dex entry: >-
   Due to its relaxed and carefree attitude, it often bumps its
   head on boulders and boat hulls as it swims.
-illustrator: Atsuko Nishida
+illustrators:
+- Atsuko Nishida
 ---
 set: neo-genesis
 number: '46'
@@ -1950,7 +1995,8 @@ height: 2'11
 dex entry: >-
   This Pokémon is fully covered in nonflammable fur. It can withstand
   any kind of fire attack.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: neo-genesis
 number: '47'
@@ -1999,7 +2045,8 @@ height: 2'11
 dex entry: >-
   Be careful if it turns its back during battle. It means that
   it will attack with the fire on its back.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: neo-genesis
 number: '48'
@@ -2044,7 +2091,8 @@ height: 3'11
 dex entry: >-
   An examination of its cells revealed the presence of a gene
   not found in Horsea. It became a hot topic.
-illustrator: Shin-ichi Yoshida
+illustrators:
+- Shin-ichi Yoshida
 ---
 set: neo-genesis
 number: '49'
@@ -2088,7 +2136,8 @@ height: 2'0
 dex entry: >-
   The bloom on top of its head opens and closes as the temperature
   fluctuates up and down.
-illustrator: Atsuko Nishida
+illustrators:
+- Atsuko Nishida
 ---
 set: neo-genesis
 number: '50'
@@ -2125,7 +2174,8 @@ height: 2'7
 dex entry: >-
   It converts sunlight into energy. In the darkness after sunset,
   it closes its petals and becomes still.
-illustrator: Kagemaru Himeno
+illustrators:
+- Kagemaru Himeno
 ---
 set: neo-genesis
 number: '51'
@@ -2160,7 +2210,8 @@ height: 1'0
 dex entry: >-
   A proverb claims that happiness will come to anyone who can
   make a sleeping Togepi stand up.
-illustrator: Naoyo Kimura
+illustrators:
+- Naoyo Kimura
 ---
 set: neo-genesis
 number: '52'
@@ -2204,7 +2255,8 @@ height: 4'11
 dex entry: >-
   They say that it stays still and quiet because it is seeing
   both the past and the future at the same time.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: neo-genesis
 number: '53'
@@ -2244,7 +2296,8 @@ height: 2'11
 dex entry: >-
   A sweet aroma gently wafts from the leaf on its head. It is
   docile and loves to soak up the sun's rays.
-illustrator: Naoyo Kimura
+illustrators:
+- Naoyo Kimura
 ---
 set: neo-genesis
 number: '54'
@@ -2285,7 +2338,8 @@ height: 2'11
 dex entry: >-
   Its pleasantly aromatic leaves have the ability to check the
   humidity and temperature.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: neo-genesis
 number: '55'
@@ -2325,7 +2379,8 @@ height: 1'8
 dex entry: >-
   It shoots positive and negative electricity between the tips
   of its two antennae and zaps its enemies.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: neo-genesis
 number: '56'
@@ -2368,7 +2423,8 @@ height: 1'8
 dex entry: >-
   It usually stays hunched over. If it is angry or surprised,
   it shoots flames out of its back.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: neo-genesis
 number: '57'
@@ -2410,7 +2466,8 @@ height: 1'8
 dex entry: >-
   It is timid and always curls itself up in a ball. If attacked,
   it flares up its back for protection.
-illustrator: Shin-ichi Yoshida
+illustrators:
+- Shin-ichi Yoshida
 ---
 set: neo-genesis
 number: '58'
@@ -2448,7 +2505,8 @@ height: 4'11
 dex entry: >-
   Its tail has a small brain of its own. Beware! If you get close,
   it may react to your scent and bite.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: neo-genesis
 number: '59'
@@ -2489,7 +2547,8 @@ height: 3'7
 dex entry: >-
   It flies straight down at its target's face, then clamps down
   on the startled victim to inject poison.
-illustrator: Hironobu Yoshida
+illustrators:
+- Hironobu Yoshida
 ---
 set: neo-genesis
 number: '60'
@@ -2530,7 +2589,8 @@ height: 2'4
 dex entry: >-
   It always stands on one foot. It changes feet so fast that the
   movement can rarely be seen.
-illustrator: Sumiyoshi Kizuki
+illustrators:
+- Sumiyoshi Kizuki
 ---
 set: neo-genesis
 number: '61'
@@ -2572,7 +2632,8 @@ height: 1'4
 dex entry: >-
   To keep from being blown away by the wind, they gather in clusters.
   They do enjoy gentle breezes, though.
-illustrator: Atsuko Nishida
+illustrators:
+- Atsuko Nishida
 ---
 set: neo-genesis
 number: '62'
@@ -2608,7 +2669,8 @@ height: 1'4
 dex entry: >-
   If attacked by a larger enemy, it quickly swims to safety by
   adeptly controlling its dorsal fin.
-illustrator: Miki Tanaka
+illustrators:
+- Miki Tanaka
 ---
 set: neo-genesis
 number: '63'
@@ -2651,7 +2713,8 @@ height: 3'3
 dex entry: >-
   It is very timid. It's afraid to move if alone, but it's active
   if in a group.
-illustrator: Sumiyoshi Kizuki
+illustrators:
+- Sumiyoshi Kizuki
 ---
 set: neo-genesis
 number: '64'
@@ -2690,7 +2753,8 @@ height: 6'11
 dex entry: >-
   Swimming freely in open seas, it may fly out of the water and
   over the waves if it builds up enough speed.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: neo-genesis
 number: '65'
@@ -2731,7 +2795,8 @@ height: 2'0
 dex entry: >-
   If static electricity builds in its body, its fleece doubles
   in volume. Touching it will shock you.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: neo-genesis
 number: '66'
@@ -2774,7 +2839,8 @@ height: 1'4
 dex entry: >-
   The end of its tail serves as a buoy that keeps it from drowning,
   even in a vicious current.
-illustrator: Atsuko Nishida
+illustrators:
+- Atsuko Nishida
 ---
 set: neo-genesis
 number: '67'
@@ -2817,7 +2883,8 @@ height: 0'8
 dex entry: >-
   Because its wings aren't yet fully grown, it has to hop to get
   around. It is always staring at something.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: neo-genesis
 number: '68'
@@ -2861,7 +2928,8 @@ height: 1'8
 dex entry: >-
   Awakened by moonlight, it roams actively at night. During the
   day, it stays quietly underground.
-illustrator: Sumiyoshi Kizuki
+illustrators:
+- Sumiyoshi Kizuki
 ---
 set: neo-genesis
 number: '69'
@@ -2904,7 +2972,8 @@ height: 28'10
 dex entry: >-
   It twists and squirms through the ground. The thunderous roar
   of its tunneling echoes a long way.
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: neo-genesis
 number: '70'
@@ -2947,7 +3016,8 @@ height: 1'4
 dex entry: >-
   It raises its tail to check its surroundings. The tail is sometimes
   struck by lightning in this pose.
-illustrator: Naoyo Kimura
+illustrators:
+- Naoyo Kimura
 ---
 set: neo-genesis
 number: '71'
@@ -2986,7 +3056,8 @@ height: 2'7
 dex entry: >-
   A very cautious Pokémon, it raises itself up using its tail
   to get a better view of its surroundings.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: neo-genesis
 number: '72'
@@ -3028,7 +3099,8 @@ height: 2'0
 dex entry: >-
   The Berries it stores in its vaselike shell decompose and become
   a gooey liquid.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: neo-genesis
 number: '73'
@@ -3071,7 +3143,8 @@ height: 3'11
 dex entry: >-
   It lazes vacantly near water. If something bites its tail, it
   won't even notice for a whole day.
-illustrator: Tomokazu Komiya
+illustrators:
+- Tomokazu Komiya
 ---
 set: neo-genesis
 number: '74'
@@ -3117,7 +3190,8 @@ height: 2'0
 dex entry: >-
   Although it looks frightening, it is actually kind and affectionate.
   It is very popular.
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: neo-genesis
 number: '75'
@@ -3158,7 +3232,8 @@ height: 1'8
 dex entry: >-
   It lies still in the same pose for days in its web, waiting
   for its unsuspecting prey to wander close.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: neo-genesis
 number: '76'
@@ -3202,7 +3277,8 @@ height: 4'7
 dex entry: >-
   The curved antlers subtly change the flow of air to create a
   strange space where reality is distorted.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: neo-genesis
 number: '77'
@@ -3241,7 +3317,8 @@ height: 3'11
 dex entry: >-
   Although it always pretends to be a tree, its composition appears
   to be closer to a rock than a plant.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: neo-genesis
 number: '78'
@@ -3285,7 +3362,8 @@ height: 1'0
 dex entry: >-
   It may drop out of the sky suddenly. If attacked by a Spearow,
   it violently shakes its leaves.
-illustrator: Kagemaru Himeno
+illustrators:
+- Kagemaru Himeno
 ---
 set: neo-genesis
 number: '79'
@@ -3323,7 +3401,8 @@ height: 1'4
 dex entry: >-
   It rubs its snout on the ground to find and dig up food. It
   sometimes discovers hot springs.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: neo-genesis
 number: '80'
@@ -3363,7 +3442,8 @@ height: 2'0
 dex entry: >-
   It is small but rough and tough. It won't hesitate to take a
   bite out of anything that moves.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: neo-genesis
 number: '81'
@@ -3406,7 +3486,8 @@ height: 2'0
 dex entry: >-
   Its well-developed jaws are powerful and are capable of crushing
   anything. Even its trainer must be careful.
-illustrator: Hironobu Yoshida
+illustrators:
+- Hironobu Yoshida
 ---
 set: neo-genesis
 number: '82'
@@ -3451,7 +3532,8 @@ height: 1'4
 dex entry: >-
   This Pokémon lives in cold water. It leaves the water to search
   for food when it gets cold outside.
-illustrator: Miki Tanaka
+illustrators:
+- Miki Tanaka
 ---
 set: neo-genesis
 number: '83'
@@ -3469,7 +3551,9 @@ mechanics:
     least 2 of those cards share the same name, put all of the
     ones with that name into your hand and shuffle the rest into
     your deck. If none of them do, shuffle all 3 into your deck.
-illustrator: K. Hoshiba, CR CG gangs
+illustrators:
+- K. Hoshiba
+- CR CG gangs
 ---
 set: neo-genesis
 number: '84'
@@ -3494,7 +3578,9 @@ mechanics:
     return that Energy card to its owner's hand. (Energy cards
     that are discarded when that Pokémon is Knocked Out don't
     count.)
-illustrator: Shin-ichi Yoshikawa, CR CG gangs
+illustrators:
+- Shin-ichi Yoshikawa
+- CR CG gangs
 ---
 set: neo-genesis
 number: '85'
@@ -3510,7 +3596,8 @@ mechanics:
   text: >-
     Flip a coin. If heads, shuffle up to 2 Energy cards from your
     discard pile into your deck.
-illustrator: Keiji Kinebuchi
+illustrators:
+- Keiji Kinebuchi
 ---
 set: neo-genesis
 number: '86'
@@ -3536,7 +3623,8 @@ mechanics:
     attached to would be Knocked Out by your opponent's attack,
     flip a coin. If heads, that Pokémon is not Knocked Out and
     its remaining HP become 10 instead. Then, discard Focus Band.
-illustrator: Tomokazu Komiya
+illustrators:
+- Tomokazu Komiya
 ---
 set: neo-genesis
 number: '87'
@@ -3552,7 +3640,8 @@ mechanics:
   text: >-
     Draw 2 cards. Then, shuffle 2 cards from your hand into your
     deck.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: neo-genesis
 number: '88'
@@ -3570,7 +3659,9 @@ mechanics:
     cards, you may show 1 of them to your opponent and put it
     into your hand. Shuffle your deck afterward. You can't play
     any more Trainer cards this turn.
-illustrator: Katsura Tabata, CR CG gangs
+illustrators:
+- Katsura Tabata
+- CR CG gangs
 ---
 set: neo-genesis
 number: '89'
@@ -3587,7 +3678,8 @@ mechanics:
     Trade 2 of the other cards in your hand for 4 basic Energy
     cards from your discard pile. If you have fewer than 4 basic
     Energy cards there, take all of them.
-illustrator: Keiji Kinebuchi
+illustrators:
+- Keiji Kinebuchi
 ---
 set: neo-genesis
 number: '90'
@@ -3607,7 +3699,9 @@ mechanics:
     If your opponent chooses any cards, he or she shuffles them
     into his or her deck. Either way, you may do the same, and
     you can't play any more Trainer cards this turn.
-illustrator: Big Mama Tagawa, CR CG gangs
+illustrators:
+- Big Mama Tagawa
+- CR CG gangs
 ---
 set: neo-genesis
 number: '91'
@@ -3622,7 +3716,8 @@ mechanics:
 - type: effect
   text: >-
     Flip a coin. If heads, draw 4 cards.
-illustrator: Keiji Kinebuchi
+illustrators:
+- Keiji Kinebuchi
 ---
 set: neo-genesis
 number: '92'
@@ -3640,7 +3735,9 @@ mechanics:
     it is an Energy card, a Trainer card, or a Pokémon (Basic
     or Evolution) card. Flip the card face up (and leave it face
     up). If you guessed right, draw 2 cards.
-illustrator: K. Hoshiba, CR CG gangs
+illustrators:
+- K. Hoshiba
+- CR CG gangs
 ---
 set: neo-genesis
 number: '93'
@@ -3668,7 +3765,9 @@ mechanics:
     Berry. At the start of each turn, if there are at least 4
     damage counters on the Pokémon Gold Berry is attached to,
     remove 4 of them and discard Gold Berry.
-illustrator: Ryuta Kusumi, CR CG gangs
+illustrators:
+- Ryuta Kusumi
+- CR CG gangs
 ---
 set: neo-genesis
 number: '94'
@@ -3694,7 +3793,9 @@ mechanics:
     if the Pokémon Miracle Berry is attached to is Asleep, Confused,
     Paralyzed, or Poisoned, you may remove all of those effects
     from that Pokémon and discard Miracle Berry.
-illustrator: Yousuke Hirata, CR CG gangs
+illustrators:
+- Yousuke Hirata
+- CR CG gangs
 ---
 set: neo-genesis
 number: '95'
@@ -3710,7 +3811,8 @@ mechanics:
   text: >-
     Shuffle your deck. Then, look at up to 5 cards from the top
     of your deck and rearrange them as you like.
-illustrator: Keiji Kinebuchi
+illustrators:
+- Keiji Kinebuchi
 ---
 set: neo-genesis
 number: '96'
@@ -3726,7 +3828,8 @@ mechanics:
   text: >-
     Shuffle your hand into your deck. Then, draw 7 cards. You
     can't play any more Trainer cards this turn.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: neo-genesis
 number: '97'
@@ -3748,7 +3851,9 @@ mechanics:
   text: >-
     All damage done by Colorless Pokémon's attacks is reduced
     by 30 (after applying Weakness and Resistance).
-illustrator: Hiromichi Sugiyama, CR CG gangs
+illustrators:
+- Hiromichi Sugiyama
+- CR CG gangs
 ---
 set: neo-genesis
 number: '98'
@@ -3765,7 +3870,8 @@ mechanics:
   text: >-
     Flip a coin. If heads, return 1 of your Pokémon and all cards
     attached to it to your hand.
-illustrator: Keiji Kinebuchi
+illustrators:
+- Keiji Kinebuchi
 ---
 set: neo-genesis
 number: '99'
@@ -3793,7 +3899,9 @@ mechanics:
     of each turn, if there are at least 2 damage counters on the
     Pokémon Berry is attached to, remove 2 of them and discard
     Berry.
-illustrator: Yousuke Hirata, CR CG gangs
+illustrators:
+- Yousuke Hirata
+- CR CG gangs
 ---
 set: neo-genesis
 number: '100'
@@ -3811,7 +3919,8 @@ mechanics:
     them and switches it with your Active Pokémon. Then, if your
     opponent has any Benched Pokémon, choose 1 of them and switch
     it with his or her Active Pokémon.
-illustrator: Tomokazu Komiya
+illustrators:
+- Tomokazu Komiya
 ---
 set: neo-genesis
 number: '101'
@@ -3828,7 +3937,8 @@ mechanics:
     Choose 1 of your Pokémon. Flip 2 coins. Remove 2 damage counters
     times the number of heads from that Pokémon. If the Pokémon
     has fewer damage counters than that, remove all of them.
-illustrator: Tomokazu Komiya
+illustrators:
+- Tomokazu Komiya
 ---
 set: neo-genesis
 number: '102'
@@ -3847,7 +3957,8 @@ mechanics:
     your deck for 1 Basic Pokémon card and put it onto your Bench.
     Then, each player shuffles his or her deck. (A player can't
     do any of this if his or her Bench is full.)
-illustrator: Tomokazu Komiya
+illustrators:
+- Tomokazu Komiya
 ---
 set: neo-genesis
 number: '103'
@@ -3864,7 +3975,8 @@ mechanics:
     Flip a coin. If heads, put an Evolution card from your discard
     pile, if any, into your hand. If tails, put a Basic Pokémon
     card from your discard pile, if any, into your hand.
-illustrator: Keiji Kinebuchi
+illustrators:
+- Keiji Kinebuchi
 ---
 set: neo-genesis
 number: '104'
@@ -3889,7 +4001,8 @@ mechanics:
     Darkness Energy is attached to, unless it's D or has Dark
     in its name. Darkness Energy provides D Energy. (Doesn't count
     as a basic Energy card.)
-illustrator: Milky Isobe
+illustrators:
+- Milky Isobe
 ---
 set: neo-genesis
 number: '105'
@@ -3909,7 +4022,8 @@ mechanics:
     Recycle Energy provides 1 Colorless Energy. (Doesn't count
     as a basic Energy card.) If this card is put into your discard
     pile from play, return it to your hand.
-illustrator: Hideki Kazama
+illustrators:
+- Hideki Kazama
 ---
 set: neo-genesis
 number: '106'
@@ -3927,7 +4041,8 @@ mechanics:
 - type: effect
   text: >-
     Provides 1 Fighting Energy.
-illustrator: Keiji Kinebuchi
+illustrators:
+- Keiji Kinebuchi
 ---
 set: neo-genesis
 number: '107'
@@ -3945,7 +4060,8 @@ mechanics:
 - type: effect
   text: >-
     Provides 1 Fire Energy.
-illustrator: Keiji Kinebuchi
+illustrators:
+- Keiji Kinebuchi
 ---
 set: neo-genesis
 number: '108'
@@ -3963,7 +4079,8 @@ mechanics:
 - type: effect
   text: >-
     Provides 1 Grass Energy.
-illustrator: Keiji Kinebuchi
+illustrators:
+- Keiji Kinebuchi
 ---
 set: neo-genesis
 number: '109'
@@ -3981,7 +4098,8 @@ mechanics:
 - type: effect
   text: >-
     Provides 1 Lightning Energy.
-illustrator: Keiji Kinebuchi
+illustrators:
+- Keiji Kinebuchi
 ---
 set: neo-genesis
 number: '110'
@@ -3999,7 +4117,8 @@ mechanics:
 - type: effect
   text: >-
     Provides 1 Psychic Energy.
-illustrator: Keiji Kinebuchi
+illustrators:
+- Keiji Kinebuchi
 ---
 set: neo-genesis
 number: '111'
@@ -4017,4 +4136,5 @@ mechanics:
 - type: effect
   text: >-
     Provides 1 Water Energy.
-illustrator: Keiji Kinebuchi
+illustrators:
+- Keiji Kinebuchi

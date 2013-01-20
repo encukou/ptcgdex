@@ -36,7 +36,8 @@ damage modifiers:
 - amount: 2
   operation: ×
   type: Fire
-illustrator: Hajime Kusajima
+illustrators:
+- Hajime Kusajima
 ---
 set: ex-firered-and-leafgreen
 number: '2'
@@ -81,7 +82,8 @@ damage modifiers:
 - amount: 30
   operation: '-'
   type: Fighting
-illustrator: Atsuko Nishida
+illustrators:
+- Atsuko Nishida
 ---
 set: ex-firered-and-leafgreen
 number: '3'
@@ -123,7 +125,8 @@ damage modifiers:
   operation: ×
   type: Metal
 retreat: 2
-illustrator: Toshinao Aoki
+illustrators:
+- Toshinao Aoki
 ---
 set: ex-firered-and-leafgreen
 number: '4'
@@ -162,7 +165,8 @@ damage modifiers:
   operation: ×
   type: Fighting
 retreat: 1
-illustrator: Miki Tanaka
+illustrators:
+- Miki Tanaka
 ---
 set: ex-firered-and-leafgreen
 number: '5'
@@ -197,7 +201,8 @@ damage modifiers:
   operation: ×
   type: Psychic
 retreat: 2
-illustrator: Tomokazu Komiya
+illustrators:
+- Tomokazu Komiya
 ---
 set: ex-firered-and-leafgreen
 number: '6'
@@ -235,7 +240,8 @@ damage modifiers:
   operation: ×
   type: Fighting
 retreat: 2
-illustrator: Naoyo Kimura
+illustrators:
+- Naoyo Kimura
 ---
 set: ex-firered-and-leafgreen
 number: '7'
@@ -273,7 +279,8 @@ damage modifiers:
   operation: ×
   type: Grass
 retreat: 1
-illustrator: Aya Kusube
+illustrators:
+- Aya Kusube
 ---
 set: ex-firered-and-leafgreen
 number: '8'
@@ -317,7 +324,8 @@ damage modifiers:
   operation: ×
   type: Water
 retreat: 3
-illustrator: Hisao Nakamura
+illustrators:
+- Hisao Nakamura
 ---
 set: ex-firered-and-leafgreen
 number: '9'
@@ -358,7 +366,8 @@ damage modifiers:
   operation: ×
   type: Grass
 retreat: 2
-illustrator: Naoyo Kimura
+illustrators:
+- Naoyo Kimura
 ---
 set: ex-firered-and-leafgreen
 number: '10'
@@ -398,7 +407,8 @@ damage modifiers:
 - amount: 30
   operation: '-'
   type: Fighting
-illustrator: Midori Harada
+illustrators:
+- Midori Harada
 ---
 set: ex-firered-and-leafgreen
 number: '11'
@@ -439,7 +449,8 @@ damage modifiers:
   operation: ×
   type: Lightning
 retreat: 2
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: ex-firered-and-leafgreen
 number: '12'
@@ -475,7 +486,8 @@ damage modifiers:
   operation: ×
   type: Fighting
 retreat: 1
-illustrator: Midori Harada
+illustrators:
+- Midori Harada
 ---
 set: ex-firered-and-leafgreen
 number: '13'
@@ -513,7 +525,8 @@ damage modifiers:
   operation: ×
   type: Water
 retreat: 1
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: ex-firered-and-leafgreen
 number: '14'
@@ -549,7 +562,8 @@ damage modifiers:
   operation: ×
   type: Psychic
 retreat: 1
-illustrator: Yuka Morii
+illustrators:
+- Yuka Morii
 ---
 set: ex-firered-and-leafgreen
 number: '15'
@@ -589,7 +603,8 @@ damage modifiers:
   operation: ×
   type: Fighting
 retreat: 3
-illustrator: Kagemaru Himeno
+illustrators:
+- Kagemaru Himeno
 ---
 set: ex-firered-and-leafgreen
 number: '16'
@@ -625,7 +640,8 @@ damage modifiers:
   operation: ×
   type: Fighting
 retreat: 1
-illustrator: Masakazu Fukuda
+illustrators:
+- Masakazu Fukuda
 ---
 set: ex-firered-and-leafgreen
 number: '17'
@@ -661,7 +677,8 @@ damage modifiers:
   operation: ×
   type: Fire
 retreat: 2
-illustrator: Tomokazu Komiya
+illustrators:
+- Tomokazu Komiya
 ---
 set: ex-firered-and-leafgreen
 number: '18'
@@ -694,7 +711,8 @@ damage modifiers:
   operation: ×
   type: Water
 retreat: 2
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: ex-firered-and-leafgreen
 number: '19'
@@ -732,7 +750,8 @@ damage modifiers:
   operation: ×
   type: Fighting
 retreat: 2
-illustrator: Miki Tanaka
+illustrators:
+- Miki Tanaka
 ---
 set: ex-firered-and-leafgreen
 number: '20'
@@ -776,7 +795,8 @@ damage modifiers:
   operation: ×
   type: Lightning
 retreat: 1
-illustrator: Aya Kusube
+illustrators:
+- Aya Kusube
 ---
 set: ex-firered-and-leafgreen
 number: '21'
@@ -814,7 +834,8 @@ damage modifiers:
   operation: '-'
   type: Fighting
 retreat: 1
-illustrator: Kagemaru Himeno
+illustrators:
+- Kagemaru Himeno
 ---
 set: ex-firered-and-leafgreen
 number: '22'
@@ -850,7 +871,8 @@ damage modifiers:
   operation: ×
   type: Grass
 retreat: 1
-illustrator: Hajime Kusajima
+illustrators:
+- Hajime Kusajima
 ---
 set: ex-firered-and-leafgreen
 number: '23'
@@ -889,7 +911,8 @@ damage modifiers:
   operation: '-'
   type: Fighting
 retreat: 1
-illustrator: Yukiko Baba
+illustrators:
+- Yukiko Baba
 ---
 set: ex-firered-and-leafgreen
 number: '24'
@@ -931,7 +954,8 @@ damage modifiers:
   operation: '-'
   type: Fighting
 retreat: 1
-illustrator: Hisao Nakamura
+illustrators:
+- Hisao Nakamura
 ---
 set: ex-firered-and-leafgreen
 number: '25'
@@ -965,7 +989,8 @@ damage modifiers:
   operation: ×
   type: Psychic
 retreat: 1
-illustrator: Yukiko Baba
+illustrators:
+- Yukiko Baba
 ---
 set: ex-firered-and-leafgreen
 number: '26'
@@ -1002,7 +1027,8 @@ damage modifiers:
   operation: ×
   type: Lightning
 retreat: 2
-illustrator: Kouki Saitou
+illustrators:
+- Kouki Saitou
 ---
 set: ex-firered-and-leafgreen
 number: '27'
@@ -1042,7 +1068,8 @@ damage modifiers:
   operation: '-'
   type: Metal
 retreat: 1
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: ex-firered-and-leafgreen
 number: '28'
@@ -1076,7 +1103,8 @@ damage modifiers:
 - amount: 2
   operation: ×
   type: Psychic
-illustrator: Miki Tanaka
+illustrators:
+- Miki Tanaka
 ---
 set: ex-firered-and-leafgreen
 number: '29'
@@ -1112,7 +1140,8 @@ damage modifiers:
   operation: ×
   type: Fire
 retreat: 1
-illustrator: Kouki Saitou
+illustrators:
+- Kouki Saitou
 ---
 set: ex-firered-and-leafgreen
 number: '30'
@@ -1151,7 +1180,8 @@ damage modifiers:
   operation: '-'
   type: Water
 retreat: 1
-illustrator: Yuka Morii
+illustrators:
+- Yuka Morii
 ---
 set: ex-firered-and-leafgreen
 number: '31'
@@ -1185,7 +1215,8 @@ damage modifiers:
   operation: ×
   type: Water
 retreat: 1
-illustrator: Kouki Saitou
+illustrators:
+- Kouki Saitou
 ---
 set: ex-firered-and-leafgreen
 number: '32'
@@ -1219,7 +1250,8 @@ damage modifiers:
   operation: ×
   type: Psychic
 retreat: 1
-illustrator: Yukiko Baba
+illustrators:
+- Yukiko Baba
 ---
 set: ex-firered-and-leafgreen
 number: '33'
@@ -1254,7 +1286,8 @@ damage modifiers:
   operation: ×
   type: Psychic
 retreat: 1
-illustrator: Tomokazu Komiya
+illustrators:
+- Tomokazu Komiya
 ---
 set: ex-firered-and-leafgreen
 number: '34'
@@ -1292,7 +1325,8 @@ damage modifiers:
   operation: '-'
   type: Fighting
 retreat: 1
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: ex-firered-and-leafgreen
 number: '35'
@@ -1324,7 +1358,8 @@ damage modifiers:
   operation: ×
   type: Psychic
 retreat: 1
-illustrator: Atsuko Nishida
+illustrators:
+- Atsuko Nishida
 ---
 set: ex-firered-and-leafgreen
 number: '36'
@@ -1357,7 +1392,8 @@ damage modifiers:
   operation: ×
   type: Fire
 retreat: 2
-illustrator: Hajime Kusajima
+illustrators:
+- Hajime Kusajima
 ---
 set: ex-firered-and-leafgreen
 number: '37'
@@ -1392,7 +1428,8 @@ damage modifiers:
   operation: ×
   type: Fighting
 retreat: 2
-illustrator: Sumiyoshi Kizuki
+illustrators:
+- Sumiyoshi Kizuki
 ---
 set: ex-firered-and-leafgreen
 number: '38'
@@ -1423,7 +1460,8 @@ damage modifiers:
   operation: ×
   type: Psychic
 retreat: 1
-illustrator: Miki Tanaka
+illustrators:
+- Miki Tanaka
 ---
 set: ex-firered-and-leafgreen
 number: '39'
@@ -1456,7 +1494,8 @@ damage modifiers:
   operation: ×
   type: Fire
 retreat: 2
-illustrator: Atsuko Nishida
+illustrators:
+- Atsuko Nishida
 ---
 set: ex-firered-and-leafgreen
 number: '40'
@@ -1490,7 +1529,8 @@ damage modifiers:
   operation: ×
   type: Psychic
 retreat: 1
-illustrator: Naoyo Kimura
+illustrators:
+- Naoyo Kimura
 ---
 set: ex-firered-and-leafgreen
 number: '41'
@@ -1527,7 +1567,8 @@ damage modifiers:
   operation: ×
   type: Psychic
 retreat: 1
-illustrator: Hisao Nakamura
+illustrators:
+- Hisao Nakamura
 ---
 set: ex-firered-and-leafgreen
 number: '42'
@@ -1561,7 +1602,8 @@ damage modifiers:
   operation: ×
   type: Water
 retreat: 3
-illustrator: Kouki Saitou
+illustrators:
+- Kouki Saitou
 ---
 set: ex-firered-and-leafgreen
 number: '43'
@@ -1597,7 +1639,8 @@ damage modifiers:
   operation: ×
   type: Fire
 retreat: 1
-illustrator: Yuka Morii
+illustrators:
+- Yuka Morii
 ---
 set: ex-firered-and-leafgreen
 number: '44'
@@ -1635,7 +1678,8 @@ damage modifiers:
   operation: ×
   type: Fighting
 retreat: 1
-illustrator: Masakazu Fukuda
+illustrators:
+- Masakazu Fukuda
 ---
 set: ex-firered-and-leafgreen
 number: '45'
@@ -1671,7 +1715,8 @@ damage modifiers:
 - amount: 30
   operation: '-'
   type: Fighting
-illustrator: Midori Harada
+illustrators:
+- Midori Harada
 ---
 set: ex-firered-and-leafgreen
 number: '46'
@@ -1707,7 +1752,8 @@ damage modifiers:
   operation: ×
   type: Lightning
 retreat: 1
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: ex-firered-and-leafgreen
 number: '47'
@@ -1741,7 +1787,8 @@ damage modifiers:
   operation: ×
   type: Fighting
 retreat: 1
-illustrator: Tomoaki Imakuni
+illustrators:
+- Tomoaki Imakuni
 ---
 set: ex-firered-and-leafgreen
 number: '48'
@@ -1781,7 +1828,8 @@ damage modifiers:
 - amount: 2
   operation: ×
   type: Fighting
-illustrator: Kyoko Umemoto
+illustrators:
+- Kyoko Umemoto
 ---
 set: ex-firered-and-leafgreen
 number: '49'
@@ -1819,7 +1867,8 @@ damage modifiers:
 - amount: 2
   operation: ×
   type: Fire
-illustrator: Kagemaru Himeno
+illustrators:
+- Kagemaru Himeno
 ---
 set: ex-firered-and-leafgreen
 number: '50'
@@ -1858,7 +1907,8 @@ damage modifiers:
   operation: ×
   type: Lightning
 retreat: 2
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: ex-firered-and-leafgreen
 number: '51'
@@ -1891,7 +1941,8 @@ damage modifiers:
   operation: ×
   type: Fire
 retreat: 1
-illustrator: Tomokazu Komiya
+illustrators:
+- Tomokazu Komiya
 ---
 set: ex-firered-and-leafgreen
 number: '52'
@@ -1927,7 +1978,8 @@ damage modifiers:
   operation: ×
   type: Fighting
 retreat: 1
-illustrator: Kyoko Umemoto
+illustrators:
+- Kyoko Umemoto
 ---
 set: ex-firered-and-leafgreen
 number: '53'
@@ -1953,7 +2005,8 @@ damage modifiers:
   operation: ×
   type: Fire
 retreat: 1
-illustrator: Tomokazu Komiya
+illustrators:
+- Tomokazu Komiya
 ---
 set: ex-firered-and-leafgreen
 number: '54'
@@ -1985,7 +2038,8 @@ damage modifiers:
   operation: ×
   type: Fire
 retreat: 1
-illustrator: Atsuko Nishida
+illustrators:
+- Atsuko Nishida
 ---
 set: ex-firered-and-leafgreen
 number: '55'
@@ -2018,7 +2072,8 @@ damage modifiers:
   operation: ×
   type: Psychic
 retreat: 1
-illustrator: Hajime Kusajima
+illustrators:
+- Hajime Kusajima
 ---
 set: ex-firered-and-leafgreen
 number: '56'
@@ -2053,7 +2108,8 @@ damage modifiers:
   operation: ×
   type: Fire
 retreat: 1
-illustrator: Atsuko Nishida
+illustrators:
+- Atsuko Nishida
 ---
 set: ex-firered-and-leafgreen
 number: '57'
@@ -2080,7 +2136,8 @@ damage modifiers:
   operation: ×
   type: Water
 retreat: 1
-illustrator: Kouki Saitou
+illustrators:
+- Kouki Saitou
 ---
 set: ex-firered-and-leafgreen
 number: '58'
@@ -2110,7 +2167,8 @@ damage modifiers:
   operation: ×
   type: Water
 retreat: 1
-illustrator: Midori Harada
+illustrators:
+- Midori Harada
 ---
 set: ex-firered-and-leafgreen
 number: '59'
@@ -2143,7 +2201,8 @@ damage modifiers:
   operation: ×
   type: Fighting
 retreat: 1
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: ex-firered-and-leafgreen
 number: '60'
@@ -2176,7 +2235,8 @@ damage modifiers:
   operation: ×
   type: Grass
 retreat: 1
-illustrator: Aya Kusube
+illustrators:
+- Aya Kusube
 ---
 set: ex-firered-and-leafgreen
 number: '61'
@@ -2205,7 +2265,8 @@ damage modifiers:
   operation: ×
   type: Grass
 retreat: 1
-illustrator: Hajime Kusajima
+illustrators:
+- Hajime Kusajima
 ---
 set: ex-firered-and-leafgreen
 number: '62'
@@ -2242,7 +2303,8 @@ damage modifiers:
   operation: '-'
   type: Fighting
 retreat: 1
-illustrator: Kagemaru Himeno
+illustrators:
+- Kagemaru Himeno
 ---
 set: ex-firered-and-leafgreen
 number: '63'
@@ -2273,7 +2335,8 @@ damage modifiers:
   operation: '-'
   type: Fighting
 retreat: 1
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: ex-firered-and-leafgreen
 number: '64'
@@ -2303,7 +2366,8 @@ damage modifiers:
   operation: ×
   type: Water
 retreat: 2
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: ex-firered-and-leafgreen
 number: '65'
@@ -2339,7 +2403,8 @@ damage modifiers:
   operation: ×
   type: Fighting
 retreat: 1
-illustrator: Kyoko Umemoto
+illustrators:
+- Kyoko Umemoto
 ---
 set: ex-firered-and-leafgreen
 number: '66'
@@ -2371,7 +2436,8 @@ damage modifiers:
   operation: ×
   type: Lightning
 retreat: 2
-illustrator: Kouki Saitou
+illustrators:
+- Kouki Saitou
 ---
 set: ex-firered-and-leafgreen
 number: '67'
@@ -2406,7 +2472,8 @@ damage modifiers:
   operation: ×
   type: Lightning
 retreat: 1
-illustrator: Atsuko Nishida
+illustrators:
+- Atsuko Nishida
 ---
 set: ex-firered-and-leafgreen
 number: '68'
@@ -2440,7 +2507,8 @@ damage modifiers:
   operation: '-'
   type: Metal
 retreat: 1
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: ex-firered-and-leafgreen
 number: '69'
@@ -2471,7 +2539,8 @@ damage modifiers:
   operation: ×
   type: Fighting
 retreat: 1
-illustrator: Masakazu Fukuda
+illustrators:
+- Masakazu Fukuda
 ---
 set: ex-firered-and-leafgreen
 number: '70'
@@ -2506,7 +2575,8 @@ damage modifiers:
   operation: ×
   type: Psychic
 retreat: 1
-illustrator: Naoyo Kimura
+illustrators:
+- Naoyo Kimura
 ---
 set: ex-firered-and-leafgreen
 number: '71'
@@ -2541,7 +2611,8 @@ damage modifiers:
   operation: ×
   type: Psychic
 retreat: 1
-illustrator: Hisao Nakamura
+illustrators:
+- Hisao Nakamura
 ---
 set: ex-firered-and-leafgreen
 number: '72'
@@ -2575,7 +2646,8 @@ damage modifiers:
   operation: ×
   type: Fire
 retreat: 1
-illustrator: Yuka Morii
+illustrators:
+- Yuka Morii
 ---
 set: ex-firered-and-leafgreen
 number: '73'
@@ -2610,7 +2682,8 @@ damage modifiers:
   operation: '-'
   type: Fighting
 retreat: 1
-illustrator: Midori Harada
+illustrators:
+- Midori Harada
 ---
 set: ex-firered-and-leafgreen
 number: '74'
@@ -2639,7 +2712,8 @@ damage modifiers:
   operation: ×
   type: Fighting
 retreat: 1
-illustrator: Midori Harada
+illustrators:
+- Midori Harada
 ---
 set: ex-firered-and-leafgreen
 number: '75'
@@ -2670,7 +2744,8 @@ damage modifiers:
   operation: ×
   type: Lightning
 retreat: 1
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: ex-firered-and-leafgreen
 number: '76'
@@ -2699,7 +2774,8 @@ damage modifiers:
   operation: ×
   type: Water
 retreat: 1
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: ex-firered-and-leafgreen
 number: '77'
@@ -2730,7 +2806,8 @@ damage modifiers:
   operation: ×
   type: Fighting
 retreat: 1
-illustrator: Kyoko Umemoto
+illustrators:
+- Kyoko Umemoto
 ---
 set: ex-firered-and-leafgreen
 number: '78'
@@ -2758,7 +2835,8 @@ damage modifiers:
   operation: ×
   type: Lightning
 retreat: 1
-illustrator: Toshinao Aoki
+illustrators:
+- Toshinao Aoki
 ---
 set: ex-firered-and-leafgreen
 number: '79'
@@ -2786,7 +2864,8 @@ damage modifiers:
   operation: ×
   type: Lightning
 retreat: 1
-illustrator: Aya Kusube
+illustrators:
+- Aya Kusube
 ---
 set: ex-firered-and-leafgreen
 number: '80'
@@ -2813,7 +2892,8 @@ damage modifiers:
   operation: ×
   type: Psychic
 retreat: 1
-illustrator: Yuka Morii
+illustrators:
+- Yuka Morii
 ---
 set: ex-firered-and-leafgreen
 number: '81'
@@ -2848,7 +2928,8 @@ damage modifiers:
   operation: '-'
   type: Fighting
 retreat: 1
-illustrator: Hisao Nakamura
+illustrators:
+- Hisao Nakamura
 ---
 set: ex-firered-and-leafgreen
 number: '82'
@@ -2876,7 +2957,8 @@ damage modifiers:
   operation: ×
   type: Lightning
 retreat: 1
-illustrator: Toshinao Aoki
+illustrators:
+- Toshinao Aoki
 ---
 set: ex-firered-and-leafgreen
 number: '83'
@@ -2910,7 +2992,8 @@ damage modifiers:
   operation: ×
   type: Lightning
 retreat: 1
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: ex-firered-and-leafgreen
 number: '84'
@@ -2942,7 +3025,8 @@ damage modifiers:
   operation: ×
   type: Fire
 retreat: 1
-illustrator: Kagemaru Himeno
+illustrators:
+- Kagemaru Himeno
 ---
 set: ex-firered-and-leafgreen
 number: '85'
@@ -2975,7 +3059,8 @@ damage modifiers:
   operation: ×
   type: Fighting
 retreat: 1
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: ex-firered-and-leafgreen
 number: '86'
@@ -3009,7 +3094,8 @@ damage modifiers:
   operation: ×
   type: Fire
 retreat: 1
-illustrator: Hajime Kusajima
+illustrators:
+- Hajime Kusajima
 ---
 set: ex-firered-and-leafgreen
 number: '87'
@@ -3032,7 +3118,8 @@ mechanics:
   text: >-
     If you have any cards in your hand, shuffle 1 of them into
     your deck, then draw 3 cards.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: ex-firered-and-leafgreen
 number: '88'
@@ -3056,7 +3143,8 @@ mechanics:
     Search your deck for a Basic Pokémon or Evolution card (excluding
     Pokémon-ex), show it to your opponent, and put it into your
     hand. Shuffle your deck afterward.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: ex-firered-and-leafgreen
 number: '89'
@@ -3072,7 +3160,8 @@ mechanics:
   text: >-
     Flip a coin. If heads, choose 1 Energy card attached to 1
     of your opponent's Pokémon and discard it.
-illustrator: Keiji Kinebuchi
+illustrators:
+- Keiji Kinebuchi
 ---
 set: ex-firered-and-leafgreen
 number: '90'
@@ -3088,7 +3177,8 @@ mechanics:
   text: >-
     Move a basic Energy card from 1 of your Pokémon to another
     of your Pokémon.
-illustrator: Ken Ikuji
+illustrators:
+- Ken Ikuji
 ---
 set: ex-firered-and-leafgreen
 number: '91'
@@ -3114,7 +3204,8 @@ mechanics:
     Energy card attached to that Knocked Out Pokémon and attach
     it to the Pokémon with EXP.ALL attached to it. If you do,
     discard EXP.ALL.
-illustrator: Keiji Kinebuchi
+illustrators:
+- Keiji Kinebuchi
 ---
 set: ex-firered-and-leafgreen
 number: '92'
@@ -3130,7 +3221,8 @@ mechanics:
   text: >-
     Search your deck for a Basic Pokémon (excluding Pokémon-ex)
     and put it onto your Bench. Shuffle your deck afterward.
-illustrator: Nakaoka
+illustrators:
+- Nakaoka
 ---
 set: ex-firered-and-leafgreen
 number: '93'
@@ -3147,7 +3239,8 @@ mechanics:
     Flip a coin. If heads, choose 1 of your Pokémon (excluding
     Pokémon-ex) and remove all Special Conditions and 6 damage
     counters from that Pokémon (all if there are less than 6).
-illustrator: Ryo Ueda
+illustrators:
+- Ryo Ueda
 ---
 set: ex-firered-and-leafgreen
 number: '94'
@@ -3169,7 +3262,8 @@ mechanics:
   text: >-
     Any Pokémon (both yours and your opponent's), with maximum
     HP less than 70 can't use any Poke-Powers.
-illustrator: Nakaoka
+illustrators:
+- Nakaoka
 ---
 set: ex-firered-and-leafgreen
 number: '95'
@@ -3186,7 +3280,8 @@ mechanics:
     Flip a coin. If heads, search your deck for a Basic Pokémon
     or Evolution card, show it to your opponent and put it into
     your hand. Shuffle your deck afterward.
-illustrator: K. Hoshiba
+illustrators:
+- K. Hoshiba
 ---
 set: ex-firered-and-leafgreen
 number: '96'
@@ -3202,7 +3297,8 @@ mechanics:
   text: >-
     Shuffle your deck. Look at 6 cards from the top of your deck,
     then put them back on top of your deck in any order.
-illustrator: K. Utsunomiya
+illustrators:
+- K. Utsunomiya
 ---
 set: ex-firered-and-leafgreen
 number: '97'
@@ -3219,7 +3315,8 @@ mechanics:
     Flip a coin. If heads, choose 1 of your opponent's Benched
     Pokémon and switch it with 1 of the Defending Pokémon. Your
     opponent chooses the Defending Pokémon to switch.
-illustrator: Hiromichi Sugiyama
+illustrators:
+- Hiromichi Sugiyama
 ---
 set: ex-firered-and-leafgreen
 number: '98'
@@ -3241,7 +3338,8 @@ mechanics:
 - type: effect
   text: >-
     Shuffle you hand into your deck, then draw 5 cards.
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: ex-firered-and-leafgreen
 number: '99'
@@ -3257,7 +3355,8 @@ mechanics:
   text: >-
     Flip a coin. If heads, return 1 of your Pokémon and all cards
     attached to it to your hand.
-illustrator: Keiji Kinebuchi
+illustrators:
+- Keiji Kinebuchi
 ---
 set: ex-firered-and-leafgreen
 number: '100'
@@ -3273,7 +3372,8 @@ mechanics:
   text: >-
     Search your discard pile for a Supporter card, show it to
     your opponent, and put it into your hand.
-illustrator: K. Utsunomiya
+illustrators:
+- K. Utsunomiya
 ---
 set: ex-firered-and-leafgreen
 number: '101'
@@ -3289,7 +3389,8 @@ mechanics:
   text: >-
     Remove 2 damage counters from 1 of your Pokémon (remove 1
     damage counter if that Pokémon has only 1).
-illustrator: Keiji Kinebuchi
+illustrators:
+- Keiji Kinebuchi
 ---
 set: ex-firered-and-leafgreen
 number: '102'
@@ -3304,7 +3405,8 @@ mechanics:
 - type: effect
   text: >-
     Switch 1 of your Active Pokémon with 1 of your Benched Pokémon.
-illustrator: Hiromichi Sugiyama
+illustrators:
+- Hiromichi Sugiyama
 ---
 set: ex-firered-and-leafgreen
 number: '103'
@@ -3325,7 +3427,8 @@ mechanics:
     at a time. (Has no effect other than providing Energy.) Multi
     Energy provides C Energy when attached to a Pokémon that already
     has Special Energy cards attached to it.
-illustrator: Takumi Akabane
+illustrators:
+- Takumi Akabane
 ---
 set: ex-firered-and-leafgreen
 number: '104'
@@ -3362,7 +3465,8 @@ damage modifiers:
   operation: ×
   type: Lightning
 retreat: 3
-illustrator: Hikaru Koike
+illustrators:
+- Hikaru Koike
 ---
 set: ex-firered-and-leafgreen
 number: '105'
@@ -3407,7 +3511,8 @@ damage modifiers:
   operation: ×
   type: Water
 retreat: 2
-illustrator: Hiromichi Sugiyama
+illustrators:
+- Hiromichi Sugiyama
 ---
 set: ex-firered-and-leafgreen
 number: '106'
@@ -3445,7 +3550,8 @@ damage modifiers:
   operation: ×
   type: Fighting
 retreat: 2
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: ex-firered-and-leafgreen
 number: '107'
@@ -3487,7 +3593,8 @@ damage modifiers:
   operation: ×
   type: Fighting
 retreat: 1
-illustrator: Ryo Ueda
+illustrators:
+- Ryo Ueda
 ---
 set: ex-firered-and-leafgreen
 number: '108'
@@ -3535,7 +3642,8 @@ damage modifiers:
   operation: '-'
   type: Colorless
 retreat: 2
-illustrator: Mitsuhiro Arita
+illustrators:
+- Mitsuhiro Arita
 ---
 set: ex-firered-and-leafgreen
 number: '109'
@@ -3572,7 +3680,8 @@ damage modifiers:
   operation: ×
   type: Lightning
 retreat: 3
-illustrator: Hikaru Koike
+illustrators:
+- Hikaru Koike
 ---
 set: ex-firered-and-leafgreen
 number: '110'
@@ -3604,7 +3713,8 @@ mechanics:
     Count the number of cards in your opponent's hand. Put that
     many damage counters on the Defending Pokémon.
 retreat: 1
-illustrator: Ryo Ueda
+illustrators:
+- Ryo Ueda
 ---
 set: ex-firered-and-leafgreen
 number: '111'
@@ -3636,7 +3746,8 @@ mechanics:
     Count the number of cards in your opponent's hand. Put that
     many damage counters on the Defending Pokémon.
 retreat: 1
-illustrator: Ryo Ueda
+illustrators:
+- Ryo Ueda
 ---
 set: ex-firered-and-leafgreen
 number: '112'
@@ -3681,7 +3792,8 @@ damage modifiers:
   operation: ×
   type: Fire
 retreat: 3
-illustrator: Ryo Ueda
+illustrators:
+- Ryo Ueda
 ---
 set: ex-firered-and-leafgreen
 number: '113'
@@ -3716,7 +3828,8 @@ damage modifiers:
   operation: ×
   type: Water
 retreat: 1
-illustrator: Ken Sugimori
+illustrators:
+- Ken Sugimori
 ---
 set: ex-firered-and-leafgreen
 number: '114'
@@ -3756,7 +3869,8 @@ damage modifiers:
   operation: ×
   type: Metal
 retreat: 2
-illustrator: Ryo Ueda
+illustrators:
+- Ryo Ueda
 ---
 set: ex-firered-and-leafgreen
 number: '115'
@@ -3794,7 +3908,8 @@ damage modifiers:
   operation: ×
   type: Water
 retreat: 2
-illustrator: Ryo Ueda
+illustrators:
+- Ryo Ueda
 ---
 set: ex-firered-and-leafgreen
 number: '116'
@@ -3836,4 +3951,5 @@ damage modifiers:
   operation: ×
   type: Lightning
 retreat: 2
-illustrator: Ryo Ueda
+illustrators:
+- Ryo Ueda
