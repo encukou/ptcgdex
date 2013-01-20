@@ -1,7 +1,7 @@
-id,identifier
-0,none
-1,common
-2,uncommon
-3,rare
-4,triple-rare
-5,promo
+id,identifier,symbol
+0,none,
+1,common,●
+2,uncommon,◆
+3,rare,★
+4,triple-rare,⁂
+5,promo,P

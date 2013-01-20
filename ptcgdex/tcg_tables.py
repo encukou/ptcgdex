@@ -223,6 +223,8 @@ class Rarity(TableBase):
 
     id = make_id()
     identifier = make_identifier(10)
+    symbol = Column(Unicode(3), nullable=False,
+        info=dict(description=u"A symbol of the rarity, such as ●, ◆, ★"))
 
 create_translation_table('tcg_rarity_names', Rarity, 'names',
     name = Column(Unicode(10), nullable=False, index=True,
