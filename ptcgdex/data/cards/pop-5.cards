@@ -1,0 +1,180 @@
+---
+name: Ho-Oh
+rarity: ''
+holographic: false
+filename: 1-ho-oh
+pokemon: Ho-Oh
+---
+name: Ho-Oh
+rarity: ''
+holographic: false
+filename: 1-ho-oh
+reprint of: 'pop-5: 1 as a holo'
+pokemon: Ho-Oh
+---
+name: Lugia
+rarity: ''
+holographic: false
+filename: 2-lugia
+pokemon: Lugia
+---
+name: Lugia
+rarity: ''
+holographic: false
+filename: 2-lugia
+reprint of: 'pop-5: 2 as a holo'
+pokemon: Lugia
+---
+name: Mew δ
+rarity: ''
+holographic: false
+filename: 3-mew-d
+pokemon: Mew
+---
+name: Mew δ
+rarity: ''
+holographic: false
+filename: 3-mew-d
+reprint of: 'pop-5: 3 as a holo'
+pokemon: Mew
+---
+name: Double Rainbow Energy
+rarity: ''
+holographic: false
+filename: 4-double-rainbow-energy
+reprint of: 'ex-team-magma-vs-team-aqua: 88'
+subclasses:
+- Special
+mechanics:
+- type: effect
+  text: >-
+    Double Rainbow Energy can be attached only to an Evolved Pokémon (excluding
+    Pokémon-ex). While In Play, Double Rainbow Energy provides every type
+    of Energy, but provides 2 Energy at a time. (Has no effect other than
+    providing energy). Damage done to your opponent's Pokémon by the Pokémon
+    Double Rainbow Energy is attached to is reduced by 10 (before applying
+    Weakness and Resistance). When the Pokémon Double Rainbow Energy is
+    attached to is no longer an Evolved Pokémon, discard Double Rainbow
+    Energy.
+---
+name: Charmeleon δ
+rarity: ''
+holographic: false
+filename: 5-charmeleon-d
+reprint of: 'ex-crystal-guardians: 30 with different artwork'
+pokemon: Charmeleon
+---
+name: Bill's Maintenance
+rarity: ''
+holographic: false
+filename: 6-bill's-maintenance
+reprint of: 'expedition: 137'
+subclasses:
+- Supporter
+---
+name: Rare Candy
+rarity: ''
+holographic: false
+filename: 7-rare-candy
+reprint of: 'ex-sandstorm: 88'
+---
+name: Boost Energy
+rarity: ''
+holographic: false
+filename: 8-boost-energy
+reprint of: 'aquapolis: 145'
+subclasses:
+- Special
+mechanics:
+- type: effect
+  text: >-
+    Boost Energy can only be attached to an Evolved Pokémon. Discard Boost
+    Energy at the end of the turn it was attached. Boost Energy provides
+    3 Colorless Energy. The Pokémon Boost Energy is attached to can't
+    retreat. If the Pokémon Boost Energy is attached to isn't an Evolved
+    Pokémon, discard Boost Energy.
+---
+name: (Delta) δ Rainbow Energy
+rarity: ''
+holographic: false
+filename: 9-delta-d-rainbow-energy
+reprint of: 'ex-holon-phantoms: 98'
+subclasses:
+- Special
+mechanics:
+- type: effect
+  text: >-
+    Delta Rainbow Energy provides 1 Colorless Energy. While attached to
+    a Pokémon that has a Delta Symbol on it's card, Delta Rainbow Energy
+    provides every type of Energy but provides only 1 Energy at a time.
+    (Has no effect other than providing Energy.)
+---
+name: Charmander δ
+rarity: ''
+holographic: false
+filename: 10-charmander-d
+reprint of: 'ex-crystal-guardians: 49 with different artwork'
+pokemon: Charmander
+---
+name: Meowth δ
+rarity: ''
+holographic: false
+filename: 11-meowth-d
+pokemon: Meowth
+---
+name: Pikachu
+rarity: ''
+holographic: false
+filename: 12-pikachu
+pokemon: Pikachu
+---
+name: Pikachu
+rarity: ''
+holographic: false
+filename: 12-pikachu
+reprint of: 'pop-5: 12 as a holo'
+pokemon: Pikachu
+---
+name: Pikachu δ
+rarity: ''
+holographic: false
+filename: 13-pikachu-d
+pokemon: Pikachu
+---
+name: Pelipper δ
+rarity: ''
+holographic: false
+filename: 14-pelipper-d
+pokemon: Pelipper
+---
+name: Pelipper δ
+rarity: ''
+holographic: false
+filename: 14-pelipper-d
+reprint of: 'pop-5: 14 as a holo'
+pokemon: Pelipper
+---
+name: Zangoose δ
+rarity: ''
+holographic: false
+filename: 15-zangoose-d
+pokemon: Zangoose
+---
+name: Zangoose δ
+rarity: ''
+holographic: false
+filename: 15-zangoose-d
+reprint of: 'pop-5: 15 as a holo'
+pokemon: Zangoose
+---
+name: Espeon *
+rarity: ''
+holographic: false
+filename: 16-espeon-star
+pokemon: Espeon
+---
+name: Umbreon *
+rarity: ''
+holographic: false
+filename: 17-umbreon-star
+pokemon: Umbreon

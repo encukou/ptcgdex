@@ -5,6 +5,7 @@ import os
 import time
 import re
 from collections import namedtuple, OrderedDict
+from datetime import datetime
 
 import yaml
 from sqlalchemy.orm.exc import NoResultFound
@@ -61,7 +62,7 @@ def yaml_dump(stuff):
                      Dumper=Dumper,
                      allow_unicode=True,
                      explicit_start=True,
-                     width=60,
+                     width=68,
                     )
 
 
@@ -82,6 +83,7 @@ def export_mechanic(mechanic):
 
 def identifier_from_name(name):
     name = name.replace('!', '')
+    name = name.replace('&', '')
     name = name.replace('?', 'question')
     name = name.replace('#', '')
     name = name.replace('*', 'star')
@@ -122,16 +124,74 @@ def assert_dicts_equal(a, b):
                 print yaml_dump({key: [ai, bi]})
         assert a == b
 
-def import_(session, fileobj, label, verbose=True):
+def import_(session, fileobj, label, identifier=None, verbose=True):
     prints = dex_load._get_verbose_prints(verbose)
     print_start, print_status, print_done = prints
     print_start(label)
     infos = list(yaml.safe_load_all(fileobj))
+    def _status_printer(x):
+        if len(infos) == 1:
+            print_status(x)
+        else:
+            print_status('{}/{} {}'.format(i, len(infos), x))
     for i, info in enumerate(infos):
-        print_status('{}/{} {}'.format(i, len(infos), info.get('name')))
-        import_print(session, info, do_commit=False)
+        if 'cards' in info:
+            import_set(session, info, identifier, _status_printer)
+        else:
+            _status_printer(info.get('name'))
+            import_print(session, info, do_commit=False)
     session.commit()
     print_done()
+
+
+def import_set(session, info, identifier=None, print_status=None):
+    tcg_set = tcg_tables.Set()
+    en = session.query(dex_tables.Language).get(session.default_language_id)
+    if 'name' in info:
+        tcg_set.name_map[en] = info['name']
+        identifier = identifier_from_name(info['name'])
+    else:
+        tcg_set.name_map[en] = identifier
+    if identifier is None:
+        tcg_set = None
+    else:
+        try:
+            value = info['release date']
+        except KeyError:
+            pass
+        else:
+            tcg_set.release_date = datetime.strptime(value, "%Y-%m-%d").date()
+
+        try:
+            value = info['modified ban date']
+        except KeyError:
+            pass
+        else:
+            tcg_set.ban_date = datetime.strptime(value, "%Y-%m-%d").date()
+
+        try:
+            value = info['total']
+        except KeyError:
+            pass
+        else:
+            tcg_set.total = value
+
+        tcg_set.identifier = identifier
+        session.add(tcg_set)
+        session.flush()
+    for i, c_info in enumerate(info['cards']):
+        card = c_info['card']
+        print_status('{}/{} {}'.format(i, len(info['cards']), card['name']))
+        print_ = import_print(session, card, do_commit=False)
+        if tcg_set:
+            link = tcg_tables.SetPrint(
+                print_=print_,
+                set=tcg_set,
+                order=i,
+            )
+            if 'number' in c_info:
+                link.number = c_info['number']
+            session.add(link)
 
 
 def import_card(session, card_info):
@@ -148,8 +208,11 @@ def import_card(session, card_info):
                             name=card_info.get('stage'))
     else:
         stage = None
-    card_class = util.get(session, tcg_tables.Class,
+    if card_info.get('class'):
+        card_class = util.get(session, tcg_tables.Class,
                             card_class_idents[card_info.get('class')])
+    else:
+        card_class = None
     hp = card_info.get('hp', None)
     retreat_cost = card_info.get('retreat', None)
 
@@ -178,7 +241,7 @@ def import_card(session, card_info):
         if card.types != card_types:
             continue
         mnames = [m.mechanic.name for m in card.card_mechanics]
-        if mnames != [m.get('name') for m in card_info['mechanics']]:
+        if mnames != [m.get('name') for m in card_info.get('mechanics', [])]:
             continue
         if card_info == export_card(card):
             return card
@@ -189,7 +252,7 @@ def import_card(session, card_info):
     card.class_ = card_class
     card.hp = hp
     card.retreat_cost = retreat_cost
-    card.legal = card_info['legal']
+    card.legal = card_info.get('legal', False)
     card.family = card_family
     session.add(card)
     for mechanic_index, mechanic_info in enumerate(
@@ -209,9 +272,7 @@ def import_card(session, card_info):
             query = util.filter_name(query, tcg_tables.Mechanic,
                                 mechanic_name, en)
         if effect:
-            query = util.filter_name(query, tcg_tables.Mechanic,
-                                effect, en, name_attribute='effect',
-                                names_table_name='effects_table')
+            query = query.filter(tcg_tables.Mechanic.effect == effect)
         query = query.filter(tcg_tables.Mechanic.class_ == mechanic_class)
         for mechanic in query.all():
             if export_mechanic(mechanic) == mechanic_info:
@@ -292,8 +353,7 @@ def import_card(session, card_info):
         link.order = subclass_index
         session.add(link)
 
-    evolves_from = card_info.get('evolves from', None)
-    if evolves_from:
+    for evolves_from in card_info.get('evolves from', []):
         family = get_family(session, en, evolves_from)
         link = tcg_tables.Evolution()
         link.card = card
@@ -302,8 +362,7 @@ def import_card(session, card_info):
         link.family_to_card = True
         session.add(link)
 
-    evolves_into = card_info.get('evolves into', None)
-    if evolves_into:
+    for evolves_into in card_info.get('evolves into', []):
         family = get_family(session, en, evolves_into)
         link = tcg_tables.Evolution()
         link.card = card
@@ -321,30 +380,7 @@ def import_card(session, card_info):
 def import_print(session, card_info, do_commit=True):
     en = session.query(dex_tables.Language).get(session.default_language_id)
 
-    set_ident = card_info['set']
-    tcg_set = util.get(session, tcg_tables.Set, set_ident)
-
     card_name = card_info['name']
-
-    # Exists already? Remove it
-    query = session.query(tcg_tables.Print)
-    query = query.filter(tcg_tables.Print.set == tcg_set)
-    query = query.filter(tcg_tables.Print.set_number == card_info['number'])
-    query = query.filter(tcg_tables.Print.order == card_info['order'])
-    try:
-        previous = query.one()
-    except NoResultFound:
-        pass
-    else:
-        want = {k: v for k, v in card_info.items() if k in PRINT_EXPORT_KEYS}
-        if want == export_print(previous):
-            # No changes to this print!
-            return previous
-        for scan in previous.scans:
-            session.delete(scan)
-        for pi in previous.print_illustrators:
-            session.delete(pi)
-        session.delete(previous)
 
     card = import_card(session,
         {k: v for k, v in card_info.items() if k in CARD_EXPORT_KEYS})
@@ -356,8 +392,11 @@ def import_print(session, card_info, do_commit=True):
     illustrators = [get_illustrator(session, en, name)
         for name in illustrator_names]
 
-    rarity = util.get(session, tcg_tables.Rarity,
-                        card_info.get('rarity'))
+    if card_info.get('rarity'):
+        rarity = util.get(session, tcg_tables.Rarity,
+                            card_info.get('rarity'))
+    else:
+        rarity = None
 
     dex_number = card_info.get('dex number', None)
     if dex_number:
@@ -370,9 +409,6 @@ def import_print(session, card_info, do_commit=True):
 
     card_print = tcg_tables.Print()
     card_print.card = card
-    card_print.set = tcg_set
-    card_print.set_number = card_info.get('number')
-    card_print.order = card_info.get('order')
     card_print.rarity = rarity
     card_print.holographic = card_info.get('holographic')
 
@@ -434,10 +470,27 @@ def import_print(session, card_info, do_commit=True):
     if do_commit:
         session.commit()
 
+    return card_print
+
 
 def export_set(tcg_set):
-    for print_ in tcg_set.prints:
-        export_print(print_)
+    result = OrderedDict()
+    if tcg_set.name:
+        result['name'] = tcg_set.name
+    if tcg_set.total is not None:
+        result['total'] = tcg_set.total
+    if tcg_set.release_date:
+        result['release date'] = tcg_set.release_date.isoformat()
+    if tcg_set.ban_date:
+        result['modified ban date'] = tcg_set.ban_date.isoformat()
+    result['cards'] = []
+    for set_print in tcg_set.set_prints:
+        res = OrderedDict()
+        result['cards'].append(res)
+        if set_print.number is not None:
+            res['number'] = set_print.number
+        res['card'] = export_print(set_print.print_)
+    return result
 
 def make_ordered_dict(data, key_order, always_included_keys=[]):
     items = [(k, v) for k, v in data.items() if v or k in always_included_keys]
@@ -455,7 +508,6 @@ INCLUDED_KEYS = set(['holographic', 'legal', 'order'])
 def export_card(card):
     card_info = {
         'name': card.name,
-        'class': card.class_.identifier[0].upper(),
         'hp': card.hp,
         'legal': card.legal,
         'types': [t.name for t in card.types],
@@ -464,6 +516,8 @@ def export_card(card):
                                     in card.card_mechanics],
         'retreat': card.retreat_cost,
     }
+    if card.class_:
+        card_info['class'] = card.class_.identifier[0].upper()
     if card.stage:
         card_info['stage'] = card.stage.name
     card_info['damage modifiers'] = damage_mods = []
@@ -477,13 +531,14 @@ def export_card(card):
         assert len(card.evolutions) == 1  # TODO
         for evo in card.evolutions:
             if evo.family_to_card:
-                card_info['evolves from'] = evo.family.name
+                collection = 'evolves from'
             else:
-                card_info['evolves into'] = evo.family.name
+                collection = 'evolves into'
+            card_info.setdefault(collection, []).append(evo.family.name)
     return make_ordered_dict(card_info, CARD_EXPORT_KEYS, INCLUDED_KEYS)
 
 PRINT_EXPORT_KEYS = [
-    'set', 'number', 'order', 'name', 'rarity', 'holographic', 'class',
+    'name', 'rarity', 'holographic', 'class',
     'types', 'hp', 'stage', 'evolves from', 'evolves to', 'legal',
     'filename', 'pokemon', 'subclasses', 'mechanics', 'damage modifiers',
     'retreat', 'dex number', 'species', 'weight', 'height', 'dex entry',
@@ -492,16 +547,13 @@ PRINT_EXPORT_KEYS = [
 
 def export_print(print_):
     print_info = export_card(print_.card)
-    tcg_set = print_.set
     flavor = print_.pokemon_flavor
     print_info.update({
-        'set': tcg_set.identifier,
-        'number': print_.set_number,
-        'order': print_.order,
-        'rarity': print_.rarity.identifier,
         'holographic': print_.holographic,
         'illustrators': [il.name for il in print_.illustrators]
     })
+    if print_.rarity:
+        print_info['rarity'] = print_.rarity.identifier
     [print_info['filename']] = [s.filename for s in print_.scans]
     if flavor and flavor.species:
         print_info['pokemon'] = flavor.species.name

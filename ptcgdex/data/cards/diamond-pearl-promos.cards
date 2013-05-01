@@ -1,0 +1,186 @@
+---
+name: Turtwig
+rarity: rare
+holographic: false
+filename: dp01-turtwig
+reprint of: 'diamond-and-pearl: 103-turtwig with different artwork and
+  as a holo'
+pokemon: Turtwig
+---
+name: Chimchar
+rarity: rare
+holographic: true
+filename: dp02-chimchar
+reprint of: 'diamond-and-pearl: 76-chimchar with different artwork and
+  as a holo'
+pokemon: Chimchar
+---
+name: Piplup
+rarity: rare
+holographic: false
+filename: dp03-piplup
+reprint of: 'diamond-and-pearl: 93-piplup with different artwork and as
+  a holo'
+pokemon: Piplup
+---
+name: Pachirisu
+rarity: rare
+holographic: true
+filename: dp04-pachirisu
+reprint of: 'diamond-and-pearl: 35-pachirisu with different artwork and
+  as a holo'
+pokemon: Pachirisu
+---
+name: Tropical Wind
+rarity: rare
+holographic: false
+filename: dp05-tropical-wind
+reprint of: 'nintendo-promos: 26-tropical-wind with different artwork'
+---
+name: Buneary
+rarity: rare
+holographic: true
+filename: dp06-buneary
+reprint of: 'diamond-and-pearl: 73-buneary with different artwork and
+  as a holo'
+pokemon: Buneary
+---
+name: Cranidos
+rarity: uncommon
+holographic: false
+filename: dp07-cranidos
+reprint of: 'mysterious-treasures: 43-cranidos with different artwork
+  and as a holo'
+pokemon: Cranidos
+---
+name: Shieldon
+rarity: uncommon
+holographic: true
+filename: dp08-shieldon
+reprint of: 'mysterious-treasures: 73-shieldon with different artwork
+  and as a holo'
+pokemon: Shieldon
+---
+name: Torterra LV.X
+rarity: uncommon
+holographic: false
+filename: dp09-torterra-lv.x
+reprint of: 'diamond-and-pearl: 120-torterra-lv.x with different artwork'
+pokemon: Torterra
+---
+name: Infernape LV.X
+rarity: uncommon
+holographic: false
+filename: dp10-infernape-lv.x
+reprint of: 'diamond-and-pearl: 121-infernape-lv.x with different artwork'
+pokemon: Infernape
+---
+name: Empoleon LV.X
+rarity: uncommon
+holographic: false
+filename: dp11-empoleon-lv.x
+reprint of: 'diamond-and-pearl: 122-empoleon-lv.x with different artwork'
+pokemon: Empoleon
+---
+name: Lucario LV.X
+rarity: uncommon
+holographic: false
+filename: dp12-lucario-lv.x
+reprint of: 'mysterious-treasures: 122-lucario-lv.x with different artwork'
+pokemon: Lucario
+---
+name: Buizel
+rarity: common
+holographic: false
+filename: dp13-buizel
+reprint of: 'diamond-and-pearl: 72-buizel with different artwork and as
+  a holo'
+pokemon: Buizel
+---
+name: Chatot
+rarity: common
+holographic: true
+filename: dp14-chatot
+reprint of: 'diamond-and-pearl: 74-chatot with different artwork and as
+  a holo'
+pokemon: Chatot
+---
+name: Shinx
+rarity: common
+holographic: false
+filename: dp15-shinx
+reprint of: 'diamond-and-pearl: 98-shinx with different artwork and as
+  a holo'
+pokemon: Shinx
+---
+name: Pikachu
+rarity: common
+holographic: false
+filename: dp16-pikachu
+reprint of: 'mysterious-treasures: 94-pikachu with different artwork and
+  as a holo'
+pokemon: Pikachu
+---
+name: Dialga LV.X
+rarity: common
+holographic: true
+filename: dp17-dialga-lv.x
+reprint of: 'great-encounters: 105-dialga-lv.x with different artwork'
+pokemon: Dialga
+---
+name: Palkia LV.X
+rarity: common
+holographic: false
+filename: dp18-palkia-lv.x
+reprint of: 'great-encounters: 106-palkia-lv.x with different artwork'
+pokemon: Palkia
+---
+name: Darkrai LV.X
+rarity: common
+holographic: false
+filename: dp19-darkrai-lv.x
+reprint of: 'great-encounters: 104-darkrai-lv.x with different artwork'
+pokemon: Darkrai
+---
+name: Magmortar
+rarity: common
+holographic: false
+filename: dp20-magmortar
+reprint of: 'mysterious-treasures: 12-magmortar with different artwork'
+pokemon: Magmortar
+---
+name: Raichu
+rarity: common
+holographic: true
+filename: dp21-raichu
+reprint of: 'mysterious-treasures: 15-raichu with different artwork'
+pokemon: Raichu
+---
+name: Mime Jr.
+rarity: rare
+holographic: false
+filename: dp22-mime-jr.
+reprint of: 'diamond-and-pearl: 90-mime-jr. with different artwork and
+  as a holo'
+pokemon: Mime Jr.
+---
+name: Glameow
+rarity: rare
+holographic: false
+filename: dp23-glameow
+reprint of: 'diamond-and-pearl: 83-glameow with different artwork and
+  as a holo'
+pokemon: Glameow
+---
+name: Darkrai
+rarity: rare
+holographic: true
+filename: dp24-darkrai
+pokemon: Darkrai
+---
+name: Darkrai (Jumbo)
+rarity: rare
+holographic: false
+filename: dp24-darkrai-jumbo
+reprint of: 'diamond-pearl-promos: dp24-darkrai as a jumbo'
+pokemon: Darkrai

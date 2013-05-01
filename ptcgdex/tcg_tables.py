@@ -26,7 +26,7 @@ class Card(TableBase):
     stage_id = Column(Integer, ForeignKey('tcg_stages.id'), nullable=True,
         info=dict(description="ID of the card's evolution stage, if any"))
     class_id = Column(Integer, ForeignKey('tcg_classes.id'),
-        nullable=False, index=True,
+        nullable=True, index=True,
         info=dict(description="The ID of the card class"))
 
     family_id = Column(Integer, ForeignKey('tcg_card_families.id'),
@@ -65,13 +65,6 @@ class Print(TableBase):
     card_id = Column(Integer, ForeignKey('tcg_cards.id'),
         nullable=False, index=True,
         info=dict(description="The ID of the card"))
-    set_id = Column(Integer, ForeignKey('tcg_sets.id'),
-        nullable=False, index=True,
-        info=dict(description="The ID of the set this appeard in"))
-    set_number = Column(Unicode(5), nullable=False,
-        info=dict(description="The card number in the set (may not be actually numeric)"))
-    order = Column(Integer, nullable=False,
-        info=dict(description="Sort order inside the set"))
     pokemon_flavor_id = Column(Integer, ForeignKey('tcg_pokemon_flavors.id'),
         nullable=True,
         info=dict(description="ID of Pokémon flavor info, if any"))
@@ -84,7 +77,7 @@ class Print(TableBase):
     holographic = Column(Boolean, nullable=False,
         info=dict(description="True iff the card is holographic"))
     rarity_id = Column(Integer, ForeignKey('tcg_rarities.id'),
-        nullable=False, index=True,
+        nullable=True, index=True,
         info=dict(description="The ID of the rarity"))
 
     @property
@@ -315,6 +308,20 @@ create_translation_table('tcg_set_names', Set, 'names',
         info=dict(description="The name", format='plaintext', official=True)),
 )
 
+class SetPrint(TableBase):
+    __tablename__ = 'tcg_set_prints'
+    __singlename__ = 'tcg_set_print'
+    set_id = Column(Integer, ForeignKey('tcg_sets.id'),
+        nullable=False, primary_key=True,
+        info=dict(description="The ID of the set"))
+    card_id = Column(Integer, ForeignKey('tcg_prints.id'),
+        nullable=False, primary_key=True,
+        info=dict(description="The ID of the print"))
+    number = Column(Unicode(5), nullable=True,
+        info=dict(description='The card "number" in the set (may not be actually numeric)'))
+    order = Column(Integer, nullable=True,
+        info=dict(description="Sort order inside the set"))
+
 class Illustrator(TableBase):
     __tablename__ = 'tcg_illustrators'
     __singlename__ = 'tcg_illustrator'
@@ -395,8 +402,6 @@ Card.stage = relationship(Stage, backref='cards')
 Card.family = relationship(CardFamily, backref='cards')
 
 Print.card = relationship(Card, backref='prints')
-Print.set = relationship(Set, backref=backref(
-    'prints', order_by=(Print.order.asc(), Print.set_number.asc())))
 Print.pokemon_flavor = relationship(PokemonFlavor, backref='prints')
 Print.rarity = relationship(Rarity, backref='prints')
 
@@ -425,6 +430,10 @@ CardMechanic.card = relationship(Card, backref=backref(
 CardMechanic.mechanic = relationship(Mechanic, backref='card_mechanics')
 
 PokemonFlavor.species = relationship(dex_tables.PokemonSpecies)
+
+SetPrint.print_ = relationship(Print, backref='set_prints')
+SetPrint.set = relationship(Set, backref=backref(
+    'set_prints', order_by=(SetPrint.order.asc(), SetPrint.number.asc())))
 
 PrintIllustrator.print_ = relationship(Print, backref='print_illustrators')
 PrintIllustrator.illustrator = relationship(Illustrator, backref=backref(

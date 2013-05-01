@@ -1,0 +1,1078 @@
+---
+cards:
+- number: '1'
+  card:
+    name: Arcanine
+    rarity: rare
+    holographic: true
+    types:
+    - Fire
+    legal: true
+    filename: 1-arcanine
+- number: '2'
+  card:
+    name: Bastiodon GL
+    rarity: rare
+    holographic: true
+    types:
+    - Metal
+    legal: true
+    filename: 2-bastiodon-gl
+- number: '3'
+  card:
+    name: Darkrai G
+    rarity: rare
+    holographic: true
+    types:
+    - Darkness
+    legal: true
+    filename: 3-darkrai-g
+- number: '4'
+  card:
+    name: Floatzel GL
+    rarity: rare
+    holographic: true
+    types:
+    - Water
+    legal: true
+    filename: 4-floatzel-gl
+- number: '5'
+  card:
+    name: Flygon
+    rarity: rare
+    holographic: true
+    types:
+    - Colorless
+    legal: true
+    filename: 5-flygon
+- number: '6'
+  card:
+    name: Froslass GL
+    rarity: rare
+    holographic: true
+    types:
+    - Water
+    legal: true
+    filename: 6-froslass-gl
+- number: '7'
+  card:
+    name: Jirachi
+    rarity: rare
+    holographic: true
+    types:
+    - Metal
+    legal: true
+    filename: 7-jirachi
+- number: '8'
+  card:
+    name: Lucario GL
+    rarity: rare
+    holographic: true
+    types:
+    - Fighting
+    legal: true
+    filename: 8-lucario-gl
+- number: '9'
+  card:
+    name: Luxray GL
+    rarity: rare
+    holographic: true
+    types:
+    - Lightning
+    legal: true
+    filename: 9-luxray-gl
+- number: '10'
+  card:
+    name: Mismagius GL
+    rarity: rare
+    holographic: true
+    types:
+    - Psychic
+    legal: true
+    filename: 10-mismagius-gl
+- number: '11'
+  card:
+    name: Rampardos GL
+    rarity: rare
+    holographic: true
+    types:
+    - Fighting
+    legal: true
+    filename: 11-rampardos-gl
+- number: '12'
+  card:
+    name: Roserade GL
+    rarity: rare
+    holographic: true
+    types:
+    - Grass
+    legal: true
+    filename: 12-roserade-gl
+- number: '13'
+  card:
+    name: Shiftry
+    rarity: rare
+    holographic: true
+    types:
+    - Darkness
+    legal: true
+    filename: 13-shiftry
+- number: '14'
+  card:
+    name: Aggron
+    rarity: rare
+    holographic: false
+    types:
+    - Metal
+    legal: true
+    filename: 14-aggron
+- number: '15'
+  card:
+    name: Beedrill
+    rarity: rare
+    holographic: false
+    types:
+    - Grass
+    legal: true
+    filename: 15-beedrill
+- number: '16'
+  card:
+    name: Bronzong 4
+    rarity: rare
+    holographic: false
+    types:
+    - Psychic
+    legal: true
+    filename: 16-bronzong-4
+- number: '17'
+  card:
+    name: Drapion 4
+    rarity: rare
+    holographic: false
+    types:
+    - Darkness
+    legal: true
+    filename: 17-drapion-4
+- number: '18'
+  card:
+    name: Espeon 4
+    rarity: rare
+    holographic: false
+    types:
+    - Psychic
+    legal: true
+    filename: 18-espeon-4
+- number: '19'
+  card:
+    name: Flareon
+    rarity: rare
+    holographic: false
+    types:
+    - Fire
+    legal: true
+    filename: 19-flareon
+- number: '20'
+  card:
+    name: Gallade 4
+    rarity: rare
+    holographic: false
+    types:
+    - Psychic
+    legal: true
+    filename: 20-gallade-4
+- number: '21'
+  card:
+    name: Gastrodon East Sea
+    rarity: rare
+    holographic: false
+    types:
+    - Water
+    legal: true
+    filename: 21-gastrodon-east-sea
+- number: '22'
+  card:
+    name: Gastrodon West Sea
+    rarity: rare
+    holographic: false
+    types:
+    - Fighting
+    legal: true
+    filename: 22-gastrodon-west-sea
+- number: '23'
+  card:
+    name: Golem 4
+    rarity: rare
+    holographic: false
+    types:
+    - Fighting
+    legal: true
+    filename: 23-golem-4
+- number: '24'
+  card:
+    name: Heracross 4
+    rarity: rare
+    holographic: false
+    types:
+    - Grass
+    legal: true
+    filename: 24-heracross-4
+- number: '25'
+  card:
+    name: Hippowdon
+    rarity: rare
+    holographic: false
+    types:
+    - Fighting
+    legal: true
+    filename: 25-hippowdon
+- number: '26'
+  card:
+    name: Jolteon
+    rarity: rare
+    holographic: false
+    types:
+    - Lightning
+    legal: true
+    filename: 26-jolteon
+- number: '27'
+  card:
+    name: Mamoswine GL
+    rarity: rare
+    holographic: false
+    types:
+    - Water
+    legal: true
+    filename: 27-mamoswine-gl
+- number: '28'
+  card:
+    name: Mr. Mime 4
+    rarity: rare
+    holographic: false
+    types:
+    - Psychic
+    legal: true
+    filename: 28-mr.-mime-4
+- number: '29'
+  card:
+    name: Nidoking
+    rarity: rare
+    holographic: false
+    types:
+    - Fighting
+    legal: true
+    filename: 29-nidoking
+- number: '30'
+  card:
+    name: Nidoqueen
+    rarity: rare
+    holographic: false
+    types:
+    - Psychic
+    legal: true
+    filename: 30-nidoqueen
+- number: '31'
+  card:
+    name: Raichu GL
+    rarity: rare
+    holographic: false
+    types:
+    - Lightning
+    legal: true
+    filename: 31-raichu-gl
+- number: '32'
+  card:
+    name: Rhyperior 4
+    rarity: rare
+    holographic: false
+    types:
+    - Fighting
+    legal: true
+    filename: 32-rhyperior-4
+- number: '33'
+  card:
+    name: Snorlax
+    rarity: rare
+    holographic: false
+    types:
+    - Colorless
+    legal: true
+    filename: 33-snorlax
+- number: '34'
+  card:
+    name: Vaporeon
+    rarity: rare
+    holographic: false
+    types:
+    - Water
+    legal: true
+    filename: 34-vaporeon
+- number: '35'
+  card:
+    name: Vespiquen 4
+    rarity: rare
+    holographic: false
+    types:
+    - Grass
+    legal: true
+    filename: 35-vespiquen-4
+- number: '36'
+  card:
+    name: Walrein
+    rarity: rare
+    holographic: false
+    types:
+    - Water
+    legal: true
+    filename: 36-walrein
+- number: '37'
+  card:
+    name: Yanmega 4
+    rarity: rare
+    holographic: false
+    types:
+    - Grass
+    legal: true
+    filename: 37-yanmega-4
+- number: '38'
+  card:
+    name: Alakazam 4
+    rarity: uncommon
+    holographic: false
+    types:
+    - Psychic
+    legal: true
+    filename: 38-alakazam-4
+- number: '39'
+  card:
+    name: Electrode G
+    rarity: uncommon
+    holographic: false
+    types:
+    - Lightning
+    legal: true
+    filename: 39-electrode-g
+- number: '40'
+  card:
+    name: Gengar GL
+    rarity: uncommon
+    holographic: false
+    types:
+    - Psychic
+    legal: true
+    filename: 40-gengar-gl
+- number: '41'
+  card:
+    name: Glaceon
+    rarity: uncommon
+    holographic: false
+    types:
+    - Water
+    legal: true
+    filename: 41-glaceon
+- number: '42'
+  card:
+    name: Hippowdon 4
+    rarity: uncommon
+    holographic: false
+    types:
+    - Fighting
+    legal: true
+    filename: 42-hippowdon-4
+- number: '43'
+  card:
+    name: Infernape 4
+    rarity: uncommon
+    holographic: false
+    types:
+    - Fire
+    legal: true
+    filename: 43-infernape-4
+- number: '44'
+  card:
+    name: Lairon
+    rarity: uncommon
+    holographic: false
+    types:
+    - Metal
+    legal: true
+    filename: 44-lairon
+- number: '45'
+  card:
+    name: Leafeon
+    rarity: uncommon
+    holographic: false
+    types:
+    - Grass
+    legal: true
+    filename: 45-leafeon
+- number: '46'
+  card:
+    name: Machamp GL
+    rarity: uncommon
+    holographic: false
+    types:
+    - Fighting
+    legal: true
+    filename: 46-machamp-gl
+- number: '47'
+  card:
+    name: Rapidash 4
+    rarity: uncommon
+    holographic: false
+    types:
+    - Fire
+    legal: true
+    filename: 47-rapidash-4
+- number: '48'
+  card:
+    name: Scizor 4
+    rarity: uncommon
+    holographic: false
+    types:
+    - Grass
+    legal: true
+    filename: 48-scizor-4
+- number: '49'
+  card:
+    name: Sharpedo
+    rarity: uncommon
+    holographic: false
+    types:
+    - Darkness
+    legal: true
+    filename: 49-sharpedo
+- number: '50'
+  card:
+    name: Starmie
+    rarity: uncommon
+    holographic: false
+    types:
+    - Water
+    legal: true
+    filename: 50-starmie
+- number: '51'
+  card:
+    name: Steelix GL
+    rarity: uncommon
+    holographic: false
+    types:
+    - Metal
+    legal: true
+    filename: 51-steelix-gl
+- number: '52'
+  card:
+    name: Tropius
+    rarity: uncommon
+    holographic: false
+    types:
+    - Grass
+    legal: true
+    filename: 52-tropius
+- number: '53'
+  card:
+    name: Vibrava
+    rarity: uncommon
+    holographic: false
+    types:
+    - Colorless
+    legal: true
+    filename: 53-vibrava
+- number: '54'
+  card:
+    name: Whiscash 4
+    rarity: uncommon
+    holographic: false
+    types:
+    - Fighting
+    legal: true
+    filename: 54-whiscash-4
+- number: '55'
+  card:
+    name: Aerodactyl GL
+    rarity: common
+    holographic: false
+    types:
+    - Fighting
+    legal: true
+    filename: 55-aerodactyl-gl
+- number: '56'
+  card:
+    name: Ambipom G
+    rarity: common
+    holographic: false
+    types:
+    - Colorless
+    legal: true
+    filename: 56-ambipom-g
+- number: '57'
+  card:
+    name: Aron
+    rarity: common
+    holographic: false
+    types:
+    - Metal
+    legal: true
+    filename: 57-aron
+- number: '58'
+  card:
+    name: Carvanha
+    rarity: common
+    holographic: false
+    types:
+    - Darkness
+    legal: true
+    filename: 58-carvanha
+- number: '59'
+  card:
+    name: Eevee
+    rarity: common
+    holographic: false
+    types:
+    - Colorless
+    legal: true
+    filename: 59-eevee
+- number: '60'
+  card:
+    name: Flareon 4
+    rarity: common
+    holographic: false
+    types:
+    - Fire
+    legal: true
+    filename: 60-flareon-4
+- number: '61'
+  card:
+    name: Forretress G
+    rarity: common
+    holographic: false
+    types:
+    - Metal
+    legal: true
+    filename: 61-forretress-g
+- number: '62'
+  card:
+    name: Gliscor 4
+    rarity: common
+    holographic: false
+    types:
+    - Fighting
+    legal: true
+    filename: 62-gliscor-4
+- number: '63'
+  card:
+    name: Growlithe
+    rarity: common
+    holographic: false
+    types:
+    - Fire
+    legal: true
+    filename: 63-growlithe
+- number: '64'
+  card:
+    name: Hippopotas
+    rarity: common
+    holographic: false
+    types:
+    - Fighting
+    legal: true
+    filename: 64-hippopotas
+- number: '65'
+  card:
+    name: Houndoom 4
+    rarity: common
+    holographic: false
+    types:
+    - Darkness
+    legal: true
+    filename: 65-houndoom-4
+- number: '66'
+  card:
+    name: Kakuna
+    rarity: common
+    holographic: false
+    types:
+    - Grass
+    legal: true
+    filename: 66-kakuna
+- number: '67'
+  card:
+    name: Kecleon
+    rarity: common
+    holographic: false
+    types:
+    - Colorless
+    legal: true
+    filename: 67-kecleon
+- number: '68'
+  card:
+    name: Koffing
+    rarity: common
+    holographic: false
+    types:
+    - Psychic
+    legal: true
+    filename: 68-koffing
+- number: '69'
+  card:
+    name: Munchlax
+    rarity: common
+    holographic: false
+    types:
+    - Colorless
+    legal: true
+    filename: 69-munchlax
+- number: '70'
+  card:
+    name: Munchlax
+    rarity: common
+    holographic: false
+    types:
+    - Colorless
+    legal: true
+    filename: 70-munchlax
+- number: '71'
+  card:
+    name: Nidoran F
+    rarity: common
+    holographic: false
+    types:
+    - Psychic
+    legal: true
+    filename: 71-nidoran-f
+- number: '72'
+  card:
+    name: Nidoran M
+    rarity: common
+    holographic: false
+    types:
+    - Psychic
+    legal: true
+    filename: 72-nidoran-m
+- number: '73'
+  card:
+    name: Nidorina
+    rarity: common
+    holographic: false
+    types:
+    - Psychic
+    legal: true
+    filename: 73-nidorina
+- number: '74'
+  card:
+    name: Nidorino
+    rarity: common
+    holographic: false
+    types:
+    - Psychic
+    legal: true
+    filename: 74-nidorino
+- number: '75'
+  card:
+    name: Nuzleaf
+    rarity: common
+    holographic: false
+    types:
+    - Grass
+    legal: true
+    filename: 75-nuzleaf
+- number: '76'
+  card:
+    name: Quagsire GL
+    rarity: common
+    holographic: false
+    types:
+    - Water
+    legal: true
+    filename: 76-quagsire-gl
+- number: '77'
+  card:
+    name: Sealeo
+    rarity: common
+    holographic: false
+    types:
+    - Water
+    legal: true
+    filename: 77-sealeo
+- number: '78'
+  card:
+    name: Seedot
+    rarity: common
+    holographic: false
+    types:
+    - Grass
+    legal: true
+    filename: 78-seedot
+- number: '79'
+  card:
+    name: Shellos East Sea
+    rarity: common
+    holographic: false
+    types:
+    - Water
+    legal: true
+    filename: 79-shellos-east-sea
+- number: '80'
+  card:
+    name: Shellos West Sea
+    rarity: common
+    holographic: false
+    types:
+    - Water
+    legal: true
+    filename: 80-shellos-west-sea
+- number: '81'
+  card:
+    name: Snorlax
+    rarity: common
+    holographic: false
+    types:
+    - Colorless
+    legal: true
+    filename: 81-snorlax
+- number: '82'
+  card:
+    name: Spheal
+    rarity: common
+    holographic: false
+    types:
+    - Water
+    legal: true
+    filename: 82-spheal
+- number: '83'
+  card:
+    name: Staryu
+    rarity: common
+    holographic: false
+    types:
+    - Water
+    legal: true
+    filename: 83-staryu
+- number: '84'
+  card:
+    name: Trapinch
+    rarity: common
+    holographic: false
+    types:
+    - Fighting
+    legal: true
+    filename: 84-trapinch
+- number: '85'
+  card:
+    name: Turtwig GL
+    rarity: common
+    holographic: false
+    types:
+    - Grass
+    legal: true
+    filename: 85-turtwig-gl
+- number: '86'
+  card:
+    name: Weedle
+    rarity: common
+    holographic: false
+    types:
+    - Grass
+    legal: true
+    filename: 86-weedle
+- number: '87'
+  card:
+    name: Weezing
+    rarity: common
+    holographic: false
+    types:
+    - Psychic
+    legal: true
+    filename: 87-weezing
+- number: '88'
+  card:
+    name: Aaron's Collection
+    rarity: uncommon
+    holographic: false
+    legal: true
+    filename: 88-aaron's-collection
+    subclasses:
+    - Supporter
+- number: '89'
+  card:
+    name: Bebe's Search
+    rarity: uncommon
+    holographic: false
+    legal: true
+    filename: 89-bebe's-search
+    subclasses:
+    - Supporter
+- number: '90'
+  card:
+    name: Bertha's Warmth
+    rarity: uncommon
+    holographic: false
+    legal: true
+    filename: 90-bertha's-warmth
+    subclasses:
+    - Supporter
+- number: '91'
+  card:
+    name: Flint's Willpower
+    rarity: uncommon
+    holographic: false
+    legal: true
+    filename: 91-flint's-willpower
+    subclasses:
+    - Supporter
+- number: '92'
+  card:
+    name: Lucian's Assignment
+    rarity: uncommon
+    holographic: false
+    legal: true
+    filename: 92-lucian's-assignment
+    subclasses:
+    - Supporter
+- number: '93'
+  card:
+    name: Pokémon Contest Hall
+    rarity: uncommon
+    holographic: false
+    legal: true
+    filename: 93-pokemon-contest-hall
+    subclasses:
+    - Stadium
+- number: '94'
+  card:
+    name: Sunyshore City Gym
+    rarity: uncommon
+    holographic: false
+    legal: true
+    filename: 94-sunyshore-city-gym
+    subclasses:
+    - Stadium
+- number: '95'
+  card:
+    name: Team Galactic's Invention G-107 Technical Machine G
+    rarity: uncommon
+    holographic: false
+    legal: true
+    filename: 95-team-galactic's-invention-g-107-technical-machine-g
+- number: '96'
+  card:
+    name: Team Galactic's Invention G-109 SP-Radar
+    rarity: uncommon
+    holographic: false
+    legal: true
+    filename: 96-team-galactic's-invention-g-109-sp-radar
+- number: '97'
+  card:
+    name: Underground Expedition
+    rarity: uncommon
+    holographic: false
+    legal: true
+    filename: 97-underground-expedition
+    subclasses:
+    - Supporter
+- number: '98'
+  card:
+    name: Volkner's Philosophy
+    rarity: uncommon
+    holographic: false
+    legal: true
+    filename: 98-volkner's-philosophy
+    subclasses:
+    - Supporter
+- number: '99'
+  card:
+    name: Darkness Energy
+    rarity: uncommon
+    holographic: false
+    legal: true
+    filename: 99-darkness-energy
+    subclasses:
+    - Special
+- number: '100'
+  card:
+    name: Metal Energy
+    rarity: uncommon
+    holographic: false
+    legal: true
+    filename: 100-metal-energy
+    subclasses:
+    - Special
+- number: '101'
+  card:
+    name: SP Energy
+    rarity: uncommon
+    holographic: false
+    legal: true
+    filename: 101-sp-energy
+    subclasses:
+    - Special
+- number: '102'
+  card:
+    name: Upper Energy
+    rarity: uncommon
+    holographic: false
+    legal: true
+    filename: 102-upper-energy
+    subclasses:
+    - Special
+- number: '103'
+  card:
+    name: Alakazam 4 LV.X
+    rarity: rare
+    holographic: true
+    types:
+    - Psychic
+    legal: true
+    filename: 103-alakazam-4-lv.x
+- number: '104'
+  card:
+    name: Floatzel GL LV.X
+    rarity: rare
+    holographic: true
+    types:
+    - Water
+    legal: true
+    filename: 104-floatzel-gl-lv.x
+- number: '105'
+  card:
+    name: Flygon LV.X
+    rarity: rare
+    holographic: true
+    types:
+    - Colorless
+    legal: true
+    filename: 105-flygon-lv.x
+- number: '106'
+  card:
+    name: Gallade 4 LV.X
+    rarity: rare
+    holographic: true
+    types:
+    - Psychic
+    legal: true
+    filename: 106-gallade-4-lv.x
+- number: '107'
+  card:
+    name: Hippowdon LV.X
+    rarity: rare
+    holographic: true
+    types:
+    - Fighting
+    legal: true
+    filename: 107-hippowdon-lv.x
+- number: '108'
+  card:
+    name: Infernape 4 LV.X
+    rarity: rare
+    holographic: true
+    types:
+    - Fire
+    legal: true
+    filename: 108-infernape-4-lv.x
+- number: '109'
+  card:
+    name: Luxray GL LV.X
+    rarity: rare
+    holographic: true
+    types:
+    - Lightning
+    legal: true
+    filename: 109-luxray-gl-lv.x
+- number: '110'
+  card:
+    name: Mismagius GL LV.X
+    rarity: rare
+    holographic: true
+    types:
+    - Psychic
+    legal: true
+    filename: 110-mismagius-gl-lv.x
+- number: '111'
+  card:
+    name: Snorlax LV.X
+    rarity: rare
+    holographic: true
+    types:
+    - Colorless
+    legal: true
+    filename: 111-snorlax-lv.x
+- number: '112'
+  card:
+    name: Pikachu
+    rarity: rare
+    holographic: true
+    types:
+    - Lightning
+    legal: true
+    filename: 112-pikachu
+- number: '113'
+  card:
+    name: Flying Pikachu
+    rarity: rare
+    holographic: true
+    types:
+    - Lightning
+    legal: true
+    filename: 113-flying-pikachu
+- number: '114'
+  card:
+    name: Surfing Pikachu
+    rarity: rare
+    holographic: true
+    types:
+    - Lightning
+    legal: true
+    filename: 114-surfing-pikachu
+- number: RT1
+  card:
+    name: Fan Rotom
+    rarity: rare
+    holographic: true
+    types:
+    - Lightning
+    legal: true
+    filename: rt1-fan-rotom
+- number: RT2
+  card:
+    name: Frost Rotom
+    rarity: rare
+    holographic: true
+    types:
+    - Lightning
+    legal: true
+    filename: rt2-frost-rotom
+- number: RT3
+  card:
+    name: Heat Rotom
+    rarity: rare
+    holographic: true
+    types:
+    - Lightning
+    legal: true
+    filename: rt3-heat-rotom
+- number: RT4
+  card:
+    name: Mow Rotom
+    rarity: rare
+    holographic: true
+    types:
+    - Lightning
+    legal: true
+    filename: rt4-mow-rotom
+- number: RT5
+  card:
+    name: Wash Rotom
+    rarity: rare
+    holographic: true
+    types:
+    - Lightning
+    legal: true
+    filename: rt5-wash-rotom
+- number: RT6
+  card:
+    name: Charon's Choice
+    rarity: rare
+    holographic: true
+    legal: true
+    filename: rt6-charon's-choice
+    subclasses:
+    - Supporter

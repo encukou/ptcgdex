@@ -1,0 +1,155 @@
+---
+name: Entei
+rarity: rare
+holographic: false
+filename: 1-entei
+pokemon: Entei
+---
+name: Entei (Holo)
+rarity: uncommon
+holographic: false
+filename: 1-entei-holo
+reprint of: 'pop-2: 1-entei-holo as a holo'
+pokemon: Entei
+---
+name: Pidgeot
+rarity: uncommon
+holographic: false
+filename: 2-pidgeot
+pokemon: Pidgeot
+---
+name: Pidgeot (Holo)
+rarity: uncommon
+holographic: true
+filename: 2-pidgeot-holo
+reprint of: 'pop-2: 2-pidgeot-holo as a holo'
+pokemon: Pidgeot
+---
+name: Raikou
+rarity: uncommon
+holographic: false
+filename: 3-raikou
+pokemon: Raikou
+---
+name: Raikou (Holo)
+rarity: uncommon
+holographic: false
+filename: 3-raikou-holo
+reprint of: 'pop-2: 3-raikou-holo as a holo'
+pokemon: Raikou
+---
+name: Suicune
+rarity: uncommon
+holographic: false
+filename: 4-suicune
+pokemon: Suicune
+---
+name: Suicune (Holo)
+rarity: common
+holographic: false
+filename: 4-suicune-holo
+reprint of: 'pop-2: 4-suicune-holo as a holo'
+pokemon: Suicune
+---
+name: Tauros
+rarity: common
+holographic: false
+filename: 5-tauros
+pokemon: Tauros
+---
+name: Tauros (Holo)
+rarity: common
+holographic: false
+filename: 5-tauros-holo
+reprint of: 'pop-2: 5-tauros-holo as a holo'
+pokemon: Tauros
+---
+name: Venusaur
+rarity: common
+holographic: false
+filename: 6-venusaur
+pokemon: Venusaur
+---
+name: Venusaur (Holo)
+rarity: common
+holographic: false
+filename: 6-venusaur
+reprint of: 'pop-2: 6-venusaur as a holo'
+pokemon: Venusaur
+---
+name: Ivysaur
+rarity: common
+holographic: false
+filename: 7-ivysaur
+pokemon: Ivysaur
+---
+name: Mr. Briney's Compassion
+rarity: common
+holographic: false
+filename: 8-mr.-briney's-compassion
+subclasses:
+- Supporter
+---
+name: Multi Technical Machine 01
+rarity: rare
+holographic: false
+filename: 9-multi-technical-machine-01
+subclasses:
+- Technical Machine
+---
+name: Pokémon Park
+rarity: rare
+holographic: false
+filename: 10-pokemon-park
+subclasses:
+- Stadium
+---
+name: TV Reporter
+rarity: rare
+holographic: false
+filename: 11-tv-reporter
+subclasses:
+- Supporter
+---
+name: Bulbasaur
+rarity: rare
+holographic: false
+filename: 12-bulbasaur
+pokemon: Bulbasaur
+---
+name: Cacnea
+rarity: rare
+holographic: false
+filename: 13-cacnea
+pokemon: Cacnea
+---
+name: Luvdisc
+rarity: uncommon
+holographic: false
+filename: 14-luvdisc
+pokemon: Luvdisc
+---
+name: Phanpy
+rarity: uncommon
+holographic: false
+filename: 15-phanpy
+pokemon: Phanpy
+---
+name: Pikachu
+rarity: uncommon
+holographic: false
+filename: 16-pikachu
+pokemon: Pikachu
+---
+name: Celebi ex
+rarity: uncommon
+holographic: false
+filename: 17-celebi-ex
+pokemon: Celebi
+---
+name: Celebi ex (Holo)
+rarity: uncommon
+holographic: false
+filename: 17-celebi-ex-holo
+reprint of: 'pop-2: 17-celebi-ex as a holo'
+pokemon: Celebi

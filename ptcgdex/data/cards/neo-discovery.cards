@@ -1,0 +1,3038 @@
+---
+cards:
+- number: '1'
+  card:
+    name: Espeon
+    rarity: rare
+    holographic: true
+    class: P
+    types:
+    - Psychic
+    hp: 80
+    stage: Stage 1
+    evolves from:
+    - Eevee
+    legal: false
+    filename: 1-espeon
+    pokemon: Espeon
+    mechanics:
+    - name: Bite
+      cost: CC
+      damage: '20'
+      type: attack
+    - name: Psychic
+      cost: PPC
+      damage: '30'
+      type: attack
+      text: >-
+        Does 30 damage plus 10 more for each Energy Card attached to the
+        Defending Pokémon.
+    damage modifiers:
+    - amount: 2
+      operation: ×
+      type: Psychic
+    dex number: 196
+    species: Sun
+    weight: 58
+    height: 2'11
+    dex entry: >-
+      It uses the fine hair that covers its body to sense air currents
+      and predict its enemy's actions.
+    illustrators:
+    - Atsuko Nishida
+- number: '2'
+  card:
+    name: Forretress
+    rarity: rare
+    holographic: true
+    class: P
+    types:
+    - Metal
+    hp: 80
+    stage: Stage 1
+    evolves from:
+    - Pineco
+    legal: false
+    filename: 2-forretress
+    pokemon: Forretress
+    mechanics:
+    - name: Spikes
+      type: pokemon-power
+      text: >-
+        During your opponent's turn, whenever 1 of your opponent's Benched
+        Pokémon becomes his or her Active Pokémon, Forretress does 10
+        damage to it. (Don't apply Weakness and Resistance.) This power
+        stops working if Forretress is Asleep, Confused, or Paralyzed.
+    - name: Rapid Spin
+      cost: MCC
+      damage: '30'
+      type: attack
+      text: >-
+        If your opponent has any Benched Pokémon, he or she chooses 1
+        of them and switches it with their Active Pokémon; then, if you
+        have any Benched Pokémon, you switch 1 of them with your Active
+        Pokémon. (Do the damage before switching the Pokémon.)
+    damage modifiers:
+    - amount: 2
+      operation: ×
+      type: Fire
+    - amount: 30
+      operation: '-'
+      type: Grass
+    retreat: 3
+    dex number: 205
+    species: Bagworm
+    weight: 277
+    height: 3'11
+    dex entry: >-
+      Its entire body is shielded by a steel-hard shell. What lurks inside
+      the armour is a total mystery.
+    illustrators:
+    - CR CG gangs
+- number: '3'
+  card:
+    name: Hitmontop
+    rarity: rare
+    holographic: true
+    class: P
+    types:
+    - Fighting
+    hp: 60
+    stage: Basic
+    legal: false
+    filename: 3-hitmontop
+    pokemon: Hitmontop
+    mechanics:
+    - name: Detect
+      cost: F
+      type: attack
+      text: >-
+        Flip a coin. If heads, during your opponent's next turn, prevent
+        all effects of attacks, including damage, done to Hitmontop.
+    - name: Triple Kick
+      cost: FFF
+      damage: 30×
+      type: attack
+      text: >-
+        Flip 3 coins. This attack does 30 times the number of heads.
+    damage modifiers:
+    - amount: 2
+      operation: ×
+      type: Psychic
+    retreat: 1
+    dex number: 237
+    species: Handstand
+    weight: 106
+    height: 4'7
+    dex entry: >-
+      If you become enchanted by its smooth, elegant, dancelike kicks,
+      you may get drilled hard.
+    illustrators:
+    - Sumiyoshi Kizuki
+- number: '4'
+  card:
+    name: Houndoom
+    rarity: rare
+    holographic: true
+    class: P
+    types:
+    - Darkness
+    hp: 70
+    stage: Stage 1
+    evolves from:
+    - Houndour
+    legal: false
+    filename: 4-houndoom
+    pokemon: Houndoom
+    mechanics:
+    - name: Crunch
+      cost: DCC
+      damage: '30'
+      type: attack
+      text: >-
+        Until the end of your next turn, if an attack damages the Defending
+        Pokémon after applying Weakness and Resistance), that attack does
+        20 more damage to the Defending Pokémon.
+    - name: Flamethrower
+      cost: RRC
+      damage: '50'
+      type: attack
+      text: >-
+        Discard 1 R Energy card attached to Houndoom or this attack does
+        nothing.
+    damage modifiers:
+    - amount: 30
+      operation: '-'
+      type: Psychic
+    retreat: 1
+    dex number: 229
+    species: Dark
+    weight: 77
+    height: 4'7
+    dex entry: >-
+      Upon hearing its eerie howls, other Pokémon get the shivers and
+      head straight back to their nests.
+    illustrators:
+    - Shin-ichi Yoshida
+- number: '5'
+  card:
+    name: Houndour
+    rarity: rare
+    holographic: true
+    class: P
+    types:
+    - Fire
+    hp: 50
+    stage: Basic
+    legal: false
+    filename: 5-houndour
+    pokemon: Houndour
+    mechanics:
+    - name: Smog
+      cost: R
+      damage: '10'
+      type: attack
+      text: >-
+        Flip a coin. If heads, the Defending Pokémon is now Poisoned.
+    - name: Collect Fire
+      cost: RR
+      damage: '20'
+      type: attack
+      text: >-
+        If there are any R Energy in your discard pile, choose 1 of them
+        and attach it to Houndour.
+    damage modifiers:
+    - amount: 2
+      operation: ×
+      type: Water
+    retreat: 1
+    dex number: 228
+    species: Dark
+    weight: 24
+    height: 2'0
+    dex entry: >-
+      To corner prey, they check each other's location using barks that
+      only they can understand.
+    illustrators:
+    - Aya Kusube
+- number: '6'
+  card:
+    name: Kabutops
+    rarity: rare
+    holographic: true
+    class: P
+    types:
+    - Water
+    hp: 90
+    stage: Stage 2
+    evolves from:
+    - Kabuto
+    legal: false
+    filename: 6-kabutops
+    pokemon: Kabutops
+    mechanics:
+    - name: Slash
+      cost: C
+      damage: '20'
+      type: attack
+    - name: Hydrocutter
+      cost: F
+      damage: 40×
+      type: attack
+      text: >-
+        Flip a number of coins equal to the number of Energy cards attached
+        to Kabutops. This attack does 40 times the number of heads. You
+        can't flips more than 3 coins in this way.
+    damage modifiers:
+    - amount: 2
+      operation: ×
+      type: Grass
+    retreat: 2
+    dex number: 141
+    species: Shellfish
+    weight: 89
+    height: 4'3
+    dex entry: >-
+      In the water, it tucks in its limbs to become more compact, then
+      it wiggles its shell to swim fast.
+    illustrators:
+    - Kimiya Masago
+- number: '7'
+  card:
+    name: Magnemite
+    rarity: rare
+    holographic: true
+    class: P
+    types:
+    - Metal
+    hp: 40
+    stage: Basic
+    legal: false
+    filename: 7-magnemite
+    pokemon: Magnemite
+    mechanics:
+    - name: Lock-on
+      cost: C
+      type: attack
+      text: >-
+        During your next turn, treat any tails flipped when using Magnemite's
+        Electric Bolt attack on the Defending Pokémon as if they were
+        heads. (Benching or evolving either Pokémon ends this effect.)
+    - name: Electric Bolt
+      cost: LC
+      damage: '50'
+      type: attack
+      text: >-
+        Flip 2 coins. If both are heads, the Defending Pokémon is now
+        Paralyzed. If either of them is tails, this attack does nothing
+        (not even damage).
+    damage modifiers:
+    - amount: 2
+      operation: ×
+      type: Fire
+    - amount: 30
+      operation: '-'
+      type: Grass
+    retreat: 1
+    dex number: 81
+    species: Magnet
+    weight: 13
+    height: 1'0
+    dex entry: >-
+      These Pokémon are attracted to electrical emissions and will often
+      follow people using PokéGear.
+    illustrators:
+    - K. Hoshiba
+    - CR CG gangs
+- number: '8'
+  card:
+    name: Politoed
+    rarity: rare
+    holographic: true
+    class: P
+    types:
+    - Water
+    hp: 100
+    stage: Stage 2
+    evolves from:
+    - Poliwhirl
+    legal: false
+    filename: 8-politoed
+    pokemon: Politoed
+    mechanics:
+    - name: Frog Song
+      type: pokemon-power
+      text: >-
+        Whenever Politoed's attack damages the Defending Pokémon (after
+        applying Weakness and Resistance), if there are more than 3 Poliwags,
+        Poliwhirls, Poliwraths, and/or Politoeds in play (including your
+        opponent's), that attack does 40 more damage (no matter how many
+        heads you get). This power stops working while Politoed is Asleep,
+        Confused, or Paralyzed.
+    - name: Doubleslap
+      cost: WWCC
+      damage: 40×
+      type: attack
+      text: >-
+        Flip 2 coins. This attack does 40 times the number of heads.
+    damage modifiers:
+    - amount: 2
+      operation: ×
+      type: Grass
+    retreat: 3
+    dex number: 186
+    species: Frog
+    weight: 75
+    height: 3'7
+    dex entry: >-
+      Whenever three or more of these get together, they sing in a loud
+      voice that sounds like bellowing.
+    illustrators:
+    - Tomokazu Komiya
+- number: '9'
+  card:
+    name: Poliwrath
+    rarity: rare
+    holographic: true
+    class: P
+    types:
+    - Fighting
+    hp: 90
+    stage: Stage 2
+    evolves from:
+    - Poliwhirl
+    legal: false
+    filename: 9-poliwrath
+    pokemon: Poliwrath
+    mechanics:
+    - name: Corkscrew Punch
+      cost: FC
+      damage: '30'
+      type: attack
+    - name: Submission
+      cost: FFCC
+      damage: '70'
+      type: attack
+      text: >-
+        Poliwrath does 20 damage to itself.
+    damage modifiers:
+    - amount: 2
+      operation: ×
+      type: Psychic
+    retreat: 2
+    dex number: 62
+    species: Tadpole
+    weight: 119
+    height: 4'3
+    dex entry: >-
+      Although an energetic, skilled swimmer that uses all of its muscles,
+      it lives on dry land.
+    illustrators:
+    - Shin-ichi Yoshida
+- number: '10'
+  card:
+    name: Scizor
+    rarity: rare
+    holographic: true
+    class: P
+    types:
+    - Metal
+    hp: 80
+    stage: Stage 1
+    evolves from:
+    - Scyther
+    legal: false
+    filename: 10-scizor
+    pokemon: Scizor
+    mechanics:
+    - name: False Swipe
+      cost: M
+      damage: '?'
+      type: attack
+      text: >-
+        Does damage equal to half the Defending Pokémon's remaining HP
+        (rounded down to the nearest 10).
+    - name: Double Claw
+      cost: CCC
+      damage: 20×
+      type: attack
+      text: >-
+        Flip 2 coins. This attack does 20 times the number of heads.
+    damage modifiers:
+    - amount: 2
+      operation: ×
+      type: Fire
+    - amount: 30
+      operation: '-'
+      type: Grass
+    retreat: 2
+    dex number: 212
+    species: Scissors
+    weight: 260
+    height: 5'11
+    dex entry: >-
+      It swings its eye patterned pincers up to scare its foes. This makes
+      it look like it has three heads.
+    illustrators:
+    - Kimiya Masago
+- number: '11'
+  card:
+    name: Smeargle
+    rarity: rare
+    holographic: true
+    class: P
+    types:
+    - Colorless
+    hp: 50
+    stage: Basic
+    legal: false
+    filename: 11-smeargle
+    pokemon: Smeargle
+    mechanics:
+    - name: Sketch
+      cost: CC
+      type: attack
+      text: >-
+        If the Defending Pokémon attacked last turn, and Smeargle was
+        in play during that attack, Smeargle copies that attack except
+        for its Energy costs and anything else required in order to use
+        that attack.
+    damage modifiers:
+    - amount: 2
+      operation: ×
+      type: Fighting
+    - amount: 30
+      operation: '-'
+      type: Psychic
+    retreat: 1
+    dex number: 235
+    species: Painter
+    weight: 128
+    height: 3'11
+    dex entry: >-
+      A special fluid oozes from the tip of its tail. It paints the fluid
+      everywhere to mark its territory.
+    illustrators:
+    - Hironobu Yoshida
+- number: '12'
+  card:
+    name: Tyranitar
+    rarity: rare
+    holographic: true
+    class: P
+    types:
+    - Darkness
+    hp: 100
+    stage: Stage 2
+    evolves from:
+    - Pupitar
+    legal: false
+    filename: 12-tyranitar
+    pokemon: Tyranitar
+    mechanics:
+    - name: Slam
+      cost: CCC
+      damage: 30×
+      type: attack
+      text: >-
+        Flip 2 coins. This attack does 30 times the number of heads.
+    - name: Trample
+      cost: DDCC
+      damage: '50'
+      type: attack
+      text: >-
+        For each Benched Pokémon in play (yours and your opponent's),
+        flip a coin. If heads, this attack does 30 damage to that Pokémon.
+        (Don't apply Weakness and Resistance for Benched Pokémon.)
+    damage modifiers:
+    - amount: 30
+      operation: '-'
+      type: Psychic
+    retreat: 3
+    dex number: 248
+    species: Armor
+    weight: 445
+    height: 6'7
+    dex entry: >-
+      Its body can't be harmed by any sort of attack, so it is very eager
+      to make challenges against enemies.
+    illustrators:
+    - Hironobu Yoshida
+- number: '13'
+  card:
+    name: Umbreon
+    rarity: rare
+    holographic: true
+    class: P
+    types:
+    - Darkness
+    hp: 80
+    stage: Stage 1
+    evolves from:
+    - Eevee
+    legal: false
+    filename: 13-umbreon
+    pokemon: Umbreon
+    mechanics:
+    - name: Bite
+      cost: CC
+      damage: '20'
+      type: attack
+    - name: Feint Attack
+      cost: DDC
+      type: attack
+      text: >-
+        Choose 1 of your opponent's Pokémon. This attack does 30 damage
+        to that Pokémon. This attack's damage isn't affected by Weakness,
+        Resistance, Pokémon Powers or any other effects on the Defending
+        Pokémon.
+    damage modifiers:
+    - amount: 30
+      operation: '-'
+      type: Psychic
+    retreat: 1
+    dex number: 197
+    species: Moonlight
+    weight: 60
+    height: 3'3
+    dex entry: >-
+      When darkness falls, the rings on the body begin to glow, striking
+      fear into the hearts of anyone nearby.
+    illustrators:
+    - Kimiya Masago
+- number: '14'
+  card:
+    name: Unown A
+    rarity: rare
+    holographic: true
+    class: P
+    types:
+    - Psychic
+    hp: 40
+    stage: Basic
+    legal: false
+    filename: 14-unown-a
+    pokemon: Unown
+    mechanics:
+    - type: note
+      text: >-
+        You may have up to 4 Basic Pokémon cards in your deck with Unown
+        in their names.
+    - name: '[Anger]'
+      type: pokemon-power
+      text: >-
+        Whenever 1 of your Pokémon with Unown in its name uses its Hidden
+        Power attack, that attack does 10 more damage for each damage
+        counter on Unown [A]. If you have more than 1 Unown [A] in play,
+        use only 1 [Anger] for each attack.
+    - name: Hidden Power
+      cost: P
+      damage: '10'
+      type: attack
+    damage modifiers:
+    - amount: 2
+      operation: ×
+      type: Psychic
+    retreat: 1
+    dex number: 201
+    species: Symbol
+    weight: 11
+    height: 1'8
+    dex entry: >-
+      Their shapes look like hieroglyphs on ancient tablets. It is said
+      that the two are somehow related.
+    illustrators:
+    - CR CG gangs
+- number: '15'
+  card:
+    name: Ursaring
+    rarity: rare
+    holographic: true
+    class: P
+    types:
+    - Colorless
+    hp: 80
+    stage: Stage 1
+    evolves from:
+    - Teddiursa
+    legal: false
+    filename: 15-ursaring
+    pokemon: Ursaring
+    mechanics:
+    - name: Headpress
+      cost: CC
+      damage: '20'
+      type: attack
+      text: >-
+        Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+        If tails, this attack does nothing (not even damage).
+    - name: Double Lariat
+      cost: CCCC
+      damage: 40×
+      type: attack
+      text: >-
+        Flip 2 coins. This attack does 40 times the number of heads.
+    damage modifiers:
+    - amount: 2
+      operation: ×
+      type: Fighting
+    - amount: 30
+      operation: '-'
+      type: Psychic
+    retreat: 3
+    dex number: 217
+    species: Hibernant
+    weight: 277
+    height: 5'11
+    dex entry: >-
+      Although it is a good climber, it prefers to snap trees with its
+      forelegs and eat fallen berries.
+    illustrators:
+    - Naoyo Kimura
+- number: '16'
+  card:
+    name: Wobbuffet
+    rarity: rare
+    holographic: true
+    class: P
+    types:
+    - Psychic
+    hp: 90
+    stage: Basic
+    legal: false
+    filename: 16-wobbuffet
+    pokemon: Wobbuffet
+    mechanics:
+    - name: Counter
+      cost: P
+      type: attack
+      text: >-
+        If an attack damages Wobbuffet during your opponent's next turn
+        (even if Wobbuffet is knocked out), flip a coin. If heads, Wobbuffet
+        attacks the Defending Pokémon for an equal amount of damage.
+    damage modifiers:
+    - amount: 2
+      operation: ×
+      type: Psychic
+    retreat: 3
+    dex number: 202
+    species: Patient
+    weight: 63
+    height: 4'3
+    dex entry: >-
+      To keep its pitch-black tail hidden, it lives quietly in the darkness.
+      It is never first to attack.
+    illustrators:
+    - Hironobu Yoshida
+- number: '17'
+  card:
+    name: Yanma
+    rarity: rare
+    holographic: true
+    class: P
+    types:
+    - Grass
+    hp: 60
+    stage: Basic
+    legal: false
+    filename: 17-yanma
+    pokemon: Yanma
+    mechanics:
+    - name: Shockwave
+      cost: G
+      type: attack
+      text: >-
+        Flip a coin. If heads, this attack does 10 damage to each of your
+        opponent's Pokémon. Don't apply Weakness and Resistance. Then,
+        if your opponent has any Benched Pokémon, he or she chooses 1
+        of them and switches it with the Defending Pokémon.
+    - name: Swift
+      cost: GGG
+      damage: '30'
+      type: attack
+      text: >-
+        This attack's damage isn't affected by Weakness, Resistance, Pokémon
+        Powers, or any other effects on the Defending Pokémon.
+    damage modifiers:
+    - amount: 2
+      operation: ×
+      type: Fire
+    - amount: 30
+      operation: '-'
+      type: Fighting
+    dex number: 193
+    species: Clear Wing
+    weight: 84
+    height: 3'11
+    dex entry: >-
+      If it flaps its wings really fast, it can generate shock waves that
+      will shatter windows in the area.
+    illustrators:
+    - Atsuko Nishida
+- number: '18'
+  card:
+    name: Beedrill
+    rarity: rare
+    holographic: false
+    class: P
+    types:
+    - Grass
+    hp: 80
+    stage: Stage 2
+    evolves from:
+    - Kakuna
+    legal: false
+    filename: 18-beedrill
+    pokemon: Beedrill
+    mechanics:
+    - name: Triple Poison
+      cost: G
+      damage: '10'
+      type: attack
+      text: >-
+        Flip a coin. If heads, the Defending Pokémon is now Poisoned.
+        Your opponent now puts 3 damage counters instead of 1 after each
+        player's turn (even if it was already Poisoned).
+    - name: Pin Missile
+      cost: GGC
+      damage: 20×
+      type: attack
+      text: >-
+        Flip 4 coins. This attack does 20 times the number of heads.
+    damage modifiers:
+    - amount: 2
+      operation: ×
+      type: Fire
+    - amount: 30
+      operation: '-'
+      type: Fighting
+    dex number: 15
+    species: Poison Bee
+    weight: 65
+    height: 3'3
+    dex entry: >-
+      It can take down any opponent with its powerful poison stingers.
+      It sometimes attacks in swarms.
+    illustrators:
+    - Aya Kusube
+- number: '19'
+  card:
+    name: Butterfree
+    rarity: rare
+    holographic: false
+    class: P
+    types:
+    - Grass
+    hp: 80
+    stage: Stage 2
+    evolves from:
+    - Metapod
+    legal: false
+    filename: 19-butterfree
+    pokemon: Butterfree
+    mechanics:
+    - name: Magic Dust
+      cost: GC
+      damage: '20'
+      type: attack
+      text: >-
+        Flip a coin. If heads, the Defending Pokémon is now either Asleep,
+        Confused, Paralyzed, or Poisoned (your choice).
+    - name: Hyper Reverse
+      cost: GGC
+      type: attack
+      text: >-
+        Does 10 damage times the number of Energy cards attached to the
+        Defending Pokémon. After doing damage, remove a number of damage
+        counters from Butterfree equal to the amount of damage done to
+        the Defending Pokémon (after applying Weakness and Resistance).
+    damage modifiers:
+    - amount: 2
+      operation: ×
+      type: Fire
+    - amount: 30
+      operation: '-'
+      type: Fighting
+    retreat: 1
+    dex number: 12
+    species: Butterfly
+    weight: 71
+    height: 3'7
+    dex entry: >-
+      It collects honey every day. It rubs honey onto the hairs on its
+      legs to carry it back to its nest.
+    illustrators:
+    - Atsuko Nishida
+- number: '20'
+  card:
+    name: Espeon
+    rarity: rare
+    holographic: false
+    class: P
+    types:
+    - Psychic
+    hp: 70
+    stage: Stage 1
+    evolves from:
+    - Eevee
+    legal: false
+    filename: 20-espeon
+    in-set-variant-of: 'neo-discovery: 1-espeon as non-holo'
+    pokemon: Espeon
+    mechanics:
+    - name: Quick Attack
+      cost: CC
+      damage: '10'
+      type: attack
+      text: >-
+        Flip a coin. If heads, this attack does 10 damage plus 20 more
+        damage; if tails, this attack does 10 damage.
+    - name: Psybeam
+      cost: PPC
+      damage: '30'
+      type: attack
+      text: >-
+        Flip a coin. If heads, the Defending Pokémon is now Confused.
+    damage modifiers:
+    - amount: 2
+      operation: ×
+      type: Psychic
+    retreat: 1
+    dex number: 196
+    species: Sun
+    weight: 58
+    height: 2'11
+    dex entry: >-
+      By reading air currents, it can predict things such as weather or
+      its foe's next move.
+    illustrators:
+    - Naoyo Kimura
+- number: '21'
+  card:
+    name: Forretress
+    rarity: rare
+    holographic: false
+    class: P
+    types:
+    - Metal
+    hp: 80
+    stage: Stage 1
+    evolves from:
+    - Pineco
+    legal: false
+    filename: 21-forretress
+    in-set-variant-of: 'neo-discovery: 2-forretress as non-holo'
+    pokemon: Forretress
+    mechanics:
+    - name: Spikes
+      type: pokemon-power
+      text: >-
+        During your opponent's turn, whenever 1 of your opponent's Benched
+        Pokémon becomes his or her Active Pokémon, Forretress does 10
+        damage to it. (Don't apply Weakness and Resistance.) This power
+        stops working if Forretress is Asleep, Confused, or Paralyzed.
+    - name: Rapid Spin
+      cost: MCC
+      damage: '30'
+      type: attack
+      text: >-
+        If your opponent has any Benched Pokémon, he or she chooses 1
+        of them and switches it with their Active Pokémon; then, if you
+        have any Benched Pokémon, you switch 1 of them with your Active
+        Pokémon. (Do the damage before switching the Pokémon.)
+    damage modifiers:
+    - amount: 2
+      operation: ×
+      type: Fire
+    - amount: 30
+      operation: '-'
+      type: Grass
+    retreat: 3
+    dex number: 205
+    species: Bagworm
+    weight: 277
+    height: 3'11
+    dex entry: >-
+      Its entire body is shielded by a steel-hard shell. What lurks inside
+      the armour is a total mystery.
+    illustrators:
+    - CR CG gangs
+- number: '22'
+  card:
+    name: Hitmontop
+    rarity: rare
+    holographic: false
+    class: P
+    types:
+    - Fighting
+    hp: 60
+    stage: Basic
+    legal: false
+    filename: 22-hitmontop
+    in-set-variant-of: 'neo-discovery: 3-hitmontop as non-holo'
+    pokemon: Hitmontop
+    mechanics:
+    - name: Detect
+      cost: F
+      type: attack
+      text: >-
+        Flip a coin. If heads, during your opponent's next turn, prevent
+        all effects of attacks, including damage, done to Hitmontop.
+    - name: Triple Kick
+      cost: FFF
+      damage: 30×
+      type: attack
+      text: >-
+        Flip 3 coins. This attack does 30 times the number of heads.
+    damage modifiers:
+    - amount: 2
+      operation: ×
+      type: Psychic
+    retreat: 1
+    dex number: 237
+    species: Handstand
+    weight: 106
+    height: 4'7
+    dex entry: >-
+      If you become enchanted by its smooth, elegant, dancelike kicks,
+      you may get drilled hard.
+    illustrators:
+    - Sumiyoshi Kizuki
+- number: '23'
+  card:
+    name: Houndoom
+    rarity: rare
+    holographic: false
+    class: P
+    types:
+    - Darkness
+    hp: 70
+    stage: Stage 1
+    evolves from:
+    - Houndour
+    legal: false
+    filename: 23-houndoom
+    in-set-variant-of: 'neo-discovery: 4-houndoom as non-holo'
+    pokemon: Houndoom
+    mechanics:
+    - name: Crunch
+      cost: DCC
+      damage: '30'
+      type: attack
+      text: >-
+        Until the end of your next turn, if an attack damages the Defending
+        Pokémon (after applying Weakness and Resistance), that attack
+        does 20 more damage to the Defending Pokémon.
+    - name: Flamethrower
+      cost: RRC
+      damage: '50'
+      type: attack
+      text: >-
+        Discard 1 R Energy card attached to Houndoom or this attack does
+        nothing.
+    damage modifiers:
+    - amount: 30
+      operation: '-'
+      type: Psychic
+    retreat: 1
+    dex number: 229
+    species: Dark
+    weight: 77
+    height: 4'7
+    dex entry: >-
+      Upon hearing its eerie howls, other Pokémon get the shivers and
+      head straight back to their nests.
+    illustrators:
+    - Shin-ichi Yoshida
+- number: '24'
+  card:
+    name: Houndour
+    rarity: rare
+    holographic: false
+    class: P
+    types:
+    - Fire
+    hp: 50
+    stage: Basic
+    legal: false
+    filename: 24-houndour
+    in-set-variant-of: 'neo-discovery: 5-houndour as non-holo'
+    pokemon: Houndour
+    mechanics:
+    - name: Smog
+      cost: R
+      damage: '10'
+      type: attack
+      text: >-
+        Flip a coin. If heads, the Defending Pokémon is now Poisoned.
+    - name: Collect Fire
+      cost: RR
+      damage: '20'
+      type: attack
+      text: >-
+        If there are any R Energy in your discard pile, choose 1 of them
+        and attach it to Houndour.
+    damage modifiers:
+    - amount: 2
+      operation: ×
+      type: Water
+    retreat: 1
+    dex number: 228
+    species: Dark
+    weight: 24
+    height: 2'0
+    dex entry: >-
+      To corner prey, they check each other's location using barks that
+      only they can understand.
+    illustrators:
+    - Aya Kusube
+- number: '25'
+  card:
+    name: Kabutops
+    rarity: rare
+    holographic: false
+    class: P
+    types:
+    - Water
+    hp: 90
+    stage: Stage 2
+    evolves from:
+    - Kabuto
+    legal: false
+    filename: 25-kabutops
+    in-set-variant-of: 'neo-discovery: 6-kabutops as non-holo'
+    pokemon: Kabutops
+    mechanics:
+    - name: Slash
+      cost: C
+      damage: '20'
+      type: attack
+    - name: Hydrocutter
+      cost: F
+      damage: 40×
+      type: attack
+      text: >-
+        Flip a number of coins equal to the number of Energy cards attached
+        to Kabutops. This attack does 40 times the number of heads. You
+        can't flips more than 3 coins in this way.
+    damage modifiers:
+    - amount: 2
+      operation: ×
+      type: Grass
+    retreat: 2
+    dex number: 141
+    species: Shellfish
+    weight: 89
+    height: 4'3
+    dex entry: >-
+      In the water, it tucks in its limbs to become more compact, then
+      it wiggles its shell to swim fast.
+    illustrators:
+    - Kimiya Masago
+- number: '26'
+  card:
+    name: Magnemite
+    rarity: rare
+    holographic: false
+    class: P
+    types:
+    - Metal
+    hp: 40
+    stage: Basic
+    legal: false
+    filename: 26-magnemite
+    in-set-variant-of: 'neo-discovery: 7-magnemite as non-holo'
+    pokemon: Magnemite
+    mechanics:
+    - name: Lock-on
+      cost: C
+      type: attack
+      text: >-
+        During your next turn, treat any tails flipped when using Magnemite's
+        Electric Bolt attack on the Defending Pokémon as if they were
+        heads. (Benching or evolving either Pokémon ends this effect.)
+    - name: Electric Bolt
+      cost: LC
+      damage: '50'
+      type: attack
+      text: >-
+        Flip 2 coins. If both are heads, the Defending Pokémon is now
+        Paralyzed. If either of them is tails, this attack does nothing
+        (not even damage).
+    damage modifiers:
+    - amount: 2
+      operation: ×
+      type: Fire
+    - amount: 30
+      operation: '-'
+      type: Grass
+    retreat: 1
+    dex number: 81
+    species: Magnet
+    weight: 13
+    height: 1'0
+    dex entry: >-
+      These Pokémon are attracted to electrical emissions and will often
+      follow people using PokéGear.
+    illustrators:
+    - K. Hoshiba
+    - CR CG gangs
+- number: '27'
+  card:
+    name: Politoed
+    rarity: rare
+    holographic: false
+    class: P
+    types:
+    - Water
+    hp: 100
+    stage: Stage 2
+    evolves from:
+    - Poliwhirl
+    legal: false
+    filename: 27-politoed
+    in-set-variant-of: 'neo-discovery: 8-politoed as non-holo'
+    pokemon: Politoed
+    mechanics:
+    - name: Frog Song
+      type: pokemon-power
+      text: >-
+        Whenever Politoed's attack damages the Defending Pokémon (after
+        applying Weakness and Resistance), if there are more than 3 Poliwags,
+        Poliwhirls, Poliwraths, and/or Politoeds in play (including your
+        opponent's), that attack does 40 more damage (no matter how many
+        heads you get). This power stops working while Politoed is Asleep,
+        Confused, or Paralyzed.
+    - name: Doubleslap
+      cost: WWCC
+      damage: 40×
+      type: attack
+      text: >-
+        Flip 2 coins. This attack does 40 times the number of heads.
+    damage modifiers:
+    - amount: 2
+      operation: ×
+      type: Grass
+    retreat: 3
+    dex number: 186
+    species: Frog
+    weight: 75
+    height: 3'7
+    dex entry: >-
+      Whenever three or more of these get together, they sing in a loud
+      voice that sounds like bellowing.
+    illustrators:
+    - Tomokazu Komiya
+- number: '28'
+  card:
+    name: Poliwrath
+    rarity: rare
+    holographic: false
+    class: P
+    types:
+    - Fighting
+    hp: 90
+    stage: Stage 2
+    evolves from:
+    - Poliwhirl
+    legal: false
+    filename: 28-poliwrath
+    in-set-variant-of: 'neo-discovery: 9-poliwrath as non-holo'
+    pokemon: Poliwrath
+    mechanics:
+    - name: Corkscrew Punch
+      cost: FC
+      damage: '30'
+      type: attack
+    - name: Submission
+      cost: FFCC
+      damage: '70'
+      type: attack
+      text: >-
+        Poliwrath does 20 damage to itself.
+    damage modifiers:
+    - amount: 2
+      operation: ×
+      type: Psychic
+    retreat: 2
+    dex number: 62
+    species: Tadpole
+    weight: 119
+    height: 4'3
+    dex entry: >-
+      Although an energetic, skilled swimmer that uses all of its muscles,
+      it lives on dry land.
+    illustrators:
+    - Shin-ichi Yoshida
+- number: '29'
+  card:
+    name: Scizor
+    rarity: rare
+    holographic: false
+    class: P
+    types:
+    - Metal
+    hp: 80
+    stage: Stage 1
+    evolves from:
+    - Scyther
+    legal: false
+    filename: 29-scizor
+    in-set-variant-of: 'neo-discovery: 10-scizor as non-holo'
+    pokemon: Scizor
+    mechanics:
+    - name: False Swipe
+      cost: M
+      damage: '?'
+      type: attack
+      text: >-
+        Does damage equal to half the Defending Pokémon's remaining HP
+        (rounded down to the nearest 10).
+    - name: Double Claw
+      cost: CCC
+      damage: 20×
+      type: attack
+      text: >-
+        Flip 2 coins. This attack does 20 times the number of heads.
+    damage modifiers:
+    - amount: 2
+      operation: ×
+      type: Fire
+    - amount: 30
+      operation: '-'
+      type: Grass
+    retreat: 2
+    dex number: 212
+    species: Scissors
+    weight: 260
+    height: 5'11
+    dex entry: >-
+      It swings its eye patterned pincers up to scare its foes. This makes
+      it look like it has three heads.
+    illustrators:
+    - Kimiya Masago
+- number: '30'
+  card:
+    name: Smeargle
+    rarity: rare
+    holographic: false
+    class: P
+    types:
+    - Colorless
+    hp: 50
+    stage: Basic
+    legal: false
+    filename: 30-smeargle
+    in-set-variant-of: 'neo-discovery: 11-smeargle as non-holo'
+    pokemon: Smeargle
+    mechanics:
+    - name: Sketch
+      cost: CC
+      type: attack
+      text: >-
+        If the Defending Pokémon attacked last turn, and Smeargle was
+        in play during that attack, Smeargle copies that attack except
+        for its Energy costs and anything else required in order to use
+        that attack.
+    damage modifiers:
+    - amount: 2
+      operation: ×
+      type: Fighting
+    - amount: 30
+      operation: '-'
+      type: Psychic
+    retreat: 1
+    dex number: 235
+    species: Painter
+    weight: 128
+    height: 3'11
+    dex entry: >-
+      A special fluid oozes from the tip of its tail. It paints the fluid
+      everywhere to mark its territory.
+    illustrators:
+    - Hironobu Yoshida
+- number: '31'
+  card:
+    name: Tyranitar
+    rarity: rare
+    holographic: false
+    class: P
+    types:
+    - Darkness
+    hp: 100
+    stage: Stage 2
+    evolves from:
+    - Pupitar
+    legal: false
+    filename: 31-tyranitar
+    in-set-variant-of: 'neo-discovery: 12-tyranitar as non-holo'
+    pokemon: Tyranitar
+    mechanics:
+    - name: Slam
+      cost: CCC
+      damage: 30×
+      type: attack
+      text: >-
+        Flip 2 coins. This attack does 30 times the number of heads.
+    - name: Trample
+      cost: DDCC
+      damage: '50'
+      type: attack
+      text: >-
+        For each Benched Pokémon in play (yours and your opponent's),
+        flip a coin. If heads, this attack does 30 damage to that Pokémon.
+        (Don't apply Weakness and Resistance for Benched Pokémon.)
+    damage modifiers:
+    - amount: 30
+      operation: '-'
+      type: Psychic
+    retreat: 3
+    dex number: 248
+    species: Armor
+    weight: 445
+    height: 6'7
+    dex entry: >-
+      Its body can't be harmed by any sort of attack, so it is very eager
+      to make challenges against enemies.
+    illustrators:
+    - Hironobu Yoshida
+- number: '32'
+  card:
+    name: Umbreon
+    rarity: rare
+    holographic: false
+    class: P
+    types:
+    - Darkness
+    hp: 70
+    stage: Stage 1
+    evolves from:
+    - Eevee
+    legal: false
+    filename: 32-umbreon
+    in-set-variant-of: 'neo-discovery: 13-umbreon as non-holo'
+    pokemon: Umbreon
+    mechanics:
+    - type: note
+      text: >-
+        You may have up to 4 Basic Pokémon cards in your deck with Unown
+        in their names.
+    - name: Quick Attack
+      cost: CC
+      damage: '10'
+      type: attack
+      text: >-
+        Flip a coin. If heads, this attack does 10 damage plus 20 more
+        damage; if tails, this attack does 10 damage.
+    - name: Pursuit
+      cost: DCC
+      damage: '30'
+      type: attack
+      text: >-
+        During your opponent's next turn, if the Defending Pokémon tries
+        to retreat, do 10 damage to it. (Don't apply Weakness and Resistance.)
+    damage modifiers:
+    - amount: 30
+      operation: '-'
+      type: Psychic
+    retreat: 1
+    dex number: 197
+    species: Moonlight
+    weight: 60
+    height: 3'3
+    dex entry: >-
+      When darkness falls, the rings on the body begin to glow, striking
+      fear into the hearts of anyone nearby.
+    illustrators:
+    - Naoyo Kimura
+- number: '33'
+  card:
+    name: Unown A
+    rarity: rare
+    holographic: false
+    class: P
+    types:
+    - Psychic
+    hp: 40
+    stage: Basic
+    legal: false
+    filename: 33-unown-a
+    in-set-variant-of: 'neo-discovery: 14-unown-a as non-holo'
+    pokemon: Unown
+    mechanics:
+    - name: '[Anger]'
+      type: pokemon-power
+      text: >-
+        Whenever 1 of your Pokémon with Unown in its name uses its Hidden
+        Power attack, that attack does 10 more damage for each damage
+        counter on Unown [A]. If you have more than 1 Unown [A] in play,
+        use only 1 [Anger] for each attack.
+    - name: Hidden Power
+      cost: P
+      damage: '10'
+      type: attack
+    damage modifiers:
+    - amount: 2
+      operation: ×
+      type: Psychic
+    retreat: 1
+    dex number: 201
+    species: Symbol
+    weight: 11
+    height: 1'8
+    dex entry: >-
+      Their shapes look like hieroglyphs on ancient tablets. It is said
+      that the two are somehow related.
+    illustrators:
+    - CR CG gangs
+- number: '34'
+  card:
+    name: Ursaring
+    rarity: rare
+    holographic: false
+    class: P
+    types:
+    - Colorless
+    hp: 80
+    stage: Stage 1
+    evolves from:
+    - Teddiursa
+    legal: false
+    filename: 34-ursaring
+    in-set-variant-of: 'neo-discovery: 15-ursaring as non-holo'
+    pokemon: Ursaring
+    mechanics:
+    - name: Headpress
+      cost: CC
+      damage: '20'
+      type: attack
+      text: >-
+        Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+        If tails, this attack does nothing (not even damage).
+    - name: Double Lariat
+      cost: CCCC
+      damage: 40×
+      type: attack
+      text: >-
+        Flip 2 coins. This attack does 40 times the number of heads.
+    damage modifiers:
+    - amount: 2
+      operation: ×
+      type: Fighting
+    - amount: 30
+      operation: '-'
+      type: Psychic
+    retreat: 3
+    dex number: 217
+    species: Hibernant
+    weight: 277
+    height: 5'11
+    dex entry: >-
+      Although it is a good climber, it prefers to snap trees with its
+      forelegs and eat fallen berries.
+    illustrators:
+    - Naoyo Kimura
+- number: '35'
+  card:
+    name: Wobbuffet
+    rarity: rare
+    holographic: false
+    class: P
+    types:
+    - Psychic
+    hp: 90
+    stage: Basic
+    legal: false
+    filename: 35-wobbuffet
+    in-set-variant-of: 'neo-discovery: 16-wobbuffet as non-holo'
+    pokemon: Wobbuffet
+    mechanics:
+    - name: Counter
+      cost: P
+      type: attack
+      text: >-
+        If an attack damages Wobbuffet during your opponent's next turn
+        (even if Wobbuffet is knocked out), flip a coin. If heads, Wobbuffet
+        attacks the Defending Pokémon for an equal amount of damage.
+    damage modifiers:
+    - amount: 2
+      operation: ×
+      type: Psychic
+    retreat: 3
+    dex number: 202
+    species: Patient
+    weight: 63
+    height: 4'3
+    dex entry: >-
+      To keep its pitch-black tail hidden, it lives quietly in the darkness.
+      It is never first to attack.
+    illustrators:
+    - Hironobu Yoshida
+- number: '36'
+  card:
+    name: Yanma
+    rarity: rare
+    holographic: false
+    class: P
+    types:
+    - Grass
+    hp: 60
+    stage: Basic
+    legal: false
+    filename: 36-yanma
+    in-set-variant-of: 'neo-discovery: 17-yanma as non-holo'
+    pokemon: Yanma
+    mechanics:
+    - name: Shockwave
+      cost: G
+      type: attack
+      text: >-
+        Flip a coin. If heads, this attack does 10 damage to each of your
+        opponent's Pokémon. Don't apply Weakness and Resistance. Then,
+        if your opponent has any Benched Pokémon, he or she chooses 1
+        of them and switches it with the Defending Pokémon.
+    - name: Swift
+      cost: GGG
+      damage: '30'
+      type: attack
+      text: >-
+        This attack's damage isn't affected by Weakness, Resistance, Pokémon
+        Powers, or any other effects on the Defending Pokémon.
+    damage modifiers:
+    - amount: 2
+      operation: ×
+      type: Fire
+    - amount: 30
+      operation: '-'
+      type: Fighting
+    dex number: 193
+    species: Clear Wing
+    weight: 84
+    height: 3'11
+    dex entry: >-
+      If it flaps its wings really fast, it can generate shock waves that
+      will shatter windows in the area.
+    illustrators:
+    - Atsuko Nishida
+- number: '37'
+  card:
+    name: Corsola
+    rarity: uncommon
+    holographic: false
+    class: P
+    types:
+    - Water
+    hp: 50
+    stage: Basic
+    legal: false
+    filename: 37-corsola
+    pokemon: Corsola
+    mechanics:
+    - name: Recover
+      cost: W
+      type: attack
+      text: >-
+        Discard 1 W Energy attached to Corsola or this attack does nothing.
+        Remove all damage counters from Corsola.
+    - name: Spike Cannon
+      cost: FF
+      damage: 30×
+      type: attack
+      text: >-
+        Flip 2 coins. This attack does 30 times the number of heads.
+    damage modifiers:
+    - amount: 2
+      operation: ×
+      type: Grass
+    retreat: 1
+    dex number: 222
+    species: Coral
+    weight: 11
+    height: 2'0
+    dex entry: >-
+      It continuously sheds and grows. The tip of its head is prized as
+      a treasure for its beauty.
+    illustrators:
+    - Yuka Morii
+- number: '38'
+  card:
+    name: Eevee
+    rarity: uncommon
+    holographic: false
+    class: P
+    types:
+    - Colorless
+    hp: 50
+    stage: Basic
+    legal: false
+    filename: 38-eevee
+    pokemon: Eevee
+    mechanics:
+    - name: Energy Evolution
+      type: pokemon-power
+      text: >-
+        Whenever you attach an Energy card to Eevee, flip a coin. If heads,
+        search your deck for that evolves from Eevee that is the same
+        type as the Energy card you attached to Eevee. Shuffle your deck
+        afterward. This power can't be used if Eevee is Asleep, Confused,
+        or Paralyzed.
+    - name: Smash Kick
+      cost: C
+      damage: '10'
+      type: attack
+    damage modifiers:
+    - amount: 2
+      operation: ×
+      type: Fighting
+    - amount: 30
+      operation: '-'
+      type: Psychic
+    retreat: 1
+    dex number: 133
+    species: Evolution
+    weight: 14
+    height: 1'0
+    dex entry: >-
+      Its irregularly configured DNA is affected by its surroundings.
+      It evolves if its environment changes.
+    illustrators:
+    - Aya Kusube
+- number: '39'
+  card:
+    name: Houndour
+    rarity: uncommon
+    holographic: false
+    class: P
+    types:
+    - Darkness
+    hp: 40
+    stage: Basic
+    legal: false
+    filename: 39-houndour
+    pokemon: Houndour
+    mechanics:
+    - name: Bite
+      cost: C
+      damage: '10'
+      type: attack
+    - name: Plunder
+      cost: DC
+      damage: '20'
+      type: attack
+      text: >-
+        Before doing damage, discard all Trainer cards attached to the
+        Defending Pokémon.
+    damage modifiers:
+    - amount: 30
+      operation: '-'
+      type: Psychic
+    retreat: 1
+    dex number: 228
+    species: Dark
+    weight: 24
+    height: 2'0
+    dex entry: >-
+      It uses different kinds of cries for communicating with others of
+      its kind and for pursuing its prey.
+    illustrators:
+    - Shin-ichi Yoshida
+- number: '40'
+  card:
+    name: Igglybuff
+    rarity: uncommon
+    holographic: false
+    class: P
+    types:
+    - Colorless
+    hp: 30
+    stage: Baby
+    evolves into:
+    - Jigglypuff
+    legal: false
+    filename: 40-igglybuff
+    pokemon: Igglybuff
+    mechanics:
+    - name: Gaze
+      type: pokemon-power
+      text: >-
+        Once during your turn (before you attack), choose 1 of your opponent's
+        Benched Pokémon that has a Pokémon Power. That power stops working
+        until the end of this turn. This effect ends if that Pokémon leaves
+        the Bench.
+    dex number: 174
+    species: Balloon
+    weight: 2
+    height: 1'0
+    dex entry: >-
+      It has a very soft body. If it starts to roll, it will bounce all
+      over and be impossible to stop.
+    illustrators:
+    - Miki Tanaka
+- number: '41'
+  card:
+    name: Kakuna
+    rarity: uncommon
+    holographic: false
+    class: P
+    types:
+    - Grass
+    hp: 70
+    stage: Stage 1
+    evolves from:
+    - Weedle
+    legal: false
+    filename: 41-kakuna
+    pokemon: Kakuna
+    mechanics:
+    - name: Secrete Poison
+      cost: GG
+      type: attack
+      text: >-
+        During your opponent's next turn, whenever your opponent's attack
+        damages Kakuna (even if Kakuna is knocked out), your opponent's
+        Active Pokémon is now Poisoned and Kakuna does 10 damage to each
+        of your opponent's Benched Pokémon. (Don't apply Weakness and
+        Resistance for Benched Pokémon.)
+    damage modifiers:
+    - amount: 2
+      operation: ×
+      type: Fire
+    retreat: 2
+    dex number: 14
+    species: Cocoon
+    weight: 22
+    height: 2'0
+    dex entry: >-
+      Although it is a cocoon, it can move a little. It can extend its
+      poison barb if it is attacked.
+    illustrators:
+    - Yukiko Baba
+- number: '42'
+  card:
+    name: Metapod
+    rarity: uncommon
+    holographic: false
+    class: P
+    types:
+    - Grass
+    hp: 70
+    stage: Stage 1
+    evolves from:
+    - Caterpie
+    legal: false
+    filename: 42-metapod
+    pokemon: Metapod
+    mechanics:
+    - name: Harden
+      cost: CC
+      type: attack
+      text: >-
+        During your opponent's next turn, whenever 20 or less damage is
+        done to Metapod (after applying Weakness and Resistance), prevent
+        that damage. (Any other effects of attacks still happen.)
+    - name: Hatch
+      cost: GG
+      type: attack
+      text: >-
+        Flip a coin. If heads, remove all damage counters from Metapod.
+        Then, search your deck for a card that evolves from Metapod and
+        attach that card to Metapod. This counts as evolving Metapod.
+        Shuffle your deck afterward.
+    damage modifiers:
+    - amount: 2
+      operation: ×
+      type: Fire
+    retreat: 2
+    dex number: 11
+    species: Cocoon
+    weight: 22
+    height: 2'4
+    dex entry: >-
+      Inside the shell, it is soft and weak as it prepares to evolve.
+      It stays motionless in the shell.
+    illustrators:
+    - Sumiyoshi Kizuki
+- number: '43'
+  card:
+    name: Omastar
+    rarity: uncommon
+    holographic: false
+    class: P
+    types:
+    - Fighting
+    hp: 80
+    stage: Stage 2
+    evolves from:
+    - Omanyte
+    legal: false
+    filename: 43-omastar
+    pokemon: Omastar
+    mechanics:
+    - name: Squeeze
+      cost: W
+      damage: '10'
+      type: attack
+      text: >-
+        Flip a coin. If heads, this attack does 10 damage plus 20 more
+        damage and the Defending Pokémon is now Paralyzed. If tails, this
+        attack does 10 damage.
+    - name: Spike Barrage
+      cost: WWW
+      damage: '20'
+      type: attack
+      text: >-
+        Flip a number of coins equal to the number of W Energy attached
+        to Omastar. This attack does 20 damage plus 20 more for each heads.
+    damage modifiers:
+    - amount: 2
+      operation: ×
+      type: Grass
+    retreat: 2
+    dex number: 139
+    species: Spiral
+    weight: 77
+    height: 3'3
+    dex entry: >-
+      Apparently, it cracked Shellder's shell with its sharp fangs and
+      sucked out the insides.
+    illustrators:
+    - Shin-ichi Yoshida
+- number: '44'
+  card:
+    name: Poliwhirl
+    rarity: uncommon
+    holographic: false
+    class: P
+    types:
+    - Water
+    hp: 70
+    stage: Stage 1
+    evolves from:
+    - Poliwag
+    legal: false
+    filename: 44-poliwhirl
+    pokemon: Poliwhirl
+    mechanics:
+    - name: Belly Drum
+      cost: C
+      type: attack
+      text: >-
+        Put 3 damage counters on Poliwhirl. If this doesn't knock out
+        Poliwhirl, search your deck for up to 2 Basic Energy cards and
+        attach them to Poliwhirl. Shuffle your deck afterward.
+    - name: Water Gun
+      cost: WWC
+      damage: '30'
+      type: attack
+      text: >-
+        Does 30 damage plus 10 more damage for each W Energy attached
+        to Poliwhirl but not used to pay for this attack's Energy cost.
+        You can't add more than 20 damage in this way.
+    damage modifiers:
+    - amount: 2
+      operation: ×
+      type: Grass
+    retreat: 1
+    dex number: 61
+    species: Tadpole
+    weight: 44
+    height: 3'3
+    dex entry: >-
+      The swirl on its belly subtly undulates. Staring at it may gradually
+      cause drowsiness.
+    illustrators:
+    - Kagemaru Himeno
+- number: '45'
+  card:
+    name: Pupitar
+    rarity: uncommon
+    holographic: false
+    class: P
+    types:
+    - Fighting
+    hp: 70
+    stage: Stage 1
+    evolves from:
+    - Larvitar
+    legal: false
+    filename: 45-pupitar
+    pokemon: Pupitar
+    mechanics:
+    - name: Skull Bash
+      cost: CC
+      damage: '20'
+      type: attack
+    - name: Dust Devil
+      cost: FF
+      type: attack
+      text: >-
+        Does 10 damage to each non-F Pokémon in play. Don't apply Weakness
+        and Resistance.
+    damage modifiers:
+    - amount: 2
+      operation: ×
+      type: Grass
+    - amount: 30
+      operation: '-'
+      type: Lightning
+    retreat: 1
+    dex number: 247
+    species: Hard Shell
+    weight: 335
+    height: 3'11
+    dex entry: >-
+      Its shell is as hard as sheet rock, and it is also very strong.
+      Its thrashing can topple a mountain.
+    illustrators:
+    - Hironobu Yoshida
+- number: '46'
+  card:
+    name: Scyther
+    rarity: uncommon
+    holographic: false
+    class: P
+    types:
+    - Grass
+    hp: 60
+    stage: Basic
+    legal: false
+    filename: 46-scyther
+    pokemon: Scyther
+    mechanics:
+    - name: Fury Cutter
+      cost: GG
+      damage: '10'
+      type: attack
+      text: >-
+        Flip 4 coins. This attack does 10 damage plus 10 more damage if
+        exactly 1 is heads, or 20 more damage if exactly 2 are heads,
+        or 40 more damage if exactly 3 are heads, or 80 more damage if
+        all 4 are heads.
+    damage modifiers:
+    - amount: 2
+      operation: ×
+      type: Fire
+    - amount: 30
+      operation: '-'
+      type: Fighting
+    retreat: 1
+    dex number: 123
+    species: Mantis
+    weight: 123
+    height: 4'11
+    dex entry: >-
+      It slashes through grass with its sharp scythes, moving too fast
+      for the human eye to track.
+    illustrators:
+    - Kimiya Masago
+- number: '47'
+  card:
+    name: Unown D
+    rarity: uncommon
+    holographic: false
+    class: P
+    types:
+    - Psychic
+    hp: 40
+    stage: Basic
+    legal: false
+    filename: 47-unown-d
+    pokemon: Unown
+    mechanics:
+    - type: note
+      text: >-
+        You may have up to 4 Basic Pokémon cards in your deck with Unown
+        in their names.
+    - name: '[Darkness]'
+      type: pokemon-power
+      text: >-
+        Whenever a D Pokémon damages 1 of your Pokémon, reduce that damage
+        by 30 (after applying Weakness and Resistance). This power stops
+        working if you have more than 1 Unown [D] in play. (This power
+        even works if Unown [D] is Asleep, Confused, or Paralyzed.)
+    - name: Hidden Power
+      cost: P
+      damage: '10'
+      type: attack
+    damage modifiers:
+    - amount: 2
+      operation: ×
+      type: Psychic
+    retreat: 1
+    dex number: 201
+    species: Symbol
+    weight: 11
+    height: 1'8
+    dex entry: >-
+      Their shapes look like hieroglyphs on ancient tablets. It is said
+      that the two are somehow related.
+    illustrators:
+    - CR CG gangs
+- number: '48'
+  card:
+    name: Unown F
+    rarity: uncommon
+    holographic: false
+    class: P
+    types:
+    - Psychic
+    hp: 40
+    stage: Basic
+    legal: false
+    filename: 48-unown-f
+    pokemon: Unown
+    mechanics:
+    - type: note
+      text: >-
+        You may have up to 4 Basic Pokémon cards in your deck with Unown
+        in their names.
+    - name: '[Find]'
+      type: pokemon-power
+      text: >-
+        Once during your turn (before you attack), if you have Unown [F],
+        Unown [I], Unown [N], and Unown [D] on your Bench, you may search
+        your deck for a Trainer card. Show that card to your opponent,
+        then put it into your hand. Shuffle your deck afterward.
+    - name: Hidden Power
+      cost: P
+      damage: '10'
+      type: attack
+    damage modifiers:
+    - amount: 2
+      operation: ×
+      type: Psychic
+    retreat: 1
+    dex number: 201
+    species: Symbol
+    weight: 11
+    height: 1'8
+    dex entry: >-
+      Their shapes look like hieroglyphs on ancient tablets. It is said
+      that the two are somehow related.
+    illustrators:
+    - CR CG gangs
+- number: '49'
+  card:
+    name: Unown M
+    rarity: uncommon
+    holographic: false
+    class: P
+    types:
+    - Psychic
+    hp: 40
+    stage: Basic
+    legal: false
+    filename: 49-unown-m
+    pokemon: Unown
+    mechanics:
+    - type: note
+      text: >-
+        You may have up to 4 Basic Pokémon cards in your deck with Unown
+        in their names.
+    - name: '[Metal]'
+      type: pokemon-power
+      text: >-
+        Whenever a M Pokémon damages 1 of your Pokémon, reduce that damage
+        by 30 (after applying Weakness and Resistance). This power stops
+        working if you have more than 1 Unown [M] in play. (This power
+        works even if Unown [M] is Asleep, Confused, or Paralyzed.)
+    - name: Hidden Power
+      cost: P
+      damage: '10'
+      type: attack
+    damage modifiers:
+    - amount: 2
+      operation: ×
+      type: Psychic
+    retreat: 1
+    dex number: 201
+    species: Symbol
+    weight: 11
+    height: 1'8
+    dex entry: >-
+      Their shapes look like hieroglyphs on ancient tablets. It is said
+      that the two are somehow related.
+    illustrators:
+    - CR CG gangs
+- number: '50'
+  card:
+    name: Unown N
+    rarity: uncommon
+    holographic: false
+    class: P
+    types:
+    - Psychic
+    hp: 40
+    stage: Basic
+    legal: false
+    filename: 50-unown-n
+    pokemon: Unown
+    mechanics:
+    - type: note
+      text: >-
+        You may have up to 4 Basic Pokémon cards in your deck with Unown
+        in their names.
+    - name: '[Normal]'
+      type: pokemon-power
+      text: >-
+        Whenever a Colorless Pokémon damages 1 of your Pokémon, reduce
+        that damage by 30 (after applying Weakness and Resistance). This
+        power stops working if you have more than 1 Unown [N] in play.
+        (This power works even if Unown [N] is Asleep, Confused, or Paralyzed.)
+    - name: Hidden Power
+      cost: P
+      damage: '10'
+      type: attack
+    damage modifiers:
+    - amount: 2
+      operation: ×
+      type: Psychic
+    retreat: 1
+    dex number: 201
+    species: Symbol
+    weight: 11
+    height: 1'8
+    dex entry: >-
+      Their shapes look like hieroglyphs on ancient tablets. It is said
+      that the two are somehow related.
+    illustrators:
+    - CR CG gangs
+- number: '51'
+  card:
+    name: Unown U
+    rarity: uncommon
+    holographic: false
+    class: P
+    types:
+    - Psychic
+    hp: 40
+    stage: Basic
+    legal: false
+    filename: 51-unown-u
+    pokemon: Unown
+    mechanics:
+    - type: note
+      text: >-
+        You may have up to 4 Basic Pokémon cards in your deck with Unown
+        in their names.
+    - name: '[Undo]'
+      type: pokemon-power
+      text: >-
+        Once during your turn (before you attack), if you have Unown [U],
+        Unown [N], Unown [D], and Unown [O] on your Bench, you may return
+        your Active Pokémon and all cards attached to it to your hand.
+    - name: Hidden Power
+      cost: P
+      damage: '10'
+      type: attack
+    damage modifiers:
+    - amount: 2
+      operation: ×
+      type: Psychic
+    retreat: 1
+    dex number: 201
+    species: Symbol
+    weight: 11
+    height: 1'8
+    dex entry: >-
+      Their shapes look like hieroglyphs on ancient tablets. It is said
+      that the two are somehow related.
+    illustrators:
+    - CR CG gangs
+- number: '52'
+  card:
+    name: Xatu
+    rarity: uncommon
+    holographic: false
+    class: P
+    types:
+    - Psychic
+    hp: 70
+    stage: Stage 1
+    evolves from:
+    - Natu
+    legal: false
+    filename: 52-xatu
+    pokemon: Xatu
+    mechanics:
+    - name: Energy Cycle
+      cost: P
+      type: attack
+      text: >-
+        Flip a coin. If heads, choose 1 Energy card attached to the Defending
+        Pokémon and 1 of your opponent's Benched Pokémon. Attach that
+        Energy card to that Pokémon.
+    - name: Super Psy
+      cost: PPC
+      damage: '50'
+      type: attack
+    damage modifiers:
+    - amount: 2
+      operation: ×
+      type: Psychic
+    - amount: 30
+      operation: '-'
+      type: Fighting
+    retreat: 1
+    dex number: 178
+    species: Mystic
+    weight: 33
+    height: 4'11
+    dex entry: >-
+      In South America, it is said that its right eye sees the future
+      and its left eye views the past.
+    illustrators:
+    - Sumiyoshi Kizuki
+- number: '53'
+  card:
+    name: Caterpie
+    rarity: common
+    holographic: false
+    class: P
+    types:
+    - Grass
+    hp: 50
+    stage: Basic
+    legal: false
+    filename: 53-caterpie
+    pokemon: Caterpie
+    mechanics:
+    - name: Spin Tackle
+      cost: C
+      damage: '20'
+      type: attack
+      text: >-
+        Caterpie does 10 damage to itself.
+    damage modifiers:
+    - amount: 2
+      operation: ×
+      type: Fire
+    retreat: 1
+    dex number: 10
+    species: Worm
+    weight: 6
+    height: 1'0
+    dex entry: >-
+      For protection, it releases a horrible stench from the antennae
+      on its head to drive away enemies.
+    illustrators:
+    - Yuka Morii
+- number: '54'
+  card:
+    name: Dunsparce
+    rarity: common
+    holographic: false
+    class: P
+    types:
+    - Colorless
+    hp: 30
+    stage: Basic
+    legal: false
+    filename: 54-dunsparce
+    pokemon: Dunsparce
+    mechanics:
+    - name: Glare
+      cost: C
+      damage: '10'
+      type: attack
+      text: >-
+        Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+    damage modifiers:
+    - amount: 2
+      operation: ×
+      type: Fighting
+    - amount: 30
+      operation: '-'
+      type: Psychic
+    dex number: 206
+    species: Land Snake
+    weight: 31
+    height: 4'11
+    dex entry: >-
+      When spotted, this Pokémon escapes backward by furiously burrowing
+      into the ground with its tail.
+    illustrators:
+    - Yukiko Baba
+- number: '55'
+  card:
+    name: Hoppip
+    rarity: common
+    holographic: false
+    class: P
+    types:
+    - Grass
+    hp: 30
+    stage: Basic
+    legal: false
+    filename: 55-hoppip
+    pokemon: Hoppip
+    mechanics:
+    - name: Rolling Tackle
+      cost: G
+      damage: '20'
+      type: attack
+    damage modifiers:
+    - amount: 2
+      operation: ×
+      type: Fire
+    - amount: 30
+      operation: '-'
+      type: Fighting
+    dex number: 187
+    species: Cottonweed
+    weight: 1
+    height: 1'4
+    dex entry: >-
+      Its body is so light, it must grip the ground firmly with its feet
+      to keep from being blown away.
+    illustrators:
+    - Kagemaru Himeno
+- number: '56'
+  card:
+    name: Kabuto
+    rarity: common
+    holographic: false
+    class: P
+    types:
+    - Water
+    hp: 50
+    stage: Stage 1
+    evolves from:
+    - Mysterious Fossil
+    legal: false
+    filename: 56-kabuto
+    pokemon: Kabuto
+    mechanics:
+    - name: Revive Friends
+      type: pokemon-power
+      text: >-
+        Once during your turn (before you attack), you may flip a coin.
+        If heads, search your deck for a card named Kabuto and put it
+        on your Bench. Shuffle your deck afterward. Treat the new Kabuto
+        as a Basic Pokémon. This power can't be used if Kabuto is Asleep,
+        Confused, or Paralyzed (or if your Bench is full).
+    - name: Work Together
+      cost: FC
+      damage: '10'
+      type: attack
+      text: >-
+        Flip a coin. If heads, this attack does 10 damage plus 10 more
+        damage for each Omanyte, Omastar, Kabuto, and Kabutops on your
+        Bench.
+    damage modifiers:
+    - amount: 2
+      operation: ×
+      type: Grass
+    retreat: 1
+    dex number: 140
+    species: Shellfish
+    weight: 25
+    height: 1'8
+    dex entry: >-
+      On rare occasions, some have been found as fossils which they became
+      while hiding on the ocean floor.
+    illustrators:
+    - Yuka Morii
+- number: '57'
+  card:
+    name: Larvitar
+    rarity: common
+    holographic: false
+    class: P
+    types:
+    - Fighting
+    hp: 40
+    stage: Basic
+    legal: false
+    filename: 57-larvitar
+    pokemon: Larvitar
+    mechanics:
+    - name: Bite
+      cost: C
+      damage: '10'
+      type: attack
+    damage modifiers:
+    - amount: 2
+      operation: ×
+      type: Grass
+    - amount: 30
+      operation: '-'
+      type: Lightning
+    retreat: 1
+    dex number: 246
+    species: Rock Skin
+    weight: 159
+    height: 2'0
+    dex entry: >-
+      It feeds on soil. After it has eaten a large mountain, it will fall
+      asleep so it can grow.
+    illustrators:
+    - Hironobu Yoshida
+- number: '58'
+  card:
+    name: Mareep
+    rarity: common
+    holographic: false
+    class: P
+    types:
+    - Lightning
+    hp: 50
+    stage: Basic
+    legal: false
+    filename: 58-mareep
+    pokemon: Mareep
+    mechanics:
+    - name: Thunder Jolt
+      cost: LC
+      damage: '30'
+      type: attack
+      text: >-
+        Flip a coin. If tails, Mareep does 10 damage to itself.
+    damage modifiers:
+    - amount: 2
+      operation: ×
+      type: Fighting
+    retreat: 1
+    dex number: 179
+    species: Wool
+    weight: 17
+    height: 2'0
+    dex entry: >-
+      Its fleece grows continually. In the summer, the fleece is fully
+      shed, but it grows back in a week.
+    illustrators:
+    - Atsuko Nishida
+- number: '59'
+  card:
+    name: Natu
+    rarity: common
+    holographic: false
+    class: P
+    types:
+    - Psychic
+    hp: 40
+    stage: Basic
+    legal: false
+    filename: 59-natu
+    pokemon: Natu
+    mechanics:
+    - name: Confuse Ray
+      cost: P
+      damage: '10'
+      type: attack
+      text: >-
+        Flip a coin. If heads, the Defending Pokémon is now Confused.
+    damage modifiers:
+    - amount: 2
+      operation: ×
+      type: Psychic
+    - amount: 30
+      operation: '-'
+      type: Fighting
+    retreat: 1
+    dex number: 177
+    species: Little Bird
+    weight: 4
+    height: 0'8
+    dex entry: >-
+      It usually forages for food on the ground but may, on rare occasions,
+      hop onto branches to peck at shoots.
+    illustrators:
+    - Sumiyoshi Kizuki
+- number: '60'
+  card:
+    name: Omanyte
+    rarity: common
+    holographic: false
+    class: P
+    types:
+    - Fighting
+    hp: 50
+    stage: Stage 1
+    evolves from:
+    - Mysterious Fossil
+    legal: false
+    filename: 60-omanyte
+    pokemon: Omanyte
+    mechanics:
+    - name: Fossil
+      type: pokemon-power
+      text: >-
+        Once during your turn (before your attack), you may flip a coin.
+        If heads, search your deck for a card that evolves from Mysterious
+        Fossil and put it on your Bench. Shuffle your deck afterward.
+        Treat that card as a Basic Pokémon. This power can't be used if
+        Omanyte is Asleep, Confused, or Paralyzed (or if your Bench is
+        full).
+    - name: Bind
+      cost: W
+      damage: '10'
+      type: attack
+      text: >-
+        Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+    damage modifiers:
+    - amount: 2
+      operation: ×
+      type: Grass
+    retreat: 1
+    dex number: 138
+    species: Spiral
+    weight: 17
+    height: 1'4
+    dex entry: >-
+      Revived from an ancient fossil, this Pokémon uses air stored in
+      its shell to sink and rise in water.
+    illustrators:
+    - Yuka Morii
+- number: '61'
+  card:
+    name: Pineco
+    rarity: common
+    holographic: false
+    class: P
+    types:
+    - Grass
+    hp: 40
+    stage: Basic
+    legal: false
+    filename: 61-pineco
+    pokemon: Pineco
+    mechanics:
+    - name: Burst
+      cost: G
+      damage: '40'
+      type: attack
+      text: >-
+        Flip a coin. If heads, Pineco does 40 damage to itself and 10
+        damage to each Pokémon on each player's Bench. (Don't apply Weakness
+        and Resistance for Benched Pokémon.) Flip a coin. If tails, this
+        attack does nothing (not even damage).
+    damage modifiers:
+    - amount: 2
+      operation: ×
+      type: Fire
+    retreat: 2
+    dex number: 204
+    species: Bagworm
+    weight: 16
+    height: 2'0
+    dex entry: >-
+      It likes to make its shell thicker by adding layers of tree bark.
+      The additional weight doesn't bother it.
+    illustrators:
+    - Tomokazu Komiya
+- number: '62'
+  card:
+    name: Poliwag
+    rarity: common
+    holographic: false
+    class: P
+    types:
+    - Water
+    hp: 40
+    stage: Basic
+    legal: false
+    filename: 62-poliwag
+    pokemon: Poliwag
+    mechanics:
+    - name: Rollout
+      cost: C
+      damage: '10'
+      type: attack
+    - name: Hypnosis
+      cost: W
+      type: attack
+      text: >-
+        The Defending Pokémon is now Asleep.
+    damage modifiers:
+    - amount: 2
+      operation: ×
+      type: Grass
+    retreat: 1
+    dex number: 60
+    species: Tadpole
+    weight: 27
+    height: 2'0
+    dex entry: >-
+      Because it is inept at walking on its newly grown legs, it always
+      swims around in water.
+    illustrators:
+    - Aya Kusube
+- number: '63'
+  card:
+    name: Sentret
+    rarity: common
+    holographic: false
+    class: P
+    types:
+    - Colorless
+    hp: 50
+    stage: Basic
+    legal: false
+    filename: 63-sentret
+    pokemon: Sentret
+    mechanics:
+    - name: Scout
+      cost: C
+      type: attack
+      text: >-
+        Look at your opponent's hand.
+    - name: Tackle
+      cost: CC
+      damage: '20'
+      type: attack
+    damage modifiers:
+    - amount: 2
+      operation: ×
+      type: Fighting
+    - amount: 30
+      operation: '-'
+      type: Psychic
+    retreat: 1
+    dex number: 161
+    species: Scout
+    weight: 13
+    height: 2'7
+    dex entry: >-
+      It stands on its tail so it can see a long way. If it spots an enemy,
+      it cries loudly to warn its kind.
+    illustrators:
+    - Sumiyoshi Kizuki
+- number: '64'
+  card:
+    name: Spinarak
+    rarity: common
+    holographic: false
+    class: P
+    types:
+    - Grass
+    hp: 50
+    stage: Basic
+    legal: false
+    filename: 64-spinarak
+    pokemon: Spinarak
+    mechanics:
+    - name: Poison Sting
+      cost: GC
+      damage: '20'
+      type: attack
+      text: >-
+        Flip a coin. If heads, the Defending Pokémon is now Poisoned.
+    damage modifiers:
+    - amount: 2
+      operation: ×
+      type: Fire
+    retreat: 1
+    dex number: 167
+    species: String Spit
+    weight: 19
+    height: 1'8
+    dex entry: >-
+      It spins a web using fine - but durable - thread. It then waits
+      patiently for prey to be trapped.
+    illustrators:
+    - Yukiko Baba
+- number: '65'
+  card:
+    name: Teddiursa
+    rarity: common
+    holographic: false
+    class: P
+    types:
+    - Colorless
+    hp: 40
+    stage: Basic
+    legal: false
+    filename: 65-teddiursa
+    pokemon: Teddiursa
+    mechanics:
+    - name: Scratch
+      cost: C
+      damage: '10'
+      type: attack
+    - name: Nap Time
+      cost: CC
+      type: attack
+      text: >-
+        Remove all damage counters from Teddiursa. Teddiursa is now Asleep.
+    damage modifiers:
+    - amount: 2
+      operation: ×
+      type: Fighting
+    - amount: 30
+      operation: '-'
+      type: Psychic
+    retreat: 1
+    dex number: 216
+    species: Little Bear
+    weight: 19
+    height: 2'0
+    dex entry: >-
+      If it finds honey, its crescent mark glows. It always licks its
+      paws because they are soaked with honey.
+    illustrators:
+    - Miki Tanaka
+- number: '66'
+  card:
+    name: Tyrogue
+    rarity: common
+    holographic: false
+    class: P
+    types:
+    - Fighting
+    hp: 30
+    stage: Baby
+    evolves into:
+    - Hitmonchan, Hitmonlee, Hitmontop
+    legal: false
+    filename: 66-tyrogue
+    pokemon: Tyrogue
+    mechanics:
+    - name: Smash Punch
+      cost: C
+      damage: '30'
+      type: attack
+      text: >-
+        Flip a coin. If tails, this attack does nothing.
+    dex number: 236
+    species: Scuffle
+    weight: 46
+    height: 2'4
+    dex entry: >-
+      It is always bursting with energy. To make itself stronger, it keeps
+      on fighting even if it loses.
+    illustrators:
+    - Miki Tanaka
+- number: '67'
+  card:
+    name: Unown E
+    rarity: common
+    holographic: false
+    class: P
+    types:
+    - Psychic
+    hp: 40
+    stage: Basic
+    legal: false
+    filename: 67-unown-e
+    pokemon: Unown
+    mechanics:
+    - type: note
+      text: >-
+        You may have up to 4 Basic Pokémon cards in your deck with Unown
+        in their names.
+    - name: '[Engage]'
+      type: pokemon-power
+      text: >-
+        When you play Unown [E] from your hand, your opponent may shuffle
+        his or her hand into his or her deck and then draw 4 cards. Either
+        way, you may shuffle your hand into your deck and draw 4 cards.
+    - name: Hidden Power
+      cost: P
+      damage: '10'
+      type: attack
+    damage modifiers:
+    - amount: 2
+      operation: ×
+      type: Psychic
+    retreat: 1
+    dex number: 201
+    species: Symbol
+    weight: 11
+    height: 1'8
+    dex entry: >-
+      Their shapes look like hieroglyphs on ancient tablets. It is said
+      that the two are somehow related.
+    illustrators:
+    - CR CG gangs
+- number: '68'
+  card:
+    name: Unown I
+    rarity: common
+    holographic: false
+    class: P
+    types:
+    - Psychic
+    hp: 40
+    stage: Basic
+    legal: false
+    filename: 68-unown-i
+    pokemon: Unown
+    mechanics:
+    - type: note
+      text: >-
+        You may have up to 4 Basic Pokémon cards in your deck with Unown
+        in their names.
+    - name: '[Increase]'
+      type: pokemon-power
+      text: >-
+        When you play Unown [I] from your hand, you may search your deck
+        for a card with Unown in its name and put it onto your Bench.
+        Shuffle your deck afterward. You can't use this power if your
+        Bench is full.
+    - name: Hidden Power
+      cost: P
+      damage: '10'
+      type: attack
+    damage modifiers:
+    - amount: 2
+      operation: ×
+      type: Psychic
+    retreat: 1
+    dex number: 201
+    species: Symbol
+    weight: 11
+    height: 1'8
+    dex entry: >-
+      Their shapes look like hieroglyphs on ancient tablets. It is said
+      that the two are somehow related.
+    illustrators:
+    - CR CG gangs
+- number: '69'
+  card:
+    name: Unown O
+    rarity: common
+    holographic: false
+    class: P
+    types:
+    - Psychic
+    hp: 40
+    stage: Basic
+    legal: false
+    filename: 69-unown-o
+    pokemon: Unown
+    mechanics:
+    - type: note
+      text: >-
+        You may have up to 4 Basic Pokémon cards in your deck with Unown
+        in their names.
+    - name: '[Observe]'
+      type: pokemon-power
+      text: >-
+        Once during your turn (before you attack), you may look at 5 cards
+        from the top of your opponent's deck and put them back in the
+        same order.
+    - name: Hidden Power
+      cost: P
+      damage: '10'
+      type: attack
+    damage modifiers:
+    - amount: 2
+      operation: ×
+      type: Psychic
+    retreat: 1
+    dex number: 201
+    species: Symbol
+    weight: 11
+    height: 1'8
+    dex entry: >-
+      Their shapes look like hieroglyphs on ancient tablets. It is said
+      that the two are somehow related.
+    illustrators:
+    - CR CG gangs
+- number: '70'
+  card:
+    name: Weedle
+    rarity: common
+    holographic: false
+    class: P
+    types:
+    - Grass
+    hp: 40
+    stage: Basic
+    legal: false
+    filename: 70-weedle
+    pokemon: Weedle
+    mechanics:
+    - name: Spike Stab
+      cost: G
+      damage: '20'
+      type: attack
+      text: >-
+        Flip a coin. If heads, the Defending Pokémon is now Poisoned.
+        If tails, this attack does nothing (not even damage).
+    damage modifiers:
+    - amount: 2
+      operation: ×
+      type: Fire
+    retreat: 1
+    dex number: 13
+    species: Hairy Bug
+    weight: 7
+    height: 1'0
+    dex entry: >-
+      Its poison stinger is very powerful. Its bright-colored body is
+      intended to warn off enemies.
+    illustrators:
+    - Miki Tanaka
+- number: '71'
+  card:
+    name: Wooper
+    rarity: common
+    holographic: false
+    class: P
+    types:
+    - Water
+    hp: 50
+    stage: Basic
+    legal: false
+    filename: 71-wooper
+    pokemon: Wooper
+    mechanics:
+    - name: Slime
+      cost: W
+      type: attack
+      text: >-
+        If an attack would do damage to Wooper during your opponent's
+        next turn, your opponent flips a coin. If tails, prevent all damage
+        done to Wooper from that attack. (Any other effects of that attack
+        happen.)
+    - name: Tail Slap
+      cost: CC
+      damage: '20'
+      type: attack
+    damage modifiers:
+    - amount: 2
+      operation: ×
+      type: Grass
+    - amount: 30
+      operation: '-'
+      type: Lightning
+    retreat: 1
+    dex number: 194
+    species: Water Fish
+    weight: 19
+    height: 1'4
+    dex entry: >-
+      When it walks around on the ground, it coats its body with a slimy,
+      poisonous film.
+    illustrators:
+    - Yukiko Baba
+- number: '72'
+  card:
+    name: Fossil Egg
+    rarity: uncommon
+    holographic: false
+    class: T
+    legal: false
+    filename: 72-fossil-egg
+    mechanics:
+    - type: effect
+      text: >-
+        Flip a coin. If heads, either search your deck for a card that
+        evolves from Mysterious Fossil and put it on your Bench or put
+        a card that evolves from Mysterious Fossil from your hand onto
+        your Bench. Either way, treat the new card as a Basic Pokémon.
+    illustrators:
+    - K. Hoshiba
+    - CR CG gangs
+- number: '73'
+  card:
+    name: Hyper Devolution Spray
+    rarity: uncommon
+    holographic: false
+    class: T
+    legal: false
+    filename: 73-hyper-devolution-spray
+    mechanics:
+    - type: effect
+      text: >-
+        Choose 1 of your Evolved Pokémon. Take the highest stage Evolution
+        card from that Pokémon and put it into your hand. (You can't evolve
+        a Pokémon the turn you devolve it.)
+    illustrators:
+    - K. Hoshiba
+    - CR CG gangs
+- number: '74'
+  card:
+    name: Ruin Wall
+    rarity: uncommon
+    holographic: false
+    class: T
+    legal: false
+    filename: 74-ruin-wall
+    mechanics:
+    - type: effect
+      text: >-
+        Search your deck for a card with Unown in its name and put it
+        onto your Bench. Shuffle your deck afterward. (You can't play
+        this card if your Bench is full.)
+    illustrators:
+    - Big Mama Tagawa
+    - CR CG gangs
+- number: '75'
+  card:
+    name: Energy Ark
+    rarity: common
+    holographic: false
+    class: T
+    legal: false
+    filename: 75-energy-ark
+    mechanics:
+    - type: effect
+      text: >-
+        Flip 2 coins. For each heads, search your deck for a Basic Energy
+        card. Show that card to your opponent, then put it into your hand.
+        Shuffle your deck afterward.
+    illustrators:
+    - Big Mama Tagawa & Benimaru Itoh

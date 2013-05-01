@@ -1,0 +1,599 @@
+---
+name: Southern Islands
+cards:
+- card:
+    name: Mew
+    rarity: ''
+    holographic: false
+    class: P
+    types:
+    - Psychic
+    hp: 30
+    stage: Basic
+    filename: 1-mew
+    pokemon: Mew
+    mechanics:
+    - name: Rainbow Wave
+      cost: P
+      type: attack
+      text: >-
+        Choose a type of Energy other than C attached to Mew. This attack
+        does 20 damage to each of your opponent's Pokémon of that type
+        (including Benched Pokémon). Don't apply Weakness and Resistance.
+    damage modifiers:
+    - amount: ''
+      operation: ''
+      type: Psychic
+    illustrators:
+    - Keiko Fukuyama
+- card:
+    name: Pidgeot
+    rarity: ''
+    holographic: false
+    class: P
+    types:
+    - Colorless
+    hp: 70
+    stage: Stage 2
+    evolves from:
+    - Pidgeotto
+    filename: 2-pidgeot
+    pokemon: Pidgeot
+    mechanics:
+    - name: Supersonic Flight
+      cost: CC
+      damage: '40'
+      type: attack
+      text: >-
+        Flip a coin. If tails, this attack does nothing.
+    - name: Slicing Wind
+      cost: CCCC
+      damage: '50'
+      type: attack
+    damage modifiers:
+    - amount: ''
+      operation: ''
+      type: Lightning
+    - amount: 30
+      operation: '-'
+      type: Fighting
+    illustrators:
+    - Keiko Fukuyama
+- card:
+    name: Onix
+    rarity: ''
+    holographic: false
+    class: P
+    types:
+    - Fighting
+    hp: 90
+    stage: Basic
+    filename: 3-onix
+    pokemon: Onix
+    mechanics:
+    - name: Slam
+      cost: CC
+      damage: 20×
+      type: attack
+      text: >-
+        Flip 2 coins. This attack does 20 damage times the number of heads.
+    - name: Body Slam
+      cost: FFFF
+      damage: '40'
+      type: attack
+      text: >-
+        Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+    damage modifiers:
+    - amount: ''
+      operation: ''
+      type: Grass
+    retreat: 3
+    illustrators:
+    - Keiko Fukuyama
+- card:
+    name: Togepi
+    rarity: ''
+    holographic: false
+    class: P
+    types:
+    - Colorless
+    hp: 40
+    stage: Basic
+    filename: 4-togepi
+    pokemon: Togepi
+    mechanics:
+    - name: Bawl
+      cost: C
+      damage: '10'
+      type: attack
+      text: >-
+        Flip a coin. If heads, the Defending Pokémon is now Confused.
+    damage modifiers:
+    - amount: 30
+      operation: '-'
+      type: Psychic
+    retreat: 1
+    illustrators:
+    - Keiko Fukuyama
+- card:
+    name: Ivysaur
+    rarity: ''
+    holographic: false
+    class: P
+    types:
+    - Grass
+    hp: 60
+    stage: Stage 1
+    evolves from:
+    - Bulbasaur
+    filename: 5-ivysaur
+    pokemon: Ivysaur
+    mechanics:
+    - name: Strange Scent
+      cost: G
+      type: attack
+      text: >-
+        Each player flips a coin. Each player who gets heads chooses a
+        total of 3 damage counters from among his or her Pokémon and removes
+        them. (If the player's Pokémon have fewer total damage counters
+        than that, he or she removes all of them.)
+    - name: Razor Leaf
+      cost: GG
+      damage: '30'
+      type: attack
+    damage modifiers:
+    - amount: ''
+      operation: ''
+      type: Fire
+    retreat: 1
+    illustrators:
+    - Keiko Fukuyama
+- card:
+    name: Raticate
+    rarity: ''
+    holographic: false
+    class: P
+    types:
+    - Colorless
+    hp: 60
+    stage: Stage 1
+    evolves from:
+    - Rattata
+    filename: 6-raticate
+    pokemon: Raticate
+    mechanics:
+    - name: Sharp Teeth
+      cost: CC
+      damage: 10+
+      type: attack
+      text: >-
+        Flip a coin. If heads, this attack does 10 damage plus 30 more
+        damage; if tails, this attack does 10 damage.
+    damage modifiers:
+    - amount: ''
+      operation: ''
+      type: Fighting
+    - amount: 30
+      operation: '-'
+      type: Psychic
+    illustrators:
+    - Keiko Fukuyama
+- card:
+    name: Ledyba
+    rarity: ''
+    holographic: false
+    class: P
+    types:
+    - Grass
+    hp: 40
+    stage: Basic
+    filename: 7-ledyba
+    pokemon: Ledyba
+    mechanics:
+    - name: Gnaw
+      cost: C
+      damage: '10'
+      type: attack
+    - name: Agility
+      cost: GG
+      damage: '20'
+      type: attack
+      text: >-
+        Flip a coin. If heads, during your opponent's next turn, prevent
+        all effects of attacks, including damage, done to Ledyba.
+    damage modifiers:
+    - amount: ''
+      operation: ''
+      type: Fire
+    - amount: 30
+      operation: '-'
+      type: Fighting
+    retreat: 1
+    illustrators:
+    - Keiko Fukuyama
+- card:
+    name: Jigglypuff
+    rarity: ''
+    holographic: false
+    class: P
+    types:
+    - Colorless
+    hp: 50
+    stage: Basic
+    filename: 8-jigglypuff
+    pokemon: Jigglypuff
+    mechanics:
+    - name: Tempting Eyes
+      cost: C
+      type: attack
+      text: >-
+        Choose 1 of your opponent's Benched Pokémon and switch it with
+        the Defending Pokémon.
+    - name: Sing
+      cost: C
+      type: attack
+      text: >-
+        Flip a coin. If heads, the Defending Pokémon is now Asleep.
+    damage modifiers:
+    - amount: ''
+      operation: ''
+      type: Fighting
+    - amount: 30
+      operation: '-'
+      type: Psychic
+    retreat: 1
+    illustrators:
+    - Keiko Fukuyama
+- card:
+    name: Butterfree
+    rarity: ''
+    holographic: false
+    class: P
+    types:
+    - Grass
+    hp: 80
+    stage: Stage 2
+    evolves from:
+    - Metapod
+    filename: 9-butterfree
+    pokemon: Butterfree
+    mechanics:
+    - name: Fly
+      cost: CCC
+      damage: '30'
+      type: attack
+      text: >-
+        Flip a coin. If heads, during your opponent's next turn, prevent
+        all effects of attacks, including damage, done to Butterfree.
+        If tails, this attack does nothing (not even damage).
+    - name: Rainbow Powder
+      cost: CGG
+      damage: '20'
+      type: attack
+      text: >-
+        Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+        If tails, the Defending Pokémon is now Poisoned.
+    damage modifiers:
+    - amount: ''
+      operation: ''
+      type: Fire
+    - amount: 30
+      operation: '-'
+      type: Fighting
+    retreat: 1
+    illustrators:
+    - Keiko Fukuyama
+- card:
+    name: Tentacruel
+    rarity: ''
+    holographic: false
+    class: P
+    types:
+    - Water
+    hp: 60
+    stage: Stage 1
+    evolves from:
+    - Tentacool
+    filename: 10-tentacruel
+    pokemon: Tentacruel
+    mechanics:
+    - name: Enigma Berry
+      type: item
+      text: >-
+        If Darkrai is damaged from an attack by your opponent's F Pokémon,
+        remove 4 damage counters at the end of that turn.
+    - name: Tentacle Grip
+      cost: W
+      type: attack
+      text: >-
+        Flip a number of coins equal to the number of W Energy attached
+        to Tentacruel. For each heads, draw 2 cards.
+    - name: Poison Sting
+      cost: WW
+      damage: '20'
+      type: attack
+      text: >-
+        Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+    damage modifiers:
+    - amount: ''
+      operation: ''
+      type: Lightning
+    retreat: 1
+    illustrators:
+    - Naoyo Kimura
+- card:
+    name: Marill
+    rarity: ''
+    holographic: false
+    class: P
+    types:
+    - Water
+    hp: 40
+    stage: Basic
+    filename: 11-marill
+    pokemon: Marill
+    mechanics:
+    - name: Squirt
+      cost: W
+      type: attack
+      text: >-
+        Choose 1 of your opponent's Pokémon. This attack does 10 damage
+        to that Pokémon. Don't apply Weakness and Resistance.
+    - name: Rolling Tackle
+      cost: CC
+      damage: '20'
+      type: attack
+    damage modifiers:
+    - amount: ''
+      operation: ''
+      type: Lightning
+    retreat: 1
+    illustrators:
+    - Naoyo Kimura
+- card:
+    name: Lapras
+    rarity: ''
+    holographic: false
+    class: P
+    types:
+    - Water
+    hp: 70
+    stage: Basic
+    filename: 12-lapras
+    pokemon: Lapras
+    mechanics:
+    - name: Gentle Song
+      cost: C
+      type: attack
+      text: >-
+        If Lapras has any damage counters on it, remove 2 of them from
+        it (1 if it only has 1). If the Defending Pokémon has any damage
+        counters on it, remove 2 of them (1 if it only has 1). The Defending
+        Pokémon is now Asleep.
+    - name: Ice Beam
+      cost: WW
+      damage: '20'
+      type: attack
+      text: >-
+        Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+    damage modifiers:
+    - amount: ''
+      operation: ''
+      type: Lightning
+    retreat: 1
+    illustrators:
+    - Naoyo Kimura
+- card:
+    name: Exeggutor
+    rarity: ''
+    holographic: false
+    class: P
+    types:
+    - Grass
+    hp: 70
+    stage: Stage 1
+    evolves from:
+    - Exeggcute
+    filename: 13-exeggutor
+    pokemon: Exeggutor
+    mechanics:
+    - name: Sharpshooter
+      cost: G
+      type: attack
+      text: >-
+        Choose 1 of your opponent's Pokémon. Flip a number of coins equal
+        to the number of G Energy attached to Exeggutor. This attack does
+        10 damage times the number of heads to that Pokémon. Don't apply
+        Weakness and Resistance.
+    damage modifiers:
+    - amount: ''
+      operation: ''
+      type: Fire
+    retreat: 2
+    illustrators:
+    - Naoyo Kimura
+- card:
+    name: Slowking
+    rarity: ''
+    holographic: false
+    class: P
+    types:
+    - Psychic
+    hp: 70
+    stage: Stage 1
+    evolves from:
+    - Slowpoke
+    filename: 14-slowking
+    pokemon: Slowking
+    mechanics:
+    - type: note
+      text: >-
+        Put this card onto your Active Mewtwo.  Mewtwo LV.X can use any
+        attack, Poke-Power, or Poke-Body from its previous level.
+    - name: Revelation
+      cost: P
+      type: attack
+      text: >-
+        Flip a coin. If heads, search your deck for a Trainer card, show
+        it to your opponent, and put it into your hand. Shuffle your deck
+        afterward.
+    - name: Psychic
+      cost: CP
+      damage: 10+
+      type: attack
+      text: >-
+        Does 10 damage plus 10 more damage for each Energy card attached
+        to the Defending Pokémon.
+    damage modifiers:
+    - amount: ''
+      operation: ''
+      type: Psychic
+    retreat: 2
+    illustrators:
+    - Naoyo Kimura
+- card:
+    name: Wartortle
+    rarity: ''
+    holographic: false
+    class: P
+    types:
+    - Water
+    hp: 60
+    stage: Stage 1
+    evolves from:
+    - Squirtle
+    filename: 15-wartortle
+    pokemon: Wartortle
+    mechanics:
+    - type: note
+      text: >-
+        Put this card onto your Active Rhyperior.  Rhyperior LV.X can
+        use any attack, Poke-Power, or Poke-Body from its previous level.
+    - name: Water Gun
+      cost: WW
+      damage: 20+
+      type: attack
+      text: >-
+        Does 20 damage plus 10 more damage for each W Energy attached
+        to Wartortle but not used to pay for this attack's Energy cost.
+        You can't add more than 20 damage in this way.
+    damage modifiers:
+    - amount: ''
+      operation: ''
+      type: Lightning
+    retreat: 1
+    illustrators:
+    - Naoyo Kimura
+- card:
+    name: Lickitung
+    rarity: ''
+    holographic: false
+    class: P
+    types:
+    - Colorless
+    hp: 70
+    stage: Basic
+    filename: 16-lickitung
+    pokemon: Lickitung
+    mechanics:
+    - type: note
+      text: >-
+        Put this card onto your Active Regigigas.  Regigigas Lv.X can
+        use any attack, Poke-Power, or Poke-Body from its previous level.
+    - name: Lick Wounds
+      cost: C
+      type: attack
+      text: >-
+        Flip a coin. If heads, choose 1 Pokémon (yours or your opponent's)
+        with damage counters on it and remove 2 damage counters from it
+        (1 if it only has 1).
+    - name: Tongue Stretch
+      cost: CC
+      type: attack
+      text: >-
+        Flip a coin. If heads, choose 1 of your opponent's Pokémon. This
+        attack does 20 damage to that Pokémon. Don't apply Weakness and
+        Resistance.
+    damage modifiers:
+    - amount: ''
+      operation: ''
+      type: Fighting
+    - amount: 30
+      operation: '-'
+      type: Psychic
+    retreat: 2
+    illustrators:
+    - Naoyo Kimura
+- card:
+    name: Vileplume
+    rarity: ''
+    holographic: false
+    class: P
+    types:
+    - Grass
+    hp: 70
+    stage: Stage 2
+    evolves from:
+    - Gloom
+    filename: 17-vileplume
+    pokemon: Vileplume
+    mechanics:
+    - type: note
+      text: >-
+        Put this card onto your Active Heatran.  Heatran Lv.X can use
+        any attack, Poke-Power, or Poke-Body from its previous level.
+    - name: Paradise Pollen
+      cost: G
+      type: attack
+      text: >-
+        Flip a coin. If heads, remove 2 damage counters from Vileplume
+        (1 if it only has 1). Then, if you have nay Benched Pokémon with
+        damage counters on them, choose 1 of them and remove 2 damage
+        counters from it (1 if it only has 1).
+    - name: Horrid Pollen
+      cost: CGG
+      damage: '30'
+      type: attack
+      text: >-
+        Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+        If tails, the Defending Pokémon is now Confused.
+    damage modifiers:
+    - amount: ''
+      operation: ''
+      type: Fire
+    retreat: 1
+    illustrators:
+    - Naoyo Kimura
+- card:
+    name: Primeape
+    rarity: ''
+    holographic: false
+    class: P
+    types:
+    - Fighting
+    hp: 60
+    stage: Stage 1
+    evolves from:
+    - Mankey
+    filename: 18-primeape
+    pokemon: Primeape
+    mechanics:
+    - name: Low Kick
+      cost: F
+      damage: '20'
+      type: attack
+    - name: Rampage
+      cost: FF
+      damage: 20+
+      type: attack
+      text: >-
+        Does 20 damage plus 10 more damage for each damage counter on
+        Primeape. Flip a coin. If tails, Primeape is now Confused (after
+        doing damage).
+    damage modifiers:
+    - amount: ''
+      operation: ''
+      type: Psychic
+    retreat: 1
+    illustrators:
+    - Naoyo Kimura

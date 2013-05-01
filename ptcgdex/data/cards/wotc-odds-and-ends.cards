@@ -1,0 +1,77 @@
+---
+name: Meowth (Gold Border)
+rarity: common
+holographic: false
+filename: meowth-gold-border
+reprint of: 'jungle: 56-meowth with a holo gold border'
+pokemon: Meowth
+---
+name: Exeggutor (Bilingual)
+rarity: common
+holographic: false
+filename: exeggutor-bilingual
+pokemon: Exeggutor
+---
+name: Ancient Mew (Pokémon 2000)
+rarity: common
+holographic: false
+filename: ancient-mew
+pokemon: Mew
+---
+name: Pikachu (E3)
+rarity: common
+holographic: false
+filename: pikachu-e3
+reprint of: 'base-set: 58-pikachu with a special stamp'
+pokemon: Pikachu
+---
+name: Pikachu (E3; Red Cheek)
+rarity: common
+holographic: false
+filename: pikachu-red-cheek-e3
+reprint of: 'base-set: 58-pikachu with a special stamp'
+pokemon: Pikachu
+---
+name: Pikachu (PokeTour 1999)
+rarity: rare
+holographic: false
+filename: pikachu-poketour
+reprint of: 'base-set: 58-pikachu with a special stamp'
+pokemon: Pikachu
+---
+name: Charizard (Theme Deck Non-Holo)
+rarity: rare
+holographic: true
+filename: charizard-legendary-collection-theme-deck-variant
+reprint of: 'legendary-collection: 3-charizard as a non-holo (theme deck
+  variant)'
+pokemon: Charizard
+---
+name: Dark Blastoise (Theme Deck Non-Holo)
+rarity: rare
+holographic: false
+filename: dark-blastoise-legendary-collection-theme-deck-variant
+reprint of: 'legendary-collection: 4-dark-blastoise as a non-holo (theme
+  deck variant)'
+pokemon: Blastoise
+---
+name: Dark Raichu (Theme Deck Non-Holo)
+rarity: rare
+holographic: true
+filename: dark-raichu-legendary-collection-theme-deck-variant
+reprint of: 'legendary-collection: 7-dark-raichu as a non-holo (theme
+  deck variant)'
+pokemon: Raichu
+---
+name: Pikachu (Jumbo)
+rarity: rare
+holographic: false
+filename: pikachu-jumbo
+reprint of: 'base-set: 58-pikachu as a jumbo card'
+pokemon: Pikachu
+---
+name: Articuno, Moltres, and Zapdos (Jumbo)
+rarity: rare
+holographic: true
+filename: articuno-moltres-zapdos-jumbo
+pokemon: Articuno, Moltres, and Zapdos

@@ -1,0 +1,140 @@
+---
+name: Darkness Energy (Holo)
+rarity: ''
+holographic: false
+filename: 2003-darkness-holo
+reprint of: 'ex-ruby-and-sapphire: 93'
+---
+name: Darkness Energy (Winner)
+rarity: ''
+holographic: false
+filename: 2003-darkness-winner
+reprint of: 'ex-ruby-and-sapphire: 93'
+---
+name: Metal Energy (Holo)
+rarity: ''
+holographic: false
+filename: 2004-metal-holo
+reprint of: 'ex-ruby-and-sapphire: 94'
+---
+name: Metal Energy (Winner)
+rarity: ''
+holographic: false
+filename: 2004-metal-winner
+reprint of: 'ex-ruby-and-sapphire: 94'
+---
+name: Multi Energy (Holo)
+rarity: ''
+holographic: false
+filename: 2004-multi-holo
+reprint of: 'ex-sandstorm: 93'
+---
+name: Multi Energy (Winner)
+rarity: ''
+holographic: false
+filename: 2004-multi-winner
+reprint of: 'ex-sandstorm: 93'
+---
+name: Oran Berry
+rarity: ''
+holographic: false
+filename: 2004-oran-berry
+reprint of: 'ex-ruby-and-sapphire: 85'
+subclasses:
+- Tool
+---
+name: Oran Berry (Winner)
+rarity: ''
+holographic: false
+filename: 2004-oran-berry-winner
+reprint of: 'ex-ruby-and-sapphire: 85'
+subclasses:
+- Tool
+---
+name: Flygon (Holo)
+rarity: ''
+holographic: false
+filename: 2004-flygon-holo
+reprint of: 'ex-dragon: 15'
+pokemon: Flygon
+---
+name: Flygon (Winner)
+rarity: ''
+holographic: false
+filename: 2004-flygon-winner
+reprint of: 'ex-dragon: 15'
+pokemon: Flygon
+---
+name: Salamence (Holo)
+rarity: ''
+holographic: false
+filename: 2004-salamence-holo
+reprint of: 'ex-dragon: 19'
+pokemon: Salamence
+---
+name: Salamence (Winner)
+rarity: ''
+holographic: false
+filename: 2004-salamence-winner
+reprint of: 'ex-dragon: 19'
+pokemon: Salamence
+---
+name: Fighting Energy (Holo)
+rarity: ''
+holographic: false
+filename: 2007-fighting
+reprint of: 'ex-ruby-and-sapphire: 105'
+mechanics:
+- type: effect
+  text: >-
+    Provides 1 Fighting energy.
+---
+name: Fire Energy (Holo)
+rarity: ''
+holographic: false
+filename: 2007-fire
+reprint of: 'ex-ruby-and-sapphire: 108'
+mechanics:
+- type: effect
+  text: >-
+    Provides 1 Fire energy.
+---
+name: Grass Energy (Holo)
+rarity: ''
+holographic: false
+filename: 2007-grass
+reprint of: 'ex-ruby-and-sapphire: 104'
+mechanics:
+- type: effect
+  text: >-
+    Provides 1 Grass energy.
+---
+name: Lightning Energy (Holo)
+rarity: ''
+holographic: false
+filename: 2007-lightning
+reprint of: 'ex-ruby-and-sapphire: 109'
+mechanics:
+- type: effect
+  text: >-
+    Provides 1 Lightning energy.
+---
+name: Psychic Energy (Holo)
+rarity: ''
+holographic: false
+filename: 2007-psychic
+reprint of: 'ex-ruby-and-sapphire: 107'
+mechanics:
+- type: effect
+  text: >-
+    Provides 1 Psychic energy.
+---
+name: Water Energy (Holo)
+rarity: ''
+holographic: false
+filename: 2007-water
+reprint of: 'ex-ruby-and-sapphire: 106'
+mechanics:
+- type: effect
+  text: >-
+    Provides 1 Water energy.

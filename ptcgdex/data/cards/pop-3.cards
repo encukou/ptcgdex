@@ -1,0 +1,153 @@
+---
+name: Blastoise
+rarity: common
+holographic: false
+filename: 1-blastoise
+pokemon: Blastoise
+---
+name: Blastoise (Holo)
+rarity: common
+holographic: false
+filename: 1-blastoise-holo
+reprint of: 'pop-3: 1 as a holo'
+pokemon: Blastoise
+---
+name: Flareon
+rarity: common
+holographic: false
+filename: 2-flareon
+pokemon: Flareon
+---
+name: Flareon (Holo)
+rarity: common
+holographic: false
+filename: 2-flareon-holo
+reprint of: 'pop-3: 2 as a holo'
+pokemon: Flareon
+---
+name: Jolteon
+rarity: common
+holographic: false
+filename: 3-jolteon
+pokemon: Jolteon
+---
+name: Jolteon (Holo)
+rarity: common
+holographic: false
+filename: 3-jolteon-holo
+reprint of: 'pop-3: 3 as a holo'
+pokemon: Jolteon
+---
+name: Minun
+rarity: common
+holographic: false
+filename: 4-minun
+pokemon: Minun
+---
+name: Minun (Holo)
+rarity: ''
+holographic: false
+filename: 4-minun-holo
+reprint of: 'pop-3: 4 as a holo'
+pokemon: Minun
+---
+name: Plusle
+rarity: ''
+holographic: false
+filename: 5-plusle
+pokemon: Plusle
+---
+name: Plusle (Holo)
+rarity: ''
+holographic: false
+filename: 5-plusle-holo
+reprint of: 'pop-3: 5 as a holo'
+pokemon: Plusle
+---
+name: Vaporeon
+rarity: ''
+holographic: false
+filename: 6-vaporeon
+pokemon: Vaporeon
+---
+name: Vaporeon (Holo)
+rarity: ''
+holographic: false
+filename: 6-vaporeon-holo
+reprint of: 'pop-3: 6 as a holo'
+pokemon: Vaporeon
+---
+name: Combusken
+rarity: ''
+holographic: false
+filename: 7-combusken
+pokemon: Combusken
+---
+name: Donphan
+rarity: ''
+holographic: false
+filename: 8-donphan
+pokemon: Donphan
+---
+name: Forretress
+rarity: ''
+holographic: false
+filename: 9-forretress
+pokemon: Forretress
+---
+name: High Pressure System
+rarity: ''
+holographic: false
+filename: 10-high-pressure-system
+subclasses:
+- Stadium
+---
+name: Low Pressure System
+rarity: ''
+holographic: false
+filename: 11-low-pressure-system
+subclasses:
+- Stadium
+---
+name: Ditto (as Mr. Mime)
+rarity: ''
+holographic: false
+filename: 12-ditto-as-mr.-mime
+pokemon: Ditto
+---
+name: Eevee
+rarity: ''
+holographic: false
+filename: 13-eevee
+pokemon: Eevee
+---
+name: Ivysaur
+rarity: ''
+holographic: false
+filename: 14-ivysaur
+pokemon: Ivysaur
+---
+name: Marshtomp
+rarity: ''
+holographic: false
+filename: 15-marshtomp
+pokemon: Marshtomp
+---
+name: Pichu Bros.
+rarity: ''
+holographic: false
+filename: 16-pichu-bros.
+pokemon: Pichu
+---
+name: Ho-Oh ex
+rarity: ''
+holographic: false
+filename: 17-ho-oh-ex
+pokemon: Ho-Oh
+---
+name: Ho-Oh ex (Holo)
+rarity: ''
+holographic: false
+filename: 17-ho-oh-ex-holo
+reprint of: 'pop-3: 17 as a holo'
+pokemon: Ho-Oh

@@ -1,0 +1,60 @@
+---
+name: Prof. Oak's Research
+rarity: ''
+holographic: false
+filename: 2005-oak
+reprint of: 'ex-firered-and-leafgreen: 98'
+subclasses:
+- Supporter
+---
+name: Grass Energy
+rarity: ''
+holographic: false
+filename: 2005-grass
+reprint of: 'ex-ruby-and-sapphire: 104'
+---
+name: Fighting Energy
+rarity: ''
+holographic: false
+filename: 2005-fighting
+reprint of: 'ex-ruby-and-sapphire: 105'
+---
+name: Water Energy
+rarity: ''
+holographic: false
+filename: 2005-water
+reprint of: 'ex-ruby-and-sapphire: 106'
+---
+name: Psychic Energy
+rarity: ''
+holographic: false
+filename: 2005-psychic
+reprint of: 'ex-ruby-and-sapphire: 107'
+---
+name: Fire Energy
+rarity: ''
+holographic: false
+filename: 2005-fire
+reprint of: 'ex-ruby-and-sapphire: 108'
+---
+name: Lightning Energy
+rarity: ''
+holographic: false
+filename: 2005-lightning
+reprint of: 'ex-ruby-and-sapphire: 109'
+---
+name: Professor Birch (Holo)
+rarity: ''
+holographic: false
+filename: 2006-birch
+reprint of: 'ex-emerald: 82'
+subclasses:
+- Supporter
+---
+name: Professor Elm's Training Method
+rarity: ''
+holographic: false
+filename: 2007-elm
+reprint of: 'ex-dragon-frontiers: 79'
+subclasses:
+- Supporter

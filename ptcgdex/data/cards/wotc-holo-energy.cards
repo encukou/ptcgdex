@@ -1,0 +1,88 @@
+---
+name: Rainbow Energy
+rarity: rare
+holographic: true
+filename: rainbow
+reprint of: 'team-rocket: 17-rainbow-energy as a holo'
+subclasses:
+- Special
+---
+name: Recycle Energy
+rarity: rare
+holographic: false
+filename: recycle
+reprint of: 'neo-genesis: 105-recycle-energy as a holo'
+subclasses:
+- Special
+---
+name: Fighting Energy
+rarity: rare
+holographic: true
+filename: fighting
+reprint of: 'neo-genesis: 106-fighting-energy as a holo'
+subclasses:
+- Basic
+mechanics:
+- type: effect
+  text: >-
+    Provides 1 Fighting Energy.
+---
+name: Fire Energy
+rarity: uncommon
+holographic: false
+filename: fire
+reprint of: 'neo-genesis: 107-fire-energy as a holo'
+subclasses:
+- Basic
+mechanics:
+- type: effect
+  text: >-
+    Provides 1 Fire Energy.
+---
+name: Grass Energy
+rarity: uncommon
+holographic: false
+filename: grass
+reprint of: 'neo-genesis: 108-grass-energy as a holo'
+subclasses:
+- Basic
+mechanics:
+- type: effect
+  text: >-
+    Provides 1 Grass Energy.
+---
+name: Lightning Energy
+rarity: uncommon
+holographic: false
+filename: lightning
+reprint of: 'neo-genesis: 109-lightning-energy as a holo'
+subclasses:
+- Basic
+mechanics:
+- type: effect
+  text: >-
+    Provides 1 Lightning Energy.
+---
+name: Psychic Energy
+rarity: uncommon
+holographic: false
+filename: psychic
+reprint of: 'neo-genesis: 110-psychic-energy as a holo'
+subclasses:
+- Basic
+mechanics:
+- type: effect
+  text: >-
+    Provides 1 Psychic Energy.
+---
+name: Water Energy
+rarity: uncommon
+holographic: false
+filename: water
+reprint of: 'neo-genesis: 111-water-energy as a holo'
+subclasses:
+- Basic
+mechanics:
+- type: effect
+  text: >-
+    Provides 1 Water Energy.
