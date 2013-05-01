@@ -209,9 +209,7 @@ def import_card(session, card_info):
             query = util.filter_name(query, tcg_tables.Mechanic,
                                 mechanic_name, en)
         if effect:
-            query = util.filter_name(query, tcg_tables.Mechanic,
-                                effect, en, name_attribute='effect',
-                                names_table_name='effects_table')
+            query = query.filter(tcg_tables.Mechanic.effect == effect)
         query = query.filter(tcg_tables.Mechanic.class_ == mechanic_class)
         for mechanic in query.all():
             if export_mechanic(mechanic) == mechanic_info:
@@ -292,8 +290,7 @@ def import_card(session, card_info):
         link.order = subclass_index
         session.add(link)
 
-    evolves_from = card_info.get('evolves from', None)
-    if evolves_from:
+    for evolves_from in card_info.get('evolves from', []):
         family = get_family(session, en, evolves_from)
         link = tcg_tables.Evolution()
         link.card = card
@@ -302,8 +299,7 @@ def import_card(session, card_info):
         link.family_to_card = True
         session.add(link)
 
-    evolves_into = card_info.get('evolves into', None)
-    if evolves_into:
+    for evolves_into in card_info.get('evolves into', []):
         family = get_family(session, en, evolves_into)
         link = tcg_tables.Evolution()
         link.card = card
@@ -477,9 +473,10 @@ def export_card(card):
         assert len(card.evolutions) == 1  # TODO
         for evo in card.evolutions:
             if evo.family_to_card:
-                card_info['evolves from'] = evo.family.name
+                collection = 'evolves from'
             else:
-                card_info['evolves into'] = evo.family.name
+                collection = 'evolves into'
+            card_info.setdefault(collection, []).append(evo.family.name)
     return make_ordered_dict(card_info, CARD_EXPORT_KEYS, INCLUDED_KEYS)
 
 PRINT_EXPORT_KEYS = [

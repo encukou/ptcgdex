@@ -217,8 +217,12 @@ def main(infile, destdir=None):
 
         simple_out('stage', 'stage')
 
-        simple_out('evolves from', 'evolves-from')
-        simple_out('evolves into', 'evolves-into')
+        evolves_from = pop('evolves-from')
+        if evolves_from:
+            result['evolves from'] = [evolves_from]
+        evolves_into = pop('evolves-into')
+        if evolves_into:
+            result['evolves into'] = [evolves_into]
 
         pop('evo-line')
         simple_out('legal', 'legal', convertor=lambda el: el == 'y')
