@@ -2,6 +2,7 @@
 
 from sqlalchemy import (Column, ForeignKey, MetaData, PrimaryKeyConstraint,
                         Table, UniqueConstraint)
+from sqlalchemy.ext.associationproxy import association_proxy
 from sqlalchemy.types import *
 from sqlalchemy.orm import backref, relationship
 
@@ -430,6 +431,8 @@ CardMechanic.card = relationship(Card, backref=backref(
 CardMechanic.mechanic = relationship(Mechanic, backref='card_mechanics')
 
 PokemonFlavor.species = relationship(dex_tables.PokemonSpecies)
+
+Set.prints = association_proxy('set_prints', 'print_')
 
 SetPrint.print_ = relationship(Print, backref='set_prints')
 SetPrint.set = relationship(Set, backref=backref(
