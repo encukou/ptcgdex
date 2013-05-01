@@ -20,6 +20,13 @@ def make_identifier(length):
     return Column(Unicode(length), nullable=False, unique=True, index=True,
         info=dict(description=u"An identifier", format='identifier'))
 
+def set_print_sort_key(set_print):
+    if set_print.set.release_date:
+        release_key = set_print.set.release_date.timetuple()
+    else:
+        release_key = (1e100, 1e100)
+    return release_key, set_print.set.identifier, set_print.number
+
 class Card(TableBase):
     __tablename__ = 'tcg_cards'
     __singlename__ = 'tcg_card'
@@ -58,6 +65,12 @@ class Card(TableBase):
     def subclasses(self):
         return tuple(cs.subclass for cs in self.card_subclasses)
 
+    @property
+    def set_prints(self):
+        set_prints = [sp for p in self.prints for sp in p.set_prints]
+        set_prints.sort(key=set_print_sort_key)
+        return set_prints
+
 
 class Print(TableBase):
     __tablename__ = 'tcg_prints'
@@ -84,6 +97,10 @@ class Print(TableBase):
     @property
     def illustrators(self):
         return [pi.illustrator for pi in self.print_illustrators]
+
+    @property
+    def set_prints(self):
+        return sorted(self._set_prints, key=set_print_sort_key)
 
 class TCGType(TableBase):
     __tablename__ = 'tcg_types'
@@ -315,13 +332,17 @@ class SetPrint(TableBase):
     set_id = Column(Integer, ForeignKey('tcg_sets.id'),
         nullable=False, primary_key=True,
         info=dict(description="The ID of the set"))
-    card_id = Column(Integer, ForeignKey('tcg_prints.id'),
-        nullable=False, primary_key=True,
+    print_id = Column(Integer, ForeignKey('tcg_prints.id'),
+        nullable=False, primary_key=True, index=True,
         info=dict(description="The ID of the print"))
     number = Column(Unicode(5), nullable=True,
         info=dict(description='The card "number" in the set (may not be actually numeric)'))
     order = Column(Integer, nullable=True,
         info=dict(description="Sort order inside the set"))
+
+    @property
+    def card(self):
+        return self.print_.card
 
 class Illustrator(TableBase):
     __tablename__ = 'tcg_illustrators'
@@ -368,6 +389,15 @@ class CardFamily(TableBase):
     __singlename__ = 'tcg_card_family'
     id = make_id()
     identifier = make_identifier(32)
+
+    @property
+    def set_prints(self):
+        set_prints = [sp
+                      for c in self.cards
+                      for p in c.prints
+                      for sp in p.set_prints]
+        set_prints.sort(key=set_print_sort_key)
+        return set_prints
 
 
 create_translation_table('tcg_card_family_names', CardFamily, 'names',
