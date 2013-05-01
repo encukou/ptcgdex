@@ -6,8 +6,8 @@ Usage:
     ptcgdex [options] load [<table-name> ...]
     ptcgdex [options] dump [--all] [<table-identifier> ...]
     ptcgdex [options] import [<file> ...]
-    ptcgdex [options] export [--all | <print-id> ...]
-    ptcgdex [options] export-set [<set-identifier> ...]
+    ptcgdex [options] export-card [--all | <print-id> ...]
+    ptcgdex [options] export-set [--all | <set-identifier> ...]
 
 Commands:
     help: Does just what you'd expect.
@@ -17,7 +17,7 @@ Commands:
     dump: Dump the database into CSV files. Useful for developers.
     import: Import cards from YAML files. If no file is given, imports from
         standard input
-    export: Export cards in a YAML format. Writes to stdout. 
+    export-card: Export cards in a YAML format. Writes to stdout. 
     export-set: Export whole sets in a YAML format. Writes to stdout. 
 
 Global options:
@@ -134,13 +134,22 @@ def dump(session, options):
 
 def import_(session, options):
     from ptcgdex import load as ptcg_load
-    def _load(f, label):
-        ptcg_load.import_(session, f, label, verbose=options['--verbose'])
+    def _load(f, label, name=None):
+        ptcg_load.import_(session, f, label, name, verbose=options['--verbose'])
     if not options['<file>']:
         _load(sys.stdin, 'stdin')
+
+    if session.connection().dialect.name == 'sqlite':
+        session.connection().execute("PRAGMA synchronous=OFF")
+        session.connection().execute("PRAGMA journal_mode=OFF")
+
     for filename in options['<file>']:
         with open(filename) as f:
-            _load(f, filename)
+            identifier, ext = os.path.splitext(os.path.basename(filename))
+            _load(f, filename, identifier)
+
+    if session.connection().dialect.name == 'sqlite':
+        session.connection().execute("PRAGMA integrity_check")
 
 
 def export(session, options):
@@ -148,14 +157,25 @@ def export(session, options):
     from ptcgdex import load as ptcg_load
     from pokedex.db import util
     prints = []
-    for set_ident in options['<set-identifier>']:
-        prints.extend(util.get(session, tcg_tables.Set, set_ident).prints)
     for print_id in options['<print-id>']:
-        prints.append(util.get(session, tcg_tables.Print, id=print_id))
+        prints.append(util.get(session, tcg_tables.Print, id=int(print_id)))
     if options['--all']:
         prints = session.query(tcg_tables.Print)
     for tcg_print in prints:
         print ptcg_load.yaml_dump(ptcg_load.export_print(tcg_print)),
+
+
+def export_set(session, options):
+    from ptcgdex import tcg_tables
+    from ptcgdex import load as ptcg_load
+    from pokedex.db import util
+    sets = []
+    for set_ident in options['<set-identifier>']:
+        sets.append(util.get(session, tcg_tables.Set, set_ident))
+    if options['--all']:
+        sets = session.query(tcg_tables.Set)
+    for tcg_set in sets:
+        print ptcg_load.yaml_dump(ptcg_load.export_set(tcg_set)),
 
 
 def main(argv=None):
@@ -165,7 +185,7 @@ def main(argv=None):
     options = docopt(__doc__, argv=argv[1:])
 
     if not options['--verbose'] and not options['--quiet']:
-        if options['export'] or options['export-set']:
+        if options['export-card'] or options['export-set']:
             options['--verbose'] = False
         else:
             options['--verbose'] = True
@@ -200,9 +220,13 @@ def main(argv=None):
         session = make_session(options)
         import_(session, options)
 
-    elif options['export'] or options['export-set']:
+    elif options['export-card']:
         session = make_session(options)
         export(session, options)
+
+    elif options['export-set']:
+        session = make_session(options)
+        export_set(session, options)
 
     else:
         exit('Subcommand not supported yet')

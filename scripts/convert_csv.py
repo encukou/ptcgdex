@@ -3,7 +3,8 @@
   convert_csv.py [options] [<destdir>] [<infile>]
 
 Options:
-  -h, --help     Display help
+  -h, --help        Display help
+  --sets-file=SETS  File with set information; default: sets.csv
 
 infile defaults to stdin if not given.
 """
@@ -21,6 +22,7 @@ from collections import OrderedDict
 
 import yaml
 from docopt import docopt
+from ptcgdex.load import identifier_from_name
 
 type_initials = dict(
     Psychic = 'P',
@@ -164,13 +166,24 @@ def dump(stuff):
                      Dumper=Dumper,
                      allow_unicode=True,
                      explicit_start=True,
-                     width=60,
+                     width=68,
                     )
 
-def main(infile, destdir=None):
+def main(infile, destdir=None, names_file=None):
+    if names_file is None:
+        names_file = 'sets.csv'
+    sets = {}
+    for line in csv.DictReader(open(names_file)):
+        tcg_set = sets[identifier_from_name(line['name'])] = OrderedDict()
+        for field in ('name', 'total', 'release date', 'modified ban date'):
+            if line[field]:
+                tcg_set[field] = line[field]
+        if 'total' in tcg_set:
+            tcg_set['total'] = int(tcg_set['total'])
+        tcg_set['cards'] = []
+
     if destdir and not os.path.isdir(destdir):
         raise ValueError('{} is not a directory'.format(destdir))
-    sets = {}
     for data in csv.DictReader(infile):
         data = {k: v.decode('utf-8') for k, v in data.items()}
         _orig_data = dict(data)
@@ -190,11 +203,8 @@ def main(infile, destdir=None):
         result = OrderedDict()
 
         pop('1')
-        tcg_set = data.get('set')
-        simple_out('set', 'set')
-        simple_out('number', 'num')
-        set_list = sets.setdefault(tcg_set or 'unknown', [])
-        result['order'] = len(set_list)
+        tcg_set = data.pop('set')
+        set_list = sets.setdefault(tcg_set or 'unknown', {'cards': []})['cards']
         name = data.pop('card-name')
         name = re.sub(r'Unown \((.)\)', r'Unown \1', name)
         result['name'] = name
@@ -353,7 +363,12 @@ def main(infile, destdir=None):
 
         print(dump(result), end='')
 
-        set_list.append(result)
+        card = OrderedDict()
+        number = pop('num')
+        if number:
+            card['number'] = number
+        card['card'] = result
+        set_list.append(card)
 
         if any(data.values()):
             print(yaml.dump(_orig_data))
@@ -362,11 +377,17 @@ def main(infile, destdir=None):
             print(data)
             raise AssertionError('Unprocessed data remaining: {}'.format(data.keys()))
     if destdir:
-        for name, cards in sets.items():
-            filename = os.path.join(destdir, '{}.cards'.format(name))
-            with open(filename, 'w') as setfile:
-                for card in cards:
-                    setfile.write(dump(card))
+        for name, set_dict in sets.items():
+            if set_dict['cards']:
+                print('Out:', name)
+                filename = os.path.join(destdir, '{}.cards'.format(name))
+                with open(filename, 'w') as setfile:
+                    if set_dict.keys() == ['cards'] and all(
+                            c.keys() == ['card'] for c in set_dict['cards']):
+                        for card in set_dict['cards']:
+                            setfile.write(dump(card['card']))
+                    else:
+                        setfile.write(dump(set_dict))
 
 #sys.stdin = io.TextIOWrapper(sys.stdin.detach(), encoding='UTF-8', line_buffering=True)
 
@@ -376,4 +397,4 @@ if __name__ == '__main__':
         infile = open(arguments['<infile>'])
     else:
         infile = sys.stdin
-    main(infile, arguments['<destdir>'])
+    main(infile, arguments['<destdir>'], arguments['--sets-file'])
