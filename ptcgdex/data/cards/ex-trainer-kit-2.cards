@@ -1,0 +1,154 @@
+---
+name: Beldum
+rarity: ''
+holographic: false
+filename: 1-beldum
+pokemon: Beldum
+---
+name: Electrike
+rarity: ''
+holographic: false
+filename: 2-electrike
+pokemon: Electrike
+---
+name: Grumpig
+rarity: ''
+holographic: false
+filename: 3-grumpig
+pokemon: Grumpig
+---
+name: Meowth
+rarity: ''
+holographic: false
+filename: 4-meowth
+pokemon: Meowth
+---
+name: Metang
+rarity: ''
+holographic: false
+filename: 5-metang
+pokemon: Metang
+---
+name: Plusle
+rarity: ''
+holographic: false
+filename: 6-plusle
+pokemon: Plusle
+---
+name: Spoink
+rarity: ''
+holographic: false
+filename: 7-spoink
+pokemon: Spoink
+---
+name: Energy Search
+rarity: ''
+holographic: false
+filename: 8-energy-search
+---
+name: Potion
+rarity: ''
+holographic: false
+filename: 9-potion
+---
+name: Professor Cosmo's Discovery
+rarity: ''
+holographic: false
+filename: 10-professor-cosmo's-discovery
+subclasses:
+- Supporter
+---
+name: Lightning Energy
+rarity: ''
+holographic: false
+filename: 11-lightning-energy
+mechanics:
+- type: effect
+  text: >-
+    Provides 1 Lightning Energy.
+---
+name: Psychic Energy
+rarity: ''
+holographic: false
+filename: 12-psychic-energy
+mechanics:
+- type: effect
+  text: >-
+    Provides 1 Psychic energy.
+---
+name: Arcanine
+rarity: ''
+holographic: false
+filename: 1-arcanine
+pokemon: Arcanine
+---
+name: Charmander
+rarity: ''
+holographic: false
+filename: 2-charmander
+pokemon: Charmander
+---
+name: Charmeleon
+rarity: ''
+holographic: false
+filename: 3-charmeleon
+pokemon: Charmeleon
+---
+name: Growlithe
+rarity: ''
+holographic: false
+filename: 4-growlithe
+pokemon: Growlithe
+---
+name: Mareep
+rarity: ''
+holographic: false
+filename: 5-mareep
+pokemon: Mareep
+---
+name: Minun
+rarity: ''
+holographic: false
+filename: 6-minun
+pokemon: Minun
+---
+name: Vulpix
+rarity: ''
+holographic: false
+filename: 7-vulpix
+pokemon: Vulpix
+---
+name: Celio's Network
+rarity: ''
+holographic: false
+filename: 8-celio's-network
+subclasses:
+- Supporter
+---
+name: Energy Search
+rarity: ''
+holographic: false
+filename: 9-energy-search
+---
+name: Potion
+rarity: ''
+holographic: false
+filename: 10-potion
+---
+name: Fire Energy
+rarity: ''
+holographic: false
+filename: 11-fire-energy
+mechanics:
+- type: effect
+  text: >-
+    Provides 1 Fire Energy.
+---
+name: Lightning Energy
+rarity: ''
+holographic: false
+filename: 12-lightning-energy
+mechanics:
+- type: effect
+  text: >-
+    Provides 1 Lightning Energy.

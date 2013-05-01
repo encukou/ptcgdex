@@ -1,0 +1,151 @@
+---
+name: Blaziken
+rarity: rare
+holographic: true
+filename: 1-blaziken
+pokemon: Blaziken
+---
+name: Blaziken (Holo)
+rarity: rare
+holographic: false
+filename: 1-blaziken-holo
+reprint of: 'pop-1: 1-blaziken as a holo'
+pokemon: Blaziken
+---
+name: Metagross
+rarity: rare
+holographic: true
+filename: 2-metagross
+pokemon: Metagross
+---
+name: Metagross (Holo)
+rarity: rare
+holographic: false
+filename: 2-metagross-holo
+reprint of: 'pop-1: 2-metagross as a holo'
+pokemon: Metagross
+---
+name: Rayquaza
+rarity: uncommon
+holographic: false
+filename: 3-rayquaza
+pokemon: Rayquaza
+---
+name: Rayquaza (Holo)
+rarity: uncommon
+holographic: false
+filename: 3-rayquaza-holo
+reprint of: 'pop-1: 3-rayquaza as a holo'
+pokemon: Rayquaza
+---
+name: Sceptile
+rarity: uncommon
+holographic: false
+filename: 4-sceptile
+pokemon: Sceptile
+---
+name: Sceptile (Holo)
+rarity: uncommon
+holographic: false
+filename: 4-sceptile-holo
+reprint of: 'pop-1: 4-sceptile as a holo'
+pokemon: Sceptile
+---
+name: Swampert
+rarity: uncommon
+holographic: false
+filename: 5-swampert
+pokemon: Swampert
+---
+name: Swampert (Holo)
+rarity: common
+holographic: false
+filename: 5-swampert-holo
+reprint of: 'pop-1: 5-swampert as a holo'
+pokemon: Swampert
+---
+name: Beautifly
+rarity: common
+holographic: false
+filename: 6-beautifly
+pokemon: Beautifly
+---
+name: Masquerain
+rarity: common
+holographic: false
+filename: 7-masquerain
+pokemon: Masquerain
+---
+name: Murkrow
+rarity: common
+holographic: true
+filename: 8-murkrow
+pokemon: Murkrow
+---
+name: Pupitar
+rarity: common
+holographic: false
+filename: 9-pupitar
+pokemon: Pupitar
+---
+name: Torkoal
+rarity: common
+holographic: false
+filename: 10-torkoal
+pokemon: Torkoal
+---
+name: Larvitar
+rarity: common
+holographic: true
+filename: 11-larvitar
+pokemon: Larvitar
+---
+name: Minun
+rarity: common
+holographic: false
+filename: 12-minun
+pokemon: Minun
+---
+name: Plusle
+rarity: common
+holographic: true
+filename: 13-plusle
+pokemon: Plusle
+---
+name: Surskit
+rarity: rare
+holographic: false
+filename: 14-surskit
+pokemon: Surskit
+---
+name: Swellow
+rarity: rare
+holographic: false
+filename: 15-swellow
+pokemon: Swellow
+---
+name: Armaldo ex
+rarity: rare
+holographic: false
+filename: 16-armaldo-ex
+pokemon: Armaldo
+---
+name: Armaldo ex (Holo)
+rarity: rare
+holographic: false
+filename: 16-armaldo-ex-holo
+reprint of: 'pop-1: 16-armaldo-ex as a holo'
+pokemon: Armaldo
+---
+name: Tyranitar ex
+rarity: rare
+holographic: false
+filename: 17-tyranitar-ex
+pokemon: Tyranitar
+---
+name: Tyranitar ex (Holo)
+rarity: rare
+holographic: false
+filename: 17-tyranitar-ex-holo
+reprint of: 'pop-1: 17-tyranitar-ex as a holo'
+pokemon: Tyranitar

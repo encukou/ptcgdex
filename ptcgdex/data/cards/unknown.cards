@@ -1,0 +1,60 @@
+---
+name: Charizard (Boxtopper Jumbo)
+rarity: ''
+holographic: false
+legal: false
+filename: 9-charizard
+pokemon: Charizard
+subclasses:
+- Jumbo
+- Crystal
+species: Flame
+weight: 200
+height: 5'7
+illustrators:
+- Atsuko Nishida
+---
+name: Crobat (Boxtopper Jumbo)
+rarity: ''
+holographic: false
+legal: false
+filename: 10-crobat
+pokemon: Crobat
+subclasses:
+- Jumbo
+- Crystal
+species: Bat
+weight: 165
+height: 5'11
+illustrators:
+- Mitsuhiro Arita
+---
+name: Ho-oh (Boxtopper Jumbo)
+rarity: ''
+holographic: false
+legal: false
+filename: 11-ho-oh
+pokemon: Ho-oh
+subclasses:
+- Jumbo
+- Crystal
+species: Rainbow
+weight: 439
+height: 12'6
+illustrators:
+- Hajime Kusajima
+---
+name: Kabutops (Boxtopper Jumbo)
+rarity: ''
+holographic: false
+legal: false
+filename: 12-kabutops
+pokemon: Kabutops
+subclasses:
+- Jumbo
+- Crystal
+species: Shellfish
+weight: 89
+height: 4'3
+illustrators:
+- Atsuko Nishida

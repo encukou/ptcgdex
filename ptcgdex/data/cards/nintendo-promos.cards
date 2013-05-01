@@ -1,0 +1,322 @@
+---
+name: Kyogre ex
+rarity: rare
+holographic: false
+filename: 1-kyogre-ex
+pokemon: Kyogre
+---
+name: Kyogre ex (Holo)
+rarity: rare
+holographic: true
+filename: 1-kyogre-ex-holo
+reprint of: 'nintendo-promos: 1-kyogre-ex-holo as a holo'
+pokemon: Kyogre
+---
+name: Groudon ex
+rarity: rare
+holographic: false
+filename: 2-groudon-ex
+pokemon: Groudon
+---
+name: Groudon ex (Holo)
+rarity: rare
+holographic: true
+filename: 2-groudon-ex-holo
+reprint of: 'nintendo-promos: 2-groudon-ex-holo as a holo'
+pokemon: Groudon
+---
+name: Treecko
+rarity: rare
+holographic: false
+filename: 3-treecko
+reprint of: 'ex-ruby-and-sapphire: 76-treecko as a reverse holo'
+pokemon: Treecko
+---
+name: Grovyle (Winner)
+rarity: rare
+holographic: true
+filename: 4-grovyle
+reprint of: 'ex-ruby-and-sapphire: 31-grovyle with a special stamp'
+pokemon: Grovyle
+---
+name: Mudkip
+rarity: rare
+holographic: false
+filename: 5-mudkip
+reprint of: 'ex-ruby-and-sapphire: 60-mudkip as a holo with a special
+  stamp'
+pokemon: Mudkip
+---
+name: Torchic
+rarity: rare
+holographic: true
+filename: 6-torchic
+reprint of: 'ex-ruby-and-sapphire: 73-torchic as a holo with a special
+  stamp'
+pokemon: Torchic
+---
+name: Treecko
+rarity: rare
+holographic: false
+filename: 7-treecko
+reprint of: 'ex-ruby-and-sapphire: 76-treecko as a holo with a special
+  stamp'
+pokemon: Treecko
+---
+name: Torchic
+rarity: rare
+holographic: true
+filename: 8-torchic
+reprint of: 'ex-ruby-and-sapphire: 73-torchic as a reverse holo'
+pokemon: Torchic
+---
+name: Combusken (Winner)
+rarity: uncommon
+holographic: false
+filename: 9-combusken
+reprint of: 'ex-ruby-and-sapphire: 27-combusken with a special stamp'
+pokemon: Combusken
+---
+name: Mudkip
+rarity: uncommon
+holographic: false
+filename: 10-mudkip
+reprint of: 'ex-ruby-and-sapphire: 60-mudkip as a reverse holo'
+pokemon: Mudkip
+---
+name: Marshtomp (Winner)
+rarity: uncommon
+holographic: false
+filename: 11-marshtomp
+reprint of: 'ex-ruby-and-sapphire: 40-marshtomp with a special stamp'
+pokemon: Marshtomp
+---
+name: Pikachu
+rarity: uncommon
+holographic: false
+filename: 12-pikachu
+pokemon: Pikachu
+---
+name: Meowth
+rarity: uncommon
+holographic: false
+filename: 13-meowth
+pokemon: Meowth
+---
+name: Latias
+rarity: common
+holographic: false
+filename: 14-latias
+pokemon: Latias
+---
+name: Latios
+rarity: common
+holographic: false
+filename: 15-latios
+pokemon: Latios
+---
+name: Treecko
+rarity: common
+holographic: false
+filename: 16-treecko
+pokemon: Treecko
+---
+name: Treecko (Holo)
+rarity: common
+holographic: false
+filename: 16-treecko-holo
+reprint of: 'nintendo-promos: 16-treecko as a holo'
+pokemon: Treecko
+---
+name: Torchic
+rarity: common
+holographic: false
+filename: 17-torchic
+pokemon: Torchic
+---
+name: Torchic (Holo)
+rarity: rare
+holographic: false
+filename: 17-torchic-holo
+reprint of: 'nintendo-promos: 17-torchic as a holo'
+pokemon: Torchic
+---
+name: Mudkip
+rarity: rare
+holographic: true
+filename: 18-mudkip
+pokemon: Mudkip
+---
+name: Mudkip (Holo)
+rarity: rare
+holographic: false
+filename: 18-mudkip-holo
+reprint of: 'nintendo-promos: 18-mudkip as a holo'
+pokemon: Mudkip
+---
+name: Whismur
+rarity: rare
+holographic: true
+filename: 19-whismur
+pokemon: Whismur
+---
+name: Whismur (Holo)
+rarity: rare
+holographic: false
+filename: 19-whismur-holo
+reprint of: 'nintendo-promos: 19-whismur as a holo'
+pokemon: Whismur
+---
+name: Ludicolo
+rarity: rare
+holographic: true
+filename: 20-ludicolo
+pokemon: Ludicolo
+---
+name: Jirachi
+rarity: rare
+holographic: false
+filename: 21-jirachi
+pokemon: Jirachi
+---
+name: Beldum
+rarity: rare
+holographic: true
+filename: 22-beldum
+reprint of: 'ex-hidden-legends: 29-beldum with different artwork'
+pokemon: Beldum
+---
+name: Beldum (Winner)
+rarity: rare
+holographic: false
+filename: 22-beldum-winner
+reprint of: 'nintendo-promos: 22-beldum with a special stamp'
+pokemon: Beldum
+---
+name: Metang
+rarity: rare
+holographic: true
+filename: 23-metang
+reprint of: 'ex-hidden-legends: 21-metang with different artwork and a
+  special stamp'
+pokemon: Metang
+---
+name: Chimecho
+rarity: rare
+holographic: false
+filename: 24-chimecho
+pokemon: Chimecho
+---
+name: Chimecho (Winner)
+rarity: rare
+holographic: true
+filename: 24-chimecho-winner
+reprint of: 'nintendo-promos: 24-chimecho with a special stamp'
+pokemon: Chimecho
+---
+name: Flygon
+rarity: rare
+holographic: false
+filename: 25-flygon
+pokemon: Flygon
+---
+name: Flygon (Winner)
+rarity: rare
+holographic: true
+filename: 25-flygon-winner
+reprint of: 'nintendo-promos: 25-flygon with a special stamp'
+pokemon: Flygon
+---
+name: Tropical Wind
+rarity: uncommon
+holographic: false
+filename: 26-tropical-wind
+---
+name: Tropical Tidal Wave
+rarity: uncommon
+holographic: false
+filename: 27-tropical-tidal-wave
+---
+name: Championship Arena
+rarity: uncommon
+holographic: false
+filename: 28-championship-arena
+subclasses:
+- Stadium
+---
+name: Celebi
+rarity: uncommon
+holographic: false
+filename: 29-celebi
+reprint of: 'wotc-promos: 50-celebi as a holo with no stamp'
+pokemon: Celebi
+---
+name: Suicune
+rarity: uncommon
+holographic: false
+filename: 30-suicune
+reprint of: 'aquapolis: 37-suicune as a holo with no stamp'
+pokemon: Suicune
+---
+name: Moltres ex
+rarity: common
+holographic: false
+filename: 31-moltres-ex
+pokemon: Moltres
+---
+name: Articuno ex
+rarity: common
+holographic: false
+filename: 32-articuno-ex
+pokemon: Articuno
+---
+name: Zapdos ex
+rarity: common
+holographic: false
+filename: 33-zapdos-ex
+pokemon: Zapdos
+---
+name: Typhlosion
+rarity: common
+holographic: false
+filename: 34-typhlosion
+reprint of: 'ex-unseen-forces: 17-typhlosion with different artwork'
+pokemon: Typhlosion
+---
+name: Pikachu δ
+rarity: common
+holographic: false
+filename: 35-pikachu-d
+reprint of: 'ex-legend-maker: 93-pikachu-d with different artwork'
+pokemon: Pikachu
+---
+name: Tropical Tidal Wave
+rarity: rare
+holographic: false
+filename: 36-tropical-tidal-wave
+reprint of: 'nintendo-promos: 27-tropical-tidal-wave with different artwork'
+---
+name: Kyogre ex
+rarity: rare
+holographic: true
+filename: 37-kyogre-ex
+pokemon: Kyogre
+---
+name: Groudon ex
+rarity: rare
+holographic: false
+filename: 38-groudon-ex
+pokemon: Groudon
+---
+name: Rayquaza ex
+rarity: rare
+holographic: false
+filename: 39-rayquaza-ex
+pokemon: Rayquaza
+---
+name: Mew
+rarity: rare
+holographic: true
+filename: 40-mew
+reprint of: 'wotc-promos: 8-mew as a holo with different artwork'
+pokemon: Mew

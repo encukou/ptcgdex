@@ -1,2632 +1,2503 @@
 ---
-set: neo-revelation
-number: '1'
-order: 0
-name: Ampharos
-rarity: rare
-holographic: true
-class: P
-types:
-- Lightning
-hp: 90
-stage: Stage 2
-evolves from: Flaaffy
-legal: false
-filename: 1-ampharos
-pokemon: Ampharos
-mechanics:
-- name: Attract Current
-  cost: L
-  damage: '20'
-  type: attack
-  text: >-
-    Flip 3 coins. For each heads, you may search your deck for
-    a L Energy card and attach it to 1 of your L Pokémon. Shuffle
-    your deck afterward.
-- name: Gigavolt
-  cost: LLLC
-  damage: '40'
-  type: attack
-  text: >-
-    Flip a coin. If heads, this attack does 40 damage plus 20
-    more damage. If tails, this attack does 40 damage and the
-    Defending Pokémon is now Paralyzed.
-damage modifiers:
-- amount: 2
-  operation: ×
-  type: Fighting
-retreat: 3
-dex number: 181
-species: Light
-weight: 136
-height: 4'7
-illustrators:
-- Toshinao Aoki
----
-set: neo-revelation
-number: '2'
-order: 1
-name: Blissey
-rarity: rare
-holographic: true
-class: P
-types:
-- Colorless
-hp: 120
-stage: Stage 1
-evolves from: Chansey
-legal: false
-filename: 2-blissey
-pokemon: Blissey
-mechanics:
-- name: Softboiled
-  type: pokemon-power
-  text: >-
-    When you play Blissey from your hand, you may flip a coin.
-    If heads, remove 8 damage counters from Blissey. If tails,
-    remove 4 damage counters from Blissey. Either way, if Blissey
-    has fewer damage counters than that, remove all of them.
-- name: Body Slam
-  cost: CCCC
-  damage: '30'
-  type: attack
-  text: >-
-    Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
-damage modifiers:
-- amount: 2
-  operation: ×
-  type: Fighting
-- amount: 30
-  operation: '-'
-  type: Psychic
-retreat: 2
-dex number: 242
-species: Happiness
-weight: 103
-height: 4'11
-illustrators:
-- Yuka Morii
----
-set: neo-revelation
-number: '3'
-order: 2
-name: Celebi
-rarity: rare
-holographic: true
-class: P
-types:
-- Psychic
-hp: 50
-stage: Basic
-legal: false
-filename: 3-celebi
-pokemon: Celebi
-mechanics:
-- name: Time Travel
-  type: pokemon-power
-  text: >-
-    If an opponent's attack would Knock Out Celebi, flip a coin.
-    If heads, Celebi is not Knocked Out and you shuffle it and
-    all cards attached to it into your deck. This power doesn't
-    work if Celebi is already Asleep, Confused, or Paralyzed.
-- name: Psychic Damage
-  cost: P
-  type: attack
-  text: >-
-    Flip 3 coins. For each heads, put 1 damage counter on the
-    Defending Pokémon.
-damage modifiers:
-- amount: 2
-  operation: ×
-  type: Psychic
-retreat: 1
-dex number: 251
-species: Timetravel
-weight: 11
-height: 2'0
-illustrators:
-- Hironobu Yoshida
----
-set: neo-revelation
-number: '4'
-order: 3
-name: Crobat
-rarity: rare
-holographic: true
-class: P
-types:
-- Grass
-hp: 90
-stage: Stage 2
-evolves from: Golbat
-legal: false
-filename: 4-crobat
-pokemon: Crobat
-mechanics:
-- name: Triggered Poison
-  cost: G
-  damage: '20'
-  type: attack
-  text: >-
-    If your opponent attaches an Energy card to the Defending
-    Pokémon during his or her next turn, that Pokémon becomes
-    Poisoned.
-- name: Cross Attack
-  cost: GGC
-  damage: 20×
-  type: attack
-  text: >-
-    Flip 4 coins. This attack does 20 damage times the number
-    of heads. If you get 2 or more heads, the Defending Pokémon
-    is now Confused.
-damage modifiers:
-- amount: 2
-  operation: ×
-  type: Psychic
-- amount: 30
-  operation: '-'
-  type: Fighting
-retreat: 1
-dex number: 169
-species: Bat
-weight: 165
-height: 5'11
-illustrators:
-- Shin-ichi Yoshida
----
-set: neo-revelation
-number: '5'
-order: 4
-name: Delibird
-rarity: rare
-holographic: true
-class: P
-types:
-- Colorless
-hp: 60
-stage: Basic
-legal: false
-filename: 5-delibird
-pokemon: Delibird
-mechanics:
-- name: Present
-  cost: CC
-  type: attack
-  text: >-
-    Flip 3 coins. If exactly 1 is heads, this attack does 40 damage.
-    If exactly 2 are heads, remove 3 damage counters from the
-    Defending Pokémon. If the Defending Pokémon has fewer damage
-    counters than that, remove all of them. If all 3 are heads,
-    this attack does 60 damage. If all 3 are tails, remove all
-    damage counters from the Defending Pokémon.
-damage modifiers:
-- amount: 2
-  operation: ×
-  type: Lightning
-- amount: 30
-  operation: '-'
-  type: Fighting
-retreat: 1
-dex number: 225
-species: Delivery
-weight: 35
-height: 2'11
-illustrators:
-- Tomokazu Komiya
----
-set: neo-revelation
-number: '6'
-order: 5
-name: Entei
-rarity: rare
-holographic: true
-class: P
-types:
-- Fire
-hp: 80
-stage: Basic
-legal: false
-filename: 6-entei
-pokemon: Entei
-mechanics:
-- type: note
-  text: >-
-    You can't have more than 1 Shining Gyarados Pokémon in your
-    deck.
-- name: Howl
-  type: pokemon-power
-  text: >-
-    When you play Entei from your hand, you may discard the top
-    5 cards from your deck. (if you have fewer cards in your deck
-    than that, discard all of them.) If any of those are (R) Energy
-    cards, attach them to any of your (R) Pokémon of your choice.
-    Using this power ends your turn.
-- name: Searing Flames
-  cost: RRR
-  damage: '60'
-  type: attack
-  text: >-
-    Discard 2 R Energy cards attached to Entei or this attack
-    does nothing.
-damage modifiers:
-- amount: 2
-  operation: ×
-  type: Water
-retreat: 1
-dex number: 244
-species: Volcano
-weight: 437
-height: 6'11
-illustrators:
-- Ken Sugimori
----
-set: neo-revelation
-number: '7'
-order: 6
-name: Ho-oh
-rarity: rare
-holographic: true
-class: P
-types:
-- Fire
-hp: 90
-stage: Basic
-legal: false
-filename: 7-ho-oh
-pokemon: Ho-oh
-mechanics:
-- type: note
-  text: >-
-    You can't have more than 1 Shining Magikarp Pokémon in your
-    deck.
-- name: Stoke
-  cost: R
-  type: attack
-  text: >-
-    You may search your deck for a R Energy card and attach it
-    to Ho-oh. Shuffle your deck afterward.
-- name: Sacred Fire
-  cost: RRR
-  type: attack
-  text: >-
-    Flip a coin. If heads, choose 1 of your opponent's Pokémon.
-    This attack does 40 damage to that Pokémon. Don't apply Weakness
-    and Resistance.
-- name: Dive Bomb
-  cost: RRRRR
-  damage: '90'
-  type: attack
-  text: >-
-    Flip a coin. If tails, this attack does nothing.
-damage modifiers:
-- amount: 2
-  operation: ×
-  type: Water
-- amount: 30
-  operation: '-'
-  type: Fighting
-retreat: 2
-dex number: 250
-species: Rainbow
-weight: 439
-height: 12'6
-illustrators:
-- Kimiya Masago
----
-set: neo-revelation
-number: '8'
-order: 7
-name: Houndoom
-rarity: rare
-holographic: true
-class: P
-types:
-- Darkness
-hp: 70
-stage: Stage 1
-evolves from: Houndour
-legal: false
-filename: 8-houndoom
-pokemon: Houndoom
-mechanics:
-- name: Dark Flame
-  cost: R
-  damage: '20'
-  type: attack
-  text: >-
-    Discard 1 R Energy card attached to Houndoom or this attack
-    does nothing. If there are any D Energy cards in your discard
-    pile, attach 1 of them to Houndoom.
-- name: Black Fang
-  cost: DCC
-  damage: '30'
-  type: attack
-  text: >-
-    Flip a number of coins equal to the number of D Energy attached
-    to Houndoom. This attack does 30 damage plus 10 more damage
-    for each heads.
-damage modifiers:
-- amount: 30
-  operation: '-'
-  type: Psychic
-retreat: 1
-dex number: 229
-species: Dark
-weight: 77
-height: 4'7
-illustrators:
-- Mitsuhiro Arita
----
-set: neo-revelation
-number: '9'
-order: 8
-name: Jumpluff
-rarity: rare
-holographic: true
-class: P
-types:
-- Grass
-hp: 70
-stage: Stage 2
-evolves from: Skiploom
-legal: false
-filename: 9-jumpluff
-pokemon: Jumpluff
-mechanics:
-- name: Evolutionary Spore
-  cost: G
-  type: attack
-  text: >-
-    Choose any number of your Hoppips and Skiplooms. Then, for
-    each Pokémon you chose in this way, you may search your deck
-    for a card that evolves from that Pokémon and attach it to
-    that Pokémon. (This counts as evolving those Pokémon.) Shuffle
-    your deck afterward.
-- name: Solarbeam
-  cost: G
-  damage: '30'
-  type: attack
-damage modifiers:
-- amount: 2
-  operation: ×
-  type: Fire
-- amount: 30
-  operation: '-'
-  type: Fighting
-dex number: 189
-species: Cottonweed
-weight: 7
-height: 2'7
-illustrators:
-- Kagemaru Himeno
----
-set: neo-revelation
-number: '10'
-order: 9
-name: Magneton
-rarity: rare
-holographic: true
-class: P
-types:
-- Metal
-hp: 80
-stage: Stage 1
-evolves from: Magnemite
-legal: false
-filename: 10-magneton
-pokemon: Magneton
-mechanics:
-- name: Electromagnetic Power
-  type: pokemon-power
-  text: >-
-    As often as you like during your turn (before your attack),
-    you may take 1 Energy card attached to 1 of your Magnemites,
-    Magnetons, or Dark Magnetons and attach it to a different
-    1 of your Magnemites, Magnetons, or Dark Magnetons. This power
-    can't be used if Magneton is Asleep, Confused, or Paralyzed.
-- name: Plasma
-  cost: LLC
-  damage: '30'
-  type: attack
-  text: >-
-    If there are any L Energy cards in your discard pile, attach
-    1 of them to Magneton.
-damage modifiers:
-- amount: 2
-  operation: ×
-  type: Fire
-- amount: 30
-  operation: '-'
-  type: Grass
-retreat: 2
-dex number: 82
-species: Magnet
-weight: 132
-height: 3'3
-illustrators:
-- Big Mama Tagawa
-- CR CG gangs
----
-set: neo-revelation
-number: '11'
-order: 10
-name: Misdreavus
-rarity: rare
-holographic: true
-class: P
-types:
-- Psychic
-hp: 50
-stage: Basic
-legal: false
-filename: 11-misdreavus
-pokemon: Misdreavus
-mechanics:
-- name: Night Eyes
-  cost: P
-  type: attack
-  text: >-
-    The Defending Pokémon is now Asleep.
-- name: Perish Song
-  cost: PPP
-  type: attack
-  text: >-
-    If the Defending Pokémon is Asleep, and was attacked with
-    Night Eyes during your last turn, it is Knocked Out.
-damage modifiers:
-- amount: 30
-  operation: '-'
-  type: Fighting
-retreat: 1
-dex number: 200
-species: Screech
-weight: 2
-height: 2'4
-illustrators:
-- Ken Sugimori
----
-set: neo-revelation
-number: '12'
-order: 11
-name: Porygon2
-rarity: rare
-holographic: true
-class: P
-types:
-- Colorless
-hp: 70
-stage: Stage 1
-evolves from: Porygon
-legal: false
-filename: 12-porygon2
-pokemon: Porygon2
-mechanics:
-- name: Energy Converter
-  type: pokemon-power
-  text: >-
-    Once during your turn (before your attack), you may choose
-    1 Basic Energy card attached to 1 of your Pokémon and choose
-    an Energy type. Treat that Energy card as that type until
-    the end is your turn. This power can't be used if Porygon2
-    is Asleep, Confused, or Paralyzed. If Porygon2 becomes Asleep,
-    Confused, or Paralyzed, the Energy card goes back to its original
-    type.
-- name: Delta Beam
-  cost: CCC
-  damage: '20'
-  type: attack
-  text: >-
-    Flip a coin. If heads, choose whether the Defending Pokémon
-    becomes Asleep, Confused, or Paralyzed.
-damage modifiers:
-- amount: 2
-  operation: ×
-  type: Fighting
-- amount: 30
-  operation: '-'
-  type: Psychic
-retreat: 1
-dex number: 233
-species: Virtual
-weight: 72
-height: 2'0
-illustrators:
-- Keiji Kinebuchi
----
-set: neo-revelation
-number: '13'
-order: 12
-name: Raikou
-rarity: rare
-holographic: true
-class: P
-types:
-- Lightning
-hp: 80
-stage: Basic
-legal: false
-filename: 13-raikou
-pokemon: Raikou
-mechanics:
-- name: Lightning Burst
-  type: pokemon-power
-  text: >-
-    Whenever you attach a (L) Energy card from your hand to Raikou,
-    if your opponent has any Benched Pokémon, he or she chooses
-    1 of them and switches it with the Defending Pokémon. This
-    power stops working while Raikou is Asleep, Confused, or Paralyzed.
-- name: Lightning Tackle
-  cost: LLL
-  damage: '50'
-  type: attack
-  text: >-
-    Flip a coin. If tails, Raikou does 20 damage to itself.
-damage modifiers:
-- amount: 2
-  operation: ×
-  type: Fighting
-retreat: 1
-dex number: 243
-species: Thunder
-weight: 392
-height: 6'3
-illustrators:
-- Ken Sugimori
----
-set: neo-revelation
-number: '14'
-order: 13
-name: Suicune
-rarity: rare
-holographic: true
-class: P
-types:
-- Water
-hp: 70
-stage: Basic
-legal: false
-filename: 14-suicune
-pokemon: Suicune
-mechanics:
-- name: Crystal Body
-  type: pokemon-power
-  text: >-
-    Prevent all effects of your opponent's attacks, other than
-    damage, done to Suicune. This power stops working while Suicune
-    is Asleep, Confused, or Paralyzed.
-- name: Aurora Wave
-  cost: WWW
-  damage: '30'
-  type: attack
-  text: >-
-    Flip 2 coins. If both are heads, the Defending Pokémon is
-    now Paralyzed. If only 1 is heads, the Defending Pokémon is
-    now Asleep.
-damage modifiers:
-- amount: 2
-  operation: ×
-  type: Lightning
-retreat: 1
-dex number: 245
-species: Aurora
-weight: 412
-height: 6'7
-illustrators:
-- Ken Sugimori
----
-set: neo-revelation
-number: '15'
-order: 14
-name: Aerodactyl
-rarity: rare
-holographic: false
-class: P
-types:
-- Fighting
-hp: 60
-stage: Stage 1
-evolves from: Mysterious Fossil
-legal: false
-filename: 15-aerodactyl
-pokemon: Aerodactyl
-mechanics:
-- name: Prehistoric Memory
-  type: pokemon-power
-  text: >-
-    Whenever an Evolved Pokémon attacks (even if it's your opponent's),
-    it can use any attack from its Basic card or any Evolution
-    card attached to it. It still has to pay for that attack's
-    Energy cost. This power stops working while Aerodactyl is
-    Asleep, Confused, or Paralyzed.
-- name: Fly
-  cost: CCC
-  damage: '30'
-  type: attack
-  text: >-
-    Flip a coin. If heads, during your opponent's next turn, prevent
-    all effects of attacks, including damage, done to Aerodactyl.
-    If tails, this attack does nothing (not even damage).
-damage modifiers:
-- amount: 2
-  operation: ×
-  type: Grass
-- amount: 30
-  operation: '-'
-  type: Fighting
-retreat: 2
-dex number: 142
-species: Fossil
-weight: 130
-height: 5'11
-illustrators:
-- Shin-ichi Yoshida
----
-set: neo-revelation
-number: '16'
-order: 15
-name: Celebi
-rarity: rare
-holographic: false
-class: P
-types:
-- Grass
-hp: 50
-stage: Basic
-legal: false
-filename: 16-celebi
-pokemon: Celebi
-mechanics:
-- name: Psychic Leaf
-  cost: GG
-  damage: '10'
-  type: attack
-  text: >-
-    Flip a coin for each Energy attached to the Defending Pokémon.
-    This attack does 10 damage plus 10 more damage for each heads.
-    Remove a number of damage counters from Celebi equal to the
-    damage done to the Defending Pokémon (after applying Weakness
-    and Resistance). If Celebi has fewer damage counters than
-    that, remove all of them.
-damage modifiers:
-- amount: 2
-  operation: ×
-  type: Fire
-retreat: 1
-dex number: 251
-species: Timetravel
-weight: 11
-height: 2'0
-illustrators:
-- Sumiyoshi Kizuki
----
-set: neo-revelation
-number: '17'
-order: 16
-name: Entei
-rarity: rare
-holographic: false
-class: P
-types:
-- Fire
-hp: 60
-stage: Basic
-legal: false
-filename: 17-entei
-pokemon: Entei
-mechanics:
-- name: Legendary Body
-  type: pokemon-power
-  text: >-
-    As long as Entei is your Active Pokémon, Entei and Energy
-    cards attached to it aren't affected by effects from Trainer
-    cards other than Trainer cards other than Stadium cards. As
-    long as this power is active, discard all Trainer cards attached
-    to Entei. (This power works even if Entei is Asleep, Confused,
-    or Paralyzed.)
-- name: Mega Flame
-  cost: RRR
-  damage: '50'
-  type: attack
-  text: >-
-    Flip 2 coins. For each tails, discard 1 R Energy card from
-    Entei, if it has any.
-damage modifiers:
-- amount: 2
-  operation: ×
-  type: Water
-dex number: 244
-species: Volcano
-weight: 437
-height: 6'11
-illustrators:
-- Naoyo Kimura
----
-set: neo-revelation
-number: '18'
-order: 17
-name: Ho-oh
-rarity: rare
-holographic: false
-class: P
-types:
-- Colorless
-hp: 90
-stage: Basic
-legal: false
-filename: 18-ho-oh
-pokemon: Ho-oh
-mechanics:
-- name: Rainbow Burn
-  cost: CCCC
-  damage: '30'
-  type: attack
-  text: >-
-    This attack does 30 damage plus 10 more for each type of Basic
-    Energy card if any, attached to Ho-oh.
-damage modifiers:
-- amount: 2
-  operation: ×
-  type: Water
-- amount: 30
-  operation: '-'
-  type: Fighting
-retreat: 2
-dex number: 250
-species: Rainbow
-weight: 439
-height: 12'6
-illustrators:
-- Aya Kusube
----
-set: neo-revelation
-number: '19'
-order: 18
-name: Kingdra
-rarity: rare
-holographic: false
-class: P
-types:
-- Water
-hp: 90
-stage: Stage 2
-evolves from: Seadra
-legal: false
-filename: 19-kingdra
-pokemon: Kingdra
-mechanics:
-- name: Genetic Memory
-  cost: C
-  type: attack
-  text: >-
-    Use any attack from Kingdra's Basic Pokémon card or Evolution
-    card. (Kingdra doesn't have to pay for that attack's Energy
-    cost.)
-- name: Twister
-  cost: WWCC
-  damage: '50'
-  type: attack
-  text: >-
-    Flip 2 coins. For each heads, choose an Energy card attached
-    to the Defending Pokémon, if any, and discard it. If both
-    are tails, this attack does nothing (not even damage).
-retreat: 2
-dex number: 230
-species: Dragon
-weight: 335
-height: 5'11
-illustrators:
-- Mitsuhiro Arita
----
-set: neo-revelation
-number: '20'
-order: 19
-name: Lugia
-rarity: rare
-holographic: false
-class: P
-types:
-- Psychic
-hp: 90
-stage: Basic
-legal: false
-filename: 20-lugia
-pokemon: Lugia
-mechanics:
-- name: Aerowing
-  cost: CCCC
-  damage: '40'
-  type: attack
-  text: >-
-    You may flip a coin. If heads, this attack does 80 damage.
-    If tails, this attack does nothing.
-damage modifiers:
-- amount: 2
-  operation: ×
-  type: Psychic
-- amount: 30
-  operation: '-'
-  type: Fighting
-retreat: 2
-dex number: 249
-species: Diving
-weight: 476
-height: 17'1
-illustrators:
-- Aya Kusube
----
-set: neo-revelation
-number: '21'
-order: 20
-name: Raichu
-rarity: rare
-holographic: false
-class: P
-types:
-- Lightning
-hp: 80
-stage: Stage 1
-evolves from: Pikachu
-legal: false
-filename: 21-raichu
-pokemon: Raichu
-mechanics:
-- name: Thundershock
-  cost: LC
-  damage: '20'
-  type: attack
-  text: >-
-    Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
-- name: Lightning Strike
-  cost: LLL
-  damage: '40'
-  type: attack
-  text: >-
-    You may discard all L Energy cards attached to Raichu. If
-    you do, this attack does 80 damage.
-damage modifiers:
-- amount: 2
-  operation: ×
-  type: Fighting
-retreat: 1
-dex number: 26
-species: Mouse
-weight: 66
-height: 2'7
-illustrators:
-- Masako Yamashita
----
-set: neo-revelation
-number: '22'
-order: 21
-name: Raikou
-rarity: rare
-holographic: false
-class: P
-types:
-- Lightning
-hp: 60
-stage: Basic
-legal: false
-filename: 22-raikou
-pokemon: Raikou
-mechanics:
-- name: Legendary Body
-  type: pokemon-power
-  text: >-
-    As long as Raikou is your Active Pokémon, Raikou and Energy
-    cards attached to it aren't affected by effects from Trainer
-    cards other than Trainer cards other than Stadium cards. As
-    long as this power is active, discard all Trainer cards attached
-    to Raikou. (This power works even if Raikou is Asleep, Confused,
-    or Paralyzed.)
-- name: Lightning Spark
-  cost: LLL
-  damage: '30'
-  type: attack
-  text: >-
-    If your opponent has any Benched Pokémon, flip a coin. If
-    heads, choose 1 of them and this attack does 20 damage to
-    it. (Don't apply Weakness and Resistance for Benched Pokémon.)
-damage modifiers:
-- amount: 2
-  operation: ×
-  type: Fighting
-dex number: 243
-species: Thunder
-weight: 392
-height: 6'3
-illustrators:
-- Naoyo Kimura
----
-set: neo-revelation
-number: '23'
-order: 22
-name: Skarmory
-rarity: rare
-holographic: false
-class: P
-types:
-- Metal
-hp: 60
-stage: Basic
-legal: false
-filename: 23-skarmory
-pokemon: Skarmory
-mechanics:
-- name: Fury Attack
-  cost: C
-  damage: 10×
-  type: attack
-  text: >-
-    Flip 2 coins. This attack does 10 damage times the number
-    of heads.
-- name: Agility
-  cost: MCC
-  damage: '20'
-  type: attack
-  text: >-
-    Flip a coin. If heads, during your opponent's next turn, prevent
-    all effects of attacks, including damage, done to Skarmory.
-damage modifiers:
-- amount: 2
-  operation: ×
-  type: Fire
-- amount: 30
-  operation: '-'
-  type: Grass
-retreat: 2
-dex number: 227
-species: Armor Bird
-weight: 111
-height: 5'7
-illustrators:
-- Aya Kusube
----
-set: neo-revelation
-number: '24'
-order: 23
-name: Sneasel
-rarity: rare
-holographic: false
-class: P
-types:
-- Darkness
-hp: 60
-stage: Basic
-legal: false
-filename: 24-sneasel
-pokemon: Sneasel
-mechanics:
-- name: Swipe
-  cost: D
-  type: attack
-  text: >-
-    Flip a coin. If heads, discard all Trainer cards attached
-    to your opponent's Pokémon.
-- name: Quick Attack
-  cost: CC
-  damage: '10'
-  type: attack
-  text: >-
-    Flip a coin. If heads, this attack does 10 damage plus 20
-    more damage.
-damage modifiers:
-- amount: 30
-  operation: '-'
-  type: Psychic
-dex number: 215
-species: Sharp Claw
-weight: 62
-height: 2'11
-illustrators:
-- Sumiyoshi Kizuki
----
-set: neo-revelation
-number: '25'
-order: 24
-name: Starmie
-rarity: rare
-holographic: false
-class: P
-types:
-- Psychic
-hp: 70
-stage: Stage 1
-evolves from: Staryu
-legal: false
-filename: 25-starmie
-pokemon: Starmie
-mechanics:
-- name: Confuse Ray
-  cost: W
-  damage: '10'
-  type: attack
-  text: >-
-    Flip a coin. If heads, the Defending Pokémon is now Confused.
-- name: Core Stream
-  cost: PPC
-  type: attack
-  text: >-
-    Choose an Energy type other than Colorless. This attack does
-    20 damage to each of your opponent's Pokémon with any Energy
-    cards of that type attached to it. Don't apply Weakness and
-    Resistance.
-damage modifiers:
-- amount: 2
-  operation: ×
-  type: Psychic
-retreat: 1
-dex number: 121
-species: Mysterious
-weight: 176
-height: 3'7
-illustrators:
-- Keita Komatsuya
-- CR CG gangs
----
-set: neo-revelation
-number: '26'
-order: 25
-name: Sudowoodo
-rarity: rare
-holographic: false
-class: P
-types:
-- Fighting
-hp: 60
-stage: Basic
-legal: false
-filename: 26-sudowoodo
-pokemon: Sudowoodo
-mechanics:
-- name: Mimic
-  type: pokemon-power
-  text: >-
-    As long as Sudowoodo is your Active Pokémon, it copies all
-    of the Defending Pokémon's attacks, including their costs.
-    This power can't be used if Sudowoodo is Asleep, Confused,
-    or Paralyzed.
-- name: Slam
-  cost: CC
-  damage: 20×
-  type: attack
-  text: >-
-    Flip 2 coins. This attack does 20 damage times the number
-    of heads.
-damage modifiers:
-- amount: 2
-  operation: ×
-  type: Water
-retreat: 3
-dex number: 185
-species: Imitation
-weight: 84
-height: 3'11
-illustrators:
-- Sumiyoshi Kizuki
----
-set: neo-revelation
-number: '27'
-order: 26
-name: Suicune
-rarity: rare
-holographic: false
-class: P
-types:
-- Water
-hp: 60
-stage: Basic
-legal: false
-filename: 27-suicune
-pokemon: Suicune
-mechanics:
-- name: Legendary Body
-  type: pokemon-power
-  text: >-
-    As long as Suicune is your Active Pokémon, Suicune and Energy
-    cards attached to it aren't affected by effects from Trainer
-    cards other than Trainer cards other than Stadium cards. As
-    long as this power is active, discard all Trainer cards attached
-    to Suicune. (This power works even if Suicune is Asleep, Confused,
-    or Paralyzed.)
-- name: Crystal Wave
-  cost: WWW
-  damage: '30'
-  type: attack
-  text: >-
-    Flip a coin. If heads, this attack does 30 damage plus 10
-    more damage. If tails, this attack does 30 damage and, if
-    your opponent has any Benched Pokémon, he or she chooses 1
-    of them and switches it with the Defending Pokémon. (Do the
-    damage before switching the Pokémon.)
-damage modifiers:
-- amount: 2
-  operation: ×
-  type: Lightning
-dex number: 245
-species: Aurora
-weight: 412
-height: 6'7
-illustrators:
-- Naoyo Kimura
----
-set: neo-revelation
-number: '28'
-order: 27
-name: Flaaffy
-rarity: uncommon
-holographic: false
-class: P
-types:
-- Lightning
-hp: 70
-stage: Stage 1
-evolves from: Mareep
-legal: false
-filename: 28-flaaffy
-pokemon: Flaaffy
-mechanics:
-- name: Electric Punch
-  cost: L
-  damage: '20'
-  type: attack
-- name: Tail Shock
-  cost: LCC
-  damage: '30'
-  type: attack
-  text: >-
-    Flip a coin. If heads, this attack does 10 damage to each
-    of your opponent's Benched Pokémon. (Don't apply Weakness
-    and Resistance for Benched Pokémon.)
-damage modifiers:
-- amount: 2
-  operation: ×
-  type: Fighting
-retreat: 1
-dex number: 180
-species: Wool
-weight: 29
-height: 2'7
-illustrators:
-- Toshinao Aoki
----
-set: neo-revelation
-number: '29'
-order: 28
-name: Golbat
-rarity: uncommon
-holographic: false
-class: P
-types:
-- Grass
-hp: 60
-stage: Stage 1
-evolves from: Zubat
-legal: false
-filename: 29-golbat
-pokemon: Golbat
-mechanics:
-- name: Screech
-  cost: C
-  type: attack
-  text: >-
-    Until the end of your next turn, if an attack damages the
-    Defending Pokémon (after applying Weakness and Resistance),
-    that attack does 20 more damage to the Defending Pokémon.
-- name: Poison Bite
-  cost: GC
-  damage: '10'
-  type: attack
-  text: >-
-    If this attack damages the Defending Pokémon, the Defending
-    Pokémon is now Poisoned and you remove a number of damage
-    counters from Golbat equal to half that damage (rounded up
-    to the nearest 10). If Golbat has fewer damage counters than
-    that, remove all of them, remove all of them. Either way,
-    the Defending Pokémon is now Poisoned.
-damage modifiers:
-- amount: 2
-  operation: ×
-  type: Grass
-- amount: 30
-  operation: '-'
-  type: Fighting
-dex number: 42
-species: Bat
-weight: 121
-height: 5'3
-illustrators:
-- Masako Yamashita
----
-set: neo-revelation
-number: '30'
-order: 29
-name: Graveler
-rarity: uncommon
-holographic: false
-class: P
-types:
-- Fighting
-hp: 70
-stage: Stage 1
-evolves from: Geodude
-legal: false
-filename: 30-graveler
-pokemon: Graveler
-mechanics:
-- name: Earthquake
-  cost: FC
-  damage: '40'
-  type: attack
-  text: >-
-    Does 10 damage to each of your own Benched Pokémon. (Don't
-    apply Weakness and Resistance for Benched Pokémon.)
-- name: Rock Tumble
-  cost: FFF
-  damage: '50'
-  type: attack
-  text: >-
-    Don't apply Resistance.
-damage modifiers:
-- amount: 2
-  operation: ×
-  type: Grass
-retreat: 2
-dex number: 75
-species: Rock
-weight: 232
-height: 3'3
-illustrators:
-- Yukiko Baba
----
-set: neo-revelation
-number: '31'
-order: 30
-name: Jynx
-rarity: uncommon
-holographic: false
-class: P
-types:
-- Water
-hp: 60
-stage: Basic
-legal: false
-filename: 31-jynx
-pokemon: Jynx
-mechanics:
-- name: Freezing Kiss Goodnight
-  cost: W
-  type: attack
-  text: >-
-    The Defending Pokémon is now Asleep.
-- name: Strange Dance
-  cost: PPC
-  damage: '20'
-  type: attack
-  text: >-
-    Flip a coin. If heads, this attack does 20 damage plus 20
-    more damage and the Defending Pokémon is now Confused. If
-    tails, this attack does 20 damage.
-damage modifiers:
-- amount: 2
-  operation: ×
-  type: Psychic
-retreat: 2
-dex number: 124
-species: Human Shape
-weight: 90
-height: 4'7
-illustrators:
-- Tomokazu Komiya
----
-set: neo-revelation
-number: '32'
-order: 31
-name: Lanturn
-rarity: uncommon
-holographic: false
-class: P
-types:
-- Lightning
-hp: 80
-stage: Stage 1
-evolves from: Chinchou
-legal: false
-filename: 32-lanturn
-pokemon: Lanturn
-mechanics:
-- name: Submerge
-  type: pokemon-power
-  text: >-
-    Once during your turn (before your attack), you may change
-    Lanturn's type to (W) until the end of your turn. This power
-    can't be used if Lanturn is Asleep, Confused, or Paralyzed.
-    If Lanturn becomes Asleep, Confused, or Paralyzed after you
-    have used this power, its type changes back to (L).
-- name: Blinding Light
-  cost: LCC
-  damage: '30'
-  type: attack
-  text: >-
-    Flip a coin. If heads, the Defending Pokémon is now Confused.
-damage modifiers:
-- amount: 2
-  operation: ×
-  type: Fighting
-retreat: 2
-dex number: 171
-species: Light
-weight: 171
-height: 3'11
-illustrators:
-- Kagemaru Himeno
----
-set: neo-revelation
-number: '33'
-order: 32
-name: Magcargo
-rarity: uncommon
-holographic: false
-class: P
-types:
-- Fire
-hp: 80
-stage: Stage 1
-evolves from: Slugma
-legal: false
-filename: 33-magcargo
-pokemon: Magcargo
-mechanics:
-- name: Magma Pool
-  type: pokemon-power
-  text: >-
-    If Magcargo is your Active Pokémon and moves to the Bench,
-    remove 1 (R) Energy card attached to Magcargo, if any, and
-    attach it to the new Active Pokémon. (You can't use an Energy
-    card that you used to pay for the Retreat Cost.)
-- name: Lava Flow
-  cost: RRR
-  damage: '40'
-  type: attack
-  text: >-
-    You may discard any number of R Energy cards attached to Magcargo
-    when you use this attack. If you do, this attack does 40 damage
-    plus 20 more damage for each R Energy card you discarded in
-    this way.
-damage modifiers:
-- amount: 2
-  operation: ×
-  type: Water
-retreat: 3
-dex number: 219
-species: Lava
-weight: 121
-height: 2'7
-illustrators:
-- Shin-ichi Yoshida
----
-set: neo-revelation
-number: '34'
-order: 33
-name: Octillery
-rarity: uncommon
-holographic: false
-class: P
-types:
-- Water
-hp: 80
-stage: Stage 1
-evolves from: Remoraid
-legal: false
-filename: 34-octillery
-pokemon: Octillery
-mechanics:
-- name: Constrict
-  cost: W
-  damage: '10'
-  type: attack
-  text: >-
-    Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
-- name: Octazooka
-  cost: WWW
-  damage: '40'
-  type: attack
-  text: >-
-    Flip a coin. If heads, whenever the Defending Pokémon attacks,
-    your opponent flips a coin. If tails that attack does nothing.
-    (Benching or evolving that Pokémon ends this effect.)
-damage modifiers:
-- amount: 2
-  operation: ×
-  type: Lightning
-retreat: 2
-dex number: 224
-species: Jet
-weight: 63
-height: 2'11
-illustrators:
-- Tomokazu Komiya
----
-set: neo-revelation
-number: '35'
-order: 34
-name: Parasect
-rarity: uncommon
-holographic: false
-class: P
-types:
-- Grass
-hp: 60
-stage: Stage 1
-evolves from: Paras
-legal: false
-filename: 35-parasect
-pokemon: Parasect
-mechanics:
-- name: Allergic Pollen
-  type: pokemon-power
-  text: >-
-    As long as Parasect is in play, cards in any player's discard
-    pile are not affected by attacks or Pokémon Powers. This power
-    stops working if Parasect becomes Asleep, Confused, or Paralyzed.
-- name: Sleep Pinchers
-  cost: GG
-  damage: '30'
-  type: attack
-  text: >-
-    Flip a coin. If heads, the Defending Pokémon is now Asleep.
-damage modifiers:
-- amount: 2
-  operation: ×
-  type: Fire
-retreat: 2
-dex number: 47
-species: Mushroom
-weight: 65
-height: 3'3
-illustrators:
-- Atsuko Nishida
----
-set: neo-revelation
-number: '36'
-order: 35
-name: Piloswine
-rarity: uncommon
-holographic: false
-class: P
-types:
-- Fighting
-hp: 90
-stage: Stage 1
-evolves from: Swinub
-legal: false
-filename: 36-piloswine
-pokemon: Piloswine
-mechanics:
-- name: Nap
-  cost: CC
-  type: attack
-  text: >-
-    Remove 3 damage counters from Piloswine. If it has fewer damage
-    counters than that, remove all of them.
-- name: High-Speed Charge
-  cost: FFCC
-  damage: '80'
-  type: attack
-  text: >-
-    Piloswine does 30 damage to itself. Piloswine can't use this
-    attack during your next turn.
-damage modifiers:
-- amount: 2
-  operation: ×
-  type: Grass
-- amount: 30
-  operation: '-'
-  type: Lightning
-retreat: 3
-dex number: 221
-species: Swine
-weight: 123
-height: 3'7
-illustrators:
-- Atsuko Nishida
----
-set: neo-revelation
-number: '37'
-order: 36
-name: Seaking
-rarity: uncommon
-holographic: false
-class: P
-types:
-- Water
-hp: 70
-stage: Stage 1
-evolves from: Goldeen
-legal: false
-filename: 37-seaking
-pokemon: Seaking
-mechanics:
-- name: Rising Lunge
-  cost: W
-  damage: '10'
-  type: attack
-  text: >-
-    Flip a coin. If heads, this attack does 10 damage plus 10
-    more damage. If tails, this attack does 10 damage.
-- name: Horn Swipe
-  cost: WW
-  damage: '20'
-  type: attack
-  text: >-
-    Flip 2 coins. If both are heads, this attack does 20 damage
-    plus 40 more damage. If 1 or both are tails, this attack does
-    20 damage.
-damage modifiers:
-- amount: 2
-  operation: ×
-  type: Lightning
-retreat: 1
-dex number: 119
-species: Goldfish
-weight: 86
-height: 4'3
-illustrators:
-- Miki Tanaka
----
-set: neo-revelation
-number: '38'
-order: 37
-name: Stantler
-rarity: uncommon
-holographic: false
-class: P
-types:
-- Colorless
-hp: 60
-stage: Basic
-legal: false
-filename: 38-stantler
-pokemon: Stantler
-mechanics:
-- name: Terrorize
-  cost: C
-  type: attack
-  text: >-
-    If the Defending Pokémon is a Basic, choose 1 of its attacks.
-    That Pokémon can't use that attack during your opponent's
-    next turn.
-- name: Overhead Toss
-  cost: CCC
-  damage: '30'
-  type: attack
-  text: >-
-    If you have any Benched Pokémon, flip a coin. If tails, this
-    attack does 10 damage to 1 of them. (Don't apply Weakness
-    and Resistance for Benched Pokémon.)
-damage modifiers:
-- amount: 2
-  operation: ×
-  type: Fighting
-- amount: 30
-  operation: '-'
-  type: Psychic
-retreat: 1
-dex number: 234
-species: Big Horn
-weight: 157
-height: 4'7
-illustrators:
-- Yukiko Baba
----
-set: neo-revelation
-number: '39'
-order: 38
-name: Unown B
-rarity: uncommon
-holographic: false
-class: P
-types:
-- Psychic
-hp: 50
-stage: Basic
-legal: false
-filename: 39-unown-b
-pokemon: Unown
-mechanics:
-- type: note
-  text: >-
-    You may have up to 4 Basic Pokémon cards in your deck with
-    Unown in their names.
-- name: '[Bear]'
-  type: pokemon-power
-  text: >-
-    Once during your turn (before your attack), you may move 1
-    damage counter from 1 of your Pokémon with Unown in its name
-    to Unown [B]. This power can't be used if Unown [B] has 10
-    HP left. This power can be used even if Unown [B] is Asleep,
-    Confused, or Paralyzed.
-- name: Hidden Power
-  cost: P
-  damage: '10'
-  type: attack
-damage modifiers:
-- amount: 2
-  operation: ×
-  type: Psychic
-retreat: 1
-dex number: 201
-species: Symbol
-weight: 11
-height: 1'8
-illustrators:
-- CR CG gangs
----
-set: neo-revelation
-number: '40'
-order: 39
-name: Unown Y
-rarity: uncommon
-holographic: false
-class: P
-types:
-- Psychic
-hp: 40
-stage: Basic
-legal: false
-filename: 40-unown-y
-pokemon: Unown
-mechanics:
-- type: note
-  text: >-
-    You may have up to 4 Basic Pokémon cards in your deck with
-    Unown in their names.
-- name: '[Yield]'
-  type: pokemon-power
-  text: >-
-    Once during your turn (before your attack), you may flip a
-    coin. If heads, search your deck for a (P) Energy card and
-    attach it to 1 of your Pokémon with Unown in its name. Shuffle
-    your deck afterward. This power can be used even if Unown
-    [Y] is Asleep, Confused, or Paralyzed.
-- name: Hidden Power
-  cost: P
-  damage: '10'
-  type: attack
-damage modifiers:
-- amount: 2
-  operation: ×
-  type: Psychic
-retreat: 1
-dex number: 201
-species: Symbol
-weight: 11
-height: 1'8
-illustrators:
-- CR CG gangs
----
-set: neo-revelation
-number: '41'
-order: 40
-name: Aipom
-rarity: common
-holographic: false
-class: P
-types:
-- Colorless
-hp: 40
-stage: Basic
-legal: false
-filename: 41-aipom
-pokemon: Aipom
-mechanics:
-- name: Grab
-  cost: C
-  type: attack
-  text: >-
-    Choose a Trainer card attached to 1 of your opponent's Pokémon.
-    Your opponent shuffles that card into his or her deck.
-- name: Tail Punch
-  cost: CC
-  damage: '20'
-  type: attack
-damage modifiers:
-- amount: 2
-  operation: ×
-  type: Fighting
-- amount: 30
-  operation: '-'
-  type: Psychic
-dex number: 190
-species: Long Tail
-weight: 25
-height: 2'7
-illustrators:
-- Sumiyoshi Kizuki
----
-set: neo-revelation
-number: '42'
-order: 41
-name: Chinchou
-rarity: common
-holographic: false
-class: P
-types:
-- Lightning
-hp: 50
-stage: Basic
-legal: false
-filename: 42-chinchou
-pokemon: Chinchou
-mechanics:
-- name: Positive Ion
-  cost: L
-  damage: '10'
-  type: attack
-  text: >-
-    Flip a coin. If heads, this attack does 10 damage plus 10
-    more damage. If tails, this attack does 10 damage.
-- name: Negative Ion
-  cost: W
-  damage: '10'
-  type: attack
-  text: >-
-    If the Defending Pokémon attacks Chinchou during your opponent's
-    next turn, any damage done to Chinchou is reduced by 10 (before
-    applying Weakness and Resistance). (Benching either Pokémon
-    ends this effect.)
-damage modifiers:
-- amount: 2
-  operation: ×
-  type: Fighting
-retreat: 1
-dex number: 170
-species: Angler
-weight: 26
-height: 1'8
-illustrators:
-- Atsuko Nishida
----
-set: neo-revelation
-number: '43'
-order: 42
-name: Farfetch'd
-rarity: common
-holographic: false
-class: P
-types:
-- Colorless
-hp: 50
-stage: Basic
-legal: false
-filename: 43-farfetch'd
-pokemon: Farfetch'd
-mechanics:
-- name: Gust
-  cost: C
-  damage: '10'
-  type: attack
-- name: Leek Jab
-  cost: CCC
-  damage: '40'
-  type: attack
-  text: >-
-    This attack can't be used during your next turn. (Benching
-    Farfetch'd ends this effect.)
-damage modifiers:
-- amount: 2
-  operation: ×
-  type: Lightning
-- amount: 30
-  operation: '-'
-  type: Fighting
-retreat: 1
-dex number: 83
-species: Wild Duck
-weight: 33
-height: 2'7
-illustrators:
-- Miki Tanaka
----
-set: neo-revelation
-number: '44'
-order: 43
-name: Geodude
-rarity: common
-holographic: false
-class: P
-types:
-- Fighting
-hp: 40
-stage: Basic
-legal: false
-filename: 44-geodude
-pokemon: Geodude
-mechanics:
-- name: Knuckle Punch
-  cost: F
-  damage: '20'
-  type: attack
-damage modifiers:
-- amount: 2
-  operation: ×
-  type: Grass
-retreat: 1
-dex number: 74
-species: Rock
-weight: 44
-height: 1'4
-illustrators:
-- Masako Yamashita
----
-set: neo-revelation
-number: '45'
-order: 44
-name: Goldeen
-rarity: common
-holographic: false
-class: P
-types:
-- Water
-hp: 40
-stage: Basic
-legal: false
-filename: 45-goldeen
-pokemon: Goldeen
-mechanics:
-- name: Fin Smack
-  cost: C
-  damage: 10×
-  type: attack
-  text: >-
-    Flip 2 coins. This attack does 10 damage times the number
-    of heads.
-damage modifiers:
-- amount: 2
-  operation: ×
-  type: Lightning
-dex number: 118
-species: Goldfish
-weight: 33
-height: 2'0
-illustrators:
-- Yuka Morii
----
-set: neo-revelation
-number: '46'
-order: 45
-name: Murkrow
-rarity: common
-holographic: false
-class: P
-types:
-- Darkness
-hp: 40
-stage: Basic
-legal: false
-filename: 46-murkrow
-pokemon: Murkrow
-mechanics:
-- name: Call for Family
-  cost: C
-  type: attack
-  text: >-
-    Search your deck for a card named Murkrow and put it onto
-    your Bench. Shuffle your deck afterward. (You can't use this
-    attack if your Bench is full.)
-- name: Flock Attack
-  cost: CC
-  damage: '10'
-  type: attack
-  text: >-
-    Flip a number of coins equal to the number of Murkrows on
-    your Bench. This attack does 10 damage plus 10 more damage
-    for each heads.
-damage modifiers:
-- amount: 30
-  operation: '-'
-  type: Psychic
-dex number: 198
-species: Darkness
-weight: 5
-height: 1'8
-illustrators:
-- Hironobu Yoshida
----
-set: neo-revelation
-number: '47'
-order: 46
-name: Paras
-rarity: common
-holographic: false
-class: P
-types:
-- Grass
-hp: 40
-stage: Basic
-legal: false
-filename: 47-paras
-pokemon: Paras
-mechanics:
-- name: Sleep Spore
-  cost: G
-  damage: '10'
-  type: attack
-  text: >-
-    Flip a coin. If heads, the Defending Pokémon is now Asleep.
-- name: Scratch
-  cost: CC
-  damage: '20'
-  type: attack
-damage modifiers:
-- amount: 2
-  operation: ×
-  type: Fire
-retreat: 1
-dex number: 46
-species: Mushroom
-weight: 12
-height: 1'0
-illustrators:
-- Kagemaru Himeno
----
-set: neo-revelation
-number: '48'
-order: 47
-name: Quagsire
-rarity: common
-holographic: false
-class: P
-types:
-- Water
-hp: 70
-stage: Stage 1
-evolves from: Wooper
-legal: false
-filename: 48-quagsire
-pokemon: Quagsire
-mechanics:
-- name: Mud Slap
-  cost: FF
-  damage: '30'
-  type: attack
-- name: Whirlpool
-  cost: WWCC
-  damage: '40'
-  type: attack
-  text: >-
-    If the Defending Pokémon has any Energy cards attached to
-    it, choose 1 of them and discard it.
-damage modifiers:
-- amount: 2
-  operation: ×
-  type: Grass
-- amount: 30
-  operation: '-'
-  type: Lightning
-retreat: 2
-dex number: 195
-species: Water Fish
-weight: 165
-height: 4'7
-illustrators:
-- Yuka Morii
----
-set: neo-revelation
-number: '49'
-order: 48
-name: Qwilfish
-rarity: common
-holographic: false
-class: P
-types:
-- Water
-hp: 60
-stage: Basic
-legal: false
-filename: 49-qwilfish
-pokemon: Qwilfish
-mechanics:
-- name: Poison Sting
-  cost: W
-  damage: '10'
-  type: attack
-  text: >-
-    Flip a coin. If heads, the Defending Pokémon is now Poisoned.
-- name: Needle Storm
-  cost: CC
-  damage: 20×
-  type: attack
-  text: >-
-    Flip a coin until you get tails. This attack does 20 damage
-    times the number of heads you get.
-damage modifiers:
-- amount: 2
-  operation: ×
-  type: Lightning
-retreat: 1
-dex number: 211
-species: Balloon
-weight: 9
-height: 1'8
-illustrators:
-- Sumiyoshi Kizuki
----
-set: neo-revelation
-number: '50'
-order: 49
-name: Remoraid
-rarity: common
-holographic: false
-class: P
-types:
-- Water
-hp: 40
-stage: Basic
-legal: false
-filename: 50-remoraid
-pokemon: Remoraid
-mechanics:
-- name: Sharpshooting
-  cost: W
-  type: attack
-  text: >-
-    Flip a coin. If heads, choose 1 of your opponent's Pokémon.
-    This attack does 20 damage to that Pokémon. Don't apply Weakness
-    and Resistance.
-damage modifiers:
-- amount: 2
-  operation: ×
-  type: Lightning
-dex number: 223
-species: Jet
-weight: 26
-height: 2'0
-illustrators:
-- Miki Tanaka
----
-set: neo-revelation
-number: '51'
-order: 50
-name: Shuckle
-rarity: common
-holographic: false
-class: P
-types:
-- Fighting
-hp: 40
-stage: Basic
-legal: false
-filename: 51-shuckle
-pokemon: Shuckle
-mechanics:
-- name: Hard Shell
-  type: pokemon-power
-  text: >-
-    Whenever an attack (including your own) does 40 or less damage
-    to Shuckle (after applying Weakness and Resistance), reduce
-    that damage to 10. (Any other effects of attacks still happen.)
-    This power stops working while Shuckle is Asleep, Confused,
-    or Paralyzed.
-- name: Toxic Saliva
-  cost: GG
-  type: attack
-  text: >-
-    Flip a coin. If heads, the Defending Pokémon is now Poisoned.
-    It now takes 20 Poison damage after each player's turn (even
-    if it was already Poisoned).
-damage modifiers:
-- amount: 2
-  operation: ×
-  type: Grass
-retreat: 1
-dex number: 213
-species: Mold
-weight: 45
-height: 2'0
-illustrators:
-- Yuka Morii
----
-set: neo-revelation
-number: '52'
-order: 51
-name: Skiploom
-rarity: common
-holographic: false
-class: P
-types:
-- Grass
-hp: 60
-stage: Stage 1
-evolves from: Hoppip
-legal: false
-filename: 52-skiploom
-pokemon: Skiploom
-mechanics:
-- name: Hop
-  cost: C
-  damage: '20'
-  type: attack
-- name: Mysterious Powder
-  cost: G
-  damage: '10'
-  type: attack
-  text: >-
-    Flip a coin. If heads, the Defending Pokémon is now Confused.
-damage modifiers:
-- amount: 2
-  operation: ×
-  type: Fire
-- amount: 30
-  operation: '-'
-  type: Fighting
-retreat: 2
-dex number: 188
-species: Cottonweed
-weight: 2
-height: 2'0
-illustrators:
-- Mitsuhiro Arita
----
-set: neo-revelation
-number: '53'
-order: 52
-name: Slugma
-rarity: common
-holographic: false
-class: P
-types:
-- Fire
-hp: 50
-stage: Basic
-legal: false
-filename: 53-slugma
-pokemon: Slugma
-mechanics:
-- name: Flare
-  cost: R
-  damage: '10'
-  type: attack
-- name: Magma Ring
-  cost: RR
-  damage: '20'
-  type: attack
-  text: >-
-    The Defending Pokémon can't retreat during your opponent's
-    next turn.
-damage modifiers:
-- amount: 2
-  operation: ×
-  type: Water
-retreat: 2
-dex number: 218
-species: Lava
-weight: 77
-height: 2'4
-illustrators:
-- Kagemaru Himeno
----
-set: neo-revelation
-number: '54'
-order: 53
-name: Smoochum
-rarity: common
-holographic: false
-class: P
-types:
-- Psychic
-hp: 30
-stage: Baby
-evolves into: Jynx
-legal: false
-filename: 54-smoochum
-pokemon: Smoochum
-mechanics:
-- name: Psykiss
-  cost: C
-  type: attack
-  text: >-
-    Flip a coin. If heads, choose a Special Energy card attached
-    to 1 of your opponent's Pokémon. Your opponent shuffles that
-    card into his or her deck.
-dex number: 238
-species: Kiss
-weight: 13
-height: 1'4
-illustrators:
-- Atsuko Nishida
----
-set: neo-revelation
-number: '55'
-order: 54
-name: Snubbull
-rarity: common
-holographic: false
-class: P
-types:
-- Colorless
-hp: 50
-stage: Basic
-legal: false
-filename: 55-snubbull
-pokemon: Snubbull
-mechanics:
-- name: Bite
-  cost: C
-  damage: '10'
-  type: attack
-- name: Raging Headbutt
-  cost: CC
-  damage: '10'
-  type: attack
-  text: >-
-    Flip a coin. If heads, this attack does 10 damage plus 10
-    damage times the number of damage counters on Snubbull. If
-    tails, this attack does 10 damage.
-damage modifiers:
-- amount: 2
-  operation: ×
-  type: Fighting
-- amount: 30
-  operation: '-'
-  type: Psychic
-retreat: 1
-dex number: 209
-species: Fairy
-weight: 17
-height: 2'0
-illustrators:
-- Tomokazu Komiya
----
-set: neo-revelation
-number: '56'
-order: 55
-name: Staryu
-rarity: common
-holographic: false
-class: P
-types:
-- Water
-hp: 40
-stage: Basic
-legal: false
-filename: 56-staryu
-pokemon: Staryu
-mechanics:
-- name: Tackle
-  cost: C
-  damage: '10'
-  type: attack
-- name: Bubblebeam
-  cost: W
-  damage: '10'
-  type: attack
-  text: >-
-    Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
-damage modifiers:
-- amount: 2
-  operation: ×
-  type: Lightning
-retreat: 1
-dex number: 120
-species: Starshape
-weight: 76
-height: 2'7
-illustrators:
-- Mitsuhiro Arita
----
-set: neo-revelation
-number: '57'
-order: 56
-name: Swinub
-rarity: common
-holographic: false
-class: P
-types:
-- Fighting
-hp: 40
-stage: Basic
-legal: false
-filename: 57-swinub
-pokemon: Swinub
-mechanics:
-- name: Tackle
-  cost: C
-  damage: '10'
-  type: attack
-- name: Take Down
-  cost: FC
-  damage: '30'
-  type: attack
-  text: >-
-    Swinub does 10 damage to itself.
-damage modifiers:
-- amount: 2
-  operation: ×
-  type: Grass
-- amount: 30
-  operation: '-'
-  type: Lightning
-retreat: 1
-dex number: 220
-species: Pig
-weight: 14
-height: 1'4
-illustrators:
-- Miki Tanaka
----
-set: neo-revelation
-number: '58'
-order: 57
-name: Unown K
-rarity: common
-holographic: false
-class: P
-types:
-- Psychic
-hp: 40
-stage: Basic
-legal: false
-filename: 58-unown-k
-pokemon: Unown
-mechanics:
-- type: note
-  text: >-
-    You may have up to 4 Basic Pokémon cards in your deck with
-    Unown in their names.
-- name: '[Keep]'
-  type: pokemon-power
-  text: >-
-    Your opponent's attacks, Pokémon Powers, and Trainer cards
-    can't discard Energy cards from your Pokémon with Unown in
-    their names. (Any other effects of attacks still happen.)
-- name: Hidden Power
-  cost: P
-  damage: '10'
-  type: attack
-damage modifiers:
-- amount: 2
-  operation: ×
-  type: Psychic
-retreat: 1
-dex number: 201
-species: Symbol
-weight: 11
-height: 1'8
-illustrators:
-- CR CG gangs
----
-set: neo-revelation
-number: '59'
-order: 58
-name: Zubat
-rarity: common
-holographic: false
-class: P
-types:
-- Grass
-hp: 40
-stage: Basic
-legal: false
-filename: 59-zubat
-pokemon: Zubat
-mechanics:
-- name: Bite
-  cost: C
-  damage: '10'
-  type: attack
-- name: Poison Spray
-  cost: G
-  type: attack
-  text: >-
-    The Defending Pokémon is now Poisoned.
-damage modifiers:
-- amount: 2
-  operation: ×
-  type: Psychic
-- amount: 30
-  operation: '-'
-  type: Fighting
-dex number: 41
-species: Bat
-weight: 17
-height: 2'7
-illustrators:
-- Yukiko Baba
----
-set: neo-revelation
-number: '60'
-order: 59
-name: Balloon Berry
-rarity: uncommon
-holographic: false
-class: T
-legal: false
-filename: 60-balloon-berry
-subclasses:
-- Tool
-mechanics:
-- type: rule
-  text: >-
-    Attach Balloon Berry to 1 of your Pokémon that doesn't already
-    have a Pokémon Tool attached to it.  If that Pokémon is Knocked
-    Out, discard this card.
-- type: effect
-  text: >-
-    Attach Balloon Berry to 1 of your Pokémon that doesn't have
-    a Pokémon Tool attached to it. When the Pokémon Balloon Berry
-    is attached to retreats, discard Balloon Berry instead of
-    discarding Energy cards.
-illustrators:
-- Keiji Kinebuchi
----
-set: neo-revelation
-number: '61'
-order: 60
-name: Healing Field
-rarity: uncommon
-holographic: false
-class: T
-legal: false
-filename: 61-healing-field
-subclasses:
-- Stadium
-mechanics:
-- type: rule
-  text: >-
-    This card stays in play when you play it. Discard this card
-    if another Stadium card comes into play.
-- type: effect
-  text: >-
-    Once during each player's turn, he or she may flip a coin.
-    If heads, that player removes 2 damage counters from his or
-    her Active Pokémon (1 if it only has 1).
-illustrators:
-- Keiji Kinebuchi
----
-set: neo-revelation
-number: '62'
-order: 61
-name: Pokémon Breeder Fields
-rarity: uncommon
-holographic: false
-class: T
-legal: false
-filename: 62-pokemon-breeder-fields
-mechanics:
-- type: effect
-  text: >-
-    Flip a coin for each of your non-Baby Pokémon that can evolve.
-    For each heads, search your deck for a later-Stage card that
-    matches that Pokémon. Then put that card into your hand. Shuffle
-    your deck afterward.
-illustrators:
-- Ken Sugimori
----
-set: neo-revelation
-number: '63'
-order: 62
-name: Rocket's Hideout
-rarity: uncommon
-holographic: false
-class: T
-legal: false
-filename: 63-rocket's-hideout
-subclasses:
-- Stadium
-mechanics:
-- type: rule
-  text: >-
-    This card stays in play when you play it. Discard this card
-    if another Stadium card comes into play.
-- type: effect
-  text: >-
-    Each Pokémon in play with Dark in its name (even your opponent's)
-    gets +20 HP.
-illustrators:
-- Keiji Kinebuchi
----
-set: neo-revelation
-number: '64'
-order: 63
-name: Old Rod
-rarity: common
-holographic: false
-class: T
-legal: false
-filename: 64-old-rod
-mechanics:
-- type: effect
-  text: >-
-    Flip 2 coins. If both are heads, put a Baby Pokémon, Basic,
-    or Evolution card from your discard pile into your hand. If
-    both are tails, put a Trainer card from your discard pile
-    into your hand.
-illustrators:
-- Keiji Kinebuchi
----
-set: neo-revelation
-number: '65'
-order: 64
-name: Shining Gyarados
-rarity: rare
-holographic: true
-class: P
-types:
-- Water
-hp: 100
-stage: Basic
-legal: false
-filename: 65-shining-gyarados
-pokemon: Gyarados
-subclasses:
-- Shining
-mechanics:
-- name: Outrage
-  cost: WFF
-  damage: '30'
-  type: attack
-  text: >-
-    Flip a coin. If heads, this attack does 30 damage plus 10
-    more damage for each damage counter on Shining Gyarados. If
-    tails, this attack does nothing.
-- name: Devastate
-  cost: WWRR
-  damage: '50'
-  type: attack
-  text: >-
-    Discard 2 R Energy cards attached to Shining Gyarados or this
-    attack does nothing. This attack does 10 damage to each of
-    your opponent's Benched Pokémon. (Don't apply Weakness and
-    Resistance for Benched Pokémon.) Then, flip a coin. If heads,
-    choose 1 Energy card attached to each of your opponent's Pokémon
-    that has any Energy cards attached to it and discard those
-    Energy cards.
-damage modifiers:
-- amount: 2
-  operation: ×
-  type: Grass
-- amount: 30
-  operation: '-'
-  type: Fighting
-retreat: 3
-illustrators:
-- Ken Sugimori
----
-set: neo-revelation
-number: '66'
-order: 65
-name: Shining Magikarp
-rarity: rare
-holographic: true
-class: P
-types:
-- Water
-hp: 30
-stage: Basic
-legal: false
-filename: 66-shining-magikarp
-pokemon: Magikarp
-subclasses:
-- Shining
-mechanics:
-- name: Gold Scale
-  cost: W
-  type: attack
-  text: >-
-    Your opponent may draw 2 cards. Either way, you may draw 2
-    cards.
-- name: Dragon Bond
-  cost: P
-  type: attack
-  text: >-
-    Search your deck for a card named Gyarados, Dark Gyarados,
-    or Shining Gyarados. Show it to your opponent and put it into
-    your hand. Shuffle your deck afterward.
-damage modifiers:
-- amount: 2
-  operation: ×
-  type: Lightning
-retreat: 1
-illustrators:
-- Ken Sugimori
+name: Neo Revelation
+cards:
+- number: '1'
+  card:
+    name: Ampharos
+    rarity: rare
+    holographic: true
+    class: P
+    types:
+    - Lightning
+    hp: 90
+    stage: Stage 2
+    evolves from:
+    - Flaaffy
+    legal: false
+    filename: 1-ampharos
+    pokemon: Ampharos
+    mechanics:
+    - name: Attract Current
+      cost: L
+      damage: '20'
+      type: attack
+      text: >-
+        Flip 3 coins. For each heads, you may search your deck for a L
+        Energy card and attach it to 1 of your L Pokémon. Shuffle your
+        deck afterward.
+    - name: Gigavolt
+      cost: LLLC
+      damage: '40'
+      type: attack
+      text: >-
+        Flip a coin. If heads, this attack does 40 damage plus 20 more
+        damage. If tails, this attack does 40 damage and the Defending
+        Pokémon is now Paralyzed.
+    damage modifiers:
+    - amount: 2
+      operation: ×
+      type: Fighting
+    retreat: 3
+    dex number: 181
+    species: Light
+    weight: 136
+    height: 4'7
+    illustrators:
+    - Toshinao Aoki
+- number: '2'
+  card:
+    name: Blissey
+    rarity: rare
+    holographic: true
+    class: P
+    types:
+    - Colorless
+    hp: 120
+    stage: Stage 1
+    evolves from:
+    - Chansey
+    legal: false
+    filename: 2-blissey
+    pokemon: Blissey
+    mechanics:
+    - name: Softboiled
+      type: pokemon-power
+      text: >-
+        When you play Blissey from your hand, you may flip a coin. If
+        heads, remove 8 damage counters from Blissey. If tails, remove
+        4 damage counters from Blissey. Either way, if Blissey has fewer
+        damage counters than that, remove all of them.
+    - name: Body Slam
+      cost: CCCC
+      damage: '30'
+      type: attack
+      text: >-
+        Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+    damage modifiers:
+    - amount: 2
+      operation: ×
+      type: Fighting
+    - amount: 30
+      operation: '-'
+      type: Psychic
+    retreat: 2
+    dex number: 242
+    species: Happiness
+    weight: 103
+    height: 4'11
+    illustrators:
+    - Yuka Morii
+- number: '3'
+  card:
+    name: Celebi
+    rarity: rare
+    holographic: true
+    class: P
+    types:
+    - Psychic
+    hp: 50
+    stage: Basic
+    legal: false
+    filename: 3-celebi
+    pokemon: Celebi
+    mechanics:
+    - name: Time Travel
+      type: pokemon-power
+      text: >-
+        If an opponent's attack would Knock Out Celebi, flip a coin. If
+        heads, Celebi is not Knocked Out and you shuffle it and all cards
+        attached to it into your deck. This power doesn't work if Celebi
+        is already Asleep, Confused, or Paralyzed.
+    - name: Psychic Damage
+      cost: P
+      type: attack
+      text: >-
+        Flip 3 coins. For each heads, put 1 damage counter on the Defending
+        Pokémon.
+    damage modifiers:
+    - amount: 2
+      operation: ×
+      type: Psychic
+    retreat: 1
+    dex number: 251
+    species: Timetravel
+    weight: 11
+    height: 2'0
+    illustrators:
+    - Hironobu Yoshida
+- number: '4'
+  card:
+    name: Crobat
+    rarity: rare
+    holographic: true
+    class: P
+    types:
+    - Grass
+    hp: 90
+    stage: Stage 2
+    evolves from:
+    - Golbat
+    legal: false
+    filename: 4-crobat
+    pokemon: Crobat
+    mechanics:
+    - name: Triggered Poison
+      cost: G
+      damage: '20'
+      type: attack
+      text: >-
+        If your opponent attaches an Energy card to the Defending Pokémon
+        during his or her next turn, that Pokémon becomes Poisoned.
+    - name: Cross Attack
+      cost: GGC
+      damage: 20×
+      type: attack
+      text: >-
+        Flip 4 coins. This attack does 20 damage times the number of heads.
+        If you get 2 or more heads, the Defending Pokémon is now Confused.
+    damage modifiers:
+    - amount: 2
+      operation: ×
+      type: Psychic
+    - amount: 30
+      operation: '-'
+      type: Fighting
+    retreat: 1
+    dex number: 169
+    species: Bat
+    weight: 165
+    height: 5'11
+    illustrators:
+    - Shin-ichi Yoshida
+- number: '5'
+  card:
+    name: Delibird
+    rarity: rare
+    holographic: true
+    class: P
+    types:
+    - Colorless
+    hp: 60
+    stage: Basic
+    legal: false
+    filename: 5-delibird
+    pokemon: Delibird
+    mechanics:
+    - name: Present
+      cost: CC
+      type: attack
+      text: >-
+        Flip 3 coins. If exactly 1 is heads, this attack does 40 damage.
+        If exactly 2 are heads, remove 3 damage counters from the Defending
+        Pokémon. If the Defending Pokémon has fewer damage counters than
+        that, remove all of them. If all 3 are heads, this attack does
+        60 damage. If all 3 are tails, remove all damage counters from
+        the Defending Pokémon.
+    damage modifiers:
+    - amount: 2
+      operation: ×
+      type: Lightning
+    - amount: 30
+      operation: '-'
+      type: Fighting
+    retreat: 1
+    dex number: 225
+    species: Delivery
+    weight: 35
+    height: 2'11
+    illustrators:
+    - Tomokazu Komiya
+- number: '6'
+  card:
+    name: Entei
+    rarity: rare
+    holographic: true
+    class: P
+    types:
+    - Fire
+    hp: 80
+    stage: Basic
+    legal: false
+    filename: 6-entei
+    pokemon: Entei
+    mechanics:
+    - type: note
+      text: >-
+        You can't have more than 1 Shining Gyarados Pokémon in your deck.
+    - name: Howl
+      type: pokemon-power
+      text: >-
+        When you play Entei from your hand, you may discard the top 5
+        cards from your deck. (if you have fewer cards in your deck than
+        that, discard all of them.) If any of those are (R) Energy cards,
+        attach them to any of your (R) Pokémon of your choice. Using this
+        power ends your turn.
+    - name: Searing Flames
+      cost: RRR
+      damage: '60'
+      type: attack
+      text: >-
+        Discard 2 R Energy cards attached to Entei or this attack does
+        nothing.
+    damage modifiers:
+    - amount: 2
+      operation: ×
+      type: Water
+    retreat: 1
+    dex number: 244
+    species: Volcano
+    weight: 437
+    height: 6'11
+    illustrators:
+    - Ken Sugimori
+- number: '7'
+  card:
+    name: Ho-oh
+    rarity: rare
+    holographic: true
+    class: P
+    types:
+    - Fire
+    hp: 90
+    stage: Basic
+    legal: false
+    filename: 7-ho-oh
+    pokemon: Ho-oh
+    mechanics:
+    - type: note
+      text: >-
+        You can't have more than 1 Shining Magikarp Pokémon in your deck.
+    - name: Stoke
+      cost: R
+      type: attack
+      text: >-
+        You may search your deck for a R Energy card and attach it to
+        Ho-oh. Shuffle your deck afterward.
+    - name: Sacred Fire
+      cost: RRR
+      type: attack
+      text: >-
+        Flip a coin. If heads, choose 1 of your opponent's Pokémon. This
+        attack does 40 damage to that Pokémon. Don't apply Weakness and
+        Resistance.
+    - name: Dive Bomb
+      cost: RRRRR
+      damage: '90'
+      type: attack
+      text: >-
+        Flip a coin. If tails, this attack does nothing.
+    damage modifiers:
+    - amount: 2
+      operation: ×
+      type: Water
+    - amount: 30
+      operation: '-'
+      type: Fighting
+    retreat: 2
+    dex number: 250
+    species: Rainbow
+    weight: 439
+    height: 12'6
+    illustrators:
+    - Kimiya Masago
+- number: '8'
+  card:
+    name: Houndoom
+    rarity: rare
+    holographic: true
+    class: P
+    types:
+    - Darkness
+    hp: 70
+    stage: Stage 1
+    evolves from:
+    - Houndour
+    legal: false
+    filename: 8-houndoom
+    pokemon: Houndoom
+    mechanics:
+    - name: Dark Flame
+      cost: R
+      damage: '20'
+      type: attack
+      text: >-
+        Discard 1 R Energy card attached to Houndoom or this attack does
+        nothing. If there are any D Energy cards in your discard pile,
+        attach 1 of them to Houndoom.
+    - name: Black Fang
+      cost: DCC
+      damage: '30'
+      type: attack
+      text: >-
+        Flip a number of coins equal to the number of D Energy attached
+        to Houndoom. This attack does 30 damage plus 10 more damage for
+        each heads.
+    damage modifiers:
+    - amount: 30
+      operation: '-'
+      type: Psychic
+    retreat: 1
+    dex number: 229
+    species: Dark
+    weight: 77
+    height: 4'7
+    illustrators:
+    - Mitsuhiro Arita
+- number: '9'
+  card:
+    name: Jumpluff
+    rarity: rare
+    holographic: true
+    class: P
+    types:
+    - Grass
+    hp: 70
+    stage: Stage 2
+    evolves from:
+    - Skiploom
+    legal: false
+    filename: 9-jumpluff
+    pokemon: Jumpluff
+    mechanics:
+    - name: Evolutionary Spore
+      cost: G
+      type: attack
+      text: >-
+        Choose any number of your Hoppips and Skiplooms. Then, for each
+        Pokémon you chose in this way, you may search your deck for a
+        card that evolves from that Pokémon and attach it to that Pokémon.
+        (This counts as evolving those Pokémon.) Shuffle your deck afterward.
+    - name: Solarbeam
+      cost: G
+      damage: '30'
+      type: attack
+    damage modifiers:
+    - amount: 2
+      operation: ×
+      type: Fire
+    - amount: 30
+      operation: '-'
+      type: Fighting
+    dex number: 189
+    species: Cottonweed
+    weight: 7
+    height: 2'7
+    illustrators:
+    - Kagemaru Himeno
+- number: '10'
+  card:
+    name: Magneton
+    rarity: rare
+    holographic: true
+    class: P
+    types:
+    - Metal
+    hp: 80
+    stage: Stage 1
+    evolves from:
+    - Magnemite
+    legal: false
+    filename: 10-magneton
+    pokemon: Magneton
+    mechanics:
+    - name: Electromagnetic Power
+      type: pokemon-power
+      text: >-
+        As often as you like during your turn (before your attack), you
+        may take 1 Energy card attached to 1 of your Magnemites, Magnetons,
+        or Dark Magnetons and attach it to a different 1 of your Magnemites,
+        Magnetons, or Dark Magnetons. This power can't be used if Magneton
+        is Asleep, Confused, or Paralyzed.
+    - name: Plasma
+      cost: LLC
+      damage: '30'
+      type: attack
+      text: >-
+        If there are any L Energy cards in your discard pile, attach 1
+        of them to Magneton.
+    damage modifiers:
+    - amount: 2
+      operation: ×
+      type: Fire
+    - amount: 30
+      operation: '-'
+      type: Grass
+    retreat: 2
+    dex number: 82
+    species: Magnet
+    weight: 132
+    height: 3'3
+    illustrators:
+    - Big Mama Tagawa
+    - CR CG gangs
+- number: '11'
+  card:
+    name: Misdreavus
+    rarity: rare
+    holographic: true
+    class: P
+    types:
+    - Psychic
+    hp: 50
+    stage: Basic
+    legal: false
+    filename: 11-misdreavus
+    pokemon: Misdreavus
+    mechanics:
+    - name: Night Eyes
+      cost: P
+      type: attack
+      text: >-
+        The Defending Pokémon is now Asleep.
+    - name: Perish Song
+      cost: PPP
+      type: attack
+      text: >-
+        If the Defending Pokémon is Asleep, and was attacked with Night
+        Eyes during your last turn, it is Knocked Out.
+    damage modifiers:
+    - amount: 30
+      operation: '-'
+      type: Fighting
+    retreat: 1
+    dex number: 200
+    species: Screech
+    weight: 2
+    height: 2'4
+    illustrators:
+    - Ken Sugimori
+- number: '12'
+  card:
+    name: Porygon2
+    rarity: rare
+    holographic: true
+    class: P
+    types:
+    - Colorless
+    hp: 70
+    stage: Stage 1
+    evolves from:
+    - Porygon
+    legal: false
+    filename: 12-porygon2
+    pokemon: Porygon2
+    mechanics:
+    - name: Energy Converter
+      type: pokemon-power
+      text: >-
+        Once during your turn (before your attack), you may choose 1 Basic
+        Energy card attached to 1 of your Pokémon and choose an Energy
+        type. Treat that Energy card as that type until the end is your
+        turn. This power can't be used if Porygon2 is Asleep, Confused,
+        or Paralyzed. If Porygon2 becomes Asleep, Confused, or Paralyzed,
+        the Energy card goes back to its original type.
+    - name: Delta Beam
+      cost: CCC
+      damage: '20'
+      type: attack
+      text: >-
+        Flip a coin. If heads, choose whether the Defending Pokémon becomes
+        Asleep, Confused, or Paralyzed.
+    damage modifiers:
+    - amount: 2
+      operation: ×
+      type: Fighting
+    - amount: 30
+      operation: '-'
+      type: Psychic
+    retreat: 1
+    dex number: 233
+    species: Virtual
+    weight: 72
+    height: 2'0
+    illustrators:
+    - Keiji Kinebuchi
+- number: '13'
+  card:
+    name: Raikou
+    rarity: rare
+    holographic: true
+    class: P
+    types:
+    - Lightning
+    hp: 80
+    stage: Basic
+    legal: false
+    filename: 13-raikou
+    pokemon: Raikou
+    mechanics:
+    - name: Lightning Burst
+      type: pokemon-power
+      text: >-
+        Whenever you attach a (L) Energy card from your hand to Raikou,
+        if your opponent has any Benched Pokémon, he or she chooses 1
+        of them and switches it with the Defending Pokémon. This power
+        stops working while Raikou is Asleep, Confused, or Paralyzed.
+    - name: Lightning Tackle
+      cost: LLL
+      damage: '50'
+      type: attack
+      text: >-
+        Flip a coin. If tails, Raikou does 20 damage to itself.
+    damage modifiers:
+    - amount: 2
+      operation: ×
+      type: Fighting
+    retreat: 1
+    dex number: 243
+    species: Thunder
+    weight: 392
+    height: 6'3
+    illustrators:
+    - Ken Sugimori
+- number: '14'
+  card:
+    name: Suicune
+    rarity: rare
+    holographic: true
+    class: P
+    types:
+    - Water
+    hp: 70
+    stage: Basic
+    legal: false
+    filename: 14-suicune
+    pokemon: Suicune
+    mechanics:
+    - name: Crystal Body
+      type: pokemon-power
+      text: >-
+        Prevent all effects of your opponent's attacks, other than damage,
+        done to Suicune. This power stops working while Suicune is Asleep,
+        Confused, or Paralyzed.
+    - name: Aurora Wave
+      cost: WWW
+      damage: '30'
+      type: attack
+      text: >-
+        Flip 2 coins. If both are heads, the Defending Pokémon is now
+        Paralyzed. If only 1 is heads, the Defending Pokémon is now Asleep.
+    damage modifiers:
+    - amount: 2
+      operation: ×
+      type: Lightning
+    retreat: 1
+    dex number: 245
+    species: Aurora
+    weight: 412
+    height: 6'7
+    illustrators:
+    - Ken Sugimori
+- number: '15'
+  card:
+    name: Aerodactyl
+    rarity: rare
+    holographic: false
+    class: P
+    types:
+    - Fighting
+    hp: 60
+    stage: Stage 1
+    evolves from:
+    - Mysterious Fossil
+    legal: false
+    filename: 15-aerodactyl
+    pokemon: Aerodactyl
+    mechanics:
+    - name: Prehistoric Memory
+      type: pokemon-power
+      text: >-
+        Whenever an Evolved Pokémon attacks (even if it's your opponent's),
+        it can use any attack from its Basic card or any Evolution card
+        attached to it. It still has to pay for that attack's Energy cost.
+        This power stops working while Aerodactyl is Asleep, Confused,
+        or Paralyzed.
+    - name: Fly
+      cost: CCC
+      damage: '30'
+      type: attack
+      text: >-
+        Flip a coin. If heads, during your opponent's next turn, prevent
+        all effects of attacks, including damage, done to Aerodactyl.
+        If tails, this attack does nothing (not even damage).
+    damage modifiers:
+    - amount: 2
+      operation: ×
+      type: Grass
+    - amount: 30
+      operation: '-'
+      type: Fighting
+    retreat: 2
+    dex number: 142
+    species: Fossil
+    weight: 130
+    height: 5'11
+    illustrators:
+    - Shin-ichi Yoshida
+- number: '16'
+  card:
+    name: Celebi
+    rarity: rare
+    holographic: false
+    class: P
+    types:
+    - Grass
+    hp: 50
+    stage: Basic
+    legal: false
+    filename: 16-celebi
+    pokemon: Celebi
+    mechanics:
+    - name: Psychic Leaf
+      cost: GG
+      damage: '10'
+      type: attack
+      text: >-
+        Flip a coin for each Energy attached to the Defending Pokémon.
+        This attack does 10 damage plus 10 more damage for each heads.
+        Remove a number of damage counters from Celebi equal to the damage
+        done to the Defending Pokémon (after applying Weakness and Resistance).
+        If Celebi has fewer damage counters than that, remove all of them.
+    damage modifiers:
+    - amount: 2
+      operation: ×
+      type: Fire
+    retreat: 1
+    dex number: 251
+    species: Timetravel
+    weight: 11
+    height: 2'0
+    illustrators:
+    - Sumiyoshi Kizuki
+- number: '17'
+  card:
+    name: Entei
+    rarity: rare
+    holographic: false
+    class: P
+    types:
+    - Fire
+    hp: 60
+    stage: Basic
+    legal: false
+    filename: 17-entei
+    pokemon: Entei
+    mechanics:
+    - name: Legendary Body
+      type: pokemon-power
+      text: >-
+        As long as Entei is your Active Pokémon, Entei and Energy cards
+        attached to it aren't affected by effects from Trainer cards other
+        than Trainer cards other than Stadium cards. As long as this power
+        is active, discard all Trainer cards attached to Entei. (This
+        power works even if Entei is Asleep, Confused, or Paralyzed.)
+    - name: Mega Flame
+      cost: RRR
+      damage: '50'
+      type: attack
+      text: >-
+        Flip 2 coins. For each tails, discard 1 R Energy card from Entei,
+        if it has any.
+    damage modifiers:
+    - amount: 2
+      operation: ×
+      type: Water
+    dex number: 244
+    species: Volcano
+    weight: 437
+    height: 6'11
+    illustrators:
+    - Naoyo Kimura
+- number: '18'
+  card:
+    name: Ho-oh
+    rarity: rare
+    holographic: false
+    class: P
+    types:
+    - Colorless
+    hp: 90
+    stage: Basic
+    legal: false
+    filename: 18-ho-oh
+    pokemon: Ho-oh
+    mechanics:
+    - name: Rainbow Burn
+      cost: CCCC
+      damage: '30'
+      type: attack
+      text: >-
+        This attack does 30 damage plus 10 more for each type of Basic
+        Energy card if any, attached to Ho-oh.
+    damage modifiers:
+    - amount: 2
+      operation: ×
+      type: Water
+    - amount: 30
+      operation: '-'
+      type: Fighting
+    retreat: 2
+    dex number: 250
+    species: Rainbow
+    weight: 439
+    height: 12'6
+    illustrators:
+    - Aya Kusube
+- number: '19'
+  card:
+    name: Kingdra
+    rarity: rare
+    holographic: false
+    class: P
+    types:
+    - Water
+    hp: 90
+    stage: Stage 2
+    evolves from:
+    - Seadra
+    legal: false
+    filename: 19-kingdra
+    pokemon: Kingdra
+    mechanics:
+    - name: Genetic Memory
+      cost: C
+      type: attack
+      text: >-
+        Use any attack from Kingdra's Basic Pokémon card or Evolution
+        card. (Kingdra doesn't have to pay for that attack's Energy cost.)
+    - name: Twister
+      cost: WWCC
+      damage: '50'
+      type: attack
+      text: >-
+        Flip 2 coins. For each heads, choose an Energy card attached to
+        the Defending Pokémon, if any, and discard it. If both are tails,
+        this attack does nothing (not even damage).
+    retreat: 2
+    dex number: 230
+    species: Dragon
+    weight: 335
+    height: 5'11
+    illustrators:
+    - Mitsuhiro Arita
+- number: '20'
+  card:
+    name: Lugia
+    rarity: rare
+    holographic: false
+    class: P
+    types:
+    - Psychic
+    hp: 90
+    stage: Basic
+    legal: false
+    filename: 20-lugia
+    pokemon: Lugia
+    mechanics:
+    - name: Aerowing
+      cost: CCCC
+      damage: '40'
+      type: attack
+      text: >-
+        You may flip a coin. If heads, this attack does 80 damage. If
+        tails, this attack does nothing.
+    damage modifiers:
+    - amount: 2
+      operation: ×
+      type: Psychic
+    - amount: 30
+      operation: '-'
+      type: Fighting
+    retreat: 2
+    dex number: 249
+    species: Diving
+    weight: 476
+    height: 17'1
+    illustrators:
+    - Aya Kusube
+- number: '21'
+  card:
+    name: Raichu
+    rarity: rare
+    holographic: false
+    class: P
+    types:
+    - Lightning
+    hp: 80
+    stage: Stage 1
+    evolves from:
+    - Pikachu
+    legal: false
+    filename: 21-raichu
+    pokemon: Raichu
+    mechanics:
+    - name: Thundershock
+      cost: LC
+      damage: '20'
+      type: attack
+      text: >-
+        Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+    - name: Lightning Strike
+      cost: LLL
+      damage: '40'
+      type: attack
+      text: >-
+        You may discard all L Energy cards attached to Raichu. If you
+        do, this attack does 80 damage.
+    damage modifiers:
+    - amount: 2
+      operation: ×
+      type: Fighting
+    retreat: 1
+    dex number: 26
+    species: Mouse
+    weight: 66
+    height: 2'7
+    illustrators:
+    - Masako Yamashita
+- number: '22'
+  card:
+    name: Raikou
+    rarity: rare
+    holographic: false
+    class: P
+    types:
+    - Lightning
+    hp: 60
+    stage: Basic
+    legal: false
+    filename: 22-raikou
+    pokemon: Raikou
+    mechanics:
+    - name: Legendary Body
+      type: pokemon-power
+      text: >-
+        As long as Raikou is your Active Pokémon, Raikou and Energy cards
+        attached to it aren't affected by effects from Trainer cards other
+        than Trainer cards other than Stadium cards. As long as this power
+        is active, discard all Trainer cards attached to Raikou. (This
+        power works even if Raikou is Asleep, Confused, or Paralyzed.)
+    - name: Lightning Spark
+      cost: LLL
+      damage: '30'
+      type: attack
+      text: >-
+        If your opponent has any Benched Pokémon, flip a coin. If heads,
+        choose 1 of them and this attack does 20 damage to it. (Don't
+        apply Weakness and Resistance for Benched Pokémon.)
+    damage modifiers:
+    - amount: 2
+      operation: ×
+      type: Fighting
+    dex number: 243
+    species: Thunder
+    weight: 392
+    height: 6'3
+    illustrators:
+    - Naoyo Kimura
+- number: '23'
+  card:
+    name: Skarmory
+    rarity: rare
+    holographic: false
+    class: P
+    types:
+    - Metal
+    hp: 60
+    stage: Basic
+    legal: false
+    filename: 23-skarmory
+    pokemon: Skarmory
+    mechanics:
+    - name: Fury Attack
+      cost: C
+      damage: 10×
+      type: attack
+      text: >-
+        Flip 2 coins. This attack does 10 damage times the number of heads.
+    - name: Agility
+      cost: MCC
+      damage: '20'
+      type: attack
+      text: >-
+        Flip a coin. If heads, during your opponent's next turn, prevent
+        all effects of attacks, including damage, done to Skarmory.
+    damage modifiers:
+    - amount: 2
+      operation: ×
+      type: Fire
+    - amount: 30
+      operation: '-'
+      type: Grass
+    retreat: 2
+    dex number: 227
+    species: Armor Bird
+    weight: 111
+    height: 5'7
+    illustrators:
+    - Aya Kusube
+- number: '24'
+  card:
+    name: Sneasel
+    rarity: rare
+    holographic: false
+    class: P
+    types:
+    - Darkness
+    hp: 60
+    stage: Basic
+    legal: false
+    filename: 24-sneasel
+    pokemon: Sneasel
+    mechanics:
+    - name: Swipe
+      cost: D
+      type: attack
+      text: >-
+        Flip a coin. If heads, discard all Trainer cards attached to your
+        opponent's Pokémon.
+    - name: Quick Attack
+      cost: CC
+      damage: '10'
+      type: attack
+      text: >-
+        Flip a coin. If heads, this attack does 10 damage plus 20 more
+        damage.
+    damage modifiers:
+    - amount: 30
+      operation: '-'
+      type: Psychic
+    dex number: 215
+    species: Sharp Claw
+    weight: 62
+    height: 2'11
+    illustrators:
+    - Sumiyoshi Kizuki
+- number: '25'
+  card:
+    name: Starmie
+    rarity: rare
+    holographic: false
+    class: P
+    types:
+    - Psychic
+    hp: 70
+    stage: Stage 1
+    evolves from:
+    - Staryu
+    legal: false
+    filename: 25-starmie
+    pokemon: Starmie
+    mechanics:
+    - name: Confuse Ray
+      cost: W
+      damage: '10'
+      type: attack
+      text: >-
+        Flip a coin. If heads, the Defending Pokémon is now Confused.
+    - name: Core Stream
+      cost: PPC
+      type: attack
+      text: >-
+        Choose an Energy type other than Colorless. This attack does 20
+        damage to each of your opponent's Pokémon with any Energy cards
+        of that type attached to it. Don't apply Weakness and Resistance.
+    damage modifiers:
+    - amount: 2
+      operation: ×
+      type: Psychic
+    retreat: 1
+    dex number: 121
+    species: Mysterious
+    weight: 176
+    height: 3'7
+    illustrators:
+    - Keita Komatsuya
+    - CR CG gangs
+- number: '26'
+  card:
+    name: Sudowoodo
+    rarity: rare
+    holographic: false
+    class: P
+    types:
+    - Fighting
+    hp: 60
+    stage: Basic
+    legal: false
+    filename: 26-sudowoodo
+    pokemon: Sudowoodo
+    mechanics:
+    - name: Mimic
+      type: pokemon-power
+      text: >-
+        As long as Sudowoodo is your Active Pokémon, it copies all of
+        the Defending Pokémon's attacks, including their costs. This power
+        can't be used if Sudowoodo is Asleep, Confused, or Paralyzed.
+    - name: Slam
+      cost: CC
+      damage: 20×
+      type: attack
+      text: >-
+        Flip 2 coins. This attack does 20 damage times the number of heads.
+    damage modifiers:
+    - amount: 2
+      operation: ×
+      type: Water
+    retreat: 3
+    dex number: 185
+    species: Imitation
+    weight: 84
+    height: 3'11
+    illustrators:
+    - Sumiyoshi Kizuki
+- number: '27'
+  card:
+    name: Suicune
+    rarity: rare
+    holographic: false
+    class: P
+    types:
+    - Water
+    hp: 60
+    stage: Basic
+    legal: false
+    filename: 27-suicune
+    pokemon: Suicune
+    mechanics:
+    - name: Legendary Body
+      type: pokemon-power
+      text: >-
+        As long as Suicune is your Active Pokémon, Suicune and Energy
+        cards attached to it aren't affected by effects from Trainer cards
+        other than Trainer cards other than Stadium cards. As long as
+        this power is active, discard all Trainer cards attached to Suicune.
+        (This power works even if Suicune is Asleep, Confused, or Paralyzed.)
+    - name: Crystal Wave
+      cost: WWW
+      damage: '30'
+      type: attack
+      text: >-
+        Flip a coin. If heads, this attack does 30 damage plus 10 more
+        damage. If tails, this attack does 30 damage and, if your opponent
+        has any Benched Pokémon, he or she chooses 1 of them and switches
+        it with the Defending Pokémon. (Do the damage before switching
+        the Pokémon.)
+    damage modifiers:
+    - amount: 2
+      operation: ×
+      type: Lightning
+    dex number: 245
+    species: Aurora
+    weight: 412
+    height: 6'7
+    illustrators:
+    - Naoyo Kimura
+- number: '28'
+  card:
+    name: Flaaffy
+    rarity: uncommon
+    holographic: false
+    class: P
+    types:
+    - Lightning
+    hp: 70
+    stage: Stage 1
+    evolves from:
+    - Mareep
+    legal: false
+    filename: 28-flaaffy
+    pokemon: Flaaffy
+    mechanics:
+    - name: Electric Punch
+      cost: L
+      damage: '20'
+      type: attack
+    - name: Tail Shock
+      cost: LCC
+      damage: '30'
+      type: attack
+      text: >-
+        Flip a coin. If heads, this attack does 10 damage to each of your
+        opponent's Benched Pokémon. (Don't apply Weakness and Resistance
+        for Benched Pokémon.)
+    damage modifiers:
+    - amount: 2
+      operation: ×
+      type: Fighting
+    retreat: 1
+    dex number: 180
+    species: Wool
+    weight: 29
+    height: 2'7
+    illustrators:
+    - Toshinao Aoki
+- number: '29'
+  card:
+    name: Golbat
+    rarity: uncommon
+    holographic: false
+    class: P
+    types:
+    - Grass
+    hp: 60
+    stage: Stage 1
+    evolves from:
+    - Zubat
+    legal: false
+    filename: 29-golbat
+    pokemon: Golbat
+    mechanics:
+    - name: Screech
+      cost: C
+      type: attack
+      text: >-
+        Until the end of your next turn, if an attack damages the Defending
+        Pokémon (after applying Weakness and Resistance), that attack
+        does 20 more damage to the Defending Pokémon.
+    - name: Poison Bite
+      cost: GC
+      damage: '10'
+      type: attack
+      text: >-
+        If this attack damages the Defending Pokémon, the Defending Pokémon
+        is now Poisoned and you remove a number of damage counters from
+        Golbat equal to half that damage (rounded up to the nearest 10).
+        If Golbat has fewer damage counters than that, remove all of them,
+        remove all of them. Either way, the Defending Pokémon is now Poisoned.
+    damage modifiers:
+    - amount: 2
+      operation: ×
+      type: Grass
+    - amount: 30
+      operation: '-'
+      type: Fighting
+    dex number: 42
+    species: Bat
+    weight: 121
+    height: 5'3
+    illustrators:
+    - Masako Yamashita
+- number: '30'
+  card:
+    name: Graveler
+    rarity: uncommon
+    holographic: false
+    class: P
+    types:
+    - Fighting
+    hp: 70
+    stage: Stage 1
+    evolves from:
+    - Geodude
+    legal: false
+    filename: 30-graveler
+    pokemon: Graveler
+    mechanics:
+    - name: Earthquake
+      cost: FC
+      damage: '40'
+      type: attack
+      text: >-
+        Does 10 damage to each of your own Benched Pokémon. (Don't apply
+        Weakness and Resistance for Benched Pokémon.)
+    - name: Rock Tumble
+      cost: FFF
+      damage: '50'
+      type: attack
+      text: >-
+        Don't apply Resistance.
+    damage modifiers:
+    - amount: 2
+      operation: ×
+      type: Grass
+    retreat: 2
+    dex number: 75
+    species: Rock
+    weight: 232
+    height: 3'3
+    illustrators:
+    - Yukiko Baba
+- number: '31'
+  card:
+    name: Jynx
+    rarity: uncommon
+    holographic: false
+    class: P
+    types:
+    - Water
+    hp: 60
+    stage: Basic
+    legal: false
+    filename: 31-jynx
+    pokemon: Jynx
+    mechanics:
+    - name: Freezing Kiss Goodnight
+      cost: W
+      type: attack
+      text: >-
+        The Defending Pokémon is now Asleep.
+    - name: Strange Dance
+      cost: PPC
+      damage: '20'
+      type: attack
+      text: >-
+        Flip a coin. If heads, this attack does 20 damage plus 20 more
+        damage and the Defending Pokémon is now Confused. If tails, this
+        attack does 20 damage.
+    damage modifiers:
+    - amount: 2
+      operation: ×
+      type: Psychic
+    retreat: 2
+    dex number: 124
+    species: Human Shape
+    weight: 90
+    height: 4'7
+    illustrators:
+    - Tomokazu Komiya
+- number: '32'
+  card:
+    name: Lanturn
+    rarity: uncommon
+    holographic: false
+    class: P
+    types:
+    - Lightning
+    hp: 80
+    stage: Stage 1
+    evolves from:
+    - Chinchou
+    legal: false
+    filename: 32-lanturn
+    pokemon: Lanturn
+    mechanics:
+    - name: Submerge
+      type: pokemon-power
+      text: >-
+        Once during your turn (before your attack), you may change Lanturn's
+        type to (W) until the end of your turn. This power can't be used
+        if Lanturn is Asleep, Confused, or Paralyzed. If Lanturn becomes
+        Asleep, Confused, or Paralyzed after you have used this power,
+        its type changes back to (L).
+    - name: Blinding Light
+      cost: LCC
+      damage: '30'
+      type: attack
+      text: >-
+        Flip a coin. If heads, the Defending Pokémon is now Confused.
+    damage modifiers:
+    - amount: 2
+      operation: ×
+      type: Fighting
+    retreat: 2
+    dex number: 171
+    species: Light
+    weight: 171
+    height: 3'11
+    illustrators:
+    - Kagemaru Himeno
+- number: '33'
+  card:
+    name: Magcargo
+    rarity: uncommon
+    holographic: false
+    class: P
+    types:
+    - Fire
+    hp: 80
+    stage: Stage 1
+    evolves from:
+    - Slugma
+    legal: false
+    filename: 33-magcargo
+    pokemon: Magcargo
+    mechanics:
+    - name: Magma Pool
+      type: pokemon-power
+      text: >-
+        If Magcargo is your Active Pokémon and moves to the Bench, remove
+        1 (R) Energy card attached to Magcargo, if any, and attach it
+        to the new Active Pokémon. (You can't use an Energy card that
+        you used to pay for the Retreat Cost.)
+    - name: Lava Flow
+      cost: RRR
+      damage: '40'
+      type: attack
+      text: >-
+        You may discard any number of R Energy cards attached to Magcargo
+        when you use this attack. If you do, this attack does 40 damage
+        plus 20 more damage for each R Energy card you discarded in this
+        way.
+    damage modifiers:
+    - amount: 2
+      operation: ×
+      type: Water
+    retreat: 3
+    dex number: 219
+    species: Lava
+    weight: 121
+    height: 2'7
+    illustrators:
+    - Shin-ichi Yoshida
+- number: '34'
+  card:
+    name: Octillery
+    rarity: uncommon
+    holographic: false
+    class: P
+    types:
+    - Water
+    hp: 80
+    stage: Stage 1
+    evolves from:
+    - Remoraid
+    legal: false
+    filename: 34-octillery
+    pokemon: Octillery
+    mechanics:
+    - name: Constrict
+      cost: W
+      damage: '10'
+      type: attack
+      text: >-
+        Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+    - name: Octazooka
+      cost: WWW
+      damage: '40'
+      type: attack
+      text: >-
+        Flip a coin. If heads, whenever the Defending Pokémon attacks,
+        your opponent flips a coin. If tails that attack does nothing.
+        (Benching or evolving that Pokémon ends this effect.)
+    damage modifiers:
+    - amount: 2
+      operation: ×
+      type: Lightning
+    retreat: 2
+    dex number: 224
+    species: Jet
+    weight: 63
+    height: 2'11
+    illustrators:
+    - Tomokazu Komiya
+- number: '35'
+  card:
+    name: Parasect
+    rarity: uncommon
+    holographic: false
+    class: P
+    types:
+    - Grass
+    hp: 60
+    stage: Stage 1
+    evolves from:
+    - Paras
+    legal: false
+    filename: 35-parasect
+    pokemon: Parasect
+    mechanics:
+    - name: Allergic Pollen
+      type: pokemon-power
+      text: >-
+        As long as Parasect is in play, cards in any player's discard
+        pile are not affected by attacks or Pokémon Powers. This power
+        stops working if Parasect becomes Asleep, Confused, or Paralyzed.
+    - name: Sleep Pinchers
+      cost: GG
+      damage: '30'
+      type: attack
+      text: >-
+        Flip a coin. If heads, the Defending Pokémon is now Asleep.
+    damage modifiers:
+    - amount: 2
+      operation: ×
+      type: Fire
+    retreat: 2
+    dex number: 47
+    species: Mushroom
+    weight: 65
+    height: 3'3
+    illustrators:
+    - Atsuko Nishida
+- number: '36'
+  card:
+    name: Piloswine
+    rarity: uncommon
+    holographic: false
+    class: P
+    types:
+    - Fighting
+    hp: 90
+    stage: Stage 1
+    evolves from:
+    - Swinub
+    legal: false
+    filename: 36-piloswine
+    pokemon: Piloswine
+    mechanics:
+    - name: Nap
+      cost: CC
+      type: attack
+      text: >-
+        Remove 3 damage counters from Piloswine. If it has fewer damage
+        counters than that, remove all of them.
+    - name: High-Speed Charge
+      cost: FFCC
+      damage: '80'
+      type: attack
+      text: >-
+        Piloswine does 30 damage to itself. Piloswine can't use this attack
+        during your next turn.
+    damage modifiers:
+    - amount: 2
+      operation: ×
+      type: Grass
+    - amount: 30
+      operation: '-'
+      type: Lightning
+    retreat: 3
+    dex number: 221
+    species: Swine
+    weight: 123
+    height: 3'7
+    illustrators:
+    - Atsuko Nishida
+- number: '37'
+  card:
+    name: Seaking
+    rarity: uncommon
+    holographic: false
+    class: P
+    types:
+    - Water
+    hp: 70
+    stage: Stage 1
+    evolves from:
+    - Goldeen
+    legal: false
+    filename: 37-seaking
+    pokemon: Seaking
+    mechanics:
+    - name: Rising Lunge
+      cost: W
+      damage: '10'
+      type: attack
+      text: >-
+        Flip a coin. If heads, this attack does 10 damage plus 10 more
+        damage. If tails, this attack does 10 damage.
+    - name: Horn Swipe
+      cost: WW
+      damage: '20'
+      type: attack
+      text: >-
+        Flip 2 coins. If both are heads, this attack does 20 damage plus
+        40 more damage. If 1 or both are tails, this attack does 20 damage.
+    damage modifiers:
+    - amount: 2
+      operation: ×
+      type: Lightning
+    retreat: 1
+    dex number: 119
+    species: Goldfish
+    weight: 86
+    height: 4'3
+    illustrators:
+    - Miki Tanaka
+- number: '38'
+  card:
+    name: Stantler
+    rarity: uncommon
+    holographic: false
+    class: P
+    types:
+    - Colorless
+    hp: 60
+    stage: Basic
+    legal: false
+    filename: 38-stantler
+    pokemon: Stantler
+    mechanics:
+    - name: Terrorize
+      cost: C
+      type: attack
+      text: >-
+        If the Defending Pokémon is a Basic, choose 1 of its attacks.
+        That Pokémon can't use that attack during your opponent's next
+        turn.
+    - name: Overhead Toss
+      cost: CCC
+      damage: '30'
+      type: attack
+      text: >-
+        If you have any Benched Pokémon, flip a coin. If tails, this attack
+        does 10 damage to 1 of them. (Don't apply Weakness and Resistance
+        for Benched Pokémon.)
+    damage modifiers:
+    - amount: 2
+      operation: ×
+      type: Fighting
+    - amount: 30
+      operation: '-'
+      type: Psychic
+    retreat: 1
+    dex number: 234
+    species: Big Horn
+    weight: 157
+    height: 4'7
+    illustrators:
+    - Yukiko Baba
+- number: '39'
+  card:
+    name: Unown B
+    rarity: uncommon
+    holographic: false
+    class: P
+    types:
+    - Psychic
+    hp: 50
+    stage: Basic
+    legal: false
+    filename: 39-unown-b
+    pokemon: Unown
+    mechanics:
+    - type: note
+      text: >-
+        You may have up to 4 Basic Pokémon cards in your deck with Unown
+        in their names.
+    - name: '[Bear]'
+      type: pokemon-power
+      text: >-
+        Once during your turn (before your attack), you may move 1 damage
+        counter from 1 of your Pokémon with Unown in its name to Unown
+        [B]. This power can't be used if Unown [B] has 10 HP left. This
+        power can be used even if Unown [B] is Asleep, Confused, or Paralyzed.
+    - name: Hidden Power
+      cost: P
+      damage: '10'
+      type: attack
+    damage modifiers:
+    - amount: 2
+      operation: ×
+      type: Psychic
+    retreat: 1
+    dex number: 201
+    species: Symbol
+    weight: 11
+    height: 1'8
+    illustrators:
+    - CR CG gangs
+- number: '40'
+  card:
+    name: Unown Y
+    rarity: uncommon
+    holographic: false
+    class: P
+    types:
+    - Psychic
+    hp: 40
+    stage: Basic
+    legal: false
+    filename: 40-unown-y
+    pokemon: Unown
+    mechanics:
+    - type: note
+      text: >-
+        You may have up to 4 Basic Pokémon cards in your deck with Unown
+        in their names.
+    - name: '[Yield]'
+      type: pokemon-power
+      text: >-
+        Once during your turn (before your attack), you may flip a coin.
+        If heads, search your deck for a (P) Energy card and attach it
+        to 1 of your Pokémon with Unown in its name. Shuffle your deck
+        afterward. This power can be used even if Unown [Y] is Asleep,
+        Confused, or Paralyzed.
+    - name: Hidden Power
+      cost: P
+      damage: '10'
+      type: attack
+    damage modifiers:
+    - amount: 2
+      operation: ×
+      type: Psychic
+    retreat: 1
+    dex number: 201
+    species: Symbol
+    weight: 11
+    height: 1'8
+    illustrators:
+    - CR CG gangs
+- number: '41'
+  card:
+    name: Aipom
+    rarity: common
+    holographic: false
+    class: P
+    types:
+    - Colorless
+    hp: 40
+    stage: Basic
+    legal: false
+    filename: 41-aipom
+    pokemon: Aipom
+    mechanics:
+    - name: Grab
+      cost: C
+      type: attack
+      text: >-
+        Choose a Trainer card attached to 1 of your opponent's Pokémon.
+        Your opponent shuffles that card into his or her deck.
+    - name: Tail Punch
+      cost: CC
+      damage: '20'
+      type: attack
+    damage modifiers:
+    - amount: 2
+      operation: ×
+      type: Fighting
+    - amount: 30
+      operation: '-'
+      type: Psychic
+    dex number: 190
+    species: Long Tail
+    weight: 25
+    height: 2'7
+    illustrators:
+    - Sumiyoshi Kizuki
+- number: '42'
+  card:
+    name: Chinchou
+    rarity: common
+    holographic: false
+    class: P
+    types:
+    - Lightning
+    hp: 50
+    stage: Basic
+    legal: false
+    filename: 42-chinchou
+    pokemon: Chinchou
+    mechanics:
+    - name: Positive Ion
+      cost: L
+      damage: '10'
+      type: attack
+      text: >-
+        Flip a coin. If heads, this attack does 10 damage plus 10 more
+        damage. If tails, this attack does 10 damage.
+    - name: Negative Ion
+      cost: W
+      damage: '10'
+      type: attack
+      text: >-
+        If the Defending Pokémon attacks Chinchou during your opponent's
+        next turn, any damage done to Chinchou is reduced by 10 (before
+        applying Weakness and Resistance). (Benching either Pokémon ends
+        this effect.)
+    damage modifiers:
+    - amount: 2
+      operation: ×
+      type: Fighting
+    retreat: 1
+    dex number: 170
+    species: Angler
+    weight: 26
+    height: 1'8
+    illustrators:
+    - Atsuko Nishida
+- number: '43'
+  card:
+    name: Farfetch'd
+    rarity: common
+    holographic: false
+    class: P
+    types:
+    - Colorless
+    hp: 50
+    stage: Basic
+    legal: false
+    filename: 43-farfetch'd
+    pokemon: Farfetch'd
+    mechanics:
+    - name: Gust
+      cost: C
+      damage: '10'
+      type: attack
+    - name: Leek Jab
+      cost: CCC
+      damage: '40'
+      type: attack
+      text: >-
+        This attack can't be used during your next turn. (Benching Farfetch'd
+        ends this effect.)
+    damage modifiers:
+    - amount: 2
+      operation: ×
+      type: Lightning
+    - amount: 30
+      operation: '-'
+      type: Fighting
+    retreat: 1
+    dex number: 83
+    species: Wild Duck
+    weight: 33
+    height: 2'7
+    illustrators:
+    - Miki Tanaka
+- number: '44'
+  card:
+    name: Geodude
+    rarity: common
+    holographic: false
+    class: P
+    types:
+    - Fighting
+    hp: 40
+    stage: Basic
+    legal: false
+    filename: 44-geodude
+    pokemon: Geodude
+    mechanics:
+    - name: Knuckle Punch
+      cost: F
+      damage: '20'
+      type: attack
+    damage modifiers:
+    - amount: 2
+      operation: ×
+      type: Grass
+    retreat: 1
+    dex number: 74
+    species: Rock
+    weight: 44
+    height: 1'4
+    illustrators:
+    - Masako Yamashita
+- number: '45'
+  card:
+    name: Goldeen
+    rarity: common
+    holographic: false
+    class: P
+    types:
+    - Water
+    hp: 40
+    stage: Basic
+    legal: false
+    filename: 45-goldeen
+    pokemon: Goldeen
+    mechanics:
+    - name: Fin Smack
+      cost: C
+      damage: 10×
+      type: attack
+      text: >-
+        Flip 2 coins. This attack does 10 damage times the number of heads.
+    damage modifiers:
+    - amount: 2
+      operation: ×
+      type: Lightning
+    dex number: 118
+    species: Goldfish
+    weight: 33
+    height: 2'0
+    illustrators:
+    - Yuka Morii
+- number: '46'
+  card:
+    name: Murkrow
+    rarity: common
+    holographic: false
+    class: P
+    types:
+    - Darkness
+    hp: 40
+    stage: Basic
+    legal: false
+    filename: 46-murkrow
+    pokemon: Murkrow
+    mechanics:
+    - name: Call for Family
+      cost: C
+      type: attack
+      text: >-
+        Search your deck for a card named Murkrow and put it onto your
+        Bench. Shuffle your deck afterward. (You can't use this attack
+        if your Bench is full.)
+    - name: Flock Attack
+      cost: CC
+      damage: '10'
+      type: attack
+      text: >-
+        Flip a number of coins equal to the number of Murkrows on your
+        Bench. This attack does 10 damage plus 10 more damage for each
+        heads.
+    damage modifiers:
+    - amount: 30
+      operation: '-'
+      type: Psychic
+    dex number: 198
+    species: Darkness
+    weight: 5
+    height: 1'8
+    illustrators:
+    - Hironobu Yoshida
+- number: '47'
+  card:
+    name: Paras
+    rarity: common
+    holographic: false
+    class: P
+    types:
+    - Grass
+    hp: 40
+    stage: Basic
+    legal: false
+    filename: 47-paras
+    pokemon: Paras
+    mechanics:
+    - name: Sleep Spore
+      cost: G
+      damage: '10'
+      type: attack
+      text: >-
+        Flip a coin. If heads, the Defending Pokémon is now Asleep.
+    - name: Scratch
+      cost: CC
+      damage: '20'
+      type: attack
+    damage modifiers:
+    - amount: 2
+      operation: ×
+      type: Fire
+    retreat: 1
+    dex number: 46
+    species: Mushroom
+    weight: 12
+    height: 1'0
+    illustrators:
+    - Kagemaru Himeno
+- number: '48'
+  card:
+    name: Quagsire
+    rarity: common
+    holographic: false
+    class: P
+    types:
+    - Water
+    hp: 70
+    stage: Stage 1
+    evolves from:
+    - Wooper
+    legal: false
+    filename: 48-quagsire
+    pokemon: Quagsire
+    mechanics:
+    - name: Mud Slap
+      cost: FF
+      damage: '30'
+      type: attack
+    - name: Whirlpool
+      cost: WWCC
+      damage: '40'
+      type: attack
+      text: >-
+        If the Defending Pokémon has any Energy cards attached to it,
+        choose 1 of them and discard it.
+    damage modifiers:
+    - amount: 2
+      operation: ×
+      type: Grass
+    - amount: 30
+      operation: '-'
+      type: Lightning
+    retreat: 2
+    dex number: 195
+    species: Water Fish
+    weight: 165
+    height: 4'7
+    illustrators:
+    - Yuka Morii
+- number: '49'
+  card:
+    name: Qwilfish
+    rarity: common
+    holographic: false
+    class: P
+    types:
+    - Water
+    hp: 60
+    stage: Basic
+    legal: false
+    filename: 49-qwilfish
+    pokemon: Qwilfish
+    mechanics:
+    - name: Poison Sting
+      cost: W
+      damage: '10'
+      type: attack
+      text: >-
+        Flip a coin. If heads, the Defending Pokémon is now Poisoned.
+    - name: Needle Storm
+      cost: CC
+      damage: 20×
+      type: attack
+      text: >-
+        Flip a coin until you get tails. This attack does 20 damage times
+        the number of heads you get.
+    damage modifiers:
+    - amount: 2
+      operation: ×
+      type: Lightning
+    retreat: 1
+    dex number: 211
+    species: Balloon
+    weight: 9
+    height: 1'8
+    illustrators:
+    - Sumiyoshi Kizuki
+- number: '50'
+  card:
+    name: Remoraid
+    rarity: common
+    holographic: false
+    class: P
+    types:
+    - Water
+    hp: 40
+    stage: Basic
+    legal: false
+    filename: 50-remoraid
+    pokemon: Remoraid
+    mechanics:
+    - name: Sharpshooting
+      cost: W
+      type: attack
+      text: >-
+        Flip a coin. If heads, choose 1 of your opponent's Pokémon. This
+        attack does 20 damage to that Pokémon. Don't apply Weakness and
+        Resistance.
+    damage modifiers:
+    - amount: 2
+      operation: ×
+      type: Lightning
+    dex number: 223
+    species: Jet
+    weight: 26
+    height: 2'0
+    illustrators:
+    - Miki Tanaka
+- number: '51'
+  card:
+    name: Shuckle
+    rarity: common
+    holographic: false
+    class: P
+    types:
+    - Fighting
+    hp: 40
+    stage: Basic
+    legal: false
+    filename: 51-shuckle
+    pokemon: Shuckle
+    mechanics:
+    - name: Hard Shell
+      type: pokemon-power
+      text: >-
+        Whenever an attack (including your own) does 40 or less damage
+        to Shuckle (after applying Weakness and Resistance), reduce that
+        damage to 10. (Any other effects of attacks still happen.) This
+        power stops working while Shuckle is Asleep, Confused, or Paralyzed.
+    - name: Toxic Saliva
+      cost: GG
+      type: attack
+      text: >-
+        Flip a coin. If heads, the Defending Pokémon is now Poisoned.
+        It now takes 20 Poison damage after each player's turn (even if
+        it was already Poisoned).
+    damage modifiers:
+    - amount: 2
+      operation: ×
+      type: Grass
+    retreat: 1
+    dex number: 213
+    species: Mold
+    weight: 45
+    height: 2'0
+    illustrators:
+    - Yuka Morii
+- number: '52'
+  card:
+    name: Skiploom
+    rarity: common
+    holographic: false
+    class: P
+    types:
+    - Grass
+    hp: 60
+    stage: Stage 1
+    evolves from:
+    - Hoppip
+    legal: false
+    filename: 52-skiploom
+    pokemon: Skiploom
+    mechanics:
+    - name: Hop
+      cost: C
+      damage: '20'
+      type: attack
+    - name: Mysterious Powder
+      cost: G
+      damage: '10'
+      type: attack
+      text: >-
+        Flip a coin. If heads, the Defending Pokémon is now Confused.
+    damage modifiers:
+    - amount: 2
+      operation: ×
+      type: Fire
+    - amount: 30
+      operation: '-'
+      type: Fighting
+    retreat: 2
+    dex number: 188
+    species: Cottonweed
+    weight: 2
+    height: 2'0
+    illustrators:
+    - Mitsuhiro Arita
+- number: '53'
+  card:
+    name: Slugma
+    rarity: common
+    holographic: false
+    class: P
+    types:
+    - Fire
+    hp: 50
+    stage: Basic
+    legal: false
+    filename: 53-slugma
+    pokemon: Slugma
+    mechanics:
+    - name: Flare
+      cost: R
+      damage: '10'
+      type: attack
+    - name: Magma Ring
+      cost: RR
+      damage: '20'
+      type: attack
+      text: >-
+        The Defending Pokémon can't retreat during your opponent's next
+        turn.
+    damage modifiers:
+    - amount: 2
+      operation: ×
+      type: Water
+    retreat: 2
+    dex number: 218
+    species: Lava
+    weight: 77
+    height: 2'4
+    illustrators:
+    - Kagemaru Himeno
+- number: '54'
+  card:
+    name: Smoochum
+    rarity: common
+    holographic: false
+    class: P
+    types:
+    - Psychic
+    hp: 30
+    stage: Baby
+    evolves into:
+    - Jynx
+    legal: false
+    filename: 54-smoochum
+    pokemon: Smoochum
+    mechanics:
+    - name: Psykiss
+      cost: C
+      type: attack
+      text: >-
+        Flip a coin. If heads, choose a Special Energy card attached to
+        1 of your opponent's Pokémon. Your opponent shuffles that card
+        into his or her deck.
+    dex number: 238
+    species: Kiss
+    weight: 13
+    height: 1'4
+    illustrators:
+    - Atsuko Nishida
+- number: '55'
+  card:
+    name: Snubbull
+    rarity: common
+    holographic: false
+    class: P
+    types:
+    - Colorless
+    hp: 50
+    stage: Basic
+    legal: false
+    filename: 55-snubbull
+    pokemon: Snubbull
+    mechanics:
+    - name: Bite
+      cost: C
+      damage: '10'
+      type: attack
+    - name: Raging Headbutt
+      cost: CC
+      damage: '10'
+      type: attack
+      text: >-
+        Flip a coin. If heads, this attack does 10 damage plus 10 damage
+        times the number of damage counters on Snubbull. If tails, this
+        attack does 10 damage.
+    damage modifiers:
+    - amount: 2
+      operation: ×
+      type: Fighting
+    - amount: 30
+      operation: '-'
+      type: Psychic
+    retreat: 1
+    dex number: 209
+    species: Fairy
+    weight: 17
+    height: 2'0
+    illustrators:
+    - Tomokazu Komiya
+- number: '56'
+  card:
+    name: Staryu
+    rarity: common
+    holographic: false
+    class: P
+    types:
+    - Water
+    hp: 40
+    stage: Basic
+    legal: false
+    filename: 56-staryu
+    pokemon: Staryu
+    mechanics:
+    - name: Tackle
+      cost: C
+      damage: '10'
+      type: attack
+    - name: Bubblebeam
+      cost: W
+      damage: '10'
+      type: attack
+      text: >-
+        Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+    damage modifiers:
+    - amount: 2
+      operation: ×
+      type: Lightning
+    retreat: 1
+    dex number: 120
+    species: Starshape
+    weight: 76
+    height: 2'7
+    illustrators:
+    - Mitsuhiro Arita
+- number: '57'
+  card:
+    name: Swinub
+    rarity: common
+    holographic: false
+    class: P
+    types:
+    - Fighting
+    hp: 40
+    stage: Basic
+    legal: false
+    filename: 57-swinub
+    pokemon: Swinub
+    mechanics:
+    - name: Tackle
+      cost: C
+      damage: '10'
+      type: attack
+    - name: Take Down
+      cost: FC
+      damage: '30'
+      type: attack
+      text: >-
+        Swinub does 10 damage to itself.
+    damage modifiers:
+    - amount: 2
+      operation: ×
+      type: Grass
+    - amount: 30
+      operation: '-'
+      type: Lightning
+    retreat: 1
+    dex number: 220
+    species: Pig
+    weight: 14
+    height: 1'4
+    illustrators:
+    - Miki Tanaka
+- number: '58'
+  card:
+    name: Unown K
+    rarity: common
+    holographic: false
+    class: P
+    types:
+    - Psychic
+    hp: 40
+    stage: Basic
+    legal: false
+    filename: 58-unown-k
+    pokemon: Unown
+    mechanics:
+    - type: note
+      text: >-
+        You may have up to 4 Basic Pokémon cards in your deck with Unown
+        in their names.
+    - name: '[Keep]'
+      type: pokemon-power
+      text: >-
+        Your opponent's attacks, Pokémon Powers, and Trainer cards can't
+        discard Energy cards from your Pokémon with Unown in their names.
+        (Any other effects of attacks still happen.)
+    - name: Hidden Power
+      cost: P
+      damage: '10'
+      type: attack
+    damage modifiers:
+    - amount: 2
+      operation: ×
+      type: Psychic
+    retreat: 1
+    dex number: 201
+    species: Symbol
+    weight: 11
+    height: 1'8
+    illustrators:
+    - CR CG gangs
+- number: '59'
+  card:
+    name: Zubat
+    rarity: common
+    holographic: false
+    class: P
+    types:
+    - Grass
+    hp: 40
+    stage: Basic
+    legal: false
+    filename: 59-zubat
+    pokemon: Zubat
+    mechanics:
+    - name: Bite
+      cost: C
+      damage: '10'
+      type: attack
+    - name: Poison Spray
+      cost: G
+      type: attack
+      text: >-
+        The Defending Pokémon is now Poisoned.
+    damage modifiers:
+    - amount: 2
+      operation: ×
+      type: Psychic
+    - amount: 30
+      operation: '-'
+      type: Fighting
+    dex number: 41
+    species: Bat
+    weight: 17
+    height: 2'7
+    illustrators:
+    - Yukiko Baba
+- number: '60'
+  card:
+    name: Balloon Berry
+    rarity: uncommon
+    holographic: false
+    class: T
+    legal: false
+    filename: 60-balloon-berry
+    subclasses:
+    - Tool
+    mechanics:
+    - type: rule
+      text: >-
+        Attach Balloon Berry to 1 of your Pokémon that doesn't already
+        have a Pokémon Tool attached to it.  If that Pokémon is Knocked
+        Out, discard this card.
+    - type: effect
+      text: >-
+        Attach Balloon Berry to 1 of your Pokémon that doesn't have a
+        Pokémon Tool attached to it. When the Pokémon Balloon Berry is
+        attached to retreats, discard Balloon Berry instead of discarding
+        Energy cards.
+    illustrators:
+    - Keiji Kinebuchi
+- number: '61'
+  card:
+    name: Healing Field
+    rarity: uncommon
+    holographic: false
+    class: T
+    legal: false
+    filename: 61-healing-field
+    subclasses:
+    - Stadium
+    mechanics:
+    - type: rule
+      text: >-
+        This card stays in play when you play it. Discard this card if
+        another Stadium card comes into play.
+    - type: effect
+      text: >-
+        Once during each player's turn, he or she may flip a coin. If
+        heads, that player removes 2 damage counters from his or her Active
+        Pokémon (1 if it only has 1).
+    illustrators:
+    - Keiji Kinebuchi
+- number: '62'
+  card:
+    name: Pokémon Breeder Fields
+    rarity: uncommon
+    holographic: false
+    class: T
+    legal: false
+    filename: 62-pokemon-breeder-fields
+    mechanics:
+    - type: effect
+      text: >-
+        Flip a coin for each of your non-Baby Pokémon that can evolve.
+        For each heads, search your deck for a later-Stage card that matches
+        that Pokémon. Then put that card into your hand. Shuffle your
+        deck afterward.
+    illustrators:
+    - Ken Sugimori
+- number: '63'
+  card:
+    name: Rocket's Hideout
+    rarity: uncommon
+    holographic: false
+    class: T
+    legal: false
+    filename: 63-rocket's-hideout
+    subclasses:
+    - Stadium
+    mechanics:
+    - type: rule
+      text: >-
+        This card stays in play when you play it. Discard this card if
+        another Stadium card comes into play.
+    - type: effect
+      text: >-
+        Each Pokémon in play with Dark in its name (even your opponent's)
+        gets +20 HP.
+    illustrators:
+    - Keiji Kinebuchi
+- number: '64'
+  card:
+    name: Old Rod
+    rarity: common
+    holographic: false
+    class: T
+    legal: false
+    filename: 64-old-rod
+    mechanics:
+    - type: effect
+      text: >-
+        Flip 2 coins. If both are heads, put a Baby Pokémon, Basic, or
+        Evolution card from your discard pile into your hand. If both
+        are tails, put a Trainer card from your discard pile into your
+        hand.
+    illustrators:
+    - Keiji Kinebuchi
+- number: '65'
+  card:
+    name: Shining Gyarados
+    rarity: rare
+    holographic: true
+    class: P
+    types:
+    - Water
+    hp: 100
+    stage: Basic
+    legal: false
+    filename: 65-shining-gyarados
+    pokemon: Gyarados
+    subclasses:
+    - Shining
+    mechanics:
+    - name: Outrage
+      cost: WFF
+      damage: '30'
+      type: attack
+      text: >-
+        Flip a coin. If heads, this attack does 30 damage plus 10 more
+        damage for each damage counter on Shining Gyarados. If tails,
+        this attack does nothing.
+    - name: Devastate
+      cost: WWRR
+      damage: '50'
+      type: attack
+      text: >-
+        Discard 2 R Energy cards attached to Shining Gyarados or this
+        attack does nothing. This attack does 10 damage to each of your
+        opponent's Benched Pokémon. (Don't apply Weakness and Resistance
+        for Benched Pokémon.) Then, flip a coin. If heads, choose 1 Energy
+        card attached to each of your opponent's Pokémon that has any
+        Energy cards attached to it and discard those Energy cards.
+    damage modifiers:
+    - amount: 2
+      operation: ×
+      type: Grass
+    - amount: 30
+      operation: '-'
+      type: Fighting
+    retreat: 3
+    illustrators:
+    - Ken Sugimori
+- number: '66'
+  card:
+    name: Shining Magikarp
+    rarity: rare
+    holographic: true
+    class: P
+    types:
+    - Water
+    hp: 30
+    stage: Basic
+    legal: false
+    filename: 66-shining-magikarp
+    pokemon: Magikarp
+    subclasses:
+    - Shining
+    mechanics:
+    - name: Gold Scale
+      cost: W
+      type: attack
+      text: >-
+        Your opponent may draw 2 cards. Either way, you may draw 2 cards.
+    - name: Dragon Bond
+      cost: P
+      type: attack
+      text: >-
+        Search your deck for a card named Gyarados, Dark Gyarados, or
+        Shining Gyarados. Show it to your opponent and put it into your
+        hand. Shuffle your deck afterward.
+    damage modifiers:
+    - amount: 2
+      operation: ×
+      type: Lightning
+    retreat: 1
+    illustrators:
+    - Ken Sugimori

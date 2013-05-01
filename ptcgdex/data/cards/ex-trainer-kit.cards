@@ -1,0 +1,123 @@
+---
+name: Bagon
+rarity: ''
+holographic: false
+filename: 1-bagon
+pokemon: Bagon
+---
+name: Combusken
+rarity: ''
+holographic: false
+filename: 2-combusken
+pokemon: Combusken
+---
+name: Delcatty
+rarity: ''
+holographic: false
+filename: 3-delcatty
+pokemon: Delcatty
+---
+name: Latias
+rarity: ''
+holographic: false
+filename: 4-latias
+pokemon: Latias
+---
+name: Numel
+rarity: ''
+holographic: false
+filename: 5-numel
+pokemon: Numel
+---
+name: Skitty
+rarity: ''
+holographic: false
+filename: 6-skitty
+pokemon: Skitty
+---
+name: Torchic
+rarity: ''
+holographic: false
+filename: 7-torchic
+pokemon: Torchic
+---
+name: Potion
+rarity: ''
+holographic: false
+filename: 8-potion
+---
+name: Energy Search
+rarity: ''
+holographic: false
+filename: 9-energy-search
+---
+name: Fire Energy
+rarity: ''
+holographic: false
+filename: 10-fire-energy
+mechanics:
+- type: effect
+  text: >-
+    Provides 1 Fire Energy.
+---
+name: Electrike
+rarity: ''
+holographic: false
+filename: 1-electrike
+pokemon: Electrike
+---
+name: Latios
+rarity: ''
+holographic: false
+filename: 2-latios
+pokemon: Latios
+---
+name: Linoone
+rarity: ''
+holographic: false
+filename: 3-linoone
+pokemon: Linoone
+---
+name: Magnemite
+rarity: ''
+holographic: false
+filename: 4-magnemite
+pokemon: Magnemite
+---
+name: Magneton
+rarity: ''
+holographic: false
+filename: 5-magneton
+pokemon: Magneton
+---
+name: Pikachu
+rarity: ''
+holographic: false
+filename: 6-pikachu
+pokemon: Pikachu
+---
+name: Zigzagoon
+rarity: ''
+holographic: false
+filename: 7-zigzagoon
+pokemon: Zigzagoon
+---
+name: Potion
+rarity: ''
+holographic: false
+filename: 8-potion
+pokemon: Potion
+---
+name: Energy Search
+rarity: ''
+holographic: false
+filename: 9-energy-search
+---
+name: Lightning Energy
+rarity: ''
+holographic: false
+filename: 10-lightning-energy
+mechanics:
+- type: effect
+  text: >-
+    Provides 1 Lightning Energy.

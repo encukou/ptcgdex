@@ -1,3483 +1,3303 @@
 ---
-set: ex-team-magma-vs-team-aqua
-number: '1'
-order: 0
-name: Team Aqua's Cacturne
-rarity: rare
-holographic: true
-class: P
-types:
-- Grass
-- Darkness
-hp: 80
-stage: Stage 1
-evolves from: Team Aqua's Cacnea
-legal: false
-filename: 1-team-aqua's-cacturne
-pokemon: Cacturne
-subclasses:
-- Aqua
-mechanics:
-- name: Dark Bind
-  cost: D
-  damage: '10'
-  type: attack
-  text: >-
-    You may discard a D Energy card attached to Team Aqua's Cacturne.
-    If you do, the Defending Pokémon is now Paralyzed.
-- name: Poison Barb
-  cost: GCC
-  damage: '40'
-  type: attack
-  text: >-
-    The Defending Pokémon is now Poisoned.
-damage modifiers:
-- amount: 2
-  operation: ×
-  type: Fire
-retreat: 2
-illustrators:
-- K. Utsunomiya
----
-set: ex-team-magma-vs-team-aqua
-number: '2'
-order: 1
-name: Team Aqua's Crawdaunt
-rarity: rare
-holographic: true
-class: P
-types:
-- Water
-- Darkness
-hp: 80
-stage: Stage 1
-evolves from: Team Aqua's Krabby
-legal: false
-filename: 2-team-aqua's-crawdaunt
-pokemon: Crawdaunt
-subclasses:
-- Aqua
-mechanics:
-- name: Aqua Reverse
-  cost: DC
-  damage: '20'
-  type: attack
-  text: >-
-    Before doing damage, you may choose 1 of your opponent's Benched
-    Pokémon that has Team Magma in its name and switch it with
-    1 of the Defending Pokémon. Your opponent chooses which Defending
-    Pokémon to switch.
-- name: Deep Impact
-  cost: WWC
-  damage: '40'
-  type: attack
-  text: >-
-    If the Defending Pokémon already has any damage counters on
-    it, the Defending Pokémon is now Confused.
-damage modifiers:
-- amount: 2
-  operation: ×
-  type: Lightning
-retreat: 1
-illustrators:
-- Nakaoka
----
-set: ex-team-magma-vs-team-aqua
-number: '3'
-order: 2
-name: Team Aqua's Kyogre
-rarity: rare
-holographic: true
-class: P
-types:
-- Water
-- Darkness
-hp: 100
-stage: Basic
-legal: false
-filename: 3-team-aqua's-kyogre
-pokemon: Kyogre
-subclasses:
-- Aqua
-mechanics:
-- name: Power Saver
-  type: pokebody
-  text: >-
-    As long as the number of Pokémon in play (both yours and your
-    opponent's) that has Team Aqua in its name is 3 or less, Team
-    Aqua's Kyogre can't attack.
-- name: Aqua Trip
-  cost: WC
-  damage: '10'
-  type: attack
-  text: >-
-    Flip a coin. If heads, the Defending Pokémon is now Confused.
-    If tails, the Defending Pokémon is now Asleep.
-- name: Aqua Smash
-  cost: WWC
-  damage: '50'
-  type: attack
-  text: >-
-    If the Defending Pokémon is affected by a Special Condition,
-    this attack does 50 damage plus 20 more damage.
-damage modifiers:
-- amount: 2
-  operation: ×
-  type: Grass
-retreat: 3
-illustrators:
-- K. Hoshiba
----
-set: ex-team-magma-vs-team-aqua
-number: '4'
-order: 3
-name: Team Aqua's Manectric
-rarity: rare
-holographic: true
-class: P
-types:
-- Lightning
-- Darkness
-hp: 70
-stage: Stage 1
-evolves from: Team Aqua's Electrike
-legal: false
-filename: 4-team-aqua's-manectric
-pokemon: Manectric
-subclasses:
-- Aqua
-mechanics:
-- name: Power Shift
-  type: pokepower
-  text: >-
-    Once during your turn (before your attack), you may move any
-    number of basic Energy cards attached to 1 of your Pokémon
-    with Team Aqua in its name to another of your Pokémon. This
-    power can't be used if Team Aqua's Manectric is affected by
-    a Special Condition.
-- name: Thunderspark
-  cost: LCC
-  damage: '50'
-  type: attack
-  text: >-
-    Does 10 damage to each Benched Pokémon (both yours and your
-    opponent's) that has Energy cards attached to it. (Don't apply
-    Weakness and Resistance for Benched Pokémon.)
-damage modifiers:
-- amount: 2
-  operation: ×
-  type: Fighting
-- amount: 30
-  operation: '-'
-  type: Metal
-retreat: 1
-illustrators:
-- K. Utsunomiya
----
-set: ex-team-magma-vs-team-aqua
-number: '5'
-order: 4
-name: Team Aqua's Sharpedo
-rarity: rare
-holographic: true
-class: P
-types:
-- Water
-- Darkness
-hp: 70
-stage: Stage 1
-evolves from: Team Aqua's Carvahna
-legal: false
-filename: 5-team-aqua's-sharpedo
-pokemon: Sharpedo
-subclasses:
-- Aqua
-mechanics:
-- name: Rage
-  cost: CC
-  damage: '10'
-  type: attack
-  text: >-
-    Does 10 damage plus 10 more damage for each damage counter
-    on Team Aqua's Sharpedo.
-- name: Aqua Slash
-  cost: WWC
-  damage: '60'
-  type: attack
-  text: >-
-    Team Aqua's Sharpedo can't attack during your next turn.
-damage modifiers:
-- amount: 2
-  operation: ×
-  type: Lightning
-illustrators:
-- Katsura Tabata
----
-set: ex-team-magma-vs-team-aqua
-number: '6'
-order: 5
-name: Team Aqua's Walrein
-rarity: rare
-holographic: true
-class: P
-types:
-- Water
-- Darkness
-hp: 120
-stage: Stage 2
-evolves from: Team Aqua's Sealeo
-legal: false
-filename: 6-team-aqua's-walrein
-pokemon: Walrein
-subclasses:
-- Aqua
-mechanics:
-- name: Power Blow
-  cost: C
-  damage: '10'
-  type: attack
-  text: >-
-    Does 10 damage plus 10 more damage for each Energy attached
-    to Team Aqua's Walrein.
-- name: Hydro Reverse
-  cost: WWCC
-  damage: '50'
-  type: attack
-  text: >-
-    You may return any number of basic W Energy cards attached
-    to all of your Pokémon to your hand. If you do, this attack
-    does 50 damage plus 10 more damage for each Energy you returned.
-damage modifiers:
-- amount: 2
-  operation: ×
-  type: Fighting
-- amount: 2
-  operation: ×
-  type: Metal
-retreat: 2
-illustrators:
-- Ken Ikuji
----
-set: ex-team-magma-vs-team-aqua
-number: '7'
-order: 6
-name: Team Magma's Aggron
-rarity: rare
-holographic: true
-class: P
-types:
-- Fighting
-- Darkness
-hp: 120
-stage: Stage 2
-evolves from: Team Magma's Lairon
-legal: false
-filename: 7-team-magma's-aggron
-pokemon: Aggron
-subclasses:
-- Magma
-mechanics:
-- name: Crush
-  cost: F
-  damage: 30×
-  type: attack
-  text: >-
-    Flip a coin for each Energy attached to Team Magma's Aggron.
-    This attack does 30 damage times the number of heads.
-- name: Land Stream
-  cost: FFCC
-  damage: '50'
-  type: attack
-  text: >-
-    You may discard any number of basic Energy cards attached
-    to Team Magma's Aggron. If you do, this attack does 50 damage
-    plus 20 more damage for each basic Energy card you discarded.
-damage modifiers:
-- amount: 2
-  operation: ×
-  type: Grass
-- amount: 2
-  operation: ×
-  type: Water
-retreat: 2
-illustrators:
-- Hiromichi Sugiyama
----
-set: ex-team-magma-vs-team-aqua
-number: '8'
-order: 7
-name: Team Magma's Claydol
-rarity: rare
-holographic: true
-class: P
-types:
-- Psychic
-- Darkness
-hp: 80
-stage: Stage 1
-evolves from: Team Magma's Baltoy
-legal: false
-filename: 8-team-magma's-claydol
-pokemon: Claydol
-subclasses:
-- Magma
-mechanics:
-- name: Magma Switch
-  type: pokepower
-  text: >-
-    Once during your turn (before your attack), you may move an
-    Energy card attached to your Pokémon with Team Magma in its
-    name to another of your Pokémon. This power can't be used
-    if Team Magma's Claydol is affected by a Special Condition.
-- name: Dark Hand
-  cost: PCC
-  damage: '40'
-  type: attack
-  text: >-
-    If you have more cards in your hand than your opponent, this
-    attack does 40 damage plus 20 more damage.
-damage modifiers:
-- amount: 2
-  operation: ×
-  type: Psychic
-retreat: 2
-illustrators:
-- Zu-ka
----
-set: ex-team-magma-vs-team-aqua
-number: '9'
-order: 8
-name: Team Magma's Groudon
-rarity: rare
-holographic: true
-class: P
-types:
-- Fighting
-- Darkness
-hp: 100
-stage: Basic
-legal: false
-filename: 9-team-magma's-groudon
-pokemon: Groudon
-subclasses:
-- Magma
-mechanics:
-- name: Power Saver
-  type: pokebody
-  text: >-
-    As long as the number of Pokémon in play (both yours and your
-    opponent's) that has Team Magma in its name is 3 or less,
-    Team Magma's Groudon can't attack.
-- name: Linear Attack
-  cost: FC
-  type: attack
-  text: >-
-    Choose 1 of your opponent's Pokémon. This attack does 20 damage
-    to that Pokémon. (Don't apply Weakness and Resistance for
-    Benched Pokémon.)
-- name: Pulverize
-  cost: FFC
-  damage: '50'
-  type: attack
-  text: >-
-    If the Defending Pokémon already has at least 2 damage counters
-    on it, this attack does 50 damage plus 20 more damage.
-damage modifiers:
-- amount: 2
-  operation: ×
-  type: Grass
-retreat: 3
-illustrators:
-- Kazuo Yazawa
----
-set: ex-team-magma-vs-team-aqua
-number: '10'
-order: 9
-name: Team Magma's Houndoom
-rarity: rare
-holographic: true
-class: P
-types:
-- Fire
-- Darkness
-hp: 70
-stage: Stage 1
-evolves from: Team Magma's Houndour
-legal: false
-filename: 10-team-magma's-houndoom
-pokemon: Houndoom
-subclasses:
-- Magma
-mechanics:
-- name: Roasting Heat
-  cost: RC
-  damage: '30'
-  type: attack
-  text: >-
-    If the Defending Pokémon is Burned, this attack does 30 damage
-    plus 20 more damage.
-- name: Magma Spurt
-  cost: RCC
-  damage: 30×
-  type: attack
-  text: >-
-    Discard the top 5 cards from your deck. This attack does 30
-    damage times the number of F and R basic Energy cards discarded
-    this way.
-damage modifiers:
-- amount: 2
-  operation: ×
-  type: Water
-retreat: 1
-illustrators:
-- Ken Ikuji
----
-set: ex-team-magma-vs-team-aqua
-number: '11'
-order: 10
-name: Team Magma's Rhydon
-rarity: rare
-holographic: true
-class: P
-types:
-- Fighting
-- Darkness
-hp: 90
-stage: Stage 1
-evolves from: Team Magma's Rhyhorn
-legal: false
-filename: 11-team-magma's-rhydon
-pokemon: Rhydon
-subclasses:
-- Magma
-mechanics:
-- name: Magma Jab
-  cost: DC
-  damage: '20'
-  type: attack
-  text: >-
-    This attack's damage is not affected by Resistance.
-- name: Shoot Down
-  cost: FFC
-  damage: '50'
-  type: attack
-  text: >-
-    If the Defending Pokémon has Team Aqua in its name, the Defending
-    Pokémon is now Confused.
-damage modifiers:
-- amount: 2
-  operation: ×
-  type: Grass
-retreat: 2
-illustrators:
-- T. Honda
----
-set: ex-team-magma-vs-team-aqua
-number: '12'
-order: 11
-name: Team Magma's Torkoal
-rarity: rare
-holographic: true
-class: P
-types:
-- Fire
-- Darkness
-hp: 80
-stage: Basic
-legal: false
-filename: 12-team-magma's-torkoal
-pokemon: Torkoal
-subclasses:
-- Magma
-mechanics:
-- name: Magma Burn
-  cost: R
-  damage: '10'
-  type: attack
-  text: >-
-    Discard the top card from your opponent's deck, and flip a
-    coin. If tails, discard a R Energy attached to Team Magma's
-    Torkoal.
-- name: Hot Air
-  cost: RC
-  damage: '30'
-  type: attack
-  text: >-
-    Discard a R Energy attached to Team Magma's Torkoal, and your
-    opponent switches the Defending Pokémon with 1 of his or her
-    Benched Pokémon, if any.
-damage modifiers:
-- amount: 2
-  operation: ×
-  type: Water
-retreat: 2
-illustrators:
-- K. Hoshiba
----
-set: ex-team-magma-vs-team-aqua
-number: '13'
-order: 12
-name: Raichu
-rarity: rare
-holographic: false
-class: P
-types:
-- Lightning
-hp: 80
-stage: Stage 1
-evolves from: Pikachu
-legal: false
-filename: 13-raichu
-pokemon: Raichu
-mechanics:
-- name: Spark
-  cost: LC
-  damage: '20'
-  type: attack
-  text: >-
-    Does 10 damage to 2 of your opponent's Benched Pokémon (1
-    if there is only 1). (Don't apply Weakness and Resistance
-    for Benched Pokémon.)
-- name: Kerzap
-  cost: LLC
-  damage: '40'
-  type: attack
-  text: >-
-    Flip a coin. If heads, this attack does 40 damage plus 40
-    more damage to the Defending Pokémon and discard all L Energy
-    cards attached to Raichu.
-damage modifiers:
-- amount: 2
-  operation: ×
-  type: Fighting
-retreat: 1
-illustrators:
-- Ken Sugimori
----
-set: ex-team-magma-vs-team-aqua
-number: '14'
-order: 13
-name: Team Aqua's Crawdaunt
-rarity: rare
-holographic: false
-class: P
-types:
-- Water
-hp: 80
-stage: Stage 1
-evolves from: Team Aqua's Krabby
-legal: false
-filename: 14-team-aqua's-crawdaunt
-pokemon: Crawdaunt
-subclasses:
-- Aqua
-mechanics:
-- name: Poison Reaction
-  cost: WC
-  damage: '20'
-  type: attack
-  text: >-
-    If the Defending Pokémon is Poisoned, this attack does 20
-    damage plus 20 more damage.
-- name: Double Claw
-  cost: WCC
-  damage: '30'
-  type: attack
-  text: >-
-    Flip 2 coins. This attack does 30 damage plus 20 more damage
-    for each heads.
-damage modifiers:
-- amount: 2
-  operation: ×
-  type: Lightning
-retreat: 1
-illustrators:
-- Nakaoka
----
-set: ex-team-magma-vs-team-aqua
-number: '15'
-order: 14
-name: Team Aqua's Mightyena
-rarity: rare
-holographic: false
-class: P
-types:
-- Darkness
-hp: 70
-stage: Stage 1
-evolves from: Team Aqua's Poochyena
-legal: false
-filename: 15-team-aqua's-mightyena
-pokemon: Mightyena
-subclasses:
-- Aqua
-mechanics:
-- name: Bite
-  cost: DC
-  damage: '20'
-  type: attack
-- name: Mystic Fang
-  cost: WCC
-  damage: '50'
-  type: attack
-  text: >-
-    If the Defending Pokémon is Pokémon-ex, the Defending Pokémon
-    is now Confused.
-damage modifiers:
-- amount: 2
-  operation: ×
-  type: Grass
-- amount: 30
-  operation: '-'
-  type: Psychic
-retreat: 1
-illustrators:
-- Shin-ichi Yoshikawa
----
-set: ex-team-magma-vs-team-aqua
-number: '16'
-order: 15
-name: Team Aqua's Sealeo
-rarity: rare
-holographic: false
-class: P
-types:
-- Water
-hp: 70
-stage: Stage 1
-evolves from: Team Aqua's Spheal
-legal: false
-filename: 16-team-aqua's-sealeo
-pokemon: Sealeo
-subclasses:
-- Aqua
-mechanics:
-- name: Aqua Trance
-  cost: W
-  damage: '20'
-  type: attack
-  text: >-
-    At the end of your opponent's next turn, the Defending Pokémon
-    is now Asleep.
-- name: Super Hypnoblast
-  cost: WC
-  damage: '30'
-  type: attack
-  text: >-
-    If the Defending Pokémon is Asleep, this attack does 30 damage
-    plus 20 more damage.
-damage modifiers:
-- amount: 2
-  operation: ×
-  type: Metal
-retreat: 1
-illustrators:
-- T. Honda
----
-set: ex-team-magma-vs-team-aqua
-number: '17'
-order: 16
-name: Team Aqua's Seviper
-rarity: rare
-holographic: false
-class: P
-types:
-- Grass
-hp: 80
-stage: Basic
-legal: false
-filename: 17-team-aqua's-seviper
-pokemon: Seviper
-subclasses:
-- Aqua
-mechanics:
-- name: Call for Family
-  cost: C
-  type: attack
-  text: >-
-    Search your deck for a G Basic Pokémon or Basic Pokémon with
-    Team Aqua in its name and put it onto your Bench. Shuffle
-    your deck afterward.
-- name: Thick Poison
-  cost: GCC
-  damage: '20'
-  type: attack
-  text: >-
-    Flip a coin. If heads, the Defending Pokémon is now Confused
-    and Poisoned. If tails, the Defending Pokémon is now Poisoned.
-damage modifiers:
-- amount: 2
-  operation: ×
-  type: Psychic
-retreat: 2
-illustrators:
-- Jungo Suzuki
----
-set: ex-team-magma-vs-team-aqua
-number: '18'
-order: 17
-name: Team Aqua's Sharpedo
-rarity: rare
-holographic: false
-class: P
-types:
-- Water
-hp: 70
-stage: Stage 1
-evolves from: Team Aqua's Carvahna
-legal: false
-filename: 18-team-aqua's-sharpedo
-pokemon: Sharpedo
-subclasses:
-- Aqua
-mechanics:
-- name: Slow-Acting Poison
-  cost: CC
-  damage: '20'
-  type: attack
-  text: >-
-    At the end of your opponent's next turn, the Defending Pokémon
-    is now Poisoned.
-- name: Aqua Smash
-  cost: WWC
-  damage: '50'
-  type: attack
-  text: >-
-    If the Defending Pokémon is affected by a Special Condition,
-    this attack does 50 damage plus 20 more damage.
-damage modifiers:
-- amount: 2
-  operation: ×
-  type: Lightning
-illustrators:
-- Katsura Tabata
----
-set: ex-team-magma-vs-team-aqua
-number: '19'
-order: 18
-name: Team Magma's Camerupt
-rarity: rare
-holographic: false
-class: P
-types:
-- Fire
-hp: 80
-stage: Stage 1
-evolves from: Team Magma's Numel
-legal: false
-filename: 19-team-magma's-camerupt
-pokemon: Camerupt
-subclasses:
-- Magma
-mechanics:
-- name: Overheat
-  type: pokepower
-  text: >-
-    Once during your turn (before your attack), you may search
-    your discard pile for a basic Energy card and attach it to
-    Team Magma's Camerupt. Put 2 damage counters on Team Magma's
-    Camerupt. This power can't be used if Team Magma's Camerupt
-    is affected by a Special Condition.
-- name: Flame Ball
-  cost: RCC
-  damage: '50'
-  type: attack
-  text: >-
-    You may move a R Energy card attached to Team Magma's Camerupt
-    to 1 of your Benched Pokémon.
-damage modifiers:
-- amount: 2
-  operation: ×
-  type: Water
-retreat: 2
-illustrators:
-- Katsura Tabata
----
-set: ex-team-magma-vs-team-aqua
-number: '20'
-order: 19
-name: Team Magma's Lairon
-rarity: rare
-holographic: false
-class: P
-types:
-- Fighting
-hp: 80
-stage: Stage 1
-evolves from: Team Magma's Aron
-legal: false
-filename: 20-team-magma's-lairon
-pokemon: Lairon
-subclasses:
-- Magma
-mechanics:
-- name: Body Slam
-  cost: C
-  damage: '10'
-  type: attack
-  text: >-
-    Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
-- name: Tackle
-  cost: FFC
-  damage: '50'
-  type: attack
-damage modifiers:
-- amount: 2
-  operation: ×
-  type: Grass
-retreat: 2
-illustrators:
-- Hiromichi Sugiyama
----
-set: ex-team-magma-vs-team-aqua
-number: '21'
-order: 20
-name: Team Magma's Mightyena
-rarity: rare
-holographic: false
-class: P
-types:
-- Darkness
-hp: 70
-stage: Stage 1
-evolves from: Team Magma's Poochyena
-legal: false
-filename: 21-team-magma's-mightyena
-pokemon: Mightyena
-subclasses:
-- Magma
-mechanics:
-- name: Overrun
-  cost: F
-  damage: '10'
-  type: attack
-  text: >-
-    Choose 1 of your opponent's Benched Pokémon. This attack does
-    10 damage to that Pokémon. (Don't apply Weakness and Resistance
-    for Benched Pokémon.)
-- name: Bite Off
-  cost: DCC
-  damage: '40'
-  type: attack
-  text: >-
-    If the Defending Pokémon is Pokémon-ex, this attack does 40
-    damage plus 40 more damage.
-damage modifiers:
-- amount: 2
-  operation: ×
-  type: Fighting
-- amount: 30
-  operation: '-'
-  type: Psychic
-retreat: 1
-illustrators:
-- Shin-ichi Yoshikawa
----
-set: ex-team-magma-vs-team-aqua
-number: '22'
-order: 21
-name: Team Magma's Rhydon
-rarity: rare
-holographic: false
-class: P
-types:
-- Fighting
-hp: 80
-stage: Stage 1
-evolves from: Team Magma's Rhyhorn
-legal: false
-filename: 22-team-magma's-rhydon
-pokemon: Rhydon
-subclasses:
-- Magma
-mechanics:
-- name: Second Strike
-  cost: CC
-  damage: '20'
-  type: attack
-  text: >-
-    If the Defending Pokémon already has at least 2 damage counters
-    on it, this attack does 20 damage plus 20 more damage.
-- name: Land Crush
-  cost: FFC
-  damage: '60'
-  type: attack
-  text: >-
-    Flip a coin. If tails, discard an Energy card attached to
-    Team Magma's Rhydon.
-damage modifiers:
-- amount: 2
-  operation: ×
-  type: Grass
-retreat: 2
-illustrators:
-- T. Honda
----
-set: ex-team-magma-vs-team-aqua
-number: '23'
-order: 22
-name: Team Magma's Zangoose
-rarity: rare
-holographic: false
-class: P
-types:
-- Colorless
-hp: 70
-stage: Basic
-legal: false
-filename: 23-team-magma's-zangoose
-pokemon: Zangoose
-subclasses:
-- Magma
-mechanics:
-- name: Call for Family
-  cost: C
-  type: attack
-  text: >-
-    Search your deck for a Colorless Basic Pokémon or Basic Pokémon
-    with Team Magma in its name and put it onto your Bench. Shuffle
-    your deck afterward.
-- name: Team Play
-  cost: CCC
-  damage: 10×
-  type: attack
-  text: >-
-    Does 10 damage times the number of Pokémon in play with Team
-    Magma in its name.
-damage modifiers:
-- amount: 2
-  operation: ×
-  type: Fighting
-retreat: 1
-illustrators:
-- Zu-ka
----
-set: ex-team-magma-vs-team-aqua
-number: '24'
-order: 23
-name: Team Aqua's Cacnea
-rarity: uncommon
-holographic: false
-class: P
-types:
-- Grass
-hp: 50
-stage: Basic
-legal: false
-filename: 24-team-aqua's-cacnea
-pokemon: Cacnea
-subclasses:
-- Aqua
-mechanics:
-- name: Paralyzing Gaze
-  cost: C
-  type: attack
-  text: >-
-    Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
-- name: Pin Missile
-  cost: CC
-  damage: 10×
-  type: attack
-  text: >-
-    Flip 4 coins. This attack does 4 damage times the number of
-    heads.
-damage modifiers:
-- amount: 2
-  operation: ×
-  type: Fire
-retreat: 1
-illustrators:
-- K. Utsunomiya
----
-set: ex-team-magma-vs-team-aqua
-number: '25'
-order: 24
-name: Team Aqua's Carvanha
-rarity: uncommon
-holographic: false
-class: P
-types:
-- Water
-hp: 50
-stage: Basic
-legal: false
-filename: 25-team-aqua's-carvanha
-pokemon: Carvanha
-subclasses:
-- Aqua
-mechanics:
-- name: Dark Lift
-  type: pokebody
-  text: >-
-    If Team Aqua's Carvanha has any D Energy attached to it, the
-    Retreat Cost for Team Aqua's Carvanha is 0.
-- name: Slow-Acting Poison
-  cost: CC
-  damage: '20'
-  type: attack
-  text: >-
-    At the end of your opponent's next turn, the Defending Pokémon
-    is now Poisoned.
-damage modifiers:
-- amount: 2
-  operation: ×
-  type: Lightning
-retreat: 1
-illustrators:
-- Mt. TBT
----
-set: ex-team-magma-vs-team-aqua
-number: '26'
-order: 25
-name: Team Aqua's Corphish
-rarity: uncommon
-holographic: false
-class: P
-types:
-- Water
-hp: 50
-stage: Basic
-legal: false
-filename: 26-team-aqua's-corphish
-pokemon: Corphish
-subclasses:
-- Aqua
-mechanics:
-- name: Double Pinchers
-  cost: C
-  damage: 10×
-  type: attack
-  text: >-
-    Flip 2 coins. This attack does 10 damage times the number
-    of heads.
-- name: Dark Poison
-  cost: DC
-  damage: '20'
-  type: attack
-  text: >-
-    Discard a basic Energy card attached to Team Aqua's Corphish
-    or this attack does nothing. The Defending Pokémon is now
-    Poisoned.
-damage modifiers:
-- amount: 2
-  operation: ×
-  type: Lightning
-retreat: 1
-illustrators:
-- Jungo Suzuki
----
-set: ex-team-magma-vs-team-aqua
-number: '27'
-order: 26
-name: Team Aqua's Electrike
-rarity: uncommon
-holographic: false
-class: P
-types:
-- Lightning
-hp: 50
-stage: Basic
-legal: false
-filename: 27-team-aqua's-electrike
-pokemon: Electrike
-subclasses:
-- Aqua
-mechanics:
-- name: Random Spark
-  cost: L
-  type: attack
-  text: >-
-    Choose 1 of your opponent's Pokémon. This attack does 10 damage
-    to that Pokémon. (Don't apply Weakness and Resistance for
-    Benched Pokémon.)
-- name: Plasma
-  cost: CC
-  damage: '10'
-  type: attack
-  text: >-
-    Flip a coin. If heads, search your discard pile for a L Energy
-    card and attach it to Team Aqua's Electrike.
-damage modifiers:
-- amount: 2
-  operation: ×
-  type: Fighting
-- amount: 30
-  operation: '-'
-  type: Metal
-retreat: 1
-illustrators:
-- M. Akiyama
----
-set: ex-team-magma-vs-team-aqua
-number: '28'
-order: 27
-name: Team Aqua's Lanturn
-rarity: uncommon
-holographic: false
-class: P
-types:
-- Lightning
-hp: 80
-stage: Stage 1
-evolves from: Team Aqua's Chinchou
-legal: false
-filename: 28-team-aqua's-lanturn
-pokemon: Lanturn
-subclasses:
-- Aqua
-mechanics:
-- name: Auxiliary Light
-  type: pokepower
-  text: >-
-    Once during your turn (before your attack), you may attach
-    a basic Energy card from your hand to Team Aqua's Lanturn.
-    Put 2 damage counters on Team Aqua's Lanturn. This power can't
-    be used if Team Aqua's Lanturn is affected by a Special Condition.
-- name: Lightning Ball
-  cost: LCC
-  damage: '50'
-  type: attack
-damage modifiers:
-- amount: 2
-  operation: ×
-  type: Fighting
-- amount: 30
-  operation: '-'
-  type: Metal
-retreat: 1
-illustrators:
-- Jungo Suzuki
----
-set: ex-team-magma-vs-team-aqua
-number: '29'
-order: 28
-name: Team Aqua's Manectric
-rarity: uncommon
-holographic: false
-class: P
-types:
-- Lightning
-hp: 80
-stage: Stage 1
-evolves from: Team Aqua's Electrike
-legal: false
-filename: 29-team-aqua's-manectric
-pokemon: Manectric
-subclasses:
-- Aqua
-mechanics:
-- name: Aqua Beam
-  cost: LC
-  damage: '20'
-  type: attack
-  text: >-
-    If the Defending Pokémon has Team Magma in its name, the Defending
-    Pokémon is now Confused.
-- name: Chaos Crush
-  cost: LCC
-  damage: '50'
-  type: attack
-  text: >-
-    If the Defending Pokémon is Confused, discard an Energy card
-    attached to the Defending Pokémon.
-damage modifiers:
-- amount: 2
-  operation: ×
-  type: Fighting
-- amount: 30
-  operation: '-'
-  type: Metal
-retreat: 1
-illustrators:
-- K. Utsunomiya
----
-set: ex-team-magma-vs-team-aqua
-number: '30'
-order: 29
-name: Team Aqua's Mightyena
-rarity: uncommon
-holographic: false
-class: P
-types:
-- Darkness
-hp: 80
-stage: Stage 1
-evolves from: Team Aqua's Poochyena
-legal: false
-filename: 30-team-aqua's-mightyena
-pokemon: Mightyena
-subclasses:
-- Aqua
-mechanics:
-- name: Aqua Call
-  cost: C
-  type: attack
-  text: >-
-    Search your deck for Pokémon that has Team Aqua in its name,
-    show up to 3 of them to your opponent, and put them into your
-    hand. Shuffle your deck afterward.
-- name: Wave Splash
-  cost: WC
-  damage: '30'
-  type: attack
-damage modifiers:
-- amount: 2
-  operation: ×
-  type: Grass
-- amount: 30
-  operation: '-'
-  type: Psychic
-retreat: 1
-illustrators:
-- Shin-ichi Yoshikawa
----
-set: ex-team-magma-vs-team-aqua
-number: '31'
-order: 30
-name: Team Aqua's Sealeo
-rarity: uncommon
-holographic: false
-class: P
-types:
-- Water
-hp: 80
-stage: Stage 1
-evolves from: Team Aqua's Spheal
-legal: false
-filename: 31-team-aqua's-sealeo
-pokemon: Sealeo
-subclasses:
-- Aqua
-mechanics:
-- name: Aurora Beam
-  cost: CC
-  damage: '20'
-  type: attack
-- name: Knock Over
-  cost: WWC
-  damage: '40'
-  type: attack
-  text: >-
-    You may discard any Stadium card in play.
-damage modifiers:
-- amount: 2
-  operation: ×
-  type: Metal
-retreat: 2
-illustrators:
-- T. Honda
----
-set: ex-team-magma-vs-team-aqua
-number: '32'
-order: 31
-name: Team Magma's Baltoy
-rarity: uncommon
-holographic: false
-class: P
-types:
-- Psychic
-hp: 50
-stage: Basic
-legal: false
-filename: 32-team-magma's-baltoy
-pokemon: Baltoy
-subclasses:
-- Magma
-mechanics:
-- name: Psymist
-  cost: C
-  type: attack
-  text: >-
-    Flip 2 coins. For each heads, choose 1 of your opponent's
-    Pokémon and put 1 damage counter on that Pokémon.
-- name: Pain Amplifier
-  cost: PC
-  type: attack
-  text: >-
-    Put 1 damage counter on each of your opponent's Pokémon that
-    already has damage counters on it.
-damage modifiers:
-- amount: 2
-  operation: ×
-  type: Psychic
-retreat: 1
-illustrators:
-- Atsuko Ujiie
----
-set: ex-team-magma-vs-team-aqua
-number: '33'
-order: 32
-name: Team Magma's Claydol
-rarity: uncommon
-holographic: false
-class: P
-types:
-- Fighting
-hp: 80
-stage: Stage 1
-evolves from: Team Magma's Baltoy
-legal: false
-filename: 33-team-magma's-claydol
-pokemon: Claydol
-subclasses:
-- Magma
-mechanics:
-- name: Clay Curse
-  cost: CC
-  type: attack
-  text: >-
-    Put 2 damage counters on your opponent's Pokémon in any way
-    you like.
-- name: Clay Pulse
-  cost: FFC
-  damage: '50'
-  type: attack
-  text: >-
-    Does 10 damage to each of your opponent's Benched Pokémon
-    that has any damage counters on it. (Don't apply Weakness
-    and Resistance for Benched Pokémon.)
-damage modifiers:
-- amount: 2
-  operation: ×
-  type: Grass
-retreat: 1
-illustrators:
-- Zu-ka
----
-set: ex-team-magma-vs-team-aqua
-number: '34'
-order: 33
-name: Team Magma's Houndoom
-rarity: uncommon
-holographic: false
-class: P
-types:
-- Fire
-hp: 70
-stage: Stage 1
-evolves from: Team Magma's Houndour
-legal: false
-filename: 34-team-magma's-houndoom
-pokemon: Houndoom
-subclasses:
-- Magma
-mechanics:
-- name: Target Scorch
-  cost: RC
-  damage: '30'
-  type: attack
-  text: >-
-    If the Defending Pokémon has Team Aqua in its name, the Defending
-    Pokémon is now Burned.
-- name: Damage Burn
-  cost: RCC
-  damage: '40'
-  type: attack
-  text: >-
-    If the Defending Pokémon already has any damage counters on
-    it, this attack does 40 damage plus 20 more damage.
-damage modifiers:
-- amount: 2
-  operation: ×
-  type: Water
-retreat: 1
-illustrators:
-- Ken Ikuji
----
-set: ex-team-magma-vs-team-aqua
-number: '35'
-order: 34
-name: Team Magma's Houndour
-rarity: uncommon
-holographic: false
-class: P
-types:
-- Fire
-hp: 50
-stage: Basic
-legal: false
-filename: 35-team-magma's-houndour
-pokemon: Houndour
-subclasses:
-- Magma
-mechanics:
-- name: Singe
-  cost: R
-  type: attack
-  text: >-
-    Flip a coin. If heads, the Defending Pokémon is now Burned.
-- name: Dark Shock
-  cost: DC
-  damage: '20'
-  type: attack
-  text: >-
-    Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
-damage modifiers:
-- amount: 2
-  operation: ×
-  type: Water
-retreat: 1
-illustrators:
-- Atsuko Nishida
----
-set: ex-team-magma-vs-team-aqua
-number: '36'
-order: 35
-name: Team Magma's Lairon
-rarity: uncommon
-holographic: false
-class: P
-types:
-- Fighting
-hp: 70
-stage: Stage 1
-evolves from: Team Magma's Aron
-legal: false
-filename: 36-team-magma's-lairon
-pokemon: Lairon
-subclasses:
-- Magma
-mechanics:
-- name: Gnaw
-  cost: C
-  damage: '20'
-  type: attack
-- name: Land Sonic
-  cost: FFC
-  damage: '40'
-  type: attack
-  text: >-
-    If the Defending Pokémon already has any damage counters on
-    it, the Defending Pokémon is now Confused.
-damage modifiers:
-- amount: 2
-  operation: ×
-  type: Grass
-retreat: 1
-illustrators:
-- Hiromichi Sugiyama
----
-set: ex-team-magma-vs-team-aqua
-number: '37'
-order: 36
-name: Team Magma's Mightyena
-rarity: uncommon
-holographic: false
-class: P
-types:
-- Darkness
-hp: 80
-stage: Stage 1
-evolves from: Team Magma's Poochyena
-legal: false
-filename: 37-team-magma's-mightyena
-pokemon: Mightyena
-subclasses:
-- Magma
-mechanics:
-- name: Call for Help
-  type: pokepower
-  text: >-
-    Once during your turn (before your attack), if Team Magma's
-    Mightyena is your Active Pokémon, you may search your deck
-    for a Pokémon with Team Magma in its name, show it to your
-    opponent, and put it into your hand. Shuffle your deck afterward.
-    This power can't be used if Team Magma's Mightyena is affected
-    by a Special Condition.
-- name: Lunge
-  cost: FC
-  damage: '50'
-  type: attack
-  text: >-
-    Flip a coin. If tails, this attack does nothing.
-damage modifiers:
-- amount: 2
-  operation: ×
-  type: Fighting
-- amount: 30
-  operation: '-'
-  type: Psychic
-retreat: 1
-illustrators:
-- Shin-ichi Yoshikawa
----
-set: ex-team-magma-vs-team-aqua
-number: '38'
-order: 37
-name: Team Magma's Rhyhorn
-rarity: uncommon
-holographic: false
-class: P
-types:
-- Fighting
-hp: 50
-stage: Basic
-legal: false
-filename: 38-team-magma's-rhyhorn
-pokemon: Rhyhorn
-subclasses:
-- Magma
-mechanics:
-- name: Double Damage
-  cost: C
-  type: attack
-  text: >-
-    Does 10 damage to each Defending Pokémon.
-- name: Horn Rush
-  cost: FCC
-  damage: '60'
-  type: attack
-  text: >-
-    Flip a coin. If tails, this attack does nothing.
-damage modifiers:
-- amount: 2
-  operation: ×
-  type: Grass
-retreat: 1
-illustrators:
-- Mt. TBT
----
-set: ex-team-magma-vs-team-aqua
-number: '39'
-order: 38
-name: Bulbasaur
-rarity: common
-holographic: false
-class: P
-types:
-- Grass
-hp: 50
-stage: Basic
-legal: false
-filename: 39-bulbasaur
-pokemon: Bulbasaur
-mechanics:
-- name: Growth
-  cost: C
-  type: attack
-  text: >-
-    Attach a G Energy card from your hand to Bulbasaur.
-- name: Razor Leaf
-  cost: G
-  damage: '10'
-  type: attack
-damage modifiers:
-- amount: 2
-  operation: ×
-  type: Fire
-retreat: 1
-illustrators:
-- Ken Sugimori
----
-set: ex-team-magma-vs-team-aqua
-number: '40'
-order: 39
-name: Cubone
-rarity: common
-holographic: false
-class: P
-types:
-- Fighting
-hp: 50
-stage: Basic
-legal: false
-filename: 40-cubone
-pokemon: Cubone
-mechanics:
-- name: Bone Attack
-  cost: F
-  damage: '20'
-  type: attack
-  text: >-
-    Flip a coin. If tails, this attack does nothing.
-damage modifiers:
-- amount: 2
-  operation: ×
-  type: Grass
-retreat: 1
-illustrators:
-- Ken Sugimori
----
-set: ex-team-magma-vs-team-aqua
-number: '41'
-order: 40
-name: Jigglypuff
-rarity: common
-holographic: false
-class: P
-types:
-- Colorless
-hp: 50
-stage: Basic
-legal: false
-filename: 41-jigglypuff
-pokemon: Jigglypuff
-mechanics:
-- name: Doubleslap
-  cost: C
-  damage: 10×
-  type: attack
-  text: >-
-    Flip 2 coins. This attack does 10 damage times the number
-    of heads.
-- name: Rest
-  cost: CC
-  type: attack
-  text: >-
-    Remove all Special Conditions and 3 damage counters from Jigglypuff
-    (all if there are less than 3). Jigglypuff is now Asleep.
-damage modifiers:
-- amount: 2
-  operation: ×
-  type: Fighting
-retreat: 1
-illustrators:
-- Ken Sugimori
----
-set: ex-team-magma-vs-team-aqua
-number: '42'
-order: 41
-name: Meowth
-rarity: common
-holographic: false
-class: P
-types:
-- Colorless
-hp: 50
-stage: Basic
-legal: false
-filename: 42-meowth
-pokemon: Meowth
-mechanics:
-- name: Plunder
-  cost: C
-  damage: '10'
-  type: attack
-  text: >-
-    Before doing damage, discard all Trainer cards attached to
-    the Defending Pokémon (before they affect the damage).
-- name: Scratch
-  cost: CC
-  damage: '20'
-  type: attack
-damage modifiers:
-- amount: 2
-  operation: ×
-  type: Fighting
-retreat: 1
-illustrators:
-- Ken Sugimori
----
-set: ex-team-magma-vs-team-aqua
-number: '43'
-order: 42
-name: Pikachu
-rarity: common
-holographic: false
-class: P
-types:
-- Lightning
-hp: 50
-stage: Basic
-legal: false
-filename: 43-pikachu
-pokemon: Pikachu
-mechanics:
-- name: Agility
-  cost: C
-  type: attack
-  text: >-
-    Flip a coin. If heads, prevent all effects of an attack, including
-    damage, done to Pikachu during your opponent's next turn.
-- name: Thundershock
-  cost: LC
-  damage: '20'
-  type: attack
-  text: >-
-    Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
-damage modifiers:
-- amount: 2
-  operation: ×
-  type: Fighting
-retreat: 1
-illustrators:
-- Ken Sugimori
----
-set: ex-team-magma-vs-team-aqua
-number: '44'
-order: 43
-name: Psyduck
-rarity: common
-holographic: false
-class: P
-types:
-- Water
-hp: 40
-stage: Basic
-legal: false
-filename: 44-psyduck
-pokemon: Psyduck
-mechanics:
-- name: Bubble
-  cost: W
-  damage: '10'
-  type: attack
-  text: >-
-    Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
-- name: Confuse Ray
-  cost: P
-  damage: '10'
-  type: attack
-  text: >-
-    Flip a coin. If heads, the Defending Pokémon is now Confused.
-damage modifiers:
-- amount: 2
-  operation: ×
-  type: Lightning
-retreat: 1
-illustrators:
-- Ken Sugimori
----
-set: ex-team-magma-vs-team-aqua
-number: '45'
-order: 44
-name: Slowpoke
-rarity: common
-holographic: false
-class: P
-types:
-- Psychic
-hp: 50
-stage: Basic
-legal: false
-filename: 45-slowpoke
-pokemon: Slowpoke
-mechanics:
-- name: Amnesia
-  cost: P
-  type: attack
-  text: >-
-    Choose 1 of the Defending Pokémon's attacks. That Pokémon
-    can't use that attack during your opponent's next turn.
-- name: Tail Strike
-  cost: CC
-  damage: '10'
-  type: attack
-  text: >-
-    Flip a coin. If heads, this attack does 10 damage plus 10
-    more damage.
-damage modifiers:
-- amount: 2
-  operation: ×
-  type: Psychic
-retreat: 1
-illustrators:
-- Ken Sugimori
----
-set: ex-team-magma-vs-team-aqua
-number: '46'
-order: 45
-name: Squirtle
-rarity: common
-holographic: false
-class: P
-types:
-- Water
-hp: 50
-stage: Basic
-legal: false
-filename: 46-squirtle
-pokemon: Squirtle
-mechanics:
-- name: Shell Retreat
-  type: pokebody
-  text: >-
-    As long as Squirtle has any Energy cards attached to it, damage
-    done to Squirtle by an opponent's attack is reduced by 10
-    (after applying Weakness and Resistance).
-- name: Tackle
-  cost: C
-  damage: '10'
-  type: attack
-damage modifiers:
-- amount: 2
-  operation: ×
-  type: Lightning
-retreat: 1
-illustrators:
-- Ken Sugimori
----
-set: ex-team-magma-vs-team-aqua
-number: '47'
-order: 46
-name: Team Aqua's Carvanha
-rarity: common
-holographic: false
-class: P
-types:
-- Water
-hp: 40
-stage: Basic
-legal: false
-filename: 47-team-aqua's-carvanha
-pokemon: Carvanha
-subclasses:
-- Aqua
-mechanics:
-- name: Confuse Ray
-  cost: C
-  damage: '10'
-  type: attack
-  text: >-
-    Flip a coin. If heads, the Defending Pokémon is now Confused.
-- name: Poison Fang
-  cost: WC
-  damage: '10'
-  type: attack
-  text: >-
-    The Defending Pokémon is now Poisoned.
-damage modifiers:
-- amount: 2
-  operation: ×
-  type: Lightning
-retreat: 1
-illustrators:
-- Yosuke Da Silva
----
-set: ex-team-magma-vs-team-aqua
-number: '48'
-order: 47
-name: Team Aqua's Carvanha
-rarity: common
-holographic: false
-class: P
-types:
-- Water
-hp: 50
-stage: Basic
-legal: false
-filename: 48-team-aqua's-carvanha
-pokemon: Carvanha
-subclasses:
-- Aqua
-mechanics:
-- name: Wave Splash
-  cost: W
-  damage: '10'
-  type: attack
-- name: Razor Fin
-  cost: CC
-  damage: '20'
-  type: attack
-damage modifiers:
-- amount: 2
-  operation: ×
-  type: Lightning
-retreat: 1
-illustrators:
-- Hiromichi Sugiyama
----
-set: ex-team-magma-vs-team-aqua
-number: '49'
-order: 48
-name: Team Aqua's Chinchou
-rarity: common
-holographic: false
-class: P
-types:
-- Lightning
-hp: 50
-stage: Basic
-legal: false
-filename: 49-team-aqua's-chinchou
-pokemon: Chinchou
-subclasses:
-- Aqua
-mechanics:
-- name: Confuse Ray
-  cost: C
-  type: attack
-  text: >-
-    Flip a coin. If heads, the Defending Pokémon is now Confused.
-- name: Wave Splash
-  cost: LC
-  damage: '20'
-  type: attack
-damage modifiers:
-- amount: 2
-  operation: ×
-  type: Fighting
-- amount: 30
-  operation: '-'
-  type: Metal
-retreat: 1
-illustrators:
-- Kazuo Yazawa
----
-set: ex-team-magma-vs-team-aqua
-number: '50'
-order: 49
-name: Team Aqua's Corphish
-rarity: common
-holographic: false
-class: P
-types:
-- Water
-hp: 40
-stage: Basic
-legal: false
-filename: 50-team-aqua's-corphish
-pokemon: Corphish
-subclasses:
-- Aqua
-mechanics:
-- name: Toxic Grip
-  cost: C
-  type: attack
-  text: >-
-    The Defending Pokémon is now Poisoned.
-damage modifiers:
-- amount: 2
-  operation: ×
-  type: Lightning
-retreat: 1
-illustrators:
-- Jungo Suzuki
----
-set: ex-team-magma-vs-team-aqua
-number: '51'
-order: 50
-name: Team Aqua's Corphish
-rarity: common
-holographic: false
-class: P
-types:
-- Water
-hp: 50
-stage: Basic
-legal: false
-filename: 51-team-aqua's-corphish
-pokemon: Corphish
-subclasses:
-- Aqua
-mechanics:
-- name: Slash
-  cost: W
-  damage: '10'
-  type: attack
-- name: Slow-Acting Poison
-  cost: CC
-  damage: '10'
-  type: attack
-  text: >-
-    At the end of your opponent's next turn, the Defending Pokémon
-    is now Poisoned.
-damage modifiers:
-- amount: 2
-  operation: ×
-  type: Lightning
-retreat: 1
-illustrators:
-- Jungo Suzuki
----
-set: ex-team-magma-vs-team-aqua
-number: '52'
-order: 51
-name: Team Aqua's Electrike
-rarity: common
-holographic: false
-class: P
-types:
-- Lightning
-hp: 50
-stage: Basic
-legal: false
-filename: 52-team-aqua's-electrike
-pokemon: Electrike
-subclasses:
-- Aqua
-mechanics:
-- name: Scratch
-  cost: C
-  damage: '10'
-  type: attack
-- name: Thundershock
-  cost: LC
-  damage: '10'
-  type: attack
-  text: >-
-    Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
-damage modifiers:
-- amount: 2
-  operation: ×
-  type: Fighting
-- amount: 30
-  operation: '-'
-  type: Metal
-retreat: 1
-illustrators:
-- M. Akiyama
----
-set: ex-team-magma-vs-team-aqua
-number: '53'
-order: 52
-name: Team Aqua's Electrike
-rarity: common
-holographic: false
-class: P
-types:
-- Lightning
-hp: 50
-stage: Basic
-legal: false
-filename: 53-team-aqua's-electrike
-pokemon: Electrike
-subclasses:
-- Aqua
-mechanics:
-- name: Self Charge
-  cost: C
-  type: attack
-  text: >-
-    Attach an Energy card from your hand to Team Aqua's Electrike.
-- name: Tackle
-  cost: CC
-  damage: '20'
-  type: attack
-damage modifiers:
-- amount: 2
-  operation: ×
-  type: Fighting
-- amount: 30
-  operation: '-'
-  type: Metal
-retreat: 1
-illustrators:
-- M. Akiyama
----
-set: ex-team-magma-vs-team-aqua
-number: '54'
-order: 53
-name: Team Aqua's Poochyena
-rarity: common
-holographic: false
-class: P
-types:
-- Darkness
-hp: 40
-stage: Basic
-legal: false
-filename: 54-team-aqua's-poochyena
-pokemon: Poochyena
-subclasses:
-- Aqua
-mechanics:
-- name: Double Scratch
-  cost: C
-  damage: 10×
-  type: attack
-  text: >-
-    Flip 2 coins. This attack does 10 damage times the number
-    of heads.
-- name: Tail Slap
-  cost: CC
-  damage: '20'
-  type: attack
-damage modifiers:
-- amount: 2
-  operation: ×
-  type: Grass
-- amount: 30
-  operation: '-'
-  type: Psychic
-retreat: 1
-illustrators:
-- Shin-ichi Yoshikawa
----
-set: ex-team-magma-vs-team-aqua
-number: '55'
-order: 54
-name: Team Aqua's Poochyena
-rarity: common
-holographic: false
-class: P
-types:
-- Darkness
-hp: 50
-stage: Basic
-legal: false
-filename: 55-team-aqua's-poochyena
-pokemon: Poochyena
-subclasses:
-- Aqua
-mechanics:
-- name: Roar
-  cost: C
-  type: attack
-  text: >-
-    Your opponent switches the Defending Pokémon with 1 of his
-    or her Benched Pokémon, if any.
-- name: Aqua Crush
-  cost: WC
-  damage: '10'
-  type: attack
-  text: >-
-    Flip a coin. If heads, discard an Energy card attached to
-    the Defending Pokémon.
-damage modifiers:
-- amount: 2
-  operation: ×
-  type: Grass
-- amount: 30
-  operation: '-'
-  type: Psychic
-retreat: 1
-illustrators:
-- Shin-ichi Yoshikawa
----
-set: ex-team-magma-vs-team-aqua
-number: '56'
-order: 55
-name: Team Aqua's Spheal
-rarity: common
-holographic: false
-class: P
-types:
-- Water
-hp: 40
-stage: Basic
-legal: false
-filename: 56-team-aqua's-spheal
-pokemon: Spheal
-subclasses:
-- Aqua
-mechanics:
-- name: Powder Snow
-  cost: W
-  damage: '10'
-  type: attack
-  text: >-
-    The Defending Pokémon is now Asleep.
-damage modifiers:
-- amount: 2
-  operation: ×
-  type: Metal
-retreat: 1
-illustrators:
-- Nakaoka
----
-set: ex-team-magma-vs-team-aqua
-number: '57'
-order: 56
-name: Team Aqua's Spheal
-rarity: common
-holographic: false
-class: P
-types:
-- Water
-hp: 50
-stage: Basic
-legal: false
-filename: 57-team-aqua's-spheal
-pokemon: Spheal
-subclasses:
-- Aqua
-mechanics:
-- type: note
-  text: >-
-    When Pokémon-ex has been Knocked Out, your opponent takes
-    2 Prize cards.
-- name: Rollout
-  cost: W
-  damage: '10'
-  type: attack
-- name: Aqua Trance
-  cost: WC
-  damage: '20'
-  type: attack
-  text: >-
-    At the end of your opponent's next turn, the Defending Pokémon
-    is now Asleep.
-damage modifiers:
-- amount: 2
-  operation: ×
-  type: Metal
-retreat: 1
-illustrators:
-- Nakaoka
----
-set: ex-team-magma-vs-team-aqua
-number: '58'
-order: 57
-name: Team Magma's Aron
-rarity: common
-holographic: false
-class: P
-types:
-- Fighting
-hp: 50
-stage: Basic
-legal: false
-filename: 58-team-magma's-aron
-pokemon: Aron
-subclasses:
-- Magma
-mechanics:
-- type: note
-  text: >-
-    When Pokémon-ex has been Knocked Out, your opponent takes
-    2 Prize cards.
-- name: Mud Slap
-  cost: F
-  damage: '10'
-  type: attack
-- name: Tackle
-  cost: CC
-  damage: '20'
-  type: attack
-damage modifiers:
-- amount: 2
-  operation: ×
-  type: Grass
-retreat: 1
-illustrators:
-- Katsura Tabata
----
-set: ex-team-magma-vs-team-aqua
-number: '59'
-order: 58
-name: Team Magma's Aron
-rarity: common
-holographic: false
-class: P
-types:
-- Fighting
-hp: 50
-stage: Basic
-legal: false
-filename: 59-team-magma's-aron
-pokemon: Aron
-subclasses:
-- Magma
-mechanics:
-- type: note
-  text: >-
-    When Pokémon-ex has been Knocked Out, your opponent takes
-    2 Prize cards.
-- name: Dig Under
-  cost: F
-  type: attack
-  text: >-
-    Choose 1 of your opponent's Pokémon. This attack does 10 damage
-    to that Pokémon. This attack's damage isn't affected by Weakness
-    or Resistance.
-damage modifiers:
-- amount: 2
-  operation: ×
-  type: Grass
-retreat: 1
-illustrators:
-- Katsura Tabata
----
-set: ex-team-magma-vs-team-aqua
-number: '60'
-order: 59
-name: Team Magma's Baltoy
-rarity: common
-holographic: false
-class: P
-types:
-- Fighting
-hp: 50
-stage: Basic
-legal: false
-filename: 60-team-magma's-baltoy
-pokemon: Baltoy
-subclasses:
-- Magma
-mechanics:
-- type: note
-  text: >-
-    When Pokémon-ex has been Knocked Out, your opponent takes
-    2 Prize cards.
-- name: Peck
-  cost: C
-  damage: '10'
-  type: attack
-- name: Double Spin
-  cost: FC
-  damage: 20×
-  type: attack
-  text: >-
-    Flip 2 coins. This attack does 20 damage times the number
-    of heads.
-damage modifiers:
-- amount: 2
-  operation: ×
-  type: Grass
-retreat: 1
-illustrators:
-- Atsuko Ujiie
----
-set: ex-team-magma-vs-team-aqua
-number: '61'
-order: 60
-name: Team Magma's Baltoy
-rarity: common
-holographic: false
-class: P
-types:
-- Fighting
-hp: 50
-stage: Basic
-legal: false
-filename: 61-team-magma's-baltoy
-pokemon: Baltoy
-subclasses:
-- Magma
-mechanics:
-- type: note
-  text: >-
-    When Pokémon-ex has been Knocked Out, your opponent takes
-    2 Prize cards.
-- name: Night Attack
-  cost: F
-  type: attack
-  text: >-
-    Put 1 damage counter on 1 of your opponent's Pokémon.
-- name: Spinning Attack
-  cost: CC
-  damage: '20'
-  type: attack
-damage modifiers:
-- amount: 2
-  operation: ×
-  type: Grass
-retreat: 1
-illustrators:
-- Atsuko Ujiie
----
-set: ex-team-magma-vs-team-aqua
-number: '62'
-order: 61
-name: Team Magma's Houndour
-rarity: common
-holographic: false
-class: P
-types:
-- Fire
-hp: 50
-stage: Basic
-legal: false
-filename: 62-team-magma's-houndour
-pokemon: Houndour
-subclasses:
-- Magma
-mechanics:
-- type: note
-  text: >-
-    When Pokémon-ex has been Knocked Out, your opponent takes
-    2 Prize cards.
-- name: Combustion
-  cost: R
-  damage: '10'
-  type: attack
-- name: Super Singe
-  cost: RC
-  damage: '10'
-  type: attack
-  text: >-
-    The Defending Pokémon is now Burned.
-damage modifiers:
-- amount: 2
-  operation: ×
-  type: Water
-retreat: 1
-illustrators:
-- Atsuko Nishida
----
-set: ex-team-magma-vs-team-aqua
-number: '63'
-order: 62
-name: Team Magma's Houndour
-rarity: common
-holographic: false
-class: P
-types:
-- Fire
-hp: 50
-stage: Basic
-legal: false
-filename: 63-team-magma's-houndour
-pokemon: Houndour
-subclasses:
-- Magma
-mechanics:
-- type: note
-  text: >-
-    When Pokémon-ex has been Knocked Out, your opponent takes
-    2 Prize cards.
-- name: Kick Away
-  cost: C
-  damage: '10'
-  type: attack
-  text: >-
-    Your opponent switches the Defending Pokémon with 1 of his
-    or her Benched Pokémon, if any.
-- name: Steady Firebreathing
-  cost: RC
-  damage: '20'
-  type: attack
-damage modifiers:
-- amount: 2
-  operation: ×
-  type: Water
-retreat: 1
-illustrators:
-- Atsuko Nishida
----
-set: ex-team-magma-vs-team-aqua
-number: '64'
-order: 63
-name: Team Magma's Numel
-rarity: common
-holographic: false
-class: P
-types:
-- Fire
-hp: 50
-stage: Basic
-legal: false
-filename: 64-team-magma's-numel
-pokemon: Numel
-subclasses:
-- Magma
-mechanics:
-- type: note
-  text: >-
-    When Pokémon-ex has been Knocked Out, your opponent takes
-    2 Prize cards.
-- name: Collect
-  cost: C
-  type: attack
-  text: >-
-    Draw a card.
-- name: Combustion
-  cost: RC
-  damage: '20'
-  type: attack
-damage modifiers:
-- amount: 2
-  operation: ×
-  type: Water
-retreat: 1
-illustrators:
-- Katsura Tabata
----
-set: ex-team-magma-vs-team-aqua
-number: '65'
-order: 64
-name: Team Magma's Poochyena
-rarity: common
-holographic: false
-class: P
-types:
-- Darkness
-hp: 40
-stage: Basic
-legal: false
-filename: 65-team-magma's-poochyena
-pokemon: Poochyena
-subclasses:
-- Magma
-mechanics:
-- type: note
-  text: >-
-    When Pokémon-ex has been Knocked Out, your opponent takes
-    2 Prize cards.
-- name: Snarl
-  cost: C
-  type: attack
-  text: >-
-    Flip a coin. If heads, this attack does 10 damage to the Defending
-    Pokémon. If tails, the Defending Pokémon is now Paralyzed.
-damage modifiers:
-- amount: 2
-  operation: ×
-  type: Fighting
-- amount: 30
-  operation: '-'
-  type: Psychic
-retreat: 1
-illustrators:
-- Shin-ichi Yoshikawa
----
-set: ex-team-magma-vs-team-aqua
-number: '66'
-order: 65
-name: Team Magma's Poochyena
-rarity: common
-holographic: false
-class: P
-types:
-- Darkness
-hp: 50
-stage: Basic
-legal: false
-filename: 66-team-magma's-poochyena
-pokemon: Poochyena
-subclasses:
-- Magma
-mechanics:
-- name: Darkness Call
-  cost: C
-  type: attack
-  text: >-
-    Your opponent switches the Defending Pokémon with 1 of his
-    or her Benched Pokémon, if any.
-- name: Sharp Fang
-  cost: FC
-  damage: '20'
-  type: attack
-damage modifiers:
-- amount: 2
-  operation: ×
-  type: Fighting
-- amount: 30
-  operation: '-'
-  type: Psychic
-retreat: 1
-illustrators:
-- Shin-ichi Yoshikawa
----
-set: ex-team-magma-vs-team-aqua
-number: '67'
-order: 66
-name: Team Magma's Rhyhorn
-rarity: common
-holographic: false
-class: P
-types:
-- Fighting
-hp: 50
-stage: Basic
-legal: false
-filename: 67-team-magma's-rhyhorn
-pokemon: Rhyhorn
-subclasses:
-- Magma
-mechanics:
-- name: Double Stab
-  cost: F
-  damage: 10×
-  type: attack
-  text: >-
-    Flip 2 coins. This attack does 10 damage times the number
-    of heads.
-- name: Second Strike
-  cost: CC
-  damage: '10'
-  type: attack
-  text: >-
-    If the Defending Pokémon already has at least 2 damage counters
-    on it, this attack does 10 damage plus 20 more damage.
-damage modifiers:
-- amount: 2
-  operation: ×
-  type: Grass
-retreat: 1
-illustrators:
-- Yosuke Da Silva
----
-set: ex-team-magma-vs-team-aqua
-number: '68'
-order: 67
-name: Team Magma's Rhyhorn
-rarity: common
-holographic: false
-class: P
-types:
-- Fighting
-hp: 60
-stage: Basic
-legal: false
-filename: 68-team-magma's-rhyhorn
-pokemon: Rhyhorn
-subclasses:
-- Magma
-mechanics:
-- name: Ram
-  cost: C
-  damage: '10'
-  type: attack
-- name: Knock Over
-  cost: FC
-  damage: '10'
-  type: attack
-  text: >-
-    You may discard any Stadium in play.
-damage modifiers:
-- amount: 2
-  operation: ×
-  type: Grass
-retreat: 2
-illustrators:
-- Yosuke Da Silva
----
-set: ex-team-magma-vs-team-aqua
-number: '69'
-order: 68
-name: Team Aqua Schemer
-rarity: uncommon
-holographic: false
-class: T
-legal: false
-filename: 69-team-aqua-schemer
-subclasses:
-- Supporter
-mechanics:
-- type: rule
-  text: >-
-    You can play only one supporter card each turn. When you play
-    this card, put it next to your Active Pokémon. When your turn
-    ends, discard this card.
-- type: effect
-  text: >-
-    Discard any 1 Pokémon from your hand. Then draw 3 cards. If
-    you discarded a Pokémon with Team Aqua in its name, draw 4
-    cards instead.
-illustrators:
-- Ken Sugimori
----
-set: ex-team-magma-vs-team-aqua
-number: '70'
-order: 69
-name: Team Magma Schemer
-rarity: uncommon
-holographic: false
-class: T
-legal: false
-filename: 70-team-magma-schemer
-subclasses:
-- Supporter
-mechanics:
-- type: rule
-  text: >-
-    You can play only one supporter card each turn. When you play
-    this card, put it next to your Active Pokémon. When your turn
-    ends, discard this card.
-- type: effect
-  text: >-
-    Discard any 1 Pokémon from your hand. Then draw 3 cards. If
-    you discarded a Pokémon with Team Magma in its name, draw
-    4 cards instead.
-illustrators:
-- Ken Sugimori
----
-set: ex-team-magma-vs-team-aqua
-number: '71'
-order: 70
-name: Archie
-rarity: uncommon
-holographic: false
-class: T
-legal: false
-filename: 71-archie
-subclasses:
-- Supporter
-mechanics:
-- type: rule
-  text: >-
-    You can play only one supporter card each turn. When you play
-    this card, put it next to your Active Pokémon. When your turn
-    ends, discard this card.
-- type: effect
-  text: >-
-    Search your deck for a Pokémon with Team Aqua in its name
-    and put it onto your Bench. Shuffle your deck afterward. Treat
-    the new Benched Pokémon as a Basic Pokémon. If it is a Stage
-    2 Pokémon, put 2 damage counters on that Pokémon.
-illustrators:
-- Ken Sugimori
----
-set: ex-team-magma-vs-team-aqua
-number: '72'
-order: 71
-name: Dual Ball
-rarity: uncommon
-holographic: false
-class: T
-legal: false
-filename: 72-dual-ball
-mechanics:
-- type: effect
-  text: >-
-    Flip 2 coins. For each heads, search your deck for a Basic
-    Pokémon card, show it to your opponent, and put it into your
-    hand. Shuffle your deck afterward.
-illustrators:
-- Big Mama Tagawa
----
-set: ex-team-magma-vs-team-aqua
-number: '73'
-order: 72
-name: Maxie
-rarity: uncommon
-holographic: false
-class: T
-legal: false
-filename: 73-maxie
-subclasses:
-- Supporter
-mechanics:
-- type: rule
-  text: >-
-    You can play only one supporter card each turn. When you play
-    this card, put it next to your Active Pokémon. When your turn
-    ends, discard this card.
-- type: effect
-  text: >-
-    Search your hand or discard pile for a Pokémon with Team Magma
-    in its name and put it onto your Bench. Treat the new Benched
-    Pokémon as a Basic Pokémon. If it is a Stage 2 Pokémon, put
-    2 damage counters on that Pokémon.
-illustrators:
-- Ken Sugimori
----
-set: ex-team-magma-vs-team-aqua
-number: '74'
-order: 73
-name: Strength Charm
-rarity: uncommon
-holographic: false
-class: T
-legal: false
-filename: 74-strength-charm
-subclasses:
-- Tool
-mechanics:
-- type: rule
-  text: >-
-    Attach Strength Charm to 1 of your Pokémon that doesn't already
-    have a Pokémon Tool attached to it.  If that Pokémon is Knocked
-    Out, discard this card.
-- type: effect
-  text: >-
-    Whenever an attack from the Pokémon that Strength Charm is
-    attached to does damage to the Active Pokémon (after applying
-    Weakness and Resistance), the attack does 10 more damage.
-    At the end of the turn in which this happens, discard Strength
-    Charm.
-illustrators:
-- Keiji Kinebuchi
----
-set: ex-team-magma-vs-team-aqua
-number: '75'
-order: 74
-name: Team Aqua Ball
-rarity: uncommon
-holographic: false
-class: T
-legal: false
-filename: 75-team-aqua-ball
-mechanics:
-- type: effect
-  text: >-
-    Flip a coin. If heads, search your deck for a Pokémon that
-    has Team Aqua in its name, show it to your opponent, and put
-    it into your hand. If tails, search your deck for a Basic
-    Pokémon that has Team Aqua in its name, show it to your opponent
-    and put into your hand. Shuffle your deck afterward.
-illustrators:
-- Ryo Ueda
----
-set: ex-team-magma-vs-team-aqua
-number: '76'
-order: 75
-name: Team Aqua Belt
-rarity: uncommon
-holographic: false
-class: T
-legal: false
-filename: 76-team-aqua-belt
-subclasses:
-- Tool
-mechanics:
-- type: rule
-  text: >-
-    Attach Team Aqua Belt to 1 of your Pokémon that doesn't already
-    have a Pokémon Tool attached to it.  If that Pokémon is Knocked
-    Out, discard this card.
-- type: effect
-  text: >-
-    At any time between turns, if the Pokémon Team Aqua Belt is
-    attached to is your Active Pokémon, search your deck for a
-    card that evolves from that Pokémon and put it on that Pokémon.
-    (This counts as evolving that Pokémon.) Shuffle your deck
-    afterward, then discard Team Aqua Belt.
-illustrators:
-- Mitsuhiro Arita
----
-set: ex-team-magma-vs-team-aqua
-number: '77'
-order: 76
-name: Team Aqua Conspirator
-rarity: uncommon
-holographic: false
-class: T
-legal: false
-filename: 77-team-aqua-conspirator
-subclasses:
-- Supporter
-mechanics:
-- type: rule
-  text: >-
-    You can play only one supporter card each turn. When you play
-    this card, put it next to your Active Pokémon. When your turn
-    ends, discard this card.
-- type: effect
-  text: >-
-    Search your deck for up to 2 in any combination of Basic Pokémon
-    with Team Aqua in its name and basic Energy cards, show them
-    to your opponent, and put them into your hand. Shuffle your
-    deck afterward.
-illustrators:
-- Ken Sugimori
----
-set: ex-team-magma-vs-team-aqua
-number: '78'
-order: 77
-name: Team Aqua Hideout
-rarity: uncommon
-holographic: false
-class: T
-legal: false
-filename: 78-team-aqua-hideout
-subclasses:
-- Stadium
-mechanics:
-- type: rule
-  text: >-
-    This card stays in play when you play it. Discard this card
-    if another Stadium card comes into play.
-- type: effect
-  text: >-
-    Each Pokémon that does not have Team Aqua in its name pays
-    1 more to retreat.
-illustrators:
-- Hiromichi Sugiyama
----
-set: ex-team-magma-vs-team-aqua
-number: '79'
-order: 78
-name: Team Aqua Techincal Machine 01
-rarity: uncommon
-holographic: false
-class: T
-legal: false
-filename: 79-team-aqua-techincal-machine-01
-subclasses:
-- Technical Machine
-mechanics:
-- type: rule
-  text: >-
-    Attach this card to 1 of your Pokémon that has Team Aqua in
-    its name. That Pokémon may use this card's attack instead
-    of its own. At the end of your turn, discard Team Aqua Technical
-    Machine 01.
-- type: effect
-  text: >-
-    [1] Miracle (10) Choose 1 Special Condition. The Defending
-    Pokémon is now affected by that Special Condition.
-illustrators:
-- Mitsuhiro Arita
----
-set: ex-team-magma-vs-team-aqua
-number: '80'
-order: 79
-name: Team Magma Ball
-rarity: uncommon
-holographic: false
-class: T
-legal: false
-filename: 80-team-magma-ball
-mechanics:
-- type: effect
-  text: >-
-    Flip a coin. If heads, search your deck for a Pokémon that
-    has Team Magma in its name, show it to your opponent, and
-    put it into your hand. If tails, search your deck for a Basic
-    Pokémon that has Team Magma in its name, show it to your opponent
-    and put into your hand. Shuffle your deck afterward.
-illustrators:
-- Ryo Ueda
----
-set: ex-team-magma-vs-team-aqua
-number: '81'
-order: 80
-name: Team Magma Belt
-rarity: uncommon
-holographic: false
-class: T
-legal: false
-filename: 81-team-magma-belt
-subclasses:
-- Tool
-mechanics:
-- type: rule
-  text: >-
-    Attach Team Magma Belt to 1 of your Pokémon that doesn't already
-    have a Pokémon Tool attached to it.  If that Pokémon is Knocked
-    Out, discard this card.
-- type: effect
-  text: >-
-    At any time between turns, if the Pokémon Team Magma Belt
-    is attached to is your Active Pokémon, search your deck for
-    a card that evolves from that Pokémon and put it on that Pokémon.
-    (This counts as evolving that Pokémon.) Shuffle your deck
-    afterward, then discard Team Magma Belt.
-illustrators:
-- Mitsuhiro Arita
----
-set: ex-team-magma-vs-team-aqua
-number: '82'
-order: 81
-name: Team Magma Conspirator
-rarity: uncommon
-holographic: false
-class: T
-legal: false
-filename: 82-team-magma-conspirator
-subclasses:
-- Supporter
-mechanics:
-- type: rule
-  text: >-
-    You can play only one supporter card each turn. When you play
-    this card, put it next to your Active Pokémon. When your turn
-    ends, discard this card.
-- type: effect
-  text: >-
-    Search your deck for up to 2 in any combination of Basic Pokémon
-    with Team Magma in its name and basic Energy cards, show them
-    to your opponent, and put them into your hand. Shuffle your
-    deck afterward.
-illustrators:
-- Ken Sugimori
----
-set: ex-team-magma-vs-team-aqua
-number: '83'
-order: 82
-name: Team Magma Hideout
-rarity: uncommon
-holographic: false
-class: T
-legal: false
-filename: 83-team-magma-hideout
-subclasses:
-- Stadium
-mechanics:
-- type: rule
-  text: >-
-    This card stays in play when you play it. Discard this card
-    if another Stadium card comes into play.
-- type: effect
-  text: >-
-    Whenever any player plays a Basic Pokémon that doesn't have
-    Team Magma in its name from his or her hand, that player puts
-    1 damage counter on that Pokémon.
-illustrators:
-- Ken Ikuji
----
-set: ex-team-magma-vs-team-aqua
-number: '84'
-order: 83
-name: Team Magma Technical Machine 01
-rarity: uncommon
-holographic: false
-class: T
-legal: false
-filename: 84-team-magma-technical-machine-01
-subclasses:
-- Technical Machine
-mechanics:
-- type: rule
-  text: >-
-    Attach this card to 1 of your Pokémon that has Team Magma
-    in its name. That Pokémon may use this card's attack instead
-    of its own. At the end of your turn, discard Team Magma Technical
-    Machine 01.
-- type: effect
-  text: >-
-    [1] Crushing Magma (10) Choose an Energy card attached to
-    the Defending Pokémon and put that card at the bottom of your
-    opponent's deck.
-illustrators:
-- Mitsuhiro Arita
----
-set: ex-team-magma-vs-team-aqua
-number: '85'
-order: 84
-name: Warp Point
-rarity: uncommon
-holographic: false
-class: T
-legal: true
-filename: 85-warp-point
-mechanics:
-- type: effect
-  text: >-
-    Your opponent switches 1 of his or her Defending Pokémon with
-    1 of his or her Benched Pokémon, if any. You switch 1 of your
-    Active Pokémon with 1 of your Benched Pokémon, if any.
-illustrators:
-- Keiji Kinebuchi
----
-set: ex-team-magma-vs-team-aqua
-number: '86'
-order: 85
-name: Aqua Energy
-rarity: uncommon
-holographic: false
-class: E
-legal: false
-filename: 86-aqua-energy
-subclasses:
-- Special
-mechanics:
-- type: effect
-  text: >-
-    Aqua Energy can be attached only to a Pokémon with Team Aqua
-    in its name. Aqua Energy provides W and D Energy but provides
-    2 Energy at a time. (Doesn't count as a basic Energy card
-    when not in play and has no effect other than providing Energy.)
-    At the end of your turn, discard Aqua Energy.
-illustrators:
-- Takumi Akabane
----
-set: ex-team-magma-vs-team-aqua
-number: '87'
-order: 86
-name: Magma Energy
-rarity: uncommon
-holographic: false
-class: E
-legal: false
-filename: 87-magma-energy
-subclasses:
-- Special
-mechanics:
-- type: effect
-  text: >-
-    Magma Energy can be attached only to a Pokémon with Team Magma
-    in its name. Magma Energy provides F and D Energy but provides
-    2 Energy at a time. (Doesn't count as a basic Energy card
-    when not in play and has no effect other than providing Energy.)
-    At the end of your turn, discard Magma Energy.
-illustrators:
-- Takumi Akabane
----
-set: ex-team-magma-vs-team-aqua
-number: '88'
-order: 87
-name: Double Rainbow Energy
-rarity: uncommon
-holographic: false
-class: E
-legal: false
-filename: 88-double-rainbow-energy
-subclasses:
-- Special
-mechanics:
-- type: effect
-  text: >-
-    Double Rainbow Energy can be attached only to an Evolved Pokémon
-    (excluding Pokémon-ex). While in play, Double Rainbow Energy
-    provides every type of Energy but provides 2 Energy at a time.
-    (Doesn't count as a basic Energy when not in play and has
-    no effect other than providing Energy.) Damage done to your
-    opponent's Pokémon by the Pokémon Double Rainbow Energy is
-    attached to is reduced by 10 (after applying Weakness and
-    Resistance). When the Pokémon Double Rainbow Energy is attached
-    to is no longer an Evolved Pokémon, discard Double Rainbow
-    Energy.
-illustrators:
-- Takumi Akabane
----
-set: ex-team-magma-vs-team-aqua
-number: '89'
-order: 88
-name: Blaziken ex
-rarity: rare
-holographic: true
-class: P
-types:
-- Fire
-hp: 150
-stage: Stage 2
-evolves from: Combusken
-legal: false
-filename: 89-blaziken-ex
-pokemon: Blaziken
-subclasses:
-- EX
-mechanics:
-- name: Blaze Kick
-  cost: RC
-  damage: '30'
-  type: attack
-  text: >-
-    Flip a coin. If heads, this attack does 30 damage plus 20
-    more damage. If tails, this attack does 30 damage and the
-    Defending Pokémon is now Burned.
-- name: Volcanic Ash
-  cost: RRCC
-  type: attack
-  text: >-
-    Discard 2 R Energy attached to Blaziken EX and then choose
-    1 of your opponent's Pokémon. This attack does 100 damage
-    to that Pokémon. (Don't apply Weakness and Resistance for
-    Benched Pokémon.)
-damage modifiers:
-- amount: 2
-  operation: ×
-  type: Psychic
-- amount: 2
-  operation: ×
-  type: Water
-retreat: 2
-illustrators:
-- Hikaru Koike
----
-set: ex-team-magma-vs-team-aqua
-number: '90'
-order: 89
-name: Cradily ex
-rarity: rare
-holographic: true
-class: P
-types:
-- Grass
-hp: 150
-stage: Stage 2
-evolves from: Lileep
-legal: false
-filename: 90-cradily-ex
-pokemon: Cradily
-subclasses:
-- EX
-mechanics:
-- name: Primal Vibes
-  type: pokebody
-  text: >-
-    As long as Cradily EX is your Active Pokémon, your opponent
-    can't play a Pokémon from his or her hand to evolve his or
-    her Active Pokémon.
-- name: Eerie Light
-  cost: CC
-  damage: '30'
-  type: attack
-  text: >-
-    The Defending Pokémon is now Confused.
-- name: Acidic Poison
-  cost: GGCC
-  damage: '60'
-  type: attack
-  text: >-
-    The Defending Pokémon is now Poisoned and Burned.
-damage modifiers:
-- amount: 2
-  operation: ×
-  type: Fire
-- amount: 2
-  operation: ×
-  type: Water
-retreat: 2
-illustrators:
-- Ryo Ueda
----
-set: ex-team-magma-vs-team-aqua
-number: '91'
-order: 90
-name: Entei ex
-rarity: rare
-holographic: true
-class: P
-types:
-- Fire
-hp: 100
-stage: Basic
-legal: false
-filename: 91-entei-ex
-pokemon: Entei
-subclasses:
-- EX
-mechanics:
-- name: Searing Flame
-  cost: R
-  damage: '10'
-  type: attack
-  text: >-
-    Flip a coin. If heads, the Defending Pokémon is now Burned.
-- name: Bright Flame
-  cost: RRC
-  damage: '90'
-  type: attack
-  text: >-
-    Discard 2 Energy attached to Entei EX.
-damage modifiers:
-- amount: 2
-  operation: ×
-  type: Water
-retreat: 2
-illustrators:
-- Ryo Ueda
----
-set: ex-team-magma-vs-team-aqua
-number: '92'
-order: 91
-name: Raikou ex
-rarity: rare
-holographic: true
-class: P
-types:
-- Lightning
-hp: 100
-stage: Basic
-legal: false
-filename: 92-raikou-ex
-pokemon: Raikou
-subclasses:
-- EX
-mechanics:
-- name: Dazzle Blast
-  cost: L
-  damage: '10'
-  type: attack
-  text: >-
-    Flip a coin. If heads, the Defending Pokémon is now Confused.
-- name: Lightning Tackle
-  cost: LLC
-  damage: '70'
-  type: attack
-  text: >-
-    Flip a coin. If tails, Raikou EX does 20 damage to itself.
-damage modifiers:
-- amount: 2
-  operation: ×
-  type: Fighting
-retreat: 2
-illustrators:
-- Ryo Ueda
----
-set: ex-team-magma-vs-team-aqua
-number: '93'
-order: 92
-name: Sceptile ex
-rarity: rare
-holographic: true
-class: P
-types:
-- Grass
-hp: 150
-stage: Stage 2
-evolves from: Grovyle
-legal: false
-filename: 93-sceptile-ex
-pokemon: Sceptile
-subclasses:
-- EX
-mechanics:
-- name: Green Heal
-  cost: C
-  type: attack
-  text: >-
-    Remove 4 damage counters from each of your Pokémon that has
-    G Energy attached. If that Pokémon has less than 4 damage
-    counters, remove all of them.
-- name: Poison Ring
-  cost: GCC
-  damage: '40'
-  type: attack
-  text: >-
-    The Defending Pokémon is now Poisoned. The Defending Pokémon
-    can't retreat until the end of your opponent's next turn.
-- name: Slashing Strike
-  cost: GGCCC
-  damage: '100'
-  type: attack
-  text: >-
-    Sceptile EX can't use Slashing Strike during your next turn.
-damage modifiers:
-- amount: 2
-  operation: ×
-  type: Grass
-- amount: 2
-  operation: ×
-  type: Fire
-- amount: 30
-  operation: '-'
-  type: Water
-retreat: 2
-illustrators:
-- Hikaru Koike
----
-set: ex-team-magma-vs-team-aqua
-number: '94'
-order: 93
-name: Suicune ex
-rarity: rare
-holographic: true
-class: P
-types:
-- Water
-hp: 100
-stage: Basic
-legal: false
-filename: 94-suicune-ex
-pokemon: Suicune
-subclasses:
-- EX
-mechanics:
-- name: Energy Flip
-  cost: W
-  type: attack
-  text: >-
-    Choose 1 of your opponent's Benched Pokémon. This attack does
-    10 damage to that Pokémon. You may move any Energy card attached
-    to that Pokémon to another of your opponent's Pokémon. (Don't
-    apply Weakness and Resistance for Benched Pokémon.)
-- name: Reverse Stream
-  cost: WWC
-  damage: '50'
-  type: attack
-  text: >-
-    You may return all basic Energy cards attached to Suicune
-    EX to your hand. If you do, this attack does 50 damage plus
-    10 more damage for each basic Energy card you returned.
-damage modifiers:
-- amount: 2
-  operation: ×
-  type: Lightning
-retreat: 2
-illustrators:
-- Ryo Ueda
----
-set: ex-team-magma-vs-team-aqua
-number: '95'
-order: 94
-name: Swampert ex
-rarity: rare
-holographic: true
-class: P
-types:
-- Fighting
-hp: 150
-stage: Stage 2
-evolves from: Marshtomp
-legal: false
-filename: 95-swampert-ex
-pokemon: Swampert
-subclasses:
-- EX
-mechanics:
-- name: Hyper Pump
-  cost: C
-  damage: '20'
-  type: attack
-  text: >-
-    Does 20 damage plus 20 more damage for each basic Energy attached
-    to Swampert EX but not used to pay for this attack's Energy
-    cost. You can't add more than 80 damage in this way.
-- name: Crushing Wave
-  cost: WCC
-  type: attack
-  text: >-
-    Choose 1 of your opponent's Pokémon. This attack does 40 damage
-    to that Pokémon. After doing damage, flip a coin. If heads,
-    you opponent discards an Energy card, if any, attached to
-    that Pokémon. (Don't apply Weakness and Resistance to Benched
-    Pokémon.)
-damage modifiers:
-- amount: 2
-  operation: ×
-  type: Grass
-retreat: 3
-illustrators:
-- Hikaru Koike
----
-set: ex-team-magma-vs-team-aqua
-number: '96'
-order: 95
-name: Absol
-rarity: rare
-holographic: true
-class: P
-types:
-- Darkness
-hp: 70
-stage: Basic
-legal: false
-filename: 96-absol
-pokemon: Absol
-mechanics:
-- name: Quick Attack
-  cost: CC
-  damage: '10'
-  type: attack
-  text: >-
-    Flip a coin. If heads, this attack does 10 damage plus 10
-    more damage.
-- name: Feint Attack
-  cost: DDC
-  type: attack
-  text: >-
-    Choose 1 of your opponent's Pokémon. This attack does 30 damage
-    to that Pokémon. This attack's damage isn't affected by Weakness,
-    Resistance, Poke-Powers, Poke-Bodies or any other effects
-    on that Pokémon. (Don't apply Weakness and Resistance for
-    Benched Pokémon.)
-damage modifiers:
-- amount: 2
-  operation: ×
-  type: Fighting
-retreat: 1
-illustrators:
-- Mitsuhiro Arita
----
-set: ex-team-magma-vs-team-aqua
-number: '97'
-order: 96
-name: Jirachi
-rarity: rare
-holographic: true
-class: P
-types:
-- Psychic
-hp: 50
-stage: Basic
-legal: false
-filename: 97-jirachi
-pokemon: Jirachi
-mechanics:
-- name: Hypnoblast
-  cost: P
-  damage: '10'
-  type: attack
-  text: >-
-    The Defending Pokémon is now Asleep.
-- name: Swift
-  cost: CC
-  damage: '20'
-  type: attack
-  text: >-
-    This attacks damage isn't affected by Weakness, Resistance,
-    Poke-Powers, Poke-Bodies or any other effects on the Defending
-    Pokémon.
-damage modifiers:
-- amount: 2
-  operation: ×
-  type: Psychic
-retreat: 1
-illustrators:
-- Mitsuhiro Arita
+name: Ex Team Magma vs. Team Aqua
+cards:
+- number: '1'
+  card:
+    name: Team Aqua's Cacturne
+    rarity: rare
+    holographic: true
+    class: P
+    types:
+    - Grass
+    - Darkness
+    hp: 80
+    stage: Stage 1
+    evolves from:
+    - Team Aqua's Cacnea
+    legal: false
+    filename: 1-team-aqua's-cacturne
+    pokemon: Cacturne
+    subclasses:
+    - Aqua
+    mechanics:
+    - name: Dark Bind
+      cost: D
+      damage: '10'
+      type: attack
+      text: >-
+        You may discard a D Energy card attached to Team Aqua's Cacturne.
+        If you do, the Defending Pokémon is now Paralyzed.
+    - name: Poison Barb
+      cost: GCC
+      damage: '40'
+      type: attack
+      text: >-
+        The Defending Pokémon is now Poisoned.
+    damage modifiers:
+    - amount: 2
+      operation: ×
+      type: Fire
+    retreat: 2
+    illustrators:
+    - K. Utsunomiya
+- number: '2'
+  card:
+    name: Team Aqua's Crawdaunt
+    rarity: rare
+    holographic: true
+    class: P
+    types:
+    - Water
+    - Darkness
+    hp: 80
+    stage: Stage 1
+    evolves from:
+    - Team Aqua's Krabby
+    legal: false
+    filename: 2-team-aqua's-crawdaunt
+    pokemon: Crawdaunt
+    subclasses:
+    - Aqua
+    mechanics:
+    - name: Aqua Reverse
+      cost: DC
+      damage: '20'
+      type: attack
+      text: >-
+        Before doing damage, you may choose 1 of your opponent's Benched
+        Pokémon that has Team Magma in its name and switch it with 1 of
+        the Defending Pokémon. Your opponent chooses which Defending Pokémon
+        to switch.
+    - name: Deep Impact
+      cost: WWC
+      damage: '40'
+      type: attack
+      text: >-
+        If the Defending Pokémon already has any damage counters on it,
+        the Defending Pokémon is now Confused.
+    damage modifiers:
+    - amount: 2
+      operation: ×
+      type: Lightning
+    retreat: 1
+    illustrators:
+    - Nakaoka
+- number: '3'
+  card:
+    name: Team Aqua's Kyogre
+    rarity: rare
+    holographic: true
+    class: P
+    types:
+    - Water
+    - Darkness
+    hp: 100
+    stage: Basic
+    legal: false
+    filename: 3-team-aqua's-kyogre
+    pokemon: Kyogre
+    subclasses:
+    - Aqua
+    mechanics:
+    - name: Power Saver
+      type: pokebody
+      text: >-
+        As long as the number of Pokémon in play (both yours and your
+        opponent's) that has Team Aqua in its name is 3 or less, Team
+        Aqua's Kyogre can't attack.
+    - name: Aqua Trip
+      cost: WC
+      damage: '10'
+      type: attack
+      text: >-
+        Flip a coin. If heads, the Defending Pokémon is now Confused.
+        If tails, the Defending Pokémon is now Asleep.
+    - name: Aqua Smash
+      cost: WWC
+      damage: '50'
+      type: attack
+      text: >-
+        If the Defending Pokémon is affected by a Special Condition, this
+        attack does 50 damage plus 20 more damage.
+    damage modifiers:
+    - amount: 2
+      operation: ×
+      type: Grass
+    retreat: 3
+    illustrators:
+    - K. Hoshiba
+- number: '4'
+  card:
+    name: Team Aqua's Manectric
+    rarity: rare
+    holographic: true
+    class: P
+    types:
+    - Lightning
+    - Darkness
+    hp: 70
+    stage: Stage 1
+    evolves from:
+    - Team Aqua's Electrike
+    legal: false
+    filename: 4-team-aqua's-manectric
+    pokemon: Manectric
+    subclasses:
+    - Aqua
+    mechanics:
+    - name: Power Shift
+      type: pokepower
+      text: >-
+        Once during your turn (before your attack), you may move any number
+        of basic Energy cards attached to 1 of your Pokémon with Team
+        Aqua in its name to another of your Pokémon. This power can't
+        be used if Team Aqua's Manectric is affected by a Special Condition.
+    - name: Thunderspark
+      cost: LCC
+      damage: '50'
+      type: attack
+      text: >-
+        Does 10 damage to each Benched Pokémon (both yours and your opponent's)
+        that has Energy cards attached to it. (Don't apply Weakness and
+        Resistance for Benched Pokémon.)
+    damage modifiers:
+    - amount: 2
+      operation: ×
+      type: Fighting
+    - amount: 30
+      operation: '-'
+      type: Metal
+    retreat: 1
+    illustrators:
+    - K. Utsunomiya
+- number: '5'
+  card:
+    name: Team Aqua's Sharpedo
+    rarity: rare
+    holographic: true
+    class: P
+    types:
+    - Water
+    - Darkness
+    hp: 70
+    stage: Stage 1
+    evolves from:
+    - Team Aqua's Carvahna
+    legal: false
+    filename: 5-team-aqua's-sharpedo
+    pokemon: Sharpedo
+    subclasses:
+    - Aqua
+    mechanics:
+    - name: Rage
+      cost: CC
+      damage: '10'
+      type: attack
+      text: >-
+        Does 10 damage plus 10 more damage for each damage counter on
+        Team Aqua's Sharpedo.
+    - name: Aqua Slash
+      cost: WWC
+      damage: '60'
+      type: attack
+      text: >-
+        Team Aqua's Sharpedo can't attack during your next turn.
+    damage modifiers:
+    - amount: 2
+      operation: ×
+      type: Lightning
+    illustrators:
+    - Katsura Tabata
+- number: '6'
+  card:
+    name: Team Aqua's Walrein
+    rarity: rare
+    holographic: true
+    class: P
+    types:
+    - Water
+    - Darkness
+    hp: 120
+    stage: Stage 2
+    evolves from:
+    - Team Aqua's Sealeo
+    legal: false
+    filename: 6-team-aqua's-walrein
+    pokemon: Walrein
+    subclasses:
+    - Aqua
+    mechanics:
+    - name: Power Blow
+      cost: C
+      damage: '10'
+      type: attack
+      text: >-
+        Does 10 damage plus 10 more damage for each Energy attached to
+        Team Aqua's Walrein.
+    - name: Hydro Reverse
+      cost: WWCC
+      damage: '50'
+      type: attack
+      text: >-
+        You may return any number of basic W Energy cards attached to
+        all of your Pokémon to your hand. If you do, this attack does
+        50 damage plus 10 more damage for each Energy you returned.
+    damage modifiers:
+    - amount: 2
+      operation: ×
+      type: Fighting
+    - amount: 2
+      operation: ×
+      type: Metal
+    retreat: 2
+    illustrators:
+    - Ken Ikuji
+- number: '7'
+  card:
+    name: Team Magma's Aggron
+    rarity: rare
+    holographic: true
+    class: P
+    types:
+    - Fighting
+    - Darkness
+    hp: 120
+    stage: Stage 2
+    evolves from:
+    - Team Magma's Lairon
+    legal: false
+    filename: 7-team-magma's-aggron
+    pokemon: Aggron
+    subclasses:
+    - Magma
+    mechanics:
+    - name: Crush
+      cost: F
+      damage: 30×
+      type: attack
+      text: >-
+        Flip a coin for each Energy attached to Team Magma's Aggron. This
+        attack does 30 damage times the number of heads.
+    - name: Land Stream
+      cost: FFCC
+      damage: '50'
+      type: attack
+      text: >-
+        You may discard any number of basic Energy cards attached to Team
+        Magma's Aggron. If you do, this attack does 50 damage plus 20
+        more damage for each basic Energy card you discarded.
+    damage modifiers:
+    - amount: 2
+      operation: ×
+      type: Grass
+    - amount: 2
+      operation: ×
+      type: Water
+    retreat: 2
+    illustrators:
+    - Hiromichi Sugiyama
+- number: '8'
+  card:
+    name: Team Magma's Claydol
+    rarity: rare
+    holographic: true
+    class: P
+    types:
+    - Psychic
+    - Darkness
+    hp: 80
+    stage: Stage 1
+    evolves from:
+    - Team Magma's Baltoy
+    legal: false
+    filename: 8-team-magma's-claydol
+    pokemon: Claydol
+    subclasses:
+    - Magma
+    mechanics:
+    - name: Magma Switch
+      type: pokepower
+      text: >-
+        Once during your turn (before your attack), you may move an Energy
+        card attached to your Pokémon with Team Magma in its name to another
+        of your Pokémon. This power can't be used if Team Magma's Claydol
+        is affected by a Special Condition.
+    - name: Dark Hand
+      cost: PCC
+      damage: '40'
+      type: attack
+      text: >-
+        If you have more cards in your hand than your opponent, this attack
+        does 40 damage plus 20 more damage.
+    damage modifiers:
+    - amount: 2
+      operation: ×
+      type: Psychic
+    retreat: 2
+    illustrators:
+    - Zu-ka
+- number: '9'
+  card:
+    name: Team Magma's Groudon
+    rarity: rare
+    holographic: true
+    class: P
+    types:
+    - Fighting
+    - Darkness
+    hp: 100
+    stage: Basic
+    legal: false
+    filename: 9-team-magma's-groudon
+    pokemon: Groudon
+    subclasses:
+    - Magma
+    mechanics:
+    - name: Power Saver
+      type: pokebody
+      text: >-
+        As long as the number of Pokémon in play (both yours and your
+        opponent's) that has Team Magma in its name is 3 or less, Team
+        Magma's Groudon can't attack.
+    - name: Linear Attack
+      cost: FC
+      type: attack
+      text: >-
+        Choose 1 of your opponent's Pokémon. This attack does 20 damage
+        to that Pokémon. (Don't apply Weakness and Resistance for Benched
+        Pokémon.)
+    - name: Pulverize
+      cost: FFC
+      damage: '50'
+      type: attack
+      text: >-
+        If the Defending Pokémon already has at least 2 damage counters
+        on it, this attack does 50 damage plus 20 more damage.
+    damage modifiers:
+    - amount: 2
+      operation: ×
+      type: Grass
+    retreat: 3
+    illustrators:
+    - Kazuo Yazawa
+- number: '10'
+  card:
+    name: Team Magma's Houndoom
+    rarity: rare
+    holographic: true
+    class: P
+    types:
+    - Fire
+    - Darkness
+    hp: 70
+    stage: Stage 1
+    evolves from:
+    - Team Magma's Houndour
+    legal: false
+    filename: 10-team-magma's-houndoom
+    pokemon: Houndoom
+    subclasses:
+    - Magma
+    mechanics:
+    - name: Roasting Heat
+      cost: RC
+      damage: '30'
+      type: attack
+      text: >-
+        If the Defending Pokémon is Burned, this attack does 30 damage
+        plus 20 more damage.
+    - name: Magma Spurt
+      cost: RCC
+      damage: 30×
+      type: attack
+      text: >-
+        Discard the top 5 cards from your deck. This attack does 30 damage
+        times the number of F and R basic Energy cards discarded this
+        way.
+    damage modifiers:
+    - amount: 2
+      operation: ×
+      type: Water
+    retreat: 1
+    illustrators:
+    - Ken Ikuji
+- number: '11'
+  card:
+    name: Team Magma's Rhydon
+    rarity: rare
+    holographic: true
+    class: P
+    types:
+    - Fighting
+    - Darkness
+    hp: 90
+    stage: Stage 1
+    evolves from:
+    - Team Magma's Rhyhorn
+    legal: false
+    filename: 11-team-magma's-rhydon
+    pokemon: Rhydon
+    subclasses:
+    - Magma
+    mechanics:
+    - name: Magma Jab
+      cost: DC
+      damage: '20'
+      type: attack
+      text: >-
+        This attack's damage is not affected by Resistance.
+    - name: Shoot Down
+      cost: FFC
+      damage: '50'
+      type: attack
+      text: >-
+        If the Defending Pokémon has Team Aqua in its name, the Defending
+        Pokémon is now Confused.
+    damage modifiers:
+    - amount: 2
+      operation: ×
+      type: Grass
+    retreat: 2
+    illustrators:
+    - T. Honda
+- number: '12'
+  card:
+    name: Team Magma's Torkoal
+    rarity: rare
+    holographic: true
+    class: P
+    types:
+    - Fire
+    - Darkness
+    hp: 80
+    stage: Basic
+    legal: false
+    filename: 12-team-magma's-torkoal
+    pokemon: Torkoal
+    subclasses:
+    - Magma
+    mechanics:
+    - name: Magma Burn
+      cost: R
+      damage: '10'
+      type: attack
+      text: >-
+        Discard the top card from your opponent's deck, and flip a coin.
+        If tails, discard a R Energy attached to Team Magma's Torkoal.
+    - name: Hot Air
+      cost: RC
+      damage: '30'
+      type: attack
+      text: >-
+        Discard a R Energy attached to Team Magma's Torkoal, and your
+        opponent switches the Defending Pokémon with 1 of his or her Benched
+        Pokémon, if any.
+    damage modifiers:
+    - amount: 2
+      operation: ×
+      type: Water
+    retreat: 2
+    illustrators:
+    - K. Hoshiba
+- number: '13'
+  card:
+    name: Raichu
+    rarity: rare
+    holographic: false
+    class: P
+    types:
+    - Lightning
+    hp: 80
+    stage: Stage 1
+    evolves from:
+    - Pikachu
+    legal: false
+    filename: 13-raichu
+    pokemon: Raichu
+    mechanics:
+    - name: Spark
+      cost: LC
+      damage: '20'
+      type: attack
+      text: >-
+        Does 10 damage to 2 of your opponent's Benched Pokémon (1 if there
+        is only 1). (Don't apply Weakness and Resistance for Benched Pokémon.)
+    - name: Kerzap
+      cost: LLC
+      damage: '40'
+      type: attack
+      text: >-
+        Flip a coin. If heads, this attack does 40 damage plus 40 more
+        damage to the Defending Pokémon and discard all L Energy cards
+        attached to Raichu.
+    damage modifiers:
+    - amount: 2
+      operation: ×
+      type: Fighting
+    retreat: 1
+    illustrators:
+    - Ken Sugimori
+- number: '14'
+  card:
+    name: Team Aqua's Crawdaunt
+    rarity: rare
+    holographic: false
+    class: P
+    types:
+    - Water
+    hp: 80
+    stage: Stage 1
+    evolves from:
+    - Team Aqua's Krabby
+    legal: false
+    filename: 14-team-aqua's-crawdaunt
+    pokemon: Crawdaunt
+    subclasses:
+    - Aqua
+    mechanics:
+    - name: Poison Reaction
+      cost: WC
+      damage: '20'
+      type: attack
+      text: >-
+        If the Defending Pokémon is Poisoned, this attack does 20 damage
+        plus 20 more damage.
+    - name: Double Claw
+      cost: WCC
+      damage: '30'
+      type: attack
+      text: >-
+        Flip 2 coins. This attack does 30 damage plus 20 more damage for
+        each heads.
+    damage modifiers:
+    - amount: 2
+      operation: ×
+      type: Lightning
+    retreat: 1
+    illustrators:
+    - Nakaoka
+- number: '15'
+  card:
+    name: Team Aqua's Mightyena
+    rarity: rare
+    holographic: false
+    class: P
+    types:
+    - Darkness
+    hp: 70
+    stage: Stage 1
+    evolves from:
+    - Team Aqua's Poochyena
+    legal: false
+    filename: 15-team-aqua's-mightyena
+    pokemon: Mightyena
+    subclasses:
+    - Aqua
+    mechanics:
+    - name: Bite
+      cost: DC
+      damage: '20'
+      type: attack
+    - name: Mystic Fang
+      cost: WCC
+      damage: '50'
+      type: attack
+      text: >-
+        If the Defending Pokémon is Pokémon-ex, the Defending Pokémon
+        is now Confused.
+    damage modifiers:
+    - amount: 2
+      operation: ×
+      type: Grass
+    - amount: 30
+      operation: '-'
+      type: Psychic
+    retreat: 1
+    illustrators:
+    - Shin-ichi Yoshikawa
+- number: '16'
+  card:
+    name: Team Aqua's Sealeo
+    rarity: rare
+    holographic: false
+    class: P
+    types:
+    - Water
+    hp: 70
+    stage: Stage 1
+    evolves from:
+    - Team Aqua's Spheal
+    legal: false
+    filename: 16-team-aqua's-sealeo
+    pokemon: Sealeo
+    subclasses:
+    - Aqua
+    mechanics:
+    - name: Aqua Trance
+      cost: W
+      damage: '20'
+      type: attack
+      text: >-
+        At the end of your opponent's next turn, the Defending Pokémon
+        is now Asleep.
+    - name: Super Hypnoblast
+      cost: WC
+      damage: '30'
+      type: attack
+      text: >-
+        If the Defending Pokémon is Asleep, this attack does 30 damage
+        plus 20 more damage.
+    damage modifiers:
+    - amount: 2
+      operation: ×
+      type: Metal
+    retreat: 1
+    illustrators:
+    - T. Honda
+- number: '17'
+  card:
+    name: Team Aqua's Seviper
+    rarity: rare
+    holographic: false
+    class: P
+    types:
+    - Grass
+    hp: 80
+    stage: Basic
+    legal: false
+    filename: 17-team-aqua's-seviper
+    pokemon: Seviper
+    subclasses:
+    - Aqua
+    mechanics:
+    - name: Call for Family
+      cost: C
+      type: attack
+      text: >-
+        Search your deck for a G Basic Pokémon or Basic Pokémon with Team
+        Aqua in its name and put it onto your Bench. Shuffle your deck
+        afterward.
+    - name: Thick Poison
+      cost: GCC
+      damage: '20'
+      type: attack
+      text: >-
+        Flip a coin. If heads, the Defending Pokémon is now Confused and
+        Poisoned. If tails, the Defending Pokémon is now Poisoned.
+    damage modifiers:
+    - amount: 2
+      operation: ×
+      type: Psychic
+    retreat: 2
+    illustrators:
+    - Jungo Suzuki
+- number: '18'
+  card:
+    name: Team Aqua's Sharpedo
+    rarity: rare
+    holographic: false
+    class: P
+    types:
+    - Water
+    hp: 70
+    stage: Stage 1
+    evolves from:
+    - Team Aqua's Carvahna
+    legal: false
+    filename: 18-team-aqua's-sharpedo
+    pokemon: Sharpedo
+    subclasses:
+    - Aqua
+    mechanics:
+    - name: Slow-Acting Poison
+      cost: CC
+      damage: '20'
+      type: attack
+      text: >-
+        At the end of your opponent's next turn, the Defending Pokémon
+        is now Poisoned.
+    - name: Aqua Smash
+      cost: WWC
+      damage: '50'
+      type: attack
+      text: >-
+        If the Defending Pokémon is affected by a Special Condition, this
+        attack does 50 damage plus 20 more damage.
+    damage modifiers:
+    - amount: 2
+      operation: ×
+      type: Lightning
+    illustrators:
+    - Katsura Tabata
+- number: '19'
+  card:
+    name: Team Magma's Camerupt
+    rarity: rare
+    holographic: false
+    class: P
+    types:
+    - Fire
+    hp: 80
+    stage: Stage 1
+    evolves from:
+    - Team Magma's Numel
+    legal: false
+    filename: 19-team-magma's-camerupt
+    pokemon: Camerupt
+    subclasses:
+    - Magma
+    mechanics:
+    - name: Overheat
+      type: pokepower
+      text: >-
+        Once during your turn (before your attack), you may search your
+        discard pile for a basic Energy card and attach it to Team Magma's
+        Camerupt. Put 2 damage counters on Team Magma's Camerupt. This
+        power can't be used if Team Magma's Camerupt is affected by a
+        Special Condition.
+    - name: Flame Ball
+      cost: RCC
+      damage: '50'
+      type: attack
+      text: >-
+        You may move a R Energy card attached to Team Magma's Camerupt
+        to 1 of your Benched Pokémon.
+    damage modifiers:
+    - amount: 2
+      operation: ×
+      type: Water
+    retreat: 2
+    illustrators:
+    - Katsura Tabata
+- number: '20'
+  card:
+    name: Team Magma's Lairon
+    rarity: rare
+    holographic: false
+    class: P
+    types:
+    - Fighting
+    hp: 80
+    stage: Stage 1
+    evolves from:
+    - Team Magma's Aron
+    legal: false
+    filename: 20-team-magma's-lairon
+    pokemon: Lairon
+    subclasses:
+    - Magma
+    mechanics:
+    - name: Body Slam
+      cost: C
+      damage: '10'
+      type: attack
+      text: >-
+        Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+    - name: Tackle
+      cost: FFC
+      damage: '50'
+      type: attack
+    damage modifiers:
+    - amount: 2
+      operation: ×
+      type: Grass
+    retreat: 2
+    illustrators:
+    - Hiromichi Sugiyama
+- number: '21'
+  card:
+    name: Team Magma's Mightyena
+    rarity: rare
+    holographic: false
+    class: P
+    types:
+    - Darkness
+    hp: 70
+    stage: Stage 1
+    evolves from:
+    - Team Magma's Poochyena
+    legal: false
+    filename: 21-team-magma's-mightyena
+    pokemon: Mightyena
+    subclasses:
+    - Magma
+    mechanics:
+    - name: Overrun
+      cost: F
+      damage: '10'
+      type: attack
+      text: >-
+        Choose 1 of your opponent's Benched Pokémon. This attack does
+        10 damage to that Pokémon. (Don't apply Weakness and Resistance
+        for Benched Pokémon.)
+    - name: Bite Off
+      cost: DCC
+      damage: '40'
+      type: attack
+      text: >-
+        If the Defending Pokémon is Pokémon-ex, this attack does 40 damage
+        plus 40 more damage.
+    damage modifiers:
+    - amount: 2
+      operation: ×
+      type: Fighting
+    - amount: 30
+      operation: '-'
+      type: Psychic
+    retreat: 1
+    illustrators:
+    - Shin-ichi Yoshikawa
+- number: '22'
+  card:
+    name: Team Magma's Rhydon
+    rarity: rare
+    holographic: false
+    class: P
+    types:
+    - Fighting
+    hp: 80
+    stage: Stage 1
+    evolves from:
+    - Team Magma's Rhyhorn
+    legal: false
+    filename: 22-team-magma's-rhydon
+    pokemon: Rhydon
+    subclasses:
+    - Magma
+    mechanics:
+    - name: Second Strike
+      cost: CC
+      damage: '20'
+      type: attack
+      text: >-
+        If the Defending Pokémon already has at least 2 damage counters
+        on it, this attack does 20 damage plus 20 more damage.
+    - name: Land Crush
+      cost: FFC
+      damage: '60'
+      type: attack
+      text: >-
+        Flip a coin. If tails, discard an Energy card attached to Team
+        Magma's Rhydon.
+    damage modifiers:
+    - amount: 2
+      operation: ×
+      type: Grass
+    retreat: 2
+    illustrators:
+    - T. Honda
+- number: '23'
+  card:
+    name: Team Magma's Zangoose
+    rarity: rare
+    holographic: false
+    class: P
+    types:
+    - Colorless
+    hp: 70
+    stage: Basic
+    legal: false
+    filename: 23-team-magma's-zangoose
+    pokemon: Zangoose
+    subclasses:
+    - Magma
+    mechanics:
+    - name: Call for Family
+      cost: C
+      type: attack
+      text: >-
+        Search your deck for a Colorless Basic Pokémon or Basic Pokémon
+        with Team Magma in its name and put it onto your Bench. Shuffle
+        your deck afterward.
+    - name: Team Play
+      cost: CCC
+      damage: 10×
+      type: attack
+      text: >-
+        Does 10 damage times the number of Pokémon in play with Team Magma
+        in its name.
+    damage modifiers:
+    - amount: 2
+      operation: ×
+      type: Fighting
+    retreat: 1
+    illustrators:
+    - Zu-ka
+- number: '24'
+  card:
+    name: Team Aqua's Cacnea
+    rarity: uncommon
+    holographic: false
+    class: P
+    types:
+    - Grass
+    hp: 50
+    stage: Basic
+    legal: false
+    filename: 24-team-aqua's-cacnea
+    pokemon: Cacnea
+    subclasses:
+    - Aqua
+    mechanics:
+    - name: Paralyzing Gaze
+      cost: C
+      type: attack
+      text: >-
+        Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+    - name: Pin Missile
+      cost: CC
+      damage: 10×
+      type: attack
+      text: >-
+        Flip 4 coins. This attack does 4 damage times the number of heads.
+    damage modifiers:
+    - amount: 2
+      operation: ×
+      type: Fire
+    retreat: 1
+    illustrators:
+    - K. Utsunomiya
+- number: '25'
+  card:
+    name: Team Aqua's Carvanha
+    rarity: uncommon
+    holographic: false
+    class: P
+    types:
+    - Water
+    hp: 50
+    stage: Basic
+    legal: false
+    filename: 25-team-aqua's-carvanha
+    pokemon: Carvanha
+    subclasses:
+    - Aqua
+    mechanics:
+    - name: Dark Lift
+      type: pokebody
+      text: >-
+        If Team Aqua's Carvanha has any D Energy attached to it, the Retreat
+        Cost for Team Aqua's Carvanha is 0.
+    - name: Slow-Acting Poison
+      cost: CC
+      damage: '20'
+      type: attack
+      text: >-
+        At the end of your opponent's next turn, the Defending Pokémon
+        is now Poisoned.
+    damage modifiers:
+    - amount: 2
+      operation: ×
+      type: Lightning
+    retreat: 1
+    illustrators:
+    - Mt. TBT
+- number: '26'
+  card:
+    name: Team Aqua's Corphish
+    rarity: uncommon
+    holographic: false
+    class: P
+    types:
+    - Water
+    hp: 50
+    stage: Basic
+    legal: false
+    filename: 26-team-aqua's-corphish
+    pokemon: Corphish
+    subclasses:
+    - Aqua
+    mechanics:
+    - name: Double Pinchers
+      cost: C
+      damage: 10×
+      type: attack
+      text: >-
+        Flip 2 coins. This attack does 10 damage times the number of heads.
+    - name: Dark Poison
+      cost: DC
+      damage: '20'
+      type: attack
+      text: >-
+        Discard a basic Energy card attached to Team Aqua's Corphish or
+        this attack does nothing. The Defending Pokémon is now Poisoned.
+    damage modifiers:
+    - amount: 2
+      operation: ×
+      type: Lightning
+    retreat: 1
+    illustrators:
+    - Jungo Suzuki
+- number: '27'
+  card:
+    name: Team Aqua's Electrike
+    rarity: uncommon
+    holographic: false
+    class: P
+    types:
+    - Lightning
+    hp: 50
+    stage: Basic
+    legal: false
+    filename: 27-team-aqua's-electrike
+    pokemon: Electrike
+    subclasses:
+    - Aqua
+    mechanics:
+    - name: Random Spark
+      cost: L
+      type: attack
+      text: >-
+        Choose 1 of your opponent's Pokémon. This attack does 10 damage
+        to that Pokémon. (Don't apply Weakness and Resistance for Benched
+        Pokémon.)
+    - name: Plasma
+      cost: CC
+      damage: '10'
+      type: attack
+      text: >-
+        Flip a coin. If heads, search your discard pile for a L Energy
+        card and attach it to Team Aqua's Electrike.
+    damage modifiers:
+    - amount: 2
+      operation: ×
+      type: Fighting
+    - amount: 30
+      operation: '-'
+      type: Metal
+    retreat: 1
+    illustrators:
+    - M. Akiyama
+- number: '28'
+  card:
+    name: Team Aqua's Lanturn
+    rarity: uncommon
+    holographic: false
+    class: P
+    types:
+    - Lightning
+    hp: 80
+    stage: Stage 1
+    evolves from:
+    - Team Aqua's Chinchou
+    legal: false
+    filename: 28-team-aqua's-lanturn
+    pokemon: Lanturn
+    subclasses:
+    - Aqua
+    mechanics:
+    - name: Auxiliary Light
+      type: pokepower
+      text: >-
+        Once during your turn (before your attack), you may attach a basic
+        Energy card from your hand to Team Aqua's Lanturn. Put 2 damage
+        counters on Team Aqua's Lanturn. This power can't be used if Team
+        Aqua's Lanturn is affected by a Special Condition.
+    - name: Lightning Ball
+      cost: LCC
+      damage: '50'
+      type: attack
+    damage modifiers:
+    - amount: 2
+      operation: ×
+      type: Fighting
+    - amount: 30
+      operation: '-'
+      type: Metal
+    retreat: 1
+    illustrators:
+    - Jungo Suzuki
+- number: '29'
+  card:
+    name: Team Aqua's Manectric
+    rarity: uncommon
+    holographic: false
+    class: P
+    types:
+    - Lightning
+    hp: 80
+    stage: Stage 1
+    evolves from:
+    - Team Aqua's Electrike
+    legal: false
+    filename: 29-team-aqua's-manectric
+    pokemon: Manectric
+    subclasses:
+    - Aqua
+    mechanics:
+    - name: Aqua Beam
+      cost: LC
+      damage: '20'
+      type: attack
+      text: >-
+        If the Defending Pokémon has Team Magma in its name, the Defending
+        Pokémon is now Confused.
+    - name: Chaos Crush
+      cost: LCC
+      damage: '50'
+      type: attack
+      text: >-
+        If the Defending Pokémon is Confused, discard an Energy card attached
+        to the Defending Pokémon.
+    damage modifiers:
+    - amount: 2
+      operation: ×
+      type: Fighting
+    - amount: 30
+      operation: '-'
+      type: Metal
+    retreat: 1
+    illustrators:
+    - K. Utsunomiya
+- number: '30'
+  card:
+    name: Team Aqua's Mightyena
+    rarity: uncommon
+    holographic: false
+    class: P
+    types:
+    - Darkness
+    hp: 80
+    stage: Stage 1
+    evolves from:
+    - Team Aqua's Poochyena
+    legal: false
+    filename: 30-team-aqua's-mightyena
+    pokemon: Mightyena
+    subclasses:
+    - Aqua
+    mechanics:
+    - name: Aqua Call
+      cost: C
+      type: attack
+      text: >-
+        Search your deck for Pokémon that has Team Aqua in its name, show
+        up to 3 of them to your opponent, and put them into your hand.
+        Shuffle your deck afterward.
+    - name: Wave Splash
+      cost: WC
+      damage: '30'
+      type: attack
+    damage modifiers:
+    - amount: 2
+      operation: ×
+      type: Grass
+    - amount: 30
+      operation: '-'
+      type: Psychic
+    retreat: 1
+    illustrators:
+    - Shin-ichi Yoshikawa
+- number: '31'
+  card:
+    name: Team Aqua's Sealeo
+    rarity: uncommon
+    holographic: false
+    class: P
+    types:
+    - Water
+    hp: 80
+    stage: Stage 1
+    evolves from:
+    - Team Aqua's Spheal
+    legal: false
+    filename: 31-team-aqua's-sealeo
+    pokemon: Sealeo
+    subclasses:
+    - Aqua
+    mechanics:
+    - name: Aurora Beam
+      cost: CC
+      damage: '20'
+      type: attack
+    - name: Knock Over
+      cost: WWC
+      damage: '40'
+      type: attack
+      text: >-
+        You may discard any Stadium card in play.
+    damage modifiers:
+    - amount: 2
+      operation: ×
+      type: Metal
+    retreat: 2
+    illustrators:
+    - T. Honda
+- number: '32'
+  card:
+    name: Team Magma's Baltoy
+    rarity: uncommon
+    holographic: false
+    class: P
+    types:
+    - Psychic
+    hp: 50
+    stage: Basic
+    legal: false
+    filename: 32-team-magma's-baltoy
+    pokemon: Baltoy
+    subclasses:
+    - Magma
+    mechanics:
+    - name: Psymist
+      cost: C
+      type: attack
+      text: >-
+        Flip 2 coins. For each heads, choose 1 of your opponent's Pokémon
+        and put 1 damage counter on that Pokémon.
+    - name: Pain Amplifier
+      cost: PC
+      type: attack
+      text: >-
+        Put 1 damage counter on each of your opponent's Pokémon that already
+        has damage counters on it.
+    damage modifiers:
+    - amount: 2
+      operation: ×
+      type: Psychic
+    retreat: 1
+    illustrators:
+    - Atsuko Ujiie
+- number: '33'
+  card:
+    name: Team Magma's Claydol
+    rarity: uncommon
+    holographic: false
+    class: P
+    types:
+    - Fighting
+    hp: 80
+    stage: Stage 1
+    evolves from:
+    - Team Magma's Baltoy
+    legal: false
+    filename: 33-team-magma's-claydol
+    pokemon: Claydol
+    subclasses:
+    - Magma
+    mechanics:
+    - name: Clay Curse
+      cost: CC
+      type: attack
+      text: >-
+        Put 2 damage counters on your opponent's Pokémon in any way you
+        like.
+    - name: Clay Pulse
+      cost: FFC
+      damage: '50'
+      type: attack
+      text: >-
+        Does 10 damage to each of your opponent's Benched Pokémon that
+        has any damage counters on it. (Don't apply Weakness and Resistance
+        for Benched Pokémon.)
+    damage modifiers:
+    - amount: 2
+      operation: ×
+      type: Grass
+    retreat: 1
+    illustrators:
+    - Zu-ka
+- number: '34'
+  card:
+    name: Team Magma's Houndoom
+    rarity: uncommon
+    holographic: false
+    class: P
+    types:
+    - Fire
+    hp: 70
+    stage: Stage 1
+    evolves from:
+    - Team Magma's Houndour
+    legal: false
+    filename: 34-team-magma's-houndoom
+    pokemon: Houndoom
+    subclasses:
+    - Magma
+    mechanics:
+    - name: Target Scorch
+      cost: RC
+      damage: '30'
+      type: attack
+      text: >-
+        If the Defending Pokémon has Team Aqua in its name, the Defending
+        Pokémon is now Burned.
+    - name: Damage Burn
+      cost: RCC
+      damage: '40'
+      type: attack
+      text: >-
+        If the Defending Pokémon already has any damage counters on it,
+        this attack does 40 damage plus 20 more damage.
+    damage modifiers:
+    - amount: 2
+      operation: ×
+      type: Water
+    retreat: 1
+    illustrators:
+    - Ken Ikuji
+- number: '35'
+  card:
+    name: Team Magma's Houndour
+    rarity: uncommon
+    holographic: false
+    class: P
+    types:
+    - Fire
+    hp: 50
+    stage: Basic
+    legal: false
+    filename: 35-team-magma's-houndour
+    pokemon: Houndour
+    subclasses:
+    - Magma
+    mechanics:
+    - name: Singe
+      cost: R
+      type: attack
+      text: >-
+        Flip a coin. If heads, the Defending Pokémon is now Burned.
+    - name: Dark Shock
+      cost: DC
+      damage: '20'
+      type: attack
+      text: >-
+        Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+    damage modifiers:
+    - amount: 2
+      operation: ×
+      type: Water
+    retreat: 1
+    illustrators:
+    - Atsuko Nishida
+- number: '36'
+  card:
+    name: Team Magma's Lairon
+    rarity: uncommon
+    holographic: false
+    class: P
+    types:
+    - Fighting
+    hp: 70
+    stage: Stage 1
+    evolves from:
+    - Team Magma's Aron
+    legal: false
+    filename: 36-team-magma's-lairon
+    pokemon: Lairon
+    subclasses:
+    - Magma
+    mechanics:
+    - name: Gnaw
+      cost: C
+      damage: '20'
+      type: attack
+    - name: Land Sonic
+      cost: FFC
+      damage: '40'
+      type: attack
+      text: >-
+        If the Defending Pokémon already has any damage counters on it,
+        the Defending Pokémon is now Confused.
+    damage modifiers:
+    - amount: 2
+      operation: ×
+      type: Grass
+    retreat: 1
+    illustrators:
+    - Hiromichi Sugiyama
+- number: '37'
+  card:
+    name: Team Magma's Mightyena
+    rarity: uncommon
+    holographic: false
+    class: P
+    types:
+    - Darkness
+    hp: 80
+    stage: Stage 1
+    evolves from:
+    - Team Magma's Poochyena
+    legal: false
+    filename: 37-team-magma's-mightyena
+    pokemon: Mightyena
+    subclasses:
+    - Magma
+    mechanics:
+    - name: Call for Help
+      type: pokepower
+      text: >-
+        Once during your turn (before your attack), if Team Magma's Mightyena
+        is your Active Pokémon, you may search your deck for a Pokémon
+        with Team Magma in its name, show it to your opponent, and put
+        it into your hand. Shuffle your deck afterward. This power can't
+        be used if Team Magma's Mightyena is affected by a Special Condition.
+    - name: Lunge
+      cost: FC
+      damage: '50'
+      type: attack
+      text: >-
+        Flip a coin. If tails, this attack does nothing.
+    damage modifiers:
+    - amount: 2
+      operation: ×
+      type: Fighting
+    - amount: 30
+      operation: '-'
+      type: Psychic
+    retreat: 1
+    illustrators:
+    - Shin-ichi Yoshikawa
+- number: '38'
+  card:
+    name: Team Magma's Rhyhorn
+    rarity: uncommon
+    holographic: false
+    class: P
+    types:
+    - Fighting
+    hp: 50
+    stage: Basic
+    legal: false
+    filename: 38-team-magma's-rhyhorn
+    pokemon: Rhyhorn
+    subclasses:
+    - Magma
+    mechanics:
+    - name: Double Damage
+      cost: C
+      type: attack
+      text: >-
+        Does 10 damage to each Defending Pokémon.
+    - name: Horn Rush
+      cost: FCC
+      damage: '60'
+      type: attack
+      text: >-
+        Flip a coin. If tails, this attack does nothing.
+    damage modifiers:
+    - amount: 2
+      operation: ×
+      type: Grass
+    retreat: 1
+    illustrators:
+    - Mt. TBT
+- number: '39'
+  card:
+    name: Bulbasaur
+    rarity: common
+    holographic: false
+    class: P
+    types:
+    - Grass
+    hp: 50
+    stage: Basic
+    legal: false
+    filename: 39-bulbasaur
+    pokemon: Bulbasaur
+    mechanics:
+    - name: Growth
+      cost: C
+      type: attack
+      text: >-
+        Attach a G Energy card from your hand to Bulbasaur.
+    - name: Razor Leaf
+      cost: G
+      damage: '10'
+      type: attack
+    damage modifiers:
+    - amount: 2
+      operation: ×
+      type: Fire
+    retreat: 1
+    illustrators:
+    - Ken Sugimori
+- number: '40'
+  card:
+    name: Cubone
+    rarity: common
+    holographic: false
+    class: P
+    types:
+    - Fighting
+    hp: 50
+    stage: Basic
+    legal: false
+    filename: 40-cubone
+    pokemon: Cubone
+    mechanics:
+    - name: Bone Attack
+      cost: F
+      damage: '20'
+      type: attack
+      text: >-
+        Flip a coin. If tails, this attack does nothing.
+    damage modifiers:
+    - amount: 2
+      operation: ×
+      type: Grass
+    retreat: 1
+    illustrators:
+    - Ken Sugimori
+- number: '41'
+  card:
+    name: Jigglypuff
+    rarity: common
+    holographic: false
+    class: P
+    types:
+    - Colorless
+    hp: 50
+    stage: Basic
+    legal: false
+    filename: 41-jigglypuff
+    pokemon: Jigglypuff
+    mechanics:
+    - name: Doubleslap
+      cost: C
+      damage: 10×
+      type: attack
+      text: >-
+        Flip 2 coins. This attack does 10 damage times the number of heads.
+    - name: Rest
+      cost: CC
+      type: attack
+      text: >-
+        Remove all Special Conditions and 3 damage counters from Jigglypuff
+        (all if there are less than 3). Jigglypuff is now Asleep.
+    damage modifiers:
+    - amount: 2
+      operation: ×
+      type: Fighting
+    retreat: 1
+    illustrators:
+    - Ken Sugimori
+- number: '42'
+  card:
+    name: Meowth
+    rarity: common
+    holographic: false
+    class: P
+    types:
+    - Colorless
+    hp: 50
+    stage: Basic
+    legal: false
+    filename: 42-meowth
+    pokemon: Meowth
+    mechanics:
+    - name: Plunder
+      cost: C
+      damage: '10'
+      type: attack
+      text: >-
+        Before doing damage, discard all Trainer cards attached to the
+        Defending Pokémon (before they affect the damage).
+    - name: Scratch
+      cost: CC
+      damage: '20'
+      type: attack
+    damage modifiers:
+    - amount: 2
+      operation: ×
+      type: Fighting
+    retreat: 1
+    illustrators:
+    - Ken Sugimori
+- number: '43'
+  card:
+    name: Pikachu
+    rarity: common
+    holographic: false
+    class: P
+    types:
+    - Lightning
+    hp: 50
+    stage: Basic
+    legal: false
+    filename: 43-pikachu
+    pokemon: Pikachu
+    mechanics:
+    - name: Agility
+      cost: C
+      type: attack
+      text: >-
+        Flip a coin. If heads, prevent all effects of an attack, including
+        damage, done to Pikachu during your opponent's next turn.
+    - name: Thundershock
+      cost: LC
+      damage: '20'
+      type: attack
+      text: >-
+        Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+    damage modifiers:
+    - amount: 2
+      operation: ×
+      type: Fighting
+    retreat: 1
+    illustrators:
+    - Ken Sugimori
+- number: '44'
+  card:
+    name: Psyduck
+    rarity: common
+    holographic: false
+    class: P
+    types:
+    - Water
+    hp: 40
+    stage: Basic
+    legal: false
+    filename: 44-psyduck
+    pokemon: Psyduck
+    mechanics:
+    - name: Bubble
+      cost: W
+      damage: '10'
+      type: attack
+      text: >-
+        Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+    - name: Confuse Ray
+      cost: P
+      damage: '10'
+      type: attack
+      text: >-
+        Flip a coin. If heads, the Defending Pokémon is now Confused.
+    damage modifiers:
+    - amount: 2
+      operation: ×
+      type: Lightning
+    retreat: 1
+    illustrators:
+    - Ken Sugimori
+- number: '45'
+  card:
+    name: Slowpoke
+    rarity: common
+    holographic: false
+    class: P
+    types:
+    - Psychic
+    hp: 50
+    stage: Basic
+    legal: false
+    filename: 45-slowpoke
+    pokemon: Slowpoke
+    mechanics:
+    - name: Amnesia
+      cost: P
+      type: attack
+      text: >-
+        Choose 1 of the Defending Pokémon's attacks. That Pokémon can't
+        use that attack during your opponent's next turn.
+    - name: Tail Strike
+      cost: CC
+      damage: '10'
+      type: attack
+      text: >-
+        Flip a coin. If heads, this attack does 10 damage plus 10 more
+        damage.
+    damage modifiers:
+    - amount: 2
+      operation: ×
+      type: Psychic
+    retreat: 1
+    illustrators:
+    - Ken Sugimori
+- number: '46'
+  card:
+    name: Squirtle
+    rarity: common
+    holographic: false
+    class: P
+    types:
+    - Water
+    hp: 50
+    stage: Basic
+    legal: false
+    filename: 46-squirtle
+    pokemon: Squirtle
+    mechanics:
+    - name: Shell Retreat
+      type: pokebody
+      text: >-
+        As long as Squirtle has any Energy cards attached to it, damage
+        done to Squirtle by an opponent's attack is reduced by 10 (after
+        applying Weakness and Resistance).
+    - name: Tackle
+      cost: C
+      damage: '10'
+      type: attack
+    damage modifiers:
+    - amount: 2
+      operation: ×
+      type: Lightning
+    retreat: 1
+    illustrators:
+    - Ken Sugimori
+- number: '47'
+  card:
+    name: Team Aqua's Carvanha
+    rarity: common
+    holographic: false
+    class: P
+    types:
+    - Water
+    hp: 40
+    stage: Basic
+    legal: false
+    filename: 47-team-aqua's-carvanha
+    pokemon: Carvanha
+    subclasses:
+    - Aqua
+    mechanics:
+    - name: Confuse Ray
+      cost: C
+      damage: '10'
+      type: attack
+      text: >-
+        Flip a coin. If heads, the Defending Pokémon is now Confused.
+    - name: Poison Fang
+      cost: WC
+      damage: '10'
+      type: attack
+      text: >-
+        The Defending Pokémon is now Poisoned.
+    damage modifiers:
+    - amount: 2
+      operation: ×
+      type: Lightning
+    retreat: 1
+    illustrators:
+    - Yosuke Da Silva
+- number: '48'
+  card:
+    name: Team Aqua's Carvanha
+    rarity: common
+    holographic: false
+    class: P
+    types:
+    - Water
+    hp: 50
+    stage: Basic
+    legal: false
+    filename: 48-team-aqua's-carvanha
+    pokemon: Carvanha
+    subclasses:
+    - Aqua
+    mechanics:
+    - name: Wave Splash
+      cost: W
+      damage: '10'
+      type: attack
+    - name: Razor Fin
+      cost: CC
+      damage: '20'
+      type: attack
+    damage modifiers:
+    - amount: 2
+      operation: ×
+      type: Lightning
+    retreat: 1
+    illustrators:
+    - Hiromichi Sugiyama
+- number: '49'
+  card:
+    name: Team Aqua's Chinchou
+    rarity: common
+    holographic: false
+    class: P
+    types:
+    - Lightning
+    hp: 50
+    stage: Basic
+    legal: false
+    filename: 49-team-aqua's-chinchou
+    pokemon: Chinchou
+    subclasses:
+    - Aqua
+    mechanics:
+    - name: Confuse Ray
+      cost: C
+      type: attack
+      text: >-
+        Flip a coin. If heads, the Defending Pokémon is now Confused.
+    - name: Wave Splash
+      cost: LC
+      damage: '20'
+      type: attack
+    damage modifiers:
+    - amount: 2
+      operation: ×
+      type: Fighting
+    - amount: 30
+      operation: '-'
+      type: Metal
+    retreat: 1
+    illustrators:
+    - Kazuo Yazawa
+- number: '50'
+  card:
+    name: Team Aqua's Corphish
+    rarity: common
+    holographic: false
+    class: P
+    types:
+    - Water
+    hp: 40
+    stage: Basic
+    legal: false
+    filename: 50-team-aqua's-corphish
+    pokemon: Corphish
+    subclasses:
+    - Aqua
+    mechanics:
+    - name: Toxic Grip
+      cost: C
+      type: attack
+      text: >-
+        The Defending Pokémon is now Poisoned.
+    damage modifiers:
+    - amount: 2
+      operation: ×
+      type: Lightning
+    retreat: 1
+    illustrators:
+    - Jungo Suzuki
+- number: '51'
+  card:
+    name: Team Aqua's Corphish
+    rarity: common
+    holographic: false
+    class: P
+    types:
+    - Water
+    hp: 50
+    stage: Basic
+    legal: false
+    filename: 51-team-aqua's-corphish
+    pokemon: Corphish
+    subclasses:
+    - Aqua
+    mechanics:
+    - name: Slash
+      cost: W
+      damage: '10'
+      type: attack
+    - name: Slow-Acting Poison
+      cost: CC
+      damage: '10'
+      type: attack
+      text: >-
+        At the end of your opponent's next turn, the Defending Pokémon
+        is now Poisoned.
+    damage modifiers:
+    - amount: 2
+      operation: ×
+      type: Lightning
+    retreat: 1
+    illustrators:
+    - Jungo Suzuki
+- number: '52'
+  card:
+    name: Team Aqua's Electrike
+    rarity: common
+    holographic: false
+    class: P
+    types:
+    - Lightning
+    hp: 50
+    stage: Basic
+    legal: false
+    filename: 52-team-aqua's-electrike
+    pokemon: Electrike
+    subclasses:
+    - Aqua
+    mechanics:
+    - name: Scratch
+      cost: C
+      damage: '10'
+      type: attack
+    - name: Thundershock
+      cost: LC
+      damage: '10'
+      type: attack
+      text: >-
+        Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+    damage modifiers:
+    - amount: 2
+      operation: ×
+      type: Fighting
+    - amount: 30
+      operation: '-'
+      type: Metal
+    retreat: 1
+    illustrators:
+    - M. Akiyama
+- number: '53'
+  card:
+    name: Team Aqua's Electrike
+    rarity: common
+    holographic: false
+    class: P
+    types:
+    - Lightning
+    hp: 50
+    stage: Basic
+    legal: false
+    filename: 53-team-aqua's-electrike
+    pokemon: Electrike
+    subclasses:
+    - Aqua
+    mechanics:
+    - name: Self Charge
+      cost: C
+      type: attack
+      text: >-
+        Attach an Energy card from your hand to Team Aqua's Electrike.
+    - name: Tackle
+      cost: CC
+      damage: '20'
+      type: attack
+    damage modifiers:
+    - amount: 2
+      operation: ×
+      type: Fighting
+    - amount: 30
+      operation: '-'
+      type: Metal
+    retreat: 1
+    illustrators:
+    - M. Akiyama
+- number: '54'
+  card:
+    name: Team Aqua's Poochyena
+    rarity: common
+    holographic: false
+    class: P
+    types:
+    - Darkness
+    hp: 40
+    stage: Basic
+    legal: false
+    filename: 54-team-aqua's-poochyena
+    pokemon: Poochyena
+    subclasses:
+    - Aqua
+    mechanics:
+    - name: Double Scratch
+      cost: C
+      damage: 10×
+      type: attack
+      text: >-
+        Flip 2 coins. This attack does 10 damage times the number of heads.
+    - name: Tail Slap
+      cost: CC
+      damage: '20'
+      type: attack
+    damage modifiers:
+    - amount: 2
+      operation: ×
+      type: Grass
+    - amount: 30
+      operation: '-'
+      type: Psychic
+    retreat: 1
+    illustrators:
+    - Shin-ichi Yoshikawa
+- number: '55'
+  card:
+    name: Team Aqua's Poochyena
+    rarity: common
+    holographic: false
+    class: P
+    types:
+    - Darkness
+    hp: 50
+    stage: Basic
+    legal: false
+    filename: 55-team-aqua's-poochyena
+    pokemon: Poochyena
+    subclasses:
+    - Aqua
+    mechanics:
+    - name: Roar
+      cost: C
+      type: attack
+      text: >-
+        Your opponent switches the Defending Pokémon with 1 of his or
+        her Benched Pokémon, if any.
+    - name: Aqua Crush
+      cost: WC
+      damage: '10'
+      type: attack
+      text: >-
+        Flip a coin. If heads, discard an Energy card attached to the
+        Defending Pokémon.
+    damage modifiers:
+    - amount: 2
+      operation: ×
+      type: Grass
+    - amount: 30
+      operation: '-'
+      type: Psychic
+    retreat: 1
+    illustrators:
+    - Shin-ichi Yoshikawa
+- number: '56'
+  card:
+    name: Team Aqua's Spheal
+    rarity: common
+    holographic: false
+    class: P
+    types:
+    - Water
+    hp: 40
+    stage: Basic
+    legal: false
+    filename: 56-team-aqua's-spheal
+    pokemon: Spheal
+    subclasses:
+    - Aqua
+    mechanics:
+    - name: Powder Snow
+      cost: W
+      damage: '10'
+      type: attack
+      text: >-
+        The Defending Pokémon is now Asleep.
+    damage modifiers:
+    - amount: 2
+      operation: ×
+      type: Metal
+    retreat: 1
+    illustrators:
+    - Nakaoka
+- number: '57'
+  card:
+    name: Team Aqua's Spheal
+    rarity: common
+    holographic: false
+    class: P
+    types:
+    - Water
+    hp: 50
+    stage: Basic
+    legal: false
+    filename: 57-team-aqua's-spheal
+    pokemon: Spheal
+    subclasses:
+    - Aqua
+    mechanics:
+    - type: note
+      text: >-
+        When Pokémon-ex has been Knocked Out, your opponent takes 2 Prize
+        cards.
+    - name: Rollout
+      cost: W
+      damage: '10'
+      type: attack
+    - name: Aqua Trance
+      cost: WC
+      damage: '20'
+      type: attack
+      text: >-
+        At the end of your opponent's next turn, the Defending Pokémon
+        is now Asleep.
+    damage modifiers:
+    - amount: 2
+      operation: ×
+      type: Metal
+    retreat: 1
+    illustrators:
+    - Nakaoka
+- number: '58'
+  card:
+    name: Team Magma's Aron
+    rarity: common
+    holographic: false
+    class: P
+    types:
+    - Fighting
+    hp: 50
+    stage: Basic
+    legal: false
+    filename: 58-team-magma's-aron
+    pokemon: Aron
+    subclasses:
+    - Magma
+    mechanics:
+    - type: note
+      text: >-
+        When Pokémon-ex has been Knocked Out, your opponent takes 2 Prize
+        cards.
+    - name: Mud Slap
+      cost: F
+      damage: '10'
+      type: attack
+    - name: Tackle
+      cost: CC
+      damage: '20'
+      type: attack
+    damage modifiers:
+    - amount: 2
+      operation: ×
+      type: Grass
+    retreat: 1
+    illustrators:
+    - Katsura Tabata
+- number: '59'
+  card:
+    name: Team Magma's Aron
+    rarity: common
+    holographic: false
+    class: P
+    types:
+    - Fighting
+    hp: 50
+    stage: Basic
+    legal: false
+    filename: 59-team-magma's-aron
+    pokemon: Aron
+    subclasses:
+    - Magma
+    mechanics:
+    - type: note
+      text: >-
+        When Pokémon-ex has been Knocked Out, your opponent takes 2 Prize
+        cards.
+    - name: Dig Under
+      cost: F
+      type: attack
+      text: >-
+        Choose 1 of your opponent's Pokémon. This attack does 10 damage
+        to that Pokémon. This attack's damage isn't affected by Weakness
+        or Resistance.
+    damage modifiers:
+    - amount: 2
+      operation: ×
+      type: Grass
+    retreat: 1
+    illustrators:
+    - Katsura Tabata
+- number: '60'
+  card:
+    name: Team Magma's Baltoy
+    rarity: common
+    holographic: false
+    class: P
+    types:
+    - Fighting
+    hp: 50
+    stage: Basic
+    legal: false
+    filename: 60-team-magma's-baltoy
+    pokemon: Baltoy
+    subclasses:
+    - Magma
+    mechanics:
+    - type: note
+      text: >-
+        When Pokémon-ex has been Knocked Out, your opponent takes 2 Prize
+        cards.
+    - name: Peck
+      cost: C
+      damage: '10'
+      type: attack
+    - name: Double Spin
+      cost: FC
+      damage: 20×
+      type: attack
+      text: >-
+        Flip 2 coins. This attack does 20 damage times the number of heads.
+    damage modifiers:
+    - amount: 2
+      operation: ×
+      type: Grass
+    retreat: 1
+    illustrators:
+    - Atsuko Ujiie
+- number: '61'
+  card:
+    name: Team Magma's Baltoy
+    rarity: common
+    holographic: false
+    class: P
+    types:
+    - Fighting
+    hp: 50
+    stage: Basic
+    legal: false
+    filename: 61-team-magma's-baltoy
+    pokemon: Baltoy
+    subclasses:
+    - Magma
+    mechanics:
+    - type: note
+      text: >-
+        When Pokémon-ex has been Knocked Out, your opponent takes 2 Prize
+        cards.
+    - name: Night Attack
+      cost: F
+      type: attack
+      text: >-
+        Put 1 damage counter on 1 of your opponent's Pokémon.
+    - name: Spinning Attack
+      cost: CC
+      damage: '20'
+      type: attack
+    damage modifiers:
+    - amount: 2
+      operation: ×
+      type: Grass
+    retreat: 1
+    illustrators:
+    - Atsuko Ujiie
+- number: '62'
+  card:
+    name: Team Magma's Houndour
+    rarity: common
+    holographic: false
+    class: P
+    types:
+    - Fire
+    hp: 50
+    stage: Basic
+    legal: false
+    filename: 62-team-magma's-houndour
+    pokemon: Houndour
+    subclasses:
+    - Magma
+    mechanics:
+    - type: note
+      text: >-
+        When Pokémon-ex has been Knocked Out, your opponent takes 2 Prize
+        cards.
+    - name: Combustion
+      cost: R
+      damage: '10'
+      type: attack
+    - name: Super Singe
+      cost: RC
+      damage: '10'
+      type: attack
+      text: >-
+        The Defending Pokémon is now Burned.
+    damage modifiers:
+    - amount: 2
+      operation: ×
+      type: Water
+    retreat: 1
+    illustrators:
+    - Atsuko Nishida
+- number: '63'
+  card:
+    name: Team Magma's Houndour
+    rarity: common
+    holographic: false
+    class: P
+    types:
+    - Fire
+    hp: 50
+    stage: Basic
+    legal: false
+    filename: 63-team-magma's-houndour
+    pokemon: Houndour
+    subclasses:
+    - Magma
+    mechanics:
+    - type: note
+      text: >-
+        When Pokémon-ex has been Knocked Out, your opponent takes 2 Prize
+        cards.
+    - name: Kick Away
+      cost: C
+      damage: '10'
+      type: attack
+      text: >-
+        Your opponent switches the Defending Pokémon with 1 of his or
+        her Benched Pokémon, if any.
+    - name: Steady Firebreathing
+      cost: RC
+      damage: '20'
+      type: attack
+    damage modifiers:
+    - amount: 2
+      operation: ×
+      type: Water
+    retreat: 1
+    illustrators:
+    - Atsuko Nishida
+- number: '64'
+  card:
+    name: Team Magma's Numel
+    rarity: common
+    holographic: false
+    class: P
+    types:
+    - Fire
+    hp: 50
+    stage: Basic
+    legal: false
+    filename: 64-team-magma's-numel
+    pokemon: Numel
+    subclasses:
+    - Magma
+    mechanics:
+    - type: note
+      text: >-
+        When Pokémon-ex has been Knocked Out, your opponent takes 2 Prize
+        cards.
+    - name: Collect
+      cost: C
+      type: attack
+      text: >-
+        Draw a card.
+    - name: Combustion
+      cost: RC
+      damage: '20'
+      type: attack
+    damage modifiers:
+    - amount: 2
+      operation: ×
+      type: Water
+    retreat: 1
+    illustrators:
+    - Katsura Tabata
+- number: '65'
+  card:
+    name: Team Magma's Poochyena
+    rarity: common
+    holographic: false
+    class: P
+    types:
+    - Darkness
+    hp: 40
+    stage: Basic
+    legal: false
+    filename: 65-team-magma's-poochyena
+    pokemon: Poochyena
+    subclasses:
+    - Magma
+    mechanics:
+    - type: note
+      text: >-
+        When Pokémon-ex has been Knocked Out, your opponent takes 2 Prize
+        cards.
+    - name: Snarl
+      cost: C
+      type: attack
+      text: >-
+        Flip a coin. If heads, this attack does 10 damage to the Defending
+        Pokémon. If tails, the Defending Pokémon is now Paralyzed.
+    damage modifiers:
+    - amount: 2
+      operation: ×
+      type: Fighting
+    - amount: 30
+      operation: '-'
+      type: Psychic
+    retreat: 1
+    illustrators:
+    - Shin-ichi Yoshikawa
+- number: '66'
+  card:
+    name: Team Magma's Poochyena
+    rarity: common
+    holographic: false
+    class: P
+    types:
+    - Darkness
+    hp: 50
+    stage: Basic
+    legal: false
+    filename: 66-team-magma's-poochyena
+    pokemon: Poochyena
+    subclasses:
+    - Magma
+    mechanics:
+    - name: Darkness Call
+      cost: C
+      type: attack
+      text: >-
+        Your opponent switches the Defending Pokémon with 1 of his or
+        her Benched Pokémon, if any.
+    - name: Sharp Fang
+      cost: FC
+      damage: '20'
+      type: attack
+    damage modifiers:
+    - amount: 2
+      operation: ×
+      type: Fighting
+    - amount: 30
+      operation: '-'
+      type: Psychic
+    retreat: 1
+    illustrators:
+    - Shin-ichi Yoshikawa
+- number: '67'
+  card:
+    name: Team Magma's Rhyhorn
+    rarity: common
+    holographic: false
+    class: P
+    types:
+    - Fighting
+    hp: 50
+    stage: Basic
+    legal: false
+    filename: 67-team-magma's-rhyhorn
+    pokemon: Rhyhorn
+    subclasses:
+    - Magma
+    mechanics:
+    - name: Double Stab
+      cost: F
+      damage: 10×
+      type: attack
+      text: >-
+        Flip 2 coins. This attack does 10 damage times the number of heads.
+    - name: Second Strike
+      cost: CC
+      damage: '10'
+      type: attack
+      text: >-
+        If the Defending Pokémon already has at least 2 damage counters
+        on it, this attack does 10 damage plus 20 more damage.
+    damage modifiers:
+    - amount: 2
+      operation: ×
+      type: Grass
+    retreat: 1
+    illustrators:
+    - Yosuke Da Silva
+- number: '68'
+  card:
+    name: Team Magma's Rhyhorn
+    rarity: common
+    holographic: false
+    class: P
+    types:
+    - Fighting
+    hp: 60
+    stage: Basic
+    legal: false
+    filename: 68-team-magma's-rhyhorn
+    pokemon: Rhyhorn
+    subclasses:
+    - Magma
+    mechanics:
+    - name: Ram
+      cost: C
+      damage: '10'
+      type: attack
+    - name: Knock Over
+      cost: FC
+      damage: '10'
+      type: attack
+      text: >-
+        You may discard any Stadium in play.
+    damage modifiers:
+    - amount: 2
+      operation: ×
+      type: Grass
+    retreat: 2
+    illustrators:
+    - Yosuke Da Silva
+- number: '69'
+  card:
+    name: Team Aqua Schemer
+    rarity: uncommon
+    holographic: false
+    class: T
+    legal: false
+    filename: 69-team-aqua-schemer
+    subclasses:
+    - Supporter
+    mechanics:
+    - type: rule
+      text: >-
+        You can play only one supporter card each turn. When you play
+        this card, put it next to your Active Pokémon. When your turn
+        ends, discard this card.
+    - type: effect
+      text: >-
+        Discard any 1 Pokémon from your hand. Then draw 3 cards. If you
+        discarded a Pokémon with Team Aqua in its name, draw 4 cards instead.
+    illustrators:
+    - Ken Sugimori
+- number: '70'
+  card:
+    name: Team Magma Schemer
+    rarity: uncommon
+    holographic: false
+    class: T
+    legal: false
+    filename: 70-team-magma-schemer
+    subclasses:
+    - Supporter
+    mechanics:
+    - type: rule
+      text: >-
+        You can play only one supporter card each turn. When you play
+        this card, put it next to your Active Pokémon. When your turn
+        ends, discard this card.
+    - type: effect
+      text: >-
+        Discard any 1 Pokémon from your hand. Then draw 3 cards. If you
+        discarded a Pokémon with Team Magma in its name, draw 4 cards
+        instead.
+    illustrators:
+    - Ken Sugimori
+- number: '71'
+  card:
+    name: Archie
+    rarity: uncommon
+    holographic: false
+    class: T
+    legal: false
+    filename: 71-archie
+    subclasses:
+    - Supporter
+    mechanics:
+    - type: rule
+      text: >-
+        You can play only one supporter card each turn. When you play
+        this card, put it next to your Active Pokémon. When your turn
+        ends, discard this card.
+    - type: effect
+      text: >-
+        Search your deck for a Pokémon with Team Aqua in its name and
+        put it onto your Bench. Shuffle your deck afterward. Treat the
+        new Benched Pokémon as a Basic Pokémon. If it is a Stage 2 Pokémon,
+        put 2 damage counters on that Pokémon.
+    illustrators:
+    - Ken Sugimori
+- number: '72'
+  card:
+    name: Dual Ball
+    rarity: uncommon
+    holographic: false
+    class: T
+    legal: false
+    filename: 72-dual-ball
+    mechanics:
+    - type: effect
+      text: >-
+        Flip 2 coins. For each heads, search your deck for a Basic Pokémon
+        card, show it to your opponent, and put it into your hand. Shuffle
+        your deck afterward.
+    illustrators:
+    - Big Mama Tagawa
+- number: '73'
+  card:
+    name: Maxie
+    rarity: uncommon
+    holographic: false
+    class: T
+    legal: false
+    filename: 73-maxie
+    subclasses:
+    - Supporter
+    mechanics:
+    - type: rule
+      text: >-
+        You can play only one supporter card each turn. When you play
+        this card, put it next to your Active Pokémon. When your turn
+        ends, discard this card.
+    - type: effect
+      text: >-
+        Search your hand or discard pile for a Pokémon with Team Magma
+        in its name and put it onto your Bench. Treat the new Benched
+        Pokémon as a Basic Pokémon. If it is a Stage 2 Pokémon, put 2
+        damage counters on that Pokémon.
+    illustrators:
+    - Ken Sugimori
+- number: '74'
+  card:
+    name: Strength Charm
+    rarity: uncommon
+    holographic: false
+    class: T
+    legal: false
+    filename: 74-strength-charm
+    subclasses:
+    - Tool
+    mechanics:
+    - type: rule
+      text: >-
+        Attach Strength Charm to 1 of your Pokémon that doesn't already
+        have a Pokémon Tool attached to it.  If that Pokémon is Knocked
+        Out, discard this card.
+    - type: effect
+      text: >-
+        Whenever an attack from the Pokémon that Strength Charm is attached
+        to does damage to the Active Pokémon (after applying Weakness
+        and Resistance), the attack does 10 more damage. At the end of
+        the turn in which this happens, discard Strength Charm.
+    illustrators:
+    - Keiji Kinebuchi
+- number: '75'
+  card:
+    name: Team Aqua Ball
+    rarity: uncommon
+    holographic: false
+    class: T
+    legal: false
+    filename: 75-team-aqua-ball
+    mechanics:
+    - type: effect
+      text: >-
+        Flip a coin. If heads, search your deck for a Pokémon that has
+        Team Aqua in its name, show it to your opponent, and put it into
+        your hand. If tails, search your deck for a Basic Pokémon that
+        has Team Aqua in its name, show it to your opponent and put into
+        your hand. Shuffle your deck afterward.
+    illustrators:
+    - Ryo Ueda
+- number: '76'
+  card:
+    name: Team Aqua Belt
+    rarity: uncommon
+    holographic: false
+    class: T
+    legal: false
+    filename: 76-team-aqua-belt
+    subclasses:
+    - Tool
+    mechanics:
+    - type: rule
+      text: >-
+        Attach Team Aqua Belt to 1 of your Pokémon that doesn't already
+        have a Pokémon Tool attached to it.  If that Pokémon is Knocked
+        Out, discard this card.
+    - type: effect
+      text: >-
+        At any time between turns, if the Pokémon Team Aqua Belt is attached
+        to is your Active Pokémon, search your deck for a card that evolves
+        from that Pokémon and put it on that Pokémon. (This counts as
+        evolving that Pokémon.) Shuffle your deck afterward, then discard
+        Team Aqua Belt.
+    illustrators:
+    - Mitsuhiro Arita
+- number: '77'
+  card:
+    name: Team Aqua Conspirator
+    rarity: uncommon
+    holographic: false
+    class: T
+    legal: false
+    filename: 77-team-aqua-conspirator
+    subclasses:
+    - Supporter
+    mechanics:
+    - type: rule
+      text: >-
+        You can play only one supporter card each turn. When you play
+        this card, put it next to your Active Pokémon. When your turn
+        ends, discard this card.
+    - type: effect
+      text: >-
+        Search your deck for up to 2 in any combination of Basic Pokémon
+        with Team Aqua in its name and basic Energy cards, show them to
+        your opponent, and put them into your hand. Shuffle your deck
+        afterward.
+    illustrators:
+    - Ken Sugimori
+- number: '78'
+  card:
+    name: Team Aqua Hideout
+    rarity: uncommon
+    holographic: false
+    class: T
+    legal: false
+    filename: 78-team-aqua-hideout
+    subclasses:
+    - Stadium
+    mechanics:
+    - type: rule
+      text: >-
+        This card stays in play when you play it. Discard this card if
+        another Stadium card comes into play.
+    - type: effect
+      text: >-
+        Each Pokémon that does not have Team Aqua in its name pays 1 more
+        to retreat.
+    illustrators:
+    - Hiromichi Sugiyama
+- number: '79'
+  card:
+    name: Team Aqua Techincal Machine 01
+    rarity: uncommon
+    holographic: false
+    class: T
+    legal: false
+    filename: 79-team-aqua-techincal-machine-01
+    subclasses:
+    - Technical Machine
+    mechanics:
+    - type: rule
+      text: >-
+        Attach this card to 1 of your Pokémon that has Team Aqua in its
+        name. That Pokémon may use this card's attack instead of its own.
+        At the end of your turn, discard Team Aqua Technical Machine 01.
+    - type: effect
+      text: >-
+        [1] Miracle (10) Choose 1 Special Condition. The Defending Pokémon
+        is now affected by that Special Condition.
+    illustrators:
+    - Mitsuhiro Arita
+- number: '80'
+  card:
+    name: Team Magma Ball
+    rarity: uncommon
+    holographic: false
+    class: T
+    legal: false
+    filename: 80-team-magma-ball
+    mechanics:
+    - type: effect
+      text: >-
+        Flip a coin. If heads, search your deck for a Pokémon that has
+        Team Magma in its name, show it to your opponent, and put it into
+        your hand. If tails, search your deck for a Basic Pokémon that
+        has Team Magma in its name, show it to your opponent and put into
+        your hand. Shuffle your deck afterward.
+    illustrators:
+    - Ryo Ueda
+- number: '81'
+  card:
+    name: Team Magma Belt
+    rarity: uncommon
+    holographic: false
+    class: T
+    legal: false
+    filename: 81-team-magma-belt
+    subclasses:
+    - Tool
+    mechanics:
+    - type: rule
+      text: >-
+        Attach Team Magma Belt to 1 of your Pokémon that doesn't already
+        have a Pokémon Tool attached to it.  If that Pokémon is Knocked
+        Out, discard this card.
+    - type: effect
+      text: >-
+        At any time between turns, if the Pokémon Team Magma Belt is attached
+        to is your Active Pokémon, search your deck for a card that evolves
+        from that Pokémon and put it on that Pokémon. (This counts as
+        evolving that Pokémon.) Shuffle your deck afterward, then discard
+        Team Magma Belt.
+    illustrators:
+    - Mitsuhiro Arita
+- number: '82'
+  card:
+    name: Team Magma Conspirator
+    rarity: uncommon
+    holographic: false
+    class: T
+    legal: false
+    filename: 82-team-magma-conspirator
+    subclasses:
+    - Supporter
+    mechanics:
+    - type: rule
+      text: >-
+        You can play only one supporter card each turn. When you play
+        this card, put it next to your Active Pokémon. When your turn
+        ends, discard this card.
+    - type: effect
+      text: >-
+        Search your deck for up to 2 in any combination of Basic Pokémon
+        with Team Magma in its name and basic Energy cards, show them
+        to your opponent, and put them into your hand. Shuffle your deck
+        afterward.
+    illustrators:
+    - Ken Sugimori
+- number: '83'
+  card:
+    name: Team Magma Hideout
+    rarity: uncommon
+    holographic: false
+    class: T
+    legal: false
+    filename: 83-team-magma-hideout
+    subclasses:
+    - Stadium
+    mechanics:
+    - type: rule
+      text: >-
+        This card stays in play when you play it. Discard this card if
+        another Stadium card comes into play.
+    - type: effect
+      text: >-
+        Whenever any player plays a Basic Pokémon that doesn't have Team
+        Magma in its name from his or her hand, that player puts 1 damage
+        counter on that Pokémon.
+    illustrators:
+    - Ken Ikuji
+- number: '84'
+  card:
+    name: Team Magma Technical Machine 01
+    rarity: uncommon
+    holographic: false
+    class: T
+    legal: false
+    filename: 84-team-magma-technical-machine-01
+    subclasses:
+    - Technical Machine
+    mechanics:
+    - type: rule
+      text: >-
+        Attach this card to 1 of your Pokémon that has Team Magma in its
+        name. That Pokémon may use this card's attack instead of its own.
+        At the end of your turn, discard Team Magma Technical Machine
+        01.
+    - type: effect
+      text: >-
+        [1] Crushing Magma (10) Choose an Energy card attached to the
+        Defending Pokémon and put that card at the bottom of your opponent's
+        deck.
+    illustrators:
+    - Mitsuhiro Arita
+- number: '85'
+  card:
+    name: Warp Point
+    rarity: uncommon
+    holographic: false
+    class: T
+    legal: true
+    filename: 85-warp-point
+    mechanics:
+    - type: effect
+      text: >-
+        Your opponent switches 1 of his or her Defending Pokémon with
+        1 of his or her Benched Pokémon, if any. You switch 1 of your
+        Active Pokémon with 1 of your Benched Pokémon, if any.
+    illustrators:
+    - Keiji Kinebuchi
+- number: '86'
+  card:
+    name: Aqua Energy
+    rarity: uncommon
+    holographic: false
+    class: E
+    legal: false
+    filename: 86-aqua-energy
+    subclasses:
+    - Special
+    mechanics:
+    - type: effect
+      text: >-
+        Aqua Energy can be attached only to a Pokémon with Team Aqua in
+        its name. Aqua Energy provides W and D Energy but provides 2 Energy
+        at a time. (Doesn't count as a basic Energy card when not in play
+        and has no effect other than providing Energy.) At the end of
+        your turn, discard Aqua Energy.
+    illustrators:
+    - Takumi Akabane
+- number: '87'
+  card:
+    name: Magma Energy
+    rarity: uncommon
+    holographic: false
+    class: E
+    legal: false
+    filename: 87-magma-energy
+    subclasses:
+    - Special
+    mechanics:
+    - type: effect
+      text: >-
+        Magma Energy can be attached only to a Pokémon with Team Magma
+        in its name. Magma Energy provides F and D Energy but provides
+        2 Energy at a time. (Doesn't count as a basic Energy card when
+        not in play and has no effect other than providing Energy.) At
+        the end of your turn, discard Magma Energy.
+    illustrators:
+    - Takumi Akabane
+- number: '88'
+  card:
+    name: Double Rainbow Energy
+    rarity: uncommon
+    holographic: false
+    class: E
+    legal: false
+    filename: 88-double-rainbow-energy
+    subclasses:
+    - Special
+    mechanics:
+    - type: effect
+      text: >-
+        Double Rainbow Energy can be attached only to an Evolved Pokémon
+        (excluding Pokémon-ex). While in play, Double Rainbow Energy provides
+        every type of Energy but provides 2 Energy at a time. (Doesn't
+        count as a basic Energy when not in play and has no effect other
+        than providing Energy.) Damage done to your opponent's Pokémon
+        by the Pokémon Double Rainbow Energy is attached to is reduced
+        by 10 (after applying Weakness and Resistance). When the Pokémon
+        Double Rainbow Energy is attached to is no longer an Evolved Pokémon,
+        discard Double Rainbow Energy.
+    illustrators:
+    - Takumi Akabane
+- number: '89'
+  card:
+    name: Blaziken ex
+    rarity: rare
+    holographic: true
+    class: P
+    types:
+    - Fire
+    hp: 150
+    stage: Stage 2
+    evolves from:
+    - Combusken
+    legal: false
+    filename: 89-blaziken-ex
+    pokemon: Blaziken
+    subclasses:
+    - EX
+    mechanics:
+    - name: Blaze Kick
+      cost: RC
+      damage: '30'
+      type: attack
+      text: >-
+        Flip a coin. If heads, this attack does 30 damage plus 20 more
+        damage. If tails, this attack does 30 damage and the Defending
+        Pokémon is now Burned.
+    - name: Volcanic Ash
+      cost: RRCC
+      type: attack
+      text: >-
+        Discard 2 R Energy attached to Blaziken EX and then choose 1 of
+        your opponent's Pokémon. This attack does 100 damage to that Pokémon.
+        (Don't apply Weakness and Resistance for Benched Pokémon.)
+    damage modifiers:
+    - amount: 2
+      operation: ×
+      type: Psychic
+    - amount: 2
+      operation: ×
+      type: Water
+    retreat: 2
+    illustrators:
+    - Hikaru Koike
+- number: '90'
+  card:
+    name: Cradily ex
+    rarity: rare
+    holographic: true
+    class: P
+    types:
+    - Grass
+    hp: 150
+    stage: Stage 2
+    evolves from:
+    - Lileep
+    legal: false
+    filename: 90-cradily-ex
+    pokemon: Cradily
+    subclasses:
+    - EX
+    mechanics:
+    - name: Primal Vibes
+      type: pokebody
+      text: >-
+        As long as Cradily EX is your Active Pokémon, your opponent can't
+        play a Pokémon from his or her hand to evolve his or her Active
+        Pokémon.
+    - name: Eerie Light
+      cost: CC
+      damage: '30'
+      type: attack
+      text: >-
+        The Defending Pokémon is now Confused.
+    - name: Acidic Poison
+      cost: GGCC
+      damage: '60'
+      type: attack
+      text: >-
+        The Defending Pokémon is now Poisoned and Burned.
+    damage modifiers:
+    - amount: 2
+      operation: ×
+      type: Fire
+    - amount: 2
+      operation: ×
+      type: Water
+    retreat: 2
+    illustrators:
+    - Ryo Ueda
+- number: '91'
+  card:
+    name: Entei ex
+    rarity: rare
+    holographic: true
+    class: P
+    types:
+    - Fire
+    hp: 100
+    stage: Basic
+    legal: false
+    filename: 91-entei-ex
+    pokemon: Entei
+    subclasses:
+    - EX
+    mechanics:
+    - name: Searing Flame
+      cost: R
+      damage: '10'
+      type: attack
+      text: >-
+        Flip a coin. If heads, the Defending Pokémon is now Burned.
+    - name: Bright Flame
+      cost: RRC
+      damage: '90'
+      type: attack
+      text: >-
+        Discard 2 Energy attached to Entei EX.
+    damage modifiers:
+    - amount: 2
+      operation: ×
+      type: Water
+    retreat: 2
+    illustrators:
+    - Ryo Ueda
+- number: '92'
+  card:
+    name: Raikou ex
+    rarity: rare
+    holographic: true
+    class: P
+    types:
+    - Lightning
+    hp: 100
+    stage: Basic
+    legal: false
+    filename: 92-raikou-ex
+    pokemon: Raikou
+    subclasses:
+    - EX
+    mechanics:
+    - name: Dazzle Blast
+      cost: L
+      damage: '10'
+      type: attack
+      text: >-
+        Flip a coin. If heads, the Defending Pokémon is now Confused.
+    - name: Lightning Tackle
+      cost: LLC
+      damage: '70'
+      type: attack
+      text: >-
+        Flip a coin. If tails, Raikou EX does 20 damage to itself.
+    damage modifiers:
+    - amount: 2
+      operation: ×
+      type: Fighting
+    retreat: 2
+    illustrators:
+    - Ryo Ueda
+- number: '93'
+  card:
+    name: Sceptile ex
+    rarity: rare
+    holographic: true
+    class: P
+    types:
+    - Grass
+    hp: 150
+    stage: Stage 2
+    evolves from:
+    - Grovyle
+    legal: false
+    filename: 93-sceptile-ex
+    pokemon: Sceptile
+    subclasses:
+    - EX
+    mechanics:
+    - name: Green Heal
+      cost: C
+      type: attack
+      text: >-
+        Remove 4 damage counters from each of your Pokémon that has G
+        Energy attached. If that Pokémon has less than 4 damage counters,
+        remove all of them.
+    - name: Poison Ring
+      cost: GCC
+      damage: '40'
+      type: attack
+      text: >-
+        The Defending Pokémon is now Poisoned. The Defending Pokémon can't
+        retreat until the end of your opponent's next turn.
+    - name: Slashing Strike
+      cost: GGCCC
+      damage: '100'
+      type: attack
+      text: >-
+        Sceptile EX can't use Slashing Strike during your next turn.
+    damage modifiers:
+    - amount: 2
+      operation: ×
+      type: Grass
+    - amount: 2
+      operation: ×
+      type: Fire
+    - amount: 30
+      operation: '-'
+      type: Water
+    retreat: 2
+    illustrators:
+    - Hikaru Koike
+- number: '94'
+  card:
+    name: Suicune ex
+    rarity: rare
+    holographic: true
+    class: P
+    types:
+    - Water
+    hp: 100
+    stage: Basic
+    legal: false
+    filename: 94-suicune-ex
+    pokemon: Suicune
+    subclasses:
+    - EX
+    mechanics:
+    - name: Energy Flip
+      cost: W
+      type: attack
+      text: >-
+        Choose 1 of your opponent's Benched Pokémon. This attack does
+        10 damage to that Pokémon. You may move any Energy card attached
+        to that Pokémon to another of your opponent's Pokémon. (Don't
+        apply Weakness and Resistance for Benched Pokémon.)
+    - name: Reverse Stream
+      cost: WWC
+      damage: '50'
+      type: attack
+      text: >-
+        You may return all basic Energy cards attached to Suicune EX to
+        your hand. If you do, this attack does 50 damage plus 10 more
+        damage for each basic Energy card you returned.
+    damage modifiers:
+    - amount: 2
+      operation: ×
+      type: Lightning
+    retreat: 2
+    illustrators:
+    - Ryo Ueda
+- number: '95'
+  card:
+    name: Swampert ex
+    rarity: rare
+    holographic: true
+    class: P
+    types:
+    - Fighting
+    hp: 150
+    stage: Stage 2
+    evolves from:
+    - Marshtomp
+    legal: false
+    filename: 95-swampert-ex
+    pokemon: Swampert
+    subclasses:
+    - EX
+    mechanics:
+    - name: Hyper Pump
+      cost: C
+      damage: '20'
+      type: attack
+      text: >-
+        Does 20 damage plus 20 more damage for each basic Energy attached
+        to Swampert EX but not used to pay for this attack's Energy cost.
+        You can't add more than 80 damage in this way.
+    - name: Crushing Wave
+      cost: WCC
+      type: attack
+      text: >-
+        Choose 1 of your opponent's Pokémon. This attack does 40 damage
+        to that Pokémon. After doing damage, flip a coin. If heads, you
+        opponent discards an Energy card, if any, attached to that Pokémon.
+        (Don't apply Weakness and Resistance to Benched Pokémon.)
+    damage modifiers:
+    - amount: 2
+      operation: ×
+      type: Grass
+    retreat: 3
+    illustrators:
+    - Hikaru Koike
+- number: '96'
+  card:
+    name: Absol
+    rarity: rare
+    holographic: true
+    class: P
+    types:
+    - Darkness
+    hp: 70
+    stage: Basic
+    legal: false
+    filename: 96-absol
+    pokemon: Absol
+    mechanics:
+    - name: Quick Attack
+      cost: CC
+      damage: '10'
+      type: attack
+      text: >-
+        Flip a coin. If heads, this attack does 10 damage plus 10 more
+        damage.
+    - name: Feint Attack
+      cost: DDC
+      type: attack
+      text: >-
+        Choose 1 of your opponent's Pokémon. This attack does 30 damage
+        to that Pokémon. This attack's damage isn't affected by Weakness,
+        Resistance, Poke-Powers, Poke-Bodies or any other effects on that
+        Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)
+    damage modifiers:
+    - amount: 2
+      operation: ×
+      type: Fighting
+    retreat: 1
+    illustrators:
+    - Mitsuhiro Arita
+- number: '97'
+  card:
+    name: Jirachi
+    rarity: rare
+    holographic: true
+    class: P
+    types:
+    - Psychic
+    hp: 50
+    stage: Basic
+    legal: false
+    filename: 97-jirachi
+    pokemon: Jirachi
+    mechanics:
+    - name: Hypnoblast
+      cost: P
+      damage: '10'
+      type: attack
+      text: >-
+        The Defending Pokémon is now Asleep.
+    - name: Swift
+      cost: CC
+      damage: '20'
+      type: attack
+      text: >-
+        This attacks damage isn't affected by Weakness, Resistance, Poke-Powers,
+        Poke-Bodies or any other effects on the Defending Pokémon.
+    damage modifiers:
+    - amount: 2
+      operation: ×
+      type: Psychic
+    retreat: 1
+    illustrators:
+    - Mitsuhiro Arita

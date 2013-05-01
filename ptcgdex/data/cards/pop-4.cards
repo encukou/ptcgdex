@@ -1,0 +1,164 @@
+---
+name: Chimecho δ
+rarity: ''
+holographic: false
+filename: 1-chimecho-d
+pokemon: Chimecho
+---
+name: Deoxys δ (Normal)
+rarity: ''
+holographic: false
+filename: 2-deoxys-d-normal
+reprint of: 'ex-holon-phantoms: 5 with different artwork'
+pokemon: Deoxys
+---
+name: Deoxys δ (Normal) (Holo)
+rarity: ''
+holographic: false
+filename: 2-deoxys-d-normal-holo
+reprint of: 'pop-4: 2 as a holo'
+pokemon: Deoxys
+---
+name: Flygon
+rarity: ''
+holographic: false
+filename: 3-flygon
+pokemon: Flygon
+---
+name: Flygon (Holo)
+rarity: ''
+holographic: false
+filename: 3-flygon-holo
+reprint of: 'pop-4: 3 as a holo'
+pokemon: Flygon
+---
+name: Mew
+rarity: ''
+holographic: false
+filename: 4-mew
+pokemon: Mew
+---
+name: Mew (Holo)
+rarity: ''
+holographic: false
+filename: 4-mew-holo
+reprint of: 'pop-4: 4 as a holo'
+pokemon: Mew
+---
+name: Sceptile
+rarity: ''
+holographic: false
+filename: 5-sceptile
+reprint of: 'ex-ruby-and-sapphire: 20 with different artwork'
+pokemon: Sceptile
+---
+name: Sceptile (Holo)
+rarity: ''
+holographic: false
+filename: 5-sceptile
+reprint of: 'pop-4: 5 as a holo'
+pokemon: Sceptile
+---
+name: Combusken
+rarity: ''
+holographic: false
+filename: 6-combusken
+pokemon: Combusken
+---
+name: Combusken (Holo)
+rarity: ''
+holographic: false
+filename: 6-combusken-holo
+reprint of: 'pop-4: 6-combusken as a holo'
+pokemon: Combusken
+---
+name: Grovyle
+rarity: ''
+holographic: false
+filename: 7-grovyle
+pokemon: Grovyle
+---
+name: Heal Energy
+rarity: ''
+holographic: false
+filename: 8-heal-energy
+reprint of: 'ex-deoxys: 94'
+---
+name: Pokémon Fan Club
+rarity: ''
+holographic: false
+filename: 9-pokemon-fan-club
+reprint of: 'aquapolis: 130'
+subclasses:
+- Supporter
+---
+name: Scramble Energy
+rarity: ''
+holographic: false
+filename: 10-scramble-energy
+reprint of: 'ex-deoxys: 95'
+---
+name: Mudkip
+rarity: ''
+holographic: false
+filename: 11-mudkip
+pokemon: Mudkip
+---
+name: Mudkip
+rarity: ''
+holographic: false
+filename: 11-mudkip-holo
+reprint of: 'pop-4: 11 as a holo'
+pokemon: Mudkip
+---
+name: Pidgey
+rarity: ''
+holographic: false
+filename: 12-pidgey
+pokemon: Pidgey
+---
+name: Pikachu
+rarity: ''
+holographic: false
+filename: 13-pikachu
+pokemon: Pikachu
+---
+name: Pikachu
+rarity: ''
+holographic: false
+filename: 13-pikachu-holo
+reprint of: 'pop-4: 13 as a holo'
+pokemon: Pikachu
+---
+name: Squirtle
+rarity: ''
+holographic: false
+filename: 14-squirtle
+pokemon: Squirtle
+---
+name: Treecko δ
+rarity: ''
+holographic: false
+filename: 15-treecko-d
+reprint of: 'ex-crystal-guardians: 68 with different artwork'
+pokemon: Treecko
+---
+name: Wobbuffet
+rarity: ''
+holographic: false
+filename: 16-wobbuffet
+pokemon: Wobbuffet
+---
+name: Wobbuffet
+rarity: ''
+holographic: false
+filename: 16-wobbuffet-holo
+reprint of: 'pop-4: 16 as a holo'
+pokemon: Wobbuffet
+---
+name: Deoxys ex (Speed)
+rarity: ''
+holographic: false
+filename: 17-deoxys-ex-speed
+reprint of: 'ex-emerald: 93 with different artwork'
+pokemon: Deoxys
